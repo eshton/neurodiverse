@@ -11,6 +11,7 @@ lat: 46.9088395
 lng: 19.6727475
 contact: "kmk.hu"
 priceNotes: "Állami ellátás."
+coverImage: "/covers/bacs-kiskun-kecskemet.jpg"
 sourceUrl: "https://www.kmk.hu/kecskemet/szakrendelesek/1409-gyermek-pszichiatriai-gondozok"
 ratings: []
 curatedBy: manual

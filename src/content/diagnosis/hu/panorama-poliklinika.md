@@ -11,6 +11,7 @@ lat: 47.5266426
 lng: 19.1096990
 contact: "panoramaklinika.hu"
 priceNotes: "Jelenleg nem fogad új pácienseket felnőtt ASD/ADHD kivizsgálásra (ellenőrizve: 2026-07-04)."
+coverImage: "/covers/panorama-poliklinika.jpg"
 sourceUrl: "https://panoramaklinika.hu/pszichiatria/adhd-kivizsgalas-felnott-paciensek-szamara/"
 ratings: []
 curatedBy: manual

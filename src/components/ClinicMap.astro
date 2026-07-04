@@ -8,18 +8,20 @@ interface Clinic {
   city: string;
   address?: string;
   href: string;
+  coverImage?: string;
 }
 
 interface Props {
   clinics: Clinic[];
+  region?: 'budapest' | 'hungary';
 }
 
-const { clinics } = Astro.props;
+const { clinics, region = 'hungary' } = Astro.props;
 ---
 <div
-  id="clinic-map"
+  class="clinic-map h-96 w-full rounded-xl border border-zinc-200 dark:border-zinc-800 mb-8"
   data-clinics={JSON.stringify(clinics)}
-  class="h-96 w-full rounded-xl border border-zinc-200 dark:border-zinc-800 mb-8"
+  data-region={region}
 ></div>
 
 <script>
@@ -30,30 +32,77 @@ const { clinics } = Astro.props;
 
   L.Icon.Default.mergeOptions({ iconUrl, iconRetinaUrl, shadowUrl });
 
-  const el = document.getElementById('clinic-map');
-  if (el) {
+  type Region = 'budapest' | 'hungary';
+
+  const REGIONS: Record<Region, { bounds: L.LatLngBoundsExpression; minZoom: number; center: L.LatLngTuple; zoom: number }> = {
+    budapest: {
+      bounds: [
+        [47.32, 18.82],
+        [47.68, 19.42],
+      ],
+      minZoom: 10,
+      center: [47.4979, 19.0402],
+      zoom: 11,
+    },
+    hungary: {
+      bounds: [
+        [45.5, 15.8],
+        [48.7, 23.1],
+      ],
+      minZoom: 6,
+      center: [47.1625, 19.5033],
+      zoom: 7,
+    },
+  };
+
+  document.querySelectorAll<HTMLElement>('.clinic-map').forEach((el) => {
     const clinics = JSON.parse(el.dataset.clinics ?? '[]');
-    const map = L.map(el).setView([47.1625, 19.5033], 7);
+    const region = (el.dataset.region as Region) ?? 'hungary';
+    const { bounds, minZoom, center, zoom } = REGIONS[region];
+
+    const map = L.map(el, {
+      minZoom,
+      maxZoom: 18,
+      maxBounds: bounds,
+      maxBoundsViscosity: 1.0,
+    }).setView(center, zoom);
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
       maxZoom: 19,
     }).addTo(map);
 
+    const MARKER_SIZE = 40;
+    const MARKER_IMG_STYLE = `width:${MARKER_SIZE}px;height:${MARKER_SIZE}px;border-radius:9999px;object-fit:cover;object-position:center;display:block;border:2px solid white;box-shadow:0 1px 4px rgba(0,0,0,.4);`;
+    const POPUP_IMG_STYLE = `display:block;width:100%;max-width:180px;height:100px;object-fit:cover;object-position:center;border-radius:0.5rem;margin-bottom:0.35rem;`;
+
+    const photoIcon = (url: string) =>
+      L.divIcon({
+        className: 'clinic-marker-photo',
+        html: `<img src="${url}" alt="" style="${MARKER_IMG_STYLE}">`,
+        iconSize: [MARKER_SIZE, MARKER_SIZE],
+        popupAnchor: [0, -MARKER_SIZE / 2],
+      });
+
     const markers: L.Marker[] = [];
     for (const clinic of clinics) {
-      const marker = L.marker([clinic.lat, clinic.lng]).addTo(map);
+      const marker = L.marker([clinic.lat, clinic.lng], {
+        icon: clinic.coverImage ? photoIcon(clinic.coverImage) : new L.Icon.Default(),
+      }).addTo(map);
       const titleHtml = clinic.href
         ? `<a href="${clinic.href}">${clinic.title}</a>`
         : `<strong>${clinic.title}</strong>`;
-      marker.bindPopup(`${titleHtml}<br>${clinic.address ?? clinic.city}`);
+      const imgHtml = clinic.coverImage
+        ? `<img src="${clinic.coverImage}" alt="" style="${POPUP_IMG_STYLE}">`
+        : '';
+      marker.bindPopup(`${imgHtml}${titleHtml}<br>${clinic.address ?? clinic.city}`);
       markers.push(marker);
     }
 
     if (markers.length === 1) {
-      map.setView(markers[0].getLatLng(), 14);
+      map.setView(markers[0].getLatLng(), Math.max(minZoom, 14));
     } else if (markers.length > 1) {
       map.fitBounds(L.featureGroup(markers).getBounds(), { padding: [24, 24] });
     }
-  }
+  });
 </script>

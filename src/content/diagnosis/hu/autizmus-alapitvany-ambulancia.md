@@ -11,6 +11,7 @@ lat: 47.4815997
 lng: 19.0953760
 contact: "06-1-3341-123, titkarsag.ambulancia@autizmus.hu"
 priceNotes: "A gondozásba vett kliensek számára a legtöbb szolgáltatás a gondozás része, egyéb képzések önköltségesek."
+coverImage: "/covers/autizmus-alapitvany-ambulancia.jpg"
 sourceUrl: "https://www.autizmus.hu/szolgaltatasokleirasa"
 ratings: []
 curatedBy: manual

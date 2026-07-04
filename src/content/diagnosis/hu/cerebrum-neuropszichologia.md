@@ -11,6 +11,7 @@ lat: 46.2441663
 lng: 20.1377377
 contact: "+36 20 312 9549, info@neuro-pszichologia.hu"
 priceNotes: "Teljes diagnosztikai folyamat kb. 6-7 alkalom, összesen 270 000-305 000 Ft, alkalmanként fizetve."
+coverImage: "/covers/cerebrum-neuropszichologia.png"
 sourceUrl: "https://neuro-pszichologia.hu/autizmus/"
 ratings: []
 curatedBy: manual

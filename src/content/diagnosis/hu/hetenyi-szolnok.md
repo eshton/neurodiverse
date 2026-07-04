@@ -11,6 +11,7 @@ lat: 47.1519911
 lng: 20.1671829
 contact: "+36-56/503-603 / 3110, +36-56/372-573"
 priceNotes: "Állami ellátás. Időpont-egyeztetés munkanapokon 7:30-14:30."
+coverImage: "/covers/hetenyi-szolnok.png"
 sourceUrl: "https://www.hetenyikorhaz.hu/2023/11/22/csecsemo-es-gyermekosztaly-gyermek-es-ifjusagpszichiatriai-osztaly/"
 ratings: []
 curatedBy: manual

@@ -11,6 +11,7 @@ lat: 47.4846395
 lng: 19.0815715
 contact: "+36-1-210-0330/51243, adhd.ambulancia@semmelweis.hu"
 priceNotes: "Térítésmentes TAJ-alapon, beutaló kötelező. Kb. 1,5 órás első konzultáció, majd 3-4 további vizsgálati alkalom."
+coverImage: "/covers/semmelweis-adhd-ambulancia.png"
 sourceUrl: "https://semmelweis.hu/pszichiatria/betegellatas/adhd-ambulancia/"
 ratings: []
 curatedBy: manual

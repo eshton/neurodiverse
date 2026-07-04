@@ -11,6 +11,7 @@ lat: 47.8752182
 lng: 21.8463780
 contact: "adhd.szakrendeles.nagykallo@szszbmk.hu"
 priceNotes: "Állami ellátás."
+coverImage: "/covers/nagykallo-adhd-szakambulancia.png"
 sourceUrl: "https://www.adhdterapia.hu/vizsgalatihelyszinek"
 ratings: []
 curatedBy: manual

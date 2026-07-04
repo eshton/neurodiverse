@@ -11,6 +11,7 @@ lat: 48.1208833
 lng: 20.7910364
 contact: "+36-30/422-2872 (Gyermekpszichiátria I.), +36-30/682-4143 (Gyermekpszichiátria II.)"
 priceNotes: "Állami ellátás. Rendelési idő: szerda-csütörtök 9:00-13:00."
+coverImage: "/covers/velkey-gyek-miskolc.svg"
 sourceUrl: "https://www.bazmkorhaz.hu/velkey-laszlo-gyermekegeszsegugyi-kozpont-gyek-jarobeteg-ellatas"
 ratings: []
 curatedBy: manual

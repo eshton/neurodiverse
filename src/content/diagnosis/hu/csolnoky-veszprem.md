@@ -11,6 +11,7 @@ lat: 47.0895743
 lng: 17.9070184
 contact: "+36 20 345-8630, előjegyzés: +36 30 911 3830"
 priceNotes: "Állami ellátás."
+coverImage: "/covers/csolnoky-veszprem.png"
 sourceUrl: "https://csfk.hu/jarobeteg-ellatas/gyermek-es-ifjusagi-pszichiatriai-szakrendeles-es-gondozo/"
 ratings: []
 curatedBy: manual

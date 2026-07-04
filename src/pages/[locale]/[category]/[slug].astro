@@ -130,8 +130,9 @@ const extraFields = Object.entries(data).filter(([key]) => !BASE_FIELDS.has(key)
   {data.lat != null && data.lng != null && (
     <ClinicMap
       clinics={[
-        { title: data.title, lat: data.lat, lng: data.lng, city: data.city, address: data.address, href: '' },
+        { title: data.title, lat: data.lat, lng: data.lng, city: data.city, address: data.address, coverImage: data.coverImage, href: '' },
       ]}
+      region={data.city === 'Budapest' ? 'budapest' : 'hungary'}
     />
   )}
 

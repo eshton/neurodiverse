@@ -38,19 +38,22 @@ const pill = (active: boolean) =>
     ? 'bg-brand-600 text-white'
     : 'bg-zinc-100 text-zinc-700 hover:bg-zinc-200 dark:bg-zinc-800 dark:text-zinc-300 dark:hover:bg-zinc-700';
 
-const clinics =
-  MAP_CATEGORIES.has(category as string)
-    ? filtered
-        .filter((item: any) => item.data.lat != null && item.data.lng != null)
-        .map((item: any) => ({
-          title: item.data.title,
-          lat: item.data.lat,
-          lng: item.data.lng,
-          city: item.data.city,
-          address: item.data.address,
-          href: `/${locale}/${category}/${item.id.split('/').slice(1).join('/')}/`,
-        }))
-    : [];
+const geoTagged = MAP_CATEGORIES.has(category as string)
+  ? filtered
+      .filter((item: any) => item.data.lat != null && item.data.lng != null)
+      .map((item: any) => ({
+        title: item.data.title,
+        lat: item.data.lat,
+        lng: item.data.lng,
+        city: item.data.city,
+        address: item.data.address,
+        coverImage: item.data.coverImage,
+        href: `/${locale}/${category}/${item.id.split('/').slice(1).join('/')}/`,
+      }))
+  : [];
+
+const budapestClinics = geoTagged.filter((c) => c.city === 'Budapest');
+const countrysideClinics = geoTagged.filter((c) => c.city !== 'Budapest');
 ---
 <Layout title={`${CATEGORY_LABELS[category] ?? category} — Neurodiverse`} locale={locale}>
   <p class="mb-6">
@@ -67,7 +70,19 @@ const clinics =
     <a href="?topic=autism" class={`px-3 py-1 rounded-full text-sm ${pill(topicFilter === 'autism')}`}>Autizmus</a>
   </nav>
 
-  {clinics.length > 0 && <ClinicMap clinics={clinics} />}
+  {budapestClinics.length > 0 && (
+    <div class="mb-8">
+      <h2 class="text-sm font-medium text-zinc-500 dark:text-zinc-400 mb-2">Budapest</h2>
+      <ClinicMap clinics={budapestClinics} region="budapest" />
+    </div>
+  )}
+
+  {countrysideClinics.length > 0 && (
+    <div class="mb-8">
+      <h2 class="text-sm font-medium text-zinc-500 dark:text-zinc-400 mb-2">Vidék</h2>
+      <ClinicMap clinics={countrysideClinics} region="hungary" />
+    </div>
+  )}
 
   {filtered.length === 0 && <p class="text-zinc-500 dark:text-zinc-400">Nincs találat ehhez a szűréshez.</p>}
 

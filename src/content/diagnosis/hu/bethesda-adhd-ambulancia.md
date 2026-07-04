@@ -11,6 +11,7 @@ lat: 47.5179437
 lng: 19.0881258
 contact: "+36-1-422-2731, adhd@bethesda.hu"
 priceNotes: "Területi ellátási kötelezettség: X., XVI. kerület, Budakalász, Veresegyház, Vácrátót, Őrbottyán, Csomád, Vácegres, Erdőkertes, Váckisújfalu, Galgamácsa."
+coverImage: "/covers/bethesda-adhd-ambulancia.jpg"
 sourceUrl: "https://www.bethesda.hu/ambulancia/adhd-ambulancia/"
 ratings: []
 curatedBy: manual

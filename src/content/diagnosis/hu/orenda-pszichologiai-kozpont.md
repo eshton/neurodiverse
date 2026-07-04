@@ -11,6 +11,7 @@ lat: 47.5035111
 lng: 19.0259518
 contact: "+36 30 086 40 07, orendaterapia@gmail.com"
 priceNotes: "ADHD vizsgálat 210 000 Ft. Felnőtt autizmus szakorvosi csomag 340 000 Ft, klinikai csomag 270 000 Ft. Gyermek autizmus diagnosztika pszichiáterrel 320 000 Ft. Várakozási idő kb. 1 hónap."
+coverImage: "/covers/orenda-pszichologiai-kozpont.png"
 sourceUrl: "https://www.orendaterapia.hu/"
 ratings: []
 curatedBy: manual

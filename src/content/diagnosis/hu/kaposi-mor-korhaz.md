@@ -11,6 +11,7 @@ lat: 46.3594908
 lng: 17.7990007
 contact: "+36 82/501-300 / 1113"
 priceNotes: "Állami ellátás."
+coverImage: "/covers/kaposi-mor-korhaz.png"
 sourceUrl: "https://kaposvar.imami.hu/gyermek-szakrendelesek/gyermek-es-ifjusagpszichiatriai-gondozo-es-szakambulancia"
 ratings: []
 curatedBy: manual

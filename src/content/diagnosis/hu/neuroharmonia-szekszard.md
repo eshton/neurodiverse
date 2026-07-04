@@ -10,6 +10,7 @@ address: "7100 Szekszárd, Pollack Mihály u. 53."
 lat: 46.3538567
 lng: 18.7122706
 contact: "neuroharmonia.hu"
+coverImage: "/covers/neuroharmonia-szekszard.jpg"
 sourceUrl: "https://www.neuroharmonia.hu/araink/"
 ratings: []
 curatedBy: manual
