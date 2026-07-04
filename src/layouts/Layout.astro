@@ -1,0 +1,64 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  locale?: string;
+}
+const { title, locale = 'hu' } = Astro.props;
+---
+<!doctype html>
+<html lang={locale} class="scroll-smooth">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>{title}</title>
+    <script is:inline>
+      const stored = localStorage.getItem('theme');
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      if (stored === 'dark' || (!stored && prefersDark)) {
+        document.documentElement.classList.add('dark');
+      }
+    </script>
+  </head>
+  <body class="bg-white text-zinc-800 dark:bg-zinc-950 dark:text-zinc-100 min-h-screen flex flex-col">
+    <header class="border-b border-zinc-200 dark:border-zinc-800">
+      <div class="max-w-4xl mx-auto px-4 py-4 flex items-center justify-between">
+        <a href={`/${locale}/`} class="font-semibold text-lg text-brand-700 dark:text-brand-300">
+          Neurodiverse
+        </a>
+        <button
+          id="theme-toggle"
+          type="button"
+          aria-label="Sötét/világos mód váltása"
+          class="rounded-full p-2 text-zinc-500 hover:bg-zinc-100 dark:text-zinc-400 dark:hover:bg-zinc-800"
+        >
+          <span aria-hidden="true">🌓</span>
+        </button>
+      </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-4 py-10 flex-1 w-full">
+      <slot />
+    </main>
+
+    <footer class="border-t border-zinc-200 dark:border-zinc-800 mt-auto">
+      <div class="max-w-4xl mx-auto px-4 py-6 text-sm text-zinc-500 dark:text-zinc-400">
+        Neurodiverse — ADHD és autizmus források.
+      </div>
+    </footer>
+
+    <script is:inline>
+      document.getElementById('theme-toggle')?.addEventListener('click', () => {
+        const isDark = document.documentElement.classList.toggle('dark');
+        localStorage.setItem('theme', isDark ? 'dark' : 'light');
+      });
+    </script>
+  </body>
+</html>

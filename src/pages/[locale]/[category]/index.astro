@@ -1,0 +1,125 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import ClinicMap from '../../../components/ClinicMap.astro';
+import { getCollection } from 'astro:content';
+import { CATEGORIES } from '../../../content.config';
+
+export function getStaticPaths() {
+  return CATEGORIES.map((category) => ({
+    params: { locale: 'hu', category },
+  }));
+}
+
+const CATEGORY_LABELS: Record<string, string> = {
+  books: 'Könyvek',
+  podcasts: 'Podcastok',
+  videos: 'Videók',
+  influencers: 'Influenszerek',
+  equipment: 'Segédeszközök',
+  food: 'Étel és receptek',
+  communities: 'Közösségek',
+  diagnosis: 'Diagnózis',
+  schools: 'Iskolák',
+};
+
+const MAP_CATEGORIES = new Set(['diagnosis', 'schools']);
+
+const { locale, category } = Astro.params;
+const allItems = await getCollection(category as any);
+const items = allItems.filter((item: any) => item.data.locale === locale);
+
+const topicFilter = Astro.url.searchParams.get('topic');
+const filtered = topicFilter
+  ? items.filter((item: any) => item.data.topics.includes(topicFilter))
+  : items;
+
+const pill = (active: boolean) =>
+  active
+    ? 'bg-brand-600 text-white'
+    : 'bg-zinc-100 text-zinc-700 hover:bg-zinc-200 dark:bg-zinc-800 dark:text-zinc-300 dark:hover:bg-zinc-700';
+
+const clinics =
+  MAP_CATEGORIES.has(category as string)
+    ? filtered
+        .filter((item: any) => item.data.lat != null && item.data.lng != null)
+        .map((item: any) => ({
+          title: item.data.title,
+          lat: item.data.lat,
+          lng: item.data.lng,
+          city: item.data.city,
+          address: item.data.address,
+          href: `/${locale}/${category}/${item.id.split('/').slice(1).join('/')}/`,
+        }))
+    : [];
+---
+<Layout title={`${CATEGORY_LABELS[category] ?? category} — Neurodiverse`} locale={locale}>
+  <p class="mb-6">
+    <a href={`/${locale}/`} class="text-sm text-brand-700 dark:text-brand-300 hover:underline">
+      &larr; Vissza a kezdőlapra
+    </a>
+  </p>
+
+  <h1 class="text-2xl font-bold tracking-tight mb-4">{CATEGORY_LABELS[category] ?? category}</h1>
+
+  <nav class="flex gap-2 mb-8">
+    <a href="?" class={`px-3 py-1 rounded-full text-sm ${pill(!topicFilter)}`}>Mind</a>
+    <a href="?topic=adhd" class={`px-3 py-1 rounded-full text-sm ${pill(topicFilter === 'adhd')}`}>ADHD</a>
+    <a href="?topic=autism" class={`px-3 py-1 rounded-full text-sm ${pill(topicFilter === 'autism')}`}>Autizmus</a>
+  </nav>
+
+  {clinics.length > 0 && <ClinicMap clinics={clinics} />}
+
+  {filtered.length === 0 && <p class="text-zinc-500 dark:text-zinc-400">Nincs találat ehhez a szűréshez.</p>}
+
+  <div class="grid gap-4">
+    {filtered.map((item: any) => {
+      const slug = item.id.split('/').slice(1).join('/');
+      const topScore = item.data.ratings[0];
+      return (
+        <a
+          href={`/${locale}/${category}/${slug}/`}
+          class="flex gap-4 rounded-xl border border-zinc-200 dark:border-zinc-800 p-5 hover:border-brand-400 hover:shadow-sm transition"
+        >
+          {item.data.coverImage && (
+            <img
+              src={item.data.coverImage}
+              alt=""
+              class="w-14 h-auto rounded-md border border-zinc-200 dark:border-zinc-800 shrink-0 object-cover"
+              loading="lazy"
+            />
+          )}
+          <div class="flex-1">
+            <div class="flex items-start justify-between gap-4">
+              <div>
+                {item.data.entryType === 'episode' && item.data.parentTitle && (
+                  <p class="text-xs text-sky-700 dark:text-sky-400 font-medium mb-0.5">
+                    Epizód — {item.data.parentTitle}
+                  </p>
+                )}
+                <h2 class="font-medium">{item.data.title}</h2>
+                <p class="text-sm text-zinc-600 dark:text-zinc-400 mt-1">{item.data.summary}</p>
+              </div>
+              {topScore && (
+                <span class="shrink-0 text-sm font-medium text-brand-700 dark:text-brand-300 whitespace-nowrap">
+                  ★ {topScore.score}/{topScore.scale}
+                </span>
+              )}
+            </div>
+          <div class="flex gap-2 mt-3">
+            {item.data.topics.map((topic: string) => (
+              <span class="text-xs px-2 py-0.5 rounded-full bg-zinc-100 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-300">
+                {topic === 'adhd' ? 'ADHD' : 'Autizmus'}
+              </span>
+            ))}
+            {item.data.availability === 'unavailable' && (
+              <span class="text-xs px-2 py-0.5 rounded-full bg-amber-100 dark:bg-amber-950 text-amber-700 dark:text-amber-400">
+                Nem elérhető
+              </span>
+            )}
+            </div>
+          </div>
+        </a>
+      );
+    })}
+  </div>
+</Layout>

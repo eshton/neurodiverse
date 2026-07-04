@@ -1,0 +1,187 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import ClinicMap from '../../../components/ClinicMap.astro';
+import { getCollection } from 'astro:content';
+import { CATEGORIES } from '../../../content.config';
+
+const BASE_FIELDS = new Set([
+  'title',
+  'locale',
+  'topics',
+  'summary',
+  'tags',
+  'sourceUrl',
+  'coverImage',
+  'ratings',
+  'availability',
+  'entryType',
+  'parentTitle',
+  'curatedBy',
+  'lastReviewed',
+  'lat',
+  'lng',
+]);
+
+const CATEGORY_LABELS: Record<string, string> = {
+  books: 'Könyvek',
+  podcasts: 'Podcastok',
+  videos: 'Videók',
+  influencers: 'Influenszerek',
+  equipment: 'Segédeszközök',
+  food: 'Étel és receptek',
+  communities: 'Közösségek',
+  diagnosis: 'Diagnózis',
+  schools: 'Iskolák',
+};
+
+const FIELD_LABELS: Record<string, string> = {
+  author: 'Szerző',
+  isbn: 'ISBN',
+  creator: 'Készítő',
+  platform: 'Platform',
+  episodeCount: 'Epizódszám',
+  viewCount: 'Megtekintés',
+  subscriberCount: 'Feliratkozó',
+  handle: 'Fiók',
+  platforms: 'Platformok',
+  priceRange: 'Ár',
+  retailerUrls: 'Vásárlási linkek',
+  kind: 'Típus',
+  dietaryTags: 'Diétás címkék',
+  providerType: 'Típus',
+  city: 'Város',
+  address: 'Cím',
+  contact: 'Elérhetőség',
+  priceNotes: 'Ár megjegyzés',
+};
+
+export async function getStaticPaths() {
+  const paths = [];
+  for (const category of CATEGORIES) {
+    const items = await getCollection(category as any);
+    for (const item of items) {
+      const [locale, ...rest] = item.id.split('/');
+      paths.push({
+        params: { locale, category, slug: rest.join('/') },
+        props: { item },
+      });
+    }
+  }
+  return paths;
+}
+
+const { category, locale } = Astro.params;
+const { item } = Astro.props as { item: any };
+const data = item.data;
+const extraFields = Object.entries(data).filter(([key]) => !BASE_FIELDS.has(key));
+---
+<Layout title={`${data.title} — Neurodiverse`} locale={locale}>
+  <p class="mb-6">
+    <a href={`/${locale}/${category}/`} class="text-sm text-brand-700 dark:text-brand-300 hover:underline">
+      &larr; Vissza: {CATEGORY_LABELS[category as string] ?? category}
+    </a>
+  </p>
+
+  <div class="flex gap-6 mb-6">
+    {data.coverImage && (
+      <img
+        src={data.coverImage}
+        alt={`${data.title} borító`}
+        class="w-28 sm:w-36 h-auto rounded-lg border border-zinc-200 dark:border-zinc-800 shrink-0 object-cover"
+        loading="lazy"
+      />
+    )}
+    <div class="min-w-0">
+      {data.entryType === 'episode' && data.parentTitle && (
+        <p class="text-sm text-sky-700 dark:text-sky-400 font-medium mb-1">
+          Epizód — {data.parentTitle} · a teljes podcast/csatorna nem erről a témáról szól
+        </p>
+      )}
+      <h1 class="text-2xl font-bold tracking-tight mb-2">{data.title}</h1>
+
+      <div class="flex gap-2 mb-4">
+        {data.topics.map((topic: string) => (
+          <span class="text-xs px-2 py-0.5 rounded-full bg-zinc-100 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-300">
+            {topic === 'adhd' ? 'ADHD' : 'Autizmus'}
+          </span>
+        ))}
+        {data.availability === 'unavailable' && (
+          <span class="text-xs px-2 py-0.5 rounded-full bg-amber-100 dark:bg-amber-950 text-amber-700 dark:text-amber-400">
+            Jelenleg nem elérhető
+          </span>
+        )}
+      </div>
+
+      <p class="text-zinc-700 dark:text-zinc-300">{data.summary}</p>
+    </div>
+  </div>
+
+  {extraFields.length > 0 && (
+    <dl class="grid grid-cols-[auto_1fr] gap-x-4 gap-y-1 text-sm mb-6">
+      {extraFields.map(([key, value]) => (
+        <>
+          <dt class="text-zinc-500 dark:text-zinc-400">{FIELD_LABELS[key] ?? key}</dt>
+          <dd>{Array.isArray(value) ? value.join(', ') : String(value)}</dd>
+        </>
+      ))}
+    </dl>
+  )}
+
+  {data.lat != null && data.lng != null && (
+    <ClinicMap
+      clinics={[
+        { title: data.title, lat: data.lat, lng: data.lng, city: data.city, address: data.address, href: '' },
+      ]}
+    />
+  )}
+
+  {data.availability === 'unavailable' ? (
+    <p class="inline-block mb-8 px-4 py-2 rounded-lg bg-zinc-100 dark:bg-zinc-800 text-zinc-500 dark:text-zinc-400 text-sm">
+      Nem megvásárolható — sem antikvár, sem új könyvesboltban nem elérhető jelenleg.
+      {' '}<a href={data.sourceUrl} class="text-brand-700 dark:text-brand-300 hover:underline">Legutóbb ellenőrzött forrás</a>
+    </p>
+  ) : (
+    <a
+      href={data.sourceUrl}
+      class="inline-block mb-8 px-4 py-2 rounded-lg bg-brand-600 text-white text-sm font-medium hover:bg-brand-700"
+    >
+      Forrás megnyitása →
+    </a>
+  )}
+
+  {data.tags.length > 0 && (
+    <div class="flex flex-wrap gap-2 mb-8">
+      {data.tags.map((tag: string) => (
+        <span class="text-xs px-2 py-0.5 rounded-full border border-zinc-200 dark:border-zinc-700 text-zinc-600 dark:text-zinc-400">
+          #{tag}
+        </span>
+      ))}
+    </div>
+  )}
+
+  <h2 class="text-lg font-semibold mb-3">Értékelések</h2>
+  {data.ratings.length === 0 ? (
+    <p class="text-zinc-500 dark:text-zinc-400 mb-6">Még nincs értékelés.</p>
+  ) : (
+    <ul class="space-y-2 mb-6">
+      {data.ratings.map((rating: any) => (
+        <li class="rounded-lg border border-zinc-200 dark:border-zinc-800 p-3 text-sm">
+          <div class="flex items-center justify-between">
+            <span class="font-medium">{rating.source}</span>
+            <span class="text-brand-700 dark:text-brand-300 font-medium">★ {rating.score}/{rating.scale}</span>
+          </div>
+          {rating.note && <p class="text-zinc-500 dark:text-zinc-400 mt-1">{rating.note}</p>}
+          {rating.url && (
+            <a href={rating.url} class="text-brand-700 dark:text-brand-300 hover:underline text-xs">
+              forrás link
+            </a>
+          )}
+        </li>
+      ))}
+    </ul>
+  )}
+
+  <p class="text-xs text-zinc-400 dark:text-zinc-500">
+    Utoljára ellenőrizve: {data.lastReviewed.toISOString().slice(0, 10)} · Kuráció: {data.curatedBy}
+  </p>
+</Layout>

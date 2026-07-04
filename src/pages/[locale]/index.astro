@@ -1,0 +1,55 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+import { CATEGORIES } from '../../content.config';
+
+export function getStaticPaths() {
+  // Only `hu` has content today; `uk`/`us` are reserved locale values
+  // that content files can already use, routes activate once seeded.
+  return [{ params: { locale: 'hu' } }];
+}
+
+const { locale } = Astro.params;
+
+const CATEGORY_META: Record<string, { label: string; icon: string }> = {
+  books: { label: 'Könyvek', icon: '📚' },
+  podcasts: { label: 'Podcastok', icon: '🎙️' },
+  videos: { label: 'Videók', icon: '🎬' },
+  influencers: { label: 'Influenszerek', icon: '📣' },
+  equipment: { label: 'Segédeszközök', icon: '🎧' },
+  food: { label: 'Étel és receptek', icon: '🍽️' },
+  communities: { label: 'Közösségek', icon: '🤝' },
+  diagnosis: { label: 'Diagnózis', icon: '🩺' },
+  schools: { label: 'Iskolák', icon: '🏫' },
+};
+
+const cards = await Promise.all(
+  CATEGORIES.map(async (category) => {
+    const items = await getCollection(category as any, (entry: any) => entry.data.locale === locale);
+    return { category, count: items.length, ...CATEGORY_META[category] };
+  })
+);
+---
+<Layout title="Neurodiverse — Magyarország" locale={locale}>
+  <div class="mb-10">
+    <h1 class="text-3xl font-bold tracking-tight mb-2">ADHD és autizmus források</h1>
+    <p class="text-zinc-600 dark:text-zinc-400">
+      Kurátorolt gyűjtemény Magyarországra szűrve. UK és US hamarosan.
+    </p>
+  </div>
+
+  <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
+    {cards.map(({ category, count, label, icon }) => (
+      <a
+        href={`/${locale}/${category}/`}
+        class="group rounded-xl border border-zinc-200 dark:border-zinc-800 p-5 hover:border-brand-400 hover:shadow-sm transition"
+      >
+        <div class="text-3xl mb-2">{icon}</div>
+        <div class="font-medium group-hover:text-brand-700 dark:group-hover:text-brand-300">
+          {label}
+        </div>
+        <div class="text-sm text-zinc-500 dark:text-zinc-400">{count} elem</div>
+      </a>
+    ))}
+  </div>
+</Layout>

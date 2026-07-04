@@ -1,0 +1,59 @@
+---
+import 'leaflet/dist/leaflet.css';
+
+interface Clinic {
+  title: string;
+  lat: number;
+  lng: number;
+  city: string;
+  address?: string;
+  href: string;
+}
+
+interface Props {
+  clinics: Clinic[];
+}
+
+const { clinics } = Astro.props;
+---
+<div
+  id="clinic-map"
+  data-clinics={JSON.stringify(clinics)}
+  class="h-96 w-full rounded-xl border border-zinc-200 dark:border-zinc-800 mb-8"
+></div>
+
+<script>
+  import L from 'leaflet';
+  import iconUrl from 'leaflet/dist/images/marker-icon.png';
+  import iconRetinaUrl from 'leaflet/dist/images/marker-icon-2x.png';
+  import shadowUrl from 'leaflet/dist/images/marker-shadow.png';
+
+  L.Icon.Default.mergeOptions({ iconUrl, iconRetinaUrl, shadowUrl });
+
+  const el = document.getElementById('clinic-map');
+  if (el) {
+    const clinics = JSON.parse(el.dataset.clinics ?? '[]');
+    const map = L.map(el).setView([47.1625, 19.5033], 7);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+      maxZoom: 19,
+    }).addTo(map);
+
+    const markers: L.Marker[] = [];
+    for (const clinic of clinics) {
+      const marker = L.marker([clinic.lat, clinic.lng]).addTo(map);
+      const titleHtml = clinic.href
+        ? `<a href="${clinic.href}">${clinic.title}</a>`
+        : `<strong>${clinic.title}</strong>`;
+      marker.bindPopup(`${titleHtml}<br>${clinic.address ?? clinic.city}`);
+      markers.push(marker);
+    }
+
+    if (markers.length === 1) {
+      map.setView(markers[0].getLatLng(), 14);
+    } else if (markers.length > 1) {
+      map.fitBounds(L.featureGroup(markers).getBounds(), { padding: [24, 24] });
+    }
+  }
+</script>
