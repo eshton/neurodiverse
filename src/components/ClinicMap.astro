@@ -73,8 +73,12 @@ const { clinics, region = 'hungary' } = Astro.props;
     }).addTo(map);
 
     const MARKER_SIZE = 40;
-    const MARKER_IMG_STYLE = `width:${MARKER_SIZE}px;height:${MARKER_SIZE}px;border-radius:9999px;object-fit:cover;object-position:center;display:block;border:2px solid white;box-shadow:0 1px 4px rgba(0,0,0,.4);`;
-    const POPUP_IMG_STYLE = `display:block;width:100%;max-width:180px;height:100px;object-fit:cover;object-position:center;border-radius:0.5rem;margin-bottom:0.35rem;`;
+    // Neutral gray backdrop, not white: several scraped logos are white-on-transparent
+    // (designed to sit on a colored header on their source site) and vanish on a pure
+    // white circle/card. Gray gives those shapes contrast without hurting photos, which
+    // fill the frame anyway and never show the backdrop.
+    const MARKER_IMG_STYLE = `width:${MARKER_SIZE}px;height:${MARKER_SIZE}px;border-radius:9999px;object-fit:cover;object-position:center;display:block;background:#d4d4d8;border:2px solid white;box-shadow:0 1px 4px rgba(0,0,0,.4);`;
+    const POPUP_IMG_STYLE = `display:block;width:100%;max-width:180px;height:100px;object-fit:cover;object-position:center;background:#d4d4d8;border-radius:0.5rem;margin-bottom:0.35rem;`;
 
     const photoIcon = (url: string) =>
       L.divIcon({
