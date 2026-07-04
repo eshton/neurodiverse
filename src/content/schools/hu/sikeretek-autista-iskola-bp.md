@@ -10,6 +10,7 @@ address: "1147 Budapest, Cinkotai út 125-137."
 lat: 47.5286868
 lng: 19.1255428
 contact: "06-1/251-95-45, titkar@siketekbp.co.hu"
+coverImage: "/covers/sikeretek-autista-iskola-bp.bmp"
 sourceUrl: "https://siketekbp.co.hu/autista-altalanos-iskola/"
 ratings: []
 curatedBy: manual

@@ -3,6 +3,7 @@ import Layout from '../../../layouts/Layout.astro';
 import ClinicMap from '../../../components/ClinicMap.astro';
 import { getCollection } from 'astro:content';
 import { CATEGORIES } from '../../../content.config';
+import { placeholderFor } from '../../../lib/placeholder';
 
 export function getStaticPaths() {
   return CATEGORIES.map((category) => ({
@@ -48,7 +49,7 @@ const geoTagged = MAP_CATEGORIES.has(category as string)
         lng: item.data.lng,
         city: item.data.city,
         address: item.data.address,
-        coverImage: item.data.coverImage,
+        coverImage: item.data.coverImage ?? placeholderFor(item.data.providerType),
         href: `/${locale}/${category}/${item.id.split('/').slice(1).join('/')}/`,
       }))
   : [];
@@ -91,14 +92,15 @@ const countrysideClinics = geoTagged.filter((c) => c.city !== 'Budapest');
     {filtered.map((item: any) => {
       const slug = item.id.split('/').slice(1).join('/');
       const topScore = item.data.ratings[0];
+      const cover = item.data.coverImage ?? placeholderFor(item.data.providerType);
       return (
         <a
           href={`/${locale}/${category}/${slug}/`}
           class="flex gap-4 rounded-xl border border-zinc-200 dark:border-zinc-800 p-5 hover:border-brand-400 hover:shadow-sm transition"
         >
-          {item.data.coverImage && (
+          {cover && (
             <img
-              src={item.data.coverImage}
+              src={cover}
               alt=""
               class="w-14 h-auto rounded-md border border-zinc-200 dark:border-zinc-800 shrink-0 object-cover"
               loading="lazy"

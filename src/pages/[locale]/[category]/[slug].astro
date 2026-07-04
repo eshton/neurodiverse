@@ -3,6 +3,7 @@ import Layout from '../../../layouts/Layout.astro';
 import ClinicMap from '../../../components/ClinicMap.astro';
 import { getCollection } from 'astro:content';
 import { CATEGORIES } from '../../../content.config';
+import { placeholderFor } from '../../../lib/placeholder';
 
 const BASE_FIELDS = new Set([
   'title',
@@ -76,6 +77,7 @@ const { category, locale } = Astro.params;
 const { item } = Astro.props as { item: any };
 const data = item.data;
 const extraFields = Object.entries(data).filter(([key]) => !BASE_FIELDS.has(key));
+const cover = data.coverImage ?? placeholderFor(data.providerType);
 ---
 <Layout title={`${data.title} — Neurodiverse`} locale={locale}>
   <p class="mb-6">
@@ -85,9 +87,9 @@ const extraFields = Object.entries(data).filter(([key]) => !BASE_FIELDS.has(key)
   </p>
 
   <div class="flex gap-6 mb-6">
-    {data.coverImage && (
+    {cover && (
       <img
-        src={data.coverImage}
+        src={cover}
         alt={`${data.title} borító`}
         class="w-28 sm:w-36 h-auto rounded-lg border border-zinc-200 dark:border-zinc-800 shrink-0 object-cover"
         loading="lazy"
@@ -132,7 +134,7 @@ const extraFields = Object.entries(data).filter(([key]) => !BASE_FIELDS.has(key)
   {data.lat != null && data.lng != null && (
     <ClinicMap
       clinics={[
-        { title: data.title, lat: data.lat, lng: data.lng, city: data.city, address: data.address, coverImage: data.coverImage, href: '' },
+        { title: data.title, lat: data.lat, lng: data.lng, city: data.city, address: data.address, coverImage: cover, href: '' },
       ]}
       region={data.city === 'Budapest' ? 'budapest' : 'hungary'}
     />
