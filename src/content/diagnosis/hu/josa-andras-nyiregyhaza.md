@@ -11,6 +11,7 @@ lat: 47.9518488
 lng: 21.7237966
 contact: "+36 42 599-700 / 1548"
 priceNotes: "Állami ellátás, előjegyzés szükséges."
+coverImage: "/covers/josa-andras-nyiregyhaza.png"
 sourceUrl: "https://szszbvk.hu/jaro/gyermek-pszichiatria-i/"
 ratings: []
 curatedBy: manual

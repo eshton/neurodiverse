@@ -11,6 +11,7 @@ lat: 46.2475714
 lng: 20.1506444
 contact: "+36 62 341-777 (hétköznap 9-11)"
 priceNotes: "Szakorvosi beutaló kötelező. Rendelés: kedd 10:00-14:00."
+coverImage: "/covers/szte-adhd-szakambulancia.png"
 sourceUrl: "https://u-szeged.hu/szakk/tajekoztatok/adhd-szakambulancia"
 ratings: []
 curatedBy: manual

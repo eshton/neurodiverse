@@ -10,6 +10,7 @@ address: "Székesfehérvár, Virág Benedek utca 1."
 lat: 47.1981647
 lng: 18.4129586
 contact: "elérhetőség a weboldalon"
+coverImage: "/covers/pszichologusunk-szekesfehervar.png"
 sourceUrl: "https://pszichologusunk.hu/autizmus_felmeres"
 ratings: []
 curatedBy: manual

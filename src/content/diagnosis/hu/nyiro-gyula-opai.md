@@ -11,6 +11,7 @@ lat: 47.5251321
 lng: 19.0791113
 contact: "nyiro.euintezmeny.hu"
 priceNotes: "Szakorvosi beutaló kötelező. Országosan, egész Magyarországról fogad pácienseket."
+coverImage: "/covers/nyiro-gyula-opai.png"
 sourceUrl: "https://nyiro.euintezmeny.hu/ellatas/jarobetegellatas/ADHD-Ambulancia/ADHD-Ambulancia"
 ratings: []
 curatedBy: manual

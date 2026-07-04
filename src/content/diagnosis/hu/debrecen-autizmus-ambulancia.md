@@ -11,6 +11,7 @@ lat: 47.5370308
 lng: 21.6220505
 contact: "+36 52/513-688, +36 52/513-687"
 priceNotes: "Nem igényel beutalót, csak előjegyzést."
+coverImage: "/covers/debrecen-autizmus-ambulancia.svg"
 sourceUrl: "https://klinikaikozpont.unideb.hu/clinic_finder/clinic/5399099"
 ratings: []
 curatedBy: manual

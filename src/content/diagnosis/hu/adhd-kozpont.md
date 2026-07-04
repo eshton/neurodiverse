@@ -11,6 +11,7 @@ lat: 47.4975400
 lng: 19.0310519
 contact: "+36 1 413 1348, info@adhdkozpont.hu"
 priceNotes: "Fizetős magánrendelés, árak a weboldalon kérésre."
+coverImage: "/covers/adhd-kozpont.svg"
 sourceUrl: "https://www.adhdkozpont.hu/"
 ratings: []
 curatedBy: manual
