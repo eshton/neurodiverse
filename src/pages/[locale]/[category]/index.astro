@@ -20,9 +20,10 @@ const CATEGORY_LABELS: Record<string, string> = {
   communities: 'Közösségek',
   diagnosis: 'Diagnózis',
   schools: 'Iskolák',
+  development: 'Fejlesztés',
 };
 
-const MAP_CATEGORIES = new Set(['diagnosis', 'schools']);
+const MAP_CATEGORIES = new Set(['diagnosis', 'schools', 'development']);
 
 const { locale, category } = Astro.params;
 const allItems = await getCollection(category as any);

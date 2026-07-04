@@ -38,7 +38,8 @@ Map feature (diagnosis/schools) uses Leaflet + OpenStreetMap tiles — free, no 
 - **food**: `kind` (`recipe \| product`), `dietaryTags` (default `[]`)
 - **communities**: `providerType` (`group-therapy \| therapist \| institution`), `city`, `contact?`
 - **diagnosis**: `providerType` (`doctor \| clinic \| foundation \| hospital`), `city`, `address?`, `lat?`, `lng?`, `contact?`, `priceNotes?`
-- **schools**: same shape as diagnosis, `providerType` is `mainstream-integration \| special-needs-school \| kindergarten` instead. Not yet seeded.
+- **schools**: same shape as diagnosis, `providerType` is `mainstream-integration \| special-needs-school \| kindergarten` instead.
+- **development**: therapists/psychologists/centers doing ongoing developmental/therapeutic work (ABA, sensory integration, skills groups, gyógypedagógia) — distinct from `diagnosis` (getting diagnosed) and `communities` (peer support groups/institutions). Same geo shape as diagnosis/schools (`city`, `address?`, `lat?`, `lng?`, `contact?`, `priceNotes?`) plus `providerType` (`psychologist \| therapist \| developmental-pedagogue \| occupational-therapist \| center`) and `ageGroup` (`children \| adults \| both`) — most real entries are multi-practitioner centers (`center`), individual solo practitioners are the minority. The same institution can legitimately have one entry here and a separate one in `diagnosis` if it runs both services (e.g. Autizmus Alapítvány: `autizmus-alapitvany-ambulancia` in diagnosis, `terc` here) — that's not a duplicate, it's two different services at the same address.
 
 `CATEGORIES` (exported from `content.config.ts`) is the single source of truth for which categories exist — page routing, homepage cards, and `getStaticPaths` all derive from it. Adding a category = add it to `collections` in `content.config.ts`, add its label (and emoji, for the homepage) to the `CATEGORY_LABELS`/`CATEGORY_META` maps in the three page files, create `src/content/<category>/hu/`.
 
@@ -46,7 +47,7 @@ Map feature (diagnosis/schools) uses Leaflet + OpenStreetMap tiles — free, no 
 
 - `src/pages/index.astro` — redirects to `/hu/`.
 - `src/pages/[locale]/index.astro` — homepage, category grid with live counts.
-- `src/pages/[locale]/[category]/index.astro` — listing. Topic filter via `?topic=adhd|autism` query param (plain links, no JS). Renders `<ClinicMap>` above the list when the category is in `MAP_CATEGORIES` (currently `diagnosis`, `schools`) and at least one filtered item has `lat`/`lng`.
+- `src/pages/[locale]/[category]/index.astro` — listing. Topic filter via `?topic=adhd|autism` query param (plain links, no JS). Renders `<ClinicMap>` above the list when the category is in `MAP_CATEGORIES` (currently `diagnosis`, `schools`, `development`) and at least one filtered item has `lat`/`lng`.
 - `src/pages/[locale]/[category]/[slug].astro` — detail page. `getStaticPaths` walks every category's collection and derives `{locale, category, slug}` from the content file's `id` (glob loader IDs are `<locale>/<filename-without-extension>`, so `slug = id.split('/').slice(1).join('/')`). Renders every extra (non-base) field generically via a label lookup map (`FIELD_LABELS`) — adding a new category-specific field to the schema means adding its Hungarian label there too, or it'll render with the raw key name.
 
 ## Components

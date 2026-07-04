@@ -1,21 +1,17 @@
 ---
-title: "Zajszűrő fejhallgató"
+title: "Alpine Muffy fültok"
 locale: hu
 topics: [autism, adhd]
-summary: "Passzív zajszűrő fejhallgató szenzoros túlterheltség csökkentésére zajos környezetben."
+summary: "Passzív zajszűrő fültok (fejpántos hallásvédő), 5-16 éves gyerekeknek, szenzoros túlterheltség csökkentésére zajos környezetben."
 tags: [sensory, noise]
-priceRange: "8,000-20,000 HUF"
+priceRange: "12,890 HUF"
 retailerUrls:
-  - "https://example.com/retailer/zajszuro-fulhallgato"
-sourceUrl: "https://example.com/equipment/zajszuro-fulhallgato"
-ratings:
-  - source: "retailer-reviews"
-    score: 4.6
-    scale: 5
-    note: "Seed placeholder — replace with real source"
-    checkedAt: 2026-06-15
+  - "https://autishop.hu/Alpine-Muffy-menta-huzozsinoros-zsakkal"
+sourceUrl: "https://autishop.hu/Alpine-Muffy-menta-huzozsinoros-zsakkal"
+coverImage: "/covers/zajszuro-fulhallgato.jpg"
+ratings: []
 curatedBy: manual
-lastReviewed: 2026-06-15
+lastReviewed: 2026-07-04
 ---
 
-Seed content for schema validation.
+Alpine Muffy Kids, 25 dB zajcsillapítás, állítható fejpánt, puha béléssel — 5-16 éves korosztálynak. Autishop.hu-n (dedikált magyar autizmus/szenzoros webáruház) kapható, 12 890 Ft. Nem márkaszinten autizmus-specifikus termék, de kifejezetten szenzoros felhasználásra árulja a forgalmazó.

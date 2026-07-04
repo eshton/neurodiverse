@@ -85,6 +85,16 @@ export const collections = {
     contact: z.string().optional(),
     priceNotes: z.string().optional(),
   }),
+  development: collectionFor('development', {
+    providerType: z.enum(['psychologist', 'therapist', 'developmental-pedagogue', 'occupational-therapist', 'center']),
+    ageGroup: z.enum(['children', 'adults', 'both']),
+    city: z.string(),
+    address: z.string().optional(),
+    lat: z.number().optional(),
+    lng: z.number().optional(),
+    contact: z.string().optional(),
+    priceNotes: z.string().optional(),
+  }),
 };
 
 export const CATEGORIES = Object.keys(collections) as (keyof typeof collections)[];
