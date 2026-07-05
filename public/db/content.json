@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "count": 178,
+  "count": 180,
   "categories": {
     "books": 13,
     "communities": 8,
     "development": 15,
     "diagnosis": 28,
     "equipment": 19,
-    "food": 7,
+    "food": 9,
     "influencers": 3,
     "movies": 40,
     "podcasts": 7,
@@ -2641,6 +2641,34 @@
       "body": "A Szafi Dietetikai Team áttekintése arról, hogyan támogathatja a táplálkozás az ADHD tüneteinek kezelését. Fontos, hogy a cikk **nem gyógyítást ígér**: végig hangsúlyozza, hogy tudományos konszenzus nincs, és a diéta a kezelés (nem a helyettesítője) mellé illeszkedik.\n\nFőbb pontjai:\n\n- **Fehérje és stabil vércukor** — teljes értékű alapélelmiszerek (zöldség, gyümölcs, hüvelyesek, olajos magvak, sovány fehérje), a feldolgozott ételek és a vércukor-ingadozás minimalizálása.\n- **Mikrotápanyagok** — a vas, cink, magnézium, D-vitamin, B-vitaminok és a szelén szerepe az idegrendszeri működésben. Ezek hiánya ADHD-ban gyakrabban fordul elő, de a pótlás elsősorban **igazolt hiány** esetén indokolt (lásd külön az omega-3 és D-vitamin bejegyzéseinket).\n- **Omega-3** — „ígéretes\", de a cikk is jelzi, hogy a gyógyszeres kezelésnél gyengébben teljesít.\n- **Cukor és adalékanyagok** — a szerzők szerint a mesterséges színezékek/adalékanyagok valószínűleg kedvezőtlenül hatnak, a túlzott cukorfogyasztás pedig fokozhatja a hiperaktivitást.\n- **Eliminációs diéták** — óvatos állásfoglalás: általános megszorítás nem javasolt, kivéve ha egy adott étel kihagyása bizonyíthatóan indokolt.\n\nÉrdemi étrendi változtatás előtt dietetikus/orvos bevonása ajánlott."
     },
     {
+      "id": "hu/arfid-eveszavar",
+      "category": "food",
+      "slug": "arfid-eveszavar",
+      "href": "/hu/food/arfid-eveszavar/",
+      "tags": [
+        "arfid",
+        "eveszavar",
+        "valogatos-eves",
+        "szenzoros"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "dietaryTags": [],
+      "title": "ARFID — amikor a válogatósság már evészavar",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Az ARFID (elkerülő-korlátozó táplálékbeviteli zavar) nem egyszerű válogatósság: félelem és erős szenzoros érzékenység hajtja. Autizmusban gyakoribb az átlagosnál — de nem minden ARFID-os gyerek autista. Csapatmunkát igényel.",
+      "kind": "guide",
+      "sourceUrl": "https://kiskanalkommando.hu/a-titokzatos-arfid-eveszavaros-a-gyermek/",
+      "lastReviewed": "2026-07-05",
+      "body": "Az ARFID (angolul Avoidant/Restrictive Food Intake Disorder, magyarul elkerülő-korlátozó táplálékbeviteli zavar) a DSM-5 (2013) óta önálló evészavar-diagnózis. A Kiskanál Kommandó gyermekdietetikai műhelyének evidenciaalapú összefoglalója (a magyar szakmai irányelvre és szakirodalomra hivatkozva) segít elkülöníteni a hétköznapi válogatósságtól.\n\n**Mi különbözteti meg a válogatósságtól?**\n\n- A hétköznapi válogatóst a **kontroll** hajtja: ha megéhezik, eszik, és idővel akár el is fogadhatja a korábban visszautasított ételt.\n- Az ARFID-ot a **félelem és a fokozott szenzoros érzékenység** hajtja: az ismeretlen étel extrém szorongást vált ki, a gyerek akár teljesen megtagadhatja az evést. Testképzavar (a klasszikus evészavarokkal ellentétben) nincs a hátterében.\n\n**Kapcsolat az autizmussal — fontos árnyalat.** Az ARFID az autizmus spektrumon gyakrabban fordul elő, mint az átlagpopulációban, ezért autista családoknak különösen releváns. A cikk viszont határozottan óva int a fordított hibától: **nem minden ARFID-os gyerek autista**, és pusztán az étkezési tünetek alapján autizmust diagnosztizálni szakmailag helytelen.\n\n**Miért kell csapatmunka?** Az ARFID ellátása több szakember összehangolt munkáját igényli (gyermekpszichiáter, pszichológus, dietetikus, esetenként logopédus) — egyetlen szakember vagy szülői stratégia önmagában nem látja át a teljes képet (táplálkozás, fejlődés, viselkedés, szenzoros feldolgozás és a családi rendszer együtt alakítja az evést). Ha felmerül az ARFID gyanúja, érdemes szakemberhez fordulni."
+    },
+    {
       "id": "hu/autista-gyerekek-taplalkozasa",
       "category": "food",
       "slug": "autista-gyerekek-taplalkozasa",
@@ -2817,6 +2845,38 @@
       "sourceUrl": "https://pharmaonline.hu/cikk/hatasos-lehet-az-omega-3-a-figyelemzavar-egyes-eseteiben",
       "lastReviewed": "2026-07-05",
       "body": "Az omega-3 (EPA/DHA, jellemzően halolaj formájában) az egyik legkutatottabb étrendkiegészítő ADHD-ban — de a bizonyíték árnyalt, és ezt fontos pontosan érteni.\n\nA hivatkozott, szakmai forrás (Pharma Online) egy randomizált, kontrollált vizsgálatot ismertet (King's College London és a China Medical University, 92 ADHD-s gyerek):\n\n- Javulás a koncentrációban **csak azoknál a gyerekeknél** jelentkezett, akiknek a vérében **alacsony volt az omega-3-szint**.\n- A normál szintű gyerekeknél a halolaj **nem segített, sőt ellenkező hatást** ért el — tehát „mindenkinek adni\" nem indokolt.\n- Ebben az alacsony szintű alcsoportban a készítmény a figyelem terén a metilfenidátnál (bevett ADHD-gyógyszer) is hatékonyabbnak bizonyult.\n\nMivel Magyarországon a halfogyasztás alacsony, az omega-3-hiány viszonylag gyakori lehet. Ettől függetlenül:\n\n- Az omega-3 **nem helyettesíti** az orvos által előírt kezelést.\n- Ideális esetben a bevezetés előtt érdemes a szintet felmérni, és a dózist/terméket **orvossal, gyermekorvossal egyeztetni**.\n- Patikában, gyógyszertárban több megbízható EPA/DHA-készítmény kapható; konkrét márkát tudatosan nem emelünk ki, mert a minőség és az adagolás egyénileg mérlegelendő."
+    },
+    {
+      "id": "hu/vas-cink-adhd",
+      "category": "food",
+      "slug": "vas-cink-adhd",
+      "href": "/hu/food/vas-cink-adhd/",
+      "tags": [
+        "vas",
+        "cink",
+        "etrendkiegeszito",
+        "hiany",
+        "bizonyitek"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "dietaryTags": [
+        "vas",
+        "cink"
+      ],
+      "title": "Vas és cink ADHD-nál",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "A vas- és cinktartalmú készítmények elsősorban akkor segíthetnek az ADHD tüneteinek enyhítésében, ha a gyerek a táplálékkal nem jut elég vashoz/cinkhez. Kiegészítő lépés a bevett kezelés mellett — nem gyógymód, és nem helyettesíti azt.",
+      "kind": "supplement",
+      "sourceUrl": "https://pharmaonline.hu/cikk/termeszetes-megoldasok-az-adhd-kezelesere",
+      "lastReviewed": "2026-07-05",
+      "body": "A vas és a cink azok közé a mikrotápanyagok közé tartozik, amelyeknél a kutatások összefüggést látnak az ADHD-val — de a képet fontos pontosan érteni, mert könnyű túlígérni.\n\nA hivatkozott szakmai forrás (Pharma Online, a *Child & Adolescent Psychiatric Clinics* folyóiratra hivatkozva) szerint:\n\n- A vas- és cinktartalmú készítmények kedvező hatása **elsősorban akkor igazolható**, ha a gyerek a táplálékkal **nem jut elegendő** vashoz és cinkhez — vagyis a hiány pótlásáról van szó, nem általános, mindenkinek szóló javaslatról.\n- Ezek a lépések **kiegészítők**: „a genetikai ADHD nem gyógyítható; a tünetek kezelése jellemzően a gyógyszeres és a viselkedésterápia kombinációjával történik.\" Az étrendkiegészítő tehát a bevett kezelés mellé illeszkedik, nem helyette.\n\nGyakorlati következtetés:\n\n- A vas és a cink pótlása akkor indokolt, ha **igazolt a hiány** (vérvizsgálat) — a rutinszerű, tesztelés nélküli szedés nem javasolt, és a túlzott vasbevitel kifejezetten káros lehet.\n- A dózist és a készítményt **orvossal/dietetikussal** érdemes egyeztetni; az étrendkiegészítők más gyógyszerekkel is kölcsönhatásba léphetnek.\n- A tágabb táplálkozási képhez lásd a „Táplálkozás és ADHD (Szafi)\" és a „D-vitamin és ADHD\" bejegyzéseket."
     },
     {
       "id": "hu/adhdninja",
