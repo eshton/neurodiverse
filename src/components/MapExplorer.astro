@@ -40,7 +40,7 @@ const AGE_FILTERS = [
     <option value="Budapest" selected>Budapest</option>
   </select>
 
-  <div class="flex gap-1.5" id="type-filters">
+  <div class="flex flex-wrap gap-1.5" id="type-filters">
     {TYPE_FILTERS.map(({ category, label }) => (
       <button
         type="button"
@@ -52,7 +52,7 @@ const AGE_FILTERS = [
     ))}
   </div>
 
-  <div class="flex gap-1.5 ml-auto pl-3 border-l border-zinc-200 dark:border-zinc-800" id="age-filters">
+  <div class="flex flex-wrap gap-1.5 sm:ml-auto sm:pl-3 sm:border-l border-zinc-200 dark:border-zinc-800" id="age-filters">
     {AGE_FILTERS.map(({ value, label }) => (
       <button
         type="button"
