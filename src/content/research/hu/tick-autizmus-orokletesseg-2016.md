@@ -12,6 +12,7 @@ doi: "10.1111/jcpp.12499"
 ageGroup: both
 tags: [metaanalízis, genetika, örökletesség, nemzetközi]
 sourceUrl: "https://doi.org/10.1111/jcpp.12499"
+coverImage: "/covers/tick-autizmus-orokletesseg-2016.jpg"
 ratings: []
 lastReviewed: 2026-07-05
 ---

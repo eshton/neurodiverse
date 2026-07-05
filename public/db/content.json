@@ -4970,6 +4970,7 @@
       "language": "en",
       "doi": "10.1016/S2215-0366(18)30269-4",
       "sourceUrl": "https://doi.org/10.1016/S2215-0366(18)30269-4",
+      "coverImage": "/covers/cortese-adhd-gyogyszerek-2018.jpg",
       "lastReviewed": "2026-07-05",
       "body": "Angol nyelvű szakcikk. A gyógyszeres kezelés mindig szakorvosi döntés — ez a tanulmány a döntés bizonyítékhátterét adja, nem helyettesíti a kezelőorvost. A magyar kivonat a szerkesztő megfogalmazása."
     },
@@ -5033,6 +5034,7 @@
       "language": "en",
       "doi": "10.1016/S2215-0366(17)30049-4",
       "sourceUrl": "https://doi.org/10.1016/S2215-0366(17)30049-4",
+      "coverImage": "/covers/hoogman-enigma-adhd-agy-2017.jpg",
       "lastReviewed": "2026-07-05",
       "body": "Angol nyelvű, nagy mintás vizsgálat. A magyar kivonat a szerkesztő megfogalmazása. **Csoportszintű** átlagos különbségekről szól — nem agyi „teszt” az ADHD diagnózisához, és önmagában nem alkalmas egyéni diagnosztikára."
     },
@@ -5321,6 +5323,7 @@
       "language": "en",
       "doi": "10.1111/jcpp.12499",
       "sourceUrl": "https://doi.org/10.1111/jcpp.12499",
+      "coverImage": "/covers/tick-autizmus-orokletesseg-2016.jpg",
       "lastReviewed": "2026-07-05",
       "body": "Angol nyelvű metaanalízis. A magyar kivonat a szerkesztő megfogalmazása; a heritabilitás statisztikai, populációszintű mutató, nem az egyes emberre vonatkozó „jóslat”."
     },

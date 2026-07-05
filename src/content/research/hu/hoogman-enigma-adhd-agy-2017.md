@@ -12,6 +12,7 @@ doi: "10.1016/S2215-0366(17)30049-4"
 ageGroup: both
 tags: [neuroimaging, nagy minta, nemzetközi]
 sourceUrl: "https://doi.org/10.1016/S2215-0366(17)30049-4"
+coverImage: "/covers/hoogman-enigma-adhd-agy-2017.jpg"
 ratings: []
 lastReviewed: 2026-07-05
 ---
