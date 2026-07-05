@@ -7,6 +7,7 @@ tags: [ismeretterjeszto, ondiagnozis, felnott, sorozat]
 publication: "Telex"
 publishedDate: "2025-05-18"
 sourceUrl: "https://telex.hu/eletmod/2025/05/18/adhd-figyelemhianyos-hiperaktivitas-zavar-pszichologia-elofordulas-kulonbsegek-tunetek-diagnozis"
+coverImage: "/covers/telex-adhd-ondiagnozis-sorozat.webp"
 ratings: []
 ageGroup: both
 curatedBy: manual

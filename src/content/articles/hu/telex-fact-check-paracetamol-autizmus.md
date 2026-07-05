@@ -7,6 +7,7 @@ tags: [tenyellenorzes, tevhitek, tudomany, terhesseg, vakcina]
 publication: "Telex"
 publishedDate: "2025-09-23"
 sourceUrl: "https://telex.hu/ellenorzo/2025/09/23/paracetamol-acetaminofen-autizmus-fajdalomcsillapito-tylenol-donald-trump-robert-f-kennedy-jr"
+coverImage: "/covers/telex-fact-check-paracetamol-autizmus.webp"
 ratings: []
 ageGroup: both
 curatedBy: manual

@@ -8,6 +8,7 @@ publication: "Qubit"
 author: "Kuglics Sarolta"
 publishedDate: "2026-02-26"
 sourceUrl: "https://qubit.hu/2026/02/26/mar-a-szuletes-elott-kimutathato-lehet-az-autizmus-es-az-adhd-kockazata"
+coverImage: "/covers/qubit-szuletes-elott-kimutathato.jpg"
 ratings: []
 ageGroup: both
 curatedBy: manual

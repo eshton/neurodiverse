@@ -6,6 +6,7 @@ summary: "WMN-cikk a neurodiverzitás szemléletéről: az autizmus és az ADHD 
 tags: [neurodiverzitas, szemlelet, elfogadas]
 publication: "WMN"
 sourceUrl: "https://wmn.hu/ugy/61922-az-autizmus-vagy-az-adhd-nem-betegseg-hanem-a-vilag-megtapasztalasanak-ervenyes-modja"
+coverImage: "/covers/wmn-neurodiverzitas-nem-betegseg.jpg"
 ratings: []
 ageGroup: both
 curatedBy: manual

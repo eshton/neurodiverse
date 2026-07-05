@@ -8,6 +8,7 @@ publication: "Képmás"
 author: "Szász Adrián"
 publishedDate: "2024-01-22"
 sourceUrl: "https://kepmas.hu/hu/autizmus-jelei-felnottkorban-rapai-katalin-autista-nok"
+coverImage: "/covers/kepmas-autista-nokent-multinal.jpg"
 ratings: []
 ageGroup: adults
 curatedBy: manual

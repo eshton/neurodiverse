@@ -6,6 +6,7 @@ summary: "WMN-cikk az ADHD körüli öndiagnózis-hullámról és a közösségi
 tags: [ondiagnozis, tiktok, tevhitek, media]
 publication: "WMN"
 sourceUrl: "https://wmn.hu/wmn-life/67622-mentalis-egeszseg-ondiagnozis-adhd-tiktok"
+coverImage: "/covers/wmn-adhd-ondiagnozis-tiktok.jpg"
 ratings: []
 ageGroup: both
 curatedBy: manual

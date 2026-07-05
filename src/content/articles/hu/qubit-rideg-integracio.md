@@ -7,6 +7,7 @@ tags: [oktatas, integracio, rideg-integracio, rendszer]
 publication: "Qubit"
 publishedDate: "2018-10-15"
 sourceUrl: "https://qubit.hu/2018/10/15/az-autizmussal-elo-gyerekek-rideg-integracioja-zajlik-magyarorszagon"
+coverImage: "/covers/qubit-rideg-integracio.jpg"
 ratings: []
 ageGroup: children
 curatedBy: manual

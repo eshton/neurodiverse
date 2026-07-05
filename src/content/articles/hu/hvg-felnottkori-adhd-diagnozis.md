@@ -8,6 +8,7 @@ publication: "HVG360"
 author: "Pálúr Krisztina"
 publishedDate: "2024-11-07"
 sourceUrl: "https://hvg.hu/360/20241107_felnottkori-adhd-figyelemzavar-kezelese-tunetei-felismerese"
+coverImage: "/covers/hvg-felnottkori-adhd-diagnozis.jpg"
 ratings: []
 ageGroup: adults
 curatedBy: manual

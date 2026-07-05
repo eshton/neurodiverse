@@ -7,6 +7,7 @@ tags: [felnott, no, tevhitek, diagnozis]
 publication: "Telex"
 publishedDate: "2025-06-16"
 sourceUrl: "https://telex.hu/eletmod/2025/06/16/az-adhd-nem-bocsanat-hanem-magyarazat"
+coverImage: "/covers/telex-adhd-nem-bocsanat.webp"
 ratings: []
 ageGroup: adults
 curatedBy: manual

@@ -7,6 +7,7 @@ tags: [szenzoros, spd, gyerek, erzekelés]
 publication: "Telex"
 publishedDate: "2022-07-24"
 sourceUrl: "https://telex.hu/tudomany/2022/07/24/spd-szenzorossag-idegrenszeri-sajatossag-nem-neveletlen-csak-szenzoros"
+coverImage: "/covers/telex-nem-neveletlen-csak-szenzoros.webp"
 ratings: []
 ageGroup: children
 curatedBy: manual

@@ -7,6 +7,7 @@ tags: [oktatas, integracio, rendszer, szulo, riport]
 publication: "Szabad Európa"
 publishedDate: "2024-04-02"
 sourceUrl: "https://www.szabadeuropa.hu/a/a-gyermekbantalmazas-legalizalt-formaja-akiket-kivet-magabol-a-magyar-kozoktatas/32880146.html"
+coverImage: "/covers/szabadeuropa-kozoktatas-autizmus.jpg"
 ratings: []
 ageGroup: children
 curatedBy: manual

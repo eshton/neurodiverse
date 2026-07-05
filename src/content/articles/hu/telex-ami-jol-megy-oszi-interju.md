@@ -7,6 +7,7 @@ tags: [interju, szakerto, gyerek, tamogatas]
 publication: "Telex"
 publishedDate: "2024-04-07"
 sourceUrl: "https://telex.hu/belfold/2024/04/07/autizmus-spektrum-autista-gyerekek-oszi-tamasne-patricia"
+coverImage: "/covers/telex-ami-jol-megy-oszi-interju.webp"
 ratings: []
 ageGroup: both
 curatedBy: manual

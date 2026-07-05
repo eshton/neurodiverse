@@ -12,6 +12,7 @@ doi: "10.1007/s00406-009-0076-3"
 ageGroup: adults
 tags: [epidemiológia, magyar populáció, magyar szerzők, felnőttkori ADHD]
 sourceUrl: "https://doi.org/10.1007/s00406-009-0076-3"
+coverImage: "/covers/bitter-simon-magyar-felnott-adhd-2010.png"
 ratings: []
 lastReviewed: 2026-07-05
 ---

@@ -7,6 +7,7 @@ tags: [tudomany, prevalencia, kutatas, globalis]
 publication: "Telex"
 publishedDate: "2024-12-20"
 sourceUrl: "https://telex.hu/techtud/2024/12/20/autizmus-spektrumzavar-elofordulas-61-8-millio-ember-japan"
+coverImage: "/covers/telex-127-emberbol-egy-autizmus.webp"
 ratings: []
 ageGroup: both
 curatedBy: manual

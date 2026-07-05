@@ -7,6 +7,7 @@ tags: [tudomany, evolucio, genetika, neurodiverzitas]
 publication: "Telex"
 publishedDate: "2025-09-09"
 sourceUrl: "https://telex.hu/techtud/2025/09/09/autizmus-evolucio-fejlodes"
+coverImage: "/covers/telex-autizmus-evolucio.webp"
 ratings: []
 ageGroup: both
 curatedBy: manual

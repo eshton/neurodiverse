@@ -7,6 +7,7 @@ tags: [szenzoros, befogadas, kozossegi-ter, esemeny]
 publication: "Telex"
 publishedDate: "2026-02-06"
 sourceUrl: "https://telex.hu/belfold/2026/02/06/csendes-orakat-szerveznek-a-varosligeti-mujegpalyan"
+coverImage: "/covers/telex-csendes-orak-mujegpalya.webp"
 ratings: []
 ageGroup: both
 curatedBy: manual

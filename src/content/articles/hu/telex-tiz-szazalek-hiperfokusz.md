@@ -7,6 +7,7 @@ tags: [szemelyes, felnott, gyogyszer, pszichoterapia, beszamolo]
 publication: "Telex"
 publishedDate: "2025-05-26"
 sourceUrl: "https://telex.hu/eletmod/2025/05/26/adhd-beszamolok-gyogyszer-pszichoterapia"
+coverImage: "/covers/telex-tiz-szazalek-hiperfokusz.webp"
 ratings: []
 ageGroup: adults
 curatedBy: manual

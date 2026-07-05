@@ -7,6 +7,7 @@ tags: [gyogyszer, felnott, kezeles, ellatas, liszdexamfetamin]
 publication: "Telex"
 publishedDate: "2025-02-04"
 sourceUrl: "https://telex.hu/techtud/2025/02/04/adhd-gyogyszer-liszdexamfetamin-felnott-kezeles-ellatas"
+coverImage: "/covers/telex-adhd-gyogyszer-liszdexamfetamin.webp"
 ratings: []
 ageGroup: adults
 curatedBy: manual

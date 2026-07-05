@@ -7,6 +7,7 @@ tags: [diagnozis, varolista, ellatas, felnott]
 publication: "Telex"
 publishedDate: "2026-02-15"
 sourceUrl: "https://telex.hu/eletmod/2026/02/15/adhd-diagnosztika-tesztek-varolista-pszichiatria-allami-maganellatas"
+coverImage: "/covers/telex-adhd-diagnozis-korulmenyes.webp"
 ratings: []
 ageGroup: both
 curatedBy: manual

@@ -7,6 +7,7 @@ tags: [tudomany, komorbiditas, audhd, felnott]
 publication: "Telex"
 publishedDate: "2025-02-12"
 sourceUrl: "https://telex.hu/techtud/2025/02/12/autizmus-adhd-elofordulasa-magasabb"
+coverImage: "/covers/telex-autizmus-adhd-elofordulasa.webp"
 ratings: []
 ageGroup: adults
 curatedBy: manual

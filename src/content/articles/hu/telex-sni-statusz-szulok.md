@@ -7,6 +7,7 @@ tags: [sni, szulo, szakszolgalat, diagnozis, megbelyegzes]
 publication: "Telex"
 publishedDate: "2025-11-24"
 sourceUrl: "https://telex.hu/belfold/2025/11/24/sni-statusz-szulok-szakszolgalat-diagnozis-elfogadas-segitsegkeres-autista"
+coverImage: "/covers/telex-sni-statusz-szulok.webp"
 ratings: []
 ageGroup: children
 curatedBy: manual

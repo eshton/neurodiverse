@@ -7,6 +7,7 @@ tags: [felnott, identitas, diagnozis, neurodiverzitas]
 publication: "HVG360"
 publishedDate: "2026-03-03"
 sourceUrl: "https://hvg.hu/360/20260303_adhd-autizmus-diagnozis-neuordiverzitas-szemelyiseg-identitas"
+coverImage: "/covers/hvg-elet-a-diagnozis-utan.jpg"
 ratings: []
 ageGroup: adults
 curatedBy: manual
