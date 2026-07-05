@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "count": 203,
+  "count": 209,
   "categories": {
-    "articles": 15,
+    "articles": 21,
     "books": 13,
     "communities": 8,
     "development": 15,
@@ -249,6 +249,35 @@
       "body": "A Telex cikke azt járja körül, miért olyan nehézkes Magyarországon ADHD-diagnózishoz jutni: hosszú várólisták az állami pszichiátrián, drága magánellátás, és a tesztek/eljárások átláthatatlansága. Kiemeli, hogy nem csak a diagnózis hiánya gond — legalább akkora a félrediagnosztizálásé is, különösen felnőttkorban, amikor az ADHD gyakran szorongással vagy más mentális zavarral együtt jelentkezik.\n\nJó kontextus a Diagnózis kategóriánkhoz: megmutatja, milyen rendszerbeli akadályokba ütközik, aki a térképünkön szereplő szolgáltatókhoz fordulna."
     },
     {
+      "id": "hu/telex-adhd-gyogyszer-liszdexamfetamin",
+      "category": "articles",
+      "slug": "telex-adhd-gyogyszer-liszdexamfetamin",
+      "href": "/hu/articles/telex-adhd-gyogyszer-liszdexamfetamin/",
+      "tags": [
+        "gyogyszer",
+        "felnott",
+        "kezeles",
+        "ellatas",
+        "liszdexamfetamin"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "adults",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Nem érdemes abban bízni, hogy egy új ADHD-gyógyszer, mint valami mágikus tabletta, majd mindent megold",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "Telex-cikk a felnőtt ADHD gyógyszeres kezeléséről: 2024 óta itthon is forgalmaznak liszdexamfetamint (más országokban évtizede használják), de felnőtteknek egyelőre csak engedéllyel írható fel. A pszichiáter szerint jó, hogy bővül a kínálat, de ettől még nem lesz több szakember és szabad időpont.",
+      "publication": "Telex",
+      "publishedDate": "2025-02-04",
+      "sourceUrl": "https://telex.hu/techtud/2025/02/04/adhd-gyogyszer-liszdexamfetamin-felnott-kezeles-ellatas",
+      "lastReviewed": "2026-07-05",
+      "body": "A Telex cikke a felnőtt ADHD gyógyszeres kezelésének hazai helyzetét járja körül. 2024 januárja óta Magyarországon is forgalmaznak liszdexamfetamint tartalmazó készítményt (amit más európai országokban már egy évtizede használnak), de a stimuláns hatóanyagot felnőtteknek egyelőre csak külön engedéllyel írhatják fel az orvosok.\n\nA megszólaló pszichiáter józan üzenete adja a cím lényegét: pozitív, hogy bővül a gyógyszerkínálat, de egy új tabletta önmagában nem old meg mindent — sem szakemberből, sem szabad időpontból nem lesz több tőle. Jó kiegészítés a diagnózishoz jutás nehézségeiről szóló cikkekhez, a kezelés oldaláról."
+    },
+    {
       "id": "hu/telex-adhd-nem-bocsanat",
       "category": "articles",
       "slug": "telex-adhd-nem-bocsanat",
@@ -275,6 +304,34 @@
       "sourceUrl": "https://telex.hu/eletmod/2025/06/16/az-adhd-nem-bocsanat-hanem-magyarazat",
       "lastReviewed": "2026-07-05",
       "body": "A világ népességének nagyjából 2–4 százalékát érinti az ADHD, a cikk mégis arra mutat rá, hogy Magyarországon alig esik szó a felnőtt — és különösen a női — figyelemzavarról. Leszámol azzal a régóta elavult feltételezéssel, hogy az ADHD jellegzetesen „fiús\" jelenség lenne.\n\nA cím a lényeget viszi: az ADHD nem kifogás, hanem magyarázat — keret, amelyben a korábban érthetetlen nehézségek értelmet nyernek. Higgadt, tényekre támaszkodó publicisztika a Telextől."
+    },
+    {
+      "id": "hu/telex-adhd-ondiagnozis-sorozat",
+      "category": "articles",
+      "slug": "telex-adhd-ondiagnozis-sorozat",
+      "href": "/hu/articles/telex-adhd-ondiagnozis-sorozat/",
+      "tags": [
+        "ismeretterjeszto",
+        "ondiagnozis",
+        "felnott",
+        "sorozat"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Ez teljesen én vagyok! – miért diagnosztizálja magát ADHD-val a fél internet?",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "Telex ADHD-sorozatának első része: mi az ADHD valójában, milyen sokféle formát ölthet, és miért ismernek magukra egyre többen. Tényleg több az ADHD-s, vagy csak jobban és máshogy figyelünk rájuk? Jó általános bevezető a témába.",
+      "publication": "Telex",
+      "publishedDate": "2025-05-18",
+      "sourceUrl": "https://telex.hu/eletmod/2025/05/18/adhd-figyelemhianyos-hiperaktivitas-zavar-pszichologia-elofordulas-kulonbsegek-tunetek-diagnozis",
+      "lastReviewed": "2026-07-05",
+      "body": "A Telex ADHD-sorozatának nyitó része alapos, közérthető bevezető a témába: mi az ADHD valójában, hogy réges-rég túlhaladott a „gyerekkori fiúbetegség\" kép, milyen sokféle formát ölthet, és felnőttként is komoly nehézségeket okozhat.\n\nA cikk kiegyensúlyozottan teszi fel a kérdést is, amit a cím sugall: valóban több lett-e az ADHD-s ember, vagy csak jobban (és máshogy) vesszük észre — jó párja a WMN öndiagnózisról szóló írásának, más hangsúllyal. Ez a legjobb egyetlen „kezdj itt\" cikk a kategóriában annak, aki most ismerkedik az ADHD-val."
     },
     {
       "id": "hu/telex-ami-jol-megy-oszi-interju",
@@ -334,6 +391,91 @@
       "body": "A Telex tudományos rovatának cikke egy nemzetközi kutatásról számol be, amely szerint a felnőtt autisták körében az ADHD előfordulása mintegy tízszerese az átlagpopulációénak. Ez azért fontos, mert korábban azt feltételezték, hogy az ADHD gyerekkori együttjárása az autizmusnak felnőttkorra jórészt „kinőhető\" — a kutatás ezt cáfolja.\n\nMiért releváns a Neurodiverz Térkép szemszögéből: az **AuDHD** (az autizmus és az ADHD együttes fennállása) a hazai köztudatban alig ismert, pedig épp a kettős profilú felnőttek esnek ki leggyakrabban a diagnosztikai hálón. A cikk megbízható tudományos újságírás — konkrét kutatásra és számokra hivatkozik, nem ígér csodát."
     },
     {
+      "id": "hu/telex-autizmus-evolucio",
+      "category": "articles",
+      "slug": "telex-autizmus-evolucio",
+      "href": "/hu/articles/telex-autizmus-evolucio/",
+      "tags": [
+        "tudomany",
+        "evolucio",
+        "genetika",
+        "neurodiverzitas"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Evolúciós haszna lehetett annak, hogy megjelentek az autizmusért felelős gének",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Telex tudományos cikke arról az elméletről, hogy az autizmushoz köthető gének fennmaradása mögött evolúciós előny állhat — épp azokat a képességeket érintik, amelyekben az ember a többi főemlőst felülmúlta. Az autizmus mint a neurodiverzitás természetes része, nem „hiba”.",
+      "publication": "Telex",
+      "publishedDate": "2025-09-09",
+      "sourceUrl": "https://telex.hu/techtud/2025/09/09/autizmus-evolucio-fejlodes",
+      "lastReviewed": "2026-07-05",
+      "body": "A Telex tudományos rovatának cikke azt az elgondolást mutatja be, hogy az autizmushoz köthető gének fennmaradása mögött evolúciós előny is állhat: a spektrumzavar más emlősöknél gyakorlatilag nem jelenik meg, és épp azokat a kognitív készségeket érinti, amelyekben az ember a többi főemlőst felülmúlta.\n\nMegbízható tudományos ismeretterjesztés, amely a neurodiverzitás szemléletét tudományos oldalról is alátámasztja: az autizmus nem egyszerűen „meghibásodás\", hanem az emberi elme sokféleségének mélyen a fejlődéstörténetünkbe ágyazott része. Jó párja a neurodiverzitásról szóló szemléleti cikkeknek."
+    },
+    {
+      "id": "hu/telex-csendes-orak-mujegpalya",
+      "category": "articles",
+      "slug": "telex-csendes-orak-mujegpalya",
+      "href": "/hu/articles/telex-csendes-orak-mujegpalya/",
+      "tags": [
+        "szenzoros",
+        "befogadas",
+        "kozossegi-ter",
+        "esemeny"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Vasárnap pár órára elcsendesül a Városligeti Műjégpálya",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Telex-hír a Városligeti Műjégpálya „csendes óráiról”: vasárnaponként pár órára lehalkított zenével, csökkentett ingerekkel várják az autizmussal élőket, hogy nyugodtabb környezetben korcsolyázhassanak. Példa a szenzoros szempontból befogadó közösségi terekre.",
+      "publication": "Telex",
+      "publishedDate": "2026-02-06",
+      "sourceUrl": "https://telex.hu/belfold/2026/02/06/csendes-orakat-szerveznek-a-varosligeti-mujegpalyan",
+      "lastReviewed": "2026-07-05",
+      "body": "Rövid, de biztató Telex-hír: a Városligeti Műjégpálya „csendes órákat\" szervez, amikor pár órára lehalkítják a zenét és csökkentik az ingereket, hogy az autizmussal élők (és mindenki, akinek jólesik a nyugodtabb környezet) kellemesebben korcsolyázhassanak.\n\nAzért került a válogatásba, mert konkrét, pozitív példa a **szenzoros szempontból befogadó közösségi terekre** — ugyanaz a logika, ami a boltok „csendes vásárlási órái\" vagy a mozik érzékbarát vetítései mögött áll. Jó ellenpont a rendszerszintű hiányosságokról szóló cikkekhez: megmutatja, mennyit számít egy kis odafigyelés."
+    },
+    {
+      "id": "hu/telex-fact-check-paracetamol-autizmus",
+      "category": "articles",
+      "slug": "telex-fact-check-paracetamol-autizmus",
+      "href": "/hu/articles/telex-fact-check-paracetamol-autizmus/",
+      "tags": [
+        "tenyellenorzes",
+        "tevhitek",
+        "tudomany",
+        "terhesseg",
+        "vakcina"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Fact-check: Tényleg autizmust okoz a paracetamol, ahogy Donald Trump állítja?",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Telex-tényellenőrzés: Donald Trump bejelentette, hogy a terhesség alatt szedett paracetamol autizmust okoz, és a vakcina-autizmus kapcsolatot is meglebegtette. A cikk megnézi, mit mond erről valójában a tudomány — hasznos ellenszer a témát övező tévhitekkel szemben.",
+      "publication": "Telex",
+      "publishedDate": "2025-09-23",
+      "sourceUrl": "https://telex.hu/ellenorzo/2025/09/23/paracetamol-acetaminofen-autizmus-fajdalomcsillapito-tylenol-donald-trump-robert-f-kennedy-jr",
+      "lastReviewed": "2026-07-05",
+      "body": "A Telex tényellenőrző (ellenőrző) rovatának cikke azt a nagy visszhangot kapott állítást vizsgálja meg, amelyet Donald Trump jelentett be a Fehér Házban: hogy a terhesség alatt szedett paracetamol (acetaminofen / Tylenol) autizmust okozna a születendő gyereknél — és amely mellett ismét felmerült a régóta cáfolt vakcina-autizmus összefüggés is.\n\nAzért került a válogatásba, mert **tekintélyes forrástól származó, tudományosan megalapozott tényellenőrzés**, amely józanul mutatja be, mit mond (és mit nem) a kutatás — épp az a fajta anyag, amely a projekt szemléletéhez illik: az autizmus körüli pánikkeltő és áltudományos narratívák tisztázása. (A cikk a claim cáfolata, nem a megerősítése.)"
+    },
+    {
       "id": "hu/telex-nem-neveletlen-csak-szenzoros",
       "category": "articles",
       "slug": "telex-nem-neveletlen-csak-szenzoros",
@@ -360,6 +502,35 @@
       "sourceUrl": "https://telex.hu/tudomany/2022/07/24/spd-szenzorossag-idegrenszeri-sajatossag-nem-neveletlen-csak-szenzoros",
       "lastReviewed": "2026-07-05",
       "body": "A Telex tudományos cikke a szenzoros feldolgozás eltéréseiről (angol rövidítéssel SPD) szól: arról, hogy egy gyerek „rossz\" vagy „neveletlen\" viselkedése mögött gyakran az áll, hogy az idegrendszere másképp dolgozza fel az ingereket (hangokat, fényt, tapintást, textúrákat).\n\nA szenzoros érzékenység az autizmus egyik központi élménye (és a szenzoros eszközök, például a fülvédők vagy súlyozott takarók kategóriánk mögötti logikája), ezért hasznos háttérolvasmány szülőknek és pedagógusoknak — miért nem fegyelmezési kérdés az, ami valójában érzékelési."
+    },
+    {
+      "id": "hu/telex-sni-statusz-szulok",
+      "category": "articles",
+      "slug": "telex-sni-statusz-szulok",
+      "href": "/hu/articles/telex-sni-statusz-szulok/",
+      "tags": [
+        "sni",
+        "szulo",
+        "szakszolgalat",
+        "diagnozis",
+        "megbelyegzes"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "„Nem szeretnék, hogy betegként tekintsenek rájuk”",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Telex-cikk arról, miért vonakodnak sok szülők a pedagógiai szakszolgálattól és az SNI-státusz megállapításától: a megbélyegzéstől és a nehezebb intézményválasztástól tartanak. Több információra és felkészítésre lenne szükségük ahhoz, mit jelent egy atipikus fejlődésű gyereket nevelni.",
+      "publication": "Telex",
+      "publishedDate": "2025-11-24",
+      "sourceUrl": "https://telex.hu/belfold/2025/11/24/sni-statusz-szulok-szakszolgalat-diagnozis-elfogadas-segitsegkeres-autista",
+      "lastReviewed": "2026-07-05",
+      "body": "A Telex cikke azt a dilemmát járja körül, amivel sok szülő szembesül: érdemes-e megállapíttatni a gyerek sajátos nevelési igényét (SNI-státusz), és igénybe venni a pedagógiai szakszolgálatot. Sokan a megbélyegzéstől vagy a nehezebb intézményválasztástól tartva vonakodnak — pedig épp a státusz nyithatná meg a támogatásokat.\n\nA cikk tanulsága, hogy a szülőknek több információra és felkészítésre lenne szükségük arról, mit jelent a gyakorlatban egy atipikus fejlődésű (pl. autista) gyereket nevelni, és hogy a diagnózis nem bélyeg, hanem a megfelelő segítség kulcsa. Jó kontextus a Diagnózis és az Iskolák kategóriákhoz."
     },
     {
       "id": "hu/telex-tiz-szazalek-hiperfokusz",
