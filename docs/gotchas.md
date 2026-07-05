@@ -17,6 +17,10 @@ Environment/tooling traps hit during this session. Read before repeating the sam
 - Nominatim (OpenStreetMap geocoding) requires a **real identifying User-Agent** and **max 1 request/second** — generic/empty UAs get rejected, and hammering it will get you rate-limited or blocked. Always `sleep 1.1` between calls in a loop.
 - Hungarian-locale scraping: don't search page HTML for English strings like "subscribers" or "likes" — YouTube/etc. render the locale-appropriate text (`"feliratkozó"`, `"ezer"` for thousand) and that's what's actually in the DOM.
 
+## Static output & query params
+
+- **`Astro.url.searchParams` is empty at build time for prerendered pages, so server-side query-param filtering silently no-ops in production.** The `/hu/<category>/` topic filter used to compute `Astro.url.searchParams.get('topic')` in the frontmatter — at build there's no request, so it always rendered the "Mind" variant, and in production `?topic=adhd` just serves that same static HTML. The filter *looked* functional (pills rendered, links worked) but never filtered. Fix: do it client-side (ship all items, toggle `hidden` with JS, sync the URL via `history.replaceState`). Rule of thumb: on a static build, anything that must vary by query string has to be client-side JS, not `Astro.url`.
+
 ## Astro View Transitions (`<ClientRouter/>`)
 
 Added to both layouts for app-like navigation. Two traps that will silently break things if you touch client scripts or the theme handling:

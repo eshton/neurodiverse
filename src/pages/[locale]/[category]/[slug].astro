@@ -4,6 +4,7 @@ import ClinicMap from '../../../components/ClinicMap.astro';
 import { getCollection } from 'astro:content';
 import { CATEGORIES } from '../../../content.config';
 import { placeholderFor } from '../../../lib/placeholder';
+import { CATEGORY_LABELS, FIELD_LABELS, VALUE_LABELS, WEB_CATEGORIES } from '../../../lib/categories';
 
 const BASE_FIELDS = new Set([
   'title',
@@ -23,73 +24,6 @@ const BASE_FIELDS = new Set([
   'lng',
 ]);
 
-const CATEGORY_LABELS: Record<string, string> = {
-  books: 'Könyvek',
-  podcasts: 'Podcastok',
-  videos: 'Videók',
-  influencers: 'Influenszerek',
-  articles: 'Cikkek',
-  equipment: 'Segédeszközök',
-  food: 'Étel és receptek',
-  communities: 'Közösségek',
-  diagnosis: 'Diagnózis',
-  schools: 'Iskolák',
-  development: 'Fejlesztés',
-  movies: 'Filmek',
-  research: 'Kutatás',
-};
-
-const FIELD_LABELS: Record<string, string> = {
-  author: 'Szerző',
-  publication: 'Kiadvány',
-  publishedDate: 'Megjelenés',
-  isbn: 'ISBN',
-  creator: 'Készítő',
-  platform: 'Platform',
-  episodeCount: 'Epizódszám',
-  viewCount: 'Megtekintés',
-  subscriberCount: 'Feliratkozó',
-  handle: 'Fiók',
-  platforms: 'Platformok',
-  priceRange: 'Ár',
-  retailerUrls: 'Vásárlási linkek',
-  kind: 'Típus',
-  format: 'Formátum',
-  seasons: 'Évadok',
-  dietaryTags: 'Diétás címkék',
-  providerType: 'Típus',
-  ageGroup: 'Korosztály',
-  city: 'Város',
-  address: 'Cím',
-  contact: 'Elérhetőség',
-  priceNotes: 'Ár megjegyzés',
-  director: 'Rendező',
-  year: 'Év',
-  runtimeMinutes: 'Hossz (perc)',
-  streamingUrls: 'Elérhető ezeken',
-  authors: 'Szerzők',
-  venue: 'Megjelenés',
-  publicationType: 'Publikáció típusa',
-  language: 'Nyelv',
-  doi: 'DOI / azonosító',
-  openAccess: 'Szabadon elérhető',
-};
-
-// Hungarian display for enum-ish values that would otherwise render in English.
-const VALUE_LABELS: Record<string, string> = {
-  documentary: 'dokumentumfilm',
-  narrative: 'játékfilm',
-  film: 'film',
-  series: 'sorozat',
-  'journal-article': 'szakcikk',
-  review: 'áttekintő tanulmány',
-  'clinical-trial': 'klinikai vizsgálat',
-  hu: 'magyar',
-  en: 'angol',
-  true: 'igen',
-  false: 'nem',
-};
-
 export async function getStaticPaths() {
   const paths = [];
   for (const category of CATEGORIES) {
@@ -105,15 +39,6 @@ export async function getStaticPaths() {
   return paths;
 }
 
-const WEB_CATEGORIES = new Set(['books', 'podcasts', 'videos', 'equipment', 'movies', 'food', 'articles']);
-
-const KIND_LABELS: Record<string, string> = {
-  recipe: 'Recept',
-  product: 'Termék',
-  guide: 'Útmutató',
-  supplement: 'Étrendkiegészítő',
-};
-
 const { category, locale } = Astro.params;
 const { item } = Astro.props as { item: any };
 const data = item.data;
@@ -122,7 +47,7 @@ const cover = data.coverImage ?? placeholderFor(data.providerType);
 const backHref = WEB_CATEGORIES.has(category as string) ? '/web/' : '/';
 const backLabel = WEB_CATEGORIES.has(category as string) ? 'Vissza a Web nézetre' : 'Vissza a térképre';
 ---
-<Layout title={`${data.title} — Neurodiverse`} locale={locale}>
+<Layout title={`${data.title} — Neurodiverse`} locale={locale} description={data.summary} image={cover}>
   <p class="mb-6">
     <a href={backHref} class="text-sm text-brand-700 dark:text-brand-300 hover:underline">
       &larr; {backLabel}
@@ -168,7 +93,7 @@ const backLabel = WEB_CATEGORIES.has(category as string) ? 'Vissza a Web nézetr
       {extraFields.map(([key, value]) => (
         <>
           <dt class="text-zinc-500 dark:text-zinc-400">{FIELD_LABELS[key] ?? key}</dt>
-          <dd>{Array.isArray(value) ? value.join(', ') : (KIND_LABELS[String(value)] ?? VALUE_LABELS[String(value)] ?? String(value))}</dd>
+          <dd>{Array.isArray(value) ? value.join(', ') : (VALUE_LABELS[String(value)] ?? String(value))}</dd>
         </>
       ))}
     </dl>

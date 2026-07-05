@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      # Runs prebuild (scripts/build-db.mjs) then astro build. Catches Zod
+      # content-schema errors and any build breakage.
+      - run: npm run build
+
+      # The dataset at public/db/content.json is committed but regenerated on
+      # every build — fail if the committed copy has drifted from the markdown
+      # (i.e. someone edited content without re-running the build before commit).
+      - name: Check committed content.json is up to date
+        run: |
+          if ! git diff --exit-code --stat public/db/content.json; then
+            echo "::error::public/db/content.json is out of date — run 'npm run build:db' and commit the result."
+            exit 1
+          fi

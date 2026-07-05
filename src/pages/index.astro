@@ -3,12 +3,11 @@ import MapLayout from '../layouts/MapLayout.astro';
 import MapExplorer from '../components/MapExplorer.astro';
 import DetailPanel from '../components/DetailPanel.astro';
 import { getCollection } from 'astro:content';
-
-const MAP_CATEGORIES = ['diagnosis', 'schools', 'development', 'communities', 'equipment'] as const;
+import { MAP_PIN_CATEGORIES } from '../lib/categories';
 
 const items = (
   await Promise.all(
-    MAP_CATEGORIES.map(async (category) => {
+    MAP_PIN_CATEGORIES.map(async (category) => {
       const entries = await getCollection(category as any, (entry: any) => entry.data.locale === 'hu');
       return entries
         .filter((entry: any) => entry.data.lat != null && entry.data.lng != null)
@@ -27,7 +26,10 @@ const items = (
   )
 ).flat();
 ---
-<MapLayout title="Neurodiverz Térkép | ADHD és autizmus források Magyarországon">
+<MapLayout
+  title="Neurodiverz Térkép | ADHD és autizmus források Magyarországon"
+  description="Interaktív térkép ADHD- és autizmus-forrásokról Magyarországon: diagnózis, iskolák, fejlesztő központok, közösségek és segédeszközök egy helyen, helyszín szerint böngészve."
+>
   <MapExplorer items={items} />
   <DetailPanel />
 </MapLayout>

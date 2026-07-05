@@ -37,38 +37,13 @@
 </div>
 
 <script>
+  import { CATEGORY_LABELS, FIELD_LABELS, VALUE_LABELS } from '../lib/categories';
+
   // Guard so the document-level listeners register exactly once, even though this
   // script may execute again when Astro swaps in a page it hasn't run on yet.
   if (!(window as any).__detailPanelReady) {
     (window as any).__detailPanelReady = true;
 
-    const CATEGORY_LABELS: Record<string, string> = {
-      books: 'Könyvek', podcasts: 'Podcastok', videos: 'Videók', influencers: 'Influenszerek',
-      equipment: 'Segédeszközök', food: 'Étel és receptek', communities: 'Közösségek', articles: 'Cikkek',
-      diagnosis: 'Diagnózis', schools: 'Iskolák', development: 'Fejlesztés', movies: 'Filmek',
-      research: 'Kutatás',
-    };
-    // Kept in sync with FIELD_LABELS in src/pages/[locale]/[category]/[slug].astro —
-    // if you add a labelled field there, mirror it here or it renders as the raw key.
-    const FIELD_LABELS: Record<string, string> = {
-      author: 'Szerző', publication: 'Kiadvány', publishedDate: 'Megjelenés', isbn: 'ISBN', creator: 'Készítő', platform: 'Platform',
-      episodeCount: 'Epizódszám', viewCount: 'Megtekintés', subscriberCount: 'Feliratkozó',
-      handle: 'Fiók', platforms: 'Platformok', priceRange: 'Ár', retailerUrls: 'Vásárlási linkek',
-      kind: 'Típus', format: 'Formátum', seasons: 'Évadok', dietaryTags: 'Diétás címkék',
-      providerType: 'Típus', ageGroup: 'Korosztály',
-      city: 'Város', address: 'Cím', contact: 'Elérhetőség', priceNotes: 'Ár megjegyzés',
-      director: 'Rendező', year: 'Év', runtimeMinutes: 'Hossz (perc)', streamingUrls: 'Elérhető ezeken',
-      authors: 'Szerzők', venue: 'Megjelenés', publicationType: 'Publikáció típusa',
-      language: 'Nyelv', doi: 'DOI / azonosító', openAccess: 'Szabadon elérhető',
-    };
-    // Value (not key) translation for enum-ish fields (food `kind`, movie `kind`/`format`) —
-    // kept in sync with KIND_LABELS + VALUE_LABELS in src/pages/[locale]/[category]/[slug].astro.
-    const KIND_LABELS: Record<string, string> = {
-      recipe: 'Recept', product: 'Termék', guide: 'Útmutató', supplement: 'Étrendkiegészítő',
-      documentary: 'dokumentumfilm', narrative: 'játékfilm', film: 'film', series: 'sorozat',
-      'journal-article': 'szakcikk', review: 'áttekintő tanulmány', 'clinical-trial': 'klinikai vizsgálat',
-      hu: 'magyar', en: 'angol', true: 'igen', false: 'nem',
-    };
     // Non-extra fields: rendered explicitly below, so excluded from the generic list.
     const BASE_FIELDS = new Set([
       'id', 'category', 'slug', 'href', 'body', 'title', 'locale', 'topics', 'summary', 'tags',
@@ -83,12 +58,16 @@
     let dbPromise: Promise<Map<string, any>> | null = null;
     const loadDb = () =>
       (dbPromise ??= fetch('/db/content.json')
-        .then((r) => r.json())
-        .then((d) => new Map<string, any>(d.items.map((it: any) => [it.href, it]))));
+        .then((r) => { if (!r.ok) throw new Error('content.json ' + r.status); return r.json(); })
+        .then((d) => new Map<string, any>(d.items.map((it: any) => [it.href, it])))
+        // Don't cache a rejected promise — otherwise a single failed fetch would
+        // permanently disable the panel; clear it so the next click retries.
+        .catch((err) => { dbPromise = null; throw err; }));
 
     const panel = () => document.getElementById('detail-panel');
     const isOpen = () => panel()?.getAttribute('aria-hidden') === 'false';
     let basePath = '';
+    let lastFocused: HTMLElement | null = null;
 
     function renderItem(item: any) {
       const badges = (item.topics ?? [])
@@ -104,7 +83,7 @@
 
       const extra = Object.entries(item)
         .filter(([k, v]) => !BASE_FIELDS.has(k) && v != null && !(Array.isArray(v) && v.length === 0))
-        .map(([k, v]) => `<dt class="text-zinc-500 dark:text-zinc-400">${esc(FIELD_LABELS[k] ?? k)}</dt><dd>${esc(Array.isArray(v) ? v.join(', ') : (KIND_LABELS[String(v)] ?? v))}</dd>`)
+        .map(([k, v]) => `<dt class="text-zinc-500 dark:text-zinc-400">${esc(FIELD_LABELS[k] ?? k)}</dt><dd>${esc(Array.isArray(v) ? v.join(', ') : (VALUE_LABELS[String(v)] ?? v))}</dd>`)
         .join('');
       const extraHtml = extra
         ? `<dl class="grid grid-cols-[auto_1fr] gap-x-4 gap-y-1 text-sm my-4">${extra}</dl>` : '';
@@ -158,9 +137,12 @@
     }
 
     async function openDetail(href: string, push = true) {
-      const db = await loadDb();
+      // If the dataset can't load, fall back to a real navigation rather than
+      // leaving the click dead (default was already prevented by the handler).
+      let db: Map<string, any>;
+      try { db = await loadDb(); } catch { window.location.href = href; return; }
       const item = db.get(href);
-      if (!item) { window.location.href = href; return; } // fall back to real navigation
+      if (!item) { window.location.href = href; return; }
       if (push) {
         basePath = location.pathname + location.search;
         history.pushState({ detail: href }, '', href);
@@ -177,6 +159,9 @@
       // URL to the browsing surface without adding history or triggering a
       // ClientRouter navigation (replaceState fires no popstate).
       if (history.state?.detail && basePath) history.replaceState(null, '', basePath);
+      // Return focus to whatever opened the panel (card/marker button).
+      lastFocused?.focus?.();
+      lastFocused = null;
     }
 
     document.addEventListener('click', (e) => {
@@ -184,14 +169,28 @@
       const link = t.closest('a[data-detail]') as HTMLAnchorElement | null;
       if (link && e.button === 0 && !e.metaKey && !e.ctrlKey && !e.shiftKey && !e.altKey) {
         const href = link.getAttribute('href');
-        if (href) { e.preventDefault(); openDetail(href); }
+        if (href) { e.preventDefault(); lastFocused = link; openDetail(href); }
         return;
       }
       if (t.closest('[data-detail-close]') || t.hasAttribute('data-detail-backdrop')) closeDetail();
     });
 
     document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && isOpen()) closeDetail();
+      if (!isOpen()) return;
+      if (e.key === 'Escape') { closeDetail(); return; }
+      // Focus trap: keep Tab within the dialog while it's open.
+      if (e.key === 'Tab') {
+        const panelEl = document.getElementById('dp-panel');
+        if (!panelEl) return;
+        const focusable = panelEl.querySelectorAll<HTMLElement>(
+          'a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])'
+        );
+        if (!focusable.length) return;
+        const first = focusable[0];
+        const last = focusable[focusable.length - 1];
+        if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+        else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+      }
     });
 
     // Browser Back/Forward: just close the panel. Any actual page change is left

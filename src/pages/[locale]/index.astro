@@ -2,6 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 import { CATEGORIES } from '../../content.config';
+import { CATEGORY_META } from '../../lib/categories';
 
 export function getStaticPaths() {
   // Only `hu` has content today; `uk`/`us` are reserved locale values
@@ -10,21 +11,6 @@ export function getStaticPaths() {
 }
 
 const { locale } = Astro.params;
-
-const CATEGORY_META: Record<string, { label: string; icon: string }> = {
-  books: { label: 'Könyvek', icon: '📚' },
-  podcasts: { label: 'Podcastok', icon: '🎙️' },
-  videos: { label: 'Videók', icon: '🎬' },
-  influencers: { label: 'Influenszerek', icon: '📣' },
-  articles: { label: 'Cikkek', icon: '📰' },
-  equipment: { label: 'Segédeszközök', icon: '🎧' },
-  food: { label: 'Étel és receptek', icon: '🍽️' },
-  communities: { label: 'Közösségek', icon: '🤝' },
-  diagnosis: { label: 'Diagnózis', icon: '🩺' },
-  schools: { label: 'Iskolák', icon: '🏫' },
-  development: { label: 'Fejlesztés', icon: '🧩' },
-  research: { label: 'Kutatás', icon: '🔬' },
-};
 
 const cards = await Promise.all(
   CATEGORIES.map(async (category) => {

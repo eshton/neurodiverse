@@ -4,6 +4,7 @@ import ClinicMap from '../../../components/ClinicMap.astro';
 import { getCollection } from 'astro:content';
 import { CATEGORIES } from '../../../content.config';
 import { placeholderFor } from '../../../lib/placeholder';
+import { CATEGORY_LABELS, WEB_CATEGORIES, LISTING_MAP_CATEGORIES } from '../../../lib/categories';
 
 export function getStaticPaths() {
   return CATEGORIES.map((category) => ({
@@ -11,43 +12,18 @@ export function getStaticPaths() {
   }));
 }
 
-const CATEGORY_LABELS: Record<string, string> = {
-  books: 'Könyvek',
-  podcasts: 'Podcastok',
-  videos: 'Videók',
-  influencers: 'Influenszerek',
-  articles: 'Cikkek',
-  equipment: 'Segédeszközök',
-  food: 'Étel és receptek',
-  communities: 'Közösségek',
-  diagnosis: 'Diagnózis',
-  schools: 'Iskolák',
-  development: 'Fejlesztés',
-  movies: 'Filmek',
-  research: 'Kutatás',
-};
-
-const MAP_CATEGORIES = new Set(['diagnosis', 'schools', 'development', 'communities']);
-const WEB_CATEGORIES = new Set(['books', 'podcasts', 'videos', 'equipment', 'movies', 'food', 'articles', 'research']);
-
 const { locale, category } = Astro.params;
 const backHref = WEB_CATEGORIES.has(category as string) ? '/web/' : '/';
 const backLabel = WEB_CATEGORIES.has(category as string) ? 'Vissza a Web nézetre' : 'Vissza a térképre';
 const allItems = await getCollection(category as any);
 const items = allItems.filter((item: any) => item.data.locale === locale);
 
-const topicFilter = Astro.url.searchParams.get('topic');
-const filtered = topicFilter
-  ? items.filter((item: any) => item.data.topics.includes(topicFilter))
-  : items;
-
-const pill = (active: boolean) =>
-  active
-    ? 'bg-brand-600 text-white'
-    : 'bg-zinc-100 text-zinc-700 hover:bg-zinc-200 dark:bg-zinc-800 dark:text-zinc-300 dark:hover:bg-zinc-700';
-
-const geoTagged = MAP_CATEGORIES.has(category as string)
-  ? filtered
+// Topic filtering is done client-side (see the <script> below): these pages are
+// statically prerendered, so a `?topic=` query param can't change the server
+// output — every request gets the same HTML. The page renders all items and JS
+// hides the ones that don't match, reading the initial state from the URL.
+const geoTagged = LISTING_MAP_CATEGORIES.has(category as string)
+  ? items
       .filter((item: any) => item.data.lat != null && item.data.lng != null)
       .map((item: any) => ({
         title: item.data.title,
@@ -63,7 +39,11 @@ const geoTagged = MAP_CATEGORIES.has(category as string)
 const budapestClinics = geoTagged.filter((c) => c.city === 'Budapest');
 const countrysideClinics = geoTagged.filter((c) => c.city !== 'Budapest');
 ---
-<Layout title={`${CATEGORY_LABELS[category] ?? category} — Neurodiverse`} locale={locale}>
+<Layout
+  title={`${CATEGORY_LABELS[category] ?? category} — Neurodiverse`}
+  locale={locale}
+  description={`${CATEGORY_LABELS[category] ?? category}: kurátorolt ADHD- és autizmus-források Magyarországon. ${items.length} bejegyzés.`}
+>
   <p class="mb-6">
     <a href={backHref} class="text-sm text-brand-700 dark:text-brand-300 hover:underline">
       &larr; {backLabel}
@@ -72,10 +52,10 @@ const countrysideClinics = geoTagged.filter((c) => c.city !== 'Budapest');
 
   <h1 class="text-2xl font-bold tracking-tight mb-4">{CATEGORY_LABELS[category] ?? category}</h1>
 
-  <nav class="flex gap-2 mb-8">
-    <a href="?" class={`px-3 py-1 rounded-full text-sm ${pill(!topicFilter)}`}>Mind</a>
-    <a href="?topic=adhd" class={`px-3 py-1 rounded-full text-sm ${pill(topicFilter === 'adhd')}`}>ADHD</a>
-    <a href="?topic=autism" class={`px-3 py-1 rounded-full text-sm ${pill(topicFilter === 'autism')}`}>Autizmus</a>
+  <nav class="flex gap-2 mb-8" id="topic-filter">
+    <button type="button" data-topic="all" class="topic-btn px-3 py-1 rounded-full text-sm">Mind</button>
+    <button type="button" data-topic="adhd" class="topic-btn px-3 py-1 rounded-full text-sm">ADHD</button>
+    <button type="button" data-topic="autism" class="topic-btn px-3 py-1 rounded-full text-sm">Autizmus</button>
   </nav>
 
   {budapestClinics.length > 0 && (
@@ -92,17 +72,19 @@ const countrysideClinics = geoTagged.filter((c) => c.city !== 'Budapest');
     </div>
   )}
 
-  {filtered.length === 0 && <p class="text-zinc-500 dark:text-zinc-400">Nincs találat ehhez a szűréshez.</p>}
+  {items.length === 0 && <p class="text-zinc-500 dark:text-zinc-400">Nincs találat ehhez a szűréshez.</p>}
+  <p id="topic-empty" class="hidden text-zinc-500 dark:text-zinc-400">Nincs találat ehhez a szűréshez.</p>
 
   <div class="grid gap-4">
-    {filtered.map((item: any) => {
+    {items.map((item: any) => {
       const slug = item.id.split('/').slice(1).join('/');
       const topScore = item.data.ratings[0];
       const cover = item.data.coverImage ?? placeholderFor(item.data.providerType);
       return (
         <a
           href={`/${locale}/${category}/${slug}/`}
-          class="flex gap-4 rounded-xl border border-zinc-200 dark:border-zinc-800 p-5 hover:border-brand-400 hover:shadow-sm transition"
+          data-topics={item.data.topics.join(',')}
+          class="topic-card flex gap-4 rounded-xl border border-zinc-200 dark:border-zinc-800 p-5 hover:border-brand-400 hover:shadow-sm transition"
         >
           {cover && (
             <img
@@ -147,3 +129,47 @@ const countrysideClinics = geoTagged.filter((c) => c.city !== 'Budapest');
     })}
   </div>
 </Layout>
+
+<script>
+  // Client-side topic filter. Static pages can't filter on a `?topic=` query
+  // param at build time, so the page ships every card and JS hides the
+  // non-matching ones — reading the initial topic from the URL and keeping the
+  // URL in sync (without a navigation) as the pills are used.
+  function initTopicFilter() {
+    const bar = document.getElementById('topic-filter');
+    if (!bar) return;
+    const cards = document.querySelectorAll<HTMLElement>('.topic-card');
+    const empty = document.getElementById('topic-empty');
+    const buttons = bar.querySelectorAll<HTMLButtonElement>('.topic-btn');
+    const active = 'bg-brand-600 text-white';
+    const idle = 'bg-zinc-100 text-zinc-700 hover:bg-zinc-200 dark:bg-zinc-800 dark:text-zinc-300 dark:hover:bg-zinc-700';
+
+    const apply = (topic: string, updateUrl: boolean) => {
+      let visible = 0;
+      cards.forEach((card) => {
+        const topics = (card.dataset.topics ?? '').split(',');
+        const show = topic === 'all' || topics.includes(topic);
+        card.classList.toggle('hidden', !show);
+        if (show) visible++;
+      });
+      empty?.classList.toggle('hidden', visible > 0);
+      buttons.forEach((b) => {
+        const on = b.dataset.topic === topic;
+        b.className = `topic-btn px-3 py-1 rounded-full text-sm ${on ? active : idle}`;
+      });
+      if (updateUrl) {
+        const url = new URL(location.href);
+        if (topic === 'all') url.searchParams.delete('topic');
+        else url.searchParams.set('topic', topic);
+        history.replaceState(null, '', url);
+      }
+    };
+
+    const initial = new URL(location.href).searchParams.get('topic');
+    apply(initial === 'adhd' || initial === 'autism' ? initial : 'all', false);
+
+    buttons.forEach((b) => b.addEventListener('click', () => apply(b.dataset.topic ?? 'all', true)));
+  }
+
+  document.addEventListener('astro:page-load', initTopicFilter);
+</script>

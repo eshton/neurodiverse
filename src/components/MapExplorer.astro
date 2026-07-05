@@ -91,6 +91,12 @@ const AGE_FILTERS = [
 
   const HUNGARY_BOUNDS = { south: 45.5, west: 15.8, north: 48.7, east: 23.1 };
 
+  // Module-level (persists across View Transitions): true only until the map has
+  // been rendered once this session. Without it, every client-side navigation
+  // back to `/` re-runs init() with a fresh marker set and would re-bounce every
+  // pin. We still bounce pins freshly revealed by a filter/location change.
+  let firstArrivalAtMap = true;
+
   async function init() {
     const el = document.getElementById('map-explorer');
     if (!el) return;
@@ -144,7 +150,7 @@ const AGE_FILTERS = [
       return itemAge === activeAge || itemAge === 'both';
     }
 
-    async function buildMarker(item: MapItem) {
+    async function buildMarker(item: MapItem, animate: boolean) {
       const position = { lat: item.lat, lng: item.lng };
       const markerOptions: any = { position, map, title: item.title };
       const iconUrl = item.coverImage ? await circularIcon(item.coverImage, item.category) : categoryIcon(item.category);
@@ -164,12 +170,17 @@ const AGE_FILTERS = [
         );
         infoWindow.open(map, marker);
       });
-      // Briefly highlight newly-appeared markers (first load, or freshly revealed by
-      // a filter change) so they're easy to spot instead of just silently existing.
-      marker.setAnimation(g.maps.Animation.BOUNCE);
-      setTimeout(() => marker.setAnimation(null), 1600);
+      // Briefly highlight freshly-revealed markers so they're easy to spot.
+      if (animate) {
+        marker.setAnimation(g.maps.Animation.BOUNCE);
+        setTimeout(() => marker.setAnimation(null), 1600);
+      }
       return marker;
     }
+
+    // Bounce the initial marker set only on the genuine first arrival this
+    // session; markers added by later filter/location changes always bounce.
+    let firstRenderThisInit = true;
 
     async function render() {
       const filtered = items.filter((item) => activeTypes.has(item.category) && matchesAge(item.ageGroup));
@@ -182,12 +193,17 @@ const AGE_FILTERS = [
         }
       }
 
+      const animate = firstRenderThisInit ? firstArrivalAtMap : true;
       const toAdd = filtered.filter((item) => !markersByKey.has(item.href));
       await Promise.all(
         toAdd.map(async (item) => {
-          markersByKey.set(item.href, await buildMarker(item));
+          markersByKey.set(item.href, await buildMarker(item, animate));
         })
       );
+      if (firstRenderThisInit) {
+        firstRenderThisInit = false;
+        firstArrivalAtMap = false;
+      }
     }
 
     // Type filter chips (multi-select toggle, default all active — restored from
