@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "count": 209,
+  "count": 216,
   "categories": {
     "articles": 21,
     "books": 13,
@@ -12,7 +12,7 @@
     "influencers": 3,
     "movies": 40,
     "podcasts": 7,
-    "research": 8,
+    "research": 15,
     "schools": 23,
     "videos": 15
   },
@@ -4889,6 +4889,38 @@
       "body": "Magyar nyelvű, nyílt hozzáférésű áttekintő tanulmány (ELTE, Gyógypedagógiai Szemle)."
     },
     {
+      "id": "hu/bitter-simon-magyar-felnott-adhd-2010",
+      "category": "research",
+      "slug": "bitter-simon-magyar-felnott-adhd-2010",
+      "href": "/hu/research/bitter-simon-magyar-felnott-adhd-2010/",
+      "tags": [
+        "epidemiológia",
+        "magyar populáció",
+        "magyar szerzők",
+        "felnőttkori ADHD"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "adults",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "A felnőttkori ADHD gyakorisága magyar közösségi mintán",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "A Semmelweis Egyetem kutatóinak (Bitter, Simon, Bálint és mtsai) epidemiológiai vizsgálata magyar közösségi mintán: hogyan befolyásolják a diagnosztikai kritériumok, az életkor és a nem a felnőttkori ADHD becsült gyakoriságát. Ritka, konkrétan magyar populációs adat — közvetlenül releváns a hazai ellátás tervezéséhez.",
+      "authors": "Bitter I., Simon V., Bálint S. és mtsai",
+      "venue": "European Archives of Psychiatry and Clinical Neuroscience",
+      "year": 2010,
+      "publicationType": "journal-article",
+      "language": "en",
+      "doi": "10.1007/s00406-009-0076-3",
+      "sourceUrl": "https://doi.org/10.1007/s00406-009-0076-3",
+      "lastReviewed": "2026-07-05",
+      "body": "Magyar (semmelweisi) kutatócsoport magyar mintán végzett, angol nyelven megjelent vizsgálata. A magyar kivonat a szerkesztő megfogalmazása."
+    },
+    {
       "id": "hu/cortese-adhd-gyogyszerek-2018",
       "category": "research",
       "slug": "cortese-adhd-gyogyszerek-2018",
@@ -4918,6 +4950,99 @@
       "sourceUrl": "https://doi.org/10.1016/S2215-0366(18)30269-4",
       "lastReviewed": "2026-07-05",
       "body": "Angol nyelvű szakcikk. A gyógyszeres kezelés mindig szakorvosi döntés — ez a tanulmány a döntés bizonyítékhátterét adja, nem helyettesíti a kezelőorvost. A magyar kivonat a szerkesztő megfogalmazása."
+    },
+    {
+      "id": "hu/faraone-larsson-adhd-genetika-2019",
+      "category": "research",
+      "slug": "faraone-larsson-adhd-genetika-2019",
+      "href": "/hu/research/faraone-larsson-adhd-genetika-2019/",
+      "tags": [
+        "áttekintés",
+        "genetika",
+        "nemzetközi"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Az ADHD genetikája — áttekintés",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "Az ADHD genetikai hátterének áttekintése. Összegzi, hogy az ADHD erősen örökletes, sok gén együttes (poligénes) hatásán alapuló állapot — fontos tudományos ellenérv a „csak rossz nevelés / akaraterő kérdése” tévhittel szemben. Stephen Faraone és Henrik Larsson jegyzi.",
+      "authors": "Faraone, S. V., Larsson, H.",
+      "venue": "Molecular Psychiatry",
+      "year": 2019,
+      "publicationType": "review",
+      "language": "en",
+      "doi": "10.1038/s41380-018-0070-0",
+      "sourceUrl": "https://doi.org/10.1038/s41380-018-0070-0",
+      "lastReviewed": "2026-07-05",
+      "body": "Angol nyelvű áttekintő tanulmány. A magyar kivonat a szerkesztő megfogalmazása. Az „örökletes” populációszintű megállapítás, nem jelenti, hogy egyetlen gén okozná."
+    },
+    {
+      "id": "hu/hoogman-enigma-adhd-agy-2017",
+      "category": "research",
+      "slug": "hoogman-enigma-adhd-agy-2017",
+      "href": "/hu/research/hoogman-enigma-adhd-agy-2017/",
+      "tags": [
+        "neuroimaging",
+        "nagy minta",
+        "nemzetközi"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "ADHD és agyi térfogatkülönbségek — az ENIGMA nagy mintás vizsgálata",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "Az ENIGMA nemzetközi konzorcium sok ezer résztvevőt összesítő vizsgálata az ADHD-val összefüggő agyi (szubkortikális) térfogatkülönbségekről. Kis, de kimutatható eltéréseket talált, elsősorban gyermekeknél. Az egyik legnagyobb ilyen elemzés — fontos árnyalás, hogy csoportszintű átlagos különbségekről van szó.",
+      "authors": "Hoogman, M. és mtsai (ENIGMA-ADHD munkacsoport)",
+      "venue": "The Lancet Psychiatry",
+      "year": 2017,
+      "publicationType": "journal-article",
+      "language": "en",
+      "doi": "10.1016/S2215-0366(17)30049-4",
+      "sourceUrl": "https://doi.org/10.1016/S2215-0366(17)30049-4",
+      "lastReviewed": "2026-07-05",
+      "body": "Angol nyelvű, nagy mintás vizsgálat. A magyar kivonat a szerkesztő megfogalmazása. **Csoportszintű** átlagos különbségekről szól — nem agyi „teszt” az ADHD diagnózisához, és önmagában nem alkalmas egyéni diagnosztikára."
+    },
+    {
+      "id": "hu/lai-autizmus-attekintes-2014",
+      "category": "research",
+      "slug": "lai-autizmus-attekintes-2014",
+      "href": "/hu/research/lai-autizmus-attekintes-2014/",
+      "tags": [
+        "áttekintés",
+        "nemzetközi",
+        "szeminárium"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Autizmus — átfogó áttekintés (Lancet-szeminárium)",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Sokat idézett, átfogó áttekintő tanulmány (Lancet-szeminárium) az autizmusról: tünettan, diagnózis, a háttérben álló okok, együtt járó állapotok és az ellátás. Meg-Chun Lai, Michael Lombardo és Simon Baron-Cohen jegyzi — kiváló általános szakmai bevezető a témába.",
+      "authors": "Lai, M.-C., Lombardo, M. V., Baron-Cohen, S.",
+      "venue": "The Lancet",
+      "year": 2014,
+      "publicationType": "review",
+      "language": "en",
+      "doi": "10.1016/S0140-6736(13)61539-1",
+      "sourceUrl": "https://doi.org/10.1016/S0140-6736(13)61539-1",
+      "lastReviewed": "2026-07-05",
+      "body": "Angol nyelvű áttekintő tanulmány. A magyar kivonat a szerkesztő megfogalmazása."
     },
     {
       "id": "hu/lancet-autizmus-bizottsag-2022",
@@ -4981,6 +5106,39 @@
       "sourceUrl": "https://clinicaltrials.gov/study/NCT01106430",
       "lastReviewed": "2026-07-05",
       "body": "Lezárult (completed) fázis 3b vizsgálat, több magyar gyermekpszichiátriai helyszínnel. A regisztrációs adatlap angol nyelvű; a magyar kivonat a szerkesztő megfogalmazása. Iparági (Shire) szponzoráció — tájékoztatásul szerepel, nem gyógyszerajánlásként."
+    },
+    {
+      "id": "hu/modabbernia-autizmus-kornyezeti-tenyezok-2017",
+      "category": "research",
+      "slug": "modabbernia-autizmus-kornyezeti-tenyezok-2017",
+      "href": "/hu/research/modabbernia-autizmus-kornyezeti-tenyezok-2017/",
+      "tags": [
+        "áttekintés",
+        "kockázati tényezők",
+        "nyílt hozzáférés",
+        "nemzetközi"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Az autizmus környezeti kockázati tényezői — bizonyítékalapú áttekintés",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Rendszerezett áttekintések és metaanalízisek bizonyítékokon alapuló összegzése az autizmus lehetséges környezeti kockázati tényezőiről (pl. magasabb szülői életkor, egyes terhesség/szülés körüli tényezők). Nyíltan elérhető (Molecular Autism). Segít elválasztani, mire van tudományos bizonyíték és mire nincs — a témát övező sok tévhit miatt különösen hasznos.",
+      "authors": "Modabbernia, A., Velthorst, E., Reichenberg, A.",
+      "venue": "Molecular Autism",
+      "year": 2017,
+      "publicationType": "review",
+      "language": "en",
+      "doi": "10.1186/s13229-017-0121-4",
+      "openAccess": true,
+      "sourceUrl": "https://doi.org/10.1186/s13229-017-0121-4",
+      "lastReviewed": "2026-07-05",
+      "body": "Angol nyelvű, nyílt hozzáférésű áttekintés. A magyar kivonat a szerkesztő megfogalmazása. Fontos: „kockázati tényező” statisztikai összefüggést jelent, nem egyértelmű okot — és a tanulmány kifejezetten a bizonyítékok erősségét mérlegeli (a vakcina-autizmus összefüggést a tudomány régóta megcáfolta)."
     },
     {
       "id": "hu/semmelweis-autizmus-etkezes-vizsgalat",
@@ -5078,6 +5236,69 @@
       "sourceUrl": "https://real.mtak.hu/233647/",
       "lastReviewed": "2026-07-05",
       "body": "Magyar nyelvű, nyílt hozzáférésű (CC-BY) tanulmány, az MTA REAL repozitóriumában szabadon elérhető. Előtanulmány — a szerző maga is így jelöli."
+    },
+    {
+      "id": "hu/thapar-adhd-attekintes-2016",
+      "category": "research",
+      "slug": "thapar-adhd-attekintes-2016",
+      "href": "/hu/research/thapar-adhd-attekintes-2016/",
+      "tags": [
+        "áttekintés",
+        "nemzetközi",
+        "szeminárium"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "ADHD — átfogó áttekintés (Lancet-szeminárium)",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "Átfogó áttekintő tanulmány (Lancet-szeminárium) az ADHD-ról: klinikai kép, diagnózis, a háttérben álló okok, kezelés és élettartam-perspektíva (gyermekkortól felnőttkorig). Anita Thapar és Miriam Cooper jegyzi — tömör, tekintélyes szakmai bevezető.",
+      "authors": "Thapar, A., Cooper, M.",
+      "venue": "The Lancet",
+      "year": 2016,
+      "publicationType": "review",
+      "language": "en",
+      "doi": "10.1016/S0140-6736(15)00238-X",
+      "sourceUrl": "https://doi.org/10.1016/S0140-6736(15)00238-X",
+      "lastReviewed": "2026-07-05",
+      "body": "Angol nyelvű áttekintő tanulmány. A magyar kivonat a szerkesztő megfogalmazása."
+    },
+    {
+      "id": "hu/tick-autizmus-orokletesseg-2016",
+      "category": "research",
+      "slug": "tick-autizmus-orokletesseg-2016",
+      "href": "/hu/research/tick-autizmus-orokletesseg-2016/",
+      "tags": [
+        "metaanalízis",
+        "genetika",
+        "örökletesség",
+        "nemzetközi"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Az autizmus örökletessége — ikervizsgálatok metaanalízise",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Ikervizsgálatok metaanalízise az autizmus örökletességéről (heritabilitásáról). A tanulmány megerősíti, hogy az autizmus kialakulásában a genetikai tényezők meghatározó szerepet játszanak, a közös környezeti tényezők kisebb súllyal. Fontos hivatkozás a „mitől lesz valaki autista?” kérdés tudományos megértéséhez.",
+      "authors": "Tick, B., Bolton, P., Happé, F. és mtsai",
+      "venue": "Journal of Child Psychology and Psychiatry",
+      "year": 2016,
+      "publicationType": "review",
+      "language": "en",
+      "doi": "10.1111/jcpp.12499",
+      "sourceUrl": "https://doi.org/10.1111/jcpp.12499",
+      "lastReviewed": "2026-07-05",
+      "body": "Angol nyelvű metaanalízis. A magyar kivonat a szerkesztő megfogalmazása; a heritabilitás statisztikai, populációszintű mutató, nem az egyes emberre vonatkozó „jóslat”."
     },
     {
       "id": "hu/wfadhd-konszenzus-2021",
