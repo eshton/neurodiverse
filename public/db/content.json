@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "count": 165,
+  "count": 170,
   "categories": {
     "books": 13,
     "communities": 8,
     "development": 15,
     "diagnosis": 28,
     "equipment": 19,
-    "food": 2,
+    "food": 7,
     "influencers": 3,
     "movies": 32,
     "podcasts": 7,
@@ -2612,43 +2612,192 @@
       "body": "Alpine Muffy Kids, 25 dB zajcsillapítás, állítható fejpánt, puha béléssel — 5-16 éves korosztálynak. Autishop.hu-n (dedikált magyar autizmus/szenzoros webáruház) kapható, 12 890 Ft. Nem márkaszinten autizmus-specifikus termék, de kifejezetten szenzoros felhasználásra árulja a forgalmazó."
     },
     {
-      "id": "hu/adhd-baratkozo-reggeli",
+      "id": "hu/adhd-taplalkozas-szafi",
       "category": "food",
-      "slug": "adhd-baratkozo-reggeli",
-      "href": "/hu/food/adhd-baratkozo-reggeli/",
+      "slug": "adhd-taplalkozas-szafi",
+      "href": "/hu/food/adhd-taplalkozas-szafi/",
       "tags": [
-        "recipe",
-        "breakfast",
-        "low-effort"
+        "taplalkozas",
+        "mikrotapanyag",
+        "dietetikus",
+        "cukor",
+        "adalekanyag"
       ],
       "ratings": [],
       "availability": "in-stock",
       "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "dietaryTags": [],
+      "title": "Táplálkozás és ADHD — dietetikus áttekintés (Szafi)",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "Evidenciatudatos étrendi áttekintés ADHD-hoz: fehérje és stabil vércukor, mikrotápanyagok (vas, cink, magnézium, D-vitamin, omega-3), valamint a hozzáadott cukor és mesterséges adalékanyagok szerepe. Cél a tünetek támogatása, nem a gyógyítás.",
+      "kind": "guide",
+      "sourceUrl": "https://szafi-dietetikai-team.hu/adhd-taplalkozas-szafi/",
+      "lastReviewed": "2026-07-05",
+      "body": "A Szafi Dietetikai Team áttekintése arról, hogyan támogathatja a táplálkozás az ADHD tüneteinek kezelését. Fontos, hogy a cikk **nem gyógyítást ígér**: végig hangsúlyozza, hogy tudományos konszenzus nincs, és a diéta a kezelés (nem a helyettesítője) mellé illeszkedik.\n\nFőbb pontjai:\n\n- **Fehérje és stabil vércukor** — teljes értékű alapélelmiszerek (zöldség, gyümölcs, hüvelyesek, olajos magvak, sovány fehérje), a feldolgozott ételek és a vércukor-ingadozás minimalizálása.\n- **Mikrotápanyagok** — a vas, cink, magnézium, D-vitamin, B-vitaminok és a szelén szerepe az idegrendszeri működésben. Ezek hiánya ADHD-ban gyakrabban fordul elő, de a pótlás elsősorban **igazolt hiány** esetén indokolt (lásd külön az omega-3 és D-vitamin bejegyzéseinket).\n- **Omega-3** — „ígéretes\", de a cikk is jelzi, hogy a gyógyszeres kezelésnél gyengébben teljesít.\n- **Cukor és adalékanyagok** — a szerzők szerint a mesterséges színezékek/adalékanyagok valószínűleg kedvezőtlenül hatnak, a túlzott cukorfogyasztás pedig fokozhatja a hiperaktivitást.\n- **Eliminációs diéták** — óvatos állásfoglalás: általános megszorítás nem javasolt, kivéve ha egy adott étel kihagyása bizonyíthatóan indokolt.\n\nÉrdemi étrendi változtatás előtt dietetikus/orvos bevonása ajánlott."
+    },
+    {
+      "id": "hu/autista-gyerekek-taplalkozasa",
+      "category": "food",
+      "slug": "autista-gyerekek-taplalkozasa",
+      "href": "/hu/food/autista-gyerekek-taplalkozasa/",
+      "tags": [
+        "food-chaining",
+        "valogatos-eves",
+        "dieta",
+        "dietetikus"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "dietaryTags": [],
+      "title": "Autizmussal élő gyermekek táplálkozása (Kiskanál Kommandó)",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Gyermekdietetikus szakmai cikke az autista gyerekek étkezéséről: food chaining (ételláncolás), osztott tányér, nyomásmentes étkezés — és miért nem ajánlott felügyelet nélkül a glutén-/kazeinmentes diéta.",
+      "kind": "guide",
+      "sourceUrl": "https://kiskanalkommando.hu/autizmussal-elo-gyermekek-taplalkozasa-tanacsok-a-szakemberektol-valogatossag-dietak-tunetek/",
+      "lastReviewed": "2026-07-05",
+      "body": "A Kiskanál Kommandó (gyermektáplálási szakmai műhely) gyermekdietetikusának evidenciaalapú összefoglalója az autizmussal élő gyerekek táplálkozásáról. A cikk szerint a válogatósság ebben a csoportban rendkívül gyakori (a hivatkozott adatok szerint a gyerekek túlnyomó többségét érinti).\n\nGyakorlati módszerei:\n\n- **Food chaining (ételláncolás)** — a már elfogadott ételből kiindulva, apró módosításokkal (más márka, kicsit más forma vagy textúra) építkezünk hónapokon át.\n- **Osztott tányér** — az ételek elkülönítése csökkenti a szenzoros túlterhelést.\n- **Nyomásmentesség és ismétlés** — egy új íz elfogadásához akár 15–20 alkalom is kellhet; az erőltetés kontraproduktív.\n\nA cikk fontos, **kritikus és evidenciatudatos** része a diétákról szól: a glutén- és kazeinmentes étrend elmélete létezik, de a szerző kiemeli, hogy ezt a tudomány **eddig nem igazolta**, és a szigorú megszorítás felügyelet nélkül tápanyaghiányhoz és felesleges terheléshez vezethet. Ilyen diétába csak dietetikus irányításával érdemes belefogni — lásd erről a részletesebb bejegyzésünket is (AOSZ: „A diétához szakember kell\")."
+    },
+    {
+      "id": "hu/autizmus-eveszavarok-korai",
+      "category": "food",
+      "slug": "autizmus-eveszavarok-korai",
+      "href": "/hu/food/autizmus-eveszavarok-korai/",
+      "tags": [
+        "valogatos-eves",
+        "szenzoros",
+        "utmutato",
+        "gyerek"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "dietaryTags": [],
+      "title": "Autizmus és az evészavarok — gyakorlati útmutató",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "A Korai Fejlesztő Központ útmutatója az autizmussal élő gyerekek étkezési nehézségeiről: a válogatósság okai, a szenzoros érzékenység szerepe, és a fokozatos, nyomásmentes szoktatás lépései.",
+      "kind": "guide",
+      "sourceUrl": "https://www.koraifejleszto.hu/autizmus-es-az-eveszavarok/",
+      "lastReviewed": "2026-07-05",
+      "body": "Szakmai útmutató az autizmussal élő gyerekek étkezési nehézségeiről, a Korai Fejlesztő Központ oldalán, Őszi Tamásné gyógypedagógus (Autizmus Alapítvány) tollából.\n\nA cikk abból indul ki, hogy a válogatósság autizmusban nagyon gyakori, és ritkán „csak\" makacsság: hátterében legtöbbször szenzoros érzékenység (a textúra, szag, szín, hőmérséklet érzékelése), az újtól való szorongás és a megszokott rutinokhoz való ragaszkodás áll. Ezért a szokásos szülői módszerek (rábeszélés, „egyél, mert egészséges\") gyakran nem működnek, sőt ronthatnak a helyzeten.\n\nFő tanácsai:\n\n- **Először mérd fel a valós helyzetet** — jegyezd fel, mit, mennyit és milyen gyakran eszik a gyerek, és orvossal zárd ki az esetleges hátterében álló egészségügyi okot, mielőtt bármit átalakítasz.\n- **Nagyon apró, szinte észrevehetetlen lépések** — a már elfogadott étel színén, mennyiségén vagy textúráján lassan, hetek-hónapok alatt változtass.\n- **Ne erőltesd, ne büntesd** — a nyomás fokozza az ellenállást; az új étel eleinte egészen kis mennyiségben, pozitív légkörben kerüljön a tányérra.\n- **Használj vizuális támpontokat** (napirend, képek) a kiszámítható étkezési rutinhoz.\n\nAz útmutató nem ígér gyors megoldást, és nem diétát javasol — a hangsúly a türelmen, a kiszámíthatóságon és a szakemberrel (gyermekorvos, dietetikus, gyógypedagógus) való együttműködésen van."
+    },
+    {
+      "id": "hu/d-vitamin-adhd",
+      "category": "food",
+      "slug": "d-vitamin-adhd",
+      "href": "/hu/food/d-vitamin-adhd/",
+      "tags": [
+        "d-vitamin",
+        "etrendkiegeszito",
+        "hiany",
+        "bizonyitek"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "dietaryTags": [
+        "d-vitamin"
+      ],
+      "title": "D-vitamin és ADHD",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "Kutatások szerint az ADHD-s gyerekek D-vitamin-szintje gyakran alacsonyabb az átlagosnál. Ez egyelőre összefüggés, nem bizonyított ok-okozat vagy gyógymód — a pótlás elsősorban igazolt hiány esetén indokolt, szintmérés és orvosi konzultáció után.",
+      "kind": "supplement",
+      "sourceUrl": "https://pharmaonline.hu/cikk/a-hiperaktivitas-es-az-elhizas-megelozeseben-is-segithet-a-d-vitamin",
+      "lastReviewed": "2026-07-05",
+      "body": "A D-vitamin gyakran felmerül ADHD kapcsán — érdemes tisztán látni, mit mond róla a bizonyíték.\n\nA hivatkozott szakmai forrás (Pharma Online) egy vizsgálatra (Sharif és mtsai, 2015) hivatkozik, amely szerint az ADHD-val küzdő gyerekek D-vitamin-szintje **jelentősen alacsonyabb** volt, mint a kontrollcsoporté. Fontos azonban, hogy ez **korrelációs** eredmény:\n\n- Nem bizonyítja, hogy az alacsony D-vitamin **okozza** az ADHD-t (az irány fordítva is elképzelhető, és zavaró tényezők is közrejátszhatnak).\n- A cikk a valószínűség csökkentéséről / megelőzésről beszél, **nem** igazolt gyógymódról.\n\nGyakorlati következtetés:\n\n- Az igazolt **D-vitamin-hiány** pótlása amúgy is indokolt és biztonságos (Magyarországon a lakosság nagy részét érinti a téli hiány) — de ez nem ADHD-„kezelés\", hanem általános egészségügyi lépés.\n- A szintet érdemes vérvizsgálattal ellenőriztetni, és a dózist **orvossal egyeztetni** (a túladagolás is káros lehet).\n- Hasonló, hiányhoz kötött összefüggést írnak le a vas/ferritin, a cink és a magnézium esetében is — ezekről bővebben a „Táplálkozás és ADHD (Szafi)\" bejegyzésben."
+    },
+    {
+      "id": "hu/gfcf-dieta-szakember",
+      "category": "food",
+      "slug": "gfcf-dieta-szakember",
+      "href": "/hu/food/gfcf-dieta-szakember/",
+      "tags": [
+        "dieta",
+        "gluten",
+        "kazein",
+        "bizonyitek",
+        "dietetikus"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "dietaryTags": [
+        "gluten-free",
+        "casein-free"
+      ],
+      "title": "Gluténmentes/kazeinmentes diéta autizmusnál — csak szakemberrel",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Mit mond és mit nem mond a tudomány a GFCF (glutén- és kazeinmentes) diétáról. A rendszerezett vizsgálatok gyenge bizonyítékot mutatnak, egyes családok mégis javulást tapasztalnak — dietetikus felügyelet nélkül ne kezdj bele.",
+      "kind": "guide",
+      "sourceUrl": "https://aosz.hu/esoember/a-dietahoz-szakember-kell/",
+      "lastReviewed": "2026-07-05",
+      "body": "A glutén- és kazeinmentes (GFCF) diéta az autizmus egyik legvitatottabb táplálkozási témája, ezért érdemes tisztán látni, mit támaszt alá a bizonyíték és mit nem.\n\n**Amit a tudomány jelenleg mutat:** a témát összefoglaló rendszerezett áttekintések szerint a GFCF diétának az autizmus tüneteire minimális vagy semmilyen igazolt hatása nincs, és az azt alátámasztó vizsgálatok jellemzően gyenge minőségűek. Az alaptalanul bevezetett, szigorú megszorítás emellett tápanyaghiány kockázatával jár.\n\n**Amit a gyakorlat is jelez:** ezzel együtt egyes családok és szakemberek beszámolnak javulásról. A hivatkozott forrás (Autisták Országos Szövetsége, Kiss Erika dietetikus) szerint a gyerekek egy részénél megfigyelhető változás — de ez **nem gyógyulás**, nem mindenkinél jelentkezik, és minden gyerek másképp reagál. Elképzelhető, hogy a diéta csak egy szűkebb alcsoportnak használ.\n\n**A közös következtetés minden komoly forrásban ugyanaz:** ha valaki kipróbálná, azt **kizárólag dietetikus/orvos felügyeletével** tegye. A glutén rejtett helyeken (adalékok, sűrítők, panírozás) is előfordul, a diéta mellékhatásokkal (átmeneti emésztési panaszok) járhat, és gondos vitamin-, ásványianyag- és zsírsavpótlást igényel. Önkényesen, szakember nélkül bevezetni nem ajánlott."
+    },
+    {
+      "id": "hu/magas-feherje-reggeli",
+      "category": "food",
+      "slug": "magas-feherje-reggeli",
+      "href": "/hu/food/magas-feherje-reggeli/",
+      "tags": [
+        "reggeli",
+        "feherje",
+        "low-effort",
+        "recept"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
       "entryType": "full",
       "curatedBy": "manual",
       "dietaryTags": [
         "high-protein"
       ],
-      "title": "ADHD-barátkozó reggeli receptek",
+      "title": "Magas fehérjetartalmú, előre elkészíthető reggelik",
       "locale": "hu",
       "topics": [
         "adhd"
       ],
-      "summary": "Egyszerű, fehérjében gazdag reggeli receptek, kevés lépéssel a végrehajtási funkció megkímélésére.",
+      "summary": "7 egyszerű, fehérjében gazdag, előző este előkészíthető reggeliötlet iskolakezdésre. Nem terápia: a fehérje a stabilabb energiát, az előkészíthetőség pedig a reggeli végrehajtási (executive) terhet segíti csökkenteni.",
       "kind": "recipe",
-      "sourceUrl": "https://example.com/food/adhd-baratkozo-reggeli",
-      "lastReviewed": "2026-06-18",
-      "body": "Seed content for schema validation."
+      "sourceUrl": "https://www.21napalatt.hu/7-egeszseges-reggeli-iskolakezdesre/",
+      "lastReviewed": "2026-07-05",
+      "body": "Konkrét, egyszerű reggeliötletek gyűjteménye iskolás gyerekeknek — 7 recept, a legtöbb előző este előkészíthető, így reggel percek alatt kész.\n\nMiért került ez a receptcsokor a listánkba (őszintén): ezek **általános egészséges receptek**, nem ADHD-specifikus orvosi tanács. Két okból relevánsak mégis a neurodivergens hétköznapokban:\n\n- **Fehérje a stabilabb energiáért** — a tojásos, joghurtos, magvas változatok lassabban emelik-ejtik a vércukrot, ami a délelőtti figyelemnek is kedvez (lásd a „Táplálkozás és ADHD\" bejegyzést).\n- **Előkészíthetőség a reggeli végrehajtási teher ellen** — az ADHD egyik legnehezebb pontja a reggeli szervezés; az előző este összeállított reggeli kiveszi a döntést és a sietséget a reggelből.\n\nA gyűjtemény ötletei: gyümölcsös-joghurtos muffin, zabkása (többféle feltéttel), bundáskenyér, meleg szendvics zöldségkrémmel, müzli, zöldséges omlett, valamint teljes kiőrlésű pirítós lekvárral. A textúrában kiszámítható változatok (pl. sima zabkása, omlett) a szenzoros érzékenységű gyerekeknek is barátságosabbak lehetnek.\n\nA konkrét, mennyiségekkel megadott receptekért nyisd meg a forrást."
     },
     {
-      "id": "hu/alacsony-szenzoros-uzsonna",
+      "id": "hu/omega-3-adhd",
       "category": "food",
-      "slug": "alacsony-szenzoros-uzsonna",
-      "href": "/hu/food/alacsony-szenzoros-uzsonna/",
+      "slug": "omega-3-adhd",
+      "href": "/hu/food/omega-3-adhd/",
       "tags": [
-        "guide",
-        "snack",
-        "sensory-friendly"
+        "omega-3",
+        "halolaj",
+        "etrendkiegeszito",
+        "bizonyitek"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -2656,18 +2805,18 @@
       "entryType": "full",
       "curatedBy": "manual",
       "dietaryTags": [
-        "texture-consistent"
+        "omega-3"
       ],
-      "title": "Alacsony szenzoros ingerű uzsonna útmutató",
+      "title": "Omega-3 (halolaj) és ADHD",
       "locale": "hu",
       "topics": [
-        "autism"
+        "adhd"
       ],
-      "summary": "Útmutató kiválasztott textúrájú, kiszámítható ízű uzsonnákhoz szenzoros érzékenység esetén.",
-      "kind": "product",
-      "sourceUrl": "https://example.com/food/alacsony-szenzoros-uzsonna",
-      "lastReviewed": "2026-06-18",
-      "body": "Seed content for schema validation."
+      "summary": "Randomizált vizsgálat szerint a nagy dózisú omega-3 főleg azoknál a gyerekeknél javította a figyelmet és a koncentrációt, akiknek alacsony volt a vér-omega-3-szintje — normál szint mellett nem, sőt ronthat is. Nem a gyógyszeres kezelés pótlása.",
+      "kind": "supplement",
+      "sourceUrl": "https://pharmaonline.hu/cikk/hatasos-lehet-az-omega-3-a-figyelemzavar-egyes-eseteiben",
+      "lastReviewed": "2026-07-05",
+      "body": "Az omega-3 (EPA/DHA, jellemzően halolaj formájában) az egyik legkutatottabb étrendkiegészítő ADHD-ban — de a bizonyíték árnyalt, és ezt fontos pontosan érteni.\n\nA hivatkozott, szakmai forrás (Pharma Online) egy randomizált, kontrollált vizsgálatot ismertet (King's College London és a China Medical University, 92 ADHD-s gyerek):\n\n- Javulás a koncentrációban **csak azoknál a gyerekeknél** jelentkezett, akiknek a vérében **alacsony volt az omega-3-szint**.\n- A normál szintű gyerekeknél a halolaj **nem segített, sőt ellenkező hatást** ért el — tehát „mindenkinek adni\" nem indokolt.\n- Ebben az alacsony szintű alcsoportban a készítmény a figyelem terén a metilfenidátnál (bevett ADHD-gyógyszer) is hatékonyabbnak bizonyult.\n\nMivel Magyarországon a halfogyasztás alacsony, az omega-3-hiány viszonylag gyakori lehet. Ettől függetlenül:\n\n- Az omega-3 **nem helyettesíti** az orvos által előírt kezelést.\n- Ideális esetben a bevezetés előtt érdemes a szintet felmérni, és a dózist/terméket **orvossal, gyermekorvossal egyeztetni**.\n- Patikában, gyógyszertárban több megbízható EPA/DHA-készítmény kapható; konkrét márkát tudatosan nem emelünk ki, mert a minőség és az adagolás egyénileg mérlegelendő."
     },
     {
       "id": "hu/adhdninja",

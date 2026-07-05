@@ -7,7 +7,7 @@ interface WebItem {
   summary: string;
   coverImage?: string;
   href: string;
-  category: 'books' | 'podcasts' | 'videos' | 'equipment' | 'movies';
+  category: 'books' | 'podcasts' | 'videos' | 'equipment' | 'movies' | 'food';
   ageGroup: 'children' | 'adults' | 'both';
   entryType: 'full' | 'episode';
   parentTitle?: string;
@@ -27,6 +27,7 @@ const TYPE_FILTERS = [
   { category: 'equipment', label: 'Eszközök' },
   { category: 'videos', label: 'Videók' },
   { category: 'movies', label: 'Filmek' },
+  { category: 'food', label: 'Receptek' },
 ] as const;
 
 const AGE_FILTERS = [
@@ -107,7 +108,7 @@ const AGE_FILTERS = [
   // State is re-read from localStorage on each run, so resetting it per
   // navigation is correct rather than a regression.
   function initWebExplorer() {
-  const ALL_TYPES = ['podcasts', 'books', 'equipment', 'videos', 'movies'];
+  const ALL_TYPES = ['podcasts', 'books', 'equipment', 'videos', 'movies', 'food'];
   const FILTERS_KEY = 'neuro-web-filters';
   const activeTypes = new Set(ALL_TYPES);
   let activeAge: 'both' | 'children' | 'adults' = 'both';

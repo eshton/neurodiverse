@@ -78,7 +78,14 @@ export async function getStaticPaths() {
   return paths;
 }
 
-const WEB_CATEGORIES = new Set(['books', 'podcasts', 'videos', 'equipment', 'movies']);
+const WEB_CATEGORIES = new Set(['books', 'podcasts', 'videos', 'equipment', 'movies', 'food']);
+
+const KIND_LABELS: Record<string, string> = {
+  recipe: 'Recept',
+  product: 'Termék',
+  guide: 'Útmutató',
+  supplement: 'Étrendkiegészítő',
+};
 
 const { category, locale } = Astro.params;
 const { item } = Astro.props as { item: any };
@@ -134,7 +141,7 @@ const backLabel = WEB_CATEGORIES.has(category as string) ? 'Vissza a Web nézetr
       {extraFields.map(([key, value]) => (
         <>
           <dt class="text-zinc-500 dark:text-zinc-400">{FIELD_LABELS[key] ?? key}</dt>
-          <dd>{Array.isArray(value) ? value.join(', ') : String(value)}</dd>
+          <dd>{key === 'kind' ? (KIND_LABELS[String(value)] ?? String(value)) : Array.isArray(value) ? value.join(', ') : String(value)}</dd>
         </>
       ))}
     </dl>

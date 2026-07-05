@@ -64,7 +64,7 @@ export const collections = {
     lng: z.number().optional(),
   }),
   food: collectionFor('food', {
-    kind: z.enum(['recipe', 'product']),
+    kind: z.enum(['recipe', 'product', 'guide', 'supplement']),
     dietaryTags: z.array(z.string()).default([]),
   }),
   movies: collectionFor('movies', {

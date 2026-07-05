@@ -4,7 +4,7 @@ import WebExplorer from '../components/WebExplorer.astro';
 import DetailPanel from '../components/DetailPanel.astro';
 import { getCollection } from 'astro:content';
 
-const WEB_CATEGORIES = ['podcasts', 'books', 'equipment', 'videos', 'movies'] as const;
+const WEB_CATEGORIES = ['podcasts', 'books', 'equipment', 'videos', 'movies', 'food'] as const;
 
 const items = (
   await Promise.all(
