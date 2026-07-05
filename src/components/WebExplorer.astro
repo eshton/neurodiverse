@@ -39,6 +39,16 @@ const AGE_FILTERS = [
   { value: 'children', label: 'Gyerek' },
   { value: 'adults', label: 'Felnőtt' },
 ] as const;
+
+// Cover shape per category, so cards match the real artwork instead of cropping it:
+// portrait (book covers, film posters — ~2:3) and square (podcast art — 1:1) get a
+// horizontal card (cover left, text right); everything else (videos = 16:9 thumbnails,
+// equipment = landscape product shots) keeps the vertical landscape top-thumbnail.
+const POSTER_SHAPE: Record<string, 'portrait' | 'square'> = {
+  movies: 'portrait',
+  books: 'portrait',
+  podcasts: 'square',
+};
 ---
 <FilterBar>
   <div class="flex flex-wrap gap-1.5" id="type-filters">
@@ -70,9 +80,15 @@ const AGE_FILTERS = [
   <p id="web-empty" class="text-zinc-500 dark:text-zinc-400 hidden">Nincs találat ehhez a szűréshez.</p>
   <div class="grid gap-4" style="grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));">
     {items.map((item) => {
-      // Movies use portrait posters — a horizontal card (poster left, text right)
-      // shows them uncropped, unlike the landscape thumbnail the other categories use.
-      const isMovie = item.category === 'movies';
+      // Portrait (posters/book covers) and square (podcast art) covers get a
+      // horizontal card — cover left, text right — so they show uncropped.
+      const shape = POSTER_SHAPE[item.category];
+      const horizontal = !!shape;
+      const imgClass = shape === 'portrait'
+        ? 'w-24 shrink-0 self-start aspect-[2/3] object-cover bg-zinc-100 dark:bg-zinc-800'
+        : shape === 'square'
+          ? 'w-24 shrink-0 self-start aspect-square object-cover bg-zinc-100 dark:bg-zinc-800'
+          : 'w-full h-32 object-cover bg-zinc-100 dark:bg-zinc-800';
       return (
       <a
         href={item.href}
@@ -81,17 +97,10 @@ const AGE_FILTERS = [
         data-detail
         data-category={item.category}
         data-age={item.ageGroup}
-        class={`web-card flex rounded-xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 overflow-hidden hover:border-brand-400 hover:shadow-sm transition ${isMovie ? 'flex-row' : 'flex-col'}`}
+        class={`web-card flex rounded-xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 overflow-hidden hover:border-brand-400 hover:shadow-sm transition ${horizontal ? 'flex-row' : 'flex-col'}`}
       >
         {item.coverImage && (
-          <img
-            src={item.coverImage}
-            alt=""
-            loading="lazy"
-            class={isMovie
-              ? 'w-24 shrink-0 self-start aspect-[2/3] object-cover bg-zinc-100 dark:bg-zinc-800'
-              : 'w-full h-32 object-cover bg-zinc-100 dark:bg-zinc-800'}
-          />
+          <img src={item.coverImage} alt="" loading="lazy" class={imgClass} />
         )}
         <div class="p-3 flex-1 flex flex-col min-w-0">
           {item.entryType === 'episode' && item.parentTitle && (

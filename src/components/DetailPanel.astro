@@ -75,12 +75,17 @@
         .join('');
       const unavailBadge = item.availability === 'unavailable'
         ? `<span class="text-xs px-2 py-0.5 rounded-full bg-amber-100 dark:bg-amber-950 text-amber-700 dark:text-amber-400">Jelenleg nem elérhető</span>` : '';
-      // Movies have portrait posters — show them centred & uncropped (object-contain)
-      // instead of the landscape banner crop the other categories use.
+      // Match the cover to its real artwork shape: portrait (film posters, book
+      // covers) and square (podcast art) shown centred & uncropped (object-contain);
+      // everything else (landscape video/product shots) keeps the full-width banner.
+      const shape = ({ movies: 'portrait', books: 'portrait', podcasts: 'square' } as Record<string, string>)[item.category];
+      const coverCls = shape === 'portrait'
+        ? 'block mx-auto h-64 w-auto max-w-full object-contain'
+        : shape === 'square'
+          ? 'block mx-auto h-48 w-auto max-w-full object-contain'
+          : 'w-full h-40 object-cover';
       const cover = item.coverImage
-        ? (item.category === 'movies'
-            ? `<img src="${esc(item.coverImage)}" alt="" class="block mx-auto h-64 w-auto max-w-full object-contain rounded-lg border border-zinc-200 dark:border-zinc-800 mb-4 bg-zinc-100 dark:bg-zinc-800" />`
-            : `<img src="${esc(item.coverImage)}" alt="" class="w-full h-40 object-cover rounded-lg border border-zinc-200 dark:border-zinc-800 mb-4 bg-zinc-100 dark:bg-zinc-800" />`)
+        ? `<img src="${esc(item.coverImage)}" alt="" class="${coverCls} rounded-lg border border-zinc-200 dark:border-zinc-800 mb-4 bg-zinc-100 dark:bg-zinc-800" />`
         : '';
       const episode = item.entryType === 'episode' && item.parentTitle
         ? `<p class="text-sm text-sky-700 dark:text-sky-400 font-medium mb-1">Epizód — ${esc(item.parentTitle)}</p>` : '';
