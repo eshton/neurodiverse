@@ -69,8 +69,11 @@ export const collections = {
   }),
   movies: collectionFor('movies', {
     kind: z.enum(['documentary', 'narrative']),
+    format: z.enum(['film', 'series']).optional(), // omitted = film; set 'series' for TV series
     director: z.string().optional(),
+    creator: z.string().optional(), // series showrunner/creator (director is film-oriented)
     year: z.number().optional(),
+    seasons: z.number().optional(), // series only
     runtimeMinutes: z.number().optional(),
     streamingUrls: z.array(z.string().url()).default([]),
   }),

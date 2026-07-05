@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "count": 170,
+  "count": 178,
   "categories": {
     "books": 13,
     "communities": 8,
@@ -9,7 +9,7 @@
     "equipment": 19,
     "food": 7,
     "influencers": 3,
-    "movies": 32,
+    "movies": 40,
     "podcasts": 7,
     "schools": 23,
     "videos": 15
@@ -2963,6 +2963,61 @@
       "body": "Magyarországon jelenleg csak bérelhető vagy megvásárolható (Apple TV Store, Rakuten TV), előfizetős szolgáltatáson nem elérhető."
     },
     {
+      "id": "hu/as-we-see-it",
+      "category": "movies",
+      "slug": "as-we-see-it",
+      "href": "/hu/movies/as-we-see-it/",
+      "tags": [],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "adults",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "streamingUrls": [],
+      "title": "Így látjuk mi (As We See It)",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Amerikai vígjáték-dráma sorozat három autista fiatal felnőttről, akik lakótársakként próbálnak önálló életet, munkát és párkapcsolatot építeni. Az izraeli 'On the Spectrum' sorozat feldolgozása; a főszerepekben autista színészek.",
+      "kind": "narrative",
+      "format": "series",
+      "creator": "Jason Katims",
+      "year": 2022,
+      "seasons": 1,
+      "sourceUrl": "https://en.wikipedia.org/wiki/As_We_See_It",
+      "coverImage": "/covers/as-we-see-it.png",
+      "lastReviewed": "2026-07-05",
+      "body": "Magyarországon az Amazon Prime Videón elérhető (\"Így látjuk mi\" címen). Egy évad után nem folytatták."
+    },
+    {
+      "id": "hu/atypical",
+      "category": "movies",
+      "slug": "atypical",
+      "href": "/hu/movies/atypical/",
+      "tags": [],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "streamingUrls": [],
+      "title": "Atypical",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Netflix-vígjátéksorozat a 18 éves, autista Sam Gardnerről, aki a párkapcsolat és az önállóság útjára lép, felforgatva ezzel az egész családja életét. Az autista tinédzser szemszögét és a család alkalmazkodását humorral és érzékenyen mutatja be.",
+      "kind": "narrative",
+      "format": "series",
+      "creator": "Robia Rashid",
+      "year": 2017,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Atypical_(TV_series)",
+      "coverImage": "/covers/atypical.jpg",
+      "lastReviewed": "2026-07-05",
+      "body": "Magyarországon a Netflixen elérhető (\"Több, mint normális\" címen)."
+    },
+    {
       "id": "hu/autism-in-love",
       "category": "movies",
       "slug": "autism-in-love",
@@ -3068,6 +3123,59 @@
       "coverImage": "/covers/chocolate.jpg",
       "lastReviewed": "2026-07-05",
       "body": "Harcművészeti akciófilm, erőszakos jelenetekkel. Magyarországi legális streaming-elérhetőségét a JustWatch alapján nem sikerült megerősíteni a fenti dátumon."
+    },
+    {
+      "id": "hu/extraordinary-attorney-woo",
+      "category": "movies",
+      "slug": "extraordinary-attorney-woo",
+      "href": "/hu/movies/extraordinary-attorney-woo/",
+      "tags": [],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "streamingUrls": [],
+      "title": "Egy különleges ügyvéd, Woo (Extraordinary Attorney Woo)",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Dél-koreai sorozat Woo Young-wooról, egy autista, kivételes memóriájú kezdő ügyvédről, aki egy nagy szöuli ügyvédi irodánál helyezkedik el, és a szakmai kihívások mellett a társas helyzetekkel is megküzd. A főszereplő autizmusa a történet középpontjában áll.",
+      "kind": "narrative",
+      "format": "series",
+      "year": 2022,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Extraordinary_Attorney_Woo",
+      "coverImage": "/covers/extraordinary-attorney-woo.png",
+      "lastReviewed": "2026-07-05",
+      "body": "Magyarországon a Netflixen elérhető (\"Egy különleges ügyvéd, Woo\" címen)."
+    },
+    {
+      "id": "hu/heartbreak-high",
+      "category": "movies",
+      "slug": "heartbreak-high",
+      "href": "/hu/movies/heartbreak-high/",
+      "tags": [],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "streamingUrls": [],
+      "title": "Szívtipró gimi (Heartbreak High, 2022)",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Ausztrál tinidráma-sorozat (a 90-es évekbeli klasszikus Netflix-újragondolása) egy középiskola diákjairól. A központi szereplők egyike, Quinni, autista lány, akinek a diagnózisa és a mindennapjai önálló, kiemelt szálként jelennek meg — az egyik legismertebb friss autista karakter a tinisorozatokban.",
+      "kind": "narrative",
+      "format": "series",
+      "creator": "Hannah Carroll Chapman",
+      "year": 2022,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Heartbreak_High_(2022_TV_series)",
+      "coverImage": "/covers/heartbreak-high.jpg",
+      "lastReviewed": "2026-07-05",
+      "body": "Ensemble tinidráma, amelyben az autizmus egy kiemelt főszereplő (Quinni) szálán keresztül jelenik meg, nem az egész sorozat fő témájaként. Netflix-saját gyártású sorozat, így a Netflix magyarországi kínálatában is elérhető."
     },
     {
       "id": "hu/hors-normes",
@@ -3204,6 +3312,31 @@
       "body": "Nem találtunk megbízhatóan ellenőrizhető magyarországi streaming-elérhetőséget: a Disney+ Pixar SparkShorts gyűjteménye HU-ban létezik, de nem tudtuk megerősíteni, hogy a Loop szerepel-e benne."
     },
     {
+      "id": "hu/love-on-the-spectrum",
+      "category": "movies",
+      "slug": "love-on-the-spectrum",
+      "href": "/hu/movies/love-on-the-spectrum/",
+      "tags": [],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "streamingUrls": [],
+      "title": "Szerelem és autizmus (Love on the Spectrum)",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Reality/dokumentumsorozat, amely autista fiatal felnőtteket követ, ahogy a randizás és a párkapcsolatok világában próbálnak eligazodni. Eredetileg ausztrál produkció (2019), később amerikai változat is készült.",
+      "kind": "documentary",
+      "format": "series",
+      "year": 2019,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Love_on_the_Spectrum",
+      "lastReviewed": "2026-07-05",
+      "body": "Magyarországon a Netflixen elérhető (\"Szerelem és autizmus\" címen). Borítókép egyelőre nincs (nem sikerült szabadon felhasználható plakátot találni a Wikipédia-szócikkben)."
+    },
+    {
       "id": "hu/loving-lampposts",
       "category": "movies",
       "slug": "loving-lampposts",
@@ -3283,6 +3416,34 @@
       "coverImage": "/covers/molly.jpg",
       "lastReviewed": "2026-07-05",
       "body": "Magyarországi legális streaming-elérhetőségét a JustWatch alapján nem sikerült megerősíteni a fenti dátumon."
+    },
+    {
+      "id": "hu/move-to-heaven",
+      "category": "movies",
+      "slug": "move-to-heaven",
+      "href": "/hu/movies/move-to-heaven/",
+      "tags": [],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "streamingUrls": [],
+      "title": "Move to Heaven (무브 투 헤븐)",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Dél-koreai Netflix-sorozat Geu-ruról, egy Asperger-szindrómás fiatalemberről, aki apja halála után a család 'traumatakarító' vállalkozását viszi tovább (elhunytak hagyatékának rendezése), miközben egy hozzá került rokon is új szerepbe kerül. Érzékeny dráma a gyászról és a kapcsolódásról.",
+      "kind": "narrative",
+      "format": "series",
+      "director": "Kim Sung-ho",
+      "year": 2021,
+      "seasons": 1,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Move_to_Heaven",
+      "coverImage": "/covers/move-to-heaven.jpg",
+      "lastReviewed": "2026-07-05",
+      "body": "Netflix-saját gyártású (Netflix Original) sorozat, így a Netflix magyarországi kínálatában is elérhető."
     },
     {
       "id": "hu/mozart-and-the-whale",
@@ -3399,7 +3560,7 @@
       "href": "/hu/movies/percy-jackson-lightning-thief/",
       "tags": [],
       "ratings": [],
-      "availability": "unavailable",
+      "availability": "in-stock",
       "ageGroup": "both",
       "entryType": "full",
       "curatedBy": "manual",
@@ -3417,7 +3578,7 @@
       "sourceUrl": "https://en.wikipedia.org/wiki/Percy_Jackson_%26_the_Olympians:_The_Lightning_Thief",
       "coverImage": "/covers/percy-jackson-lightning-thief.jpg",
       "lastReviewed": "2026-07-05",
-      "body": "Az ADHD és a diszlexia elsősorban a szereplő bemutatásában jelenik meg, nem végigvitt téma. A film magyarországi legális streaming-elérhetőségét a JustWatch alapján nem sikerült megerősíteni a fenti dátumon (nemzetközileg több szolgáltatón elérhető)."
+      "body": "Az ADHD és a diszlexia elsősorban a szereplő bemutatásában jelenik meg, nem végigvitt téma. Magyarországon a Disney+-on előfizetéssel elérhető (illetve kölcsönözhető/megvásárolható az Apple TV-n és a Rakuten TV-n)."
     },
     {
       "id": "hu/please-stand-by",
@@ -3553,6 +3714,34 @@
       "body": "Magyarországon a HBO Max-on elérhető."
     },
     {
+      "id": "hu/the-a-word",
+      "category": "movies",
+      "slug": "the-a-word",
+      "href": "/hu/movies/the-a-word/",
+      "tags": [],
+      "ratings": [],
+      "availability": "unavailable",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "streamingUrls": [],
+      "title": "The A Word",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Brit drámasorozat egy családról, amely szembesül azzal, hogy kisfiuk, Joe, autista. A diagnózis körüli folyamatot, a szülők és a tágabb család reakcióit és alkalmazkodását követi. Az izraeli 'Yellow Peppers' sorozat feldolgozása.",
+      "kind": "narrative",
+      "format": "series",
+      "creator": "Peter Bowker",
+      "year": 2016,
+      "seasons": 3,
+      "sourceUrl": "https://en.wikipedia.org/wiki/The_A_Word",
+      "coverImage": "/covers/the-a-word.jpg",
+      "lastReviewed": "2026-07-05",
+      "body": "Magyarországi legális streaming-elérhetőségét a JustWatch alapján nem sikerült megerősíteni a fenti dátumon."
+    },
+    {
       "id": "hu/the-accountant",
       "category": "movies",
       "slug": "the-accountant",
@@ -3657,6 +3846,32 @@
       "sourceUrl": "https://www.imdb.com/title/tt14854294/",
       "lastReviewed": "2026-07-05",
       "body": "Magyarországon jelenleg csak bérelhető vagy megvásárolható (Apple TV Store), előfizetős szolgáltatáson nem elérhető. A pontos játékidőt a források eltérően adják meg (90 vagy 98 perc), ezért itt nem szerepel."
+    },
+    {
+      "id": "hu/the-good-doctor",
+      "category": "movies",
+      "slug": "the-good-doctor",
+      "href": "/hu/movies/the-good-doctor/",
+      "tags": [],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "streamingUrls": [],
+      "title": "Doktor Murphy (The Good Doctor)",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Amerikai kórházi drámasorozat Shaun Murphyről, egy autista, szavant képességű fiatal sebészről, aki egy tekintélyes kórházban dolgozik, miközben a kollégái és a betegek előítéleteivel is szembesül. A 2013-as azonos című dél-koreai sorozat feldolgozása.",
+      "kind": "narrative",
+      "format": "series",
+      "year": 2017,
+      "seasons": 7,
+      "sourceUrl": "https://en.wikipedia.org/wiki/The_Good_Doctor_(American_TV_series)",
+      "lastReviewed": "2026-07-05",
+      "body": "Magyarországon a Netflixen elérhető (\"Doktor Murphy\" címen). Hét évadot élt meg (2017–2024). Borítókép egyelőre nincs (nem sikerült szabadon felhasználható plakátot találni a Wikipédia-szócikkben)."
     },
     {
       "id": "hu/the-reason-i-jump",

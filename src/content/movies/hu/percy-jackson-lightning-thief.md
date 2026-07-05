@@ -8,11 +8,10 @@ director: "Chris Columbus"
 year: 2010
 runtimeMinutes: 119
 ageGroup: both
-availability: unavailable
 sourceUrl: "https://en.wikipedia.org/wiki/Percy_Jackson_%26_the_Olympians:_The_Lightning_Thief"
 coverImage: "/covers/percy-jackson-lightning-thief.jpg"
 ratings: []
 lastReviewed: 2026-07-05
 ---
 
-Az ADHD és a diszlexia elsősorban a szereplő bemutatásában jelenik meg, nem végigvitt téma. A film magyarországi legális streaming-elérhetőségét a JustWatch alapján nem sikerült megerősíteni a fenti dátumon (nemzetközileg több szolgáltatón elérhető).
+Az ADHD és a diszlexia elsősorban a szereplő bemutatásában jelenik meg, nem végigvitt téma. Magyarországon a Disney+-on előfizetéssel elérhető (illetve kölcsönözhető/megvásárolható az Apple TV-n és a Rakuten TV-n).

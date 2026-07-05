@@ -50,6 +50,8 @@ const FIELD_LABELS: Record<string, string> = {
   priceRange: 'Ár',
   retailerUrls: 'Vásárlási linkek',
   kind: 'Típus',
+  format: 'Formátum',
+  seasons: 'Évadok',
   dietaryTags: 'Diétás címkék',
   providerType: 'Típus',
   ageGroup: 'Korosztály',
@@ -61,6 +63,14 @@ const FIELD_LABELS: Record<string, string> = {
   year: 'Év',
   runtimeMinutes: 'Hossz (perc)',
   streamingUrls: 'Elérhető ezeken',
+};
+
+// Hungarian display for enum-ish values that would otherwise render in English.
+const VALUE_LABELS: Record<string, string> = {
+  documentary: 'dokumentumfilm',
+  narrative: 'játékfilm',
+  film: 'film',
+  series: 'sorozat',
 };
 
 export async function getStaticPaths() {
@@ -141,7 +151,7 @@ const backLabel = WEB_CATEGORIES.has(category as string) ? 'Vissza a Web nézetr
       {extraFields.map(([key, value]) => (
         <>
           <dt class="text-zinc-500 dark:text-zinc-400">{FIELD_LABELS[key] ?? key}</dt>
-          <dd>{key === 'kind' ? (KIND_LABELS[String(value)] ?? String(value)) : Array.isArray(value) ? value.join(', ') : String(value)}</dd>
+          <dd>{Array.isArray(value) ? value.join(', ') : (KIND_LABELS[String(value)] ?? VALUE_LABELS[String(value)] ?? String(value))}</dd>
         </>
       ))}
     </dl>
