@@ -179,6 +179,7 @@ const POSTER_SHAPE: Record<string, 'portrait' | 'square'> = {
     btn.classList.toggle('dark:bg-zinc-800', !active);
     btn.classList.toggle('text-zinc-600', !active);
     btn.classList.toggle('dark:text-zinc-300', !active);
+    btn.setAttribute('aria-pressed', String(active));
 
     btn.addEventListener('click', () => {
       const type = btn.dataset.type!;
@@ -191,6 +192,7 @@ const POSTER_SHAPE: Record<string, 'portrait' | 'square'> = {
         btn.classList.add('bg-brand-600', 'text-white');
         btn.classList.remove('bg-zinc-100', 'dark:bg-zinc-800', 'text-zinc-600', 'dark:text-zinc-300');
       }
+      btn.setAttribute('aria-pressed', String(activeTypes.has(type)));
       saveFilters();
       render();
     });
@@ -206,6 +208,7 @@ const POSTER_SHAPE: Record<string, 'portrait' | 'square'> = {
       b.classList.toggle('dark:bg-zinc-800', !active);
       b.classList.toggle('text-zinc-600', !active);
       b.classList.toggle('dark:text-zinc-300', !active);
+      b.setAttribute('aria-pressed', String(active));
     });
   }
   ageButtons.forEach((btn) => {

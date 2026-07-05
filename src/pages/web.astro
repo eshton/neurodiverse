@@ -3,12 +3,11 @@ import MapLayout from '../layouts/MapLayout.astro';
 import WebExplorer from '../components/WebExplorer.astro';
 import DetailPanel from '../components/DetailPanel.astro';
 import { getCollection } from 'astro:content';
-
-const WEB_CATEGORIES = ['podcasts', 'books', 'equipment', 'videos', 'movies', 'food', 'articles', 'research'] as const;
+import { WEB_CATEGORIES } from '../lib/categories';
 
 const items = (
   await Promise.all(
-    WEB_CATEGORIES.map(async (category) => {
+    [...WEB_CATEGORIES].map(async (category) => {
       const entries = await getCollection(category as any, (entry: any) => entry.data.locale === 'hu');
       return entries.map((entry: any) => ({
         title: entry.data.title,

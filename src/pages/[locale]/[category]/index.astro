@@ -90,7 +90,7 @@ const countrysideClinics = geoTagged.filter((c) => c.city !== 'Budapest');
             <img
               src={cover}
               alt=""
-              class="w-14 h-auto rounded-md border border-zinc-200 dark:border-zinc-800 shrink-0 object-cover"
+              class="w-14 h-14 rounded-md border border-zinc-200 dark:border-zinc-800 shrink-0 object-cover"
               loading="lazy"
             />
           )}
@@ -156,6 +156,7 @@ const countrysideClinics = geoTagged.filter((c) => c.city !== 'Budapest');
       buttons.forEach((b) => {
         const on = b.dataset.topic === topic;
         b.className = `topic-btn px-3 py-1 rounded-full text-sm ${on ? active : idle}`;
+        b.setAttribute('aria-pressed', String(on));
       });
       if (updateUrl) {
         const url = new URL(location.href);

@@ -46,8 +46,49 @@ const extraFields = Object.entries(data).filter(([key]) => !BASE_FIELDS.has(key)
 const cover = data.coverImage ?? placeholderFor(data.providerType);
 const backHref = WEB_CATEGORIES.has(category as string) ? '/web/' : '/';
 const backLabel = WEB_CATEGORIES.has(category as string) ? 'Vissza a Web nézetre' : 'Vissza a térképre';
+
+// schema.org structured data (JSON-LD) for richer search results. Type is mapped
+// per category; only fields we actually have are emitted.
+const SCHEMA_TYPE: Record<string, string> = {
+  diagnosis: 'MedicalClinic', development: 'MedicalBusiness', schools: 'EducationalOrganization',
+  communities: 'Organization', articles: 'Article', research: 'ScholarlyArticle',
+  books: 'Book', movies: 'Movie', podcasts: 'PodcastSeries', videos: 'VideoObject',
+  equipment: 'Product', food: 'CreativeWork',
+};
+const abs = (path: string) => (Astro.site ? new URL(path, Astro.site).href : undefined);
+const jsonLd: Record<string, any> = {
+  '@context': 'https://schema.org',
+  '@type': SCHEMA_TYPE[category as string] ?? 'Thing',
+  name: data.title,
+  description: data.summary,
+  inLanguage: 'hu',
+};
+const canonical = abs(Astro.url.pathname);
+if (canonical) jsonLd.url = canonical;
+if (cover && abs(cover)) jsonLd.image = abs(cover);
+if (data.sourceUrl) jsonLd.sameAs = data.sourceUrl;
+if (data.lat != null && data.lng != null) {
+  jsonLd.geo = { '@type': 'GeoCoordinates', latitude: data.lat, longitude: data.lng };
+  jsonLd.address = {
+    '@type': 'PostalAddress',
+    ...(data.address ? { streetAddress: data.address } : {}),
+    ...(data.city ? { addressLocality: data.city } : {}),
+    addressCountry: 'HU',
+  };
+}
+if (category === 'articles') {
+  if (data.author) jsonLd.author = { '@type': 'Person', name: data.author };
+  if (data.publication) jsonLd.publisher = { '@type': 'Organization', name: data.publication };
+  if (data.publishedDate) jsonLd.datePublished = data.publishedDate;
+}
+if (category === 'research') {
+  if (data.authors) jsonLd.author = { '@type': 'Person', name: data.authors };
+  if (data.venue) jsonLd.publisher = { '@type': 'Organization', name: data.venue };
+  if (data.year) jsonLd.datePublished = String(data.year);
+}
 ---
 <Layout title={`${data.title} — Neurodiverse`} locale={locale} description={data.summary} image={cover}>
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(jsonLd)} />
   <p class="mb-6">
     <a href={backHref} class="text-sm text-brand-700 dark:text-brand-300 hover:underline">
       &larr; {backLabel}
@@ -60,7 +101,7 @@ const backLabel = WEB_CATEGORIES.has(category as string) ? 'Vissza a Web nézetr
         src={cover}
         alt={`${data.title} borító`}
         class="w-28 sm:w-36 h-auto rounded-lg border border-zinc-200 dark:border-zinc-800 shrink-0 object-cover"
-        loading="lazy"
+        loading="eager"
       />
     )}
     <div class="min-w-0">

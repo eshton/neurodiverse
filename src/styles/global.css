@@ -28,3 +28,17 @@ body {
 .clinic-map *:focus {
   outline: none;
 }
+
+/* Respect a user's reduced-motion preference: near-instant transitions and
+   animations (View Transitions, the slide-over, filter chevron, marker bounce
+   is separately gated in JS). Keeps functionality, drops the movement. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

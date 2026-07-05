@@ -1,0 +1,29 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout
+  title="Az oldal nem található — Neurodiverse"
+  description="A keresett oldal nem található."
+>
+  <div class="py-16 text-center">
+    <p class="text-6xl font-bold text-brand-600 dark:text-brand-400">404</p>
+    <h1 class="mt-4 text-2xl font-bold tracking-tight">Ez az oldal nem található</h1>
+    <p class="mt-2 text-zinc-600 dark:text-zinc-400">
+      Lehet, hogy a hivatkozás elavult, vagy elgépelted a címet.
+    </p>
+    <div class="mt-8 flex flex-wrap justify-center gap-3">
+      <a
+        href="/"
+        class="inline-block px-4 py-2 rounded-lg bg-brand-600 text-white text-sm font-medium hover:bg-brand-700"
+      >
+        Vissza a térképre
+      </a>
+      <a
+        href="/web/"
+        class="inline-block px-4 py-2 rounded-lg border border-zinc-300 dark:border-zinc-700 text-sm font-medium text-zinc-700 dark:text-zinc-200 hover:bg-zinc-100 dark:hover:bg-zinc-800"
+      >
+        Web nézet
+      </a>
+    </div>
+  </div>
+</Layout>
