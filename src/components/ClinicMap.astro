@@ -119,10 +119,15 @@ const { clinics, region = 'hungary', category } = Astro.props;
     }
   }
 
-  document.querySelectorAll<HTMLElement>('.clinic-map').forEach((el) => {
-    initMap(el).catch((err) => {
-      console.error('ClinicMap failed to load', err);
-      el.textContent = 'A térkép betöltése sikertelen.';
+  // Re-run on every View Transitions navigation, not just first load — a
+  // bundled module script executes once, so without this the embedded maps
+  // would not initialize after a client-side navigation.
+  document.addEventListener('astro:page-load', () => {
+    document.querySelectorAll<HTMLElement>('.clinic-map').forEach((el) => {
+      initMap(el).catch((err) => {
+        console.error('ClinicMap failed to load', err);
+        el.textContent = 'A térkép betöltése sikertelen.';
+      });
     });
   });
 </script>

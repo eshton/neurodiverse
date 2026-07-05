@@ -281,9 +281,14 @@ const AGE_FILTERS = [
     await render();
   }
 
-  init().catch((err) => {
-    console.error('MapExplorer failed to load', err);
-    const el = document.getElementById('map-explorer');
-    if (el) el.textContent = 'A térkép betöltése sikertelen.';
+  // astro:page-load fires on the initial load AND after every View Transitions
+  // navigation; bundled module scripts run only once, so init must be re-invoked
+  // here or the map would go blank after a client-side navigation.
+  document.addEventListener('astro:page-load', () => {
+    init().catch((err) => {
+      console.error('MapExplorer failed to load', err);
+      const el = document.getElementById('map-explorer');
+      if (el) el.textContent = 'A térkép betöltése sikertelen.';
+    });
   });
 </script>

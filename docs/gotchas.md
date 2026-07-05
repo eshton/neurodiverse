@@ -17,6 +17,13 @@ Environment/tooling traps hit during this session. Read before repeating the sam
 - Nominatim (OpenStreetMap geocoding) requires a **real identifying User-Agent** and **max 1 request/second** — generic/empty UAs get rejected, and hammering it will get you rate-limited or blocked. Always `sleep 1.1` between calls in a loop.
 - Hungarian-locale scraping: don't search page HTML for English strings like "subscribers" or "likes" — YouTube/etc. render the locale-appropriate text (`"feliratkozó"`, `"ezer"` for thousand) and that's what's actually in the DOM.
 
+## Astro View Transitions (`<ClientRouter/>`)
+
+Added to both layouts for app-like navigation. Two traps that will silently break things if you touch client scripts or the theme handling:
+
+- **Bundled module `<script>`s run exactly once, not per navigation.** After a client-side (View Transitions) navigation the script does *not* re-execute, so any top-level init (map creation, filter wiring) never fires on the second page and the feature looks dead. Fix: register the init on the **`astro:page-load`** event (fires on first load *and* after every swap) instead of calling it at the top level. This is why `MapExplorer`, `ClinicMap`, and `WebExplorer` wrap their init in `document.addEventListener('astro:page-load', ...)`. Don't move those calls back to the top level. `DOMContentLoaded` also won't re-fire on client-side nav — same trap.
+- **The dark-mode class gets dropped on swap.** On navigation the incoming page's `<html>` attributes replace the live element's, so a `dark` class added by JS is lost → the site flashes to light on every click. Fix: re-apply the theme on **`astro:after-swap`** (done in both layouts' `is:inline` head script, alongside the first-paint call). The listener is on `document`, which persists across navigations, so registering it once is enough.
+
 ## Chrome DevTools MCP
 
 Hit a persistent "browser is already running for /Users/aston/.cache/chrome-devtools-mcp/chrome-profile, use --isolated" error every time `new_page`/`list_pages`/etc. were called this session, including on a fresh call much later — looks like a stale lock from a prior session's browser process that never released. Didn't chase killing it (didn't want to blindly kill a Chrome process that might be something else the user has open). If live browser verification/screenshots are needed and this error recurs, either ask the user to close/check their Chrome DevTools MCP browser instance, or use an isolated context explicitly — `new_page` takes an `isolatedContext` param, though that alone didn't clear this particular error in testing.

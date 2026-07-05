@@ -15,7 +15,8 @@ Read these before doing content or feature work:
 - **Stack**: Astro 7 + Tailwind v4 + content collections (Zod schemas in `src/content.config.ts`). No DB, no auth, static build.
 - **Routes**: `/hu/` → `/hu/<category>/` (listing, topic filter, map if geo-tagged) → `/hu/<category>/<slug>/` (detail).
 - **Categories today**: books, podcasts, videos, influencers, equipment, food, communities, diagnosis, schools. Check `docs/content-status.md` for which are real vs. still MVP placeholder.
-- **Dev**: `npm run dev` (localhost:4321). Build: `npm run build`. Always rebuild after schema or content changes to catch Zod validation errors before reporting done.
+- **Dev**: `npm run dev` (localhost:4321). Build: `npm run build`. Both run `scripts/build-db.mjs` first (`predev`/`prebuild`) to regenerate the committed dataset. Always rebuild after schema or content changes to catch Zod validation errors before reporting done.
+- **Data layer**: the whole content set is serialized to `public/db/content.json` (served at `/db/content.json`, committed as an open-source database) and navigation uses Astro View Transitions — see `docs/architecture.md` "Client-side data layer & navigation". Regenerate the JSON with `npm run build:db`; don't hand-edit it.
 - **Deploy target**: Cloudflare Pages, static output — see `docs/deployment.md`.
 - **Do not fabricate data.** Every rating, price, address, and link in this repo is meant to be real and checked. If you can't verify something, leave the field empty/omitted rather than inventing a plausible-looking value — see curation-methodology.md.
 

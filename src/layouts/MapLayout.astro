@@ -1,6 +1,7 @@
 ---
 import './../styles/global.css';
 import SiteHeader from '../components/SiteHeader.astro';
+import { ClientRouter } from 'astro:transitions';
 
 interface Props {
   title: string;
@@ -20,10 +21,18 @@ const { title } = Astro.props;
       rel="stylesheet"
     />
     <title>{title}</title>
+    <ClientRouter />
     <script is:inline>
-      if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.documentElement.classList.add('dark');
-      }
+      // Apply dark mode on first paint AND re-apply after each View Transitions
+      // swap: the incoming page's <html> attributes replace the live ones, which
+      // would otherwise drop the `dark` class and flash the site to light.
+      const applyTheme = () => {
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          document.documentElement.classList.add('dark');
+        }
+      };
+      applyTheme();
+      document.addEventListener('astro:after-swap', applyTheme);
     </script>
   </head>
   <body class="bg-white text-zinc-800 dark:bg-zinc-950 dark:text-zinc-100 h-screen flex flex-col overflow-hidden">

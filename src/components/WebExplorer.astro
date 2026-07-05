@@ -101,6 +101,11 @@ const AGE_FILTERS = [
 </div>
 
 <script>
+  // Wrapped in a function fired on astro:page-load so filtering re-binds after
+  // every View Transitions navigation (bundled module scripts run only once).
+  // State is re-read from localStorage on each run, so resetting it per
+  // navigation is correct rather than a regression.
+  function initWebExplorer() {
   const ALL_TYPES = ['podcasts', 'books', 'equipment', 'videos', 'movies'];
   const FILTERS_KEY = 'neuro-web-filters';
   const activeTypes = new Set(ALL_TYPES);
@@ -187,4 +192,7 @@ const AGE_FILTERS = [
   setActiveAgeButton(activeAge);
 
   render();
+  }
+
+  document.addEventListener('astro:page-load', initWebExplorer);
 </script>

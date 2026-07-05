@@ -1,0 +1,4498 @@
+{
+  "schemaVersion": 1,
+  "count": 147,
+  "categories": {
+    "books": 13,
+    "communities": 8,
+    "development": 15,
+    "diagnosis": 28,
+    "equipment": 19,
+    "food": 2,
+    "influencers": 3,
+    "movies": 14,
+    "podcasts": 7,
+    "schools": 23,
+    "videos": 15
+  },
+  "items": [
+    {
+      "id": "hu/adhd-tunetegyuttes",
+      "category": "books",
+      "slug": "adhd-tunetegyuttes",
+      "href": "/hu/books/adhd-tunetegyuttes/",
+      "tags": [
+        "parents",
+        "teachers",
+        "children"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "ADHD — A hiperaktivitás-figyelemzavar tünetegyüttes",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "Mark Selikowitz gyakorlatias kézikönyve szülőknek, tanároknak, ADHD-s gyerekek felismeréséhez és kezeléséhez.",
+      "author": "Mark Selikowitz",
+      "isbn": "9786155015014",
+      "sourceUrl": "https://www.libri.hu/konyv/mark_selikowitz.adhd-a-hiperaktivitas-figyelemzavar-tunetegyuttes.html",
+      "coverImage": "/covers/adhd-tunetegyuttes.jpg",
+      "lastReviewed": "2026-07-04",
+      "body": "Geobook Hungary, 2010, 254 oldal, 3325 Ft."
+    },
+    {
+      "id": "hu/asperger-szindroma-kezikonyve",
+      "category": "books",
+      "slug": "asperger-szindroma-kezikonyve",
+      "href": "/hu/books/asperger-szindroma-kezikonyve/",
+      "tags": [
+        "asperger",
+        "clinical",
+        "foundational"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Az Asperger-szindróma kézikönyve — Szülőknek, pedagógusoknak, szakembereknek",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Tony Attwood évtizedes klinikai tapasztalatára épülő, közérthető alapműve az Asperger-szindrómáról érintetteknek, hozzátartozóknak és szakembereknek.",
+      "author": "Tony Attwood",
+      "isbn": "9789633243398",
+      "sourceUrl": "https://www.libri.hu/konyv/tony_attwood.az-asperger-szindroma-kezikonyve.html",
+      "coverImage": "/covers/asperger-szindroma-kezikonyve.jpg",
+      "lastReviewed": "2026-07-04",
+      "body": "animus kiadó, 2015, 400 oldal, 4731 Ft."
+    },
+    {
+      "id": "hu/autizmus-elmelettol-gyakorlatig",
+      "category": "books",
+      "slug": "autizmus-elmelettol-gyakorlatig",
+      "href": "/hu/books/autizmus-elmelettol-gyakorlatig/",
+      "tags": [
+        "clinical",
+        "education",
+        "foundational"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Autizmus — Az elmélettől a gyakorlatig",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Theo Peeters alapműve az autizmus spektrumzavarról, elméleti háttérrel és gyakorlati, oktatási megközelítéssel szakemberek és szülők számára.",
+      "author": "Theo Peeters",
+      "isbn": "9789637723247",
+      "sourceUrl": "https://www.libri.hu/konyv/theo_peeters.autizmus-2.html",
+      "coverImage": "/covers/autizmus-elmelettol-gyakorlatig.jpg",
+      "lastReviewed": "2026-07-04",
+      "body": "Autizmus Alapítvány, 2007, 132 oldal, spirálkötés, 5107 Ft."
+    },
+    {
+      "id": "hu/az-autizmus-erzekelesvilaganak-felfedezese",
+      "category": "books",
+      "slug": "az-autizmus-erzekelesvilaganak-felfedezese",
+      "href": "/hu/books/az-autizmus-erzekelesvilaganak-felfedezese/",
+      "tags": [
+        "parents",
+        "sensory",
+        "lived-experience"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Hogyan legyek legjobb szülő? I. — Az autizmus érzékelésvilágának felfedezése",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Olga Bogdashina saját szülői és szakmai tapasztalataira épülő könyve az autista gyerekek szenzoros feldolgozási nehézségeinek megértéséről.",
+      "author": "Olga Bogdashina",
+      "isbn": "9786155015618",
+      "sourceUrl": "https://www.lira.hu/hu/konyv/ismeretterjeszto-1/egyeb/hogyan-legyek-legjobb-szulo-1-az-autizmus-erzekelesvilaganak-felfedezese",
+      "coverImage": "/covers/az-autizmus-erzekelesvilaganak-felfedezese.jpg",
+      "lastReviewed": "2026-07-04",
+      "body": "Geobook Hungary, 2021, 144 oldal, ~2550 Ft (akciós ár)."
+    },
+    {
+      "id": "hu/hat-ezert-ugralok",
+      "category": "books",
+      "slug": "hat-ezert-ugralok",
+      "href": "/hu/books/hat-ezert-ugralok/",
+      "tags": [
+        "memoir",
+        "nonverbal",
+        "own-voices",
+        "out-of-print"
+      ],
+      "ratings": [],
+      "availability": "unavailable",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Hát ezért ugrálok",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Naoki Higashida 13 évesen írt önéletrajzi könyve, belső nézőpontot ad az autizmusról egy súlyosan autista, nonverbális szerző szemével.",
+      "author": "Naoki Higashida",
+      "isbn": "9789633550694",
+      "sourceUrl": "https://www.antikvarium.hu/konyv/naoki-higashida-hat-ezert-ugralok-940548-0",
+      "coverImage": "/covers/hat-ezert-ugralok.jpg",
+      "lastReviewed": "2026-07-04",
+      "body": "Park Könyvkiadó, 2014, 167 oldal. Jelenleg nincs megvásárolható példány sem antikvár, sem új könyvesboltokban — utoljára ellenőrizve 2026-07-04-én."
+    },
+    {
+      "id": "hu/kepekben-gondolkodom",
+      "category": "books",
+      "slug": "kepekben-gondolkodom",
+      "href": "/hu/books/kepekben-gondolkodom/",
+      "tags": [
+        "memoir",
+        "own-voices",
+        "science"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Képekben gondolkodom — Életem az autizmussal",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Temple Grandin önéletrajzi könyve arról, hogyan gondolkodik és érzékeli a világot egy autista tudós, aki sikeres karriert épített a korlátai ellenére.",
+      "author": "Temple Grandin",
+      "isbn": "9789633550632",
+      "sourceUrl": "https://www.libri.hu/konyv/templ_grandin.kepekben-gondolkodom.html",
+      "coverImage": "/covers/kepekben-gondolkodom.jpg",
+      "lastReviewed": "2026-07-04",
+      "body": "Park Könyvkiadó, 2014, 344 oldal, 3325 Ft."
+    },
+    {
+      "id": "hu/maskepp-gondolkodok-adhd",
+      "category": "books",
+      "slug": "maskepp-gondolkodok-adhd",
+      "href": "/hu/books/maskepp-gondolkodok-adhd/",
+      "tags": [
+        "children",
+        "illustrated",
+        "education"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Másképp gondolkodók: ADHD",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "Illusztrált gyerekkönyv, amely gyermekbarát nyelven és képekkel magyarázza el az ADHD-t kisiskolásoknak és szüleiknek.",
+      "author": "Katia Fredriksen, Yael Rothman",
+      "isbn": "9786151140093",
+      "sourceUrl": "https://www.libri.hu/konyv/katia_fredriksen.maskepp-gondolkodok-adhd.html",
+      "coverImage": "/covers/maskepp-gondolkodok-adhd.jpg",
+      "lastReviewed": "2026-07-04",
+      "body": "kulcslyuk kiadó, 2026, 39 oldal, keménytáblás, 4000 Ft."
+    },
+    {
+      "id": "hu/szetszortsag",
+      "category": "books",
+      "slug": "szetszortsag",
+      "href": "/hu/books/szetszortsag/",
+      "tags": [
+        "classic",
+        "clinical"
+      ],
+      "ratings": [
+        {
+          "source": "Bookline",
+          "score": 5,
+          "scale": 5,
+          "url": "https://bookline.hu/product/home.action?_v=Edward_M_Hallowell_John_J_Ratey_Szet&type=22&id=270734",
+          "note": "1 értékelés alapján — kis mintaszám",
+          "checkedAt": "2026-07-04"
+        }
+      ],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Szétszórtság — A gyermek- és felnőttkori figyelemhiányos zavar (ADHD és ADD) felismerése és leküzdése",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "Edward M. Hallowell és John J. Ratey klasszikusa, saját ADHD-tapasztalatokra és esettanulmányokra épülő gyakorlati útmutató gyerekeknek és felnőtteknek.",
+      "author": "Edward M. Hallowell, John J. Ratey",
+      "isbn": "9789639718654",
+      "sourceUrl": "https://bookline.hu/product/home.action?_v=Edward_M_Hallowell_John_J_Ratey_Szet&type=22&id=270734",
+      "coverImage": "/covers/szetszortsag.jpg",
+      "lastReviewed": "2026-07-04",
+      "body": "Ursus Libris, 2014, 4230 Ft."
+    },
+    {
+      "id": "hu/te-nem-lehetsz-autista",
+      "category": "books",
+      "slug": "te-nem-lehetsz-autista",
+      "href": "/hu/books/te-nem-lehetsz-autista/",
+      "tags": [
+        "illustrated",
+        "humor",
+        "own-voices",
+        "stereotypes"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Te nem lehetsz autista",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "D8rka humoros, illusztrált könyve az autizmusról — a téma körüli sztereotípiák és tévhitek lebontására, könnyed hangvétellel.",
+      "author": "D8rka",
+      "isbn": "9786156440723",
+      "sourceUrl": "https://www.libri.hu/konyv/d8rka.te-nem-lehetsz-autista.html",
+      "coverImage": "/covers/te-nem-lehetsz-autista.jpg",
+      "lastReviewed": "2026-07-04",
+      "body": "könyv guru, 2023, 80 oldal, keménytáblás, 3790 Ft."
+    },
+    {
+      "id": "hu/tenyleg-adhd-s-a-gyerekem",
+      "category": "books",
+      "slug": "tenyleg-adhd-s-a-gyerekem",
+      "href": "/hu/books/tenyleg-adhd-s-a-gyerekem/",
+      "tags": [
+        "parents",
+        "teachers",
+        "alternative-approach"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Tényleg ADHD-s a gyerekem? — 101 figyelemfejlesztő módszer gyógyszerek és kényszerítés helyett",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "Thomas Armstrong alternatív szemléletű útmutatója szülőknek és tanároknak, gyógyszerezés helyett viselkedéses és figyelemfejlesztő módszerekkel.",
+      "author": "Thomas Armstrong",
+      "isbn": "9786155715914",
+      "sourceUrl": "https://www.libri.hu/konyv/thomas_armstrong_phd.tenyleg-adhd-s-a-gyerekem.html",
+      "coverImage": "/covers/tenyleg-adhd-s-a-gyerekem.jpg",
+      "lastReviewed": "2026-07-04",
+      "body": "Jaffa Kiadó, 2018, 392 oldal, 3315 Ft."
+    },
+    {
+      "id": "hu/tiz-dolog",
+      "category": "books",
+      "slug": "tiz-dolog",
+      "href": "/hu/books/tiz-dolog/",
+      "tags": [
+        "parents",
+        "teachers",
+        "children",
+        "classic"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Tíz dolog, amit minden autizmussal élő gyermek szeretné, ha tudnál",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Ellen Notbohm közérthető, tíz pontba szedett útmutatója szülőknek és pedagógusoknak az autista gyermekek szemszögéből.",
+      "author": "Ellen Notbohm",
+      "isbn": "9789638859006",
+      "sourceUrl": "https://www.flaccus.hu/tiz-dolog-amit-minden-autizmussal-elo-gyermek-szeretne-ha-tudnal-18988",
+      "coverImage": "/covers/tiz-dolog.webp",
+      "lastReviewed": "2026-07-04",
+      "body": "Geobook Kiadó, 2009, 175 oldal, 2850 Ft."
+    },
+    {
+      "id": "hu/tulelokonyv-adhd-s-gyerekeknek",
+      "category": "books",
+      "slug": "tulelokonyv-adhd-s-gyerekeknek",
+      "href": "/hu/books/tulelokonyv-adhd-s-gyerekeknek/",
+      "tags": [
+        "children",
+        "practical"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Túlélőkönyv ADHD-s gyerekeknek",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "John F. Taylor közvetlenül a gyerekekhez szóló könyve, gyakorlati tanácsokkal a figyelemzavar, impulzivitás és a kapcsolati nehézségek kezeléséhez.",
+      "author": "John F. Taylor",
+      "sourceUrl": "https://webshop.vadaskert.hu/termek/tulelokonyv-adhd-s-gyerekeknek/",
+      "coverImage": "/covers/tulelokonyv-adhd-s-gyerekeknek.jpg",
+      "lastReviewed": "2026-07-04",
+      "body": "3500 Ft."
+    },
+    {
+      "id": "hu/utmutato-adhd-val-elo-noknek",
+      "category": "books",
+      "slug": "utmutato-adhd-val-elo-noknek",
+      "href": "/hu/books/utmutato-adhd-val-elo-noknek/",
+      "tags": [
+        "women",
+        "adults",
+        "self-acceptance"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Útmutató ADHD-val élő nőknek",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "Michelle Frank és Sari Solden könyve nőknek, akik ADHD-val élnek — a szégyen és stigma helyett önelfogadásról és gyakorlati stratégiákról.",
+      "author": "Michelle Frank, Sari Solden",
+      "isbn": "9789634756484",
+      "sourceUrl": "https://www.libri.hu/konyv/michelle_frank.utmutato-adhd-val-elo-noknek.html",
+      "coverImage": "/covers/utmutato-adhd-val-elo-noknek.jpg",
+      "lastReviewed": "2026-07-04",
+      "body": "Jaffa Kiadó, 2025, 237 oldal, 5224 Ft."
+    },
+    {
+      "id": "hu/adhd-felnott-onsegito-csoport",
+      "category": "communities",
+      "slug": "adhd-felnott-onsegito-csoport",
+      "href": "/hu/communities/adhd-felnott-onsegito-csoport/",
+      "tags": [
+        "facebook-group",
+        "adults",
+        "self-help",
+        "online"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "adults",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "ADHD felnőtt önsegítő csoport (Facebook)",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "Nagy létszámú (kb. 9000+ tag), zárt Facebook önsegítő csoport ADHD-val élő felnőtteknek: tapasztalatcsere, mindennapi nehézségekkel kapcsolatos tippek és kölcsönös támogatás.",
+      "providerType": "online-group",
+      "sourceUrl": "https://www.facebook.com/groups/663384988070455/",
+      "lastReviewed": "2026-07-05",
+      "body": "Online önsegítő közösség ADHD-val élő felnőtteknek, ahol a tagok megoszthatják tapasztalataikat és stratégiákat a mindennapok kezelésére. A csoportra pszichológus szakmai oldal is hivatkozik (kovaribarbara.hu). A csoport zárt (a tartalom csak belépés után látható), ezért a taglétszám a nyilvános keresési adatokra támaszkodik, azt közvetlen lekérdezéssel nem tudtuk ellenőrizni. Online csoport, nincs fizikai helyszíne — nem szerepel a térképen."
+    },
+    {
+      "id": "hu/adhd-magyarorszag-alapitvany",
+      "category": "communities",
+      "slug": "adhd-magyarorszag-alapitvany",
+      "href": "/hu/communities/adhd-magyarorszag-alapitvany/",
+      "tags": [
+        "foundation",
+        "camps",
+        "self-help",
+        "families"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "ADHD Magyarország Alapítvány",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "2006 óta működő alapítvány hiperaktív/ADHD-val élő gyerekeknek, felnőtteknek és családjaiknak: önsegítő csoportok, nyári táborok (pl. komMUNÍkáCIÓ), önkéntes programok és szülő-/pedagógusképzések.",
+      "providerType": "institution",
+      "city": "Cegléd",
+      "contact": "+36 30 169 0073, +36 70 776 7757",
+      "sourceUrl": "https://www.adhd-magyarorszag.com/",
+      "lastReviewed": "2026-07-05",
+      "body": "Szakemberekből és szülőkből álló alapítvány, amely szakmai információkkal, nevelési és oktatási tapasztalatokkal segíti a hiperaktív gyerekeket és családjaikat. Országosan működik; bázisuk a Cegléd környéki Pálföldi Majorság, ahol táborokat és programokat tartanak. Pontos, házszám szintű cím nem áll rendelkezésre a majorsághoz, ezért — a projekt „ne találj ki adatot\" elve szerint — nincs térkép-pin: csak a város (Cegléd) szerepel, a szervezet nem jelenik meg a térképen."
+    },
+    {
+      "id": "hu/adhd-s-gyerekek-szulei",
+      "category": "communities",
+      "slug": "adhd-s-gyerekek-szulei",
+      "href": "/hu/communities/adhd-s-gyerekek-szulei/",
+      "tags": [
+        "facebook-group",
+        "parents",
+        "children",
+        "online"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "ADHD-s gyerekek szülei (Facebook)",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "Facebook csoport ADHD-s gyermeket nevelő szülőknek: kötetlen beszélgetés, nevelési trükkök és tippek megosztása, tapasztalatcsere hasonló helyzetben lévő családokkal.",
+      "providerType": "online-group",
+      "sourceUrl": "https://www.facebook.com/groups/454418104715543/",
+      "lastReviewed": "2026-07-05",
+      "body": "Szülői önsegítő közösség ADHD-val élő gyermekek szüleinek. A csoportot a Jövő Idő Magazin is a sérült/SNI gyermeket nevelő szülőknek szóló ajánlott Facebook-csoportok közé sorolta. A csoport zárt, a tartalma csak belépés után látható, így a taglétszámot közvetlenül nem tudtuk ellenőrizni. Online csoport, nincs fizikai helyszíne — nem szerepel a térképen."
+    },
+    {
+      "id": "hu/asperger-hu",
+      "category": "communities",
+      "slug": "asperger-hu",
+      "href": "/hu/communities/asperger-hu/",
+      "tags": [
+        "online-forum",
+        "adults",
+        "asperger",
+        "peer-support"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "adults",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Asperger.hu — az autizmusspektrum találkahelye",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Az egyik legrégebb óta működő magyar felnőtt autista online közösség és fórum; nyílt szekciója regisztráció nélkül is olvasható, a moderáció kifejezetten befogadó, az „aspie szupremácia” nézeteket elutasítja.",
+      "providerType": "online-group",
+      "sourceUrl": "https://asperger.hu/",
+      "lastReviewed": "2026-07-05",
+      "body": "Felnőtt autista/Asperger online közösség és fórum, amely az autizmusspektrum minden érintettjét szólítja meg. A fórum nyílt része bejelentkezés nélkül is olvasható; a hozzászóláshoz és egyes szekciókhoz regisztráció kell. A tartalom mérsékelt, de eleven aktivitást mutat (a legutóbbi ellenőrzéskor 2026 júniusi bejegyzésekkel). Online közösség, nincs fizikai helyszíne — ezért nem szerepel a térképen."
+    },
+    {
+      "id": "hu/autikum",
+      "category": "communities",
+      "slug": "autikum",
+      "href": "/hu/communities/autikum/",
+      "tags": [
+        "community-center",
+        "adults",
+        "budapest",
+        "aura-egyesulet"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "adults",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Autikum — Felnőtt Autista Szabadidős és Kulturális Központ",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Magyarország első felnőtt autista szabadidős és kulturális központja Budapesten: közösségépítő és önismereti csoportok, kibeszélő kör, kreatív és szociális készségfejlesztő programok autista felnőtteknek.",
+      "providerType": "institution",
+      "city": "Budapest",
+      "address": "1089 Budapest, Bíró Lajos utca 64. (földszint)",
+      "lat": 47.4813386,
+      "lng": 19.1016138,
+      "contact": "hello@autikum.hu",
+      "sourceUrl": "https://autikum.hu/",
+      "lastReviewed": "2026-07-05",
+      "body": "Az AURA Autistákat Támogató Közhasznú Egyesület által működtetett közösségi tér, amely 2024-ben nyílt meg a VIII. kerületben, a Népliget közelében, budapesti közösségi költségvetési támogatásból. A heti programok egy kb. 110 m²-es térben zajlanak. Nyitott, bárki számára elérhető programok mellett zárt, kifejezetten autista felnőtteknek szóló csoportokat is tart: közösség- és kapcsolatépítő foglalkozásokat, kibeszélő kört, valamint szociális és kreatív készségfejlesztést. Szakembereknek szóló műhelyeket és esetmegbeszéléseket is szerveznek."
+    },
+    {
+      "id": "hu/autispektrum-egyesulet-veszprem",
+      "category": "communities",
+      "slug": "autispektrum-egyesulet-veszprem",
+      "href": "/hu/communities/autispektrum-egyesulet-veszprem/",
+      "tags": [
+        "parents",
+        "self-help",
+        "veszprem",
+        "regional"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "AutiSpektrum Egyesület (Veszprém)",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Veszprém megyei önsegítő szülői közösség 2013 óta, autizmus spektrumzavarral élő gyermeket nevelő családoknak: szülőcsoport, szülőtréningek, közös szabadidős programok, nyári táborok és Info-Pont.",
+      "providerType": "institution",
+      "city": "Veszprém",
+      "address": "8200 Veszprém, Stromfeld Aurél utca 9/F",
+      "lat": 47.1075447,
+      "lng": 17.9171595,
+      "contact": "auticsop@gmail.com, +36 70 670 1716",
+      "sourceUrl": "https://autispektrum.com/",
+      "lastReviewed": "2026-07-05",
+      "body": "2013 januárja óta működő önsegítő csoport, amelyet Veszprém megyei, autizmus spektrumzavarral élő gyermeket nevelő szülők hoztak létre. Szülőcsoport és szülőtréningek mellett szemléletformáló programokat, közös szabadidős tevékenységeket, nyári táborokat és fejlesztő programokat szerveznek, valamint Info-Pont irodát tartanak fenn a régió családjainak."
+    },
+    {
+      "id": "hu/autistak-orszagos-szovetsege",
+      "category": "communities",
+      "slug": "autistak-orszagos-szovetsege",
+      "href": "/hu/communities/autistak-orszagos-szovetsege/",
+      "tags": [
+        "national-federation",
+        "advocacy",
+        "budapest",
+        "all-ages"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Autisták Országos Szövetsége (AOSZ)",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Az autizmussal élő emberek és családjaik országos ernyőszervezete 1988 óta; mintegy 100 tagszervezetet fog össze, információs központot (Infocentrum) és érdekvédelmi szolgáltatásokat működtet.",
+      "providerType": "institution",
+      "city": "Budapest",
+      "address": "1053 Budapest, Fejér György utca 10. I. emelet 3.",
+      "lat": 47.4893103,
+      "lng": 19.0589117,
+      "contact": "info@esoember.hu, +36 1 354 1073",
+      "sourceUrl": "https://aosz.hu/rolunk/",
+      "lastReviewed": "2026-07-05",
+      "body": "Eredetileg „Autisták Érdekvédelmi Egyesülete\" néven, 1988-ban alakult; több mint harminc éve az autista emberek és családjaik érdekvédelmének meghatározó szereplője. Nem közvetlen önsegítő csoport, hanem országos ernyőszervezet: a tagszervezetein keresztül köti össze a helyi közösségeket, és Infocentrumán át ad tájékoztatást családoknak. Ügyfélfogadás: hétfő–csütörtök 9:00–16:00, péntek 9:00–14:00."
+    },
+    {
+      "id": "hu/autizmus-alapitvany-felnott-klub",
+      "category": "communities",
+      "slug": "autizmus-alapitvany-felnott-klub",
+      "href": "/hu/communities/autizmus-alapitvany-felnott-klub/",
+      "tags": [
+        "club",
+        "adults",
+        "budapest",
+        "peer-support"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "adults",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Autizmus Alapítvány — Felnőtt Klub",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Az ország elsőként, 1989 óta folyamatosan működő, modell-értékű autizmus-specifikus felnőtt klubja: havonta kétszer, szerda délutánonként tartott közösségi program társas és kommunikációs tréninggel, társasjátékkal, tánccal, kötetlen beszélgetéssel.",
+      "providerType": "institution",
+      "city": "Budapest",
+      "address": "1089 Budapest, Delej utca 24-26.",
+      "lat": 47.4815997,
+      "lng": 19.095376,
+      "contact": "ambulancia@autizmus.hu",
+      "sourceUrl": "https://www.autizmus.hu/klub",
+      "lastReviewed": "2026-07-05",
+      "body": "Az Autizmus Alapítvány Ambulanciájának gondozottjai számára szerveződő klub, klubvezetője Kiss Gyöngyi. A részvétel az ambulanciai regisztrációhoz kötött: bejelentkezés/kontrollvizsgálat után a klubvezetővel egyeztetve lehet becsatlakozni, az első alkalom ismerkedéssel indul. Ugyanaz az intézmény önálló diagnosztikai szolgáltatást is nyújt (lásd a Diagnózis kategóriában az Autizmus Alapítvány Ambulanciát) — ez a klub attól különböző, közösségi szolgáltatás, ugyanazon a címen."
+    },
+    {
+      "id": "hu/bodis-andras",
+      "category": "development",
+      "slug": "bodis-andras",
+      "href": "/hu/development/bodis-andras/",
+      "tags": [
+        "private",
+        "psychologist"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "adults",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Bódis András — klinikai szakpszichológus, ADHD specialista",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "Felnőttkori ADHD-ra specializálódott klinikai szakpszichológus a WellWay Clinics-en, terápiás gondozással a diagnózis után.",
+      "providerType": "psychologist",
+      "city": "Budapest",
+      "address": "1052 Budapest, Szervita tér 8.",
+      "lat": 47.4954881,
+      "lng": 19.0530236,
+      "contact": "+36 1 808 9977",
+      "coverImage": "/covers/bodis-andras.jpg",
+      "sourceUrl": "https://www.wellwayclinics.hu/orvosok/bodis-andras-pszichologus/",
+      "lastReviewed": "2026-07-04",
+      "body": "WellWay Clinics-nek több telephelye is van Budapesten (pl. Futó utca 37.)."
+    },
+    {
+      "id": "hu/egy-masik-ut-pecs",
+      "category": "development",
+      "slug": "egy-masik-ut-pecs",
+      "href": "/hu/development/egy-masik-ut-pecs/",
+      "tags": [
+        "regional",
+        "parent-consultation"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Egy Másik Út Alapítvány — Pécsi Központ",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Autizmus spektrumzavarban érintett gyerekek és családjaik ellátása Pécsen és környékén — egyéni terápia, szülőkonzultáció, kiscsoportos szociális-kommunikációs készségfejlesztés 7-10 éveseknek.",
+      "providerType": "center",
+      "city": "Pécs",
+      "address": "7632 Pécs, Anikó utca 5. (Család- és Gyermekjóléti Szolgálat és Központ épülete)",
+      "lat": 46.044559,
+      "lng": 18.2175003,
+      "contact": "egymasikut.hu",
+      "sourceUrl": "https://www.egymasikut.hu/",
+      "lastReviewed": "2026-07-04",
+      "body": "2017 óta van pécsi telephelyük, a fő alapítvány budapesti."
+    },
+    {
+      "id": "hu/fejleszto-palota",
+      "category": "development",
+      "slug": "fejleszto-palota",
+      "href": "/hu/development/fejleszto-palota/",
+      "tags": [
+        "play-therapy",
+        "early-childhood"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Fejlesztő Palota (Palota Fejlesztő)",
+      "locale": "hu",
+      "topics": [
+        "adhd",
+        "autism"
+      ],
+      "summary": "Képességfelmérés és rendszeres, játékos csoportos foglalkozás csecsemőkortól kisiskolás korig — mozgás, nyelv, kognitív és emocionális-szociális fejlődés.",
+      "providerType": "center",
+      "city": "Budapest",
+      "address": "1152 Budapest, Illyés Gyula u. 10. fszt. 16.",
+      "lat": 47.5618036,
+      "lng": 19.1163447,
+      "contact": "+36-30-322-5584, +36-30-529-5414",
+      "coverImage": "/covers/fejlesztopalota.png",
+      "sourceUrl": "https://palotafejleszto.hu/",
+      "lastReviewed": "2026-07-04",
+      "body": "4 fős csoportokban, heti 1-2 alkalommal, 60 perces foglalkozások."
+    },
+    {
+      "id": "hu/happancs-tsmt",
+      "category": "development",
+      "slug": "happancs-tsmt",
+      "href": "/hu/development/happancs-tsmt/",
+      "tags": [
+        "tsmt",
+        "movement-therapy",
+        "regional"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Happancs TSMT — Orbán-Happ Adrienn mozgás- és képességfejlesztő stúdiója",
+      "locale": "hu",
+      "topics": [
+        "adhd",
+        "autism"
+      ],
+      "summary": "TSMT (Tervezett Szenzomotoros Tréning) egyéni és csoportos mozgásterápia győri stúdiója, idegrendszer-érést és mozgáskoordinációt fejlesztő programmal.",
+      "providerType": "therapist",
+      "city": "Győr",
+      "address": "9026 Győr, Hédervári út 81.",
+      "lat": 47.7007102,
+      "lng": 17.6290601,
+      "contact": "+36 30 283 0904",
+      "sourceUrl": "https://happancs.hu/",
+      "lastReviewed": "2026-07-04",
+      "body": "Orbán-Happ Adrienn TSMT terapeuta, óvodapedagógus és tanító."
+    },
+    {
+      "id": "hu/kislepesek-alapitvany",
+      "category": "development",
+      "slug": "kislepesek-alapitvany",
+      "href": "/hu/development/kislepesek-alapitvany/",
+      "tags": [
+        "aba",
+        "foundation",
+        "since-2008"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Kis Lépések Alapítvány — ABA Terápiás és Módszertani Központ",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Magyarország egyik első ABA (alkalmazott viselkedéselemzés) terápiás központja, 2008 óta autista gyerekek fejlesztésével.",
+      "providerType": "center",
+      "city": "Budapest",
+      "address": "1118 Budapest, Ménesi út 31/A, 2. emelet 12.",
+      "lat": 47.4802645,
+      "lng": 19.0419472,
+      "contact": "kislepesek.hu",
+      "coverImage": "/covers/kislepesek.jpg",
+      "sourceUrl": "https://kislepesek.hu/kozpont/",
+      "lastReviewed": "2026-07-04",
+      "body": "Az elsők között alkalmazták az ABA terápiát Magyarországon autista gyerekeknél."
+    },
+    {
+      "id": "hu/korpas-zoltan-adhd-coach",
+      "category": "development",
+      "slug": "korpas-zoltan-adhd-coach",
+      "href": "/hu/development/korpas-zoltan-adhd-coach/",
+      "tags": [
+        "coaching",
+        "adults",
+        "lived-experience"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "adults",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Korpás Zoltán — ADHD és Life Coach",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "Felnőtt ADHD-coaching magyar és angol nyelven, saját ADHD-tapasztalatból kiindulva — önismeret, mindennapi működés és stratégiák.",
+      "providerType": "therapist",
+      "city": "Budapest",
+      "address": "1085 Budapest, Horánszky utca 12.",
+      "lat": 47.4918268,
+      "lng": 19.0680695,
+      "contact": "+36 20 236 1902, korpas.zoltan@hotmail.com",
+      "coverImage": "/covers/korpas-zoltan.jpg",
+      "sourceUrl": "https://www.adhdcoachbudapest.com/en",
+      "lastReviewed": "2026-07-04",
+      "body": "Az első konzultáció ingyenes."
+    },
+    {
+      "id": "hu/leonardokid",
+      "category": "development",
+      "slug": "leonardokid",
+      "href": "/hu/development/leonardokid/",
+      "tags": [
+        "developmental-pedagogy"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Leonardokid Fejlesztő és Terápiás Központ",
+      "locale": "hu",
+      "topics": [
+        "adhd",
+        "autism"
+      ],
+      "summary": "Hajdu Ágnes gyógypedagógus vezette fejlesztő és terápiás központ.",
+      "providerType": "center",
+      "city": "Budapest",
+      "address": "1024 Budapest, Szilágyi Erzsébet fasor 1.",
+      "lat": 47.5085469,
+      "lng": 19.0211395,
+      "contact": "+36 70 776 7757, info@leonardokid.hu",
+      "sourceUrl": "https://cogniplus.viennatestsystem.hu/fejlesztohelyek/",
+      "lastReviewed": "2026-07-04",
+      "body": "Nem volt elérhető önálló weboldal ellenőrzéskor (2026-07-04) — a fejlesztőhely-adatbázison keresztül azonosítva."
+    },
+    {
+      "id": "hu/malyvakek",
+      "category": "development",
+      "slug": "malyvakek",
+      "href": "/hu/development/malyvakek/",
+      "tags": [
+        "psychology",
+        "parent-support"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Mályvakék Mentálhigiéniai Központ — ADHD és Autizmus Központ",
+      "locale": "hu",
+      "topics": [
+        "adhd",
+        "autism"
+      ],
+      "summary": "Egyéni és kiscsoportos fejlesztés, terápiás támogatás ADHD-val vagy autizmussal élő gyerekeknek, pszichológusok és gyógypedagógusok vezetésével, szülőkonzultációval.",
+      "providerType": "center",
+      "city": "Budapest",
+      "address": "1148 Budapest, Adria sétány 5/E.",
+      "lat": 47.5180254,
+      "lng": 19.1265704,
+      "contact": "+36 70 667 9090",
+      "coverImage": "/covers/malyvakek.jpg",
+      "sourceUrl": "https://malyvarendelo.hu/adhd-es-autizmus-kozpont/",
+      "lastReviewed": "2026-07-04",
+      "body": "Külön közösségi teret is fenntartanak (1148 Budapest, Vezér utca 138/B)."
+    },
+    {
+      "id": "hu/mental-mood-medical",
+      "category": "development",
+      "slug": "mental-mood-medical",
+      "href": "/hu/development/mental-mood-medical/",
+      "tags": [
+        "group-therapy",
+        "psychoeducation",
+        "adults"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "adults",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Mental Mood Medical — ADHD pszichoedukációs csoport",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "Felnőtt ADHD pszichoedukációs csoport coach, pszichológus és pszichiáter közreműködésével — tünetek megértése, önhatékonyság, gyakorlati megküzdési stratégiák.",
+      "providerType": "center",
+      "city": "Budapest",
+      "address": "1081 Budapest, Kiss József utca 8.",
+      "lat": 47.4966797,
+      "lng": 19.0747695,
+      "contact": "mentalmood.hu",
+      "coverImage": "/covers/mentalmood.jpg",
+      "sourceUrl": "https://mentalmood.hu/aktualis/pacienseknek/adhd-pszichoedukacios-csoport/",
+      "lastReviewed": "2026-07-04",
+      "body": "Multidiszciplináris team: coach, pszichológus, pszichiáter együtt."
+    },
+    {
+      "id": "hu/mentara-pszichologia",
+      "category": "development",
+      "slug": "mentara-pszichologia",
+      "href": "/hu/development/mentara-pszichologia/",
+      "tags": [
+        "private",
+        "adults"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "adults",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Mentara Pszichológiai Központ — felnőtt ADHD",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "Felnőtt ADHD-val élők készségfejlesztő támogatása — időgazdálkodás, figyelem, emocionális szabályozás, lépésről lépésre haladó megközelítéssel.",
+      "providerType": "center",
+      "city": "Budapest",
+      "address": "1094 Budapest, Angyal utca 13. 4. emelet 3.",
+      "lat": 47.4814452,
+      "lng": 19.0695692,
+      "contact": "mentara.hu",
+      "sourceUrl": "https://mentara.hu/adhd/",
+      "lastReviewed": "2026-07-04",
+      "body": "Ferencvárosban, tömegközlekedéssel jól elérhető helyen."
+    },
+    {
+      "id": "hu/odu-fejleszto-kozpont",
+      "category": "development",
+      "slug": "odu-fejleszto-kozpont",
+      "href": "/hu/development/odu-fejleszto-kozpont/",
+      "tags": [
+        "early-intervention",
+        "teacch",
+        "regional"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Odú Korai Fejlesztő Központ és Pedagógiai Szakszolgálati Intézmény",
+      "locale": "hu",
+      "topics": [
+        "adhd",
+        "autism"
+      ],
+      "summary": "Szegedi korai fejlesztő központ — egyéni és kiscsoportos fejlesztés, TEACCH, szenzomotoros terápia, zeneterápia, lovasterápia, utazótanári ellátás óvodás autista gyerekek integrációjához.",
+      "providerType": "center",
+      "city": "Szeged",
+      "address": "Gáspár Zoltán utca 7/C, Szeged",
+      "lat": 46.2701243,
+      "lng": 20.1532417,
+      "contact": "62/555-615, info@odukozpont.hu",
+      "coverImage": "/covers/odu-kozpont.png",
+      "sourceUrl": "https://odukozpont.hu/",
+      "lastReviewed": "2026-07-04",
+      "body": "Vezetője Futó Gabriella. Autizmus műhelyt is tart szülőknek és szakembereknek."
+    },
+    {
+      "id": "hu/szivarvany-korai-fejleszto",
+      "category": "development",
+      "slug": "szivarvany-korai-fejleszto",
+      "href": "/hu/development/szivarvany-korai-fejleszto/",
+      "tags": [
+        "foundation",
+        "early-intervention",
+        "regional"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Szivárvány Korai Fejlesztő Központ és Konduktív Tanácsadó Hálózat",
+      "locale": "hu",
+      "topics": [
+        "adhd",
+        "autism"
+      ],
+      "summary": "Debreceni korai fejlesztő központ — gyógypedagógiai tanácsadás, korai fejlesztés és terápiák, a SOFT Alapítvány fenntartásában.",
+      "providerType": "center",
+      "city": "Debrecen",
+      "address": "4027 Debrecen, Ibolya u. 24.",
+      "lat": 47.5384232,
+      "lng": 21.6158125,
+      "contact": "+36 52 458 060, +36 30 332 4537",
+      "sourceUrl": "http://www.softalap.hu/",
+      "lastReviewed": "2026-07-04",
+      "body": "SOFT Alapítvány (\"Segítsd, Óvd Fogyatékos Társadat\" a Gyermekrehabilitációért) fenntartja."
+    },
+    {
+      "id": "hu/terc",
+      "category": "development",
+      "slug": "terc",
+      "href": "/hu/development/terc/",
+      "tags": [
+        "foundation",
+        "since-2003",
+        "all-ages"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Autizmus Alapítvány Terápiás Centrum (TERC)",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "2003 óta működő terápiás centrum autizmus spektrumzavarral élőknek és családtagjaiknak, egyéni, kiscsoportos és csoportos formában, költségtérítés mellett.",
+      "providerType": "center",
+      "city": "Budapest",
+      "address": "1089 Budapest, Delej utca 24-26.",
+      "lat": 47.4815997,
+      "lng": 19.095376,
+      "contact": "+36 1 334-1123, terc@autizmus.hu",
+      "coverImage": "/covers/autizmus-alapitvany-ambulancia.jpg",
+      "sourceUrl": "https://www.autizmus.hu/terapiascentrum",
+      "lastReviewed": "2026-07-04",
+      "body": "Ugyanazon szervezet, mint a diagnózis kategóriában szereplő Autizmus Alapítvány Ambulancia — itt a terápiás (nem diagnosztikai) szolgáltatás szerepel."
+    },
+    {
+      "id": "hu/ujbuda-fejlesztohaz",
+      "category": "development",
+      "slug": "ujbuda-fejlesztohaz",
+      "href": "/hu/development/ujbuda-fejlesztohaz/",
+      "tags": [
+        "sensory-integration",
+        "early-intervention"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Újbuda Fejlesztőház — Szenzoros Integrációs Terápia",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Szenzoros integrációs terápia (DSzIT/Ayres) és autizmus-specifikus fejlesztés 2 éves kortól, orvosi háttérrel.",
+      "providerType": "center",
+      "city": "Budapest",
+      "address": "1116 Budapest, Galvani utca 2.",
+      "lat": 47.4560927,
+      "lng": 19.0406962,
+      "contact": "+36 1 445 0085, +36 70 701 5515",
+      "coverImage": "/covers/ujbuda-fejlesztohaz.png",
+      "sourceUrl": "https://ujbudagyermekfejleszto.hu/terapias-foglalkozasaink/autizmus-specifikus-terapia/",
+      "lastReviewed": "2026-07-04",
+      "body": "Etetési/evészavarok komplex terápiáját is kínálják, gyakori autizmus-melléktünet."
+    },
+    {
+      "id": "hu/vikote",
+      "category": "development",
+      "slug": "vikote",
+      "href": "/hu/development/vikote/",
+      "tags": [
+        "group-therapy",
+        "schema-therapy"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "adults",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "VIKOTE — Kognitív és Sématerápiás Központ, ADHD csoportok",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "ADHD Készségfejlesztő Csoport (18-65 év) és ADHD Sématerápiás Csoport (26 alkalmas, 52 óra) diagnosztizált felnőtteknek.",
+      "providerType": "center",
+      "city": "Budapest",
+      "address": "1083 Budapest, Kálvária tér 16. (ADHD sématerápiás csoport helyszíne)",
+      "lat": 47.4890111,
+      "lng": 19.0877576,
+      "contact": "+36 20 556 3718, titkarsag@vikote.hu",
+      "sourceUrl": "https://vikote.hu/adhd-keszsegfejleszto-csoport-2/",
+      "lastReviewed": "2026-07-04",
+      "body": "A központnak több budapesti helyszíne van a különböző csoportokhoz (pl. Baross u. 119/A, Balassa u. 6.)."
+    },
+    {
+      "id": "hu/adhd-kozpont",
+      "category": "diagnosis",
+      "slug": "adhd-kozpont",
+      "href": "/hu/diagnosis/adhd-kozpont/",
+      "tags": [
+        "private",
+        "adults"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "adults",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "ADHD Központ",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "Felnőtt ADHD diagnosztikára és kezelésre specializálódott magánrendelés, pszichiáter szakorvosokkal (dr. Félegyházy Zsolt, dr. Lepp Krisztina).",
+      "providerType": "clinic",
+      "city": "Budapest",
+      "address": "1013 Budapest, Krisztina körút 34.",
+      "lat": 47.49754,
+      "lng": 19.0310519,
+      "contact": "+36 1 413 1348, info@adhdkozpont.hu",
+      "priceNotes": "Fizetős magánrendelés, árak a weboldalon kérésre.",
+      "sourceUrl": "https://www.adhdkozpont.hu/",
+      "lastReviewed": "2026-07-04",
+      "body": "Az Európai Felnőttkori ADHD Hálózat tagja."
+    },
+    {
+      "id": "hu/autizmus-alapitvany-ambulancia",
+      "category": "diagnosis",
+      "slug": "autizmus-alapitvany-ambulancia",
+      "href": "/hu/diagnosis/autizmus-alapitvany-ambulancia/",
+      "tags": [
+        "foundation",
+        "all-ages"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Autizmus Alapítvány Ambulancia",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Autizmus spektrumzavar diagnosztikájára specializálódott alapítványi ambulancia, gyerekeknek és felnőtteknek, gondozásba vétellel és utánkövetéssel.",
+      "providerType": "foundation",
+      "city": "Budapest",
+      "address": "1089 Budapest, Delej utca 24-26.",
+      "lat": 47.4815997,
+      "lng": 19.095376,
+      "contact": "06-1-3341-123, titkarsag.ambulancia@autizmus.hu",
+      "priceNotes": "A gondozásba vett kliensek számára a legtöbb szolgáltatás a gondozás része, egyéb képzések önköltségesek.",
+      "coverImage": "/covers/autizmus-alapitvany-ambulancia.jpg",
+      "sourceUrl": "https://www.autizmus.hu/szolgaltatasokleirasa",
+      "lastReviewed": "2026-07-04",
+      "body": "Az egyik legrégebbi, legismertebb magyar autizmus-diagnosztikai intézmény."
+    },
+    {
+      "id": "hu/bacs-kiskun-kecskemet",
+      "category": "diagnosis",
+      "slug": "bacs-kiskun-kecskemet",
+      "href": "/hu/diagnosis/bacs-kiskun-kecskemet/",
+      "tags": [
+        "state-funded",
+        "children",
+        "regional"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Bács-Kiskun Megyei Oktatókórház — Gyermekpszichiátriai Gondozó és Szakambulancia",
+      "locale": "hu",
+      "topics": [
+        "adhd",
+        "autism"
+      ],
+      "summary": "Kecskeméti megyei oktatókórház gyermekpszichiátriai gondozója és szakambulanciája.",
+      "providerType": "hospital",
+      "city": "Kecskemét",
+      "address": "6000 Kecskemét, Nyíri út 38.",
+      "lat": 46.9088395,
+      "lng": 19.6727475,
+      "contact": "kmk.hu",
+      "priceNotes": "Állami ellátás.",
+      "coverImage": "/covers/bacs-kiskun-kecskemet.jpg",
+      "sourceUrl": "https://www.kmk.hu/kecskemet/szakrendelesek/1409-gyermek-pszichiatriai-gondozok",
+      "lastReviewed": "2026-07-04",
+      "body": "A Cerebrum Neuropszichológiai Központ magán alternatívája is elérhető Kecskeméten (Vízmű utca 104)."
+    },
+    {
+      "id": "hu/bethesda-adhd-ambulancia",
+      "category": "diagnosis",
+      "slug": "bethesda-adhd-ambulancia",
+      "href": "/hu/diagnosis/bethesda-adhd-ambulancia/",
+      "tags": [
+        "faith-based",
+        "children",
+        "catchment-area"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "MRE Bethesda Gyermekkórház — ADHD Ambulancia",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "Egyházi (reformátusok fenntartotta) gyermekkórház ADHD ambulanciája, elsősorban Budapest X. és XVI. kerületéből és néhány agglomerációs településről érkező gyerekeknek.",
+      "providerType": "hospital",
+      "city": "Budapest",
+      "address": "1146 Budapest, Bethesda utca 8.",
+      "lat": 47.5179437,
+      "lng": 19.0881258,
+      "contact": "+36-1-422-2731, adhd@bethesda.hu",
+      "priceNotes": "Területi ellátási kötelezettség: X., XVI. kerület, Budakalász, Veresegyház, Vácrátót, Őrbottyán, Csomád, Vácegres, Erdőkertes, Váckisújfalu, Galgamácsa.",
+      "coverImage": "/covers/bethesda-adhd-ambulancia.jpg",
+      "sourceUrl": "https://www.bethesda.hu/ambulancia/adhd-ambulancia/",
+      "lastReviewed": "2026-07-04",
+      "body": "Tic-zavarokat (kényszeres mozgás/hangadás) is fogad ADHD mellett."
+    },
+    {
+      "id": "hu/cerebrum-neuropszichologia",
+      "category": "diagnosis",
+      "slug": "cerebrum-neuropszichologia",
+      "href": "/hu/diagnosis/cerebrum-neuropszichologia/",
+      "tags": [
+        "private",
+        "regional"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Cerebrum Neuropszichológiai Központ",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Autizmus spektrumzavar diagnosztikájára specializálódott magánközpont Szegeden és Kecskeméten, gyerekeknek és felnőtteknek.",
+      "providerType": "clinic",
+      "city": "Szeged",
+      "address": "6725 Szeged, Alföldi utca 33/B",
+      "lat": 46.2441663,
+      "lng": 20.1377377,
+      "contact": "+36 20 312 9549, info@neuro-pszichologia.hu",
+      "priceNotes": "Teljes diagnosztikai folyamat kb. 6-7 alkalom, összesen 270 000-305 000 Ft, alkalmanként fizetve.",
+      "coverImage": "/covers/cerebrum-neuropszichologia.png",
+      "sourceUrl": "https://neuro-pszichologia.hu/autizmus/",
+      "lastReviewed": "2026-07-04",
+      "body": "Kecskeméti telephelyük is van (Vízmű utca 104)."
+    },
+    {
+      "id": "hu/csolnoky-veszprem",
+      "category": "diagnosis",
+      "slug": "csolnoky-veszprem",
+      "href": "/hu/diagnosis/csolnoky-veszprem/",
+      "tags": [
+        "state-funded",
+        "children",
+        "regional"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Csolnoky Ferenc Kórház — Gyermek- és Ifjúsági Pszichiátriai Szakrendelés",
+      "locale": "hu",
+      "topics": [
+        "adhd",
+        "autism"
+      ],
+      "summary": "Veszprémi megyei kórház gyermek- és ifjúságpszichiátriai szakrendelése, autizmus és ADHD diagnosztikával gyermekeknek és serdülőknek.",
+      "providerType": "hospital",
+      "city": "Veszprém",
+      "address": "8200 Veszprém, Komakút tér 1., II. emelet",
+      "lat": 47.0895743,
+      "lng": 17.9070184,
+      "contact": "+36 20 345-8630, előjegyzés: +36 30 911 3830",
+      "priceNotes": "Állami ellátás.",
+      "coverImage": "/covers/csolnoky-veszprem.png",
+      "sourceUrl": "https://csfk.hu/jarobeteg-ellatas/gyermek-es-ifjusagi-pszichiatriai-szakrendeles-es-gondozo/",
+      "lastReviewed": "2026-07-04",
+      "body": "Közép-Dunántúl gyermekpszichiátriai ellátóhelye."
+    },
+    {
+      "id": "hu/debrecen-autizmus-ambulancia",
+      "category": "diagnosis",
+      "slug": "debrecen-autizmus-ambulancia",
+      "href": "/hu/diagnosis/debrecen-autizmus-ambulancia/",
+      "tags": [
+        "state-funded",
+        "children",
+        "regional",
+        "no-referral"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Debreceni Klinikai Központ — Autizmus Ambulancia",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Gyermekpszichiátriai osztály autizmus ambulanciája Debrecenben, beutaló nélkül, előjegyzés alapján.",
+      "providerType": "hospital",
+      "city": "Debrecen",
+      "address": "4026 Debrecen, Bethlen utca 11-17.",
+      "lat": 47.5370308,
+      "lng": 21.6220505,
+      "contact": "+36 52/513-688, +36 52/513-687",
+      "priceNotes": "Nem igényel beutalót, csak előjegyzést.",
+      "coverImage": "/covers/debrecen-autizmus-ambulancia.svg",
+      "sourceUrl": "https://klinikaikozpont.unideb.hu/clinic_finder/clinic/5399099",
+      "lastReviewed": "2026-07-04",
+      "body": "Hajdú-Bihar megyén kívülieket csak ritkán fogadnak."
+    },
+    {
+      "id": "hu/hetenyi-szolnok",
+      "category": "diagnosis",
+      "slug": "hetenyi-szolnok",
+      "href": "/hu/diagnosis/hetenyi-szolnok/",
+      "tags": [
+        "state-funded",
+        "children",
+        "regional"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Hetényi Géza Kórház-Rendelőintézet — Gyermek- és Ifjúságpszichiátriai Osztály",
+      "locale": "hu",
+      "topics": [
+        "adhd",
+        "autism"
+      ],
+      "summary": "Szolnoki megyei kórház gyermek- és ifjúságpszichiátriai osztálya, klasszikus gyermekpszichiátriai kórképek mellett autizmus és ADHD diagnosztikával is.",
+      "providerType": "hospital",
+      "city": "Szolnok",
+      "address": "5000 Szolnok, Tószegi út 21., A. épület, 7. emelet",
+      "lat": 47.1519911,
+      "lng": 20.1671829,
+      "contact": "+36-56/503-603 / 3110, +36-56/372-573",
+      "priceNotes": "Állami ellátás. Időpont-egyeztetés munkanapokon 7:30-14:30.",
+      "coverImage": "/covers/hetenyi-szolnok.png",
+      "sourceUrl": "https://www.hetenyikorhaz.hu/2023/11/22/csecsemo-es-gyermekosztaly-gyermek-es-ifjusagpszichiatriai-osztaly/",
+      "lastReviewed": "2026-07-04",
+      "body": "Jász-Nagykun-Szolnok megye fő gyermekpszichiátriai ellátóhelye."
+    },
+    {
+      "id": "hu/istenhegyi-elmenyklinika",
+      "category": "diagnosis",
+      "slug": "istenhegyi-elmenyklinika",
+      "href": "/hu/diagnosis/istenhegyi-elmenyklinika/",
+      "tags": [
+        "private",
+        "adults"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "adults",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Istenhegyi Élményklinika — Felnőtt ADHD diagnosztika",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "Budapesti pszichodiagnosztikai és terápiás magánközpont, felnőttkori ADHD diagnosztikával.",
+      "providerType": "clinic",
+      "city": "Budapest",
+      "address": "1125 Budapest, Istenhegyi út 29.",
+      "lat": 47.5011119,
+      "lng": 19.0084849,
+      "contact": "elmenyklinika.hu",
+      "coverImage": "/covers/istenhegyi-elmenyklinika.jpg",
+      "sourceUrl": "https://elmenyklinika.hu/diagnosztika/felnott-adhd-diagnosztika/",
+      "lastReviewed": "2026-07-04",
+      "body": "Nem tévesztendő össze az Istenhegyi Magánklinika gyermekpszichiátriai szakrendelésével (más márkanév, hasonló terület)."
+    },
+    {
+      "id": "hu/josa-andras-nyiregyhaza",
+      "category": "diagnosis",
+      "slug": "josa-andras-nyiregyhaza",
+      "href": "/hu/diagnosis/josa-andras-nyiregyhaza/",
+      "tags": [
+        "state-funded",
+        "children",
+        "regional"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Jósa András Oktatókórház — Gyermekpszichiátria",
+      "locale": "hu",
+      "topics": [
+        "adhd",
+        "autism"
+      ],
+      "summary": "Nyíregyházi oktatókórház gyermekpszichiátriai ellátása, ADHD, pervazív fejlődési zavarok és más gyermekpszichés problémák kivizsgálásával 18 éves korig.",
+      "providerType": "hospital",
+      "city": "Nyíregyháza",
+      "address": "4400 Nyíregyháza, Szent István út 68., Gyermekgyógyászati Tömb (C épület), földszint CBF27",
+      "lat": 47.9518488,
+      "lng": 21.7237966,
+      "contact": "+36 42 599-700 / 1548",
+      "priceNotes": "Állami ellátás, előjegyzés szükséges.",
+      "coverImage": "/covers/josa-andras-nyiregyhaza.png",
+      "sourceUrl": "https://szszbvk.hu/jaro/gyermek-pszichiatria-i/",
+      "lastReviewed": "2026-07-04",
+      "body": "Szabolcs-Szatmár-Bereg megye fő gyermekpszichiátriai ellátóhelye."
+    },
+    {
+      "id": "hu/kaposi-mor-korhaz",
+      "category": "diagnosis",
+      "slug": "kaposi-mor-korhaz",
+      "href": "/hu/diagnosis/kaposi-mor-korhaz/",
+      "tags": [
+        "state-funded",
+        "children",
+        "regional"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Kaposi Mór Oktató Kórház — Gyermek- és ifjúságpszichiátriai gondozó és szakambulancia",
+      "locale": "hu",
+      "topics": [
+        "adhd",
+        "autism"
+      ],
+      "summary": "Somogy megyei oktatókórház gyermek- és ifjúságpszichiátriai szakambulanciája, autizmus és ADHD diagnosztikával és kezeléssel.",
+      "providerType": "hospital",
+      "city": "Kaposvár",
+      "address": "7400 Kaposvár, Tallián Gyula utca 20-32.",
+      "lat": 46.3594908,
+      "lng": 17.7990007,
+      "contact": "+36 82/501-300 / 1113",
+      "priceNotes": "Állami ellátás.",
+      "coverImage": "/covers/kaposi-mor-korhaz.png",
+      "sourceUrl": "https://kaposvar.imami.hu/gyermek-szakrendelesek/gyermek-es-ifjusagpszichiatriai-gondozo-es-szakambulancia",
+      "lastReviewed": "2026-07-04",
+      "body": "Dél-Dunántúl egyik megyei gyermekpszichiátriai centruma."
+    },
+    {
+      "id": "hu/leda-medical-zalaegerszeg",
+      "category": "diagnosis",
+      "slug": "leda-medical-zalaegerszeg",
+      "href": "/hu/diagnosis/leda-medical-zalaegerszeg/",
+      "tags": [
+        "private",
+        "adults",
+        "regional"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "adults",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Léda Medical Center — Pszichiátria Szakrendelés",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "Zalaegerszegi magánklinika pszichiátriai szakrendelése, dr. med. habil. Alotti Nasri pszichiáter szakorvossal, hangulatzavarok, szorongás és ADHD kezelésével felnőtteknek.",
+      "providerType": "clinic",
+      "city": "Zalaegerszeg",
+      "address": "8900 Zalaegerszeg, Ady Endre út 58.",
+      "lat": 46.8428527,
+      "lng": 16.8438836,
+      "contact": "+36 92 357 790, +36 70 703 4564",
+      "coverImage": "/covers/leda-medical-zalaegerszeg.png",
+      "sourceUrl": "https://ledamed.hu/szakterulet/pszichiatria/",
+      "lastReviewed": "2026-07-04",
+      "body": "Zala megye egyik kevés magán pszichiátriai rendelője ADHD-kezeléssel."
+    },
+    {
+      "id": "hu/mars-alapitvany-gardony",
+      "category": "diagnosis",
+      "slug": "mars-alapitvany-gardony",
+      "href": "/hu/diagnosis/mars-alapitvany-gardony/",
+      "tags": [
+        "foundation",
+        "free",
+        "children",
+        "regional"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "MARS Alapítvány Diagnózisközpont (Gárdony)",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Alapítványi autizmus diagnózisközpont Gárdonyban — orvos, pszichológus és gyógypedagógus közös vizsgálata, 2-18 éves korig térítésmentesen.",
+      "providerType": "foundation",
+      "city": "Gárdony",
+      "address": "2484 Gárdony, Tópart utca 17.",
+      "lat": 47.1953972,
+      "lng": 18.5969264,
+      "contact": "elérhetőség: marsalapitvany.hu",
+      "priceNotes": "2-18 éves korig térítésmentes, 3 vizsgálati alkalom.",
+      "coverImage": "/covers/mars-alapitvany.jpg",
+      "sourceUrl": "https://marsalapitvany.hu/diagnoziskozpont-kereso/",
+      "lastReviewed": "2026-07-04",
+      "body": "A MARS Alapítvány országos hálózatának egyik vidéki központja."
+    },
+    {
+      "id": "hu/mars-alapitvany-salgotarjan",
+      "category": "diagnosis",
+      "slug": "mars-alapitvany-salgotarjan",
+      "href": "/hu/diagnosis/mars-alapitvany-salgotarjan/",
+      "tags": [
+        "foundation",
+        "free",
+        "children",
+        "regional"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "MARS Alapítvány Diagnózisközpont (Salgótarján)",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Alapítványi autizmus diagnózisközpont Salgótarjánban — orvos, pszichológus és gyógypedagógus közös vizsgálata, 2-18 éves korig térítésmentesen.",
+      "providerType": "foundation",
+      "city": "Salgótarján",
+      "address": "3100 Salgótarján, Füleki út 54-56.",
+      "lat": 48.1113371,
+      "lng": 19.8114074,
+      "contact": "elérhetőség: marsalapitvany.hu",
+      "priceNotes": "2-18 éves korig térítésmentes, 3 vizsgálati alkalom.",
+      "coverImage": "/covers/mars-alapitvany.jpg",
+      "sourceUrl": "https://marsalapitvany.hu/diagnoziskozpont-kereso/",
+      "lastReviewed": "2026-07-04",
+      "body": "A MARS Alapítvány országos hálózatának egyik vidéki központja."
+    },
+    {
+      "id": "hu/nagykallo-adhd-szakambulancia",
+      "category": "diagnosis",
+      "slug": "nagykallo-adhd-szakambulancia",
+      "href": "/hu/diagnosis/nagykallo-adhd-szakambulancia/",
+      "tags": [
+        "state-funded",
+        "adults",
+        "regional"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "adults",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Felnőtt ADHD Szakambulancia (Nagykálló)",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "Állami felnőtt ADHD szakambulancia Nagykállóban, a Szabolcs-Szatmár-Bereg Megyei Kórházak rendszerében.",
+      "providerType": "hospital",
+      "city": "Nagykálló",
+      "address": "4320 Nagykálló, Szabadság tér 13.",
+      "lat": 47.8752182,
+      "lng": 21.846378,
+      "contact": "adhd.szakrendeles.nagykallo@szszbmk.hu",
+      "priceNotes": "Állami ellátás.",
+      "coverImage": "/covers/nagykallo-adhd-szakambulancia.png",
+      "sourceUrl": "https://www.adhdterapia.hu/vizsgalatihelyszinek",
+      "lastReviewed": "2026-07-04",
+      "body": "Az egyik kevés vidéki, kifejezetten felnőtt ADHD-ra szakosodott állami ambulancia."
+    },
+    {
+      "id": "hu/neuroharmonia-szekszard",
+      "category": "diagnosis",
+      "slug": "neuroharmonia-szekszard",
+      "href": "/hu/diagnosis/neuroharmonia-szekszard/",
+      "tags": [
+        "private",
+        "all-ages",
+        "regional"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "NeuroHarmónia Diagnosztikai és Fejlesztő Központ",
+      "locale": "hu",
+      "topics": [
+        "adhd",
+        "autism"
+      ],
+      "summary": "Dél-Dunántúli magánközpont ADHD-val, autizmus spektrumzavarral és tanulási nehézséggel élő gyerekeknek, felnőtteknek és családjaiknak.",
+      "providerType": "clinic",
+      "city": "Szekszárd",
+      "address": "7100 Szekszárd, Pollack Mihály u. 53.",
+      "lat": 46.3538567,
+      "lng": 18.7122706,
+      "contact": "neuroharmonia.hu",
+      "coverImage": "/covers/neuroharmonia-szekszard.jpg",
+      "sourceUrl": "https://www.neuroharmonia.hu/araink/",
+      "lastReviewed": "2026-07-04",
+      "body": "Tolna megye egyik kevés kifejezetten ADHD/autizmus fókuszú magánközpontja."
+    },
+    {
+      "id": "hu/nyiro-gyula-opai",
+      "category": "diagnosis",
+      "slug": "nyiro-gyula-opai",
+      "href": "/hu/diagnosis/nyiro-gyula-opai/",
+      "tags": [
+        "state-funded",
+        "adults",
+        "nationwide-catchment",
+        "referral-required"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "adults",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Nyírő Gyula Országos Pszichiátriai és Addiktológiai Intézet — ADHD Ambulancia",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "Országos hatókörű állami ADHD ambulancia, gyerekkorban diagnosztizált vagy felnőttkorban felmerülő ADHD gyanú kivizsgálására, szakorvosi beutalóval.",
+      "providerType": "hospital",
+      "city": "Budapest",
+      "address": "1135 Budapest, Róbert Károly körút 82-84.",
+      "lat": 47.5251321,
+      "lng": 19.0791113,
+      "contact": "nyiro.euintezmeny.hu",
+      "priceNotes": "Szakorvosi beutaló kötelező. Országosan, egész Magyarországról fogad pácienseket.",
+      "coverImage": "/covers/nyiro-gyula-opai.png",
+      "sourceUrl": "https://nyiro.euintezmeny.hu/ellatas/jarobetegellatas/ADHD-Ambulancia/ADHD-Ambulancia",
+      "lastReviewed": "2026-07-04",
+      "body": "Egyike a kevés országos beutalási körzetű ADHD ambulanciának."
+    },
+    {
+      "id": "hu/orenda-pszichologiai-kozpont",
+      "category": "diagnosis",
+      "slug": "orenda-pszichologiai-kozpont",
+      "href": "/hu/diagnosis/orenda-pszichologiai-kozpont/",
+      "tags": [
+        "private",
+        "all-ages",
+        "specialized"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Orenda Pszichológiai és Pszichiátriai Központ",
+      "locale": "hu",
+      "topics": [
+        "adhd",
+        "autism"
+      ],
+      "summary": "Kizárólag ADHD és autizmus spektrumzavar vizsgálatára specializálódott magánközpont, külön felnőtt és gyermek rendelővel.",
+      "providerType": "clinic",
+      "city": "Budapest",
+      "address": "1012 Budapest, Attila út 129. (felnőtt); 1122 Budapest, Krisztina krt. 19. (gyermek)",
+      "lat": 47.5035111,
+      "lng": 19.0259518,
+      "contact": "+36 30 086 40 07, orendaterapia@gmail.com",
+      "priceNotes": "ADHD vizsgálat 210 000 Ft. Felnőtt autizmus szakorvosi csomag 340 000 Ft, klinikai csomag 270 000 Ft. Gyermek autizmus diagnosztika pszichiáterrel 320 000 Ft. Várakozási idő kb. 1 hónap.",
+      "coverImage": "/covers/orenda-pszichologiai-kozpont.png",
+      "sourceUrl": "https://www.orendaterapia.hu/",
+      "lastReviewed": "2026-07-04",
+      "body": "Térkép a felnőtt telephelyre (Attila út 129.) mutat — a gyermek rendelő külön címen van."
+    },
+    {
+      "id": "hu/panorama-poliklinika",
+      "category": "diagnosis",
+      "slug": "panorama-poliklinika",
+      "href": "/hu/diagnosis/panorama-poliklinika/",
+      "tags": [
+        "private",
+        "all-ages"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Panoráma Poliklinika — ADHD-ASD kivizsgálás",
+      "locale": "hu",
+      "topics": [
+        "adhd",
+        "autism"
+      ],
+      "summary": "Budapesti magánklinika (Pest és Buda telephellyel), ADHD és autizmus spektrumzavar kivizsgálásával felnőtteknek és gyerekeknek (4 éves kortól), külön-külön vagy együttesen.",
+      "providerType": "clinic",
+      "city": "Budapest",
+      "address": "1147 Budapest, Ilosvai Selymes u. 81. (Pest); 1126 Budapest, Derkovits u. 7. (Buda)",
+      "lat": 47.5266426,
+      "lng": 19.109699,
+      "contact": "panoramaklinika.hu",
+      "priceNotes": "Jelenleg nem fogad új pácienseket felnőtt ASD/ADHD kivizsgálásra (ellenőrizve: 2026-07-04).",
+      "coverImage": "/covers/panorama-poliklinika.jpg",
+      "sourceUrl": "https://panoramaklinika.hu/pszichiatria/adhd-kivizsgalas-felnott-paciensek-szamara/",
+      "lastReviewed": "2026-07-04",
+      "body": "Térkép a Pest-i (Ilosvai Selymes utca) telephelyre mutat."
+    },
+    {
+      "id": "hu/peterfy-adhd-ambulancia",
+      "category": "diagnosis",
+      "slug": "peterfy-adhd-ambulancia",
+      "href": "/hu/diagnosis/peterfy-adhd-ambulancia/",
+      "tags": [
+        "state-funded",
+        "adults",
+        "waitlist"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "adults",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Péterfy Sándor Utcai Kórház — ADHD Ambulancia",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "Állami ADHD ambulancia és krízisintervenciós pszichiátriai osztály Budapesten, kizárólag e-mailes megkereséssel.",
+      "providerType": "hospital",
+      "city": "Budapest",
+      "address": "1076 Budapest, Péterfy Sándor utca 8-20.",
+      "lat": 47.5036095,
+      "lng": 19.083194,
+      "contact": "adhd.intervencio@peterfykh.hu (csak e-mail)",
+      "priceNotes": "Az előjegyzési időpontok jelenleg beteltek — új páciensek fogadása 2025.09.01-től ígért (ellenőrizve: 2026-07-04, érdemes rákérdezni az aktuális státuszra).",
+      "coverImage": "/covers/peterfy-adhd-ambulancia.png",
+      "sourceUrl": "https://peterfykh.hu/osztaly/adhd-ambulancia-krizisintervencios-es-pszichiatriai-osztaly-51",
+      "lastReviewed": "2026-07-04",
+      "body": "Csak e-mailben kereshető, telefonos elérhetőség nincs megadva."
+    },
+    {
+      "id": "hu/petz-aladar-gyor",
+      "category": "diagnosis",
+      "slug": "petz-aladar-gyor",
+      "href": "/hu/diagnosis/petz-aladar-gyor/",
+      "tags": [
+        "state-funded",
+        "children",
+        "regional"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Petz Aladár Egyetemi Oktató Kórház — Gyermek és Ifjúságpszichiátriai Gondozó",
+      "locale": "hu",
+      "topics": [
+        "adhd",
+        "autism"
+      ],
+      "summary": "Győri megyei oktatókórház gyermek- és ifjúságpszichiátriai szakrendelése, 2-18 éves korig, multidiszciplináris team (pszichiáter, pszichológus, gyógypedagógus) diagnosztikájával.",
+      "providerType": "hospital",
+      "city": "Győr",
+      "address": "9024 Győr, Vasvári Pál út 2-4.",
+      "lat": 47.6704203,
+      "lng": 17.6495406,
+      "contact": "+36-96/507-985, +36-96/418-244 (mellék 4431)",
+      "priceNotes": "Állami ellátás. Időpont-egyeztetés hétfő-csütörtök 14:00-15:00.",
+      "coverImage": "/covers/petz-aladar-gyor.svg",
+      "sourceUrl": "https://petz.gyor.hu/betegellatas/jarobeteg-ellatas/gyermek-ifjusagi-es-mentalhigienes-szakrendeles",
+      "lastReviewed": "2026-07-04",
+      "body": "Nyugat-Dunántúl fő gyermekpszichiátriai centruma."
+    },
+    {
+      "id": "hu/pszichologusunk-szekesfehervar",
+      "category": "diagnosis",
+      "slug": "pszichologusunk-szekesfehervar",
+      "href": "/hu/diagnosis/pszichologusunk-szekesfehervar/",
+      "tags": [
+        "private",
+        "regional",
+        "children"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Pszichológiai, Pszichiátriai és Diagnosztikai Központ (Székesfehérvár)",
+      "locale": "hu",
+      "topics": [
+        "adhd",
+        "autism"
+      ],
+      "summary": "Autizmus és ADHD kivizsgálásra, valamint érintett gyerekek fejlesztésére és támogatására specializálódott magánközpont Székesfehérváron.",
+      "providerType": "clinic",
+      "city": "Székesfehérvár",
+      "address": "Székesfehérvár, Virág Benedek utca 1.",
+      "lat": 47.1981647,
+      "lng": 18.4129586,
+      "contact": "elérhetőség a weboldalon",
+      "coverImage": "/covers/pszichologusunk-szekesfehervar.png",
+      "sourceUrl": "https://pszichologusunk.hu/autizmus_felmeres",
+      "lastReviewed": "2026-07-04",
+      "body": "Közép-Dunántúlon ritka, kifejezetten ADHD/autizmus fókuszú magánközpont."
+    },
+    {
+      "id": "hu/pte-gyermekklinika",
+      "category": "diagnosis",
+      "slug": "pte-gyermekklinika",
+      "href": "/hu/diagnosis/pte-gyermekklinika/",
+      "tags": [
+        "state-funded",
+        "children",
+        "university-clinic",
+        "regional"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "PTE Gyermekklinika — Gyermekpszichiátriai szakambulancia",
+      "locale": "hu",
+      "topics": [
+        "adhd",
+        "autism"
+      ],
+      "summary": "Pécsi egyetemi gyermekklinika pszichiátriai szakambulanciája, autizmussal, ADHD-val és más gyermekpszichiátriai problémákkal küzdő 0-18 éveseknek.",
+      "providerType": "hospital",
+      "city": "Pécs",
+      "address": "7623 Pécs, József Attila utca 7.",
+      "lat": 46.0703109,
+      "lng": 18.2224522,
+      "contact": "+36 72 536 000 / 39065 (recepció), +36 72 536 000 / 39070-39071 (osztály)",
+      "priceNotes": "Állami ellátás. Rendelés: csütörtök 8:00-16:00. Vezető szakorvos: Prof. Dr. Csábi Györgyi.",
+      "coverImage": "/covers/pte-gyermekklinika.jpg",
+      "sourceUrl": "https://aok.pte.hu/hu/egyseg/350",
+      "lastReviewed": "2026-07-04",
+      "body": "Dél-Dunántúl egyik fő gyermekpszichiátriai centruma."
+    },
+    {
+      "id": "hu/semmelweis-adhd-ambulancia",
+      "category": "diagnosis",
+      "slug": "semmelweis-adhd-ambulancia",
+      "href": "/hu/diagnosis/semmelweis-adhd-ambulancia/",
+      "tags": [
+        "state-funded",
+        "adults",
+        "referral-required"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "adults",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Semmelweis Egyetem Pszichiátriai és Pszichoterápiás Klinika — ADHD Ambulancia",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "Állami, TAJ alapú felnőtt ADHD ambulancia — térítésmentes kivizsgálás és gondozás, beutalóval (háziorvosi vagy pszichiáteri).",
+      "providerType": "hospital",
+      "city": "Budapest",
+      "address": "1083 Budapest, Balassa utca 6.",
+      "lat": 47.4846395,
+      "lng": 19.0815715,
+      "contact": "+36-1-210-0330/51243, adhd.ambulancia@semmelweis.hu",
+      "priceNotes": "Térítésmentes TAJ-alapon, beutaló kötelező. Kb. 1,5 órás első konzultáció, majd 3-4 további vizsgálati alkalom.",
+      "coverImage": "/covers/semmelweis-adhd-ambulancia.png",
+      "sourceUrl": "https://semmelweis.hu/pszichiatria/betegellatas/adhd-ambulancia/",
+      "lastReviewed": "2026-07-04",
+      "body": "Felnőtt (18+) ADHD diagnosztika, állami ellátásban."
+    },
+    {
+      "id": "hu/sofi-gyula-eger",
+      "category": "diagnosis",
+      "slug": "sofi-gyula-eger",
+      "href": "/hu/diagnosis/sofi-gyula-eger/",
+      "tags": [
+        "private",
+        "doctor",
+        "regional"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Dr. Sófi Gyula gyermekpszichiáter (Platán Egészségcentrum)",
+      "locale": "hu",
+      "topics": [
+        "adhd",
+        "autism"
+      ],
+      "summary": "Gyermek- és serdülőpszichiáter magánrendelése Egerben, ADHD, autizmus, szorongásos és magatartászavarok teljes körű vizsgálatával és gondozásával.",
+      "providerType": "doctor",
+      "city": "Eger",
+      "address": "3300 Eger, Vallon utca 62. (Platán Egészségcentrum)",
+      "lat": 47.9191806,
+      "lng": 20.3719647,
+      "contact": "+36-36/786-232",
+      "coverImage": "/covers/sofi-gyula-eger.webp",
+      "sourceUrl": "https://drsofigyula.hu/gyermekpszichiater-eger/",
+      "lastReviewed": "2026-07-04",
+      "body": "Az egyik kevés Heves megyei magánrendelést végző gyermekpszichiáter."
+    },
+    {
+      "id": "hu/szte-adhd-szakambulancia",
+      "category": "diagnosis",
+      "slug": "szte-adhd-szakambulancia",
+      "href": "/hu/diagnosis/szte-adhd-szakambulancia/",
+      "tags": [
+        "state-funded",
+        "adults",
+        "university-clinic",
+        "referral-required"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "adults",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Szegedi Tudományegyetem — ADHD szakambulancia",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "Egyetemi állami felnőtt ADHD szakambulancia Szegeden, szakorvosi beutalóval, 18 éves kortól — köztük gyerekkorban már diagnosztizáltaknak és most először vizsgáltatóknak is.",
+      "providerType": "hospital",
+      "city": "Szeged",
+      "address": "6720 Szeged, Korányi fasor 8. I. emelet 147.",
+      "lat": 46.2475714,
+      "lng": 20.1506444,
+      "contact": "+36 62 341-777 (hétköznap 9-11)",
+      "priceNotes": "Szakorvosi beutaló kötelező. Rendelés: kedd 10:00-14:00.",
+      "coverImage": "/covers/szte-adhd-szakambulancia.png",
+      "sourceUrl": "https://u-szeged.hu/szakk/tajekoztatok/adhd-szakambulancia",
+      "lastReviewed": "2026-07-04",
+      "body": "Állami alternatíva a szegedi Cerebrum magánközpont mellett."
+    },
+    {
+      "id": "hu/vadaskert-alapitvany",
+      "category": "diagnosis",
+      "slug": "vadaskert-alapitvany",
+      "href": "/hu/diagnosis/vadaskert-alapitvany/",
+      "tags": [
+        "foundation",
+        "children",
+        "waitlist"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Vadaskert Alapítvány a Gyermekek Lelki Egészségéért",
+      "locale": "hu",
+      "topics": [
+        "adhd",
+        "autism"
+      ],
+      "summary": "Gyermek- és ifjúságpszichiátriai kórház és szakambulancia, ADHD (5-11 év) és autizmus spektrumzavar diagnosztikával.",
+      "providerType": "foundation",
+      "city": "Budapest",
+      "address": "1021 Budapest, Lipótmezei út 1-5.",
+      "lat": 47.5300811,
+      "lng": 18.9754063,
+      "contact": "+36 1 392-1400, info@vadaskert.hu",
+      "priceNotes": "Gyermekpszichiáteri vizsgálat 40 000 Ft/60 perc. ADHD vizsgálatra jelenleg várólista, új regisztrációt átmenetileg nem fogadnak (ellenőrizve: 2026-07-04).",
+      "coverImage": "/covers/vadaskert-alapitvany.jpg",
+      "sourceUrl": "https://vadaskert.hu/adhd-diagnosztika-5-11eves-gyermekek-szamara/",
+      "lastReviewed": "2026-07-04",
+      "body": "Ugyanitt autizmus spektrumzavar diagnosztika is elérhető, külön szolgáltatásként."
+    },
+    {
+      "id": "hu/velkey-gyek-miskolc",
+      "category": "diagnosis",
+      "slug": "velkey-gyek-miskolc",
+      "href": "/hu/diagnosis/velkey-gyek-miskolc/",
+      "tags": [
+        "state-funded",
+        "children",
+        "regional"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Velkey László Gyermekegészségügyi Központ — Gyermekpszichiátria",
+      "locale": "hu",
+      "topics": [
+        "adhd",
+        "autism"
+      ],
+      "summary": "Magyarország második legnagyobb gyermekkórházának gyermekpszichiátriai szakrendelése — szűrő jellegű vizsgálat, szükség esetén továbbirányítással.",
+      "providerType": "hospital",
+      "city": "Miskolc",
+      "address": "3526 Miskolc, Szentpéteri kapu 72-76.",
+      "lat": 48.1208833,
+      "lng": 20.7910364,
+      "contact": "+36-30/422-2872 (Gyermekpszichiátria I.), +36-30/682-4143 (Gyermekpszichiátria II.)",
+      "priceNotes": "Állami ellátás. Rendelési idő: szerda-csütörtök 9:00-13:00.",
+      "coverImage": "/covers/velkey-gyek-miskolc.svg",
+      "sourceUrl": "https://www.bazmkorhaz.hu/velkey-laszlo-gyermekegeszsegugyi-kozpont-gyek-jarobeteg-ellatas",
+      "lastReviewed": "2026-07-04",
+      "body": "Szűrő jellegű vizsgálat — komplex ADHD/autizmus diagnózishoz gyakran Budapestre (Autizmus Kutatócsoport) irányítanak."
+    },
+    {
+      "id": "hu/alpine-defender",
+      "category": "equipment",
+      "slug": "alpine-defender",
+      "href": "/hu/equipment/alpine-defender/",
+      "tags": [
+        "sensory",
+        "noise"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "adults",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "retailerUrls": [
+        "https://autishop.hu/erzekeles/fultok-fuldugo/alpine-defender-fultok"
+      ],
+      "title": "Alpine Defender fültok, felnőtt",
+      "locale": "hu",
+      "topics": [
+        "autism",
+        "adhd"
+      ],
+      "summary": "Felnőtt méretű zajszűrő fültok, 26 dB csillapítással — zajos környezetben szenzoros túlterheltség csökkentésére, az Alpine Muffy felnőtt párja.",
+      "priceRange": "12,890 HUF",
+      "sourceUrl": "https://autishop.hu/erzekeles/fultok-fuldugo/alpine-defender-fultok",
+      "coverImage": "/covers/alpine-defender.jpg",
+      "lastReviewed": "2026-07-04",
+      "body": "Alpine Defender, autishop.hu-n. Felnőtt méret, SNR 26 dB. Gyártó elsősorban zajos munkára/barkácsoláshoz ajánlja, de a dedikált autizmus/szenzoros webáruház szenzoros felhasználásra is árulja — az Alpine Muffy (gyerek fültok, lásd külön tétel) felnőtt megfelelője. 12 890 Ft."
+    },
+    {
+      "id": "hu/ark-grabber-ragoka",
+      "category": "equipment",
+      "slug": "ark-grabber-ragoka",
+      "href": "/hu/equipment/ark-grabber-ragoka/",
+      "tags": [
+        "sensory",
+        "oral-motor"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "retailerUrls": [
+        "https://autishop.hu/ARK-Grabber-texturalt"
+      ],
+      "title": "ARK Grabber rágóka, texturált",
+      "locale": "hu",
+      "topics": [
+        "autism",
+        "adhd"
+      ],
+      "summary": "Orvosi minőségű, texturált szájérzékenységi rágóka — biztonságos alternatíva nem ehető tárgyak rágására, állkapocs- és szájizom-erősítéshez.",
+      "priceRange": "4,990 HUF",
+      "sourceUrl": "https://autishop.hu/ARK-Grabber-texturalt",
+      "coverImage": "/covers/ark-grabber-ragoka.jpg",
+      "lastReviewed": "2026-07-04",
+      "body": "ARK Therapeutic (USA) márka, TPE anyagból (ftalát-, ólom-, PVC-, BPA- és latexmentes). Három felületű (sima, kerek dudoros, szögletes dudoros) a taktilis visszajelzéshez. Autishop.hu-n, magyar autizmus/szenzoros webáruházban, 4 990 Ft."
+    },
+    {
+      "id": "hu/ark-porgettyu",
+      "category": "equipment",
+      "slug": "ark-porgettyu",
+      "href": "/hu/equipment/ark-porgettyu/",
+      "tags": [
+        "sensory",
+        "fidget"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "retailerUrls": [
+        "https://autishop.hu/ARK-porgettyu-repulo"
+      ],
+      "title": "ARK pörgettyű, repülő",
+      "locale": "hu",
+      "topics": [
+        "adhd",
+        "autism"
+      ],
+      "summary": "Nem rágható, kézi fidget pörgettyű — nyugtalan kezek lekötésére, koncentráció fokozására; ceruzára is rögzíthető íráshoz.",
+      "priceRange": "7,290 HUF",
+      "sourceUrl": "https://autishop.hu/ARK-porgettyu-repulo",
+      "coverImage": "/covers/ark-porgettyu.jpg",
+      "lastReviewed": "2026-07-04",
+      "body": "ARK Therapeutic (USA), autishop.hu-n. Szárnyas kialakítás, egyik kézzel fogható, másikkal pörgethető, radír nélküli ceruzára is rögzíthető íráshoz — ceruzát is mellékelnek. 5 éves kortól. Nem rágható eszköz (megkülönböztetve a márka rágóka-termékeitől). 7 290 Ft."
+    },
+    {
+      "id": "hu/ark-raghato-nyaklanc",
+      "category": "equipment",
+      "slug": "ark-raghato-nyaklanc",
+      "href": "/hu/equipment/ark-raghato-nyaklanc/",
+      "tags": [
+        "sensory",
+        "oral-motor"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "retailerUrls": [
+        "https://autishop.hu/ARK-raghato-hurok-nyaklanc"
+      ],
+      "title": "ARK rágható hurok nyaklánc",
+      "locale": "hu",
+      "topics": [
+        "autism",
+        "adhd"
+      ],
+      "summary": "Diszkrét, viselhető rágóka-nyaklánc — biztonságos alternatíva ujj, köröm, ruha rágására; szorongás- és stresszcsökkentés.",
+      "priceRange": "6,090 HUF",
+      "sourceUrl": "https://autishop.hu/ARK-raghato-hurok-nyaklanc",
+      "coverImage": "/covers/ark-raghato-nyaklanc.jpg",
+      "lastReviewed": "2026-07-04",
+      "body": "ARK Therapeutic (USA) márka, autishop.hu-n. Orvosi minőségű, FDA-kompatibilis anyag, ólom-/ftalát-/PVC-/BPA-/latexmentes. Három keménységi fokozat (puha, közepes, extra kemény). Diszkrét hurok forma, medál + zsinór, 5 éves kortól ajánlott, felnőtt felügyelettel. 6 090 Ft."
+    },
+    {
+      "id": "hu/calmer-fuldugo",
+      "category": "equipment",
+      "slug": "calmer-fuldugo",
+      "href": "/hu/equipment/calmer-fuldugo/",
+      "tags": [
+        "sensory",
+        "noise"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "retailerUrls": [
+        "https://profi-fuldugo.hu/a-calmer-fuldugok-segitseg-az-autista-embereknek/"
+      ],
+      "title": "Flare Calmer füldugó",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Nem hangelnyomó, hanem hangtorzítást szűrő füldugó — kifejezetten autista stressz- és szorongáscsökkentésre, hallási túlérzékenységre fejlesztve.",
+      "priceRange": "9,490-9,990 HUF",
+      "city": "Esztergom",
+      "address": "2509 Esztergom-Kertváros, Retek utca 1.",
+      "lat": 47.7493917,
+      "lng": 18.7291186,
+      "sourceUrl": "https://profi-fuldugo.hu/a-calmer-fuldugok-segitseg-az-autista-embereknek/",
+      "coverImage": "/covers/calmer-fuldugo.png",
+      "lastReviewed": "2026-07-04",
+      "body": "Flare Audio (UK) márka, Calmer® Mini és Calmer® Kids változatban, 9 490-9 990 Ft. A gyártó szerint nem elnyomja, hanem torzítatlanítja a bejövő hangot — a magyar forgalmazó (profi-fuldugo.hu) kifejezetten autizmussal összefüggő hangtúlérzékenységre, stressz- és szorongáscsökkentésre ajánlja. A forgalmazónak valódi, nyitvatartással rendelkező személyes átvételi pontja is van Esztergomban (hétfő-csütörtök 8:00-17:00, péntek 8:00-14:00) — az egyetlen ilyen az ebben a kategóriában szereplő hat forgalmazó közül."
+    },
+    {
+      "id": "hu/ceruzafogo",
+      "category": "equipment",
+      "slug": "ceruzafogo",
+      "href": "/hu/equipment/ceruzafogo/",
+      "tags": [
+        "fine-motor",
+        "writing"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "retailerUrls": [
+        "https://tanarbolt.hu/ceruzafogo-iras-tanulasa-iroeszkoz-helyes-tartasa-narancssarga"
+      ],
+      "title": "Ceruzafogó, 2+1 ujjas",
+      "locale": "hu",
+      "topics": [
+        "adhd",
+        "autism"
+      ],
+      "summary": "Szilikon ceruzafogó, helyes íróeszköz-tartás elsajátításához — finommotoros/írástanulási nehézségeknél hasznos, olcsó belépő eszköz.",
+      "priceRange": "690 HUF",
+      "sourceUrl": "https://tanarbolt.hu/ceruzafogo-iras-tanulasa-iroeszkoz-helyes-tartasa-narancssarga",
+      "coverImage": "/covers/ceruzafogo.webp",
+      "lastReviewed": "2026-07-04",
+      "body": "Tanárbolt.hu (magyar gyógy-/fejlesztőpedagógiai kellékbolt). Szilikon, 7 gramm, 2+1 ujjas kialakítás a hüvelyk- és mutatóujj helyes pozíciójához. Nem ADHD/autizmus-specifikus marketing — általános írástanulási segédeszköz, amit fejlesztőpedagógusok finommotoros nehézségeknél is ajánlanak. 690 Ft."
+    },
+    {
+      "id": "hu/egyensulyozo-deszka-szett",
+      "category": "equipment",
+      "slug": "egyensulyozo-deszka-szett",
+      "href": "/hu/equipment/egyensulyozo-deszka-szett/",
+      "tags": [
+        "movement",
+        "balance"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "retailerUrls": [
+        "https://autishop.hu/egyensulyozo-deszka-szett"
+      ],
+      "title": "Egyensúlyozó deszka szett",
+      "locale": "hu",
+      "topics": [
+        "adhd",
+        "autism"
+      ],
+      "summary": "3 db ívelt egyensúlyozó deszka — híd, libikóka vagy egymásra rakva nehezített pálya, egyensúlyérzék és mozgáskoordináció fejlesztésére.",
+      "priceRange": "44,700 HUF",
+      "sourceUrl": "https://autishop.hu/egyensulyozo-deszka-szett",
+      "coverImage": "/covers/egyensulyozo-deszka-szett.jpg",
+      "lastReviewed": "2026-07-04",
+      "body": "Gonge (dán gyártó), autishop.hu-n. 3 db ívelt deszka (59×21,5×10,5 cm), gumírozott, csúszásmentes szélekkel. Íves oldallal felfelé híd/összefüggő útvonal, fordítva libikóka, egymásra rakva nehezített egyensúlyozó pálya. 2-15 éves korig, 75 kg terhelhetőségig. 44 700 Ft."
+    },
+    {
+      "id": "hu/egyensulyozo-labda",
+      "category": "equipment",
+      "slug": "egyensulyozo-labda",
+      "href": "/hu/equipment/egyensulyozo-labda/",
+      "tags": [
+        "movement",
+        "balance"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "retailerUrls": [
+        "https://autishop.hu/Egyensulyozo-labda"
+      ],
+      "title": "Egyensúlyozó, ugráló labda",
+      "locale": "hu",
+      "topics": [
+        "adhd",
+        "autism"
+      ],
+      "summary": "Gyűrűvel osztott egyensúlyozó labda — vesztibuláris/proprioceptív mozgásfejlesztő eszköz, első nagymozgásos (nem kézi) tétel a kategóriában.",
+      "priceRange": "7,990 HUF",
+      "sourceUrl": "https://autishop.hu/Egyensulyozo-labda",
+      "coverImage": "/covers/egyensulyozo-labda.jpg",
+      "lastReviewed": "2026-07-04",
+      "body": "Amaya Sport (SL), autishop.hu-n. 37×28 cm, 50 kg terhelhetőségig. Műanyag gyűrű osztja két félre — az egyik oldalon pattogva, a másikat bokával stabilizálva egyensúlyérzéket, mozgáskoordinációt fejleszt, izmot/csontot erősít. 7 990 Ft."
+    },
+    {
+      "id": "hu/manimo-sulyozott-kutya",
+      "category": "equipment",
+      "slug": "manimo-sulyozott-kutya",
+      "href": "/hu/equipment/manimo-sulyozott-kutya/",
+      "tags": [
+        "sensory",
+        "sleep"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "retailerUrls": [
+        "https://autishop.hu/Sulyozott-kutya-1-kg"
+      ],
+      "title": "Manimo súlyozott plüss kutya",
+      "locale": "hu",
+      "topics": [
+        "adhd",
+        "autism"
+      ],
+      "summary": "Súlyozott plüss állat (1 kg) — testtudatra ható, nyugtató szenzoros eszköz, figyelem és koncentráció fokozására tanórán vagy házi feladatnál.",
+      "priceRange": "23,490 HUF",
+      "sourceUrl": "https://autishop.hu/Sulyozott-kutya-1-kg",
+      "coverImage": "/covers/manimo-sulyozott-kutya.jpg",
+      "lastReviewed": "2026-07-04",
+      "body": "Manimo® márka, autishop.hu-n. 95% lycra, 5% spandex, HDPE golyó töltet, 1 kg (2,5 kg-os változat is létezik). Ölbe, vállra vagy nyakba vehető, ajánlott használat 15-20 perc, 3 éves kortól. Gyártói ígéret: szorongáscsökkentés, figyelem/koncentráció fokozása, testtudat erősítése."
+    },
+    {
+      "id": "hu/napirend-tervezo",
+      "category": "equipment",
+      "slug": "napirend-tervezo",
+      "href": "/hu/equipment/napirend-tervezo/",
+      "tags": [
+        "visual-support",
+        "routine"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "retailerUrls": [
+        "https://autishop.hu/Napirend-tervezo"
+      ],
+      "title": "Napirend tervező",
+      "locale": "hu",
+      "topics": [
+        "autism",
+        "adhd"
+      ],
+      "summary": "Vizuális napirend-tervező textilpanel képkártyákkal — napi program felépítéséhez, otthoni vagy intézményi használatra.",
+      "priceRange": "23,090 HUF",
+      "sourceUrl": "https://autishop.hu/Napirend-tervezo",
+      "coverImage": "/covers/napirend-tervezo.jpg",
+      "lastReviewed": "2026-07-04",
+      "body": "Akros (spanyol gyártó) márka, autishop.hu-n. 105×35 cm-es textilpanel műanyag zsebekkel, 36 db kép-, 36 db óralapos, 72 db idő- és 12 db délelőtt/délután kártyával. 3 éves kortól ajánlott, napi program vizuális felépítéséhez. 23 090 Ft."
+    },
+    {
+      "id": "hu/optikai-szalas-gubanc",
+      "category": "equipment",
+      "slug": "optikai-szalas-gubanc",
+      "href": "/hu/equipment/optikai-szalas-gubanc/",
+      "tags": [
+        "sensory",
+        "visual",
+        "snoezelen"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "retailerUrls": [
+        "https://www.aaksni.hu/optikai-szalas-vilagito-gubanc-100db2m-t458676"
+      ],
+      "title": "Optikai szálas világító gubanc",
+      "locale": "hu",
+      "topics": [
+        "adhd",
+        "autism"
+      ],
+      "summary": "Tapintható, színváltó fényoptikai szálköteg (100 db/2 m) szenzoros szobához — vizuális/tapintási stimuláció, első fény-alapú tétel a kategóriában.",
+      "priceRange": "90,990 HUF",
+      "sourceUrl": "https://www.aaksni.hu/optikai-szalas-vilagito-gubanc-100db2m-t458676",
+      "coverImage": "/covers/optikai-szalas-gubanc.jpg",
+      "lastReviewed": "2026-07-04",
+      "body": "Aaksni.hu (szenzoros szoba/snoezelen szaküzlet). 100 db optikai szál, 2 m hosszú, tapintható és színváltó. Külön LED fényforrás szükséges hozzá. Szenzoros szoba (Snoezelen) berendezéshez, vizuális/tapintási stimulációra minden korosztálynak. 90 990 Ft."
+    },
+    {
+      "id": "hu/pecs-napirendi-kartya",
+      "category": "equipment",
+      "slug": "pecs-napirendi-kartya",
+      "href": "/hu/equipment/pecs-napirendi-kartya/",
+      "tags": [
+        "visual-support",
+        "communication",
+        "pecs"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "retailerUrls": [
+        "https://www.aaksni.hu/pecs-napirendi-kartya-keszlet-65-cm-t719483"
+      ],
+      "title": "PECS napirendi kártyakészlet",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "96 lamináltott, rajzos képkártya a PECS (képcserés kommunikáció) módszer napirend-eleméhez — iskolai, otthoni, közösségi tevékenységekhez.",
+      "priceRange": "16,990 HUF",
+      "sourceUrl": "https://www.aaksni.hu/pecs-napirendi-kartya-keszlet-65-cm-t719483",
+      "coverImage": "/covers/pecs-napirendi-kartya.jpg",
+      "lastReviewed": "2026-07-04",
+      "body": "Aaksni.hu-n. 96 db 6,5×6,5 cm-es lamináltott, rajzos, színes napirendi képkártya, angol/magyar szólistával, tépőzáras pöttyökkel és két választó ikonnal. A PECS (Picture Exchange Communication System) módszer napirend-táblájához, a módszer kidolgozói ajánlása szerint. 16 990 Ft."
+    },
+    {
+      "id": "hu/quicktalker-ft23",
+      "category": "equipment",
+      "slug": "quicktalker-ft23",
+      "href": "/hu/equipment/quicktalker-ft23/",
+      "tags": [
+        "communication",
+        "aac"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "retailerUrls": [
+        "https://autishop.hu/quicktalker-ft23-kommunikator"
+      ],
+      "title": "QuickTalker FT23 kommunikátor",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Fizikai AAK (augmentatív és alternatív kommunikációs) eszköz — 20 programozható gomb, 100 rögzített üzenet, nem- vagy aligbeszélő autista személyeknek.",
+      "priceRange": "129,990 HUF",
+      "sourceUrl": "https://autishop.hu/quicktalker-ft23-kommunikator",
+      "coverImage": "/covers/quicktalker-ft23.jpg",
+      "lastReviewed": "2026-07-04",
+      "body": "AbleNet (USA) márka, autishop.hu-n. 20 programozható gomb, 5 szinten összesen 100 üzenet, max. 18 perc felvételi kapacitás, kép + hang testreszabással. Nem-/aligbeszélő autista gyerekeknek/felnőtteknek a napi kommunikációhoz. Előrendelhető. 129 990 Ft."
+    },
+    {
+      "id": "hu/sulyozott-melleny",
+      "category": "equipment",
+      "slug": "sulyozott-melleny",
+      "href": "/hu/equipment/sulyozott-melleny/",
+      "tags": [
+        "sensory",
+        "dpt"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "retailerUrls": [
+        "https://www.mokaeszen.hu/Gyerek-sulyozott-melleny-sulymelleny"
+      ],
+      "title": "Gyerek súlyozott mellény",
+      "locale": "hu",
+      "topics": [
+        "adhd",
+        "autism"
+      ],
+      "summary": "Mélynyomás-terápiás súlymellény gyerekeknek — folyamatos szenzoros inger tanórán/foglalkozáson ülve maradáshoz, koncentrációhoz, önszabályozáshoz.",
+      "priceRange": "15,990 HUF-tól (méret szerint)",
+      "sourceUrl": "https://www.mokaeszen.hu/Gyerek-sulyozott-melleny-sulymelleny",
+      "coverImage": "/covers/sulyozott-melleny.jpg",
+      "lastReviewed": "2026-07-04",
+      "body": "Móka és Zen (mokaeszen.hu), magyar manufaktúra. 100% pamut, antiallergén üveggyöngy töltet. Méret S-XL (4-12 év), alapár 15 990 Ft, nagyobb méretnél felárral. A gyártó kifejezetten ADHD, autizmus és szenzoros feldolgozási nehézség esetére ajánlja, gyógyszermentes alternatívaként."
+    },
+    {
+      "id": "hu/sulyozott-takaro",
+      "category": "equipment",
+      "slug": "sulyozott-takaro",
+      "href": "/hu/equipment/sulyozott-takaro/",
+      "tags": [
+        "sleep",
+        "sensory"
+      ],
+      "ratings": [
+        {
+          "source": "mokaeszen.hu vásárlói értékelés",
+          "score": 5,
+          "scale": 5,
+          "note": "n=1 — egyetlen értékelés, nem reprezentatív minta",
+          "checkedAt": "2026-07-04"
+        }
+      ],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "retailerUrls": [
+        "https://www.mokaeszen.hu/Felnott-sulyozott-takaro-70-kg-ig"
+      ],
+      "title": "Súlyozott takaró",
+      "locale": "hu",
+      "topics": [
+        "adhd",
+        "autism"
+      ],
+      "summary": "Kézzel készített, személyre szabott súlyú pamut takaró mélynyomás-terápiához — alvási és szorongási nehézségek enyhítésére ADHD-nál és autizmusnál.",
+      "priceRange": "32,990 HUF-tól (méret/súly szerint)",
+      "sourceUrl": "https://www.mokaeszen.hu/Felnott-sulyozott-takaro-70-kg-ig",
+      "coverImage": "/covers/sulyozott-takaro.jpg",
+      "lastReviewed": "2026-07-04",
+      "body": "Móka és Zen (mokaeszen.hu), magyar manufaktúra. 100% pamut, üveggyöngy töltet, Oeko-Tex tanúsítvány, poliészterbélés nélkül. Alapár 32 990 Ft (136×196 cm, 65 kg-ig használótestsúlyhoz), méret és súly szerint felárral. Az oldal külön szekciót szentel az ADHD/autizmus felhasználásnak."
+    },
+    {
+      "id": "hu/szenzoros-hinta",
+      "category": "equipment",
+      "slug": "szenzoros-hinta",
+      "href": "/hu/equipment/szenzoros-hinta/",
+      "tags": [
+        "sensory",
+        "movement"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "retailerUrls": [
+        "https://autishop.hu/Szenzoros-terapias-hinta-leesesgatloval-(puha-textil-bevonat)"
+      ],
+      "title": "Szenzoros terápiás hinta",
+      "locale": "hu",
+      "topics": [
+        "adhd",
+        "autism"
+      ],
+      "summary": "Otthoni szenzoros integrációs hinta leesésgátlóval, kisgyerekeknek — vesztibuláris inger, mozgásfejlesztés.",
+      "priceRange": "139,900 HUF",
+      "sourceUrl": "https://autishop.hu/Szenzoros-terapias-hinta-leesesgatloval-(puha-textil-bevonat)",
+      "coverImage": "/covers/szenzoros-hinta.jpg",
+      "lastReviewed": "2026-07-04",
+      "body": "Empis márka, autishop.hu-n (dedikált magyar autizmus/szenzoros webáruház). Puha textilbevonat, leesésgátlóval, kb. 4 kg, 50×50 cm. Elsősorban kisgyerekeknek, akik még nem tudnak biztonságosan kapaszkodni. Ár: 139 900 Ft, előrendelhető. Vesztibuláris/szenzoros integrációs foglalkozásokhoz."
+    },
+    {
+      "id": "hu/szenzoros-sator",
+      "category": "equipment",
+      "slug": "szenzoros-sator",
+      "href": "/hu/equipment/szenzoros-sator/",
+      "tags": [
+        "sensory",
+        "retreat-space"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "retailerUrls": [
+        "https://www.aaksni.hu/szenzoros-sator-alap-nagy-t798354"
+      ],
+      "title": "Szenzoros sátor, alap, nagy",
+      "locale": "hu",
+      "topics": [
+        "autism",
+        "adhd"
+      ],
+      "summary": "Hordozható szenzoros búvóhely-sátor beépített LED-világítással és hangszóróval — visszahúzódásra, ingerlecsökkentésre, stresszoldásra, első 'tér/menedék' típusú tétel a kategóriában.",
+      "priceRange": "764,990 HUF",
+      "sourceUrl": "https://www.aaksni.hu/szenzoros-sator-alap-nagy-t798354",
+      "coverImage": "/covers/szenzoros-sator.jpg",
+      "lastReviewed": "2026-07-04",
+      "body": "Aaksni.hu. 1,8 m átmérő × 1,8 m magasság, kb. 40 másodperc alatt felállítható, hátizsákba pakolható. Távirányítós, színváltó LED-világítás, beépített vezeték nélküli hangszóró, habszivacs alátéttel. Gyártó kifejezetten autizmussal élő gyerekeknek ajánlja otthoni/iskolai/intézményi ingerlecsökkentő visszavonulásra. Szállítási idő 2-3 hét. 764 990 Ft — a kategória egyik legdrágább, inkább intézményi szintű tétele."
+    },
+    {
+      "id": "hu/time-timer-mod",
+      "category": "equipment",
+      "slug": "time-timer-mod",
+      "href": "/hu/equipment/time-timer-mod/",
+      "tags": [
+        "time-management",
+        "visual-support"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "retailerUrls": [
+        "https://autishop.hu/a-vizualis-tamogatas-eszkozei/time-timer-vizualis-idomerok/Vizualis-idomero-Time-Timer-MOD-szilikon-vedotokkal"
+      ],
+      "title": "Time Timer MOD vizuális időmérő",
+      "locale": "hu",
+      "topics": [
+        "adhd",
+        "autism"
+      ],
+      "summary": "Vizuális időmérő — eltűnő piros korong mutatja az idő múlását szavak/számok helyett, átmenetek és feladatidőzítés megkönnyítésére.",
+      "priceRange": "18,790 HUF",
+      "sourceUrl": "https://autishop.hu/a-vizualis-tamogatas-eszkozei/time-timer-vizualis-idomerok/Vizualis-idomero-Time-Timer-MOD-szilikon-vedotokkal",
+      "coverImage": "/covers/time-timer-mod.jpg",
+      "lastReviewed": "2026-07-04",
+      "body": "Time Timer (USA) márka, autishop.hu-n. 9×9 cm, szilikon védőtokkal, max. 60 perc mérhető, néma működés opcionális hangjelzéssel lejáratkor. Autizmusnál/ADHD-nál külső időstruktúrát ad, csökkenti az átmenetekkel járó szorongást. 18 790 Ft."
+    },
+    {
+      "id": "hu/zajszuro-fulhallgato",
+      "category": "equipment",
+      "slug": "zajszuro-fulhallgato",
+      "href": "/hu/equipment/zajszuro-fulhallgato/",
+      "tags": [
+        "sensory",
+        "noise"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "retailerUrls": [
+        "https://autishop.hu/Alpine-Muffy-menta-huzozsinoros-zsakkal"
+      ],
+      "title": "Alpine Muffy fültok",
+      "locale": "hu",
+      "topics": [
+        "autism",
+        "adhd"
+      ],
+      "summary": "Passzív zajszűrő fültok (fejpántos hallásvédő), 5-16 éves gyerekeknek, szenzoros túlterheltség csökkentésére zajos környezetben.",
+      "priceRange": "12,890 HUF",
+      "sourceUrl": "https://autishop.hu/Alpine-Muffy-menta-huzozsinoros-zsakkal",
+      "coverImage": "/covers/zajszuro-fulhallgato.jpg",
+      "lastReviewed": "2026-07-04",
+      "body": "Alpine Muffy Kids, 25 dB zajcsillapítás, állítható fejpánt, puha béléssel — 5-16 éves korosztálynak. Autishop.hu-n (dedikált magyar autizmus/szenzoros webáruház) kapható, 12 890 Ft. Nem márkaszinten autizmus-specifikus termék, de kifejezetten szenzoros felhasználásra árulja a forgalmazó."
+    },
+    {
+      "id": "hu/adhd-baratkozo-reggeli",
+      "category": "food",
+      "slug": "adhd-baratkozo-reggeli",
+      "href": "/hu/food/adhd-baratkozo-reggeli/",
+      "tags": [
+        "recipe",
+        "breakfast",
+        "low-effort"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "dietaryTags": [
+        "high-protein"
+      ],
+      "title": "ADHD-barátkozó reggeli receptek",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "Egyszerű, fehérjében gazdag reggeli receptek, kevés lépéssel a végrehajtási funkció megkímélésére.",
+      "kind": "recipe",
+      "sourceUrl": "https://example.com/food/adhd-baratkozo-reggeli",
+      "lastReviewed": "2026-06-18",
+      "body": "Seed content for schema validation."
+    },
+    {
+      "id": "hu/alacsony-szenzoros-uzsonna",
+      "category": "food",
+      "slug": "alacsony-szenzoros-uzsonna",
+      "href": "/hu/food/alacsony-szenzoros-uzsonna/",
+      "tags": [
+        "guide",
+        "snack",
+        "sensory-friendly"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "dietaryTags": [
+        "texture-consistent"
+      ],
+      "title": "Alacsony szenzoros ingerű uzsonna útmutató",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Útmutató kiválasztott textúrájú, kiszámítható ízű uzsonnákhoz szenzoros érzékenység esetén.",
+      "kind": "product",
+      "sourceUrl": "https://example.com/food/alacsony-szenzoros-uzsonna",
+      "lastReviewed": "2026-06-18",
+      "body": "Seed content for schema validation."
+    },
+    {
+      "id": "hu/adhdninja",
+      "category": "influencers",
+      "slug": "adhdninja",
+      "href": "/hu/influencers/adhdninja/",
+      "tags": [
+        "social-media",
+        "lived-experience",
+        "entrepreneurship"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "ADHD Ninja (Sörös Ágnes)",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "Marketinges és vállalkozásmentor, saját ADHD-jából kiindulva épített közösséget és tudástárat ADHD-s felnőtteknek és vállalkozóknak.",
+      "handle": "@adhdninja.hu",
+      "platforms": [
+        "Instagram",
+        "Facebook"
+      ],
+      "sourceUrl": "https://adhdninja.hu/",
+      "coverImage": "/covers/adhdninja.jpg",
+      "lastReviewed": "2026-07-04",
+      "body": "Sörös Ágnes 2008 óta dolgozik marketingesként, 2014-től elsősorban ADHD-s családoknak fotózott, és saját ADHD-diagnózisából kiindulva építette fel az ADHD Ninja márkát. Fő fókusza az ADHD-s vállalkozók és felnőttek mentorálása (öt hetes csoportos program, \"ADHD Ninja Klub\" havi tagság), nem klasszikus lájkvadász influenszer tartalom — kisebb, de aktív és hiteles közösség (768 követő Instagramon, ellenőrizve: 2026-07-04)."
+    },
+    {
+      "id": "hu/cinthya-dictator",
+      "category": "influencers",
+      "slug": "cinthya-dictator",
+      "href": "/hu/influencers/cinthya-dictator/",
+      "tags": [
+        "social-media",
+        "lived-experience"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Cinthya Dictator",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "Fotóművész és influenszer, aki nyíltan beszél gyerekkori és felnőttkori ADHD-diagnózisáról közösségi médiában és médiamegjelenéseiben.",
+      "handle": "@cinthyadictator",
+      "platforms": [
+        "Instagram",
+        "YouTube"
+      ],
+      "sourceUrl": "https://www.instagram.com/cinthyadictator/",
+      "coverImage": "/covers/cinthya-dictator.jpg",
+      "lastReviewed": "2026-07-04",
+      "body": "Gyerekként diagnosztizált ADHD-val, felnőttként újra szakértői kivizsgáláson vett részt. A WMN.hu-n megjelent interjújában (\"Nagyon szégyelltem, hogy ADHD-s vagyok\") arról beszélt, mennyire szégyellte állapotát gyerek- és felnőttkorában is. A \"Tünet\" című műsor epizódjában Dr. Ammer Mária ADHD-szakértő pszichiáter mellett osztotta meg saját tapasztalatát a diagnózisról és a kezelésről. Instagram-oldalát elsősorban fotós/modell tartalom teszi ki, nem kifejezetten ADHD-tematikájú, de nyilvánosan és rendszeresen felvállalja a témát."
+    },
+    {
+      "id": "hu/szikrabori",
+      "category": "influencers",
+      "slug": "szikrabori",
+      "href": "/hu/influencers/szikrabori/",
+      "tags": [
+        "social-media",
+        "parent-perspective"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Szikrabori (Bori)",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Autista kisfia, Fici mindennapjait és fejlődését megosztó TikTok-alkotó, aki küldetésének tekinti az autizmussal kapcsolatos tévhitek eloszlatását.",
+      "handle": "@szikrabori",
+      "platforms": [
+        "TikTok"
+      ],
+      "sourceUrl": "https://www.tiktok.com/@szikrabori",
+      "coverImage": "/covers/szikrabori.jpg",
+      "lastReviewed": "2026-07-04",
+      "body": "Magyar TikTok-alkotó, aki fia, Fici autizmusspektrum-zavarral kapcsolatos mindennapjait, beszédfejlődését és a DAM (délutáni autizmus-specifikus fejlesztő program) hatásait dokumentálja rövid videókban. A HVG 2022-es cikke szerint egy véletlenül virálissá vált videó után tűzte ki célul az autizmussal kapcsolatos sztereotípiák lebontását. 305 ezer követő, közel 30 millió like a profilon (ellenőrizve: 2026-07-04). Szülői nézőpontból mutatja be a témát, nem saját érintettségből."
+    },
+    {
+      "id": "hu/adam",
+      "category": "movies",
+      "slug": "adam",
+      "href": "/hu/movies/adam/",
+      "tags": [],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "adults",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "streamingUrls": [],
+      "title": "Adam",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Egy Asperger-szindrómás fiatal férfi Manhattanben egyre mélyülő, óvatos kapcsolatot alakít ki új szomszédjával, egy tanárnővel, amit megnehezít, hogy nehezen olvassa a szociális és emocionális jelzéseket.",
+      "kind": "narrative",
+      "director": "Max Mayer",
+      "year": 2009,
+      "runtimeMinutes": 99,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Adam_(2009_film)",
+      "lastReviewed": "2026-07-05",
+      "body": "Magyarországon jelenleg csak bérelhető vagy megvásárolható (Apple TV Store, Rakuten TV), előfizetős szolgáltatáson nem elérhető."
+    },
+    {
+      "id": "hu/hors-normes",
+      "category": "movies",
+      "slug": "hors-normes",
+      "href": "/hu/movies/hors-normes/",
+      "tags": [],
+      "ratings": [],
+      "availability": "unavailable",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "streamingUrls": [],
+      "title": "Különleges életek (Hors normes)",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Két párizsi szociális munkás két évtizede vezet olyan szervezeteket, amelyek a mainstream intézmények által elutasított autista fiatalokat támogatják, valódi bürokratikus akadályokkal szembesülve — több autista szerepet autista, nem hivatásos színész alakít.",
+      "kind": "narrative",
+      "director": "Olivier Nakache & Éric Toledano",
+      "year": 2019,
+      "runtimeMinutes": 114,
+      "sourceUrl": "https://fr.wikipedia.org/wiki/Hors_normes",
+      "lastReviewed": "2026-07-05",
+      "body": "Magyarországon jelenleg nincs elérhető legális streaming lehetőség (JustWatch HU szerint nem streamelhető)."
+    },
+    {
+      "id": "hu/how-to-dance-in-ohio",
+      "category": "movies",
+      "slug": "how-to-dance-in-ohio",
+      "href": "/hu/movies/how-to-dance-in-ohio/",
+      "tags": [],
+      "ratings": [],
+      "availability": "unavailable",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "streamingUrls": [],
+      "title": "How to Dance in Ohio",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "HBO-dokumentumfilm, amely autista fiatal felnőtteket követ Columbusban (Ohio), akik egy tanácsadó segítségével 12 hét alatt készülnek fel az első bálozó táncestjükre.",
+      "kind": "documentary",
+      "director": "Alexandra Shiva",
+      "year": 2015,
+      "runtimeMinutes": 89,
+      "sourceUrl": "https://en.wikipedia.org/wiki/How_to_Dance_in_Ohio",
+      "lastReviewed": "2026-07-05",
+      "body": "Magyarországon jelenleg nincs elérhető legális streaming lehetőség (JustWatch HU szerint nem streamelhető), a HBO-s amerikai premier ellenére."
+    },
+    {
+      "id": "hu/keep-the-change",
+      "category": "movies",
+      "slug": "keep-the-change",
+      "href": "/hu/movies/keep-the-change/",
+      "tags": [],
+      "ratings": [],
+      "availability": "unavailable",
+      "ageGroup": "adults",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "streamingUrls": [],
+      "title": "Keep the Change",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Romantikus vígjáték két autista felnőttről, akik egy New York-i közösségi csoportban ismerkednek meg — mindkét főszerepet autista, nem hivatásos színész alakítja, saját élményeikre építve.",
+      "kind": "narrative",
+      "director": "Rachel Israel",
+      "year": 2017,
+      "runtimeMinutes": 94,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Keep_the_Change_(2017_film)",
+      "lastReviewed": "2026-07-05",
+      "body": "Magyarországi streaming-elérhetőségét nem sikerült ellenőrizni — a JustWatch HU keresésben nem található egyértelműen ehhez a filmhez tartozó találat."
+    },
+    {
+      "id": "hu/life-animated",
+      "category": "movies",
+      "slug": "life-animated",
+      "href": "/hu/movies/life-animated/",
+      "tags": [],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "streamingUrls": [],
+      "title": "Life, Animated",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Dokumentumfilm Owen Suskindről, akinél 3 évesen diagnosztizáltak autizmust, és aki a Disney-rajzfilmeken keresztül tanult meg kommunikálni és feldolgozni a világot — apja, Ron Suskind könyve alapján.",
+      "kind": "documentary",
+      "director": "Roger Ross Williams",
+      "year": 2016,
+      "runtimeMinutes": 92,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Life,_Animated",
+      "lastReviewed": "2026-07-05",
+      "body": "Magyarországon jelenleg csak bérelhető vagy megvásárolható (Apple TV Store), előfizetős szolgáltatáson nem elérhető."
+    },
+    {
+      "id": "hu/loop",
+      "category": "movies",
+      "slug": "loop",
+      "href": "/hu/movies/loop/",
+      "tags": [],
+      "ratings": [],
+      "availability": "unavailable",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "streamingUrls": [],
+      "title": "Loop",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Pixar SparkShorts rövidfilm: egy nem verbálisan beszélő autista lány, Renee, és egy sokat beszélő fiú, Marcus egy kenutúrán tanulnak meg kapcsolódni egymáshoz — Pixar első nem verbális főszereplője, akit egy nem verbális autista színésznő, Madison Bandy szólaltat meg.",
+      "kind": "narrative",
+      "director": "Erica Milsom",
+      "year": 2020,
+      "runtimeMinutes": 9,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Loop_(2020_film)",
+      "lastReviewed": "2026-07-05",
+      "body": "Nem találtunk megbízhatóan ellenőrizhető magyarországi streaming-elérhetőséget: a Disney+ Pixar SparkShorts gyűjteménye HU-ban létezik, de nem tudtuk megerősíteni, hogy a Loop szerepel-e benne."
+    },
+    {
+      "id": "hu/mozart-and-the-whale",
+      "category": "movies",
+      "slug": "mozart-and-the-whale",
+      "href": "/hu/movies/mozart-and-the-whale/",
+      "tags": [],
+      "ratings": [],
+      "availability": "unavailable",
+      "ageGroup": "adults",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "streamingUrls": [],
+      "title": "Hóbortos szerelem (Mozart and the Whale)",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Romantikus dráma két Asperger-szindrómás felnőttről, akiknek kapcsolatát épp a saját állapotukból fakadó vonások nehezítik meg — Jerry és Mary Newport valós történetéből ihletve.",
+      "kind": "narrative",
+      "director": "Petter Næss",
+      "year": 2005,
+      "runtimeMinutes": 94,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mozart_and_the_Whale",
+      "lastReviewed": "2026-07-05",
+      "body": "Magyarországon jelenleg nincs elérhető legális streaming lehetőség (JustWatch HU szerint nem streamelhető)."
+    },
+    {
+      "id": "hu/my-name-is-khan",
+      "category": "movies",
+      "slug": "my-name-is-khan",
+      "href": "/hu/movies/my-name-is-khan/",
+      "tags": [],
+      "ratings": [],
+      "availability": "unavailable",
+      "ageGroup": "adults",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "streamingUrls": [],
+      "title": "A nevem Khan (My Name Is Khan)",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Bollywood-dráma egy Asperger-szindrómás muszlim férfiról, aki átutazza az USA-t, hogy találkozzon az elnökkel, miután felesége a 9/11 utáni előítéleteket (a férj neve miatt) okolja fiuk haláláért.",
+      "kind": "narrative",
+      "director": "Karan Johar",
+      "year": 2010,
+      "runtimeMinutes": 161,
+      "sourceUrl": "https://en.wikipedia.org/wiki/My_Name_Is_Khan",
+      "lastReviewed": "2026-07-05",
+      "body": "Magyarországon jelenleg nincs elérhető legális streaming lehetőség (JustWatch HU szerint nem streamelhető)."
+    },
+    {
+      "id": "hu/rain-man",
+      "category": "movies",
+      "slug": "rain-man",
+      "href": "/hu/movies/rain-man/",
+      "tags": [],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "adults",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "streamingUrls": [],
+      "title": "Esőember (Rain Man)",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Egy önző autókereskedő rájön, hogy intézetben élő, autista bátyja örökölte apjuk vagyonát, és elrabolja őt egy országon átívelő útra — közben valódi kapcsolat alakul ki köztük.",
+      "kind": "narrative",
+      "director": "Barry Levinson",
+      "year": 1988,
+      "runtimeMinutes": 134,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Rain_Man",
+      "lastReviewed": "2026-07-05",
+      "body": "Magyarországon jelenleg csak bérelhető vagy megvásárolható (Apple TV Store, Amazon Video), előfizetős szolgáltatáson nem elérhető."
+    },
+    {
+      "id": "hu/temple-grandin",
+      "category": "movies",
+      "slug": "temple-grandin",
+      "href": "/hu/movies/temple-grandin/",
+      "tags": [],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "adults",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "streamingUrls": [],
+      "title": "Temple Grandin",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Életrajzi HBO-film Temple Grandinről, aki nonverbális autista gyerekként indult, majd tudóssá vált, és vizuális gondolkodását felhasználva humánusabb szarvasmarha-kezelő berendezéseket fejlesztett.",
+      "kind": "narrative",
+      "director": "Mick Jackson",
+      "year": 2010,
+      "runtimeMinutes": 107,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Temple_Grandin_(film)",
+      "lastReviewed": "2026-07-05",
+      "body": "Magyarországon a HBO Max-on elérhető."
+    },
+    {
+      "id": "hu/the-accountant",
+      "category": "movies",
+      "slug": "the-accountant",
+      "href": "/hu/movies/the-accountant/",
+      "tags": [],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "adults",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "streamingUrls": [],
+      "title": "A könyvelő (The Accountant)",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Egy autista törvényszéki könyvelőt, aki bűnszervezeteknek pénzt mos, megbíznak egy robotikai cég átvilágításával, ami sikkasztást tár fel, és a cég, valamint a szövetségi hatóságok célkeresztjébe kerül.",
+      "kind": "narrative",
+      "director": "Gavin O'Connor",
+      "year": 2016,
+      "runtimeMinutes": 128,
+      "sourceUrl": "https://en.wikipedia.org/wiki/The_Accountant_(2016_film)",
+      "lastReviewed": "2026-07-05",
+      "body": "Magyarországon a HBO Max-on és az Amazon Prime Video-n elérhető, feliratosan."
+    },
+    {
+      "id": "hu/the-disruptors",
+      "category": "movies",
+      "slug": "the-disruptors",
+      "href": "/hu/movies/the-disruptors/",
+      "tags": [],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "streamingUrls": [],
+      "title": "The Disruptors",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "Dokumentumfilm az ADHD-ról interjúk és családi esettanulmányok révén, amely a betegséggel kapcsolatos gyakori mítoszok leépítésére törekszik, és bemutatja az érintettek nehézségeit és erősségeit is.",
+      "kind": "documentary",
+      "director": "Stephanie Soechtig",
+      "year": 2022,
+      "sourceUrl": "https://www.imdb.com/title/tt14854294/",
+      "lastReviewed": "2026-07-05",
+      "body": "Magyarországon jelenleg csak bérelhető vagy megvásárolható (Apple TV Store), előfizetős szolgáltatáson nem elérhető. A pontos játékidőt a források eltérően adják meg (90 vagy 98 perc), ezért itt nem szerepel."
+    },
+    {
+      "id": "hu/the-reason-i-jump",
+      "category": "movies",
+      "slug": "the-reason-i-jump",
+      "href": "/hu/movies/the-reason-i-jump/",
+      "tags": [],
+      "ratings": [],
+      "availability": "unavailable",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "streamingUrls": [],
+      "title": "The Reason I Jump",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Naoki Higashida könyve alapján készült dokumentumfilm, amely öt nem verbálisan beszélő autista tinédzsert/fiatal felnőttet követ Indiában, az Egyesült Királyságban, az USA-ban és Sierra Leonéban, a kommunikációra és a belső tapasztalatra fókuszálva.",
+      "kind": "documentary",
+      "director": "Jerry Rothwell",
+      "year": 2020,
+      "runtimeMinutes": 82,
+      "sourceUrl": "https://en.wikipedia.org/wiki/The_Reason_I_Jump",
+      "lastReviewed": "2026-07-05",
+      "body": "Magyarországon jelenleg nincs elérhető legális streaming lehetőség (JustWatch HU szerint nem streamelhető)."
+    },
+    {
+      "id": "hu/x-plus-y",
+      "category": "movies",
+      "slug": "x-plus-y",
+      "href": "/hu/movies/x-plus-y/",
+      "tags": [],
+      "ratings": [],
+      "availability": "unavailable",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "streamingUrls": [],
+      "title": "X+Y",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Egy enyhén autizmus spektrumon lévő brit tinédzser matematikai tehetség a számokban talál menedéket, és bekerül a Nemzetközi Matematikai Diákolimpia csapatába, ahol első alkalommal szembesül szerelmi érzésekkel is.",
+      "kind": "narrative",
+      "director": "Morgan Matthews",
+      "year": 2014,
+      "runtimeMinutes": 111,
+      "sourceUrl": "https://en.wikipedia.org/wiki/X%2BY",
+      "lastReviewed": "2026-07-05",
+      "body": "Magyarországon jelenleg nincs elérhető legális streaming lehetőség (JustWatch HU szerint nem streamelhető)."
+    },
+    {
+      "id": "hu/adhd-felbontasban",
+      "category": "podcasts",
+      "slug": "adhd-felbontasban",
+      "href": "/hu/podcasts/adhd-felbontasban/",
+      "tags": [
+        "entrepreneurship",
+        "workplace",
+        "lived-experience"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "ADHD Felbontásban — Neurodiverz vállalkozói podcast",
+      "locale": "hu",
+      "topics": [
+        "adhd",
+        "autism"
+      ],
+      "summary": "Török Balázs podcastja neurodivergens (ADHD-s és autista) vállalkozókkal, szakemberekkel a munka, vállalkozás és önismeret témáiról, saját tapasztalatok alapján.",
+      "creator": "Török Balázs",
+      "platform": "Spotify / YouTube",
+      "coverImage": "/covers/adhd-felbontasban.jpg",
+      "sourceUrl": "https://open.spotify.com/show/5Qd9uQQZP6lCX81pcsE2L5",
+      "lastReviewed": "2026-07-04",
+      "body": "Nem orvosi/szakmai tanácsadás — a podcastben szereplők saját tapasztalataikról beszélnek."
+    },
+    {
+      "id": "hu/adhd-kalauz",
+      "category": "podcasts",
+      "slug": "adhd-kalauz",
+      "href": "/hu/podcasts/adhd-kalauz/",
+      "tags": [
+        "interviews",
+        "adults",
+        "biweekly"
+      ],
+      "ratings": [
+        {
+          "source": "Apple Podcasts",
+          "score": 5,
+          "scale": 5,
+          "url": "https://podcasts.apple.com/hu/podcast/adhd-kalauz-%C3%BAt-a-benned-rejl%C5%91-tehets%C3%A9ghez/id1835611601",
+          "note": "4 értékelés alapján — kis mintaszám",
+          "checkedAt": "2026-07-04"
+        }
+      ],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "ADHD Kalauz — Út a benned rejlő tehetséghez",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "Dobribán András pszichológus, aki felnőttkorban kapott ADHD-diagnózist, kéthetente szakértőket kérdez az ADHD-val élők mindennapi kihívásairól.",
+      "creator": "Dobribán András",
+      "platform": "Apple Podcasts / Spotify",
+      "coverImage": "/covers/adhd-kalauz.jpg",
+      "sourceUrl": "https://podcasts.apple.com/hu/podcast/adhd-kalauz-%C3%BAt-a-benned-rejl%C5%91-tehets%C3%A9ghez/id1835611601",
+      "lastReviewed": "2026-07-04",
+      "body": "Aktív, kéthetente frissülő magyar podcast."
+    },
+    {
+      "id": "hu/kek-egyenloseg-epizod",
+      "category": "podcasts",
+      "slug": "kek-egyenloseg-epizod",
+      "href": "/hu/podcasts/kek-egyenloseg-epizod/",
+      "tags": [
+        "episode",
+        "own-voices"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "episode",
+      "curatedBy": "manual",
+      "title": "„Én szeretek autista lenni” — Fekete Gy. Viktorral arról, hogy milyen az autizmus belülről",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Egyetlen epizód a Kék Egyenlőség podcastból: Fekete Gy. Viktor autista aktivista beszél saját belső tapasztalatairól.",
+      "creator": "Kék Egyenlőség (vendég: Fekete Gy. Viktor)",
+      "platform": "Spotify",
+      "parentTitle": "Kék Egyenlőség",
+      "coverImage": "/covers/kek-egyenloseg-epizod.jpg",
+      "sourceUrl": "https://open.spotify.com/episode/2WhrXGB5sZeGTKQXPDqo38",
+      "lastReviewed": "2026-07-04",
+      "body": "A Kék Egyenlőség nem autizmus-témára szakosodott, ez csak egy alkalmi epizód."
+    },
+    {
+      "id": "hu/kosz-jol-adhd-epizod",
+      "category": "podcasts",
+      "slug": "kosz-jol-adhd-epizod",
+      "href": "/hu/podcasts/kosz-jol-adhd-epizod/",
+      "tags": [
+        "episode",
+        "expert-interview",
+        "health-journalism"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "episode",
+      "curatedBy": "manual",
+      "title": "Kösz, jól — „Az igazi multitasking extrém ritka”: ADHD-ról és figyelemzavarról, pánik nélkül",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "Egyetlen epizód a HVG Kösz, jól egészségügyi podcastjából: Pulay Attila pszichiáter (Semmelweis Egyetem) arról, mi valójában az ADHD és mi csak TikTok-önlabelezés.",
+      "creator": "HVG Kösz, jól (vendég: Pulay Attila)",
+      "platform": "HVG podcast",
+      "parentTitle": "Kösz, jól (HVG Podcastok)",
+      "coverImage": "/covers/kosz-jol-adhd-epizod.jpg",
+      "sourceUrl": "https://hvg.hu/tudomany/20240411_kosz-jol-podcast-adhd-figyelemzavar-tiktok",
+      "lastReviewed": "2026-07-04",
+      "body": "A Kösz, jól általános egészségügyi podcast, nem ADHD-specifikus — ez csak egy alkalmi epizód."
+    },
+    {
+      "id": "hu/mozaik-podcast",
+      "category": "podcasts",
+      "slug": "mozaik-podcast",
+      "href": "/hu/podcasts/mozaik-podcast/",
+      "tags": [
+        "parents",
+        "community",
+        "taboo-topics"
+      ],
+      "ratings": [
+        {
+          "source": "Apple Podcasts",
+          "score": 5,
+          "scale": 5,
+          "url": "https://podcasts.apple.com/hu/podcast/mozaik-podcast-az-autizmusr%C3%B3l/id1550089313",
+          "note": "4 értékelés alapján — kis mintaszám",
+          "checkedAt": "2026-07-04"
+        }
+      ],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "MOZAIK Podcast az autizmusról",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Kapitány Imola (Mozaik Egyesület elnöke) és Kamrás Orsolya pedagógus podcastja autista gyerekek és felnőttek szüleinek, gyakran tabusított témákról.",
+      "creator": "Kapitány Imola, Kamrás Orsolya",
+      "platform": "Spotify",
+      "coverImage": "/covers/mozaik-podcast.jpg",
+      "sourceUrl": "https://open.spotify.com/show/6mCjCsZynQ2m9uMcCUF5FF",
+      "lastReviewed": "2026-07-04",
+      "body": "A Mozaik Egyesület Az Autizmussal Élő Emberekért hivatalos podcastja."
+    },
+    {
+      "id": "hu/neurodivergens",
+      "category": "podcasts",
+      "slug": "neurodivergens",
+      "href": "/hu/podcasts/neurodivergens/",
+      "tags": [
+        "lived-experience",
+        "women",
+        "late-diagnosis"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "NeuroDivergens",
+      "locale": "hu",
+      "topics": [
+        "adhd",
+        "autism"
+      ],
+      "summary": "Balogh Orsolya, felnőttkorban diagnosztizált ADHD-val élő nő podcastja az ADHD-ról, autizmusról és a társuló zavarokról, saját tapasztalatai alapján.",
+      "creator": "Balogh Orsolya",
+      "platform": "Spotify",
+      "coverImage": "/covers/neurodivergens.jpg",
+      "sourceUrl": "https://open.spotify.com/show/2hAZs8cDx8hDdB72zBAd0A",
+      "lastReviewed": "2026-07-04",
+      "body": "Magyar nyelvű podcast, saját élményalapú."
+    },
+    {
+      "id": "hu/partizan-adhd-epizod",
+      "category": "podcasts",
+      "slug": "partizan-adhd-epizod",
+      "href": "/hu/podcasts/partizan-adhd-epizod/",
+      "tags": [
+        "episode",
+        "expert-interview"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "episode",
+      "curatedBy": "manual",
+      "title": "Tényleg minden ADHD, ami annak tűnik? — KOLORÁDÓ Fesztivál x Partizán Podcast",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "Egyetlen epizód a Partizán Podcastból: Tárnok Zsanett klinikai szakpszichológussal arról, hol a határ a divatos önlabelezés és a valódi ADHD-diagnózis között.",
+      "creator": "Partizán Podcast (vendég: Tárnok Zsanett)",
+      "platform": "Spotify",
+      "parentTitle": "Partizán Podcast",
+      "coverImage": "/covers/partizan-adhd-epizod.jpg",
+      "sourceUrl": "https://open.spotify.com/episode/5z9F4N4AtIxpptmuDjG6DW",
+      "lastReviewed": "2026-07-04",
+      "body": "A Partizán Podcast nem ADHD-témára szakosodott, ez csak egy alkalmi epizód."
+    },
+    {
+      "id": "hu/addetur-baptista-iskola",
+      "category": "schools",
+      "slug": "addetur-baptista-iskola",
+      "href": "/hu/schools/addetur-baptista-iskola/",
+      "tags": [
+        "foundation",
+        "integration",
+        "secondary"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Addetur Baptista Gimnázium, Technikum és Szakiskola",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Budapesti középfokú intézmény, amely autista fiatalokat integráltan nevel gimnáziumi és szakiskolai osztályokban.",
+      "providerType": "mainstream-integration",
+      "city": "Budapest",
+      "address": "1022 Budapest, Marczibányi tér 3.",
+      "lat": 47.5122543,
+      "lng": 19.0210621,
+      "contact": "(06-1) 212-4595, addetur@baptistaoktatas.hu",
+      "coverImage": "/covers/addetur-baptista-iskola.jpg",
+      "sourceUrl": "https://www.addeturiskola.hu/",
+      "lastReviewed": "2026-07-04",
+      "body": "Ritka példa arra, hogy középfokon (gimnázium, technikum, szakiskola) is elérhető integrált oktatás autista fiataloknak — a legtöbb ilyen program általános iskolás korosztályra fókuszál."
+    },
+    {
+      "id": "hu/arany-janos-egymi-szekesfehervar",
+      "category": "schools",
+      "slug": "arany-janos-egymi-szekesfehervar",
+      "href": "/hu/schools/arany-janos-egymi-szekesfehervar/",
+      "tags": [
+        "state",
+        "egymi",
+        "regional"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Arany János EGYMI (Székesfehérvár)",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Fejér megyei gyógypedagógiai intézmény óvodától szakiskoláig, 8 autizmus-specifikus csoporttal, átlagosan 6-7 fős létszámmal.",
+      "providerType": "special-needs-school",
+      "city": "Székesfehérvár",
+      "address": "8000 Székesfehérvár, Szekfű Gyula utca 6.",
+      "lat": 47.197403,
+      "lng": 18.4129013,
+      "contact": "22-504-674, aranyegymi@aranyegymi.hu",
+      "coverImage": "/covers/arany-janos-egymi-szekesfehervar.png",
+      "sourceUrl": "http://aranyegymi.hu/",
+      "lastReviewed": "2026-07-04",
+      "body": "Autizmus-specifikus szakemberei utazó gyógypedagógusként is segítik az integrált nevelést a megyében, nem csak a saját telephelyen látnak el gyerekeket."
+    },
+    {
+      "id": "hu/autizmus-alapitvany-iskola",
+      "category": "schools",
+      "slug": "autizmus-alapitvany-iskola",
+      "href": "/hu/schools/autizmus-alapitvany-iskola/",
+      "tags": [
+        "foundation",
+        "dedicated-autism"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Autizmus Alapítvány Általános Iskolája",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "1989 óta működő gyógypedagógiai általános iskola, kifejezetten autizmus spektrumzavarral élő tanulók számára fejlesztett módszertannal és tantervvel.",
+      "providerType": "special-needs-school",
+      "city": "Budapest",
+      "address": "1089 Budapest, Delej utca 24-26.",
+      "lat": 47.4815997,
+      "lng": 19.095376,
+      "contact": "06-1-314-2859, aaakcs@autizmus.hu",
+      "coverImage": "/covers/autizmus-alapitvany-iskola.jpg",
+      "sourceUrl": "https://www.autizmus.hu/altalanosiskola",
+      "lastReviewed": "2026-07-04",
+      "body": "Az Autizmus Alapítvány saját fenntartású általános iskolája, ugyanazon a telephelyen, mint az alapítvány diagnosztikai ambulanciája (lásd a diagnosis kategóriában). Az egyik legrégebbi, kifejezetten autizmus-specifikus oktatási intézmény Magyarországon, szakembereket is képez a módszertan továbbadására."
+    },
+    {
+      "id": "hu/barczi-gusztav-egymi-szeged",
+      "category": "schools",
+      "slug": "barczi-gusztav-egymi-szeged",
+      "href": "/hu/schools/barczi-gusztav-egymi-szeged/",
+      "tags": [
+        "state",
+        "egymi",
+        "regional"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Szegedi Bárczi Gusztáv EGYMI",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Szegedi gyógypedagógiai intézmény, 3 önálló autista csoporttal (24 fő) és egy fejlesztő iskolai autista csoporttal (8 fő), autizmus-specifikus terápiákkal.",
+      "providerType": "special-needs-school",
+      "city": "Szeged",
+      "address": "6723 Szeged, Sólyom utca 4.",
+      "lat": 46.2718364,
+      "lng": 20.1659925,
+      "contact": "+36-62-547-078, barcziszeged@gmail.com",
+      "coverImage": "/covers/barczi-gusztav-egymi-szeged.jpg",
+      "sourceUrl": "https://barcziszeged.edu.hu/",
+      "lastReviewed": "2026-07-04",
+      "body": "Terápiás kínálat: logopédia, Syndelar-terápia, zeneterápia, állatasszisztált terápia, autizmus-specifikus fejlesztés. A csoportokat vezető gyógypedagógusok autizmus-specifikus végzettséggel rendelkeznek."
+    },
+    {
+      "id": "hu/eltes-egymi-pecs",
+      "category": "schools",
+      "slug": "eltes-egymi-pecs",
+      "href": "/hu/schools/eltes-egymi-pecs/",
+      "tags": [
+        "state",
+        "egymi",
+        "regional"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Éltes Mátyás EGYMI és Speciális Iskola (Pécs)",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Pécsi gyógypedagógiai intézmény speciális autista csoportjai, 6-23 éves kor közötti tanulóknak, autizmus-specifikus módszerekkel.",
+      "providerType": "special-needs-school",
+      "city": "Pécs",
+      "address": "7633 Pécs, Hajnóczy József utca 3.",
+      "lat": 46.0660793,
+      "lng": 18.1973874,
+      "contact": "06-72/259-774",
+      "sourceUrl": "https://eltesm-pecs.edu.hu/autista.html",
+      "lastReviewed": "2026-07-04",
+      "body": "Négy összevont csoportban fejlesztik a 6-23 éves autizmus spektrumzavarral élő tanulókat. Az alsó tagozat a Hajnóczy utcai telephelyen van, a felső tagozat és a főépület más helyszínen."
+    },
+    {
+      "id": "hu/eltes-matyas-iskola",
+      "category": "schools",
+      "slug": "eltes-matyas-iskola",
+      "href": "/hu/schools/eltes-matyas-iskola/",
+      "tags": [
+        "state",
+        "small-groups"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Éltes Mátyás Általános Iskola és Kollégium",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "1900 óta működő kőbányai állami iskola, kis létszámú osztályokkal hiperaktivitással és figyelemzavarral küzdő és más SNI-s gyerekeknek.",
+      "providerType": "special-needs-school",
+      "city": "Budapest",
+      "address": "1108 Budapest, Újhegyi sétány 9-11.",
+      "lat": 47.4691191,
+      "lng": 19.1617088,
+      "contact": "1/262-4313, igazgato@eltescentrum.hu",
+      "sourceUrl": "https://www.eltescentrum.hu/altalanos-iskola/",
+      "lastReviewed": "2026-07-04",
+      "body": "Kis létszámú osztályokban tanulnak a hiperaktív és figyelemzavarral küzdő gyerekek, minden osztályban gyógypedagógussal és pedagógiai asszisztenssel. A Kelet-Pesti Tankerületi Központ fenntartásában működik."
+    },
+    {
+      "id": "hu/ferencvarosi-egymi-autista-tagozat",
+      "category": "schools",
+      "slug": "ferencvarosi-egymi-autista-tagozat",
+      "href": "/hu/schools/ferencvarosi-egymi-autista-tagozat/",
+      "tags": [
+        "state",
+        "egymi"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Ferencvárosi EGYMI – Thaly Kálmán utcai Autista Tagozat",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "A Ferencvárosi Komplex Óvoda, Általános Iskola és EGYMI autizmus-specifikus tagozata, önálló telephelyen.",
+      "providerType": "special-needs-school",
+      "city": "Budapest",
+      "address": "1095 Budapest, Thaly Kálmán utca 17.",
+      "lat": 47.4810071,
+      "lng": 19.0771994,
+      "contact": "(1) 210-0323",
+      "sourceUrl": "http://www.fkoai.fw.hu/",
+      "lastReviewed": "2026-07-04",
+      "body": "Az intézmény székhelye (óvoda, általános iskola) a Gát utca 6. szám alatt van, az autista tagozat külön telephelyen, a Thaly Kálmán utcában működik. Állami fenntartású Egységes Gyógypedagógiai Módszertani Intézmény (EGYMI)."
+    },
+    {
+      "id": "hu/humanus-alapitvanyi-iskola",
+      "category": "schools",
+      "slug": "humanus-alapitvanyi-iskola",
+      "href": "/hu/schools/humanus-alapitvanyi-iskola/",
+      "tags": [
+        "foundation",
+        "integration"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Humánus Általános Iskola",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Az Együtt Veled Alapítvány iskolája, amely autizmus spektrumzavarral, valamint magatartási és tanulási nehézségekkel küzdő gyerekeket integráltan nevel.",
+      "providerType": "mainstream-integration",
+      "city": "Budapest",
+      "address": "1114 Budapest, Kanizsai utca 6.",
+      "lat": 47.4724492,
+      "lng": 19.0435733,
+      "contact": "+36 1 231 7020, gazdasagi@humanusiskola.hu",
+      "coverImage": "/covers/humanus-alapitvanyi-iskola.png",
+      "sourceUrl": "https://www.humanusiskola.com/",
+      "lastReviewed": "2026-07-04",
+      "body": "Korábban a Megyeri út 20/B alatt működött (ez az adat még sok könyvtárban szerepel), az iskola azóta a XI. kerületbe, a Kanizsai utcába költözött — a jelenlegi címet a hivatalos KIR intézménykereső alapján ellenőriztük."
+    },
+    {
+      "id": "hu/kecskemeti-egymi-autizmus-centrum",
+      "category": "schools",
+      "slug": "kecskemeti-egymi-autizmus-centrum",
+      "href": "/hu/schools/kecskemeti-egymi-autizmus-centrum/",
+      "tags": [
+        "state",
+        "egymi",
+        "regional"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Kecskeméti EGYMI Autizmus Centrum",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Bács-Kiskun megyei gyógypedagógiai intézmény autizmus centruma, 3 intézményegységben, 3-24 éves korig, több mint száz autista fejlesztésével.",
+      "providerType": "special-needs-school",
+      "city": "Kecskemét",
+      "address": "6000 Kecskemét, Szalag utca 9.",
+      "lat": 46.9055692,
+      "lng": 19.6791189,
+      "contact": "+36 (76) 418-774, autiroda@gmail.com",
+      "sourceUrl": "https://gyogyped.hu/autizmus-centrum/",
+      "lastReviewed": "2026-07-04",
+      "body": "Óvodai, általános iskolai és fejlesztő nevelést-oktatást végző iskolai egységekből áll, 3-tól 24 éves korig fejlesztve az autizmussal élő gyerekeket és fiatalokat."
+    },
+    {
+      "id": "hu/kinizsi-pal-iskola-debrecen",
+      "category": "schools",
+      "slug": "kinizsi-pal-iskola-debrecen",
+      "href": "/hu/schools/kinizsi-pal-iskola-debrecen/",
+      "tags": [
+        "state",
+        "regional"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Debreceni Kinizsi Pál Általános Iskola",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Debreceni állami iskola, amely 2011 óta lát el ép értelmi képességű autizmus spektrumzavarral élő tanulókat, jelenleg 46 diákot 5 csoportban.",
+      "providerType": "special-needs-school",
+      "city": "Debrecen",
+      "address": "4028 Debrecen, Kurucz utca 32-42.",
+      "lat": 47.5392799,
+      "lng": 21.6455016,
+      "contact": "0652/411-946, iskola@kinizsi-debr.edu.hu",
+      "coverImage": "/covers/kinizsi-pal-iskola-debrecen.png",
+      "sourceUrl": "http://kinizsi-debr.sulinet.hu/",
+      "lastReviewed": "2026-07-04",
+      "body": "Az osztályokban tanárok és tanítók dolgoznak gyógypedagógiai asszisztensek segítségével, 8 évfolyamon, kifejezetten ép intellektusú autista tanulóknak szóló programban."
+    },
+    {
+      "id": "hu/klebelsberg-kuno-iskola",
+      "category": "schools",
+      "slug": "klebelsberg-kuno-iskola",
+      "href": "/hu/schools/klebelsberg-kuno-iskola/",
+      "tags": [
+        "state",
+        "integration"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Klebelsberg Kuno Általános Iskola és Gimnázium",
+      "locale": "hu",
+      "topics": [
+        "autism",
+        "adhd"
+      ],
+      "summary": "Budai állami iskola, amely osztályonként 1-2 SNI-s gyereket (köztük autizmussal és ADHD-val élőket) integrál a tipikusan fejlődő tanulók közé.",
+      "providerType": "mainstream-integration",
+      "city": "Budapest",
+      "address": "1028 Budapest, Szabadság utca 23.",
+      "lat": 47.5611021,
+      "lng": 18.9587894,
+      "contact": "(06 1) 397-45-69, klebi@klebelsberg.sulinet.hu",
+      "sourceUrl": "https://www.klebi.hu/",
+      "lastReviewed": "2026-07-04",
+      "body": "A 2018-2019-es tanévben 10 autista tanulót láttak el. Differenciált, egyéni tempóhoz igazított oktatásszervezéssel dolgoznak, általános iskolai és gimnáziumi (4 évfolyamos) szinten egyaránt."
+    },
+    {
+      "id": "hu/liget-uti-egymi-szolnok",
+      "category": "schools",
+      "slug": "liget-uti-egymi-szolnok",
+      "href": "/hu/schools/liget-uti-egymi-szolnok/",
+      "tags": [
+        "state",
+        "egymi",
+        "regional"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Liget Úti EGYMI – Autizmus Centrum",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Szolnoki állami gyógypedagógiai intézmény önálló Autizmus Centruma, óvodai csoporttól a készségfejlesztő iskoláig.",
+      "providerType": "special-needs-school",
+      "city": "Szolnok",
+      "address": "5000 Szolnok, Liget utca 10.",
+      "lat": 47.1811841,
+      "lng": 20.1797651,
+      "contact": "06-56/421-103, ligetaltisk@liget-szolnok.edu.hu",
+      "coverImage": "/covers/liget-uti-egymi-szolnok.jpg",
+      "sourceUrl": "https://www.ligetutiiskola.hu",
+      "lastReviewed": "2026-07-04",
+      "body": "2019 szeptemberében indult önálló egységként a Liget Úti EGYMI-n belül. Három szint: óvodai csoport (hivatalos szakértői véleménnyel érkező gyerekeknek), általános iskola (6 osztálycsoport), és készségfejlesztő iskola az értelmi fogyatékossággal élő végzősöknek."
+    },
+    {
+      "id": "hu/miskolci-eltes-egymi",
+      "category": "schools",
+      "slug": "miskolci-eltes-egymi",
+      "href": "/hu/schools/miskolci-eltes-egymi/",
+      "tags": [
+        "state",
+        "egymi",
+        "regional"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Miskolci Éltes Mátyás EGYMI",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Miskolci gyógypedagógiai intézmény autizmus-specifikus ellátással, óvodai és iskolai szinten.",
+      "providerType": "special-needs-school",
+      "city": "Miskolc",
+      "address": "3526 Miskolc, Szeles utca 57.",
+      "lat": 48.1076987,
+      "lng": 20.7933913,
+      "coverImage": "/covers/miskolci-eltes-egymi.png",
+      "sourceUrl": "https://miskolcegymi.hu/autizmus-specifikus-ellatas/",
+      "lastReviewed": "2026-07-04",
+      "body": "Az integráltan, tipikus iskolákban tanuló autista gyerekeket is segítik utazó gyógypedagógusi szolgáltatással, nem csak a saját telephelyükön ellátott tanulókat."
+    },
+    {
+      "id": "hu/nyiregyhazi-barczi-egymi",
+      "category": "schools",
+      "slug": "nyiregyhazi-barczi-egymi",
+      "href": "/hu/schools/nyiregyhazi-barczi-egymi/",
+      "tags": [
+        "state",
+        "regional"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Nyíregyházi Bárczi Gusztáv Általános Iskola és Kollégium",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "1991 óta fogad autista, iskolaköteles gyerekeket Nyíregyházáról és a vonzáskörzetéből, önálló speciális csoportokban.",
+      "providerType": "special-needs-school",
+      "city": "Nyíregyháza",
+      "address": "4400 Nyíregyháza, Szarvas utca 10-12.",
+      "lat": 47.9526529,
+      "lng": 21.715605,
+      "contact": "(06 42) 314-520",
+      "sourceUrl": "https://barczisuli.hu/autista-csoportok/",
+      "lastReviewed": "2026-07-04",
+      "body": "Az utca két azonos nevű szakaszra oszlik Nyíregyházán — a koordináta a belvárosi szakaszra mutat; az utcaszintű pontosság megegyezik a diagnosis kategóriában alkalmazott gyakorlattal, amikor a pontos épület nem azonosítható egyértelműen."
+    },
+    {
+      "id": "hu/pitypang-tagovoda",
+      "category": "schools",
+      "slug": "pitypang-tagovoda",
+      "href": "/hu/schools/pitypang-tagovoda/",
+      "tags": [
+        "state",
+        "integration",
+        "kindergarten"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Pitypang Tagóvoda",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Befogadó óvoda a XIII. kerületben, amely ép intellektusú, autizmus spektrumzavarral élő gyerekeket integrál tipikusan fejlődő társaik közé.",
+      "providerType": "kindergarten",
+      "city": "Budapest",
+      "address": "1139 Budapest, Országbíró utca 10.",
+      "lat": 47.5322883,
+      "lng": 19.0780484,
+      "contact": "+36 1 330 7153",
+      "sourceUrl": "https://ovoda.bp13.hu/pitypang-tagovoda/magunkrol/integracio/",
+      "lastReviewed": "2026-07-04",
+      "body": "Egyénre szabott fejlesztési tervekkel és speciális differenciáló módszerekkel dolgoznak, szoros együttműködésben logopédussal, gyógypedagógussal és a családdal."
+    },
+    {
+      "id": "hu/prizma-egymi",
+      "category": "schools",
+      "slug": "prizma-egymi",
+      "href": "/hu/schools/prizma-egymi/",
+      "tags": [
+        "state",
+        "egymi"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Prizma Általános Iskola és Óvoda, EGYMI",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Budapesti gyógypedagógiai intézmény, ahol 1992 óta működik autizmus spektrumzavarban érintett gyerekeknek szóló tagozat, két telephelyen.",
+      "providerType": "special-needs-school",
+      "city": "Budapest",
+      "address": "1047 Budapest, Váci út 57.",
+      "lat": 47.5709908,
+      "lng": 19.0809402,
+      "sourceUrl": "https://prizmaegymi.hu/autista-tagozat-bemutatkozas/",
+      "lastReviewed": "2026-07-04",
+      "body": "Az autista tagozat osztályai két telephelyen működnek: a Prizma épületében és az Ének-Zenei és Testnevelési Általános Iskola épületében. Az egyik legrégebb óta (1992-től) folyamatosan működő autizmus-specifikus tagozat Magyarországon."
+    },
+    {
+      "id": "hu/sikeretek-autista-iskola-bp",
+      "category": "schools",
+      "slug": "sikeretek-autista-iskola-bp",
+      "href": "/hu/schools/sikeretek-autista-iskola-bp/",
+      "tags": [
+        "state",
+        "egymi"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Hallássérültek Óvodája, Iskolája és EGYMI – Autista Iskola",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Elsődlegesen hallássérült gyerekeket ellátó zuglói intézmény önálló autizmus-specifikus tagozata, 2017 óta bővülő óvodai és iskolai csoportokkal.",
+      "providerType": "special-needs-school",
+      "city": "Budapest",
+      "address": "1147 Budapest, Cinkotai út 125-137.",
+      "lat": 47.5286868,
+      "lng": 19.1255428,
+      "contact": "06-1/251-95-45, titkar@siketekbp.co.hu",
+      "coverImage": "/covers/sikeretek-autista-iskola-bp.bmp",
+      "sourceUrl": "https://siketekbp.co.hu/autista-altalanos-iskola/",
+      "lastReviewed": "2026-07-04",
+      "body": "Bár az intézmény alapvetően hallássérült gyerekeket lát el, 2017 szeptemberétől külön autizmus-specifikus óvodai csoportot, 2018 szeptemberétől pedig iskolai osztályokat is indított — jelenleg egy óvodai csoport és öt általános iskolai osztály."
+    },
+    {
+      "id": "hu/sofi-ovoda-bp18",
+      "category": "schools",
+      "slug": "sofi-ovoda-bp18",
+      "href": "/hu/schools/sofi-ovoda-bp18/",
+      "tags": [
+        "state",
+        "egymi"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "SOFI – Budapest XVIII. Kerületi Óvoda, Iskola és EGYMI",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Kerületi gyógypedagógiai intézmény óvodától szakiskoláig, önálló autizmus-specifikus csoportokkal.",
+      "providerType": "special-needs-school",
+      "city": "Budapest",
+      "address": "1181 Budapest, Kondor Béla sétány 4.",
+      "lat": 47.4365374,
+      "lng": 19.1646315,
+      "sourceUrl": "http://www.sofi.hu/csoportjaink/autista-csoportok/",
+      "lastReviewed": "2026-07-04",
+      "body": "Nem tévesztendő össze az egri Dr. Sófi Gyula gyermekpszichiáterrel (diagnosis kategória) — teljesen más intézmény, csak névrokon rövidítés. Az autizmus-specifikus csoportokban a gyerekek egyéni képességeikhez és haladási ütemükhöz igazított fejlesztést kapnak. Telefonos/e-mail elérhetőség nem volt fellelhető a nyilvános oldalon ellenőrzéskor."
+    },
+    {
+      "id": "hu/turbotanoda",
+      "category": "schools",
+      "slug": "turbotanoda",
+      "href": "/hu/schools/turbotanoda/",
+      "tags": [
+        "private",
+        "therapy"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Turbotanoda Fejlesztőház",
+      "locale": "hu",
+      "topics": [
+        "adhd",
+        "autism"
+      ],
+      "summary": "Magán fejlesztőház és iskola-előkészítő program ADHD-val és autizmussal élő gyerekeknek, integrációra felkészítő módszertannal.",
+      "providerType": "special-needs-school",
+      "city": "Budapest",
+      "address": "1037 Budapest, Kiscelli utca 104.",
+      "lat": 47.537561,
+      "lng": 19.0296179,
+      "contact": "+36 20 291 9579, info@turbotanoda.hu",
+      "coverImage": "/covers/turbotanoda.png",
+      "priceNotes": "Komplex terápiás foglalkozás 15 000 Ft/50 perc, iskola-előkészítő 6 000 Ft/50 perc, pedagógiai szakvélemény diagnózissal 80 000 Ft (ellenőrizve: 2026-07-04).",
+      "sourceUrl": "https://turbotanoda.hu/",
+      "lastReviewed": "2026-07-04",
+      "body": "Nem hagyományos állami iskola, hanem magán fejlesztő intézmény: a gyerekeket legalább az általános iskola első négy, szükség esetén hatodik évének végéig készíti fel a bármely iskolatípusba történő integrációra."
+    },
+    {
+      "id": "hu/vadaskert-iskola",
+      "category": "schools",
+      "slug": "vadaskert-iskola",
+      "href": "/hu/schools/vadaskert-iskola/",
+      "tags": [
+        "foundation",
+        "small-groups"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Vadaskert Iskola",
+      "locale": "hu",
+      "topics": [
+        "adhd",
+        "autism"
+      ],
+      "summary": "A Vadaskert Alapítvány oktatási intézménye, kiscsoportos, egyénre szabott neveléssel autizmus spektrumzavarral és ADHD-val élő gyerekeknek.",
+      "providerType": "special-needs-school",
+      "city": "Budapest",
+      "address": "1119 Budapest, Rátz László utca 3-7.",
+      "lat": 47.4537851,
+      "lng": 19.0352821,
+      "contact": "+36 1 606 7202, vadaskertiskola@gmail.com",
+      "sourceUrl": "http://www.vadaskertiskola.hu/",
+      "lastReviewed": "2026-07-04",
+      "body": "A Vadaskert Alapítvány (lásd diagnosis kategória) saját iskolája, más telephelyen. Kiscsoportos oktatás, vizuális támogatással és strukturált napirenddel, iskolaelőkészítő programmal 5-7 éves korban."
+    },
+    {
+      "id": "hu/vargahegyi-autista-iskola",
+      "category": "schools",
+      "slug": "vargahegyi-autista-iskola",
+      "href": "/hu/schools/vargahegyi-autista-iskola/",
+      "tags": [
+        "foundation",
+        "regional"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Vargahegyi Autista Alapfokú Fejlesztő Iskola",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "A Miskolci Autista Alapítvány saját iskolája, olyan autista fiataloknak, akik a hagyományos iskolarendszerben nem tudnak boldogulni.",
+      "providerType": "special-needs-school",
+      "city": "Miskolc",
+      "address": "3533 Miskolc, Csermőkei út 2/a.",
+      "lat": 48.086839,
+      "lng": 20.7368965,
+      "contact": "+36 46 532 476, vargahegyifejlesztoiskola@gmail.com",
+      "sourceUrl": "https://www.miskolciautista.com/tevekenysegeink/vargahegyi-autista-alapfoku-fejleszto-iskola",
+      "lastReviewed": "2026-07-04",
+      "body": "Az Alapítvány több mint 30 éve dolgozik autizmussal élő emberekkel Miskolcon; az iskola mellett támogatott lakhatást és napközbeni ellátást is működtet."
+    },
+    {
+      "id": "hu/veresegyhazi-egymi",
+      "category": "schools",
+      "slug": "veresegyhazi-egymi",
+      "href": "/hu/schools/veresegyhazi-egymi/",
+      "tags": [
+        "state",
+        "egymi",
+        "regional"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Veresegyházi EGYMI (Auti Ház)",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Pest megyei gyógypedagógiai intézmény autizmus-specifikus programja ('Auti Ház'), óvodai és iskolai szinten.",
+      "providerType": "special-needs-school",
+      "city": "Veresegyház",
+      "address": "2112 Veresegyház, Újiskola utca 15.",
+      "lat": 47.6565617,
+      "lng": 19.281165,
+      "contact": "+36-28-500-055, titkarsag@veresegyhaz-egymi.hu",
+      "sourceUrl": "https://veresegyhaz-egymi.hu/",
+      "lastReviewed": "2026-07-04",
+      "body": "Utazó gyógypedagógusi szolgálatot is működtetnek, amely a térség más iskoláiban integráltan tanuló autista és egyéb SNI-s gyerekeket is segíti, nem csak a saját telephelyükön ellátottakat."
+    },
+    {
+      "id": "hu/zugloi-benedek-elek-egymi",
+      "category": "schools",
+      "slug": "zugloi-benedek-elek-egymi",
+      "href": "/hu/schools/zugloi-benedek-elek-egymi/",
+      "tags": [
+        "state",
+        "egymi"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Zuglói Benedek Elek EGYMI",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Több mint 40 éves gyógypedagógiai intézmény Zuglóban, önálló autizmus-specifikus óvodai csoporttal és négy iskolai csoporttal.",
+      "providerType": "special-needs-school",
+      "city": "Budapest",
+      "address": "1141 Budapest, Álmos vezér útja 46.",
+      "lat": 47.5096992,
+      "lng": 19.1324193,
+      "contact": "061/220-4841",
+      "sourceUrl": "https://www.benedekelek.hu/",
+      "lastReviewed": "2026-07-04",
+      "body": "Két óvodai csoportjuk közül az egyik kifejezetten autizmussal élő gyerekeknek szól (a másik értelmileg akadályozott gyerekeknek), az iskolai szinten pedig négy autizmus-specifikus osztálycsoportot működtetnek."
+    },
+    {
+      "id": "hu/10-dolog-autista-gyermek-epizod",
+      "category": "videos",
+      "slug": "10-dolog-autista-gyermek-epizod",
+      "href": "/hu/videos/10-dolog-autista-gyermek-epizod/",
+      "tags": [
+        "episode",
+        "teachers",
+        "practical"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "episode",
+      "curatedBy": "manual",
+      "title": "10 dolog, amit tudnod kell, ha autista gyermeket tanítasz",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Egyetlen videó Tóth Tamás tanító csatornájáról, tíz gyakorlati tanáccsal pedagógusoknak, akik autista tanulóval dolgoznak speciális képzettség nélkül.",
+      "creator": "Tóth Tamás tanító",
+      "platform": "YouTube",
+      "viewCount": 27271,
+      "parentTitle": "Tóth Tamás tanító (YouTube-csatorna)",
+      "coverImage": "/covers/10-dolog-autista-gyermek-epizod.jpg",
+      "sourceUrl": "https://www.youtube.com/watch?v=bQeP9ywLwe8",
+      "lastReviewed": "2026-07-04",
+      "body": "A csatorna általános pedagógiai témákkal foglalkozik, nem autizmus-specifikus."
+    },
+    {
+      "id": "hu/adhd-autizmus-csomor-eloadas-epizod",
+      "category": "videos",
+      "slug": "adhd-autizmus-csomor-eloadas-epizod",
+      "href": "/hu/videos/adhd-autizmus-csomor-eloadas-epizod/",
+      "tags": [
+        "episode",
+        "lecture",
+        "local-tv"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "episode",
+      "curatedBy": "manual",
+      "title": "ADHD, hiperaktivitás, autizmus? — dr. Stephens-Sarlós Erzsébet egyetemi adjunktus előadása Csömörön",
+      "locale": "hu",
+      "topics": [
+        "adhd",
+        "autism"
+      ],
+      "summary": "Egyetlen közvetített előadás a Csömör TV csatornáról: dr. Stephens-Sarlós Erzsébet a csecsemőkori reflexek és az ADHD/autizmus tünetek összefüggéseiről.",
+      "creator": "dr. Stephens-Sarlós Erzsébet (Csömör TV)",
+      "platform": "YouTube",
+      "viewCount": 18420,
+      "parentTitle": "Csömör TV",
+      "coverImage": "/covers/adhd-autizmus-csomor-eloadas-epizod.jpg",
+      "sourceUrl": "https://www.youtube.com/watch?v=-XADIlpw5Rs",
+      "lastReviewed": "2026-07-04",
+      "body": "A Csömör TV helyi közösségi televízió, nem ADHD/autizmus-specifikus."
+    },
+    {
+      "id": "hu/adhd-autizmus-summit",
+      "category": "videos",
+      "slug": "adhd-autizmus-summit",
+      "href": "/hu/videos/adhd-autizmus-summit/",
+      "tags": [
+        "conference",
+        "free",
+        "multiple-speakers"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "ADHD és Autizmus Summit",
+      "locale": "hu",
+      "topics": [
+        "adhd",
+        "autism"
+      ],
+      "summary": "Az SNI Suli ingyenes, évente megrendezett online konferenciája — 24 szakember előadása egy nap alatt ADHD-ról, autizmusról és a hozzájuk kapcsolódó kihívásokról.",
+      "creator": "SNI Suli",
+      "platform": "YouTube",
+      "coverImage": "/covers/adhd-autizmus-summit.jpg",
+      "sourceUrl": "https://www.youtube.com/playlist?list=PLSNMN2GYorNNbul7csxrVHIoZA8Z48Nnz",
+      "lastReviewed": "2026-07-04",
+      "body": "Az SNI Suli az egyik legaktívabb magyar neurodiverzitás-témájú platform, évente ismétlődő summittal."
+    },
+    {
+      "id": "hu/adhd-s-felnott-nehezsegei-epizod",
+      "category": "videos",
+      "slug": "adhd-s-felnott-nehezsegei-epizod",
+      "href": "/hu/videos/adhd-s-felnott-nehezsegei-epizod/",
+      "tags": [
+        "episode",
+        "coaching",
+        "family-support"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "episode",
+      "curatedBy": "manual",
+      "title": "Az ADHD-s felnőtt tipikus nehézségei és azok támogatása a családtagok, barátok által",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "Egyetlen videó a Nárcisz Coach csatornáról, felnőttkori ADHD tipikus nehézségeiről és a hozzátartozók támogató szerepéről.",
+      "creator": "Nárcisz Coach",
+      "platform": "YouTube",
+      "viewCount": 11944,
+      "parentTitle": "Nárcisz Coach (YouTube-csatorna)",
+      "coverImage": "/covers/adhd-s-felnott-nehezsegei-epizod.jpg",
+      "sourceUrl": "https://www.youtube.com/watch?v=i1YDe1LFDV4",
+      "lastReviewed": "2026-07-04",
+      "body": "A csatorna nem ADHD-specifikus, ez egy alkalmi videó."
+    },
+    {
+      "id": "hu/adhd-terapia",
+      "category": "videos",
+      "slug": "adhd-terapia",
+      "href": "/hu/videos/adhd-terapia/",
+      "tags": [
+        "clinical",
+        "medication",
+        "children"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "ADHD Terápia",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "Dr. Nagy Péter gyermekpszichiáter csatornája, közérthetően beszél az ADHD diagnózisáról, a szülői dilemmákról és a gyógyszeres kezelés kérdéseiről.",
+      "creator": "Dr. Nagy Péter",
+      "platform": "YouTube",
+      "subscriberCount": 2490,
+      "coverImage": "/covers/adhd-terapia.jpg",
+      "sourceUrl": "https://www.youtube.com/@ADHDTerapia",
+      "lastReviewed": "2026-07-04",
+      "body": "Gyermekpszichiáter szakértői csatornája, kifejezetten ADHD-témára."
+    },
+    {
+      "id": "hu/adhd-vagyok-e-epizod",
+      "category": "videos",
+      "slug": "adhd-vagyok-e-epizod",
+      "href": "/hu/videos/adhd-vagyok-e-epizod/",
+      "tags": [
+        "episode",
+        "official",
+        "health-authority"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "episode",
+      "curatedBy": "manual",
+      "title": "Hiperaktivitás és figyelemzavar — Lehet, hogy ADHD-s vagyok? SOS Van segítség!",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "Egyetlen felvilágosító videó az Országos Kórházi Főigazgatóság csatornájáról az ADHD felismeréséről és a segítségkérés lehetőségeiről.",
+      "creator": "Országos Kórházi Főigazgatóság",
+      "platform": "YouTube",
+      "viewCount": 11278,
+      "parentTitle": "Országos Kórházi Főigazgatóság (YouTube-csatorna)",
+      "coverImage": "/covers/adhd-vagyok-e-epizod.jpg",
+      "sourceUrl": "https://www.youtube.com/watch?v=IbKjW3Zv9XU",
+      "lastReviewed": "2026-07-04",
+      "body": "A csatorna nem ADHD-specifikus, ez egy alkalmi felvilágosító videó."
+    },
+    {
+      "id": "hu/autista-gyerekek-kozoktatas-epizod",
+      "category": "videos",
+      "slug": "autista-gyerekek-kozoktatas-epizod",
+      "href": "/hu/videos/autista-gyerekek-kozoktatas-epizod/",
+      "tags": [
+        "episode",
+        "education",
+        "journalism"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "episode",
+      "curatedBy": "manual",
+      "title": "Autista gyerekek a közoktatás útvesztőiben — „Elméletileg megoldott, de a gyakorlatban nem működik”",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Egyetlen riport a DW Magyar csatornától a magyar közoktatásban tanuló, mintegy 11 ezer autista gyerek helyzetéről és az integráció nehézségeiről.",
+      "creator": "DW Magyar",
+      "platform": "YouTube",
+      "viewCount": 35333,
+      "parentTitle": "DW Magyar",
+      "coverImage": "/covers/autista-gyerekek-kozoktatas-epizod.jpg",
+      "sourceUrl": "https://www.youtube.com/watch?v=dsPrtS18Ms8",
+      "lastReviewed": "2026-07-04",
+      "body": "A DW Magyar általános hírcsatorna, nem autizmus-specifikus — ez egy alkalmi riport."
+    },
+    {
+      "id": "hu/autistavagyok",
+      "category": "videos",
+      "slug": "autistavagyok",
+      "href": "/hu/videos/autistavagyok/",
+      "tags": [
+        "advocacy",
+        "own-voices",
+        "since-2014"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Autista Vagyok",
+      "locale": "hu",
+      "topics": [
+        "autism",
+        "adhd"
+      ],
+      "summary": "Lizanka és Fekete Gy. Viktor (Asperger-szindrómás és ADHD-s alkotó, aktivista) 2014 óta futó YouTube-csatornája, közelebb hozva az autizmust a nézőkhöz.",
+      "creator": "Lizanka, Fekete Gy. Viktor",
+      "platform": "YouTube",
+      "subscriberCount": 11300,
+      "coverImage": "/covers/autistavagyok.jpg",
+      "sourceUrl": "https://www.youtube.com/autistavagyok",
+      "lastReviewed": "2026-07-04",
+      "body": "Az egyik legrégebbi, aktív magyar autizmus-témájú YouTube-csatorna."
+    },
+    {
+      "id": "hu/az-adhd-epizod",
+      "category": "videos",
+      "slug": "az-adhd-epizod",
+      "href": "/hu/videos/az-adhd-epizod/",
+      "tags": [
+        "episode",
+        "short-film",
+        "foundation"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "episode",
+      "curatedBy": "manual",
+      "title": "AZ ADHD",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "Cseri D. Bernadett és Vereb Vean András rövidfilmje, amely az ADHD Magyarország Pálföldi Alapítványt mutatja be egyszerű, hiteles hangvétellel.",
+      "creator": "Vereb Vean András",
+      "platform": "YouTube",
+      "viewCount": 23382,
+      "parentTitle": "Vereb Vean András (YouTube-csatorna)",
+      "coverImage": "/covers/az-adhd-epizod.jpg",
+      "sourceUrl": "https://www.youtube.com/watch?v=4_5rdQWp5jE",
+      "lastReviewed": "2026-07-04",
+      "body": "A csatorna nem ADHD-specifikus, ez egy alkalmi rövidfilm."
+    },
+    {
+      "id": "hu/az-autizmusrol-epizod",
+      "category": "videos",
+      "slug": "az-autizmusrol-epizod",
+      "href": "/hu/videos/az-autizmusrol-epizod/",
+      "tags": [
+        "episode",
+        "educational"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "episode",
+      "curatedBy": "manual",
+      "title": "Az autizmusról",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Egyetlen felvilágosító videó a SZIN Nonprofit Kft. csatornájáról az autizmus spektrumzavar alapjairól.",
+      "creator": "SZIN Nonprofit Kft.",
+      "platform": "YouTube",
+      "viewCount": 9725,
+      "parentTitle": "SZIN Nonprofit Kft. (YouTube-csatorna)",
+      "coverImage": "/covers/az-autizmusrol-epizod.jpg",
+      "sourceUrl": "https://www.youtube.com/watch?v=PjM1gpM_WfM",
+      "lastReviewed": "2026-07-04",
+      "body": "A csatorna nem autizmus-specifikus, ez egy alkalmi felvilágosító videó."
+    },
+    {
+      "id": "hu/csak-ha-erdekel-adhd-autizmus-epizod",
+      "category": "videos",
+      "slug": "csak-ha-erdekel-adhd-autizmus-epizod",
+      "href": "/hu/videos/csak-ha-erdekel-adhd-autizmus-epizod/",
+      "tags": [
+        "episode",
+        "interview"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "episode",
+      "curatedBy": "manual",
+      "title": "ADHD, autizmus és evészavarok — Vétek Zsófia és Dr. Madarassy-Szücs Anna — Csak ha érdekel #125",
+      "locale": "hu",
+      "topics": [
+        "adhd",
+        "autism"
+      ],
+      "summary": "Egyetlen epizód a Csak ha érdekel interjú-csatornáról, Vétek Zsófiával és Dr. Madarassy-Szücs Annával az ADHD, autizmus és evészavarok összefüggéseiről.",
+      "creator": "Csak ha érdekel (vendégek: Vétek Zsófia, Dr. Madarassy-Szücs Anna)",
+      "platform": "YouTube",
+      "viewCount": 10622,
+      "parentTitle": "Csak ha érdekel (YouTube-csatorna)",
+      "coverImage": "/covers/csak-ha-erdekel-adhd-autizmus-epizod.jpg",
+      "sourceUrl": "https://www.youtube.com/watch?v=YH0chAjGLTU",
+      "lastReviewed": "2026-07-04",
+      "body": "A Csak ha érdekel általános interjú-csatorna, nem ADHD/autizmus-specifikus — ez egy alkalmi epizód."
+    },
+    {
+      "id": "hu/egeszsegunkre-adhd-epizod",
+      "category": "videos",
+      "slug": "egeszsegunkre-adhd-epizod",
+      "href": "/hu/videos/egeszsegunkre-adhd-epizod/",
+      "tags": [
+        "episode",
+        "tv-show",
+        "health-journalism"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "episode",
+      "curatedBy": "manual",
+      "title": "Egészségünkre — Amit az ADHD-ről tudni érdemes (2013.08.19)",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "Egyetlen adás az Újbuda Televízió Egészségünkre című egészségügyi magazinjából, amely az ADHD alapjait mutatja be.",
+      "creator": "Újbuda Televízió",
+      "platform": "YouTube",
+      "viewCount": 85654,
+      "parentTitle": "Egészségünkre (Újbuda Televízió)",
+      "coverImage": "/covers/egeszsegunkre-adhd-epizod.jpg",
+      "sourceUrl": "https://www.youtube.com/watch?v=SZsIZBsV6Gk",
+      "lastReviewed": "2026-07-04",
+      "body": "Az Egészségünkre általános egészségügyi magazin, nem ADHD-specifikus — ez egy 2013-as, régebbi adás."
+    },
+    {
+      "id": "hu/egyutt-az-autistakert",
+      "category": "videos",
+      "slug": "egyutt-az-autistakert",
+      "href": "/hu/videos/egyutt-az-autistakert/",
+      "tags": [
+        "foundation",
+        "series",
+        "awareness"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Együtt az Autistákért Alapítvány (YouTube-csatorna)",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Autizmus-témájú alapítvány csatornája, 20 részes beszélgetéssorozattal a csecsemőkortól a felnőttkorig, szülőknek, szakembereknek és autista felnőtteknek.",
+      "creator": "Együtt az Autistákért Alapítvány",
+      "platform": "YouTube",
+      "subscriberCount": 8150,
+      "coverImage": "/covers/egyutt-az-autistakert.jpg",
+      "sourceUrl": "https://www.youtube.com/channel/UCTa0CojgEzG102ajaGUT8yw",
+      "lastReviewed": "2026-07-04",
+      "body": "Legnépszerűbb videója (Megérteni. Elfogadni. Segíteni. • AUTIZMUS) 53 800+ megtekintéssel."
+    },
+    {
+      "id": "hu/hiperaktiv-gyerekek-riportfilm-epizod",
+      "category": "videos",
+      "slug": "hiperaktiv-gyerekek-riportfilm-epizod",
+      "href": "/hu/videos/hiperaktiv-gyerekek-riportfilm-epizod/",
+      "tags": [
+        "episode",
+        "tv-report",
+        "archive"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "episode",
+      "curatedBy": "manual",
+      "title": "Hiperaktív gyerekek — ADHD riportfilm",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "TV2 Napló archív riportfilmje hiperaktív gyerekekről és az ADHD mindennapi hatásairól — Szalay Ádám és Bolla Bertold munkája.",
+      "creator": "Bertold Bolla (TV2 Napló)",
+      "platform": "YouTube",
+      "viewCount": 22677,
+      "parentTitle": "TV2 Napló",
+      "coverImage": "/covers/hiperaktiv-gyerekek-riportfilm-epizod.jpg",
+      "sourceUrl": "https://www.youtube.com/watch?v=l7AwcL3vgZc",
+      "lastReviewed": "2026-07-04",
+      "body": "A TV2 Napló általános hírmagazin, nem ADHD-specifikus — ez egy archív riport."
+    },
+    {
+      "id": "hu/mozaik-egyesulet-yt",
+      "category": "videos",
+      "slug": "mozaik-egyesulet-yt",
+      "href": "/hu/videos/mozaik-egyesulet-yt/",
+      "tags": [
+        "community",
+        "organization"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "MOZAIK Egyesület, Autizmus (YouTube-csatorna)",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "A Mozaik Közhasznú Egyesület az Autizmussal Élő Emberekért hivatalos YouTube-csatornája — előadások, podcast-epizódok videó formában, közösségi tartalmak.",
+      "creator": "Mozaik Egyesület",
+      "platform": "YouTube",
+      "subscriberCount": 396,
+      "coverImage": "/covers/mozaik-yt.jpg",
+      "sourceUrl": "https://www.youtube.com/channel/UCan-Vl4e_RENAReh_YMSVFQ",
+      "lastReviewed": "2026-07-04",
+      "body": "Ugyanazon szervezet csatornája, amely a MOZAIK Podcastot is készíti."
+    }
+  ]
+}
