@@ -28,6 +28,7 @@ const CATEGORY_LABELS: Record<string, string> = {
   podcasts: 'Podcastok',
   videos: 'Videók',
   influencers: 'Influenszerek',
+  articles: 'Cikkek',
   equipment: 'Segédeszközök',
   food: 'Étel és receptek',
   communities: 'Közösségek',
@@ -39,6 +40,8 @@ const CATEGORY_LABELS: Record<string, string> = {
 
 const FIELD_LABELS: Record<string, string> = {
   author: 'Szerző',
+  publication: 'Kiadvány',
+  publishedDate: 'Megjelenés',
   isbn: 'ISBN',
   creator: 'Készítő',
   platform: 'Platform',
@@ -88,7 +91,7 @@ export async function getStaticPaths() {
   return paths;
 }
 
-const WEB_CATEGORIES = new Set(['books', 'podcasts', 'videos', 'equipment', 'movies', 'food']);
+const WEB_CATEGORIES = new Set(['books', 'podcasts', 'videos', 'equipment', 'movies', 'food', 'articles']);
 
 const KIND_LABELS: Record<string, string> = {
   recipe: 'Recept',

@@ -44,13 +44,13 @@
 
     const CATEGORY_LABELS: Record<string, string> = {
       books: 'Könyvek', podcasts: 'Podcastok', videos: 'Videók', influencers: 'Influenszerek',
-      equipment: 'Segédeszközök', food: 'Étel és receptek', communities: 'Közösségek',
+      equipment: 'Segédeszközök', food: 'Étel és receptek', communities: 'Közösségek', articles: 'Cikkek',
       diagnosis: 'Diagnózis', schools: 'Iskolák', development: 'Fejlesztés', movies: 'Filmek',
     };
     // Kept in sync with FIELD_LABELS in src/pages/[locale]/[category]/[slug].astro —
     // if you add a labelled field there, mirror it here or it renders as the raw key.
     const FIELD_LABELS: Record<string, string> = {
-      author: 'Szerző', isbn: 'ISBN', creator: 'Készítő', platform: 'Platform',
+      author: 'Szerző', publication: 'Kiadvány', publishedDate: 'Megjelenés', isbn: 'ISBN', creator: 'Készítő', platform: 'Platform',
       episodeCount: 'Epizódszám', viewCount: 'Megtekintés', subscriberCount: 'Feliratkozó',
       handle: 'Fiók', platforms: 'Platformok', priceRange: 'Ár', retailerUrls: 'Vásárlási linkek',
       kind: 'Típus', format: 'Formátum', seasons: 'Évadok', dietaryTags: 'Diétás címkék',

@@ -16,6 +16,7 @@ const CATEGORY_LABELS: Record<string, string> = {
   podcasts: 'Podcastok',
   videos: 'Videók',
   influencers: 'Influenszerek',
+  articles: 'Cikkek',
   equipment: 'Segédeszközök',
   food: 'Étel és receptek',
   communities: 'Közösségek',
@@ -26,7 +27,7 @@ const CATEGORY_LABELS: Record<string, string> = {
 };
 
 const MAP_CATEGORIES = new Set(['diagnosis', 'schools', 'development', 'communities']);
-const WEB_CATEGORIES = new Set(['books', 'podcasts', 'videos', 'equipment', 'movies', 'food']);
+const WEB_CATEGORIES = new Set(['books', 'podcasts', 'videos', 'equipment', 'movies', 'food', 'articles']);
 
 const { locale, category } = Astro.params;
 const backHref = WEB_CATEGORIES.has(category as string) ? '/web/' : '/';

@@ -1,7 +1,8 @@
 {
   "schemaVersion": 1,
-  "count": 180,
+  "count": 191,
   "categories": {
+    "articles": 11,
     "books": 13,
     "communities": 8,
     "development": 15,
@@ -15,6 +16,320 @@
     "videos": 15
   },
   "items": [
+    {
+      "id": "hu/hvg-elet-a-diagnozis-utan",
+      "category": "articles",
+      "slug": "hvg-elet-a-diagnozis-utan",
+      "href": "/hu/articles/hvg-elet-a-diagnozis-utan/",
+      "tags": [
+        "felnott",
+        "identitas",
+        "diagnozis",
+        "neurodiverzitas"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "adults",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "„Olyan volt, mintha elvesztettem volna önmagam” — élet az ADHD- és autizmus diagnózis után",
+      "locale": "hu",
+      "topics": [
+        "autism",
+        "adhd"
+      ],
+      "summary": "HVG360-cikk arról, mi történik a felnőttkori ADHD-/autizmus-diagnózis után: hogyan alakítja át az önképet és az identitást, amikor valaki felnőttként kap magyarázatot az addigi nehézségeire. (Előfizetéses hvg360-tartalom.)",
+      "publication": "HVG360",
+      "publishedDate": "2026-03-03",
+      "sourceUrl": "https://hvg.hu/360/20260303_adhd-autizmus-diagnozis-neuordiverzitas-szemelyiseg-identitas",
+      "lastReviewed": "2026-07-05",
+      "body": "A HVG360 cikke a diagnózis *utáni* időszakot járja körül: a felnőttkori ADHD- és autizmus-diagnózis nem lezárás, hanem gyakran az önkép és az identitás újrarendezésének kezdete. Mit jelent, amikor valaki felnőttként kap keretet és magyarázatot arra, amivel egész életében küzdött — és hogyan lehet ezt beépíteni az önazonosságba.\n\nJó párja a felismerésről szóló cikkeknek: azok a diagnózishoz vezető útról szólnak, ez arról, ami utána jön.\n\n**Megjegyzés:** ez előfizetéses hvg360-tartalom, a teljes szöveg fizetőfal mögött van."
+    },
+    {
+      "id": "hu/hvg-felnottkori-adhd-diagnozis",
+      "category": "articles",
+      "slug": "hvg-felnottkori-adhd-diagnozis",
+      "href": "/hu/articles/hvg-felnottkori-adhd-diagnozis/",
+      "tags": [
+        "felnott",
+        "no",
+        "diagnozis",
+        "aluldiagnosztizalas"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "adults",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Amikor végre megérted, miért küzdesz gyerekkorod óta — a felnőttkori ADHD-diagnózis",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "HVG360-cikk a felnőttkori ADHD-diagnózisról: miért nehéz felnőttként diagnózishoz jutni itthon, és miért maradnak a nők különösen aluldiagnosztizálva és alulkezelve. (Előfizetéses hvg360-tartalom.)",
+      "publication": "HVG360",
+      "author": "Pálúr Krisztina",
+      "publishedDate": "2024-11-07",
+      "sourceUrl": "https://hvg.hu/360/20241107_felnottkori-adhd-figyelemzavar-kezelese-tunetei-felismerese",
+      "lastReviewed": "2026-07-05",
+      "body": "A HVG360 cikke (Pálúr Krisztina) a felnőttkori ADHD felismeréséről és kezeléséről szól: arról az élményről, amikor valaki felnőttként érti meg, miért küzd gyerekkora óta, és arról, milyen kevés a felnőtt ADHD diagnosztizálására felkészült szakember itthon és külföldön egyaránt.\n\nKiemeli a nemi különbséget: gyerekkorban körülbelül háromszor annyi fiút diagnosztizálnak, mint lányt (a fiúknál a feltűnő hiperaktivitás dominál), felnőttkorra viszont a különbség eltűnik — a nők tehát jellemzően később, a figyelemhiányos altípussal kerülnek látókörbe, és sokáig aluldiagnosztizáltak maradnak.\n\n**Megjegyzés:** ez előfizetéses hvg360-tartalom, a teljes szöveg fizetőfal mögött van."
+    },
+    {
+      "id": "hu/kepmas-autista-nokent-multinal",
+      "category": "articles",
+      "slug": "kepmas-autista-nokent-multinal",
+      "href": "/hu/articles/kepmas-autista-nokent-multinal/",
+      "tags": [
+        "no",
+        "felnott",
+        "maszkolas",
+        "munkahely",
+        "szemelyes"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "adults",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Autista nőként egy multinál — Rapai Katalin története",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Képmás-interjú/első személyű beszámoló: Rapai Katalin 40 évesen kapta meg autizmus-diagnózisát. Arról mesél, hogyan élte meg a szenzoros és szorongásos tüneteket egy irodai környezetben, mit jelentett a maszkolás, és mi változott a diagnózis után.",
+      "publication": "Képmás",
+      "author": "Szász Adrián",
+      "publishedDate": "2024-01-22",
+      "sourceUrl": "https://kepmas.hu/hu/autizmus-jelei-felnottkorban-rapai-katalin-autista-nok",
+      "lastReviewed": "2026-07-05",
+      "body": "A Képmás első személyű, interjú jellegű írása Rapai Katalin saját szavaival meséli el, milyen volt későn — 40 évesen — megkapni az autizmus-diagnózist. Beszámol a londoni irodai környezet szenzoros túlterheléséről és szorongásáról, majd arról, hogyan alakította át az önismeret és a munkahelyi alkalmazkodás a teljesítményét és az életminőségét.\n\nKözponti témája a **maszkolás** és a női autizmus aluldiagnosztizáltsága: sok nő gyerekkorától elrejti a sajátosságait, hogy „átlagosnak\" tűnjön, ami épp a felismerést nehezíti. Hiteles, személyes hang — jó ellenpont a kategória tudományos és rendszerszintű cikkeihez."
+    },
+    {
+      "id": "hu/qubit-szuletes-elott-kimutathato",
+      "category": "articles",
+      "slug": "qubit-szuletes-elott-kimutathato",
+      "href": "/hu/articles/qubit-szuletes-elott-kimutathato/",
+      "tags": [
+        "tudomany",
+        "kutatas",
+        "korai",
+        "kockazat"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Már a születés előtt kimutatható lehet az autizmus és az ADHD kockázata",
+      "locale": "hu",
+      "topics": [
+        "autism",
+        "adhd"
+      ],
+      "summary": "Qubit-cikk egy magyar vezetésű (pécsi) kutatási programról, amely a születés körüli hatások (oxigénhiány, magzati alkoholexpozíció, anyai immunaktiváció) és a későbbi neurofejlődési zavarok — autizmus, ADHD, skizofrénia — összefüggéseit vizsgálja.",
+      "publication": "Qubit",
+      "author": "Kuglics Sarolta",
+      "publishedDate": "2026-02-26",
+      "sourceUrl": "https://qubit.hu/2026/02/26/mar-a-szuletes-elott-kimutathato-lehet-az-autizmus-es-az-adhd-kockazata",
+      "lastReviewed": "2026-07-05",
+      "body": "A Qubit tudományos újságírása egy magyar vezetésű kutatási programot (a Pécsi Tudományegyetem koordinálásával működő Transzlációs Idegtudományi Nemzeti Laboratórium) mutat be, amely a születés előtti és körüli hatások — újszülöttkori oxigénhiány, magzati alkoholexpozíció, anyai immunaktiváció — és a későbbi neurofejlődési zavarok közti mechanizmusokat vizsgálja.\n\nFelelős tudományos ismeretterjesztés: megkülönbözteti az állatmodelleket a humán adatoktól, konkrét mechanizmusokat (pl. P2X7 receptor) nevez meg, és nem sugall leegyszerűsítő ok-okozati vagy „szűrővizsgálat holnaptól\" következtetést. Fontos árnyalat: a „kockázat kimutathatósága\" nem azonos a diagnózissal vagy a megelőzhetőséggel."
+    },
+    {
+      "id": "hu/telex-adhd-diagnozis-korulmenyes",
+      "category": "articles",
+      "slug": "telex-adhd-diagnozis-korulmenyes",
+      "href": "/hu/articles/telex-adhd-diagnozis-korulmenyes/",
+      "tags": [
+        "diagnozis",
+        "varolista",
+        "ellatas",
+        "felnott"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Miért ilyen körülményes itthon ADHD-diagnózishoz jutni?",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "Telex-cikk a hazai ADHD-diagnosztika akadályairól: várólisták, az állami és a magánellátás közti szakadék, és a félrediagnosztizálás kockázata felnőttkorban, ahol az ADHD gyakran szorongással, más zavarokkal együtt jelenik meg.",
+      "publication": "Telex",
+      "publishedDate": "2026-02-15",
+      "sourceUrl": "https://telex.hu/eletmod/2026/02/15/adhd-diagnosztika-tesztek-varolista-pszichiatria-allami-maganellatas",
+      "lastReviewed": "2026-07-05",
+      "body": "A Telex cikke azt járja körül, miért olyan nehézkes Magyarországon ADHD-diagnózishoz jutni: hosszú várólisták az állami pszichiátrián, drága magánellátás, és a tesztek/eljárások átláthatatlansága. Kiemeli, hogy nem csak a diagnózis hiánya gond — legalább akkora a félrediagnosztizálásé is, különösen felnőttkorban, amikor az ADHD gyakran szorongással vagy más mentális zavarral együtt jelentkezik.\n\nJó kontextus a Diagnózis kategóriánkhoz: megmutatja, milyen rendszerbeli akadályokba ütközik, aki a térképünkön szereplő szolgáltatókhoz fordulna."
+    },
+    {
+      "id": "hu/telex-adhd-nem-bocsanat",
+      "category": "articles",
+      "slug": "telex-adhd-nem-bocsanat",
+      "href": "/hu/articles/telex-adhd-nem-bocsanat/",
+      "tags": [
+        "felnott",
+        "no",
+        "tevhitek",
+        "diagnozis"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "adults",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Az ADHD nem bocsánat, hanem magyarázat",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "Telex-cikk a felnőtt, különösen a női ADHD-ról: miért elavult a „fiú-betegség” tévhit, miért marad rejtve sok nőnél a diagnózis, és mit jelent az, hogy az ADHD magyarázat a nehézségekre, nem felmentés alóluk.",
+      "publication": "Telex",
+      "publishedDate": "2025-06-16",
+      "sourceUrl": "https://telex.hu/eletmod/2025/06/16/az-adhd-nem-bocsanat-hanem-magyarazat",
+      "lastReviewed": "2026-07-05",
+      "body": "A világ népességének nagyjából 2–4 százalékát érinti az ADHD, a cikk mégis arra mutat rá, hogy Magyarországon alig esik szó a felnőtt — és különösen a női — figyelemzavarról. Leszámol azzal a régóta elavult feltételezéssel, hogy az ADHD jellegzetesen „fiús\" jelenség lenne.\n\nA cím a lényeget viszi: az ADHD nem kifogás, hanem magyarázat — keret, amelyben a korábban érthetetlen nehézségek értelmet nyernek. Higgadt, tényekre támaszkodó publicisztika a Telextől."
+    },
+    {
+      "id": "hu/telex-autizmus-adhd-elofordulasa",
+      "category": "articles",
+      "slug": "telex-autizmus-adhd-elofordulasa",
+      "href": "/hu/articles/telex-autizmus-adhd-elofordulasa/",
+      "tags": [
+        "tudomany",
+        "komorbiditas",
+        "audhd",
+        "felnott"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "adults",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Tízszer magasabb az ADHD előfordulása a felnőtt autisták körében is",
+      "locale": "hu",
+      "topics": [
+        "autism",
+        "adhd"
+      ],
+      "summary": "Telex-cikk egy kutatásról, amely szerint felnőtt autistáknál tízszer gyakoribb az ADHD, mint az átlagpopulációban — pedig sokáig azt hitték, a figyelemzavar a korral csökken. Az AuDHD (a kettő együttes előfordulása) sokkal gyakoribb, mint gondolnánk.",
+      "publication": "Telex",
+      "publishedDate": "2025-02-12",
+      "sourceUrl": "https://telex.hu/techtud/2025/02/12/autizmus-adhd-elofordulasa-magasabb",
+      "lastReviewed": "2026-07-05",
+      "body": "A Telex tudományos rovatának cikke egy nemzetközi kutatásról számol be, amely szerint a felnőtt autisták körében az ADHD előfordulása mintegy tízszerese az átlagpopulációénak. Ez azért fontos, mert korábban azt feltételezték, hogy az ADHD gyerekkori együttjárása az autizmusnak felnőttkorra jórészt „kinőhető\" — a kutatás ezt cáfolja.\n\nMiért releváns a Neurodiverz Térkép szemszögéből: az **AuDHD** (az autizmus és az ADHD együttes fennállása) a hazai köztudatban alig ismert, pedig épp a kettős profilú felnőttek esnek ki leggyakrabban a diagnosztikai hálón. A cikk megbízható tudományos újságírás — konkrét kutatásra és számokra hivatkozik, nem ígér csodát."
+    },
+    {
+      "id": "hu/telex-nem-neveletlen-csak-szenzoros",
+      "category": "articles",
+      "slug": "telex-nem-neveletlen-csak-szenzoros",
+      "href": "/hu/articles/telex-nem-neveletlen-csak-szenzoros/",
+      "tags": [
+        "szenzoros",
+        "spd",
+        "gyerek",
+        "erzekelés"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Nem neveletlen, csak szenzoros",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Telex-cikk a szenzoros feldolgozás sajátosságairól (SPD): amikor egy gyerek viselkedése mögött nem neveletlenség, hanem az ingerek eltérő feldolgozása áll. Háttér a szenzoros érzékenységhez, ami az autizmus egyik alapélménye.",
+      "publication": "Telex",
+      "publishedDate": "2022-07-24",
+      "sourceUrl": "https://telex.hu/tudomany/2022/07/24/spd-szenzorossag-idegrenszeri-sajatossag-nem-neveletlen-csak-szenzoros",
+      "lastReviewed": "2026-07-05",
+      "body": "A Telex tudományos cikke a szenzoros feldolgozás eltéréseiről (angol rövidítéssel SPD) szól: arról, hogy egy gyerek „rossz\" vagy „neveletlen\" viselkedése mögött gyakran az áll, hogy az idegrendszere másképp dolgozza fel az ingereket (hangokat, fényt, tapintást, textúrákat).\n\nA szenzoros érzékenység az autizmus egyik központi élménye (és a szenzoros eszközök, például a fülvédők vagy súlyozott takarók kategóriánk mögötti logikája), ezért hasznos háttérolvasmány szülőknek és pedagógusoknak — miért nem fegyelmezési kérdés az, ami valójában érzékelési."
+    },
+    {
+      "id": "hu/telex-tiz-szazalek-hiperfokusz",
+      "category": "articles",
+      "slug": "telex-tiz-szazalek-hiperfokusz",
+      "href": "/hu/articles/telex-tiz-szazalek-hiperfokusz/",
+      "tags": [
+        "szemelyes",
+        "felnott",
+        "gyogyszer",
+        "pszichoterapia",
+        "beszamolo"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "adults",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Tíz százalék hiperfókusz, a többi kilencven szenvedés",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "Telex-riport felnőttként diagnosztizált ADHD-val élők személyes beszámolóival: milyen a hétköznap figyelemzavarral, mit segít a gyógyszer és a pszichoterápia, és hogyan kezeli mindezt a környezet.",
+      "publication": "Telex",
+      "publishedDate": "2025-05-26",
+      "sourceUrl": "https://telex.hu/eletmod/2025/05/26/adhd-beszamolok-gyogyszer-pszichoterapia",
+      "lastReviewed": "2026-07-05",
+      "body": "A Telex életmód-rovatának riportja felnőttként diagnosztizált ADHD-s emberek saját szavaival mutatja be, milyen a mindennapok valósága a figyelemzavarral — a ritka „hiperfókusz\" pillanatoktól a végrehajtási nehézségekig, a gyógyszeres kezelés és a pszichoterápia szerepéig.\n\nSzemélyes, tapasztalati anyag (nem orvosi útmutató), ami jó kiegészítése a szakmai forrásoknak: azt adja vissza, hogyan élik meg az érintettek magát az állapotot és a kezelést Magyarországon."
+    },
+    {
+      "id": "hu/wmn-adhd-ondiagnozis-tiktok",
+      "category": "articles",
+      "slug": "wmn-adhd-ondiagnozis-tiktok",
+      "href": "/hu/articles/wmn-adhd-ondiagnozis-tiktok/",
+      "tags": [
+        "ondiagnozis",
+        "tiktok",
+        "tevhitek",
+        "media"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Nem attól lesz valaki ADHD-s, hogy néha elfelejti a kulcsát, vagy halogatja a feladatait",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "WMN-cikk az ADHD körüli öndiagnózis-hullámról és a közösségimédia-tartalmak (TikTok) szerepéről: hol a határ a hétköznapi feledékenység/halogatás és a valódi ADHD között, és miért nem helyettesíti a szakmai kivizsgálást egy videó.",
+      "publication": "WMN",
+      "sourceUrl": "https://wmn.hu/wmn-life/67622-mentalis-egeszseg-ondiagnozis-adhd-tiktok",
+      "lastReviewed": "2026-07-05",
+      "body": "A WMN írása kiegyensúlyozottan járja körül az ADHD körüli **öndiagnózis-jelenséget**: ahogy az ADHD (és általában a mentális egészség fogalmai) beköltöztek a hétköznapi beszélgetésekbe és a közösségi médiába, egyre többen ismernek magukra egy-egy TikTok-videó alapján.\n\nA cikk nem bagatellizálja el az ADHD-t, de a másik végletre is figyelmeztet: a hétköznapi feledékenység vagy halogatás önmagában nem ADHD, és egy videó nem helyettesíti a szakszerű kivizsgálást. Egészséges kritikai ellenpont a személyes és elfogadás-fókuszú cikkekhez. (A pontos megjelenési dátum a cikkoldalról nem volt egyértelműen kiolvasható, ezért nem tüntettük fel.)"
+    },
+    {
+      "id": "hu/wmn-neurodiverzitas-nem-betegseg",
+      "category": "articles",
+      "slug": "wmn-neurodiverzitas-nem-betegseg",
+      "href": "/hu/articles/wmn-neurodiverzitas-nem-betegseg/",
+      "tags": [
+        "neurodiverzitas",
+        "szemlelet",
+        "elfogadas"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Az autizmus vagy az ADHD nem betegség, hanem a világ megtapasztalásának érvényes módja",
+      "locale": "hu",
+      "topics": [
+        "autism",
+        "adhd"
+      ],
+      "summary": "WMN-cikk a neurodiverzitás szemléletéről: az autizmus és az ADHD nem hiba vagy betegség, hanem az idegi működés sokféleségének érvényes formája. A neurodiverzitási mozgalom alapgondolatának közérthető bemutatása.",
+      "publication": "WMN",
+      "sourceUrl": "https://wmn.hu/ugy/61922-az-autizmus-vagy-az-adhd-nem-betegseg-hanem-a-vilag-megtapasztalasanak-ervenyes-modja",
+      "lastReviewed": "2026-07-05",
+      "body": "A WMN cikke a **neurodiverzitás** szemléletét mutatja be közérthetően: azt a nézőpontot, amely szerint az autizmus és az ADHD nem elsősorban betegség vagy javítandó hiba, hanem az idegrendszeri működés természetes sokféleségének érvényes formája, ami gazdagítja a közösségeinket.\n\nEz a keret adja a Neurodiverz Térkép egész szemléletét, ezért jó alapozó olvasmány. (A pontos megjelenési dátum a cikkoldalról nem volt egyértelműen kiolvasható, ezért itt nem tüntettük fel — a WMN mint forrás és a cikk címe ellenőrzött.)"
+    },
     {
       "id": "hu/adhd-tunetegyuttes",
       "category": "books",

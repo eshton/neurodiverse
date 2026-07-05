@@ -55,6 +55,11 @@ export const collections = {
     handle: z.string(),
     platforms: z.array(z.string()).min(1),
   }),
+  articles: collectionFor('articles', {
+    publication: z.string(),
+    author: z.string().optional(),
+    publishedDate: z.string().optional(),
+  }),
   equipment: collectionFor('equipment', {
     priceRange: z.string().optional(),
     retailerUrls: z.array(z.string().url()).default([]),
