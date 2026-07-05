@@ -3,6 +3,22 @@
 // other page), so the whole site has one consistent header. Brand always links to
 // `/` (the map), since that's the primary front door now; the old category-grid
 // homepage at /hu/ is still reachable, just no longer the thing the header points at.
+//
+// Desktop (sm+) shows the links inline; on mobile they collapse behind a hamburger
+// toggle (the nav used to be `hidden sm:flex` with no mobile fallback at all, so the
+// menu items were simply unreachable on phones). Links are defined once in NAV and
+// rendered into both the inline and the collapsible menu.
+const NAV = [
+  { href: '/web/', label: 'Web' },
+  { href: '/rolunk/', label: 'Rólunk' },
+  { href: '/adatvedelem/', label: 'Adatvédelem' },
+  { href: '/gyik/', label: 'GYIK' },
+];
+const GITHUB_URL = 'https://github.com/eshton/neurodiverse';
+// Official GitHub Octocat mark, inlined so the "Star on GitHub" button needs no
+// third-party script or api.github.com call (see adatvedelem.astro privacy stance).
+const octocatPath =
+  'M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z';
 ---
 <header class="border-b border-zinc-200 dark:border-zinc-800 shrink-0">
   <div class="px-4 py-3 flex items-center justify-between gap-4">
@@ -12,38 +28,97 @@
     </a>
 
     <nav class="hidden sm:flex items-center gap-4 text-sm text-zinc-600 dark:text-zinc-400">
-      <a href="/web/" class="hover:text-brand-700 dark:hover:text-brand-300">Web</a>
-      <a href="/rolunk/" class="hover:text-brand-700 dark:hover:text-brand-300">Rólunk</a>
-      <a href="/adatvedelem/" class="hover:text-brand-700 dark:hover:text-brand-300">Adatvédelem</a>
-      <a href="/gyik/" class="hover:text-brand-700 dark:hover:text-brand-300">GYIK</a>
-      {/* Self-hosted "Star on GitHub" button: official Octocat mark inlined as
-          SVG, no third-party script and no external count fetch, so it doesn't
-          break the no-external-requests privacy stance (see adatvedelem.astro). */}
+      {NAV.map(({ href, label }) => (
+        <a href={href} class="hover:text-brand-700 dark:hover:text-brand-300">{label}</a>
+      ))}
       <a
-        href="https://github.com/eshton/neurodiverse"
+        href={GITHUB_URL}
         target="_blank"
         rel="noopener noreferrer"
         class="inline-flex items-center gap-1.5 rounded-md border border-zinc-300 dark:border-zinc-700 px-2.5 py-1 font-medium text-zinc-700 dark:text-zinc-200 hover:bg-zinc-100 dark:hover:bg-zinc-800 transition"
       >
-        <svg class="h-4 w-4" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
-          <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
-        </svg>
+        <svg class="h-4 w-4" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d={octocatPath} /></svg>
         Star on GitHub
       </a>
     </nav>
 
-    <div class="group relative">
-      <div
-        class="w-9 h-9 rounded-full bg-zinc-200 dark:bg-zinc-800 flex items-center justify-center text-zinc-500 dark:text-zinc-400 cursor-default"
-        aria-label="Profil (hamarosan)"
+    <div class="flex items-center gap-2">
+      <button
+        id="nav-toggle"
+        type="button"
+        class="sm:hidden w-9 h-9 flex items-center justify-center rounded-md text-zinc-600 dark:text-zinc-300 hover:bg-zinc-100 dark:hover:bg-zinc-800"
+        aria-label="Menü"
+        aria-expanded="false"
+        aria-controls="mobile-nav"
       >
-        <span aria-hidden="true">👤</span>
-      </div>
-      <div
-        class="pointer-events-none absolute right-0 top-full mt-1 whitespace-nowrap rounded-md bg-zinc-800 px-2 py-1 text-xs text-white opacity-0 transition group-hover:opacity-100 dark:bg-zinc-700"
-      >
-        Hamarosan
+        <svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+          <path stroke-linecap="round" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+
+      <div class="group relative">
+        <div
+          class="w-9 h-9 rounded-full bg-zinc-200 dark:bg-zinc-800 flex items-center justify-center text-zinc-500 dark:text-zinc-400 cursor-default"
+          aria-label="Profil (hamarosan)"
+        >
+          <span aria-hidden="true">👤</span>
+        </div>
+        <div
+          class="pointer-events-none absolute right-0 top-full mt-1 whitespace-nowrap rounded-md bg-zinc-800 px-2 py-1 text-xs text-white opacity-0 transition group-hover:opacity-100 dark:bg-zinc-700"
+        >
+          Hamarosan
+        </div>
       </div>
     </div>
   </div>
+
+  <nav
+    id="mobile-nav"
+    class="sm:hidden hidden flex-col gap-1 px-4 pb-3 pt-1 text-sm text-zinc-600 dark:text-zinc-400 border-t border-zinc-200 dark:border-zinc-800"
+  >
+    {NAV.map(({ href, label }) => (
+      <a href={href} class="py-2 hover:text-brand-700 dark:hover:text-brand-300">{label}</a>
+    ))}
+    <a
+      href={GITHUB_URL}
+      target="_blank"
+      rel="noopener noreferrer"
+      class="inline-flex items-center gap-1.5 mt-1 w-max rounded-md border border-zinc-300 dark:border-zinc-700 px-2.5 py-1.5 font-medium text-zinc-700 dark:text-zinc-200 hover:bg-zinc-100 dark:hover:bg-zinc-800 transition"
+    >
+      <svg class="h-4 w-4" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d={octocatPath} /></svg>
+      Star on GitHub
+    </a>
+  </nav>
 </header>
+
+<script>
+  // Hamburger toggle. Registered once on document (guarded) so it survives Astro
+  // View Transitions — the header is re-rendered per navigation, and the menu
+  // starts collapsed on each fresh page, so no explicit close-on-navigate needed.
+  if (!(window as any).__navMenuReady) {
+    (window as any).__navMenuReady = true;
+
+    const close = () => {
+      const menu = document.getElementById('mobile-nav');
+      menu?.classList.add('hidden');
+      menu?.classList.remove('flex');
+      document.getElementById('nav-toggle')?.setAttribute('aria-expanded', 'false');
+    };
+
+    document.addEventListener('click', (e) => {
+      const toggle = (e.target as HTMLElement).closest('#nav-toggle');
+      const menu = document.getElementById('mobile-nav');
+      if (!menu) return;
+      if (toggle) {
+        const open = menu.classList.contains('hidden');
+        menu.classList.toggle('hidden', !open);
+        menu.classList.toggle('flex', open);
+        toggle.setAttribute('aria-expanded', String(open));
+        return;
+      }
+      // Tapping a menu link navigates (header re-renders collapsed); tapping
+      // anywhere outside the open menu closes it.
+      if (!(e.target as HTMLElement).closest('#mobile-nav')) close();
+    });
+  }
+</script>
