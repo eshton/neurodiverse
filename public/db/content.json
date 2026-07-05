@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "count": 191,
+  "count": 195,
   "categories": {
-    "articles": 11,
+    "articles": 15,
     "books": 13,
     "communities": 8,
     "development": 15,
@@ -105,6 +105,34 @@
       "body": "A Képmás első személyű, interjú jellegű írása Rapai Katalin saját szavaival meséli el, milyen volt későn — 40 évesen — megkapni az autizmus-diagnózist. Beszámol a londoni irodai környezet szenzoros túlterheléséről és szorongásáról, majd arról, hogyan alakította át az önismeret és a munkahelyi alkalmazkodás a teljesítményét és az életminőségét.\n\nKözponti témája a **maszkolás** és a női autizmus aluldiagnosztizáltsága: sok nő gyerekkorától elrejti a sajátosságait, hogy „átlagosnak\" tűnjön, ami épp a felismerést nehezíti. Hiteles, személyes hang — jó ellenpont a kategória tudományos és rendszerszintű cikkeihez."
     },
     {
+      "id": "hu/qubit-rideg-integracio",
+      "category": "articles",
+      "slug": "qubit-rideg-integracio",
+      "href": "/hu/articles/qubit-rideg-integracio/",
+      "tags": [
+        "oktatas",
+        "integracio",
+        "rideg-integracio",
+        "rendszer"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Az autizmussal élő gyerekek rideg integrációja zajlik Magyarországon",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Qubit-cikk a „rideg integráció” jelenségéről: az autista gyerekeket sok esetben a szükséges támogatás nélkül helyezik többségi iskolába, ahol a feltételek (felkészített pedagógus, gyógypedagógiai háttér, érzékenyítés) hiányában az integráció csak papíron valósul meg.",
+      "publication": "Qubit",
+      "publishedDate": "2018-10-15",
+      "sourceUrl": "https://qubit.hu/2018/10/15/az-autizmussal-elo-gyerekek-rideg-integracioja-zajlik-magyarorszagon",
+      "lastReviewed": "2026-07-05",
+      "body": "A Qubit cikke a magyar oktatási rendszer egyik régóta fennálló problémáját járja körül: az úgynevezett **rideg integrációt**. Ilyenkor az autista (vagy más sajátos nevelési igényű) gyereket beírják egy többségi iskolába, de a valódi integrációhoz szükséges feltételek — felkészített pedagógus, gyógypedagógiai támogatás, az osztálytársak érzékenyítése — nélkül, így a befogadás valójában csak papíron létezik.\n\nBár a cikk 2018-as, a leírt rendszerbeli probléma sajnos máig aktuális (lásd a hasonló, frissebb Szabad Európa-riportot ugyanitt). Jó szakmai háttér az Iskolák kategóriához, és ahhoz, miért számít, hogy egy intézmény ténylegesen autizmus-specifikus ellátást nyújt-e."
+    },
+    {
       "id": "hu/qubit-szuletes-elott-kimutathato",
       "category": "articles",
       "slug": "qubit-szuletes-elott-kimutathato",
@@ -133,6 +161,63 @@
       "sourceUrl": "https://qubit.hu/2026/02/26/mar-a-szuletes-elott-kimutathato-lehet-az-autizmus-es-az-adhd-kockazata",
       "lastReviewed": "2026-07-05",
       "body": "A Qubit tudományos újságírása egy magyar vezetésű kutatási programot (a Pécsi Tudományegyetem koordinálásával működő Transzlációs Idegtudományi Nemzeti Laboratórium) mutat be, amely a születés előtti és körüli hatások — újszülöttkori oxigénhiány, magzati alkoholexpozíció, anyai immunaktiváció — és a későbbi neurofejlődési zavarok közti mechanizmusokat vizsgálja.\n\nFelelős tudományos ismeretterjesztés: megkülönbözteti az állatmodelleket a humán adatoktól, konkrét mechanizmusokat (pl. P2X7 receptor) nevez meg, és nem sugall leegyszerűsítő ok-okozati vagy „szűrővizsgálat holnaptól\" következtetést. Fontos árnyalat: a „kockázat kimutathatósága\" nem azonos a diagnózissal vagy a megelőzhetőséggel."
+    },
+    {
+      "id": "hu/szabadeuropa-kozoktatas-autizmus",
+      "category": "articles",
+      "slug": "szabadeuropa-kozoktatas-autizmus",
+      "href": "/hu/articles/szabadeuropa-kozoktatas-autizmus/",
+      "tags": [
+        "oktatas",
+        "integracio",
+        "rendszer",
+        "szulo",
+        "riport"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "„A gyermekbántalmazás legalizált formája” – akiket kivet magából a magyar közoktatás",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Szabad Európa-riport az autista gyerekek oktatáshoz jutásának magyarországi anomáliáiról: miközben tizenhét év alatt tízszeresére nőtt az autista gyerekek száma, az iskolák jogi kiskapukkal fosztják meg őket az integrált oktatástól. Egy anya küzdelmén keresztül.",
+      "publication": "Szabad Európa",
+      "publishedDate": "2024-04-02",
+      "sourceUrl": "https://www.szabadeuropa.hu/a/a-gyermekbantalmazas-legalizalt-formaja-akiket-kivet-magabol-a-magyar-kozoktatas/32880146.html",
+      "lastReviewed": "2026-07-05",
+      "body": "A Szabad Európa riportja egy Eger környéki édesanya, Fehérvári Csilla küzdelmén keresztül mutatja be, milyen akadályokba ütköznek az autista gyerekek és családjaik a magyar közoktatásban. A cikk súlyos rendszerszintű problémákra mutat rá: miközben tizenhét év alatt tízszeresére nőtt az autista gyerekek száma, az állam nem garantálja számukra az oktatáshoz jutást, és az iskolák számos jogi kiskaput használnak, hogy kibújjanak az integrált oktatás kötelezettsége alól.\n\nAlapos, tekintélyes forrástól származó oknyomozó jellegű írás — fontos kontextus az Iskolák kategóriánkhoz: megmutatja, milyen rendszerbeli valósággal szembesülnek a családok a papíron létező integráció mögött."
+    },
+    {
+      "id": "hu/telex-127-emberbol-egy-autizmus",
+      "category": "articles",
+      "slug": "telex-127-emberbol-egy-autizmus",
+      "href": "/hu/articles/telex-127-emberbol-egy-autizmus/",
+      "tags": [
+        "tudomany",
+        "prevalencia",
+        "kutatas",
+        "globalis"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Minden 127 emberből egyet érint az autizmus spektrumzavar",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Telex-cikk egy nagy nemzetközi felmérésről, amely szerint globálisan nagyjából minden 127. embert érint az autizmus. A kutatók szerint a korai felismerést és a jobb diagnosztikai eszközöket kellene priorizálni, különösen felnőtteknél.",
+      "publication": "Telex",
+      "publishedDate": "2024-12-20",
+      "sourceUrl": "https://telex.hu/techtud/2024/12/20/autizmus-spektrumzavar-elofordulas-61-8-millio-ember-japan",
+      "lastReviewed": "2026-07-05",
+      "body": "A Telex tudományos rovatának cikke egy nagy, nemzetközi (a Global Burden of Disease adataira épülő) felmérésről számol be, amely szerint világszerte nagyjából minden 127. embert érint az autizmus spektrumzavar — összességében több tízmillió embert.\n\nA cikk józanul kezeli a számokat: a növekvő prevalencia elsősorban a jobb felismerést tükrözi, és a kutatók tanulsága az, hogy a korai felismerő programokat és a pontosabb diagnosztikai eszközöket kellene priorizálni, kiemelten a felnőttek és az alacsonyabb jövedelmű országok esetében. Megbízható tudományos ismeretterjesztés, hasznos háttér a diagnózis körüli hazai helyzethez."
     },
     {
       "id": "hu/telex-adhd-diagnozis-korulmenyes",
@@ -189,6 +274,34 @@
       "sourceUrl": "https://telex.hu/eletmod/2025/06/16/az-adhd-nem-bocsanat-hanem-magyarazat",
       "lastReviewed": "2026-07-05",
       "body": "A világ népességének nagyjából 2–4 százalékát érinti az ADHD, a cikk mégis arra mutat rá, hogy Magyarországon alig esik szó a felnőtt — és különösen a női — figyelemzavarról. Leszámol azzal a régóta elavult feltételezéssel, hogy az ADHD jellegzetesen „fiús\" jelenség lenne.\n\nA cím a lényeget viszi: az ADHD nem kifogás, hanem magyarázat — keret, amelyben a korábban érthetetlen nehézségek értelmet nyernek. Higgadt, tényekre támaszkodó publicisztika a Telextől."
+    },
+    {
+      "id": "hu/telex-ami-jol-megy-oszi-interju",
+      "category": "articles",
+      "slug": "telex-ami-jol-megy-oszi-interju",
+      "href": "/hu/articles/telex-ami-jol-megy-oszi-interju/",
+      "tags": [
+        "interju",
+        "szakerto",
+        "gyerek",
+        "tamogatas"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Ami jól megy, azt megünnepelhetjük, a nehézségeket kompenzálhatjuk",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Telex-interjú Őszi Tamásné Patríciával, az Autizmus Alapítvány gyógypedagógusával az autista gyerekek támogatásáról: erősségekre építeni, a nehézségeket kompenzálni, és mikor van egyáltalán dolga a szakembernek.",
+      "publication": "Telex",
+      "publishedDate": "2024-04-07",
+      "sourceUrl": "https://telex.hu/belfold/2024/04/07/autizmus-spektrum-autista-gyerekek-oszi-tamasne-patricia",
+      "lastReviewed": "2026-07-05",
+      "body": "Telex-interjú Őszi Tamásné Patríciával, az Autizmus Alapítvány gyógypedagógusával (ugyanaz a szakember, aki a Korai Fejlesztő Központ étkezési útmutatóját is jegyzi, lásd az Étel kategóriát). A beszélgetés az autizmus józan, szakmai megközelítéséről szól: az erősségekre lehet építeni, a nehézségeket kompenzálni, és nem minden autista embernek van szüksége „beavatkozásra\" — akkor van dolga a szakembernek és a szülőnek, ha az életminőséget rontja valami.\n\nHiggadt, tekintélyes forrástól származó interjú, jó belépő olvasmány szülőknek és pedagógusoknak, amely szembemegy a pánikkeltő és a csodaterápiás narratívákkal egyaránt."
     },
     {
       "id": "hu/telex-autizmus-adhd-elofordulasa",
