@@ -57,6 +57,11 @@
       city: 'Város', address: 'Cím', contact: 'Elérhetőség', priceNotes: 'Ár megjegyzés',
       director: 'Rendező', year: 'Év', runtimeMinutes: 'Hossz (perc)', streamingUrls: 'Elérhető ezeken',
     };
+    // Value (not key) translation for food's `kind` — kept in sync with KIND_LABELS
+    // in src/pages/[locale]/[category]/[slug].astro. Only `kind` is value-translated.
+    const KIND_LABELS: Record<string, string> = {
+      recipe: 'Recept', product: 'Termék', guide: 'Útmutató', supplement: 'Étrendkiegészítő',
+    };
     // Non-extra fields: rendered explicitly below, so excluded from the generic list.
     const BASE_FIELDS = new Set([
       'id', 'category', 'slug', 'href', 'body', 'title', 'locale', 'topics', 'summary', 'tags',
@@ -92,7 +97,7 @@
 
       const extra = Object.entries(item)
         .filter(([k, v]) => !BASE_FIELDS.has(k) && v != null && !(Array.isArray(v) && v.length === 0))
-        .map(([k, v]) => `<dt class="text-zinc-500 dark:text-zinc-400">${esc(FIELD_LABELS[k] ?? k)}</dt><dd>${esc(Array.isArray(v) ? v.join(', ') : v)}</dd>`)
+        .map(([k, v]) => `<dt class="text-zinc-500 dark:text-zinc-400">${esc(FIELD_LABELS[k] ?? k)}</dt><dd>${esc(k === 'kind' ? (KIND_LABELS[String(v)] ?? v) : Array.isArray(v) ? v.join(', ') : v)}</dd>`)
         .join('');
       const extraHtml = extra
         ? `<dl class="grid grid-cols-[auto_1fr] gap-x-4 gap-y-1 text-sm my-4">${extra}</dl>` : '';
