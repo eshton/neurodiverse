@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "count": 157,
+  "count": 165,
   "categories": {
     "books": 13,
     "communities": 8,
@@ -9,7 +9,7 @@
     "equipment": 19,
     "food": 2,
     "influencers": 3,
-    "movies": 24,
+    "movies": 32,
     "podcasts": 7,
     "schools": 23,
     "videos": 15
@@ -2760,6 +2760,33 @@
       "body": "Magyar TikTok-alkotó, aki fia, Fici autizmusspektrum-zavarral kapcsolatos mindennapjait, beszédfejlődését és a DAM (délutáni autizmus-specifikus fejlesztő program) hatásait dokumentálja rövid videókban. A HVG 2022-es cikke szerint egy véletlenül virálissá vált videó után tűzte ki célul az autizmussal kapcsolatos sztereotípiák lebontását. 305 ezer követő, közel 30 millió like a profilon (ellenőrizve: 2026-07-04). Szülői nézőpontból mutatja be a témát, nem saját érintettségből."
     },
     {
+      "id": "hu/a-boy-called-po",
+      "category": "movies",
+      "slug": "a-boy-called-po",
+      "href": "/hu/movies/a-boy-called-po/",
+      "tags": [],
+      "ratings": [],
+      "availability": "unavailable",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "streamingUrls": [],
+      "title": "A Boy Called Po",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Amerikai dráma (igaz történet alapján) egy özvegyen maradt apáról, aki egyedül próbálja nevelni autista kisfiát, Pót, miközben mindketten a felesége/édesanyja elvesztését gyászolják. Az apa-fiú kapcsolatot és a képzeletbe menekülést állítja középpontba.",
+      "kind": "narrative",
+      "director": "John Asher",
+      "year": 2016,
+      "runtimeMinutes": 95,
+      "sourceUrl": "https://en.wikipedia.org/wiki/A_Boy_Called_Po",
+      "coverImage": "/covers/a-boy-called-po.jpg",
+      "lastReviewed": "2026-07-05",
+      "body": "Magyarországi legális streaming-elérhetőségét a JustWatch alapján nem sikerült megerősíteni a fenti dátumon."
+    },
+    {
       "id": "hu/adam",
       "category": "movies",
       "slug": "adam",
@@ -2787,6 +2814,59 @@
       "body": "Magyarországon jelenleg csak bérelhető vagy megvásárolható (Apple TV Store, Rakuten TV), előfizetős szolgáltatáson nem elérhető."
     },
     {
+      "id": "hu/autism-in-love",
+      "category": "movies",
+      "slug": "autism-in-love",
+      "href": "/hu/movies/autism-in-love/",
+      "tags": [],
+      "ratings": [],
+      "availability": "unavailable",
+      "ageGroup": "adults",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "streamingUrls": [],
+      "title": "Autism in Love",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Amerikai dokumentumfilm, amely négy autista felnőtt párkapcsolati és szerelmi tapasztalatait követi — a randizás nehézségeitől a hosszú távú együttélésig —, árnyaltan mutatva be, hogyan élik meg a közelséget és az intimitást.",
+      "kind": "documentary",
+      "director": "Matt Fuller",
+      "year": 2015,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Autism_in_Love",
+      "coverImage": "/covers/autism-in-love.jpg",
+      "lastReviewed": "2026-07-05",
+      "body": "Magyarországi legális streaming-elérhetőségét a JustWatch alapján nem sikerült megerősíteni a fenti dátumon."
+    },
+    {
+      "id": "hu/autism-the-musical",
+      "category": "movies",
+      "slug": "autism-the-musical",
+      "href": "/hu/movies/autism-the-musical/",
+      "tags": [],
+      "ratings": [],
+      "availability": "unavailable",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "streamingUrls": [],
+      "title": "Autism: The Musical",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Két Emmy-díjas amerikai dokumentumfilm, amely fél éven át követ öt autista Los Angeles-i gyereket, ahogy egy tanácsadó segítségével saját színdarabot írnak és próbálnak. A gyerekeket és családjaikat közelről, őszintén mutatja be.",
+      "kind": "documentary",
+      "director": "Tricia Regan",
+      "year": 2007,
+      "runtimeMinutes": 94,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Autism:_The_Musical",
+      "coverImage": "/covers/autism-the-musical.jpg",
+      "lastReviewed": "2026-07-05",
+      "body": "Két 2008-as Emmy-díjat nyert (dokumentumfilm-vágás, illetve kiemelkedő dokumentum-/ismeretterjesztő különkiadás kategóriában). Magyarországi legális streaming-elérhetőségét a JustWatch alapján nem sikerült megerősíteni a fenti dátumon."
+    },
+    {
       "id": "hu/ben-x",
       "category": "movies",
       "slug": "ben-x",
@@ -2812,6 +2892,33 @@
       "coverImage": "/covers/ben-x.jpg",
       "lastReviewed": "2026-07-05",
       "body": "A film érinti az öngyilkosság témáját. Magyarországi legális streaming-elérhetőségét a JustWatch alapján nem sikerült megerősíteni a fenti dátumon."
+    },
+    {
+      "id": "hu/chocolate",
+      "category": "movies",
+      "slug": "chocolate",
+      "href": "/hu/movies/chocolate/",
+      "tags": [],
+      "ratings": [],
+      "availability": "unavailable",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "streamingUrls": [],
+      "title": "Chocolate (ช็อคโกแลต)",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Thai harcművészeti film egy autista lányról, Zenről, aki a szavant képességeinek köszönhetően pusztán megfigyeléssel sajátít el bonyolult küzdősport-mozdulatokat, és ezt használja fel, hogy beteg édesanyja gyógykezelését előteremtse. A műfaj szokatlan, de a főszereplő autizmusa a történet magja.",
+      "kind": "narrative",
+      "director": "Prachya Pinkaew",
+      "year": 2008,
+      "runtimeMinutes": 92,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Chocolate_(2008_film)",
+      "coverImage": "/covers/chocolate.jpg",
+      "lastReviewed": "2026-07-05",
+      "body": "Harcművészeti akciófilm, erőszakos jelenetekkel. Magyarországi legális streaming-elérhetőségét a JustWatch alapján nem sikerült megerősíteni a fenti dátumon."
     },
     {
       "id": "hu/hors-normes",
@@ -2948,6 +3055,33 @@
       "body": "Nem találtunk megbízhatóan ellenőrizhető magyarországi streaming-elérhetőséget: a Disney+ Pixar SparkShorts gyűjteménye HU-ban létezik, de nem tudtuk megerősíteni, hogy a Loop szerepel-e benne."
     },
     {
+      "id": "hu/loving-lampposts",
+      "category": "movies",
+      "slug": "loving-lampposts",
+      "href": "/hu/movies/loving-lampposts/",
+      "tags": [],
+      "ratings": [],
+      "availability": "unavailable",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "streamingUrls": [],
+      "title": "Loving Lampposts",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Amerikai dokumentumfilm a neurodiverzitás-mozgalomról és az autizmus elfogadásáról. A rendező (maga is autista gyermek apja) interjúkon és megfigyeléseken keresztül állítja szembe a 'gyógyítandó betegség' és az 'elfogadandó létforma' szemléletét.",
+      "kind": "documentary",
+      "director": "Todd Drezner",
+      "year": 2010,
+      "runtimeMinutes": 84,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Loving_Lampposts",
+      "coverImage": "/covers/loving-lampposts.jpg",
+      "lastReviewed": "2026-07-05",
+      "body": "Magyarországi legális streaming-elérhetőségét a JustWatch alapján nem sikerült megerősíteni a fenti dátumon."
+    },
+    {
       "id": "hu/marathon",
       "category": "movies",
       "slug": "marathon",
@@ -2971,6 +3105,33 @@
       "runtimeMinutes": 117,
       "sourceUrl": "https://en.wikipedia.org/wiki/Marathon_(2005_film)",
       "coverImage": "/covers/marathon.jpg",
+      "lastReviewed": "2026-07-05",
+      "body": "Magyarországi legális streaming-elérhetőségét a JustWatch alapján nem sikerült megerősíteni a fenti dátumon."
+    },
+    {
+      "id": "hu/molly",
+      "category": "movies",
+      "slug": "molly",
+      "href": "/hu/movies/molly/",
+      "tags": [],
+      "ratings": [],
+      "availability": "unavailable",
+      "ageGroup": "adults",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "streamingUrls": [],
+      "title": "Molly",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Amerikai romantikus vígjáték-dráma egy autista nőről, Mollyról, aki intézeti bezárása után elfoglalt, önző bátyja gondozásába kerül. Egy kísérleti kezelés átmenetileg megváltoztatja Molly állapotát — a film a testvérek kapcsolatát és a változás következményeit járja körül.",
+      "kind": "narrative",
+      "director": "John Duigan",
+      "year": 1999,
+      "runtimeMinutes": 102,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Molly_(1999_film)",
+      "coverImage": "/covers/molly.jpg",
       "lastReviewed": "2026-07-05",
       "body": "Magyarországi legális streaming-elérhetőségét a JustWatch alapján nem sikerült megerősíteni a fenti dátumon."
     },
@@ -3319,8 +3480,9 @@
       "year": 2008,
       "runtimeMinutes": 97,
       "sourceUrl": "https://en.wikipedia.org/wiki/The_Black_Balloon_(film)",
+      "coverImage": "/covers/the-black-balloon.jpg",
       "lastReviewed": "2026-07-05",
-      "body": "Nem sikerült megbízható, szabadon felhasználható borítóképet találni ehhez a bejegyzéshez (a Wikipédia-szócikkben nincs plakátkép). Magyarországi legális streaming-elérhetőségét a JustWatch alapján nem sikerült megerősíteni a fenti dátumon."
+      "body": "Magyarországi legális streaming-elérhetőségét a JustWatch alapján nem sikerült megerősíteni a fenti dátumon."
     },
     {
       "id": "hu/the-disruptors",
@@ -3372,6 +3534,60 @@
       "sourceUrl": "https://en.wikipedia.org/wiki/The_Reason_I_Jump",
       "lastReviewed": "2026-07-05",
       "body": "Magyarországon jelenleg nincs elérhető legális streaming lehetőség (JustWatch HU szerint nem streamelhető)."
+    },
+    {
+      "id": "hu/the-speed-cubers",
+      "category": "movies",
+      "slug": "the-speed-cubers",
+      "href": "/hu/movies/the-speed-cubers/",
+      "tags": [],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "streamingUrls": [],
+      "title": "Speedcubing – A gyorskockázás világa (The Speed Cubers)",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Netflix-dokumentumfilm a speedcubing (gyors Rubik-kocka-kirakás) két bajnokáról: az ausztrál Feliks Zemdegsről és a kaliforniai, autista Max Parkról, akinek szülei a versenyzést a szociális és érzelmi készségek fejlesztésének útjaként is látták. Az autizmust a győzelmek, a képességek és a barátság felől mutatja be.",
+      "kind": "documentary",
+      "director": "Sue Kim",
+      "year": 2020,
+      "runtimeMinutes": 40,
+      "sourceUrl": "https://en.wikipedia.org/wiki/The_Speed_Cubers",
+      "coverImage": "/covers/the-speed-cubers.jpg",
+      "lastReviewed": "2026-07-05",
+      "body": "Magyarországon a Netflixen elérhető (\"Speedcubing – A gyorskockázás világa\" címen)."
+    },
+    {
+      "id": "hu/the-story-of-luke",
+      "category": "movies",
+      "slug": "the-story-of-luke",
+      "href": "/hu/movies/the-story-of-luke/",
+      "tags": [],
+      "ratings": [],
+      "availability": "unavailable",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "streamingUrls": [],
+      "title": "The Story of Luke",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Amerikai vígjátéki dráma egy autista fiatalemberről, Luke-ról, aki nagyszülei halála után először kerül önálló élethelyzetbe, és munkát meg saját életet keres. Az önállósodás és a felnőtté válás története humorral.",
+      "kind": "narrative",
+      "director": "Alonso Mayo",
+      "year": 2012,
+      "runtimeMinutes": 95,
+      "sourceUrl": "https://en.wikipedia.org/wiki/The_Story_of_Luke",
+      "coverImage": "/covers/the-story-of-luke.jpg",
+      "lastReviewed": "2026-07-05",
+      "body": "Magyarországi legális streaming-elérhetőségét a JustWatch alapján nem sikerült megerősíteni a fenti dátumon."
     },
     {
       "id": "hu/x-plus-y",
