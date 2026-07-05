@@ -75,8 +75,11 @@ export const collections = {
     streamingUrls: z.array(z.string().url()).default([]),
   }),
   communities: collectionFor('communities', {
-    providerType: z.enum(['group-therapy', 'therapist', 'institution']),
-    city: z.string(),
+    providerType: z.enum(['group-therapy', 'therapist', 'institution', 'online-group']),
+    city: z.string().optional(),
+    address: z.string().optional(),
+    lat: z.number().optional(),
+    lng: z.number().optional(),
     contact: z.string().optional(),
   }),
   diagnosis: collectionFor('diagnosis', {
