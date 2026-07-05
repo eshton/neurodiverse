@@ -5,6 +5,7 @@ topics: [autism, adhd]
 summary: "Budai állami iskola, amely osztályonként 1-2 SNI-s gyereket (köztük autizmussal és ADHD-val élőket) integrál a tipikusan fejlődő tanulók közé."
 tags: [state, integration]
 providerType: mainstream-integration
+ageGroup: children
 city: "Budapest"
 address: "1028 Budapest, Szabadság utca 23."
 lat: 47.5611021

@@ -4,6 +4,7 @@ locale: hu
 topics: [autism]
 summary: "96 lamináltott, rajzos képkártya a PECS (képcserés kommunikáció) módszer napirend-eleméhez — iskolai, otthoni, közösségi tevékenységekhez."
 tags: [visual-support, communication, pecs]
+ageGroup: both
 priceRange: "16,990 HUF"
 retailerUrls:
   - "https://www.aaksni.hu/pecs-napirendi-kartya-keszlet-65-cm-t719483"

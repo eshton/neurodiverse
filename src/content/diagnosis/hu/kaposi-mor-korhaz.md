@@ -5,6 +5,7 @@ topics: [adhd, autism]
 summary: "Somogy megyei oktatókórház gyermek- és ifjúságpszichiátriai szakambulanciája, autizmus és ADHD diagnosztikával és kezeléssel."
 tags: [state-funded, children, regional]
 providerType: hospital
+ageGroup: children
 city: "Kaposvár"
 address: "7400 Kaposvár, Tallián Gyula utca 20-32."
 lat: 46.3594908

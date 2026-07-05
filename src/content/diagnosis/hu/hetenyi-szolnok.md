@@ -5,6 +5,7 @@ topics: [adhd, autism]
 summary: "Szolnoki megyei kórház gyermek- és ifjúságpszichiátriai osztálya, klasszikus gyermekpszichiátriai kórképek mellett autizmus és ADHD diagnosztikával is."
 tags: [state-funded, children, regional]
 providerType: hospital
+ageGroup: children
 city: "Szolnok"
 address: "5000 Szolnok, Tószegi út 21., A. épület, 7. emelet"
 lat: 47.1519911

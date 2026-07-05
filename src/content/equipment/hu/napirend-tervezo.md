@@ -4,6 +4,7 @@ locale: hu
 topics: [autism, adhd]
 summary: "Vizuális napirend-tervező textilpanel képkártyákkal — napi program felépítéséhez, otthoni vagy intézményi használatra."
 tags: [visual-support, routine]
+ageGroup: both
 priceRange: "23,090 HUF"
 retailerUrls:
   - "https://autishop.hu/Napirend-tervezo"

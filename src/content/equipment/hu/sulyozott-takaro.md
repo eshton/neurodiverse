@@ -4,6 +4,7 @@ locale: hu
 topics: [adhd, autism]
 summary: "Kézzel készített, személyre szabott súlyú pamut takaró mélynyomás-terápiához — alvási és szorongási nehézségek enyhítésére ADHD-nál és autizmusnál."
 tags: [sleep, sensory]
+ageGroup: both
 priceRange: "32,990 HUF-tól (méret/súly szerint)"
 retailerUrls:
   - "https://www.mokaeszen.hu/Felnott-sulyozott-takaro-70-kg-ig"

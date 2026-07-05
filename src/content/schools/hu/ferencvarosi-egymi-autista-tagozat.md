@@ -5,6 +5,7 @@ topics: [autism]
 summary: "A Ferencvárosi Komplex Óvoda, Általános Iskola és EGYMI autizmus-specifikus tagozata, önálló telephelyen."
 tags: [state, egymi]
 providerType: special-needs-school
+ageGroup: children
 city: "Budapest"
 address: "1095 Budapest, Thaly Kálmán utca 17."
 lat: 47.4810071

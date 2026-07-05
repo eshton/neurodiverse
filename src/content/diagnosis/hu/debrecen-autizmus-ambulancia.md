@@ -5,6 +5,7 @@ topics: [autism]
 summary: "Gyermekpszichiátriai osztály autizmus ambulanciája Debrecenben, beutaló nélkül, előjegyzés alapján."
 tags: [state-funded, children, regional, no-referral]
 providerType: hospital
+ageGroup: children
 city: "Debrecen"
 address: "4026 Debrecen, Bethlen utca 11-17."
 lat: 47.5370308

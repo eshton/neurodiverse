@@ -4,6 +4,7 @@ locale: hu
 topics: [autism, adhd]
 summary: "Passzív zajszűrő fültok (fejpántos hallásvédő), 5-16 éves gyerekeknek, szenzoros túlterheltség csökkentésére zajos környezetben."
 tags: [sensory, noise]
+ageGroup: children
 priceRange: "12,890 HUF"
 retailerUrls:
   - "https://autishop.hu/Alpine-Muffy-menta-huzozsinoros-zsakkal"

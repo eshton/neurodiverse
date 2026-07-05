@@ -5,6 +5,7 @@ topics: [autism]
 summary: "Pest megyei gyógypedagógiai intézmény autizmus-specifikus programja ('Auti Ház'), óvodai és iskolai szinten."
 tags: [state, egymi, regional]
 providerType: special-needs-school
+ageGroup: children
 city: "Veresegyház"
 address: "2112 Veresegyház, Újiskola utca 15."
 lat: 47.6565617

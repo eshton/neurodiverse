@@ -5,6 +5,7 @@ topics: [adhd]
 summary: "Állami ADHD ambulancia és krízisintervenciós pszichiátriai osztály Budapesten, kizárólag e-mailes megkereséssel."
 tags: [state-funded, adults, waitlist]
 providerType: hospital
+ageGroup: adults
 city: "Budapest"
 address: "1076 Budapest, Péterfy Sándor utca 8-20."
 lat: 47.5036095

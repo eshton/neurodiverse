@@ -5,6 +5,7 @@ topics: [adhd, autism]
 summary: "Dél-Dunántúli magánközpont ADHD-val, autizmus spektrumzavarral és tanulási nehézséggel élő gyerekeknek, felnőtteknek és családjaiknak."
 tags: [private, all-ages, regional]
 providerType: clinic
+ageGroup: both
 city: "Szekszárd"
 address: "7100 Szekszárd, Pollack Mihály u. 53."
 lat: 46.3538567

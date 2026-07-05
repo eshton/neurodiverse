@@ -22,11 +22,15 @@ const CATEGORY_LABELS: Record<string, string> = {
   diagnosis: 'Diagnózis',
   schools: 'Iskolák',
   development: 'Fejlesztés',
+  movies: 'Filmek',
 };
 
 const MAP_CATEGORIES = new Set(['diagnosis', 'schools', 'development']);
+const WEB_CATEGORIES = new Set(['books', 'podcasts', 'videos', 'equipment', 'movies']);
 
 const { locale, category } = Astro.params;
+const backHref = WEB_CATEGORIES.has(category as string) ? '/web/' : '/';
+const backLabel = WEB_CATEGORIES.has(category as string) ? 'Vissza a Web nézetre' : 'Vissza a térképre';
 const allItems = await getCollection(category as any);
 const items = allItems.filter((item: any) => item.data.locale === locale);
 
@@ -59,8 +63,8 @@ const countrysideClinics = geoTagged.filter((c) => c.city !== 'Budapest');
 ---
 <Layout title={`${CATEGORY_LABELS[category] ?? category} — Neurodiverse`} locale={locale}>
   <p class="mb-6">
-    <a href={`/${locale}/`} class="text-sm text-brand-700 dark:text-brand-300 hover:underline">
-      &larr; Vissza a kezdőlapra
+    <a href={backHref} class="text-sm text-brand-700 dark:text-brand-300 hover:underline">
+      &larr; {backLabel}
     </a>
   </p>
 
@@ -75,14 +79,14 @@ const countrysideClinics = geoTagged.filter((c) => c.city !== 'Budapest');
   {budapestClinics.length > 0 && (
     <div class="mb-8">
       <h2 class="text-sm font-medium text-zinc-500 dark:text-zinc-400 mb-2">Budapest</h2>
-      <ClinicMap clinics={budapestClinics} region="budapest" />
+      <ClinicMap clinics={budapestClinics} region="budapest" category={category as string} />
     </div>
   )}
 
   {countrysideClinics.length > 0 && (
     <div class="mb-8">
       <h2 class="text-sm font-medium text-zinc-500 dark:text-zinc-400 mb-2">Vidék</h2>
-      <ClinicMap clinics={countrysideClinics} region="hungary" />
+      <ClinicMap clinics={countrysideClinics} region="hungary" category={category as string} />
     </div>
   )}
 

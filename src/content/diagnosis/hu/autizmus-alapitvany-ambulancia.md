@@ -5,6 +5,7 @@ topics: [autism]
 summary: "Autizmus spektrumzavar diagnosztikájára specializálódott alapítványi ambulancia, gyerekeknek és felnőtteknek, gondozásba vétellel és utánkövetéssel."
 tags: [foundation, all-ages]
 providerType: foundation
+ageGroup: both
 city: "Budapest"
 address: "1089 Budapest, Delej utca 24-26."
 lat: 47.4815997

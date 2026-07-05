@@ -5,6 +5,7 @@ topics: [adhd]
 summary: "1900 óta működő kőbányai állami iskola, kis létszámú osztályokkal hiperaktivitással és figyelemzavarral küzdő és más SNI-s gyerekeknek."
 tags: [state, small-groups]
 providerType: special-needs-school
+ageGroup: children
 city: "Budapest"
 address: "1108 Budapest, Újhegyi sétány 9-11."
 lat: 47.4691191

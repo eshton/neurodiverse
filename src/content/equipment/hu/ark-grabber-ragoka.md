@@ -4,6 +4,7 @@ locale: hu
 topics: [autism, adhd]
 summary: "Orvosi minőségű, texturált szájérzékenységi rágóka — biztonságos alternatíva nem ehető tárgyak rágására, állkapocs- és szájizom-erősítéshez."
 tags: [sensory, oral-motor]
+ageGroup: both
 priceRange: "4,990 HUF"
 retailerUrls:
   - "https://autishop.hu/ARK-Grabber-texturalt"

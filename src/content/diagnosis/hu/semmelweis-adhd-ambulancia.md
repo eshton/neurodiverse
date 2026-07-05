@@ -5,6 +5,7 @@ topics: [adhd]
 summary: "Állami, TAJ alapú felnőtt ADHD ambulancia — térítésmentes kivizsgálás és gondozás, beutalóval (háziorvosi vagy pszichiáteri)."
 tags: [state-funded, adults, referral-required]
 providerType: hospital
+ageGroup: adults
 city: "Budapest"
 address: "1083 Budapest, Balassa utca 6."
 lat: 47.4846395

@@ -5,6 +5,7 @@ topics: [adhd, autism]
 summary: "Pécsi egyetemi gyermekklinika pszichiátriai szakambulanciája, autizmussal, ADHD-val és más gyermekpszichiátriai problémákkal küzdő 0-18 éveseknek."
 tags: [state-funded, children, university-clinic, regional]
 providerType: hospital
+ageGroup: children
 city: "Pécs"
 address: "7623 Pécs, József Attila utca 7."
 lat: 46.0703109

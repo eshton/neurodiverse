@@ -5,6 +5,7 @@ topics: [adhd]
 summary: "Budapesti pszichodiagnosztikai és terápiás magánközpont, felnőttkori ADHD diagnosztikával."
 tags: [private, adults]
 providerType: clinic
+ageGroup: adults
 city: "Budapest"
 address: "1125 Budapest, Istenhegyi út 29."
 lat: 47.5011119

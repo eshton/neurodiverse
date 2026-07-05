@@ -5,6 +5,7 @@ topics: [adhd]
 summary: "Egyházi (reformátusok fenntartotta) gyermekkórház ADHD ambulanciája, elsősorban Budapest X. és XVI. kerületéből és néhány agglomerációs településről érkező gyerekeknek."
 tags: [faith-based, children, catchment-area]
 providerType: hospital
+ageGroup: children
 city: "Budapest"
 address: "1146 Budapest, Bethesda utca 8."
 lat: 47.5179437

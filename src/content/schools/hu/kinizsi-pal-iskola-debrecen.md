@@ -5,6 +5,7 @@ topics: [autism]
 summary: "Debreceni állami iskola, amely 2011 óta lát el ép értelmi képességű autizmus spektrumzavarral élő tanulókat, jelenleg 46 diákot 5 csoportban."
 tags: [state, regional]
 providerType: special-needs-school
+ageGroup: children
 city: "Debrecen"
 address: "4028 Debrecen, Kurucz utca 32-42."
 lat: 47.5392799

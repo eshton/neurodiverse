@@ -1,0 +1,289 @@
+---
+interface MapItem {
+  title: string;
+  lat: number;
+  lng: number;
+  category: 'diagnosis' | 'schools' | 'development' | 'communities' | 'equipment';
+  ageGroup: 'children' | 'adults' | 'both';
+  coverImage?: string;
+  href: string;
+  city: string;
+  address?: string;
+}
+
+interface Props {
+  items: MapItem[];
+}
+
+const { items } = Astro.props;
+
+const TYPE_FILTERS = [
+  { category: 'diagnosis', label: 'Klinikák' },
+  { category: 'schools', label: 'Iskolák' },
+  { category: 'development', label: 'Terapeuták' },
+  { category: 'communities', label: 'Közösségek' },
+  { category: 'equipment', label: 'Boltok' },
+] as const;
+
+const AGE_FILTERS = [
+  { value: 'both', label: 'Minden korosztály' },
+  { value: 'children', label: 'Gyerek' },
+  { value: 'adults', label: 'Felnőtt' },
+] as const;
+---
+<div class="flex flex-wrap items-center gap-2 px-4 py-2 border-b border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-950">
+  <select
+    id="location-select"
+    class="text-sm rounded-full border border-zinc-300 dark:border-zinc-700 bg-white dark:bg-zinc-900 px-3 py-1.5 text-zinc-700 dark:text-zinc-300"
+  >
+    <option value="__near_me__">📍 Közelben</option>
+    <option value="Budapest" selected>Budapest</option>
+  </select>
+
+  <div class="flex gap-1.5" id="type-filters">
+    {TYPE_FILTERS.map(({ category, label }) => (
+      <button
+        type="button"
+        data-type={category}
+        class="type-filter-btn text-sm px-3 py-1.5 rounded-full bg-brand-600 text-white transition"
+      >
+        {label}
+      </button>
+    ))}
+  </div>
+
+  <div class="flex gap-1.5 ml-auto pl-3 border-l border-zinc-200 dark:border-zinc-800" id="age-filters">
+    {AGE_FILTERS.map(({ value, label }) => (
+      <button
+        type="button"
+        data-age={value}
+        class="age-filter-btn text-sm px-3 py-1.5 rounded-full transition"
+      >
+        {label}
+      </button>
+    ))}
+  </div>
+
+  <p id="location-status" class="w-full text-xs text-zinc-500 dark:text-zinc-400"></p>
+</div>
+
+<div
+  id="map-explorer"
+  class="flex-1 w-full bg-zinc-100 dark:bg-zinc-900"
+  data-items={JSON.stringify(items)}
+></div>
+
+<script>
+  import { loadGoogleMaps, getGoogle, circularIcon, categoryIcon, MARKER_SIZE, POPUP_IMG_STYLE, POPUP_BTN_STYLE, MAP_STYLES } from '../lib/googleMaps';
+  import { COUNTIES } from '../data/counties';
+
+  interface MapItem {
+    title: string;
+    lat: number;
+    lng: number;
+    category: string;
+    ageGroup: 'children' | 'adults' | 'both';
+    coverImage?: string;
+    href: string;
+    city: string;
+    address?: string;
+  }
+
+  const HUNGARY_BOUNDS = { south: 45.5, west: 15.8, north: 48.7, east: 23.1 };
+
+  async function init() {
+    const el = document.getElementById('map-explorer');
+    if (!el) return;
+    const items: MapItem[] = JSON.parse(el.dataset.items ?? '[]');
+
+    await loadGoogleMaps();
+    const g = getGoogle();
+
+    const map = new g.maps.Map(el, {
+      center: { lat: 47.1625, lng: 19.5033 },
+      zoom: 7,
+      minZoom: 7,
+      maxZoom: 18,
+      restriction: { latLngBounds: HUNGARY_BOUNDS, strictBounds: false },
+      mapTypeControl: false,
+      streetViewControl: false,
+      fullscreenControl: false,
+      styles: MAP_STYLES,
+    });
+
+    const infoWindow = new g.maps.InfoWindow();
+    map.addListener('click', () => infoWindow.close());
+    // Keyed by item.href (unique per item) so filter changes only add/remove the
+    // markers that actually entered/left the filtered set, instead of clearing and
+    // rebuilding everything every time — that full rebuild was the cause of the
+    // "blink" on every selector change.
+    const markersByKey = new Map<string, any>();
+
+    const ALL_TYPES = ['diagnosis', 'schools', 'development', 'communities', 'equipment'];
+    const FILTERS_KEY = 'neuro-map-filters';
+    const activeTypes = new Set(ALL_TYPES);
+    let activeAge: 'both' | 'children' | 'adults' = 'both';
+
+    try {
+      const saved = JSON.parse(localStorage.getItem(FILTERS_KEY) ?? 'null');
+      if (saved) {
+        activeTypes.clear();
+        (saved.types ?? ALL_TYPES).forEach((t: string) => activeTypes.add(t));
+        if (saved.age) activeAge = saved.age;
+      }
+    } catch {
+      // ignore corrupt/unavailable storage — fall back to defaults already set above
+    }
+
+    function saveFilters() {
+      localStorage.setItem(FILTERS_KEY, JSON.stringify({ types: [...activeTypes], age: activeAge }));
+    }
+
+    function matchesAge(itemAge: string) {
+      if (activeAge === 'both') return true;
+      return itemAge === activeAge || itemAge === 'both';
+    }
+
+    async function buildMarker(item: MapItem) {
+      const position = { lat: item.lat, lng: item.lng };
+      const markerOptions: any = { position, map, title: item.title };
+      const iconUrl = item.coverImage ? await circularIcon(item.coverImage, item.category) : categoryIcon(item.category);
+      if (iconUrl) {
+        markerOptions.icon = {
+          url: iconUrl,
+          scaledSize: new g.maps.Size(MARKER_SIZE, MARKER_SIZE),
+          anchor: new g.maps.Point(MARKER_SIZE / 2, MARKER_SIZE / 2),
+        };
+      }
+      const marker = new g.maps.Marker(markerOptions);
+      const imgHtml = item.coverImage ? `<img src="${item.coverImage}" alt="" style="${POPUP_IMG_STYLE}">` : '';
+      marker.addListener('click', () => {
+        infoWindow.setContent(
+          `${imgHtml}<strong>${item.title}</strong><br>${item.address ?? item.city}` +
+            `<br><a href="${item.href}" target="_blank" rel="noopener noreferrer" style="${POPUP_BTN_STYLE}">Megnyitás új lapon ↗</a>`
+        );
+        infoWindow.open(map, marker);
+      });
+      // Briefly highlight newly-appeared markers (first load, or freshly revealed by
+      // a filter change) so they're easy to spot instead of just silently existing.
+      marker.setAnimation(g.maps.Animation.BOUNCE);
+      setTimeout(() => marker.setAnimation(null), 1600);
+      return marker;
+    }
+
+    async function render() {
+      const filtered = items.filter((item) => activeTypes.has(item.category) && matchesAge(item.ageGroup));
+      const filteredKeys = new Set(filtered.map((item) => item.href));
+
+      for (const [key, marker] of markersByKey) {
+        if (!filteredKeys.has(key)) {
+          marker.setMap(null);
+          markersByKey.delete(key);
+        }
+      }
+
+      const toAdd = filtered.filter((item) => !markersByKey.has(item.href));
+      await Promise.all(
+        toAdd.map(async (item) => {
+          markersByKey.set(item.href, await buildMarker(item));
+        })
+      );
+    }
+
+    // Type filter chips (multi-select toggle, default all active — restored from
+    // localStorage above if the user changed it on a previous visit)
+    document.querySelectorAll<HTMLButtonElement>('.type-filter-btn').forEach((btn) => {
+      const active = activeTypes.has(btn.dataset.type!);
+      btn.classList.toggle('bg-brand-600', active);
+      btn.classList.toggle('text-white', active);
+      btn.classList.toggle('bg-zinc-100', !active);
+      btn.classList.toggle('dark:bg-zinc-800', !active);
+      btn.classList.toggle('text-zinc-600', !active);
+      btn.classList.toggle('dark:text-zinc-300', !active);
+
+      btn.addEventListener('click', () => {
+        const type = btn.dataset.type!;
+        if (activeTypes.has(type)) {
+          activeTypes.delete(type);
+          btn.classList.remove('bg-brand-600', 'text-white');
+          btn.classList.add('bg-zinc-100', 'dark:bg-zinc-800', 'text-zinc-600', 'dark:text-zinc-300');
+        } else {
+          activeTypes.add(type);
+          btn.classList.add('bg-brand-600', 'text-white');
+          btn.classList.remove('bg-zinc-100', 'dark:bg-zinc-800', 'text-zinc-600', 'dark:text-zinc-300');
+        }
+        saveFilters();
+        render();
+      });
+    });
+
+    // Age filter (single-select)
+    const ageButtons = document.querySelectorAll<HTMLButtonElement>('.age-filter-btn');
+    function setActiveAgeButton(value: string) {
+      ageButtons.forEach((b) => {
+        const active = b.dataset.age === value;
+        b.classList.toggle('bg-brand-600', active);
+        b.classList.toggle('text-white', active);
+        b.classList.toggle('bg-zinc-100', !active);
+        b.classList.toggle('dark:bg-zinc-800', !active);
+        b.classList.toggle('text-zinc-600', !active);
+        b.classList.toggle('dark:text-zinc-300', !active);
+      });
+    }
+    ageButtons.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        activeAge = btn.dataset.age as 'both' | 'children' | 'adults';
+        setActiveAgeButton(activeAge);
+        saveFilters();
+        render();
+      });
+    });
+    setActiveAgeButton(activeAge);
+
+    // Location selector: "close to me" + Budapest + 19 counties
+    const select = document.getElementById('location-select') as HTMLSelectElement;
+    const status = document.getElementById('location-status') as HTMLParagraphElement;
+    for (const county of COUNTIES) {
+      if (county.name === 'Budapest') continue; // already the default option in markup
+      const option = document.createElement('option');
+      option.value = county.name;
+      option.textContent = county.name;
+      select.appendChild(option);
+    }
+
+    select.addEventListener('change', () => {
+      status.textContent = '';
+      if (select.value === '__near_me__') {
+        if (!navigator.geolocation) {
+          status.textContent = 'A helymeghatározás nem támogatott ebben a böngészőben.';
+          return;
+        }
+        status.textContent = 'Helymeghatározás folyamatban…';
+        navigator.geolocation.getCurrentPosition(
+          (pos) => {
+            status.textContent = '';
+            map.setCenter({ lat: pos.coords.latitude, lng: pos.coords.longitude });
+            map.setZoom(13);
+          },
+          () => {
+            status.textContent = 'Nem sikerült megállapítani a helyzetedet. Engedélyezd a helymeghatározást a böngészőben.';
+          }
+        );
+        return;
+      }
+      const county = COUNTIES.find((c) => c.name === select.value);
+      if (county) {
+        map.setCenter(county.center);
+        map.setZoom(county.zoom);
+      }
+    });
+
+    await render();
+  }
+
+  init().catch((err) => {
+    console.error('MapExplorer failed to load', err);
+    const el = document.getElementById('map-explorer');
+    if (el) el.textContent = 'A térkép betöltése sikertelen.';
+  });
+</script>

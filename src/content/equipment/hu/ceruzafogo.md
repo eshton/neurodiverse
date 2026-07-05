@@ -4,6 +4,7 @@ locale: hu
 topics: [adhd, autism]
 summary: "Szilikon ceruzafogó, helyes íróeszköz-tartás elsajátításához — finommotoros/írástanulási nehézségeknél hasznos, olcsó belépő eszköz."
 tags: [fine-motor, writing]
+ageGroup: children
 priceRange: "690 HUF"
 retailerUrls:
   - "https://tanarbolt.hu/ceruzafogo-iras-tanulasa-iroeszkoz-helyes-tartasa-narancssarga"

@@ -4,6 +4,7 @@ locale: hu
 topics: [autism, adhd]
 summary: "Diszkrét, viselhető rágóka-nyaklánc — biztonságos alternatíva ujj, köröm, ruha rágására; szorongás- és stresszcsökkentés."
 tags: [sensory, oral-motor]
+ageGroup: both
 priceRange: "6,090 HUF"
 retailerUrls:
   - "https://autishop.hu/ARK-raghato-hurok-nyaklanc"

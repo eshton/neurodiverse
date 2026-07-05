@@ -5,6 +5,7 @@ topics: [adhd, autism]
 summary: "A Vadaskert Alapítvány oktatási intézménye, kiscsoportos, egyénre szabott neveléssel autizmus spektrumzavarral és ADHD-val élő gyerekeknek."
 tags: [foundation, small-groups]
 providerType: special-needs-school
+ageGroup: children
 city: "Budapest"
 address: "1119 Budapest, Rátz László utca 3-7."
 lat: 47.4537851

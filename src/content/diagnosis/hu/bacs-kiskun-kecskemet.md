@@ -5,6 +5,7 @@ topics: [adhd, autism]
 summary: "Kecskeméti megyei oktatókórház gyermekpszichiátriai gondozója és szakambulanciája."
 tags: [state-funded, children, regional]
 providerType: hospital
+ageGroup: children
 city: "Kecskemét"
 address: "6000 Kecskemét, Nyíri út 38."
 lat: 46.9088395

@@ -5,6 +5,7 @@ topics: [autism]
 summary: "Kerületi gyógypedagógiai intézmény óvodától szakiskoláig, önálló autizmus-specifikus csoportokkal."
 tags: [state, egymi]
 providerType: special-needs-school
+ageGroup: children
 city: "Budapest"
 address: "1181 Budapest, Kondor Béla sétány 4."
 lat: 47.4365374

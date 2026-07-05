@@ -5,6 +5,7 @@ topics: [adhd, autism]
 summary: "Autizmus és ADHD kivizsgálásra, valamint érintett gyerekek fejlesztésére és támogatására specializálódott magánközpont Székesfehérváron."
 tags: [private, regional, children]
 providerType: clinic
+ageGroup: children
 city: "Székesfehérvár"
 address: "Székesfehérvár, Virág Benedek utca 1."
 lat: 47.1981647

@@ -12,17 +12,21 @@ interface Clinic {
 interface Props {
   clinics: Clinic[];
   region?: 'budapest' | 'hungary';
+  category?: string;
 }
 
-const { clinics, region = 'hungary' } = Astro.props;
+const { clinics, region = 'hungary', category } = Astro.props;
 ---
 <div
   class="clinic-map h-96 w-full rounded-xl border border-zinc-200 dark:border-zinc-800 mb-8 bg-zinc-100 dark:bg-zinc-900"
   data-clinics={JSON.stringify(clinics)}
   data-region={region}
+  data-category={category}
 ></div>
 
 <script>
+  import { loadGoogleMaps, getGoogle, circularIcon, categoryIcon, MARKER_SIZE, POPUP_IMG_STYLE, POPUP_BTN_STYLE, MAP_STYLES } from '../lib/googleMaps';
+
   type Region = 'budapest' | 'hungary';
 
   interface Clinic {
@@ -53,88 +57,14 @@ const { clinics, region = 'hungary' } = Astro.props;
     },
   };
 
-  const MARKER_SIZE = 40;
-  // Neutral gray backdrop, not white: several scraped logos are white-on-transparent
-  // (designed to sit on a colored header on their source site) and vanish on a pure
-  // white circle/card. Gray gives those shapes contrast without hurting photos, which
-  // fill the frame anyway and never show the backdrop.
-  const BACKDROP = '#d4d4d8';
-
-  // Bakes a clinic photo into a circular, bordered PNG so the marker icon has
-  // guaranteed dimensions and styling regardless of the source image's aspect
-  // ratio or format (svg/webp/jpg/png all go through the same canvas pipeline).
-  function circularIcon(url: string): Promise<string> {
-    return new Promise((resolve) => {
-      const size = MARKER_SIZE * 2; // 2x for retina
-      const canvas = document.createElement('canvas');
-      canvas.width = size;
-      canvas.height = size;
-      const ctx = canvas.getContext('2d')!;
-      const img = new Image();
-      img.crossOrigin = 'anonymous';
-      img.onload = () => {
-        ctx.save();
-        ctx.beginPath();
-        ctx.arc(size / 2, size / 2, size / 2 - 2, 0, Math.PI * 2);
-        ctx.closePath();
-        ctx.fillStyle = BACKDROP;
-        ctx.fill();
-        ctx.clip();
-        const scale = Math.max(size / img.width, size / img.height);
-        const w = img.width * scale;
-        const h = img.height * scale;
-        ctx.drawImage(img, (size - w) / 2, (size - h) / 2, w, h);
-        ctx.restore();
-        ctx.beginPath();
-        ctx.arc(size / 2, size / 2, size / 2 - 2, 0, Math.PI * 2);
-        ctx.lineWidth = 4;
-        ctx.strokeStyle = 'white';
-        ctx.stroke();
-        resolve(canvas.toDataURL('image/png'));
-      };
-      img.onerror = () => resolve('');
-      img.src = url;
-    });
-  }
-
-  const POPUP_IMG_STYLE = `display:block;width:100%;max-width:180px;height:100px;object-fit:cover;object-position:center;background:${BACKDROP};border-radius:0.5rem;margin-bottom:0.35rem;`;
-
-  let loaderPromise: Promise<void> | null = null;
-  function loadGoogleMaps(): Promise<void> {
-    if (loaderPromise) return loaderPromise;
-    loaderPromise = new Promise((resolve, reject) => {
-      const key = import.meta.env.PUBLIC_GOOGLE_MAPS_API_KEY;
-      if (!key) {
-        reject(new Error('PUBLIC_GOOGLE_MAPS_API_KEY is not set'));
-        return;
-      }
-      const existing = document.getElementById('google-maps-script');
-      if (existing) {
-        (window as any).__gmapsCallbacks ??= [];
-        (window as any).__gmapsCallbacks.push(resolve);
-        return;
-      }
-      (window as any).__gmapsCallbacks = [resolve];
-      (window as any).__gmapsInit = () => {
-        (window as any).__gmapsCallbacks.forEach((cb: () => void) => cb());
-      };
-      const script = document.createElement('script');
-      script.id = 'google-maps-script';
-      script.src = `https://maps.googleapis.com/maps/api/js?key=${key}&callback=__gmapsInit&loading=async`;
-      script.async = true;
-      script.onerror = () => reject(new Error('Failed to load Google Maps JS API'));
-      document.head.appendChild(script);
-    });
-    return loaderPromise;
-  }
-
   async function initMap(el: HTMLElement) {
     const clinics: Clinic[] = JSON.parse(el.dataset.clinics ?? '[]');
     const region = (el.dataset.region as Region) ?? 'hungary';
+    const category = el.dataset.category;
     const { bounds, minZoom, center, zoom } = REGIONS[region];
 
     await loadGoogleMaps();
-    const g = (window as any).google;
+    const g = getGoogle();
 
     const map = new g.maps.Map(el, {
       center,
@@ -145,36 +75,36 @@ const { clinics, region = 'hungary' } = Astro.props;
       mapTypeControl: false,
       streetViewControl: false,
       fullscreenControl: false,
+      styles: MAP_STYLES,
     });
 
     const infoWindow = new g.maps.InfoWindow();
+    map.addListener('click', () => infoWindow.close());
     const positions: { lat: number; lng: number }[] = [];
 
     for (const clinic of clinics) {
       const position = { lat: clinic.lat, lng: clinic.lng };
       positions.push(position);
 
+      const iconUrl = clinic.coverImage ? await circularIcon(clinic.coverImage, category) : categoryIcon(category ?? '');
       const markerOptions: any = { position, map, title: clinic.title };
-      if (clinic.coverImage) {
-        const iconUrl = await circularIcon(clinic.coverImage);
-        if (iconUrl) {
-          markerOptions.icon = {
-            url: iconUrl,
-            scaledSize: new g.maps.Size(MARKER_SIZE, MARKER_SIZE),
-            anchor: new g.maps.Point(MARKER_SIZE / 2, MARKER_SIZE / 2),
-          };
-        }
+      if (iconUrl) {
+        markerOptions.icon = {
+          url: iconUrl,
+          scaledSize: new g.maps.Size(MARKER_SIZE, MARKER_SIZE),
+          anchor: new g.maps.Point(MARKER_SIZE / 2, MARKER_SIZE / 2),
+        };
       }
       const marker = new g.maps.Marker(markerOptions);
 
-      const titleHtml = clinic.href
-        ? `<a href="${clinic.href}">${clinic.title}</a>`
-        : `<strong>${clinic.title}</strong>`;
+      const btnHtml = clinic.href
+        ? `<br><a href="${clinic.href}" target="_blank" rel="noopener noreferrer" style="${POPUP_BTN_STYLE}">Megnyitás új lapon ↗</a>`
+        : '';
       const imgHtml = clinic.coverImage
         ? `<img src="${clinic.coverImage}" alt="" style="${POPUP_IMG_STYLE}">`
         : '';
       marker.addListener('click', () => {
-        infoWindow.setContent(`${imgHtml}${titleHtml}<br>${clinic.address ?? clinic.city}`);
+        infoWindow.setContent(`${imgHtml}<strong>${clinic.title}</strong><br>${clinic.address ?? clinic.city}${btnHtml}`);
         infoWindow.open(map, marker);
       });
     }

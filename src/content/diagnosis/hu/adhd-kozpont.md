@@ -5,6 +5,7 @@ topics: [adhd]
 summary: "Felnőtt ADHD diagnosztikára és kezelésre specializálódott magánrendelés, pszichiáter szakorvosokkal (dr. Félegyházy Zsolt, dr. Lepp Krisztina)."
 tags: [private, adults]
 providerType: clinic
+ageGroup: adults
 city: "Budapest"
 address: "1013 Budapest, Krisztina körút 34."
 lat: 47.4975400

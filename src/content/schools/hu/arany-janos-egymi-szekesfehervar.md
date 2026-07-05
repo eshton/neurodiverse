@@ -5,6 +5,7 @@ topics: [autism]
 summary: "Fejér megyei gyógypedagógiai intézmény óvodától szakiskoláig, 8 autizmus-specifikus csoporttal, átlagosan 6-7 fős létszámmal."
 tags: [state, egymi, regional]
 providerType: special-needs-school
+ageGroup: children
 city: "Székesfehérvár"
 address: "8000 Székesfehérvár, Szekfű Gyula utca 6."
 lat: 47.1974030

@@ -5,6 +5,7 @@ topics: [autism]
 summary: "Budapesti gyógypedagógiai intézmény, ahol 1992 óta működik autizmus spektrumzavarban érintett gyerekeknek szóló tagozat, két telephelyen."
 tags: [state, egymi]
 providerType: special-needs-school
+ageGroup: children
 city: "Budapest"
 address: "1047 Budapest, Váci út 57."
 lat: 47.5709908

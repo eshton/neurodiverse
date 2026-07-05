@@ -5,6 +5,7 @@ topics: [autism]
 summary: "Alapítványi autizmus diagnózisközpont Salgótarjánban — orvos, pszichológus és gyógypedagógus közös vizsgálata, 2-18 éves korig térítésmentesen."
 tags: [foundation, free, children, regional]
 providerType: foundation
+ageGroup: children
 city: "Salgótarján"
 address: "3100 Salgótarján, Füleki út 54-56."
 lat: 48.1113371

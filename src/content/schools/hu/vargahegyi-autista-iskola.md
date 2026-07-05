@@ -5,6 +5,7 @@ topics: [autism]
 summary: "A Miskolci Autista Alapítvány saját iskolája, olyan autista fiataloknak, akik a hagyományos iskolarendszerben nem tudnak boldogulni."
 tags: [foundation, regional]
 providerType: special-needs-school
+ageGroup: children
 city: "Miskolc"
 address: "3533 Miskolc, Csermőkei út 2/a."
 lat: 48.0868390

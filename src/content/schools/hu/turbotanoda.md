@@ -5,6 +5,7 @@ topics: [adhd, autism]
 summary: "Magán fejlesztőház és iskola-előkészítő program ADHD-val és autizmussal élő gyerekeknek, integrációra felkészítő módszertannal."
 tags: [private, therapy]
 providerType: special-needs-school
+ageGroup: children
 city: "Budapest"
 address: "1037 Budapest, Kiscelli utca 104."
 lat: 47.5375610

@@ -5,6 +5,7 @@ topics: [autism]
 summary: "Elsődlegesen hallássérült gyerekeket ellátó zuglói intézmény önálló autizmus-specifikus tagozata, 2017 óta bővülő óvodai és iskolai csoportokkal."
 tags: [state, egymi]
 providerType: special-needs-school
+ageGroup: children
 city: "Budapest"
 address: "1147 Budapest, Cinkotai út 125-137."
 lat: 47.5286868

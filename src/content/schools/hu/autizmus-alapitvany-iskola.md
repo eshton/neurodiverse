@@ -5,6 +5,7 @@ topics: [autism]
 summary: "1989 óta működő gyógypedagógiai általános iskola, kifejezetten autizmus spektrumzavarral élő tanulók számára fejlesztett módszertannal és tantervvel."
 tags: [foundation, dedicated-autism]
 providerType: special-needs-school
+ageGroup: children
 city: "Budapest"
 address: "1089 Budapest, Delej utca 24-26."
 lat: 47.4815997

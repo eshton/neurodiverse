@@ -4,6 +4,7 @@ locale: hu
 topics: [adhd, autism]
 summary: "Tapintható, színváltó fényoptikai szálköteg (100 db/2 m) szenzoros szobához — vizuális/tapintási stimuláció, első fény-alapú tétel a kategóriában."
 tags: [sensory, visual, snoezelen]
+ageGroup: both
 priceRange: "90,990 HUF"
 retailerUrls:
   - "https://www.aaksni.hu/optikai-szalas-vilagito-gubanc-100db2m-t458676"

@@ -5,6 +5,7 @@ topics: [adhd, autism]
 summary: "Győri megyei oktatókórház gyermek- és ifjúságpszichiátriai szakrendelése, 2-18 éves korig, multidiszciplináris team (pszichiáter, pszichológus, gyógypedagógus) diagnosztikájával."
 tags: [state-funded, children, regional]
 providerType: hospital
+ageGroup: children
 city: "Győr"
 address: "9024 Győr, Vasvári Pál út 2-4."
 lat: 47.6704203

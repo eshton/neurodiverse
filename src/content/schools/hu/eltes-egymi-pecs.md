@@ -5,6 +5,7 @@ topics: [autism]
 summary: "Pécsi gyógypedagógiai intézmény speciális autista csoportjai, 6-23 éves kor közötti tanulóknak, autizmus-specifikus módszerekkel."
 tags: [state, egymi, regional]
 providerType: special-needs-school
+ageGroup: children
 city: "Pécs"
 address: "7633 Pécs, Hajnóczy József utca 3."
 lat: 46.0660793

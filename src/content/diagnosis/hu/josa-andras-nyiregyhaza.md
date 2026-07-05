@@ -5,6 +5,7 @@ topics: [adhd, autism]
 summary: "Nyíregyházi oktatókórház gyermekpszichiátriai ellátása, ADHD, pervazív fejlődési zavarok és más gyermekpszichés problémák kivizsgálásával 18 éves korig."
 tags: [state-funded, children, regional]
 providerType: hospital
+ageGroup: children
 city: "Nyíregyháza"
 address: "4400 Nyíregyháza, Szent István út 68., Gyermekgyógyászati Tömb (C épület), földszint CBF27"
 lat: 47.9518488

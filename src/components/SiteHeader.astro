@@ -1,0 +1,35 @@
+---
+// Shared top nav — used by both MapLayout (the map homepage) and Layout (every
+// other page), so the whole site has one consistent header. Brand always links to
+// `/` (the map), since that's the primary front door now; the old category-grid
+// homepage at /hu/ is still reachable, just no longer the thing the header points at.
+---
+<header class="border-b border-zinc-200 dark:border-zinc-800 shrink-0">
+  <div class="px-4 py-3 flex items-center justify-between gap-4">
+    <a href="/" class="flex items-center gap-2 font-semibold text-lg text-brand-700 dark:text-brand-300 whitespace-nowrap">
+      <img src="/neurodivergent-flag.png" alt="" class="h-6 w-auto rounded-sm" />
+      Neurodiverz Térkép
+    </a>
+
+    <nav class="hidden sm:flex items-center gap-4 text-sm text-zinc-600 dark:text-zinc-400">
+      <a href="/web/" class="hover:text-brand-700 dark:hover:text-brand-300">Web</a>
+      <a href="/rolunk/" class="hover:text-brand-700 dark:hover:text-brand-300">Rólunk</a>
+      <a href="/adatvedelem/" class="hover:text-brand-700 dark:hover:text-brand-300">Adatvédelem</a>
+      <a href="/gyik/" class="hover:text-brand-700 dark:hover:text-brand-300">GYIK</a>
+    </nav>
+
+    <div class="group relative">
+      <div
+        class="w-9 h-9 rounded-full bg-zinc-200 dark:bg-zinc-800 flex items-center justify-center text-zinc-500 dark:text-zinc-400 cursor-default"
+        aria-label="Profil (hamarosan)"
+      >
+        <span aria-hidden="true">👤</span>
+      </div>
+      <div
+        class="pointer-events-none absolute right-0 top-full mt-1 whitespace-nowrap rounded-md bg-zinc-800 px-2 py-1 text-xs text-white opacity-0 transition group-hover:opacity-100 dark:bg-zinc-700"
+      >
+        Hamarosan
+      </div>
+    </div>
+  </div>
+</header>

@@ -5,6 +5,7 @@ topics: [autism]
 summary: "Budapesti középfokú intézmény, amely autista fiatalokat integráltan nevel gimnáziumi és szakiskolai osztályokban."
 tags: [foundation, integration, secondary]
 providerType: mainstream-integration
+ageGroup: children
 city: "Budapest"
 address: "1022 Budapest, Marczibányi tér 3."
 lat: 47.5122543

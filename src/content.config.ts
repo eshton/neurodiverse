@@ -21,6 +21,7 @@ const base = z.object({
   coverImage: z.string().optional(),
   ratings: z.array(rating).default([]),
   availability: z.enum(['in-stock', 'unavailable']).default('in-stock'),
+  ageGroup: z.enum(['children', 'adults', 'both']).default('both'),
   entryType: z.enum(['full', 'episode']).default('full'),
   parentTitle: z.string().optional(),
   curatedBy: z.enum(['manual', 'agent']).default('manual'),
@@ -57,10 +58,21 @@ export const collections = {
   equipment: collectionFor('equipment', {
     priceRange: z.string().optional(),
     retailerUrls: z.array(z.string().url()).default([]),
+    city: z.string().optional(),
+    address: z.string().optional(),
+    lat: z.number().optional(),
+    lng: z.number().optional(),
   }),
   food: collectionFor('food', {
     kind: z.enum(['recipe', 'product']),
     dietaryTags: z.array(z.string()).default([]),
+  }),
+  movies: collectionFor('movies', {
+    kind: z.enum(['documentary', 'narrative']),
+    director: z.string().optional(),
+    year: z.number().optional(),
+    runtimeMinutes: z.number().optional(),
+    streamingUrls: z.array(z.string().url()).default([]),
   }),
   communities: collectionFor('communities', {
     providerType: z.enum(['group-therapy', 'therapist', 'institution']),
@@ -87,7 +99,6 @@ export const collections = {
   }),
   development: collectionFor('development', {
     providerType: z.enum(['psychologist', 'therapist', 'developmental-pedagogue', 'occupational-therapist', 'center']),
-    ageGroup: z.enum(['children', 'adults', 'both']),
     city: z.string(),
     address: z.string().optional(),
     lat: z.number().optional(),

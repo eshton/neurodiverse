@@ -4,6 +4,7 @@ locale: hu
 topics: [adhd, autism]
 summary: "Otthoni szenzoros integrációs hinta leesésgátlóval, kisgyerekeknek — vesztibuláris inger, mozgásfejlesztés."
 tags: [sensory, movement]
+ageGroup: children
 priceRange: "139,900 HUF"
 retailerUrls:
   - "https://autishop.hu/Szenzoros-terapias-hinta-leesesgatloval-(puha-textil-bevonat)"

@@ -5,6 +5,7 @@ topics: [autism]
 summary: "Autizmus spektrumzavar diagnosztikájára specializálódott magánközpont Szegeden és Kecskeméten, gyerekeknek és felnőtteknek."
 tags: [private, regional]
 providerType: clinic
+ageGroup: both
 city: "Szeged"
 address: "6725 Szeged, Alföldi utca 33/B"
 lat: 46.2441663

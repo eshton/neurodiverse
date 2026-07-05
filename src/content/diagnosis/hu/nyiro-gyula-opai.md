@@ -5,6 +5,7 @@ topics: [adhd]
 summary: "Országos hatókörű állami ADHD ambulancia, gyerekkorban diagnosztizált vagy felnőttkorban felmerülő ADHD gyanú kivizsgálására, szakorvosi beutalóval."
 tags: [state-funded, adults, nationwide-catchment, referral-required]
 providerType: hospital
+ageGroup: adults
 city: "Budapest"
 address: "1135 Budapest, Róbert Károly körút 82-84."
 lat: 47.5251321

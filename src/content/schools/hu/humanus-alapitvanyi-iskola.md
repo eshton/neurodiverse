@@ -5,6 +5,7 @@ topics: [autism]
 summary: "Az Együtt Veled Alapítvány iskolája, amely autizmus spektrumzavarral, valamint magatartási és tanulási nehézségekkel küzdő gyerekeket integráltan nevel."
 tags: [foundation, integration]
 providerType: mainstream-integration
+ageGroup: children
 city: "Budapest"
 address: "1114 Budapest, Kanizsai utca 6."
 lat: 47.4724492

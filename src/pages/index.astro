@@ -1,14 +1,31 @@
 ---
-// Only `hu` has content today; root redirects to the default locale.
+import MapLayout from '../layouts/MapLayout.astro';
+import MapExplorer from '../components/MapExplorer.astro';
+import { getCollection } from 'astro:content';
+
+const MAP_CATEGORIES = ['diagnosis', 'schools', 'development', 'communities', 'equipment'] as const;
+
+const items = (
+  await Promise.all(
+    MAP_CATEGORIES.map(async (category) => {
+      const entries = await getCollection(category as any, (entry: any) => entry.data.locale === 'hu');
+      return entries
+        .filter((entry: any) => entry.data.lat != null && entry.data.lng != null)
+        .map((entry: any) => ({
+          title: entry.data.title,
+          lat: entry.data.lat,
+          lng: entry.data.lng,
+          category,
+          ageGroup: entry.data.ageGroup,
+          coverImage: entry.data.coverImage,
+          city: entry.data.city,
+          address: entry.data.address,
+          href: `/hu/${category}/${entry.id.split('/').slice(1).join('/')}/`,
+        }));
+    })
+  )
+).flat();
 ---
-<!doctype html>
-<html lang="hu">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="refresh" content="0;url=/hu/" />
-    <title>Neurodiverse</title>
-  </head>
-  <body>
-    <p>Redirecting to <a href="/hu/">/hu/</a>&hellip;</p>
-  </body>
-</html>
+<MapLayout title="Neurodiverz Térkép | ADHD és autizmus források Magyarországon">
+  <MapExplorer items={items} />
+</MapLayout>

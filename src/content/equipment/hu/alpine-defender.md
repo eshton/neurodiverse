@@ -4,6 +4,7 @@ locale: hu
 topics: [autism, adhd]
 summary: "Felnőtt méretű zajszűrő fültok, 26 dB csillapítással — zajos környezetben szenzoros túlterheltség csökkentésére, az Alpine Muffy felnőtt párja."
 tags: [sensory, noise]
+ageGroup: adults
 priceRange: "12,890 HUF"
 retailerUrls:
   - "https://autishop.hu/erzekeles/fultok-fuldugo/alpine-defender-fultok"

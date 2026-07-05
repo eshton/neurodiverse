@@ -5,6 +5,7 @@ topics: [autism]
 summary: "Szolnoki állami gyógypedagógiai intézmény önálló Autizmus Centruma, óvodai csoporttól a készségfejlesztő iskoláig."
 tags: [state, egymi, regional]
 providerType: special-needs-school
+ageGroup: children
 city: "Szolnok"
 address: "5000 Szolnok, Liget utca 10."
 lat: 47.1811841

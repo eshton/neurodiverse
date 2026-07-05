@@ -5,6 +5,7 @@ topics: [autism]
 summary: "Több mint 40 éves gyógypedagógiai intézmény Zuglóban, önálló autizmus-specifikus óvodai csoporttal és négy iskolai csoporttal."
 tags: [state, egymi]
 providerType: special-needs-school
+ageGroup: children
 city: "Budapest"
 address: "1141 Budapest, Álmos vezér útja 46."
 lat: 47.5096992

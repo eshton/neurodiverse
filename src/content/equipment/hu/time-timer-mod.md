@@ -4,6 +4,7 @@ locale: hu
 topics: [adhd, autism]
 summary: "Vizuális időmérő — eltűnő piros korong mutatja az idő múlását szavak/számok helyett, átmenetek és feladatidőzítés megkönnyítésére."
 tags: [time-management, visual-support]
+ageGroup: both
 priceRange: "18,790 HUF"
 retailerUrls:
   - "https://autishop.hu/a-vizualis-tamogatas-eszkozei/time-timer-vizualis-idomerok/Vizualis-idomero-Time-Timer-MOD-szilikon-vedotokkal"

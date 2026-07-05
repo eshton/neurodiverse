@@ -5,6 +5,7 @@ topics: [autism]
 summary: "Alapítványi autizmus diagnózisközpont Gárdonyban — orvos, pszichológus és gyógypedagógus közös vizsgálata, 2-18 éves korig térítésmentesen."
 tags: [foundation, free, children, regional]
 providerType: foundation
+ageGroup: children
 city: "Gárdony"
 address: "2484 Gárdony, Tópart utca 17."
 lat: 47.1953972

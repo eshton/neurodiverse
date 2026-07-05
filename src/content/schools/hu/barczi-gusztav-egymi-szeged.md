@@ -5,6 +5,7 @@ topics: [autism]
 summary: "Szegedi gyógypedagógiai intézmény, 3 önálló autista csoporttal (24 fő) és egy fejlesztő iskolai autista csoporttal (8 fő), autizmus-specifikus terápiákkal."
 tags: [state, egymi, regional]
 providerType: special-needs-school
+ageGroup: children
 city: "Szeged"
 address: "6723 Szeged, Sólyom utca 4."
 lat: 46.2718364

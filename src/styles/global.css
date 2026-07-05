@@ -20,3 +20,11 @@
 body {
   font-family: var(--font-sans);
 }
+
+/* Google Maps puts a tabindex on internal divs for keyboard panning, which
+   triggers the browser's default blue focus ring on click/drag — suppress it
+   on the map containers specifically instead of globally. */
+#map-explorer *:focus,
+.clinic-map *:focus {
+  outline: none;
+}

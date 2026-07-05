@@ -1,0 +1,30 @@
+---
+import MapLayout from '../layouts/MapLayout.astro';
+import WebExplorer from '../components/WebExplorer.astro';
+import { getCollection } from 'astro:content';
+
+const WEB_CATEGORIES = ['podcasts', 'books', 'equipment', 'videos', 'movies'] as const;
+
+const items = (
+  await Promise.all(
+    WEB_CATEGORIES.map(async (category) => {
+      const entries = await getCollection(category as any, (entry: any) => entry.data.locale === 'hu');
+      return entries.map((entry: any) => ({
+        title: entry.data.title,
+        summary: entry.data.summary,
+        coverImage: entry.data.coverImage,
+        category,
+        ageGroup: entry.data.ageGroup,
+        entryType: entry.data.entryType,
+        parentTitle: entry.data.parentTitle,
+        topScore: entry.data.ratings[0],
+        availability: entry.data.availability,
+        href: `/hu/${category}/${entry.id.split('/').slice(1).join('/')}/`,
+      }));
+    })
+  )
+).flat();
+---
+<MapLayout title="Web | Neurodiverz Térkép">
+  <WebExplorer items={items} />
+</MapLayout>
