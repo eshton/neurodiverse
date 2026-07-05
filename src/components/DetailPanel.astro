@@ -46,6 +46,7 @@
       books: 'Könyvek', podcasts: 'Podcastok', videos: 'Videók', influencers: 'Influenszerek',
       equipment: 'Segédeszközök', food: 'Étel és receptek', communities: 'Közösségek', articles: 'Cikkek',
       diagnosis: 'Diagnózis', schools: 'Iskolák', development: 'Fejlesztés', movies: 'Filmek',
+      research: 'Kutatás',
     };
     // Kept in sync with FIELD_LABELS in src/pages/[locale]/[category]/[slug].astro —
     // if you add a labelled field there, mirror it here or it renders as the raw key.
@@ -57,12 +58,16 @@
       providerType: 'Típus', ageGroup: 'Korosztály',
       city: 'Város', address: 'Cím', contact: 'Elérhetőség', priceNotes: 'Ár megjegyzés',
       director: 'Rendező', year: 'Év', runtimeMinutes: 'Hossz (perc)', streamingUrls: 'Elérhető ezeken',
+      authors: 'Szerzők', venue: 'Megjelenés', publicationType: 'Publikáció típusa',
+      language: 'Nyelv', doi: 'DOI / azonosító', openAccess: 'Szabadon elérhető',
     };
     // Value (not key) translation for enum-ish fields (food `kind`, movie `kind`/`format`) —
     // kept in sync with KIND_LABELS + VALUE_LABELS in src/pages/[locale]/[category]/[slug].astro.
     const KIND_LABELS: Record<string, string> = {
       recipe: 'Recept', product: 'Termék', guide: 'Útmutató', supplement: 'Étrendkiegészítő',
       documentary: 'dokumentumfilm', narrative: 'játékfilm', film: 'film', series: 'sorozat',
+      'journal-article': 'szakcikk', review: 'áttekintő tanulmány', 'clinical-trial': 'klinikai vizsgálat',
+      hu: 'magyar', en: 'angol', true: 'igen', false: 'nem',
     };
     // Non-extra fields: rendered explicitly below, so excluded from the generic list.
     const BASE_FIELDS = new Set([

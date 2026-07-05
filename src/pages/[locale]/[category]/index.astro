@@ -24,10 +24,11 @@ const CATEGORY_LABELS: Record<string, string> = {
   schools: 'Iskolák',
   development: 'Fejlesztés',
   movies: 'Filmek',
+  research: 'Kutatás',
 };
 
 const MAP_CATEGORIES = new Set(['diagnosis', 'schools', 'development', 'communities']);
-const WEB_CATEGORIES = new Set(['books', 'podcasts', 'videos', 'equipment', 'movies', 'food', 'articles']);
+const WEB_CATEGORIES = new Set(['books', 'podcasts', 'videos', 'equipment', 'movies', 'food', 'articles', 'research']);
 
 const { locale, category } = Astro.params;
 const backHref = WEB_CATEGORIES.has(category as string) ? '/web/' : '/';

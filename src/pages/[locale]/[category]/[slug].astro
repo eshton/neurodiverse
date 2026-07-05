@@ -36,6 +36,7 @@ const CATEGORY_LABELS: Record<string, string> = {
   schools: 'Iskolák',
   development: 'Fejlesztés',
   movies: 'Filmek',
+  research: 'Kutatás',
 };
 
 const FIELD_LABELS: Record<string, string> = {
@@ -66,6 +67,12 @@ const FIELD_LABELS: Record<string, string> = {
   year: 'Év',
   runtimeMinutes: 'Hossz (perc)',
   streamingUrls: 'Elérhető ezeken',
+  authors: 'Szerzők',
+  venue: 'Megjelenés',
+  publicationType: 'Publikáció típusa',
+  language: 'Nyelv',
+  doi: 'DOI / azonosító',
+  openAccess: 'Szabadon elérhető',
 };
 
 // Hungarian display for enum-ish values that would otherwise render in English.
@@ -74,6 +81,13 @@ const VALUE_LABELS: Record<string, string> = {
   narrative: 'játékfilm',
   film: 'film',
   series: 'sorozat',
+  'journal-article': 'szakcikk',
+  review: 'áttekintő tanulmány',
+  'clinical-trial': 'klinikai vizsgálat',
+  hu: 'magyar',
+  en: 'angol',
+  true: 'igen',
+  false: 'nem',
 };
 
 export async function getStaticPaths() {

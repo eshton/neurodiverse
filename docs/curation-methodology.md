@@ -81,3 +81,12 @@ Set a real, honest User-Agent (Nominatim's usage policy requires it, and blocks 
 ## Scope discipline
 
 When a search round starts mostly resurfacing entries you already have, or things that fail the "real and checkable" bar (a book that's out of print with zero purchasable copies anywhere, a clinic address given only at district level with no street), that's the signal to stop that round — say so plainly rather than padding the count with weak entries. See content-status.md for where each category currently sits against its realistic total.
+
+## Research papers & clinical trials
+
+The `research` category collects the best, most relevant ADHD/autism research — Hungarian-language, Hungarian-authored, *and* hugely-relevant international landmarks — each with a **Hungarian summary**. Verify every citation against a structured source, never a search-result summary:
+
+- **Papers with a DOI → Crossref API**: `curl "https://api.crossref.org/works/<doi>"` returns exact title, authors, year, and `container-title` (venue). Clean JSON, no scraping, authoritative. Use it to fill `authors`/`venue`/`year` and to confirm the paper is what you think it is.
+- **Clinical trials → ClinicalTrials.gov API v2**, not web search. Find HU-site trials with `/api/v2/studies?query.cond=autism&query.locn=Hungary` (or `query.cond=ADHD`), then `/api/v2/studies/<NCT>?fields=...` for sponsor, `contactsLocationsModule` (confirm a `country: "Hungary"` site actually exists — a web search claiming "HU site" is not enough), status, and `briefSummary`. Record the status honestly (`recruiting` vs `completed` vs `terminated`) and note it can change.
+- **Open HU repositories** for stable, free, linkable full text: `real.mtak.hu` (MTA — CC-BY), `ojs.elte.hu` (ELTE journals incl. Gyógypedagógiai Szemle), `epa.oszk.hu` (OSZK periodicals), `edit.elte.hu` (ELTE theses). Prefer these as `sourceUrl` over a paywalled publisher page when the same paper is there.
+- **`language` field** records the paper's own language (`hu`/`en`); the `summary` is always Hungarian. **Honesty:** summarise scope + main takeaway only; include a specific statistic only if verified from the abstract/paper. Note pharma-sponsored trials as informational, not a treatment recommendation. Never state a finding you didn't read.

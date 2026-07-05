@@ -82,6 +82,15 @@ export const collections = {
     runtimeMinutes: z.number().optional(),
     streamingUrls: z.array(z.string().url()).default([]),
   }),
+  research: collectionFor('research', {
+    authors: z.string(),
+    venue: z.string(), // journal, publisher, or trial registry (e.g. "Psychiatria Hungarica", "ClinicalTrials.gov")
+    year: z.number(),
+    publicationType: z.enum(['journal-article', 'review', 'clinical-trial']),
+    language: z.enum(['hu', 'en']), // language of the paper itself; the summary is always Hungarian
+    doi: z.string().optional(), // DOI, repository handle, or registry id (e.g. NCT number)
+    openAccess: z.boolean().optional(),
+  }),
   communities: collectionFor('communities', {
     providerType: z.enum(['group-therapy', 'therapist', 'institution', 'online-group']),
     city: z.string().optional(),

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "count": 195,
+  "count": 203,
   "categories": {
     "articles": 15,
     "books": 13,
@@ -12,6 +12,7 @@
     "influencers": 3,
     "movies": 40,
     "podcasts": 7,
+    "research": 8,
     "schools": 23,
     "videos": 15
   },
@@ -4684,6 +4685,260 @@
       "sourceUrl": "https://open.spotify.com/episode/5z9F4N4AtIxpptmuDjG6DW",
       "lastReviewed": "2026-07-04",
       "body": "A Partizán Podcast nem ADHD-témára szakosodott, ez csak egy alkalmi epizód."
+    },
+    {
+      "id": "hu/balazs-adhd-state-of-the-art-2022",
+      "category": "research",
+      "slug": "balazs-adhd-state-of-the-art-2022",
+      "href": "/hu/research/balazs-adhd-state-of-the-art-2022/",
+      "tags": [
+        "magyar kutatás",
+        "áttekintés",
+        "nyílt hozzáférés"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "ADHD: state of the art áttekintés",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "Balázs Judit magyar nyelvű, bizonyítékokon alapuló áttekintő tanulmánya az ADHD-ról: diagnosztika, gyakoriság, okok, következmények és kezelés. Hangsúlyozza a gyógypedagógia, pszichológia és pszichiátria együttműködésének fontosságát a gyermekek, serdülők és felnőttek megfelelő támogatásában. Jó magyar nyelvű belépőpont a témába.",
+      "authors": "Balázs Judit",
+      "venue": "Gyógypedagógiai Szemle",
+      "year": 2022,
+      "publicationType": "review",
+      "language": "hu",
+      "openAccess": true,
+      "sourceUrl": "https://ojs.elte.hu/gyogypedszemle/article/view/4987",
+      "lastReviewed": "2026-07-05",
+      "body": "Magyar nyelvű, nyílt hozzáférésű áttekintő tanulmány (ELTE, Gyógypedagógiai Szemle)."
+    },
+    {
+      "id": "hu/cortese-adhd-gyogyszerek-2018",
+      "category": "research",
+      "slug": "cortese-adhd-gyogyszerek-2018",
+      "href": "/hu/research/cortese-adhd-gyogyszerek-2018/",
+      "tags": [
+        "metaanalízis",
+        "gyógyszeres kezelés",
+        "nemzetközi"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "ADHD-gyógyszerek összehasonlító hatásossága (hálózati metaanalízis)",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "Nagy, sok vizsgálatot összesítő hálózati metaanalízis, amely az ADHD gyógyszeres kezeléseit (metilfenidát, amfetaminok, atomoxetin stb.) hasonlítja össze hatásosság és tolerálhatóság szerint, gyermekeknél/serdülőknél és felnőtteknél külön. A gyermekkori/serdülőkori és felnőttkori első vonalbeli szerek megválasztásának egyik legtöbbet hivatkozott bizonyítékforrása.",
+      "authors": "Cortese, S. és mtsai",
+      "venue": "The Lancet Psychiatry",
+      "year": 2018,
+      "publicationType": "review",
+      "language": "en",
+      "doi": "10.1016/S2215-0366(18)30269-4",
+      "sourceUrl": "https://doi.org/10.1016/S2215-0366(18)30269-4",
+      "lastReviewed": "2026-07-05",
+      "body": "Angol nyelvű szakcikk. A gyógyszeres kezelés mindig szakorvosi döntés — ez a tanulmány a döntés bizonyítékhátterét adja, nem helyettesíti a kezelőorvost. A magyar kivonat a szerkesztő megfogalmazása."
+    },
+    {
+      "id": "hu/lancet-autizmus-bizottsag-2022",
+      "category": "research",
+      "slug": "lancet-autizmus-bizottsag-2022",
+      "href": "/hu/research/lancet-autizmus-bizottsag-2022/",
+      "tags": [
+        "bizottsági jelentés",
+        "ellátás",
+        "nemzetközi"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "The Lancet bizottsága az autizmus ellátásának és kutatásának jövőjéről",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Nagy nemzetközi szakértői bizottság átfogó helyzetértékelése az autizmus ellátásáról és kutatásáról: a személyre szabott, lépcsőzetes támogatás, a befogadás és az élethosszig tartó ellátás irányába mutat, és bevezeti a „mély/súlyos autizmus” (profound autism) fogalmát a legtöbb támogatást igénylők láthatóbbá tételére. Iránymutató áttekintés a terület egészéről.",
+      "authors": "Lord, C. és mtsai (Lancet Commission)",
+      "venue": "The Lancet",
+      "year": 2022,
+      "publicationType": "review",
+      "language": "en",
+      "doi": "10.1016/S0140-6736(21)01541-5",
+      "sourceUrl": "https://doi.org/10.1016/S0140-6736(21)01541-5",
+      "lastReviewed": "2026-07-05",
+      "body": "Angol nyelvű szakértői jelentés. A magyar kivonat a szerkesztő megfogalmazása; a részletekért lásd az eredeti dokumentumot."
+    },
+    {
+      "id": "hu/lisdexamfetamin-adhd-vizsgalat",
+      "category": "research",
+      "slug": "lisdexamfetamin-adhd-vizsgalat",
+      "href": "/hu/research/lisdexamfetamin-adhd-vizsgalat/",
+      "tags": [
+        "klinikai vizsgálat",
+        "magyar helyszínek",
+        "gyógyszervizsgálat",
+        "lezárult"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Lizdexamfetamin ADHD-vizsgálat (magyar helyszínekkel)",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "Nemzetközi, kontrollált gyógyszervizsgálat, amely a lizdexamfetamin (Vyvanse) hatását vizsgálta ADHD-s gyermekeknél és serdülőknél, akiknél a metilfenidát nem hozott elég választ. Több magyar helyszín is részt vett benne — köztük a budapesti Vadaskert Kórház, a Szegedi Tudományegyetem, a pécsi és a gyulai gyermekpszichiátria —, ami jól mutatja a hazai gyermekpszichiátria bekapcsolódását a nemzetközi gyógyszerkutatásba.",
+      "authors": "Szponzor: Shire; magyar helyszínek: Vadaskert (Budapest), SZTE (Szeged), Gyula, Pécs",
+      "venue": "ClinicalTrials.gov (NCT01106430)",
+      "year": 2010,
+      "publicationType": "clinical-trial",
+      "language": "en",
+      "doi": "NCT01106430",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT01106430",
+      "lastReviewed": "2026-07-05",
+      "body": "Lezárult (completed) fázis 3b vizsgálat, több magyar gyermekpszichiátriai helyszínnel. A regisztrációs adatlap angol nyelvű; a magyar kivonat a szerkesztő megfogalmazása. Iparági (Shire) szponzoráció — tájékoztatásul szerepel, nem gyógyszerajánlásként."
+    },
+    {
+      "id": "hu/semmelweis-autizmus-etkezes-vizsgalat",
+      "category": "research",
+      "slug": "semmelweis-autizmus-etkezes-vizsgalat",
+      "href": "/hu/research/semmelweis-autizmus-etkezes-vizsgalat/",
+      "tags": [
+        "klinikai vizsgálat",
+        "magyar helyszín",
+        "toborzás alatt",
+        "étkezés",
+        "szenzoros"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Autisztikus vonások és étkezési nehézségek összefüggései (Semmelweis-vizsgálat)",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "A Semmelweis Egyetem által vezetett, jelenleg is zajló (toborzás alatt álló) klinikai vizsgálat az autisztikus vonások, az étkezési/táplálkozási nehézségek és az atipikus szenzomotoros integráció gyakoriságát és összefüggéseit méri fel. Magyar helyszín: budapesti Bethesda Gyermekkórház. Aktuális hazai kutatás a szenzoros/étkezési téma metszéspontján.",
+      "authors": "Semmelweis Egyetem (vizsgálatvezető); helyszín: Bethesda Gyermekkórház, Budapest",
+      "venue": "ClinicalTrials.gov (NCT07188870)",
+      "year": 2025,
+      "publicationType": "clinical-trial",
+      "language": "en",
+      "doi": "NCT07188870",
+      "sourceUrl": "https://clinicaltrials.gov/study/NCT07188870",
+      "lastReviewed": "2026-07-05",
+      "body": "Magyar vezetésű (Semmelweis Egyetem), 2025-ben indult, a legutóbbi ellenőrzéskor toborzás alatt álló vizsgálat. A regisztrációs adatlap angol nyelvű; a magyar kivonat a szerkesztő megfogalmazása. A toborzási státusz idővel változhat — az aktuális állapotért lásd a ClinicalTrials.gov-oldalt."
+    },
+    {
+      "id": "hu/simon-felnott-adhd-metaanalizis-2009",
+      "category": "research",
+      "slug": "simon-felnott-adhd-metaanalizis-2009",
+      "href": "/hu/research/simon-felnott-adhd-metaanalizis-2009/",
+      "tags": [
+        "metaanalízis",
+        "magyar szerzők",
+        "felnőttkori ADHD",
+        "epidemiológia"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "adults",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "A felnőttkori ADHD gyakorisága és összefüggései (metaanalízis)",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "A Semmelweis Egyetem kutatóinak (Simon, Czobor, Bálint, Mészáros, Bitter) nagy hatású, nemzetközileg sokat hivatkozott metaanalízise a felnőttkori ADHD gyakoriságáról. A vizsgálat összesítette a korábbi populációs adatokat, és megerősítette, hogy az ADHD felnőttkorban is jelen lévő, mérhető gyakoriságú állapot — fontos érv a felnőttkori ellátás mellett.",
+      "authors": "Simon V., Czobor P., Bálint S., Mészáros Á., Bitter I.",
+      "venue": "British Journal of Psychiatry",
+      "year": 2009,
+      "publicationType": "review",
+      "language": "en",
+      "doi": "10.1192/bjp.bp.107.048827",
+      "sourceUrl": "https://doi.org/10.1192/bjp.bp.107.048827",
+      "lastReviewed": "2026-07-05",
+      "body": "Magyar (semmelweisi) kutatócsoport által jegyzett, angol nyelven megjelent metaanalízis. A magyar kivonat a szerkesztő megfogalmazása."
+    },
+    {
+      "id": "hu/svindt-ccc2-magyar-adaptacio-2025",
+      "category": "research",
+      "slug": "svindt-ccc2-magyar-adaptacio-2025",
+      "href": "/hu/research/svindt-ccc2-magyar-adaptacio-2025/",
+      "tags": [
+        "magyar kutatás",
+        "diagnosztikai eszköz",
+        "nyílt hozzáférés"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "A CCC-2 kommunikációs kérdőív magyar adaptációja (autizmus és ADHD)",
+      "locale": "hu",
+      "topics": [
+        "adhd",
+        "autism"
+      ],
+      "summary": "Svindt Veronika előtanulmánya a Gyermeki Kommunikáció Kérdőív (CCC-2) magyar adaptációjáról, autizmussal és ADHD-val diagnosztizált gyermekek kommunikációs profiljának mérésére. Magyar nyelvű, nyílt hozzáférésű empirikus kutatás — közvetlenül a hazai diagnosztikai eszköztárat gazdagítja.",
+      "authors": "Svindt Veronika",
+      "venue": "Magyar Pszichológiai Szemle, 80(4), 565–587.",
+      "year": 2025,
+      "publicationType": "journal-article",
+      "language": "hu",
+      "openAccess": true,
+      "sourceUrl": "https://real.mtak.hu/233647/",
+      "lastReviewed": "2026-07-05",
+      "body": "Magyar nyelvű, nyílt hozzáférésű (CC-BY) tanulmány, az MTA REAL repozitóriumában szabadon elérhető. Előtanulmány — a szerző maga is így jelöli."
+    },
+    {
+      "id": "hu/wfadhd-konszenzus-2021",
+      "category": "research",
+      "slug": "wfadhd-konszenzus-2021",
+      "href": "/hu/research/wfadhd-konszenzus-2021/",
+      "tags": [
+        "konszenzus",
+        "nemzetközi",
+        "áttekintés"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "both",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "A World Federation of ADHD nemzetközi konszenzusnyilatkozata",
+      "locale": "hu",
+      "topics": [
+        "adhd"
+      ],
+      "summary": "80 nemzetközi szakértő által jegyzett összefoglaló, amely 208 tudományosan alátámasztott megállapításban gyűjti össze, mit tudunk bizonyítottan az ADHD-ról — a gyakori tévhitek (pl. hogy „nem is létezik” vagy „csak rossz nevelés”) cáfolatával együtt. Kiváló, hivatkozható kiindulópont a bizonyítékokon alapuló tájékozódáshoz.",
+      "authors": "Faraone, S. V. és mtsai (80 szerző)",
+      "venue": "Neuroscience & Biobehavioral Reviews",
+      "year": 2021,
+      "publicationType": "review",
+      "language": "en",
+      "doi": "10.1016/j.neubiorev.2021.01.022",
+      "openAccess": true,
+      "sourceUrl": "https://doi.org/10.1016/j.neubiorev.2021.01.022",
+      "lastReviewed": "2026-07-05",
+      "body": "Angol nyelvű, nyílt hozzáférésű összefoglaló. A magyar kivonat a szerkesztő megfogalmazása; a pontos megállapításokért lásd az eredeti tanulmányt."
     },
     {
       "id": "hu/addetur-baptista-iskola",
