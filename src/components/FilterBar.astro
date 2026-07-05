@@ -1,0 +1,56 @@
+---
+// Collapsible filter-bar chrome shared by MapExplorer and WebExplorer. The
+// actual filter controls (location select, type chips, age toggle) are passed
+// as children and keep their own IDs/classes, so each explorer's existing
+// filter script keeps working unchanged.
+//
+// On mobile the controls collapse behind a "Szűrők" toggle (same pattern as the
+// nav hamburger) so they don't permanently occupy several rows of a small
+// screen; on sm+ the toggle is hidden and the controls always show inline.
+interface Props {
+  label?: string;
+}
+const { label = 'Szűrők' } = Astro.props;
+---
+<div class="border-b border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-950">
+  <button
+    type="button"
+    class="filter-toggle sm:hidden flex items-center gap-2 w-full px-4 py-2.5 text-sm font-medium text-zinc-700 dark:text-zinc-300"
+    aria-expanded="false"
+    aria-controls="filter-panel"
+  >
+    <svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M3 5h18M6 10h12M10 15h4" />
+    </svg>
+    <span>{label}</span>
+    <svg class="filter-chevron h-4 w-4 ml-auto transition-transform" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M6 9l6 6 6-6" />
+    </svg>
+  </button>
+
+  <!-- hidden on mobile until toggled; always shown on sm+ (toggle is hidden there) -->
+  <div id="filter-panel" class="hidden sm:flex flex-wrap items-center gap-2 px-4 pb-3 sm:pt-2 sm:pb-2">
+    <slot />
+  </div>
+</div>
+
+<script>
+  // Registered once (guarded) so it survives View Transitions; the panel starts
+  // collapsed on each fresh page render, matching the hamburger nav's behavior.
+  if (!(window as any).__filterBarReady) {
+    (window as any).__filterBarReady = true;
+    document.addEventListener('click', (e) => {
+      const toggle = (e.target as HTMLElement).closest('.filter-toggle');
+      if (!toggle) return;
+      const panel = document.getElementById('filter-panel');
+      if (!panel) return;
+      const open = panel.classList.contains('hidden');
+      // Toggle exactly one of hidden/flex so they never conflict; sm:flex keeps
+      // the panel visible on desktop regardless of this mobile state.
+      panel.classList.toggle('hidden', !open);
+      panel.classList.toggle('flex', open);
+      toggle.setAttribute('aria-expanded', String(open));
+      toggle.querySelector('.filter-chevron')?.classList.toggle('rotate-180', open);
+    });
+  }
+</script>

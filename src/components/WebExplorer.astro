@@ -19,6 +19,8 @@ interface Props {
   items: WebItem[];
 }
 
+import FilterBar from './FilterBar.astro';
+
 const { items } = Astro.props;
 
 const TYPE_FILTERS = [
@@ -38,7 +40,7 @@ const AGE_FILTERS = [
   { value: 'adults', label: 'Felnőtt' },
 ] as const;
 ---
-<div class="flex flex-wrap items-center gap-2 px-4 py-2 border-b border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-950">
+<FilterBar>
   <div class="flex flex-wrap gap-1.5" id="type-filters">
     {TYPE_FILTERS.map(({ category, label }) => (
       <button
@@ -62,7 +64,7 @@ const AGE_FILTERS = [
       </button>
     ))}
   </div>
-</div>
+</FilterBar>
 
 <div id="web-grid" class="flex-1 overflow-y-auto p-4 bg-zinc-50 dark:bg-zinc-950">
   <p id="web-empty" class="text-zinc-500 dark:text-zinc-400 hidden">Nincs találat ehhez a szűréshez.</p>
