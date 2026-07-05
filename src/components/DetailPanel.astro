@@ -1,0 +1,189 @@
+---
+// Slide-over detail panel shared by the map homepage (/) and the web grid (/web/).
+// Clicking a marker's "Részletek" button or a grid card opens the item in an
+// overlay rendered entirely from the in-memory dataset (/db/content.json) — no
+// page navigation, so the map/grid and its filter/zoom state stay live behind it.
+// The URL is updated to the item's real static page (History API), so a refresh
+// or shared link still loads the pre-rendered detail page. Markers/cards keep
+// their real href + target="_blank", so this is a progressive enhancement:
+// modifier-click still opens the static page in a new tab, and with JS off the
+// links work normally.
+---
+<div id="detail-panel" aria-hidden="true">
+  <div
+    id="dp-backdrop"
+    data-detail-backdrop
+    class="fixed inset-0 bg-black/40 z-40 transition-opacity duration-200 opacity-0 pointer-events-none"
+  ></div>
+  <aside
+    id="dp-panel"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="dp-title"
+    class="fixed top-0 right-0 h-full w-full max-w-md bg-white dark:bg-zinc-900 shadow-2xl z-50 flex flex-col transition-transform duration-300 translate-x-full"
+  >
+    <div class="flex items-center justify-end p-3 border-b border-zinc-200 dark:border-zinc-800 shrink-0">
+      <button
+        type="button"
+        data-detail-close
+        aria-label="Bezárás"
+        class="w-9 h-9 flex items-center justify-center rounded-full text-zinc-500 hover:bg-zinc-100 dark:hover:bg-zinc-800 text-xl leading-none"
+      >
+        &times;
+      </button>
+    </div>
+    <div id="dp-content" class="flex-1 overflow-y-auto px-5 py-4 text-zinc-800 dark:text-zinc-100"></div>
+  </aside>
+</div>
+
+<script>
+  // Guard so the document-level listeners register exactly once, even though this
+  // script may execute again when Astro swaps in a page it hasn't run on yet.
+  if (!(window as any).__detailPanelReady) {
+    (window as any).__detailPanelReady = true;
+
+    const CATEGORY_LABELS: Record<string, string> = {
+      books: 'Könyvek', podcasts: 'Podcastok', videos: 'Videók', influencers: 'Influenszerek',
+      equipment: 'Segédeszközök', food: 'Étel és receptek', communities: 'Közösségek',
+      diagnosis: 'Diagnózis', schools: 'Iskolák', development: 'Fejlesztés', movies: 'Filmek',
+    };
+    // Kept in sync with FIELD_LABELS in src/pages/[locale]/[category]/[slug].astro —
+    // if you add a labelled field there, mirror it here or it renders as the raw key.
+    const FIELD_LABELS: Record<string, string> = {
+      author: 'Szerző', isbn: 'ISBN', creator: 'Készítő', platform: 'Platform',
+      episodeCount: 'Epizódszám', viewCount: 'Megtekintés', subscriberCount: 'Feliratkozó',
+      handle: 'Fiók', platforms: 'Platformok', priceRange: 'Ár', retailerUrls: 'Vásárlási linkek',
+      kind: 'Típus', dietaryTags: 'Diétás címkék', providerType: 'Típus', ageGroup: 'Korosztály',
+      city: 'Város', address: 'Cím', contact: 'Elérhetőség', priceNotes: 'Ár megjegyzés',
+      director: 'Rendező', year: 'Év', runtimeMinutes: 'Hossz (perc)', streamingUrls: 'Elérhető ezeken',
+    };
+    // Non-extra fields: rendered explicitly below, so excluded from the generic list.
+    const BASE_FIELDS = new Set([
+      'id', 'category', 'slug', 'href', 'body', 'title', 'locale', 'topics', 'summary', 'tags',
+      'sourceUrl', 'coverImage', 'ratings', 'availability', 'entryType', 'parentTitle',
+      'curatedBy', 'lastReviewed', 'lat', 'lng',
+    ]);
+
+    const esc = (v: unknown) =>
+      String(v ?? '').replace(/[&<>"']/g, (c) =>
+        ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c] as string));
+
+    let dbPromise: Promise<Map<string, any>> | null = null;
+    const loadDb = () =>
+      (dbPromise ??= fetch('/db/content.json')
+        .then((r) => r.json())
+        .then((d) => new Map<string, any>(d.items.map((it: any) => [it.href, it]))));
+
+    const panel = () => document.getElementById('detail-panel');
+    const isOpen = () => panel()?.getAttribute('aria-hidden') === 'false';
+    let basePath = '';
+
+    function renderItem(item: any) {
+      const badges = (item.topics ?? [])
+        .map((t: string) => `<span class="text-xs px-2 py-0.5 rounded-full bg-zinc-100 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-300">${t === 'adhd' ? 'ADHD' : 'Autizmus'}</span>`)
+        .join('');
+      const unavailBadge = item.availability === 'unavailable'
+        ? `<span class="text-xs px-2 py-0.5 rounded-full bg-amber-100 dark:bg-amber-950 text-amber-700 dark:text-amber-400">Jelenleg nem elérhető</span>` : '';
+      const cover = item.coverImage
+        ? `<img src="${esc(item.coverImage)}" alt="" class="w-full h-40 object-cover rounded-lg border border-zinc-200 dark:border-zinc-800 mb-4 bg-zinc-100 dark:bg-zinc-800" />` : '';
+      const episode = item.entryType === 'episode' && item.parentTitle
+        ? `<p class="text-sm text-sky-700 dark:text-sky-400 font-medium mb-1">Epizód — ${esc(item.parentTitle)}</p>` : '';
+      const body = item.body ? `<p class="text-zinc-700 dark:text-zinc-300 mt-3 whitespace-pre-line">${esc(item.body)}</p>` : '';
+
+      const extra = Object.entries(item)
+        .filter(([k, v]) => !BASE_FIELDS.has(k) && v != null && !(Array.isArray(v) && v.length === 0))
+        .map(([k, v]) => `<dt class="text-zinc-500 dark:text-zinc-400">${esc(FIELD_LABELS[k] ?? k)}</dt><dd>${esc(Array.isArray(v) ? v.join(', ') : v)}</dd>`)
+        .join('');
+      const extraHtml = extra
+        ? `<dl class="grid grid-cols-[auto_1fr] gap-x-4 gap-y-1 text-sm my-4">${extra}</dl>` : '';
+
+      const source = item.availability === 'unavailable'
+        ? `<p class="text-sm text-zinc-500 dark:text-zinc-400 my-4">Jelenleg nem elérhető. <a href="${esc(item.sourceUrl)}" target="_blank" rel="noopener noreferrer" class="text-brand-700 dark:text-brand-300 hover:underline">Legutóbb ellenőrzött forrás ↗</a></p>`
+        : `<a href="${esc(item.sourceUrl)}" target="_blank" rel="noopener noreferrer" class="inline-block my-4 px-4 py-2 rounded-lg bg-brand-600 text-white text-sm font-medium hover:bg-brand-700">Forrás megnyitása ↗</a>`;
+
+      const tags = (item.tags ?? []).length
+        ? `<div class="flex flex-wrap gap-2 my-4">${item.tags.map((t: string) => `<span class="text-xs px-2 py-0.5 rounded-full border border-zinc-200 dark:border-zinc-700 text-zinc-600 dark:text-zinc-400">#${esc(t)}</span>`).join('')}</div>` : '';
+
+      const ratings = (item.ratings ?? []).length
+        ? `<h3 class="text-sm font-semibold mt-4 mb-2">Értékelések</h3><ul class="space-y-2">` +
+          item.ratings.map((r: any) =>
+            `<li class="rounded-lg border border-zinc-200 dark:border-zinc-800 p-3 text-sm">` +
+              `<div class="flex items-center justify-between"><span class="font-medium">${esc(r.source)}</span>` +
+              `<span class="text-brand-700 dark:text-brand-300 font-medium">★ ${esc(r.score)}/${esc(r.scale)}</span></div>` +
+              (r.note ? `<p class="text-zinc-500 dark:text-zinc-400 mt-1">${esc(r.note)}</p>` : '') +
+            `</li>`
+          ).join('') + `</ul>`
+        : '';
+
+      const meta = `<p class="text-xs text-zinc-400 dark:text-zinc-500 mt-6">${esc(CATEGORY_LABELS[item.category] ?? item.category)}${item.lastReviewed ? ` · Utoljára ellenőrizve: ${esc(item.lastReviewed)}` : ''}</p>`;
+
+      const content = document.getElementById('dp-content');
+      if (content) {
+        content.scrollTop = 0;
+        content.innerHTML =
+          cover + episode +
+          `<h2 id="dp-title" class="text-xl font-bold tracking-tight mb-2">${esc(item.title)}</h2>` +
+          `<div class="flex flex-wrap gap-2 mb-3">${badges}${unavailBadge}</div>` +
+          `<p class="text-zinc-700 dark:text-zinc-300">${esc(item.summary)}</p>` +
+          body + extraHtml + source + tags + ratings + meta;
+      }
+    }
+
+    function show() {
+      const p = panel();
+      if (!p) return;
+      p.setAttribute('aria-hidden', 'false');
+      document.getElementById('dp-backdrop')?.classList.remove('opacity-0', 'pointer-events-none');
+      document.getElementById('dp-panel')?.classList.remove('translate-x-full');
+      (document.querySelector('[data-detail-close]') as HTMLElement | null)?.focus();
+    }
+    function hide() {
+      const p = panel();
+      if (!p) return;
+      p.setAttribute('aria-hidden', 'true');
+      document.getElementById('dp-backdrop')?.classList.add('opacity-0', 'pointer-events-none');
+      document.getElementById('dp-panel')?.classList.add('translate-x-full');
+    }
+
+    async function openDetail(href: string, push = true) {
+      const db = await loadDb();
+      const item = db.get(href);
+      if (!item) { window.location.href = href; return; } // fall back to real navigation
+      if (push) {
+        basePath = location.pathname + location.search;
+        history.pushState({ detail: href }, '', href);
+      }
+      renderItem(item);
+      document.title = `${item.title} — Neurodiverse`;
+      show();
+    }
+
+    function closeDetail() {
+      if (!isOpen()) return;
+      hide();
+      // Replace the pushed detail entry with the page we opened from — returns the
+      // URL to the browsing surface without adding history or triggering a
+      // ClientRouter navigation (replaceState fires no popstate).
+      if (history.state?.detail && basePath) history.replaceState(null, '', basePath);
+    }
+
+    document.addEventListener('click', (e) => {
+      const t = e.target as HTMLElement;
+      const link = t.closest('a[data-detail]') as HTMLAnchorElement | null;
+      if (link && e.button === 0 && !e.metaKey && !e.ctrlKey && !e.shiftKey && !e.altKey) {
+        const href = link.getAttribute('href');
+        if (href) { e.preventDefault(); openDetail(href); }
+        return;
+      }
+      if (t.closest('[data-detail-close]') || t.hasAttribute('data-detail-backdrop')) closeDetail();
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && isOpen()) closeDetail();
+    });
+
+    // Browser Back/Forward: just close the panel. Any actual page change is left
+    // to Astro's ClientRouter, which owns navigation history.
+    window.addEventListener('popstate', () => { if (isOpen()) hide(); });
+  }
+</script>

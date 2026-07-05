@@ -1,6 +1,7 @@
 ---
 import MapLayout from '../layouts/MapLayout.astro';
 import MapExplorer from '../components/MapExplorer.astro';
+import DetailPanel from '../components/DetailPanel.astro';
 import { getCollection } from 'astro:content';
 
 const MAP_CATEGORIES = ['diagnosis', 'schools', 'development', 'communities', 'equipment'] as const;
@@ -28,4 +29,5 @@ const items = (
 ---
 <MapLayout title="Neurodiverz Térkép | ADHD és autizmus források Magyarországon">
   <MapExplorer items={items} />
+  <DetailPanel />
 </MapLayout>

@@ -1,6 +1,7 @@
 ---
 import MapLayout from '../layouts/MapLayout.astro';
 import WebExplorer from '../components/WebExplorer.astro';
+import DetailPanel from '../components/DetailPanel.astro';
 import { getCollection } from 'astro:content';
 
 const WEB_CATEGORIES = ['podcasts', 'books', 'equipment', 'videos', 'movies'] as const;
@@ -27,4 +28,5 @@ const items = (
 ---
 <MapLayout title="Web | Neurodiverz Térkép">
   <WebExplorer items={items} />
+  <DetailPanel />
 </MapLayout>

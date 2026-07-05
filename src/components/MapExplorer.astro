@@ -160,7 +160,7 @@ const AGE_FILTERS = [
       marker.addListener('click', () => {
         infoWindow.setContent(
           `${imgHtml}<strong>${item.title}</strong><br>${item.address ?? item.city}` +
-            `<br><a href="${item.href}" target="_blank" rel="noopener noreferrer" style="${POPUP_BTN_STYLE}">Megnyitás új lapon ↗</a>`
+            `<br><a href="${item.href}" data-detail target="_blank" rel="noopener noreferrer" style="${POPUP_BTN_STYLE}">Részletek →</a>`
         );
         infoWindow.open(map, marker);
       });
