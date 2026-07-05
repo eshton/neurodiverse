@@ -10,6 +10,7 @@ runtimeMinutes: 9
 ageGroup: children
 availability: unavailable
 sourceUrl: "https://en.wikipedia.org/wiki/Loop_(2020_film)"
+coverImage: "/covers/loop.png"
 ratings: []
 lastReviewed: 2026-07-05
 ---

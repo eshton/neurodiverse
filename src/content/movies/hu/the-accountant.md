@@ -9,6 +9,7 @@ year: 2016
 runtimeMinutes: 128
 ageGroup: adults
 sourceUrl: "https://en.wikipedia.org/wiki/The_Accountant_(2016_film)"
+coverImage: "/covers/the-accountant.png"
 ratings: []
 lastReviewed: 2026-07-05
 ---

@@ -10,6 +10,7 @@ runtimeMinutes: 89
 ageGroup: both
 availability: unavailable
 sourceUrl: "https://en.wikipedia.org/wiki/How_to_Dance_in_Ohio"
+coverImage: "/covers/how-to-dance-in-ohio.jpg"
 ratings: []
 lastReviewed: 2026-07-05
 ---

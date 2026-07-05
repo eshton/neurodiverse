@@ -35,6 +35,12 @@ Self-host under `public/covers/`, don't hotlink. Sourcing pattern:
 
 This is standard practice for any directory/review site (Goodreads, moly.hu, Amazon all do it) — small promotional thumbnails to identify what's being linked to, not redistribution of the underlying work.
 
+**Movie posters**: the film's Wikipedia article `og:image` is the infobox poster — `curl -sL -A "Mozilla/5.0" <wiki-url> | grep -io '<meta property="og:image" content="[^"]*"'`. Reliable for most films. Watch for two mismatches: (1) a `fr`/other-language article may return a *logo* instead of a poster — check the English article (e.g. "The Specials" for *Hors normes*); (2) an article covering both a book and its film adaptation returns the *book* cover (happened with *The Reason I Jump*) — don't use it for a `kind: documentary`/film entry. If the article has no poster image at all (some older/smaller films), leave `coverImage` unset rather than hotlink an unverified image — several movie entries are intentionally cover-less for this reason (see content-status.md).
+
+## Streaming availability (movies)
+
+Check JustWatch Hungary via **WebFetch** on `https://www.justwatch.com/hu/film/<slug>` — it parses the page and returns the HU providers plus the Hungarian release title. Two gotchas: (1) slugs aren't guessable, and a 404 on a *guessed* slug means "wrong slug," not "unavailable" — find the real slug via a `justwatch.com` web search first (the `/us/movie/<slug>` slug matches the `/hu/film/<slug>` one). (2) A 404 on the *correct* slug does mean no HU catalog entry → honest `availability: unavailable`. Only set `in-stock` when the HU page actually lists a HU provider — never infer HU availability from the US/AU page a web search happens to surface.
+
 ## Geocoding (for map-enabled categories: diagnosis, schools)
 
 Use the free Nominatim API (OpenStreetMap), no key required:

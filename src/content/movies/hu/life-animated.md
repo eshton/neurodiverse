@@ -9,6 +9,7 @@ year: 2016
 runtimeMinutes: 92
 ageGroup: both
 sourceUrl: "https://en.wikipedia.org/wiki/Life,_Animated"
+coverImage: "/covers/life-animated.jpg"
 ratings: []
 lastReviewed: 2026-07-05
 ---

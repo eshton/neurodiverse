@@ -10,6 +10,7 @@ runtimeMinutes: 114
 ageGroup: both
 availability: unavailable
 sourceUrl: "https://fr.wikipedia.org/wiki/Hors_normes"
+coverImage: "/covers/hors-normes.jpg"
 ratings: []
 lastReviewed: 2026-07-05
 ---

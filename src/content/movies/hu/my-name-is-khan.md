@@ -10,6 +10,7 @@ runtimeMinutes: 161
 ageGroup: adults
 availability: unavailable
 sourceUrl: "https://en.wikipedia.org/wiki/My_Name_Is_Khan"
+coverImage: "/covers/my-name-is-khan.jpg"
 ratings: []
 lastReviewed: 2026-07-05
 ---

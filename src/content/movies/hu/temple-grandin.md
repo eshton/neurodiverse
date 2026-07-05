@@ -9,6 +9,7 @@ year: 2010
 runtimeMinutes: 107
 ageGroup: adults
 sourceUrl: "https://en.wikipedia.org/wiki/Temple_Grandin_(film)"
+coverImage: "/covers/temple-grandin.jpg"
 ratings: []
 lastReviewed: 2026-07-05
 ---

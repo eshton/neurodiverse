@@ -10,6 +10,7 @@ runtimeMinutes: 111
 ageGroup: both
 availability: unavailable
 sourceUrl: "https://en.wikipedia.org/wiki/X%2BY"
+coverImage: "/covers/x-plus-y.jpg"
 ratings: []
 lastReviewed: 2026-07-05
 ---

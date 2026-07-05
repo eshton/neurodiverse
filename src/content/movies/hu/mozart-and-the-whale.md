@@ -10,6 +10,7 @@ runtimeMinutes: 94
 ageGroup: adults
 availability: unavailable
 sourceUrl: "https://en.wikipedia.org/wiki/Mozart_and_the_Whale"
+coverImage: "/covers/mozart-and-the-whale.jpg"
 ratings: []
 lastReviewed: 2026-07-05
 ---

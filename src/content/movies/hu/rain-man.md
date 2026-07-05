@@ -9,6 +9,7 @@ year: 1988
 runtimeMinutes: 134
 ageGroup: adults
 sourceUrl: "https://en.wikipedia.org/wiki/Rain_Man"
+coverImage: "/covers/rain-man.jpg"
 ratings: []
 lastReviewed: 2026-07-05
 ---
