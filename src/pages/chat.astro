@@ -142,6 +142,35 @@ const SUGGESTIONS = [
       return html || '<p></p>';
     }
 
+    // Some models render the action tools by writing inline directives in their
+    // reply text — {{show_resource href="..."}} / {{link_to href="..." label="..."}}
+    // — instead of emitting native tool_calls. Parse those out, run the matching
+    // client tool, and splice the rendered card/link in place of the raw token.
+    const DIRECTIVE = /\{\{\s*(show_resource|link_to)\s+([^}]*?)\}\}/g;
+    async function renderAssistantContent(src: string): Promise<string> {
+      let out = '';
+      let last = 0;
+      let m: RegExpExecArray | null;
+      const addProse = (seg: string) => { if (seg && seg.trim()) out += renderMarkdown(seg); };
+      DIRECTIVE.lastIndex = 0;
+      while ((m = DIRECTIVE.exec(src)) !== null) {
+        addProse(src.slice(last, m.index));
+        last = DIRECTIVE.lastIndex;
+        const args: Record<string, string> = {};
+        const attr = /(\w+)\s*=\s*"([^"]*)"/g;
+        let a: RegExpExecArray | null;
+        while ((a = attr.exec(m[2])) !== null) args[a[1]] = a[2];
+        try {
+          const result = await executeTool(m[1], args);
+          out += renderToolUi(result.render);
+        } catch {
+          // skip a malformed directive rather than dumping the raw token
+        }
+      }
+      addProse(src.slice(last));
+      return out || '<p></p>';
+    }
+
     function addUser(text: string) {
       const el = document.createElement('div');
       el.className = 'flex gap-3 justify-end';
@@ -224,7 +253,7 @@ const SUGGESTIONS = [
             typing = addTyping(); // model thinks again with the tool results
           } else {
             typing.remove();
-            addAssistant(renderMarkdown(message?.content || '…'));
+            addAssistant(await renderAssistantContent(message?.content || '…'));
             return;
           }
         }

@@ -134,6 +134,57 @@ export function categoryPin(category: string): string {
   return canvas.toDataURL('image/png');
 }
 
+// --- Google Maps consent gate (ePrivacy/GDPR) ----------------------------------
+// Google Maps is a third party: loading its JS contacts Google's servers and can
+// set cookies. So we don't inject it until the user explicitly agrees. Consent is
+// remembered in localStorage and is GLOBAL — clicking "load" on any one map (a
+// listing page can have two) reveals every map on the page. Until then each map
+// container shows an explanatory placeholder with a load button.
+const MAPS_CONSENT_KEY = 'neuro-maps-consent';
+let consentWaiters: Array<() => void> = [];
+
+export function hasMapsConsent(): boolean {
+  try {
+    return localStorage.getItem(MAPS_CONSENT_KEY) === 'granted';
+  } catch {
+    return false;
+  }
+}
+
+function grantMapsConsent() {
+  try {
+    localStorage.setItem(MAPS_CONSENT_KEY, 'granted');
+  } catch {
+    // ignore unavailable storage — consent still holds for this page via the waiters below
+  }
+  const waiters = consentWaiters;
+  consentWaiters = [];
+  waiters.forEach((resolve) => resolve());
+}
+
+function renderConsentPlaceholder(el: HTMLElement) {
+  el.innerHTML =
+    `<div class="h-full w-full flex items-center justify-center p-6 text-center">` +
+    `<div class="max-w-sm">` +
+    `<div class="text-3xl mb-2" aria-hidden="true">🗺️</div>` +
+    `<p class="text-sm text-zinc-600 dark:text-zinc-300">A térkép a <strong>Google Maps</strong> szolgáltatását használja, amely betöltéskor kapcsolatba lép a Google szervereivel, és sütiket helyezhet el. Ehhez a hozzájárulásod szükséges.</p>` +
+    `<button type="button" data-maps-consent class="mt-3 inline-block px-4 py-2 rounded-full bg-brand-600 text-white text-sm hover:bg-brand-700 transition">Térkép betöltése</button>` +
+    `<p class="mt-2 text-xs text-zinc-500 dark:text-zinc-400">Részletek az <a href="/adatvedelem/" class="underline">Adatvédelemben</a>.</p>` +
+    `</div></div>`;
+  el.querySelector('[data-maps-consent]')?.addEventListener('click', grantMapsConsent);
+}
+
+// Resolves once the user has allowed Google Maps. If consent isn't given yet, it
+// renders a placeholder into `el` and waits for the load button (on this or any
+// other map on the page). Call this BEFORE loadGoogleMaps() in each map component.
+export function whenMapsAllowed(el: HTMLElement): Promise<void> {
+  if (hasMapsConsent()) return Promise.resolve();
+  return new Promise((resolve) => {
+    consentWaiters.push(resolve);
+    renderConsentPlaceholder(el);
+  });
+}
+
 let loaderPromise: Promise<void> | null = null;
 
 export function loadGoogleMaps(): Promise<void> {
