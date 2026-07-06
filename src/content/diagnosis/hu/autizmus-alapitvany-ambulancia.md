@@ -13,10 +13,11 @@ lng: 19.0953760
 contact: "06-1-3341-123, titkarsag.ambulancia@autizmus.hu"
 priceNotes: "A gondozásba vett kliensek számára a legtöbb szolgáltatás a gondozás része, egyéb képzések önköltségesek."
 coverImage: "/covers/autizmus-alapitvany-ambulancia.jpg"
+locationStatus: single-confirmed
 sourceUrl: "https://www.autizmus.hu/szolgaltatasokleirasa"
 ratings: []
 curatedBy: manual
-lastReviewed: 2026-07-04
+lastReviewed: 2026-07-06
 ---
 
 Az egyik legrégebbi, legismertebb magyar autizmus-diagnosztikai intézmény.

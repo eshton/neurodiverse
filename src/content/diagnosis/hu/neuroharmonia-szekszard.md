@@ -12,10 +12,11 @@ lat: 46.3538567
 lng: 18.7122706
 contact: "neuroharmonia.hu"
 coverImage: "/covers/neuroharmonia-szekszard.jpg"
+locationStatus: single-confirmed
 sourceUrl: "https://www.neuroharmonia.hu/araink/"
 ratings: []
 curatedBy: manual
-lastReviewed: 2026-07-04
+lastReviewed: 2026-07-06
 ---
 
 Tolna megye egyik kevés kifejezetten ADHD/autizmus fókuszú magánközpontja.

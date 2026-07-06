@@ -7,6 +7,7 @@ interface MapItem {
   ageGroup: 'children' | 'adults' | 'both';
   coverImage?: string;
   href: string;
+  key: string;
   city: string;
   address?: string;
 }
@@ -87,6 +88,7 @@ const AGE_FILTERS = [
     ageGroup: 'children' | 'adults' | 'both';
     coverImage?: string;
     href: string;
+    key: string;
     city: string;
     address?: string;
   }
@@ -121,10 +123,11 @@ const AGE_FILTERS = [
 
     const infoWindow = new g.maps.InfoWindow();
     map.addListener('click', () => infoWindow.close());
-    // Keyed by item.href (unique per item) so filter changes only add/remove the
-    // markers that actually entered/left the filtered set, instead of clearing and
-    // rebuilding everything every time — that full rebuild was the cause of the
-    // "blink" on every selector change.
+    // Keyed by item.key (href#siteIndex — unique per pin, since one item can now
+    // pin at several sites) so filter changes only add/remove the markers that
+    // actually entered/left the filtered set, instead of clearing and rebuilding
+    // everything every time — that full rebuild was the cause of the "blink" on
+    // every selector change.
     const markersByKey = new Map<string, any>();
 
     const ALL_TYPES = ['diagnosis', 'schools', 'development', 'communities', 'equipment'];
@@ -186,7 +189,7 @@ const AGE_FILTERS = [
 
     async function render() {
       const filtered = items.filter((item) => activeTypes.has(item.category) && matchesAge(item.ageGroup));
-      const filteredKeys = new Set(filtered.map((item) => item.href));
+      const filteredKeys = new Set(filtered.map((item) => item.key));
 
       for (const [key, marker] of markersByKey) {
         if (!filteredKeys.has(key)) {
@@ -198,10 +201,10 @@ const AGE_FILTERS = [
       const animate =
         (firstRenderThisInit ? firstArrivalAtMap : true) &&
         !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-      const toAdd = filtered.filter((item) => !markersByKey.has(item.href));
+      const toAdd = filtered.filter((item) => !markersByKey.has(item.key));
       await Promise.all(
         toAdd.map(async (item) => {
-          markersByKey.set(item.href, await buildMarker(item, animate));
+          markersByKey.set(item.key, await buildMarker(item, animate));
         })
       );
       if (firstRenderThisInit) {

@@ -12,10 +12,11 @@ lat: 47.1981647
 lng: 18.4129586
 contact: "elérhetőség a weboldalon"
 coverImage: "/covers/pszichologusunk-szekesfehervar.png"
+locationStatus: single-confirmed
 sourceUrl: "https://pszichologusunk.hu/autizmus_felmeres"
 ratings: []
 curatedBy: manual
-lastReviewed: 2026-07-04
+lastReviewed: 2026-07-06
 ---
 
 Közép-Dunántúlon ritka, kifejezetten ADHD/autizmus fókuszú magánközpont.

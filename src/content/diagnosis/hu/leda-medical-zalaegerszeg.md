@@ -12,10 +12,11 @@ lat: 46.8428527
 lng: 16.8438836
 contact: "+36 92 357 790, +36 70 703 4564"
 coverImage: "/covers/leda-medical-zalaegerszeg.png"
+locationStatus: single-confirmed
 sourceUrl: "https://ledamed.hu/szakterulet/pszichiatria/"
 ratings: []
 curatedBy: manual
-lastReviewed: 2026-07-04
+lastReviewed: 2026-07-06
 ---
 
 Zala megye egyik kevés magán pszichiátriai rendelője ADHD-kezeléssel.

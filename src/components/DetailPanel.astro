@@ -49,6 +49,8 @@
       'id', 'category', 'slug', 'href', 'body', 'title', 'locale', 'topics', 'summary', 'tags',
       'sourceUrl', 'coverImage', 'ratings', 'availability', 'entryType', 'parentTitle',
       'curatedBy', 'lastReviewed', 'lat', 'lng',
+      // Rendered by the dedicated "További helyszínek" block, not the generic dl.
+      'locations', 'locationStatus',
     ]);
 
     const esc = (v: unknown) =>
@@ -98,6 +100,26 @@
       const extraHtml = extra
         ? `<dl class="grid grid-cols-[auto_1fr] gap-x-4 gap-y-1 text-sm my-4">${extra}</dl>` : '';
 
+      // Additional physical sites beyond the primary (city/address shown above in
+      // the generic dl). Mirrors the detail page's "További helyszínek" section;
+      // no embedded map here (the panel opens over the live map behind it).
+      const locs = Array.isArray(item.locations) ? item.locations : [];
+      const statusLabel = item.locationStatus ? (VALUE_LABELS[item.locationStatus] ?? item.locationStatus) : '';
+      const locationsHtml = locs.length
+        ? `<h3 class="text-sm font-semibold mt-4 mb-2">További helyszínek` +
+          (statusLabel ? ` <span class="ml-1 align-middle text-xs font-normal px-2 py-0.5 rounded-full bg-zinc-100 dark:bg-zinc-800 text-zinc-500 dark:text-zinc-400">${esc(statusLabel)}</span>` : '') +
+          `</h3><ul class="space-y-2">` +
+          locs.map((l: any) =>
+            `<li class="rounded-lg border border-zinc-200 dark:border-zinc-800 p-3 text-sm">` +
+              `<p class="font-medium">${esc(l.label ?? l.city)}</p>` +
+              (l.address ? `<p class="text-zinc-600 dark:text-zinc-400">${esc(l.address)}</p>` : '') +
+              (l.contact ? `<p class="text-zinc-500 dark:text-zinc-400">${esc(l.contact)}</p>` : '') +
+              (l.priceNotes ? `<p class="text-zinc-500 dark:text-zinc-400">${esc(l.priceNotes)}</p>` : '') +
+              (l.note ? `<p class="text-zinc-500 dark:text-zinc-400 italic">${esc(l.note)}</p>` : '') +
+            `</li>`
+          ).join('') + `</ul>`
+        : '';
+
       const source = item.availability === 'unavailable'
         ? `<p class="text-sm text-zinc-500 dark:text-zinc-400 my-4">Jelenleg nem elérhető. <a href="${esc(item.sourceUrl)}" target="_blank" rel="noopener noreferrer" class="text-brand-700 dark:text-brand-300 hover:underline">Legutóbb ellenőrzött forrás ↗</a></p>`
         : `<a href="${esc(item.sourceUrl)}" target="_blank" rel="noopener noreferrer" class="inline-block my-4 px-4 py-2 rounded-lg bg-brand-600 text-white text-sm font-medium hover:bg-brand-700">Forrás megnyitása ↗</a>`;
@@ -126,7 +148,7 @@
           `<h2 id="dp-title" class="text-xl font-bold tracking-tight mb-2">${esc(item.title)}</h2>` +
           `<div class="flex flex-wrap gap-2 mb-3">${badges}${unavailBadge}</div>` +
           `<p class="text-zinc-700 dark:text-zinc-300">${esc(item.summary)}</p>` +
-          body + extraHtml + source + tags + ratings + meta;
+          body + extraHtml + locationsHtml + source + tags + ratings + meta;
       }
     }
 

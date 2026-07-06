@@ -13,10 +13,11 @@ lng: 17.6495406
 contact: "+36-96/507-985, +36-96/418-244 (mellék 4431)"
 priceNotes: "Állami ellátás. Időpont-egyeztetés hétfő-csütörtök 14:00-15:00."
 coverImage: "/covers/petz-aladar-gyor.svg"
+locationStatus: single-confirmed
 sourceUrl: "https://petz.gyor.hu/betegellatas/jarobeteg-ellatas/gyermek-ifjusagi-es-mentalhigienes-szakrendeles"
 ratings: []
 curatedBy: manual
-lastReviewed: 2026-07-04
+lastReviewed: 2026-07-06
 ---
 
 Nyugat-Dunántúl fő gyermekpszichiátriai centruma.

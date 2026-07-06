@@ -13,10 +13,11 @@ lng: 20.7910364
 contact: "+36-30/422-2872 (Gyermekpszichiátria I.), +36-30/682-4143 (Gyermekpszichiátria II.)"
 priceNotes: "Állami ellátás. Rendelési idő: szerda-csütörtök 9:00-13:00."
 coverImage: "/covers/velkey-gyek-miskolc.svg"
+locationStatus: single-confirmed
 sourceUrl: "https://www.bazmkorhaz.hu/velkey-laszlo-gyermekegeszsegugyi-kozpont-gyek-jarobeteg-ellatas"
 ratings: []
 curatedBy: manual
-lastReviewed: 2026-07-04
+lastReviewed: 2026-07-06
 ---
 
 Szűrő jellegű vizsgálat — komplex ADHD/autizmus diagnózishoz gyakran Budapestre (Autizmus Kutatócsoport) irányítanak.

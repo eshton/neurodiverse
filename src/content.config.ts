@@ -11,6 +11,35 @@ const rating = z.object({
   checkedAt: z.coerce.date(),
 });
 
+// A single physical site. Used by the `locations` array below so one entry can
+// pin on the map in more than one place (e.g. a hospital with two departments,
+// a foundation with regional offices). `city` is required (it drives the
+// Budapest/vidék map split and the listing headings); everything else is
+// optional — a site with no lat/lng is still listed, it just gets no pin.
+const location = z.object({
+  label: z.string().optional(), // branch/site name, e.g. "Bethlen utcai telephely"
+  city: z.string(),
+  address: z.string().optional(),
+  lat: z.number().optional(),
+  lng: z.number().optional(),
+  contact: z.string().optional(),
+  priceNotes: z.string().optional(),
+  note: z.string().optional(), // free text, e.g. a verification caveat for this site
+});
+
+// Multi-location support, mixed into every mappable category. The top-level
+// city/address/lat/lng stay the *primary* site (unchanged for the ~single-site
+// majority — no migration). `locations` holds ADDITIONAL sites beyond that
+// primary. `locationStatus` records the research outcome per entry so coverage
+// is auditable and continuable:
+//   multiple-confirmed — extra sites found & verified (they're in `locations`)
+//   single-confirmed   — verified this is the only site
+//   unsure             — couldn't determine whether other sites exist
+const multiLocation = {
+  locations: z.array(location).optional(),
+  locationStatus: z.enum(['single-confirmed', 'multiple-confirmed', 'unsure']).optional(),
+};
+
 const base = z.object({
   title: z.string(),
   locale: z.enum(['hu', 'uk', 'us']),
@@ -67,6 +96,7 @@ export const collections = {
     address: z.string().optional(),
     lat: z.number().optional(),
     lng: z.number().optional(),
+    ...multiLocation,
   }),
   food: collectionFor('food', {
     kind: z.enum(['recipe', 'product', 'guide', 'supplement']),
@@ -98,6 +128,7 @@ export const collections = {
     lat: z.number().optional(),
     lng: z.number().optional(),
     contact: z.string().optional(),
+    ...multiLocation,
   }),
   diagnosis: collectionFor('diagnosis', {
     providerType: z.enum(['doctor', 'clinic', 'foundation', 'hospital']),
@@ -107,6 +138,7 @@ export const collections = {
     lng: z.number().optional(),
     contact: z.string().optional(),
     priceNotes: z.string().optional(),
+    ...multiLocation,
   }),
   schools: collectionFor('schools', {
     providerType: z.enum(['mainstream-integration', 'special-needs-school', 'kindergarten']),
@@ -116,6 +148,7 @@ export const collections = {
     lng: z.number().optional(),
     contact: z.string().optional(),
     priceNotes: z.string().optional(),
+    ...multiLocation,
   }),
   development: collectionFor('development', {
     providerType: z.enum(['psychologist', 'therapist', 'developmental-pedagogue', 'occupational-therapist', 'center']),
@@ -125,6 +158,7 @@ export const collections = {
     lng: z.number().optional(),
     contact: z.string().optional(),
     priceNotes: z.string().optional(),
+    ...multiLocation,
   }),
 };
 

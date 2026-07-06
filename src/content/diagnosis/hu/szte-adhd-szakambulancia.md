@@ -13,10 +13,11 @@ lng: 20.1506444
 contact: "+36 62 341-777 (hétköznap 9-11)"
 priceNotes: "Szakorvosi beutaló kötelező. Rendelés: kedd 10:00-14:00."
 coverImage: "/covers/szte-adhd-szakambulancia.png"
+locationStatus: single-confirmed
 sourceUrl: "https://u-szeged.hu/szakk/tajekoztatok/adhd-szakambulancia"
 ratings: []
 curatedBy: manual
-lastReviewed: 2026-07-04
+lastReviewed: 2026-07-06
 ---
 
 Állami alternatíva a szegedi Cerebrum magánközpont mellett.

@@ -22,18 +22,29 @@ const items = allItems.filter((item: any) => item.data.locale === locale);
 // statically prerendered, so a `?topic=` query param can't change the server
 // output — every request gets the same HTML. The page renders all items and JS
 // hides the ones that don't match, reading the initial state from the URL.
+// One marker per physical site (primary + any additional `locations[]`), split
+// below into Budapest vs. vidék by each *site's* own city — so a clinic with a
+// Budapest department and a countryside one pins correctly on both maps.
 const geoTagged = LISTING_MAP_CATEGORIES.has(category as string)
-  ? items
-      .filter((item: any) => item.data.lat != null && item.data.lng != null)
-      .map((item: any) => ({
-        title: item.data.title,
-        lat: item.data.lat,
-        lng: item.data.lng,
-        city: item.data.city,
-        address: item.data.address,
-        coverImage: item.data.coverImage ?? placeholderFor(item.data.providerType),
-        href: `/${locale}/${category}/${item.id.split('/').slice(1).join('/')}/`,
-      }))
+  ? items.flatMap((item: any) => {
+      const href = `/${locale}/${category}/${item.id.split('/').slice(1).join('/')}/`;
+      const cover = item.data.coverImage ?? placeholderFor(item.data.providerType);
+      const sites = [
+        { lat: item.data.lat, lng: item.data.lng, city: item.data.city, address: item.data.address },
+        ...(item.data.locations ?? []).map((l: any) => ({ lat: l.lat, lng: l.lng, city: l.city, address: l.address })),
+      ];
+      return sites
+        .filter((s: any) => s.lat != null && s.lng != null)
+        .map((s: any) => ({
+          title: item.data.title,
+          lat: s.lat,
+          lng: s.lng,
+          city: s.city,
+          address: s.address,
+          coverImage: cover,
+          href,
+        }));
+    })
   : [];
 
 const budapestClinics = geoTagged.filter((c) => c.city === 'Budapest');

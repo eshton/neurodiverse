@@ -9,19 +9,31 @@ const items = (
   await Promise.all(
     MAP_PIN_CATEGORIES.map(async (category) => {
       const entries = await getCollection(category as any, (entry: any) => entry.data.locale === 'hu');
-      return entries
-        .filter((entry: any) => entry.data.lat != null && entry.data.lng != null)
-        .map((entry: any) => ({
-          title: entry.data.title,
-          lat: entry.data.lat,
-          lng: entry.data.lng,
-          category,
-          ageGroup: entry.data.ageGroup,
-          coverImage: entry.data.coverImage,
-          city: entry.data.city,
-          address: entry.data.address,
-          href: `/hu/${category}/${entry.id.split('/').slice(1).join('/')}/`,
-        }));
+      // One pin per physical site: the primary (top-level) location plus any
+      // additional `locations[]`. A clinic with two departments shows two pins,
+      // all linking back to the same detail page. Keyed by href#i so MapExplorer
+      // can add/remove individual pins on filter changes without collisions.
+      return entries.flatMap((entry: any) => {
+        const href = `/hu/${category}/${entry.id.split('/').slice(1).join('/')}/`;
+        const sites = [
+          { lat: entry.data.lat, lng: entry.data.lng, city: entry.data.city, address: entry.data.address },
+          ...(entry.data.locations ?? []).map((l: any) => ({ lat: l.lat, lng: l.lng, city: l.city, address: l.address })),
+        ];
+        return sites
+          .filter((s: any) => s.lat != null && s.lng != null)
+          .map((s: any, i: number) => ({
+            title: entry.data.title,
+            lat: s.lat,
+            lng: s.lng,
+            category,
+            ageGroup: entry.data.ageGroup,
+            coverImage: entry.data.coverImage,
+            city: s.city,
+            address: s.address,
+            href,
+            key: `${href}#${i}`,
+          }));
+      });
     })
   )
 ).flat();

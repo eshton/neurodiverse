@@ -13,10 +13,11 @@ lng: 17.9070184
 contact: "+36 20 345-8630, előjegyzés: +36 30 911 3830"
 priceNotes: "Állami ellátás."
 coverImage: "/covers/csolnoky-veszprem.png"
+locationStatus: single-confirmed
 sourceUrl: "https://csfk.hu/jarobeteg-ellatas/gyermek-es-ifjusagi-pszichiatriai-szakrendeles-es-gondozo/"
 ratings: []
 curatedBy: manual
-lastReviewed: 2026-07-04
+lastReviewed: 2026-07-06
 ---
 
 Közép-Dunántúl gyermekpszichiátriai ellátóhelye.

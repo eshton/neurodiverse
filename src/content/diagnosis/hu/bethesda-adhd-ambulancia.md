@@ -13,10 +13,11 @@ lng: 19.0881258
 contact: "+36-1-422-2731, adhd@bethesda.hu"
 priceNotes: "Területi ellátási kötelezettség: X., XVI. kerület, Budakalász, Veresegyház, Vácrátót, Őrbottyán, Csomád, Vácegres, Erdőkertes, Váckisújfalu, Galgamácsa."
 coverImage: "/covers/bethesda-adhd-ambulancia.jpg"
+locationStatus: single-confirmed
 sourceUrl: "https://www.bethesda.hu/ambulancia/adhd-ambulancia/"
 ratings: []
 curatedBy: manual
-lastReviewed: 2026-07-04
+lastReviewed: 2026-07-06
 ---
 
 Tic-zavarokat (kényszeres mozgás/hangadás) is fogad ADHD mellett.

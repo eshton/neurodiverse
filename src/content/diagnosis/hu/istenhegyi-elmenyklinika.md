@@ -12,10 +12,11 @@ lat: 47.5011119
 lng: 19.0084849
 contact: "elmenyklinika.hu"
 coverImage: "/covers/istenhegyi-elmenyklinika.jpg"
+locationStatus: single-confirmed
 sourceUrl: "https://elmenyklinika.hu/diagnosztika/felnott-adhd-diagnosztika/"
 ratings: []
 curatedBy: manual
-lastReviewed: 2026-07-04
+lastReviewed: 2026-07-06
 ---
 
 Nem tévesztendő össze az Istenhegyi Magánklinika gyermekpszichiátriai szakrendelésével (más márkanév, hasonló terület).

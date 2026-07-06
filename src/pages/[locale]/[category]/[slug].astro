@@ -22,6 +22,9 @@ const BASE_FIELDS = new Set([
   'lastReviewed',
   'lat',
   'lng',
+  // Rendered by the dedicated "További helyszínek" block below, not the generic dl.
+  'locations',
+  'locationStatus',
 ]);
 
 export async function getStaticPaths() {
@@ -44,6 +47,20 @@ const { item } = Astro.props as { item: any };
 const data = item.data;
 const extraFields = Object.entries(data).filter(([key]) => !BASE_FIELDS.has(key));
 const cover = data.coverImage ?? placeholderFor(data.providerType);
+
+// Every physical site (primary + additional `locations[]`) with coordinates, for
+// the embedded map and the "További helyszínek" list. The map uses the tight
+// Budapest region only when *all* sites are in Budapest; a mix falls back to the
+// national view so no pin gets clipped out of bounds.
+const additionalLocations: any[] = Array.isArray(data.locations) ? data.locations : [];
+const detailSites = [
+  { title: data.title, lat: data.lat, lng: data.lng, city: data.city, address: data.address, coverImage: cover, href: '' },
+  ...additionalLocations.map((l: any) => ({
+    title: data.title, lat: l.lat, lng: l.lng, city: l.city, address: l.address, coverImage: cover, href: '',
+  })),
+].filter((s: any) => s.lat != null && s.lng != null);
+const detailRegion = detailSites.length > 0 && detailSites.every((s: any) => s.city === 'Budapest') ? 'budapest' : 'hungary';
+
 const backHref = WEB_CATEGORIES.has(category as string) ? '/web/' : '/';
 const backLabel = WEB_CATEGORIES.has(category as string) ? 'Vissza a Web nézetre' : 'Vissza a térképre';
 
@@ -75,6 +92,20 @@ if (data.lat != null && data.lng != null) {
     ...(data.city ? { addressLocality: data.city } : {}),
     addressCountry: 'HU',
   };
+}
+// Multi-site orgs: expose every located site as a schema.org Place so search
+// engines see all branches, not just the primary one in `geo`/`address` above.
+if (detailSites.length > 1) {
+  jsonLd.location = detailSites.map((s: any) => ({
+    '@type': 'Place',
+    geo: { '@type': 'GeoCoordinates', latitude: s.lat, longitude: s.lng },
+    address: {
+      '@type': 'PostalAddress',
+      ...(s.address ? { streetAddress: s.address } : {}),
+      ...(s.city ? { addressLocality: s.city } : {}),
+      addressCountry: 'HU',
+    },
+  }));
 }
 if (category === 'articles') {
   if (data.author) jsonLd.author = { '@type': 'Person', name: data.author };
@@ -140,12 +171,34 @@ if (category === 'research') {
     </dl>
   )}
 
-  {data.lat != null && data.lng != null && (
+  {additionalLocations.length > 0 && (
+    <section class="mb-6">
+      <h2 class="text-lg font-semibold mb-2">
+        További helyszínek
+        {data.locationStatus && (
+          <span class="ml-2 align-middle text-xs font-normal px-2 py-0.5 rounded-full bg-zinc-100 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-400">
+            {VALUE_LABELS[data.locationStatus] ?? data.locationStatus}
+          </span>
+        )}
+      </h2>
+      <ul class="space-y-2">
+        {additionalLocations.map((loc: any) => (
+          <li class="rounded-lg border border-zinc-200 dark:border-zinc-800 p-3 text-sm">
+            <p class="font-medium">{loc.label ?? loc.city}</p>
+            {loc.address && <p class="text-zinc-600 dark:text-zinc-400">{loc.address}</p>}
+            {loc.contact && <p class="text-zinc-500 dark:text-zinc-400">{loc.contact}</p>}
+            {loc.priceNotes && <p class="text-zinc-500 dark:text-zinc-400">{loc.priceNotes}</p>}
+            {loc.note && <p class="text-zinc-500 dark:text-zinc-400 italic">{loc.note}</p>}
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  {detailSites.length > 0 && (
     <ClinicMap
-      clinics={[
-        { title: data.title, lat: data.lat, lng: data.lng, city: data.city, address: data.address, coverImage: cover, href: '' },
-      ]}
-      region={data.city === 'Budapest' ? 'budapest' : 'hungary'}
+      clinics={detailSites}
+      region={detailRegion}
       category={category as string}
     />
   )}

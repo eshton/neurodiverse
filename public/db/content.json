@@ -1745,8 +1745,9 @@
       "lng": 19.0310519,
       "contact": "+36 1 413 1348, info@adhdkozpont.hu",
       "priceNotes": "Fizetős magánrendelés, árak a weboldalon kérésre.",
+      "locationStatus": "single-confirmed",
       "sourceUrl": "https://www.adhdkozpont.hu/",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "Az Európai Felnőttkori ADHD Hálózat tagja."
     },
     {
@@ -1777,8 +1778,9 @@
       "contact": "06-1-3341-123, titkarsag.ambulancia@autizmus.hu",
       "priceNotes": "A gondozásba vett kliensek számára a legtöbb szolgáltatás a gondozás része, egyéb képzések önköltségesek.",
       "coverImage": "/covers/autizmus-alapitvany-ambulancia.jpg",
+      "locationStatus": "single-confirmed",
       "sourceUrl": "https://www.autizmus.hu/szolgaltatasokleirasa",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "Az egyik legrégebbi, legismertebb magyar autizmus-diagnosztikai intézmény."
     },
     {
@@ -1811,9 +1813,10 @@
       "contact": "kmk.hu",
       "priceNotes": "Állami ellátás.",
       "coverImage": "/covers/bacs-kiskun-kecskemet.jpg",
+      "locationStatus": "unsure",
       "sourceUrl": "https://www.kmk.hu/kecskemet/szakrendelesek/1409-gyermek-pszichiatriai-gondozok",
-      "lastReviewed": "2026-07-04",
-      "body": "A Cerebrum Neuropszichológiai Központ magán alternatívája is elérhető Kecskeméten (Vízmű utca 104)."
+      "lastReviewed": "2026-07-06",
+      "body": "A Cerebrum Neuropszichológiai Központ magán alternatívája is elérhető Kecskeméten (Vízmű utca 104).\n\nA megyei kórháznak Kalocsán és Kiskunfélegyházán is van telephelye, de nem sikerült hiteles forrásból megerősíteni, hogy ugyanez a gyermekpszichiátriai szakambulancia ott is működik-e (a kmk.hu átmenetileg elérhetetlen volt)."
     },
     {
       "id": "hu/bethesda-adhd-ambulancia",
@@ -1844,8 +1847,9 @@
       "contact": "+36-1-422-2731, adhd@bethesda.hu",
       "priceNotes": "Területi ellátási kötelezettség: X., XVI. kerület, Budakalász, Veresegyház, Vácrátót, Őrbottyán, Csomád, Vácegres, Erdőkertes, Váckisújfalu, Galgamácsa.",
       "coverImage": "/covers/bethesda-adhd-ambulancia.jpg",
+      "locationStatus": "single-confirmed",
       "sourceUrl": "https://www.bethesda.hu/ambulancia/adhd-ambulancia/",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "Tic-zavarokat (kényszeres mozgás/hangadás) is fogad ADHD mellett."
     },
     {
@@ -1876,8 +1880,19 @@
       "contact": "+36 20 312 9549, info@neuro-pszichologia.hu",
       "priceNotes": "Teljes diagnosztikai folyamat kb. 6-7 alkalom, összesen 270 000-305 000 Ft, alkalmanként fizetve.",
       "coverImage": "/covers/cerebrum-neuropszichologia.png",
+      "locationStatus": "multiple-confirmed",
+      "locations": [
+        {
+          "label": "Cerebrum Kecskemét",
+          "city": "Kecskemét",
+          "address": "6000 Kecskemét, Vízmű utca 104.",
+          "lat": 46.8980241,
+          "lng": 19.657175,
+          "contact": "+36 20 450 1904, info.kecskemet@neuro-pszichologia.hu"
+        }
+      ],
       "sourceUrl": "https://neuro-pszichologia.hu/autizmus/",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "Kecskeméti telephelyük is van (Vízmű utca 104)."
     },
     {
@@ -1910,8 +1925,9 @@
       "contact": "+36 20 345-8630, előjegyzés: +36 30 911 3830",
       "priceNotes": "Állami ellátás.",
       "coverImage": "/covers/csolnoky-veszprem.png",
+      "locationStatus": "single-confirmed",
       "sourceUrl": "https://csfk.hu/jarobeteg-ellatas/gyermek-es-ifjusagi-pszichiatriai-szakrendeles-es-gondozo/",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "Közép-Dunántúl gyermekpszichiátriai ellátóhelye."
     },
     {
@@ -1938,15 +1954,16 @@
       "summary": "Gyermekpszichiátriai osztály autizmus ambulanciája Debrecenben, beutaló nélkül, előjegyzés alapján.",
       "providerType": "hospital",
       "city": "Debrecen",
-      "address": "4026 Debrecen, Bethlen utca 11-17.",
-      "lat": 47.5370308,
-      "lng": 21.6220505,
+      "address": "4031 Debrecen, Bartók Béla út 3.",
+      "lat": 47.5344252,
+      "lng": 21.5884689,
       "contact": "+36 52/513-688, +36 52/513-687",
       "priceNotes": "Nem igényel beutalót, csak előjegyzést.",
       "coverImage": "/covers/debrecen-autizmus-ambulancia.svg",
+      "locationStatus": "single-confirmed",
       "sourceUrl": "https://klinikaikozpont.unideb.hu/clinic_finder/clinic/5399099",
-      "lastReviewed": "2026-07-04",
-      "body": "Hajdú-Bihar megyén kívülieket csak ritkán fogadnak."
+      "lastReviewed": "2026-07-06",
+      "body": "Hajdú-Bihar megyén kívülieket csak ritkán fogadnak.\n\nAz autizmus ambulancia és a gyermek- és ifjúságpszichiátriai szakrendelés a Kenézy campus Gyermekpszichiátria I. épületében működik (Bartók Béla út 3.)."
     },
     {
       "id": "hu/hetenyi-szolnok",
@@ -1978,8 +1995,9 @@
       "contact": "+36-56/503-603 / 3110, +36-56/372-573",
       "priceNotes": "Állami ellátás. Időpont-egyeztetés munkanapokon 7:30-14:30.",
       "coverImage": "/covers/hetenyi-szolnok.png",
+      "locationStatus": "single-confirmed",
       "sourceUrl": "https://www.hetenyikorhaz.hu/2023/11/22/csecsemo-es-gyermekosztaly-gyermek-es-ifjusagpszichiatriai-osztaly/",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "Jász-Nagykun-Szolnok megye fő gyermekpszichiátriai ellátóhelye."
     },
     {
@@ -2009,8 +2027,9 @@
       "lng": 19.0084849,
       "contact": "elmenyklinika.hu",
       "coverImage": "/covers/istenhegyi-elmenyklinika.jpg",
+      "locationStatus": "single-confirmed",
       "sourceUrl": "https://elmenyklinika.hu/diagnosztika/felnott-adhd-diagnosztika/",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "Nem tévesztendő össze az Istenhegyi Magánklinika gyermekpszichiátriai szakrendelésével (más márkanév, hasonló terület)."
     },
     {
@@ -2043,8 +2062,9 @@
       "contact": "+36 42 599-700 / 1548",
       "priceNotes": "Állami ellátás, előjegyzés szükséges.",
       "coverImage": "/covers/josa-andras-nyiregyhaza.png",
+      "locationStatus": "single-confirmed",
       "sourceUrl": "https://szszbvk.hu/jaro/gyermek-pszichiatria-i/",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "Szabolcs-Szatmár-Bereg megye fő gyermekpszichiátriai ellátóhelye."
     },
     {
@@ -2077,8 +2097,9 @@
       "contact": "+36 82/501-300 / 1113",
       "priceNotes": "Állami ellátás.",
       "coverImage": "/covers/kaposi-mor-korhaz.png",
+      "locationStatus": "single-confirmed",
       "sourceUrl": "https://kaposvar.imami.hu/gyermek-szakrendelesek/gyermek-es-ifjusagpszichiatriai-gondozo-es-szakambulancia",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "Dél-Dunántúl egyik megyei gyermekpszichiátriai centruma."
     },
     {
@@ -2109,77 +2130,10 @@
       "lng": 16.8438836,
       "contact": "+36 92 357 790, +36 70 703 4564",
       "coverImage": "/covers/leda-medical-zalaegerszeg.png",
+      "locationStatus": "single-confirmed",
       "sourceUrl": "https://ledamed.hu/szakterulet/pszichiatria/",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "Zala megye egyik kevés magán pszichiátriai rendelője ADHD-kezeléssel."
-    },
-    {
-      "id": "hu/mars-alapitvany-gardony",
-      "category": "diagnosis",
-      "slug": "mars-alapitvany-gardony",
-      "href": "/hu/diagnosis/mars-alapitvany-gardony/",
-      "tags": [
-        "foundation",
-        "free",
-        "children",
-        "regional"
-      ],
-      "ratings": [],
-      "availability": "in-stock",
-      "ageGroup": "children",
-      "entryType": "full",
-      "curatedBy": "manual",
-      "title": "MARS Alapítvány Diagnózisközpont (Gárdony)",
-      "locale": "hu",
-      "topics": [
-        "autism"
-      ],
-      "summary": "Alapítványi autizmus diagnózisközpont Gárdonyban — orvos, pszichológus és gyógypedagógus közös vizsgálata, 2-18 éves korig térítésmentesen.",
-      "providerType": "foundation",
-      "city": "Gárdony",
-      "address": "2484 Gárdony, Tópart utca 17.",
-      "lat": 47.1953972,
-      "lng": 18.5969264,
-      "contact": "elérhetőség: marsalapitvany.hu",
-      "priceNotes": "2-18 éves korig térítésmentes, 3 vizsgálati alkalom.",
-      "coverImage": "/covers/mars-alapitvany.jpg",
-      "sourceUrl": "https://marsalapitvany.hu/diagnoziskozpont-kereso/",
-      "lastReviewed": "2026-07-04",
-      "body": "A MARS Alapítvány országos hálózatának egyik vidéki központja."
-    },
-    {
-      "id": "hu/mars-alapitvany-salgotarjan",
-      "category": "diagnosis",
-      "slug": "mars-alapitvany-salgotarjan",
-      "href": "/hu/diagnosis/mars-alapitvany-salgotarjan/",
-      "tags": [
-        "foundation",
-        "free",
-        "children",
-        "regional"
-      ],
-      "ratings": [],
-      "availability": "in-stock",
-      "ageGroup": "children",
-      "entryType": "full",
-      "curatedBy": "manual",
-      "title": "MARS Alapítvány Diagnózisközpont (Salgótarján)",
-      "locale": "hu",
-      "topics": [
-        "autism"
-      ],
-      "summary": "Alapítványi autizmus diagnózisközpont Salgótarjánban — orvos, pszichológus és gyógypedagógus közös vizsgálata, 2-18 éves korig térítésmentesen.",
-      "providerType": "foundation",
-      "city": "Salgótarján",
-      "address": "3100 Salgótarján, Füleki út 54-56.",
-      "lat": 48.1113371,
-      "lng": 19.8114074,
-      "contact": "elérhetőség: marsalapitvany.hu",
-      "priceNotes": "2-18 éves korig térítésmentes, 3 vizsgálati alkalom.",
-      "coverImage": "/covers/mars-alapitvany.jpg",
-      "sourceUrl": "https://marsalapitvany.hu/diagnoziskozpont-kereso/",
-      "lastReviewed": "2026-07-04",
-      "body": "A MARS Alapítvány országos hálózatának egyik vidéki központja."
     },
     {
       "id": "hu/nagykallo-adhd-szakambulancia",
@@ -2210,8 +2164,9 @@
       "contact": "adhd.szakrendeles.nagykallo@szszbmk.hu",
       "priceNotes": "Állami ellátás.",
       "coverImage": "/covers/nagykallo-adhd-szakambulancia.png",
+      "locationStatus": "single-confirmed",
       "sourceUrl": "https://www.adhdterapia.hu/vizsgalatihelyszinek",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "Az egyik kevés vidéki, kifejezetten felnőtt ADHD-ra szakosodott állami ambulancia."
     },
     {
@@ -2243,8 +2198,9 @@
       "lng": 18.7122706,
       "contact": "neuroharmonia.hu",
       "coverImage": "/covers/neuroharmonia-szekszard.jpg",
+      "locationStatus": "single-confirmed",
       "sourceUrl": "https://www.neuroharmonia.hu/araink/",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "Tolna megye egyik kevés kifejezetten ADHD/autizmus fókuszú magánközpontja."
     },
     {
@@ -2277,8 +2233,9 @@
       "contact": "nyiro.euintezmeny.hu",
       "priceNotes": "Szakorvosi beutaló kötelező. Országosan, egész Magyarországról fogad pácienseket.",
       "coverImage": "/covers/nyiro-gyula-opai.png",
+      "locationStatus": "single-confirmed",
       "sourceUrl": "https://nyiro.euintezmeny.hu/ellatas/jarobetegellatas/ADHD-Ambulancia/ADHD-Ambulancia",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "Egyike a kevés országos beutalási körzetű ADHD ambulanciának."
     },
     {
@@ -2305,14 +2262,24 @@
       "summary": "Kizárólag ADHD és autizmus spektrumzavar vizsgálatára specializálódott magánközpont, külön felnőtt és gyermek rendelővel.",
       "providerType": "clinic",
       "city": "Budapest",
-      "address": "1012 Budapest, Attila út 129. (felnőtt); 1122 Budapest, Krisztina krt. 19. (gyermek)",
+      "address": "1012 Budapest, Attila út 129.",
       "lat": 47.5035111,
       "lng": 19.0259518,
       "contact": "+36 30 086 40 07, orendaterapia@gmail.com",
       "priceNotes": "ADHD vizsgálat 210 000 Ft. Felnőtt autizmus szakorvosi csomag 340 000 Ft, klinikai csomag 270 000 Ft. Gyermek autizmus diagnosztika pszichiáterrel 320 000 Ft. Várakozási idő kb. 1 hónap.",
       "coverImage": "/covers/orenda-pszichologiai-kozpont.png",
+      "locationStatus": "multiple-confirmed",
+      "locations": [
+        {
+          "label": "Gyermek diagnosztika",
+          "city": "Budapest",
+          "address": "1122 Budapest, Krisztina körút 19.",
+          "lat": 47.5051126,
+          "lng": 19.0236936
+        }
+      ],
       "sourceUrl": "https://www.orendaterapia.hu/",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "Térkép a felnőtt telephelyre (Attila út 129.) mutat — a gyermek rendelő külön címen van."
     },
     {
@@ -2338,14 +2305,25 @@
       "summary": "Budapesti magánklinika (Pest és Buda telephellyel), ADHD és autizmus spektrumzavar kivizsgálásával felnőtteknek és gyerekeknek (4 éves kortól), külön-külön vagy együttesen.",
       "providerType": "clinic",
       "city": "Budapest",
-      "address": "1147 Budapest, Ilosvai Selymes u. 81. (Pest); 1126 Budapest, Derkovits u. 7. (Buda)",
+      "address": "1147 Budapest, Ilosvai Selymes u. 81.",
       "lat": 47.5266426,
       "lng": 19.109699,
       "contact": "panoramaklinika.hu",
       "priceNotes": "Jelenleg nem fogad új pácienseket felnőtt ASD/ADHD kivizsgálásra (ellenőrizve: 2026-07-04).",
       "coverImage": "/covers/panorama-poliklinika.jpg",
+      "locationStatus": "multiple-confirmed",
+      "locations": [
+        {
+          "label": "Panoráma Poliklinika (Buda)",
+          "city": "Budapest",
+          "address": "1126 Budapest, Derkovits utca 7.",
+          "lat": 47.4916657,
+          "lng": 19.0224364,
+          "contact": "+36 70 775 0288, info@panoramaklinika.hu"
+        }
+      ],
       "sourceUrl": "https://panoramaklinika.hu/pszichiatria/adhd-kivizsgalas-felnott-paciensek-szamara/",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "Térkép a Pest-i (Ilosvai Selymes utca) telephelyre mutat."
     },
     {
@@ -2371,15 +2349,16 @@
       "summary": "Állami ADHD ambulancia és krízisintervenciós pszichiátriai osztály Budapesten, kizárólag e-mailes megkereséssel.",
       "providerType": "hospital",
       "city": "Budapest",
-      "address": "1076 Budapest, Péterfy Sándor utca 8-20.",
-      "lat": 47.5036095,
-      "lng": 19.083194,
+      "address": "1074 Budapest, Alsó erdősor utca 7.",
+      "lat": 47.500485,
+      "lng": 19.0747211,
       "contact": "adhd.intervencio@peterfykh.hu (csak e-mail)",
       "priceNotes": "Az előjegyzési időpontok jelenleg beteltek — új páciensek fogadása 2025.09.01-től ígért (ellenőrizve: 2026-07-04, érdemes rákérdezni az aktuális státuszra).",
       "coverImage": "/covers/peterfy-adhd-ambulancia.png",
+      "locationStatus": "single-confirmed",
       "sourceUrl": "https://peterfykh.hu/osztaly/adhd-ambulancia-krizisintervencios-es-pszichiatriai-osztaly-51",
-      "lastReviewed": "2026-07-04",
-      "body": "Csak e-mailben kereshető, telefonos elérhetőség nincs megadva."
+      "lastReviewed": "2026-07-06",
+      "body": "Csak e-mailben kereshető, telefonos elérhetőség nincs megadva.\n\nAz ADHD Ambulancia tényleges rendelési helye a kórház Alsó erdősor utcai telephelye."
     },
     {
       "id": "hu/petz-aladar-gyor",
@@ -2411,8 +2390,9 @@
       "contact": "+36-96/507-985, +36-96/418-244 (mellék 4431)",
       "priceNotes": "Állami ellátás. Időpont-egyeztetés hétfő-csütörtök 14:00-15:00.",
       "coverImage": "/covers/petz-aladar-gyor.svg",
+      "locationStatus": "single-confirmed",
       "sourceUrl": "https://petz.gyor.hu/betegellatas/jarobeteg-ellatas/gyermek-ifjusagi-es-mentalhigienes-szakrendeles",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "Nyugat-Dunántúl fő gyermekpszichiátriai centruma."
     },
     {
@@ -2444,8 +2424,9 @@
       "lng": 18.4129586,
       "contact": "elérhetőség a weboldalon",
       "coverImage": "/covers/pszichologusunk-szekesfehervar.png",
+      "locationStatus": "single-confirmed",
       "sourceUrl": "https://pszichologusunk.hu/autizmus_felmeres",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "Közép-Dunántúlon ritka, kifejezetten ADHD/autizmus fókuszú magánközpont."
     },
     {
@@ -2479,8 +2460,9 @@
       "contact": "+36 72 536 000 / 39065 (recepció), +36 72 536 000 / 39070-39071 (osztály)",
       "priceNotes": "Állami ellátás. Rendelés: csütörtök 8:00-16:00. Vezető szakorvos: Prof. Dr. Csábi Györgyi.",
       "coverImage": "/covers/pte-gyermekklinika.jpg",
+      "locationStatus": "single-confirmed",
       "sourceUrl": "https://aok.pte.hu/hu/egyseg/350",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "Dél-Dunántúl egyik fő gyermekpszichiátriai centruma."
     },
     {
@@ -2512,8 +2494,20 @@
       "contact": "+36-1-210-0330/51243, adhd.ambulancia@semmelweis.hu",
       "priceNotes": "Térítésmentes TAJ-alapon, beutaló kötelező. Kb. 1,5 órás első konzultáció, majd 3-4 további vizsgálati alkalom.",
       "coverImage": "/covers/semmelweis-adhd-ambulancia.png",
+      "locationStatus": "multiple-confirmed",
+      "locations": [
+        {
+          "label": "Felnőtt ADHD szakambulancia",
+          "city": "Budapest",
+          "address": "1092 Budapest, Márton utca 39.",
+          "lat": 47.4809132,
+          "lng": 19.0828496,
+          "contact": "+36 20 825 0185",
+          "note": "A felnőtt ADHD szakambulancia rendelése ezen a telephelyen zajlik."
+        }
+      ],
       "sourceUrl": "https://semmelweis.hu/pszichiatria/betegellatas/adhd-ambulancia/",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "Felnőtt (18+) ADHD diagnosztika, állami ellátásban."
     },
     {
@@ -2545,9 +2539,63 @@
       "lng": 20.3719647,
       "contact": "+36-36/786-232",
       "coverImage": "/covers/sofi-gyula-eger.webp",
+      "locationStatus": "multiple-confirmed",
+      "locations": [
+        {
+          "label": "Budapest I. kerületi rendelő",
+          "city": "Budapest",
+          "address": "1015 Budapest, Csalogány utca 44.",
+          "lat": 47.5078505,
+          "lng": 19.0295467,
+          "contact": "+36 70 421 6264"
+        },
+        {
+          "label": "Budapest XVIII. kerületi rendelő",
+          "city": "Budapest",
+          "address": "1181 Budapest, Sina Simon sétány 8.",
+          "lat": 47.4283154,
+          "lng": 19.1723109,
+          "contact": "+36 70 421 6264"
+        }
+      ],
       "sourceUrl": "https://drsofigyula.hu/gyermekpszichiater-eger/",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "Az egyik kevés Heves megyei magánrendelést végző gyermekpszichiáter."
+    },
+    {
+      "id": "hu/szent-lazar-korhaz-salgotarjan",
+      "category": "diagnosis",
+      "slug": "szent-lazar-korhaz-salgotarjan",
+      "href": "/hu/diagnosis/szent-lazar-korhaz-salgotarjan/",
+      "tags": [
+        "hospital",
+        "state",
+        "children",
+        "regional"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Nógrád Vármegyei Szent Lázár Kórház – Gyermek- és Ifjúságpszichiátriai Gondozó",
+      "locale": "hu",
+      "topics": [
+        "adhd",
+        "autism"
+      ],
+      "summary": "A salgótarjáni megyei kórház gyermek- és ifjúságpszichiátriai gondozója, ADHD és autizmus diagnosztikával Nógrád vármegyében.",
+      "providerType": "hospital",
+      "city": "Salgótarján",
+      "address": "3100 Salgótarján, Füleki út 54-56.",
+      "lat": 48.1113371,
+      "lng": 19.8114074,
+      "contact": "+36 32 522-000",
+      "priceNotes": "Állami, TB-finanszírozott ellátás.",
+      "locationStatus": "single-confirmed",
+      "sourceUrl": "https://szlmk.hu/",
+      "lastReviewed": "2026-07-06",
+      "body": "A gyermek- és ifjúságpszichiátriai gondozó a kórház Füleki úti telephelyén működik, Nógrád vármegye gyermekpszichiátriai szakellátásának egyik állami intézménye. A MARS Alapítvány országos diagnózisközpont-keresőjében is szerepel, mint autizmus-diagnosztikát végző hely."
     },
     {
       "id": "hu/szte-adhd-szakambulancia",
@@ -2579,9 +2627,45 @@
       "contact": "+36 62 341-777 (hétköznap 9-11)",
       "priceNotes": "Szakorvosi beutaló kötelező. Rendelés: kedd 10:00-14:00.",
       "coverImage": "/covers/szte-adhd-szakambulancia.png",
+      "locationStatus": "single-confirmed",
       "sourceUrl": "https://u-szeged.hu/szakk/tajekoztatok/adhd-szakambulancia",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "Állami alternatíva a szegedi Cerebrum magánközpont mellett."
+    },
+    {
+      "id": "hu/toparti-szakszolgalat-gardony",
+      "category": "diagnosis",
+      "slug": "toparti-szakszolgalat-gardony",
+      "href": "/hu/diagnosis/toparti-szakszolgalat-gardony/",
+      "tags": [
+        "clinic",
+        "free",
+        "children",
+        "early-intervention",
+        "regional"
+      ],
+      "ratings": [],
+      "availability": "in-stock",
+      "ageGroup": "children",
+      "entryType": "full",
+      "curatedBy": "manual",
+      "title": "Tóparti Pedagógiai Szakszolgálat és Szakambulancia (Gárdony)",
+      "locale": "hu",
+      "topics": [
+        "autism"
+      ],
+      "summary": "Kora gyermekkori intervenciós szakszolgálat és szakambulancia Gárdonyban — autizmus diagnosztika és korai fejlesztés, országos ellátási körrel.",
+      "providerType": "clinic",
+      "city": "Gárdony",
+      "address": "2484 Gárdony, Tópart utca 17.",
+      "lat": 47.1953972,
+      "lng": 18.5969264,
+      "contact": "szakszolgalat@toparti.hu",
+      "priceNotes": "Térítésmentes; érvényes szakértői vélemény szükséges, az útiköltség megtéríthető.",
+      "locationStatus": "single-confirmed",
+      "sourceUrl": "https://prorekreatione.maltai.hu/toparti-pedagogiai-szakszolgalat/",
+      "lastReviewed": "2026-07-06",
+      "body": "A Tóparti Szakambulancia autizmus-diagnosztikát végez, a Tóparti Pedagógiai Szakszolgálat pedig kora gyermekkori fejlesztést nyújt; mindkettőt a Pro Rekreatione Nonprofit Kft. (Magyar Máltai Szeretetszolgálat) tartja fenn. A MARS Alapítvány országos diagnózisközpont-keresőjében is szerepel."
     },
     {
       "id": "hu/vadaskert-alapitvany",
@@ -2613,8 +2697,9 @@
       "contact": "+36 1 392-1400, info@vadaskert.hu",
       "priceNotes": "Gyermekpszichiáteri vizsgálat 40 000 Ft/60 perc. ADHD vizsgálatra jelenleg várólista, új regisztrációt átmenetileg nem fogadnak (ellenőrizve: 2026-07-04).",
       "coverImage": "/covers/vadaskert-alapitvany.jpg",
+      "locationStatus": "single-confirmed",
       "sourceUrl": "https://vadaskert.hu/adhd-diagnosztika-5-11eves-gyermekek-szamara/",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "Ugyanitt autizmus spektrumzavar diagnosztika is elérhető, külön szolgáltatásként."
     },
     {
@@ -2647,8 +2732,9 @@
       "contact": "+36-30/422-2872 (Gyermekpszichiátria I.), +36-30/682-4143 (Gyermekpszichiátria II.)",
       "priceNotes": "Állami ellátás. Rendelési idő: szerda-csütörtök 9:00-13:00.",
       "coverImage": "/covers/velkey-gyek-miskolc.svg",
+      "locationStatus": "single-confirmed",
       "sourceUrl": "https://www.bazmkorhaz.hu/velkey-laszlo-gyermekegeszsegugyi-kozpont-gyek-jarobeteg-ellatas",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "Szűrő jellegű vizsgálat — komplex ADHD/autizmus diagnózishoz gyakran Budapestre (Autizmus Kutatócsoport) irányítanak."
     },
     {

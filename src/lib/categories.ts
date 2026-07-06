@@ -41,6 +41,7 @@ export const FIELD_LABELS: Record<string, string> = {
   kind: 'Típus', format: 'Formátum', seasons: 'Évadok', dietaryTags: 'Diétás címkék',
   providerType: 'Típus', ageGroup: 'Korosztály',
   city: 'Város', address: 'Cím', contact: 'Elérhetőség', priceNotes: 'Ár megjegyzés',
+  locations: 'További helyszínek', locationStatus: 'Helyszín-státusz',
   director: 'Rendező', year: 'Év', runtimeMinutes: 'Hossz (perc)', streamingUrls: 'Elérhető ezeken',
   authors: 'Szerzők', venue: 'Megjelenés', publicationType: 'Publikáció típusa',
   language: 'Nyelv', doi: 'DOI / azonosító', openAccess: 'Szabadon elérhető',
@@ -54,6 +55,10 @@ export const VALUE_LABELS: Record<string, string> = {
   documentary: 'dokumentumfilm', narrative: 'játékfilm', film: 'film', series: 'sorozat',
   'journal-article': 'szakcikk', review: 'áttekintő tanulmány', 'clinical-trial': 'klinikai vizsgálat',
   hu: 'magyar', en: 'angol', true: 'igen', false: 'nem',
+  // locationStatus (multi-location research outcome)
+  'single-confirmed': 'egyetlen megerősített helyszín',
+  'multiple-confirmed': 'több megerősített helyszín',
+  unsure: 'helyszínek bizonytalanok',
 };
 
 // Categories reachable via the /web/ grid (no physical location). Drives the

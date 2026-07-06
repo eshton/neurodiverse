@@ -13,10 +13,11 @@ lng: 19.0791113
 contact: "nyiro.euintezmeny.hu"
 priceNotes: "Szakorvosi beutaló kötelező. Országosan, egész Magyarországról fogad pácienseket."
 coverImage: "/covers/nyiro-gyula-opai.png"
+locationStatus: single-confirmed
 sourceUrl: "https://nyiro.euintezmeny.hu/ellatas/jarobetegellatas/ADHD-Ambulancia/ADHD-Ambulancia"
 ratings: []
 curatedBy: manual
-lastReviewed: 2026-07-04
+lastReviewed: 2026-07-06
 ---
 
 Egyike a kevés országos beutalási körzetű ADHD ambulanciának.

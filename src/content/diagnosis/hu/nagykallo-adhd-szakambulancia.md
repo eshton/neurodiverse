@@ -13,10 +13,11 @@ lng: 21.8463780
 contact: "adhd.szakrendeles.nagykallo@szszbmk.hu"
 priceNotes: "Állami ellátás."
 coverImage: "/covers/nagykallo-adhd-szakambulancia.png"
+locationStatus: single-confirmed
 sourceUrl: "https://www.adhdterapia.hu/vizsgalatihelyszinek"
 ratings: []
 curatedBy: manual
-lastReviewed: 2026-07-04
+lastReviewed: 2026-07-06
 ---
 
 Az egyik kevés vidéki, kifejezetten felnőtt ADHD-ra szakosodott állami ambulancia.

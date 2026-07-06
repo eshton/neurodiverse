@@ -13,10 +13,11 @@ lng: 17.7990007
 contact: "+36 82/501-300 / 1113"
 priceNotes: "Állami ellátás."
 coverImage: "/covers/kaposi-mor-korhaz.png"
+locationStatus: single-confirmed
 sourceUrl: "https://kaposvar.imami.hu/gyermek-szakrendelesek/gyermek-es-ifjusagpszichiatriai-gondozo-es-szakambulancia"
 ratings: []
 curatedBy: manual
-lastReviewed: 2026-07-04
+lastReviewed: 2026-07-06
 ---
 
 Dél-Dunántúl egyik megyei gyermekpszichiátriai centruma.
