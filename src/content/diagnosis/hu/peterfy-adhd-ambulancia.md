@@ -5,6 +5,8 @@ topics: [adhd]
 summary: "Állami ADHD ambulancia és krízisintervenciós pszichiátriai osztály Budapesten, kizárólag e-mailes megkereséssel."
 tags: [state-funded, adults, waitlist]
 providerType: hospital
+funding: state
+referralRequired: true
 ageGroup: adults
 city: "Budapest"
 address: "1074 Budapest, Alsó erdősor utca 7."

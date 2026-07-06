@@ -5,6 +5,7 @@ interface MapItem {
   lng: number;
   category: 'diagnosis' | 'schools' | 'development' | 'communities' | 'equipment';
   ageGroup: 'children' | 'adults' | 'both';
+  funding?: string | null;
   coverImage?: string;
   href: string;
   key: string;
@@ -67,6 +68,17 @@ const AGE_FILTERS = [
     ))}
   </div>
 
+  <button
+    type="button"
+    id="public-filter"
+    data-public
+    class="text-sm px-3 py-1.5 rounded-full transition sm:pl-3 sm:border-l border-zinc-200 dark:border-zinc-800"
+    aria-pressed="false"
+    title="Csak állami / közfinanszírozott ellátók"
+  >
+    🏛️ Közfinanszírozott
+  </button>
+
   <p id="location-status" class="w-full text-xs text-zinc-500 dark:text-zinc-400"></p>
 </FilterBar>
 
@@ -86,6 +98,7 @@ const AGE_FILTERS = [
     lng: number;
     category: string;
     ageGroup: 'children' | 'adults' | 'both';
+    funding?: string | null;
     coverImage?: string;
     href: string;
     key: string;
@@ -134,6 +147,7 @@ const AGE_FILTERS = [
     const FILTERS_KEY = 'neuro-map-filters';
     const activeTypes = new Set(ALL_TYPES);
     let activeAge: 'both' | 'children' | 'adults' = 'both';
+    let publicOnly = false; // "Közfinanszírozott" toggle — show only state/mixed funding
 
     try {
       const saved = JSON.parse(localStorage.getItem(FILTERS_KEY) ?? 'null');
@@ -141,6 +155,7 @@ const AGE_FILTERS = [
         activeTypes.clear();
         (saved.types ?? ALL_TYPES).forEach((t: string) => activeTypes.add(t));
         if (saved.age) activeAge = saved.age;
+        if (saved.publicOnly) publicOnly = true;
       }
     } catch {
       // ignore corrupt/unavailable storage — fall back to defaults already set above
@@ -152,19 +167,25 @@ const AGE_FILTERS = [
       const urlAge = new URL(location.href).searchParams.get('age');
       if (urlAge === 'children' || urlAge === 'adults' || urlAge === 'both') {
         activeAge = urlAge;
-        localStorage.setItem(FILTERS_KEY, JSON.stringify({ types: [...activeTypes], age: activeAge }));
+        localStorage.setItem(FILTERS_KEY, JSON.stringify({ types: [...activeTypes], age: activeAge, publicOnly }));
       }
     } catch {
       // ignore — no URL/storage access, keep restored/default age
     }
 
     function saveFilters() {
-      localStorage.setItem(FILTERS_KEY, JSON.stringify({ types: [...activeTypes], age: activeAge }));
+      localStorage.setItem(FILTERS_KEY, JSON.stringify({ types: [...activeTypes], age: activeAge, publicOnly }));
     }
 
     function matchesAge(itemAge: string) {
       if (activeAge === 'both') return true;
       return itemAge === activeAge || itemAge === 'both';
+    }
+
+    // Public-funding filter: state or mixed count as publicly accessible.
+    function matchesFunding(item: MapItem) {
+      if (!publicOnly) return true;
+      return item.funding === 'state' || item.funding === 'mixed';
     }
 
     function buildMarker(item: MapItem, animate: boolean) {
@@ -200,7 +221,7 @@ const AGE_FILTERS = [
     let firstRenderThisInit = true;
 
     async function render() {
-      const filtered = items.filter((item) => activeTypes.has(item.category) && matchesAge(item.ageGroup));
+      const filtered = items.filter((item) => activeTypes.has(item.category) && matchesAge(item.ageGroup) && matchesFunding(item));
       const filteredKeys = new Set(filtered.map((item) => item.key));
 
       for (const [key, marker] of markersByKey) {
@@ -277,6 +298,26 @@ const AGE_FILTERS = [
       });
     });
     setActiveAgeButton(activeAge);
+
+    // "Közfinanszírozott" (public only) toggle
+    const publicBtn = document.getElementById('public-filter') as HTMLButtonElement | null;
+    function stylePublic() {
+      if (!publicBtn) return;
+      publicBtn.classList.toggle('bg-brand-600', publicOnly);
+      publicBtn.classList.toggle('text-white', publicOnly);
+      publicBtn.classList.toggle('bg-zinc-100', !publicOnly);
+      publicBtn.classList.toggle('dark:bg-zinc-800', !publicOnly);
+      publicBtn.classList.toggle('text-zinc-600', !publicOnly);
+      publicBtn.classList.toggle('dark:text-zinc-300', !publicOnly);
+      publicBtn.setAttribute('aria-pressed', String(publicOnly));
+    }
+    publicBtn?.addEventListener('click', () => {
+      publicOnly = !publicOnly;
+      stylePublic();
+      saveFilters();
+      render();
+    });
+    stylePublic();
 
     // Location selector: "close to me" + Budapest + 19 counties
     const select = document.getElementById('location-select') as HTMLSelectElement;

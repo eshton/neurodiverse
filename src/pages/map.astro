@@ -34,6 +34,7 @@ const items = (
             coverImage: entry.data.coverImage,
             city: s.city,
             address: s.address,
+            funding: entry.data.funding ?? null,
             href,
             key: `${href}#${i}`,
           }));

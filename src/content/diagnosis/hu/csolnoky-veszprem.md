@@ -5,6 +5,8 @@ topics: [adhd, autism]
 summary: "Veszprémi megyei kórház gyermek- és ifjúságpszichiátriai szakrendelése, autizmus és ADHD diagnosztikával gyermekeknek és serdülőknek."
 tags: [state-funded, children, regional]
 providerType: hospital
+funding: state
+referralRequired: false
 ageGroup: children
 city: "Veszprém"
 address: "8200 Veszprém, Komakút tér 1., II. emelet"

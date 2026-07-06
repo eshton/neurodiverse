@@ -41,6 +41,7 @@ export const FIELD_LABELS: Record<string, string> = {
   handle: 'Fiók', platforms: 'Platformok', priceRange: 'Ár', retailerUrls: 'Vásárlási linkek',
   kind: 'Típus', format: 'Formátum', seasons: 'Évadok', dietaryTags: 'Diétás címkék',
   providerType: 'Típus', ageGroup: 'Korosztály',
+  funding: 'Finanszírozás', referralRequired: 'Beutaló szükséges',
   city: 'Város', address: 'Cím', contact: 'Elérhetőség', priceNotes: 'Ár megjegyzés',
   locations: 'További helyszínek', locationStatus: 'Helyszín-státusz',
   director: 'Rendező', year: 'Év', runtimeMinutes: 'Hossz (perc)', streamingUrls: 'Elérhető ezeken',
@@ -60,6 +61,17 @@ export const VALUE_LABELS: Record<string, string> = {
   'single-confirmed': 'egyetlen megerősített helyszín',
   'multiple-confirmed': 'több megerősített helyszín',
   unsure: 'helyszínek bizonytalanok',
+  // funding (public/private access — GitHub issue #1)
+  state: 'állami / közfinanszírozott', private: 'magán', mixed: 'vegyes (állami + magán)',
+  // providerType values (otherwise rendered as raw English in the detail dl)
+  doctor: 'orvos', clinic: 'klinika', foundation: 'alapítvány', hospital: 'kórház',
+  'expert-committee': 'szakértői bizottság',
+  'mainstream-integration': 'integráló iskola', 'special-needs-school': 'gyógypedagógiai iskola',
+  kindergarten: 'óvoda',
+  psychologist: 'pszichológus', therapist: 'terapeuta',
+  'developmental-pedagogue': 'gyógypedagógus', 'occupational-therapist': 'ergoterapeuta',
+  center: 'központ',
+  'group-therapy': 'csoportterápia', institution: 'intézmény', 'online-group': 'online csoport',
 };
 
 // Categories reachable via the /web/ grid (no physical location). Drives the

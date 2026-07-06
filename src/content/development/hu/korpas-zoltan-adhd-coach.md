@@ -5,6 +5,7 @@ topics: [adhd]
 summary: "Felnőtt ADHD-coaching magyar és angol nyelven, saját ADHD-tapasztalatból kiindulva — önismeret, mindennapi működés és stratégiák."
 tags: [coaching, adults, lived-experience]
 providerType: therapist
+funding: private
 ageGroup: adults
 city: "Budapest"
 address: "1085 Budapest, Horánszky utca 12."

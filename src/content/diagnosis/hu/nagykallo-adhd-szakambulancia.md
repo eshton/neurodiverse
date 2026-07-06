@@ -5,6 +5,7 @@ topics: [adhd]
 summary: "Állami felnőtt ADHD szakambulancia Nagykállóban, a Szabolcs-Szatmár-Bereg Megyei Kórházak rendszerében."
 tags: [state-funded, adults, regional]
 providerType: hospital
+funding: state
 ageGroup: adults
 city: "Nagykálló"
 address: "4320 Nagykálló, Szabadság tér 13."

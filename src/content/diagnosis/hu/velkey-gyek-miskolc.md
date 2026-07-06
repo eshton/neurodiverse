@@ -5,6 +5,7 @@ topics: [adhd, autism]
 summary: "Magyarország második legnagyobb gyermekkórházának gyermekpszichiátriai szakrendelése — szűrő jellegű vizsgálat, szükség esetén továbbirányítással."
 tags: [state-funded, children, regional]
 providerType: hospital
+funding: state
 ageGroup: children
 city: "Miskolc"
 address: "3526 Miskolc, Szentpéteri kapu 72-76."

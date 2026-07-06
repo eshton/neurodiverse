@@ -5,6 +5,7 @@ topics: [adhd]
 summary: "Zalaegerszegi magánklinika pszichiátriai szakrendelése, dr. med. habil. Alotti Nasri pszichiáter szakorvossal, hangulatzavarok, szorongás és ADHD kezelésével felnőtteknek."
 tags: [private, adults, regional]
 providerType: clinic
+funding: private
 ageGroup: adults
 city: "Zalaegerszeg"
 address: "8900 Zalaegerszeg, Ady Endre út 58."

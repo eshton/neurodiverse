@@ -5,6 +5,7 @@ topics: [adhd, autism]
 summary: "Kizárólag ADHD és autizmus spektrumzavar vizsgálatára specializálódott magánközpont, külön felnőtt és gyermek rendelővel."
 tags: [private, all-ages, specialized]
 providerType: clinic
+funding: private
 ageGroup: both
 city: "Budapest"
 address: "1012 Budapest, Attila út 129."

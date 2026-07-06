@@ -5,6 +5,8 @@ topics: [adhd]
 summary: "Egyetemi állami felnőtt ADHD szakambulancia Szegeden, szakorvosi beutalóval, 18 éves kortól — köztük gyerekkorban már diagnosztizáltaknak és most először vizsgáltatóknak is."
 tags: [state-funded, adults, university-clinic, referral-required]
 providerType: hospital
+funding: state
+referralRequired: true
 ageGroup: adults
 city: "Szeged"
 address: "6720 Szeged, Korányi fasor 8. I. emelet 147."

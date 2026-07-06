@@ -5,6 +5,7 @@ topics: [adhd, autism]
 summary: "A salgótarjáni megyei kórház gyermek- és ifjúságpszichiátriai gondozója, ADHD és autizmus diagnosztikával Nógrád vármegyében."
 tags: [hospital, state, children, regional]
 providerType: hospital
+funding: state
 ageGroup: children
 city: "Salgótarján"
 address: "3100 Salgótarján, Füleki út 54-56."

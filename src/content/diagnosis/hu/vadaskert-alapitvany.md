@@ -5,6 +5,7 @@ topics: [adhd, autism]
 summary: "Gyermek- és ifjúságpszichiátriai kórház és szakambulancia, ADHD (5-11 év) és autizmus spektrumzavar diagnosztikával."
 tags: [foundation, children, waitlist]
 providerType: foundation
+funding: mixed
 ageGroup: children
 city: "Budapest"
 address: "1021 Budapest, Lipótmezei út 1-5."

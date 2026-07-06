@@ -5,6 +5,7 @@ topics: [autism]
 summary: "Kora gyermekkori intervenciós szakszolgálat és szakambulancia Gárdonyban — autizmus diagnosztika és korai fejlesztés, országos ellátási körrel."
 tags: [clinic, free, children, early-intervention, regional]
 providerType: clinic
+funding: state
 ageGroup: children
 city: "Gárdony"
 address: "2484 Gárdony, Tópart utca 17."

@@ -40,6 +40,19 @@ const multiLocation = {
   locationStatus: z.enum(['single-confirmed', 'multiple-confirmed', 'unsure']).optional(),
 };
 
+// Funding/access model for the beutaló-based (state-funded) service layer,
+// mixed into the referral-relevant mappable categories (diagnosis/schools/
+// development). Optional so existing entries validate; backfilled from each
+// entry's own summary/priceNotes where the model is already stated, and set on
+// every public/state entry. Powers the map's "közfinanszírozott" filter — see
+// GitHub issue #1.
+//   funding: state = TB/köz-financed · private = self-pay · mixed = both
+//   referralRequired: is a beutaló (GP/specialist referral) needed?
+const access = {
+  funding: z.enum(['state', 'private', 'mixed']).optional(),
+  referralRequired: z.boolean().optional(),
+};
+
 const base = z.object({
   title: z.string(),
   locale: z.enum(['hu', 'uk', 'us']),
@@ -143,7 +156,10 @@ export const collections = {
     ...multiLocation,
   }),
   diagnosis: collectionFor('diagnosis', {
-    providerType: z.enum(['doctor', 'clinic', 'foundation', 'hospital']),
+    // `expert-committee` = Tanulási Képességet Vizsgáló Szakértői Bizottság —
+    // state SNI-assessment committees (~1/county), assessment-adjacent so they
+    // live here on the diagnosis map rather than a separate category (issue #1).
+    providerType: z.enum(['doctor', 'clinic', 'foundation', 'hospital', 'expert-committee']),
     city: z.string(),
     address: z.string().optional(),
     lat: z.number().optional(),
@@ -151,6 +167,7 @@ export const collections = {
     contact: z.string().optional(),
     priceNotes: z.string().optional(),
     ...multiLocation,
+    ...access,
   }),
   schools: collectionFor('schools', {
     providerType: z.enum(['mainstream-integration', 'special-needs-school', 'kindergarten']),
@@ -161,6 +178,7 @@ export const collections = {
     contact: z.string().optional(),
     priceNotes: z.string().optional(),
     ...multiLocation,
+    ...access,
   }),
   development: collectionFor('development', {
     providerType: z.enum(['psychologist', 'therapist', 'developmental-pedagogue', 'occupational-therapist', 'center']),
@@ -171,6 +189,7 @@ export const collections = {
     contact: z.string().optional(),
     priceNotes: z.string().optional(),
     ...multiLocation,
+    ...access,
   }),
 };
 

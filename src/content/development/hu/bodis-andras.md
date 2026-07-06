@@ -5,6 +5,7 @@ topics: [adhd]
 summary: "Felnőttkori ADHD-ra specializálódott klinikai szakpszichológus a WellWay Clinics-en, terápiás gondozással a diagnózis után."
 tags: [private, psychologist]
 providerType: psychologist
+funding: private
 ageGroup: adults
 city: "Budapest"
 address: "1052 Budapest, Szervita tér 8."

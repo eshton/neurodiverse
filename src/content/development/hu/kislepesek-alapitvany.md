@@ -5,6 +5,7 @@ topics: [autism]
 summary: "Magyarország egyik első ABA (alkalmazott viselkedéselemzés) terápiás központja, 2008 óta autista gyerekek fejlesztésével."
 tags: [aba, foundation, since-2008]
 providerType: center
+funding: mixed
 ageGroup: children
 city: "Budapest"
 address: "1118 Budapest, Ménesi út 31/A, 2. emelet 12."

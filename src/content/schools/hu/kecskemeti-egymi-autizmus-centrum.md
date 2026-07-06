@@ -5,6 +5,7 @@ topics: [autism]
 summary: "Bács-Kiskun megyei gyógypedagógiai intézmény autizmus centruma, 3 intézményegységben, 3-24 éves korig, több mint száz autista fejlesztésével."
 tags: [state, egymi, regional]
 providerType: special-needs-school
+funding: state
 ageGroup: children
 city: "Kecskemét"
 address: "6000 Kecskemét, Szalag utca 9."

@@ -5,6 +5,7 @@ topics: [autism]
 summary: "Befogadó óvoda a XIII. kerületben, amely ép intellektusú, autizmus spektrumzavarral élő gyerekeket integrál tipikusan fejlődő társaik közé."
 tags: [state, integration, kindergarten]
 providerType: kindergarten
+funding: state
 ageGroup: children
 city: "Budapest"
 address: "1139 Budapest, Országbíró utca 10."

@@ -5,6 +5,7 @@ topics: [adhd, autism]
 summary: "Budapesti magánklinika (Pest és Buda telephellyel), ADHD és autizmus spektrumzavar kivizsgálásával felnőtteknek és gyerekeknek (4 éves kortól), külön-külön vagy együttesen."
 tags: [private, all-ages]
 providerType: clinic
+funding: private
 ageGroup: both
 city: "Budapest"
 address: "1147 Budapest, Ilosvai Selymes u. 81."

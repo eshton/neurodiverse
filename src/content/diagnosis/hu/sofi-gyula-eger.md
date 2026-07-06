@@ -5,6 +5,7 @@ topics: [adhd, autism]
 summary: "Gyermek- és serdülőpszichiáter magánrendelése Egerben, ADHD, autizmus, szorongásos és magatartászavarok teljes körű vizsgálatával és gondozásával."
 tags: [private, doctor, regional]
 providerType: doctor
+funding: private
 ageGroup: children
 city: "Eger"
 address: "3300 Eger, Vallon utca 62. (Platán Egészségcentrum)"

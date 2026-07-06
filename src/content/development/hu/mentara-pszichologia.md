@@ -5,6 +5,7 @@ topics: [adhd]
 summary: "Felnőtt ADHD-val élők készségfejlesztő támogatása — időgazdálkodás, figyelem, emocionális szabályozás, lépésről lépésre haladó megközelítéssel."
 tags: [private, adults]
 providerType: center
+funding: private
 ageGroup: adults
 city: "Budapest"
 address: "1094 Budapest, Angyal utca 13. 4. emelet 3."
