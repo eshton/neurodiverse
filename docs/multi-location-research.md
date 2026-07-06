@@ -31,6 +31,16 @@ The task was prompted by "MARS Alapítvány is in many places." Investigation sh
 - `mars-alapitvany-salgotarjan` → **Nógrád Vármegyei Szent Lázár Kórház** (`szent-lazar-korhaz-salgotarjan`)
 - `mars-alapitvany-gardony` → **Tóparti Pedagógiai Szakszolgálat és Szakambulancia** (`toparti-szakszolgalat-gardony`)
 
+## Open follow-ups (not done this pass)
+
+Deliberately left for a human/second-source decision or a later pass:
+
+- **Equipment (not researched).** Only one equipment entry has a location (`calmer-fuldugo`), so the category was skipped this pass. Research it if/when more located retailers are added.
+- **Address discrepancies flagged, not overturned** (each needs a second source or a human call): `prizma-egymi` székhely postcode 1047 vs 1134 (Váci út 57) — verify the primary pin; `fejleszto-palota` may have moved to Epres sor 1.; `kislepesek-alapitvany` therapy at Fürj u. 4/a vs postal HQ Ménesi u. 31/A; `vikote` rendelő at Baross u. 119/A vs Kálvária tér 16 (training venue); `terc` sessions mostly at Delej u. 21 (same campus); `mentara` operations reportedly taken over by Orchidea Központ.
+- **`unsure` entries to revisit:** `bacs-kiskun-kecskemet` (Kalocsa/Kiskunfélegyháza campuses — is the child-psych ambulancia there?), `turbotanoda` (II. kerületi candidate addresses — which are active teaching sites?), `bodis-andras` (which/how many WellWay sites), `leonardokid` (own site was dead).
+- **Known extra site with no verifiable address:** `egy-masik-ut-pecs` — the foundation runs a Szeged centre too, but its street address couldn't be confirmed (JS-only site); no pin added.
+- **`adhd-magyarorszag-alapitvany`** — real street address found (Pálföldi Majorság, Kis-Közép út 10/B, Cegléd) but Nominatim couldn't geocode it, so it stays pin-less; noted in the entry body.
+
 ## Status by entry
 
 ### diagnosis (28) — researched 2026-07-06 (all)
