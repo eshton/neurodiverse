@@ -1,47 +1,176 @@
 ---
-import MapLayout from '../layouts/MapLayout.astro';
-import MapExplorer from '../components/MapExplorer.astro';
-import DetailPanel from '../components/DetailPanel.astro';
-import { getCollection } from 'astro:content';
-import { MAP_PIN_CATEGORIES } from '../lib/categories';
-
-const items = (
-  await Promise.all(
-    MAP_PIN_CATEGORIES.map(async (category) => {
-      const entries = await getCollection(category as any, (entry: any) => entry.data.locale === 'hu');
-      // One pin per physical site: the primary (top-level) location plus any
-      // additional `locations[]`. A clinic with two departments shows two pins,
-      // all linking back to the same detail page. Keyed by href#i so MapExplorer
-      // can add/remove individual pins on filter changes without collisions.
-      return entries.flatMap((entry: any) => {
-        const href = `/hu/${category}/${entry.id.split('/').slice(1).join('/')}/`;
-        const sites = [
-          { lat: entry.data.lat, lng: entry.data.lng, city: entry.data.city, address: entry.data.address },
-          ...(entry.data.locations ?? []).map((l: any) => ({ lat: l.lat, lng: l.lng, city: l.city, address: l.address })),
-        ];
-        return sites
-          .filter((s: any) => s.lat != null && s.lng != null)
-          .map((s: any, i: number) => ({
-            title: entry.data.title,
-            lat: s.lat,
-            lng: s.lng,
-            category,
-            ageGroup: entry.data.ageGroup,
-            coverImage: entry.data.coverImage,
-            city: s.city,
-            address: s.address,
-            href,
-            key: `${href}#${i}`,
-          }));
-      });
-    })
-  )
-).flat();
+// Landing / front door. Two choosers:
+//   1. Audience — "Mi jellemez a leginkább?" Parent (→ children) vs Adult (→ adults).
+//      A pick is optional; it presets the age filter on the destination via ?age=.
+//   2. Mode — Térkép / Web / Chat, linking to the three subsites /map, /web, /chat.
+// Uses the standard Layout (header + footer), unlike the full-bleed map/chat.
+import Layout from '../layouts/Layout.astro';
 ---
-<MapLayout
+<Layout
   title="Neurodiverz Térkép | ADHD és autizmus források Magyarországon"
-  description="Interaktív térkép ADHD- és autizmus-forrásokról Magyarországon: diagnózis, iskolák, fejlesztő központok, közösségek és segédeszközök egy helyen, helyszín szerint böngészve."
+  description="Kurátorolt ADHD- és autizmus-források Magyarországon. Válaszd ki, mi jellemez a leginkább, majd böngéssz térképen, listában, vagy kérdezz a segítőnktől."
 >
-  <MapExplorer items={items} />
-  <DetailPanel />
-</MapLayout>
+  <div class="text-center max-w-2xl mx-auto mb-10">
+    <h1 class="text-3xl sm:text-4xl font-bold tracking-tight mb-3">Hogyan segíthetünk?</h1>
+    <p class="text-zinc-600 dark:text-zinc-400">
+      Kurátorolt, ellenőrzött ADHD- és autizmus-források Magyarországon. Mondd el, mi jellemez a leginkább — a többit rád szabjuk.
+    </p>
+  </div>
+
+  {/* Chooser 1 — audience */}
+  <section class="mb-12" aria-labelledby="audience-heading">
+    <h2 id="audience-heading" class="text-sm font-semibold uppercase tracking-wide text-zinc-500 dark:text-zinc-400 mb-4">
+      1. Mi jellemez a leginkább?
+    </h2>
+    <div class="grid gap-4 sm:grid-cols-2" id="audience-group" role="group" aria-label="Mi jellemez a leginkább?">
+      <button
+        type="button"
+        data-audience="children"
+        aria-pressed="false"
+        class="audience-card group flex items-center gap-4 text-left rounded-2xl border-2 border-zinc-200 dark:border-zinc-800 p-5 transition hover:border-brand-400 hover:shadow-sm"
+      >
+        <span class="shrink-0 text-brand-600 dark:text-brand-400">
+          <svg width="56" height="56" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+            <circle cx="24" cy="16" r="8" fill="currentColor"/>
+            <path d="M10 52c0-8 6.3-14 14-14s14 6 14 14" fill="currentColor" opacity="0.85"/>
+            <circle cx="46" cy="26" r="6" fill="currentColor" opacity="0.55"/>
+            <path d="M37 52c0-6 4-10 9-10s9 4 9 10" fill="currentColor" opacity="0.55"/>
+          </svg>
+        </span>
+        <span class="min-w-0">
+          <span class="block font-semibold text-lg">Szülő vagyok</span>
+          <span class="block text-sm text-zinc-600 dark:text-zinc-400">Gyermekemnek keresek segítséget</span>
+        </span>
+      </button>
+
+      <button
+        type="button"
+        data-audience="adults"
+        aria-pressed="false"
+        class="audience-card group flex items-center gap-4 text-left rounded-2xl border-2 border-zinc-200 dark:border-zinc-800 p-5 transition hover:border-brand-400 hover:shadow-sm"
+      >
+        <span class="shrink-0 text-brand-600 dark:text-brand-400">
+          <svg width="56" height="56" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+            <circle cx="32" cy="18" r="10" fill="currentColor"/>
+            <path d="M12 54c0-11 9-19 20-19s20 8 20 19" fill="currentColor" opacity="0.85"/>
+          </svg>
+        </span>
+        <span class="min-w-0">
+          <span class="block font-semibold text-lg">Felnőtt vagyok</span>
+          <span class="block text-sm text-zinc-600 dark:text-zinc-400">Magamnak keresek segítséget</span>
+        </span>
+      </button>
+    </div>
+    <p class="mt-2 text-xs text-zinc-400 dark:text-zinc-500">Nem kötelező — a választásod csak előszűri a korosztályt.</p>
+  </section>
+
+  {/* Chooser 2 — mode */}
+  <section aria-labelledby="mode-heading">
+    <h2 id="mode-heading" class="text-sm font-semibold uppercase tracking-wide text-zinc-500 dark:text-zinc-400 mb-4">
+      2. Hogyan böngésznél?
+    </h2>
+    <div class="grid gap-4 sm:grid-cols-3">
+      <a
+        href="/map"
+        data-mode
+        class="mode-card group flex flex-col items-center text-center rounded-2xl border-2 border-zinc-200 dark:border-zinc-800 p-6 transition hover:border-brand-400 hover:shadow-md hover:-translate-y-0.5"
+      >
+        <span class="text-brand-600 dark:text-brand-400 mb-3">
+          <svg width="64" height="64" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+            <path d="M6 16l16-6 20 6 16-6v42l-16 6-20-6-16 6z" fill="currentColor" opacity="0.18"/>
+            <path d="M22 10v42M42 16v42" stroke="currentColor" stroke-width="2" opacity="0.5"/>
+            <path d="M32 8c-6 0-11 5-11 11 0 8 11 18 11 18s11-10 11-18c0-6-5-11-11-11z" fill="currentColor"/>
+            <circle cx="32" cy="19" r="4" fill="#fff"/>
+          </svg>
+        </span>
+        <span class="font-semibold text-lg">Térkép</span>
+        <span class="mt-1 text-sm text-zinc-600 dark:text-zinc-400">Helyszín szerint: klinikák, iskolák, fejlesztők, közösségek, boltok</span>
+      </a>
+
+      <a
+        href="/web/"
+        data-mode
+        class="mode-card group flex flex-col items-center text-center rounded-2xl border-2 border-zinc-200 dark:border-zinc-800 p-6 transition hover:border-brand-400 hover:shadow-md hover:-translate-y-0.5"
+      >
+        <span class="text-brand-600 dark:text-brand-400 mb-3">
+          <svg width="64" height="64" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+            <rect x="8" y="12" width="48" height="40" rx="4" fill="currentColor" opacity="0.18"/>
+            <rect x="8" y="12" width="48" height="10" rx="4" fill="currentColor"/>
+            <rect x="13" y="28" width="16" height="8" rx="2" fill="currentColor"/>
+            <rect x="35" y="28" width="16" height="8" rx="2" fill="currentColor" opacity="0.6"/>
+            <rect x="13" y="40" width="16" height="8" rx="2" fill="currentColor" opacity="0.6"/>
+            <rect x="35" y="40" width="16" height="8" rx="2" fill="currentColor"/>
+          </svg>
+        </span>
+        <span class="font-semibold text-lg">Web</span>
+        <span class="mt-1 text-sm text-zinc-600 dark:text-zinc-400">Böngészhető lista: könyvek, podcastok, filmek, cikkek, kutatás</span>
+      </a>
+
+      <a
+        href="/chat"
+        data-mode
+        class="mode-card group flex flex-col items-center text-center rounded-2xl border-2 border-zinc-200 dark:border-zinc-800 p-6 transition hover:border-brand-400 hover:shadow-md hover:-translate-y-0.5"
+      >
+        <span class="text-brand-600 dark:text-brand-400 mb-3">
+          <svg width="64" height="64" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+            <path d="M8 14h34a4 4 0 014 4v16a4 4 0 01-4 4H22l-10 8V38H8a4 4 0 01-4-4V18a4 4 0 014-4z" fill="currentColor"/>
+            <circle cx="17" cy="26" r="2.5" fill="#fff"/>
+            <circle cx="25" cy="26" r="2.5" fill="#fff"/>
+            <circle cx="33" cy="26" r="2.5" fill="#fff"/>
+            <path d="M40 28h16a4 4 0 014 4v12a4 4 0 01-4 4h-2v7l-8-7h-6a4 4 0 01-4-4v-1" fill="currentColor" opacity="0.5"/>
+          </svg>
+        </span>
+        <span class="font-semibold text-lg">Chat</span>
+        <span class="mt-1 text-sm text-zinc-600 dark:text-zinc-400">Kérdezz szabadon a segítőnktől — hamarosan</span>
+      </a>
+    </div>
+  </section>
+</Layout>
+
+<script>
+  // Audience selection is optional and non-destructive: picking Parent/Adult
+  // highlights the card, remembers the choice (localStorage), and appends
+  // ?age=children|adults to the three mode links so /map and /web open with the
+  // age filter preset. With JS off, the mode links still work (no param).
+  function initLanding() {
+    const group = document.getElementById('audience-group');
+    if (!group) return; // not on the landing page
+    const cards = Array.from(document.querySelectorAll<HTMLButtonElement>('.audience-card'));
+    const modeLinks = Array.from(document.querySelectorAll<HTMLAnchorElement>('a[data-mode]'));
+    const KEY = 'neuro-audience';
+
+    // Base (param-less) href for each mode link, captured once.
+    const bases = new Map(modeLinks.map((a) => [a, a.getAttribute('href')!.split('?')[0]]));
+
+    let audience: string | null = null;
+    try { audience = localStorage.getItem(KEY); } catch {}
+    if (audience !== 'children' && audience !== 'adults') audience = null;
+
+    const apply = () => {
+      cards.forEach((c) => {
+        const on = c.dataset.audience === audience;
+        c.setAttribute('aria-pressed', String(on));
+        c.classList.toggle('border-brand-500', on);
+        c.classList.toggle('bg-brand-50', on);
+        c.classList.toggle('dark:bg-brand-950', on);
+        c.classList.toggle('dark:border-brand-500', on);
+      });
+      modeLinks.forEach((a) => {
+        const base = bases.get(a)!;
+        a.setAttribute('href', audience ? `${base}?age=${audience}` : base);
+      });
+    };
+
+    cards.forEach((c) =>
+      c.addEventListener('click', () => {
+        audience = audience === c.dataset.audience ? null : c.dataset.audience!;
+        try { audience ? localStorage.setItem(KEY, audience) : localStorage.removeItem(KEY); } catch {}
+        apply();
+      })
+    );
+
+    apply();
+  }
+
+  document.addEventListener('astro:page-load', initLanding);
+</script>

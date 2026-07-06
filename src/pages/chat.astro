@@ -1,0 +1,173 @@
+---
+// /chat — classic conversational AI interface. UI is complete; the backend is a
+// placeholder for a planned Ollama Cloud integration, so sending a message just
+// echoes a canned "coming soon" assistant reply (no network call, no data leaves
+// the browser — consistent with the site's privacy stance). Full-bleed like the
+// map, so it uses MapLayout (header, no footer).
+import MapLayout from '../layouts/MapLayout.astro';
+
+const SUGGESTIONS = [
+  'Hol kaphat a gyerekem autizmus-diagnózist a közelemben?',
+  'Milyen könyvet ajánlotok felnőtt ADHD-ról?',
+  'Mi a különbség a diagnózis és a fejlesztés között?',
+];
+---
+<MapLayout
+  title="Chat | Neurodiverz Térkép"
+  description="Beszélgetős segítő ADHD- és autizmus-kérdésekhez. Hamarosan — Ollama Cloud integrációval."
+>
+  <!-- Preview banner -->
+  <div class="shrink-0 bg-amber-50 dark:bg-amber-950/40 border-b border-amber-200 dark:border-amber-900 px-4 py-2 text-center text-xs text-amber-800 dark:text-amber-300">
+    Előnézet — a beszélgetős segítő hamarosan az <strong>Ollama Cloud</strong>hoz csatlakozik. Egyelőre a válaszok helyőrzők.
+  </div>
+
+  <!-- Message thread -->
+  <div
+    id="chat-thread"
+    class="flex-1 overflow-y-auto"
+    role="log"
+    aria-live="polite"
+    aria-label="Beszélgetés"
+  >
+    <div class="max-w-2xl mx-auto px-4 py-6 space-y-4" id="chat-messages">
+      <!-- assistant welcome -->
+      <div class="flex gap-3">
+        <div class="shrink-0 w-8 h-8 rounded-full bg-brand-600 text-white flex items-center justify-center text-sm" aria-hidden="true">✦</div>
+        <div class="rounded-2xl rounded-tl-sm bg-zinc-100 dark:bg-zinc-800 px-4 py-3 text-sm text-zinc-800 dark:text-zinc-100 max-w-[85%]">
+          <p>Szia! Segítek eligazodni az ADHD- és autizmus-források között Magyarországon — diagnózis, iskolák, fejlesztés, közösségek, könyvek és több.</p>
+          <p class="mt-2 text-zinc-500 dark:text-zinc-400">Miben segíthetek? Válassz egy javaslatot, vagy írj szabadon.</p>
+        </div>
+      </div>
+
+      <!-- suggestion chips -->
+      <div class="flex flex-wrap gap-2 pl-11" id="chat-suggestions">
+        {SUGGESTIONS.map((s) => (
+          <button
+            type="button"
+            data-suggestion={s}
+            class="text-left text-sm px-3 py-1.5 rounded-full border border-zinc-300 dark:border-zinc-700 text-zinc-700 dark:text-zinc-300 hover:border-brand-400 hover:bg-brand-50 dark:hover:bg-brand-950 transition"
+          >
+            {s}
+          </button>
+        ))}
+      </div>
+    </div>
+  </div>
+
+  <!-- Composer -->
+  <div class="shrink-0 border-t border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-950">
+    <form id="chat-form" class="max-w-2xl mx-auto px-4 py-3 flex items-end gap-2">
+      <label for="chat-input" class="sr-only">Írd be az üzeneted</label>
+      <textarea
+        id="chat-input"
+        rows="1"
+        placeholder="Írj egy üzenetet…"
+        class="flex-1 resize-none max-h-40 rounded-2xl border border-zinc-300 dark:border-zinc-700 bg-zinc-50 dark:bg-zinc-900 px-4 py-2.5 text-sm text-zinc-800 dark:text-zinc-100 placeholder:text-zinc-400 focus:outline-none focus:ring-2 focus:ring-brand-500"
+      ></textarea>
+      <button
+        type="submit"
+        id="chat-send"
+        aria-label="Küldés"
+        class="shrink-0 w-11 h-11 rounded-full bg-brand-600 text-white flex items-center justify-center hover:bg-brand-700 disabled:opacity-40 disabled:cursor-not-allowed transition"
+      >
+        <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M4 12l16-8-6 16-3-6-7-2z" fill="currentColor"/>
+        </svg>
+      </button>
+    </form>
+    <p class="max-w-2xl mx-auto px-4 pb-3 -mt-1 text-[11px] text-zinc-400 dark:text-zinc-500">
+      A segítő nem ad orvosi diagnózist. Sürgős esetben fordulj szakemberhez.
+    </p>
+  </div>
+</MapLayout>
+
+<script>
+  // Mock conversation loop. No backend yet: a sent message is echoed and answered
+  // with a fixed placeholder. Wired on astro:page-load so it survives View
+  // Transitions (elements are fresh after each swap, so listeners rebind cleanly).
+  function initChat() {
+    const form = document.getElementById('chat-form') as HTMLFormElement | null;
+    if (!form) return; // not on the chat page
+    const input = document.getElementById('chat-input') as HTMLTextAreaElement;
+    const messages = document.getElementById('chat-messages') as HTMLElement;
+    const thread = document.getElementById('chat-thread') as HTMLElement;
+
+    const esc = (v: string) =>
+      v.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c] as string));
+    const scrollDown = () => { thread.scrollTop = thread.scrollHeight; };
+
+    function addUser(text: string) {
+      const el = document.createElement('div');
+      el.className = 'flex gap-3 justify-end';
+      el.innerHTML =
+        `<div class="rounded-2xl rounded-tr-sm bg-brand-600 text-white px-4 py-3 text-sm max-w-[85%] whitespace-pre-wrap">${esc(text)}</div>`;
+      messages.appendChild(el);
+      scrollDown();
+    }
+
+    function addTyping(): HTMLElement {
+      const el = document.createElement('div');
+      el.className = 'flex gap-3';
+      el.innerHTML =
+        `<div class="shrink-0 w-8 h-8 rounded-full bg-brand-600 text-white flex items-center justify-center text-sm" aria-hidden="true">✦</div>` +
+        `<div class="rounded-2xl rounded-tl-sm bg-zinc-100 dark:bg-zinc-800 px-4 py-3 text-sm text-zinc-500 dark:text-zinc-400">
+           <span class="inline-flex gap-1"><span class="chat-dot">•</span><span class="chat-dot">•</span><span class="chat-dot">•</span></span>
+         </div>`;
+      messages.appendChild(el);
+      scrollDown();
+      return el;
+    }
+
+    function addAssistant(html: string) {
+      const el = document.createElement('div');
+      el.className = 'flex gap-3';
+      el.innerHTML =
+        `<div class="shrink-0 w-8 h-8 rounded-full bg-brand-600 text-white flex items-center justify-center text-sm" aria-hidden="true">✦</div>` +
+        `<div class="rounded-2xl rounded-tl-sm bg-zinc-100 dark:bg-zinc-800 px-4 py-3 text-sm text-zinc-800 dark:text-zinc-100 max-w-[85%]">${html}</div>`;
+      messages.appendChild(el);
+      scrollDown();
+    }
+
+    function send(text: string) {
+      const trimmed = text.trim();
+      if (!trimmed) return;
+      document.getElementById('chat-suggestions')?.remove();
+      addUser(trimmed);
+      input.value = '';
+      input.style.height = 'auto';
+      const typing = addTyping();
+      // Placeholder response — replace this block with the Ollama Cloud call.
+      setTimeout(() => {
+        typing.remove();
+        addAssistant(
+          `<p>Köszönöm a kérdésed! A beszélgetős segítő még fejlesztés alatt áll — hamarosan az <strong>Ollama Cloud</strong>hoz csatlakozik, és valódi, forrásokkal alátámasztott válaszokat ad.</p>` +
+          `<p class="mt-2 text-zinc-500 dark:text-zinc-400">Addig is böngéssz a <a href="/map" class="text-brand-700 dark:text-brand-300 underline">térképen</a> vagy a <a href="/web/" class="text-brand-700 dark:text-brand-300 underline">Web nézetben</a>.</p>`
+        );
+      }, 700);
+    }
+
+    form.addEventListener('submit', (e) => { e.preventDefault(); send(input.value); });
+    input.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); send(input.value); }
+    });
+    // Auto-grow textarea up to its max-height.
+    input.addEventListener('input', () => {
+      input.style.height = 'auto';
+      input.style.height = Math.min(input.scrollHeight, 160) + 'px';
+    });
+    document.querySelectorAll<HTMLButtonElement>('[data-suggestion]').forEach((b) =>
+      b.addEventListener('click', () => send(b.dataset.suggestion!))
+    );
+  }
+
+  document.addEventListener('astro:page-load', initChat);
+</script>
+
+<style>
+  /* Typing indicator: three dots pulsing in sequence. Respects reduced-motion
+     via the global rule that near-zeroes animations. */
+  .chat-dot { animation: chat-blink 1.2s infinite both; font-size: 1.2em; line-height: 1; }
+  .chat-dot:nth-child(2) { animation-delay: 0.2s; }
+  .chat-dot:nth-child(3) { animation-delay: 0.4s; }
+  @keyframes chat-blink { 0%, 80%, 100% { opacity: 0.25; } 40% { opacity: 1; } }
+</style>

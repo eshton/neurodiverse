@@ -1,0 +1,51 @@
+---
+// The map browsing surface, /map. Was the site's front door (/) until the
+// redesign moved the landing chooser to / — this page is unchanged otherwise.
+// The audience choice from the landing arrives as ?age=children|adults and is
+// applied by MapExplorer's filter init.
+import MapLayout from '../layouts/MapLayout.astro';
+import MapExplorer from '../components/MapExplorer.astro';
+import DetailPanel from '../components/DetailPanel.astro';
+import { getCollection } from 'astro:content';
+import { MAP_PIN_CATEGORIES } from '../lib/categories';
+
+const items = (
+  await Promise.all(
+    MAP_PIN_CATEGORIES.map(async (category) => {
+      const entries = await getCollection(category as any, (entry: any) => entry.data.locale === 'hu');
+      // One pin per physical site: the primary (top-level) location plus any
+      // additional `locations[]`. A clinic with two departments shows two pins,
+      // all linking back to the same detail page. Keyed by href#i so MapExplorer
+      // can add/remove individual pins on filter changes without collisions.
+      return entries.flatMap((entry: any) => {
+        const href = `/hu/${category}/${entry.id.split('/').slice(1).join('/')}/`;
+        const sites = [
+          { lat: entry.data.lat, lng: entry.data.lng, city: entry.data.city, address: entry.data.address },
+          ...(entry.data.locations ?? []).map((l: any) => ({ lat: l.lat, lng: l.lng, city: l.city, address: l.address })),
+        ];
+        return sites
+          .filter((s: any) => s.lat != null && s.lng != null)
+          .map((s: any, i: number) => ({
+            title: entry.data.title,
+            lat: s.lat,
+            lng: s.lng,
+            category,
+            ageGroup: entry.data.ageGroup,
+            coverImage: entry.data.coverImage,
+            city: s.city,
+            address: s.address,
+            href,
+            key: `${href}#${i}`,
+          }));
+      });
+    })
+  )
+).flat();
+---
+<MapLayout
+  title="Térkép | Neurodiverz Térkép"
+  description="Interaktív térkép ADHD- és autizmus-forrásokról Magyarországon: diagnózis, iskolák, fejlesztő központok, közösségek és segédeszközök egy helyen, helyszín szerint böngészve."
+>
+  <MapExplorer items={items} />
+  <DetailPanel />
+</MapLayout>

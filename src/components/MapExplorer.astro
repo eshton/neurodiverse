@@ -146,6 +146,18 @@ const AGE_FILTERS = [
       // ignore corrupt/unavailable storage — fall back to defaults already set above
     }
 
+    // A landing-page audience choice arrives as ?age=children|adults|both and
+    // wins over saved state (an explicit fresh intent from the front-page selector).
+    try {
+      const urlAge = new URL(location.href).searchParams.get('age');
+      if (urlAge === 'children' || urlAge === 'adults' || urlAge === 'both') {
+        activeAge = urlAge;
+        localStorage.setItem(FILTERS_KEY, JSON.stringify({ types: [...activeTypes], age: activeAge }));
+      }
+    } catch {
+      // ignore — no URL/storage access, keep restored/default age
+    }
+
     function saveFilters() {
       localStorage.setItem(FILTERS_KEY, JSON.stringify({ types: [...activeTypes], age: activeAge }));
     }

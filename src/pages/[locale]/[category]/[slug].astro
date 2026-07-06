@@ -61,7 +61,7 @@ const detailSites = [
 ].filter((s: any) => s.lat != null && s.lng != null);
 const detailRegion = detailSites.length > 0 && detailSites.every((s: any) => s.city === 'Budapest') ? 'budapest' : 'hungary';
 
-const backHref = WEB_CATEGORIES.has(category as string) ? '/web/' : '/';
+const backHref = WEB_CATEGORIES.has(category as string) ? '/web/' : '/map';
 const backLabel = WEB_CATEGORIES.has(category as string) ? 'Vissza a Web nézetre' : 'Vissza a térképre';
 
 // schema.org structured data (JSON-LD) for richer search results. Type is mapped

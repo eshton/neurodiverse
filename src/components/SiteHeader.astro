@@ -1,18 +1,21 @@
 ---
-// Shared top nav — used by both MapLayout (the map homepage) and Layout (every
-// other page), so the whole site has one consistent header. Brand always links to
-// `/` (the map), since that's the primary front door now; the old category-grid
-// homepage at /hu/ is still reachable, just no longer the thing the header points at.
+// Shared top nav — used by both MapLayout (map/chat) and Layout (landing + every
+// other page), so the whole site has one consistent header. Brand links to `/`,
+// the landing chooser (the primary front door); the three browsing subsites
+// (/map, /web, /chat) are in NAV, and the old category-grid homepage at /hu/ is
+// still reachable, just not pointed at from the header.
 //
 // Desktop (sm+) shows the links inline; on mobile they collapse behind a hamburger
 // toggle (the nav used to be `hidden sm:flex` with no mobile fallback at all, so the
 // menu items were simply unreachable on phones). Links are defined once in NAV and
 // rendered into both the inline and the collapsible menu.
 const NAV = [
+  { href: '/map', label: 'Térkép' },
   { href: '/web/', label: 'Web' },
+  { href: '/chat', label: 'Chat' },
   { href: '/rolunk/', label: 'Rólunk' },
-  { href: '/adatvedelem/', label: 'Adatvédelem' },
   { href: '/gyik/', label: 'GYIK' },
+  { href: '/adatvedelem/', label: 'Adatvédelem' },
 ];
 const GITHUB_URL = 'https://github.com/eshton/neurodiverse';
 // Official GitHub Octocat mark, inlined so the "Star on GitHub" button needs no
