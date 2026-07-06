@@ -57,6 +57,8 @@ export const VALUE_LABELS: Record<string, string> = {
   documentary: 'dokumentumfilm', narrative: 'játékfilm', film: 'film', series: 'sorozat',
   'journal-article': 'szakcikk', review: 'áttekintő tanulmány', 'clinical-trial': 'klinikai vizsgálat',
   hu: 'magyar', en: 'angol', true: 'igen', false: 'nem',
+  // ageGroup (base field, rendered generically as "Korosztály")
+  children: 'gyerekek', adults: 'felnőttek', both: 'minden korosztály',
   // locationStatus (multi-location research outcome)
   'single-confirmed': 'egyetlen megerősített helyszín',
   'multiple-confirmed': 'több megerősített helyszín',
