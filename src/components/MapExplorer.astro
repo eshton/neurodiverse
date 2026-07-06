@@ -77,7 +77,7 @@ const AGE_FILTERS = [
 ></div>
 
 <script>
-  import { loadGoogleMaps, getGoogle, circularIcon, categoryIcon, MARKER_SIZE, POPUP_IMG_STYLE, POPUP_BTN_STYLE, MAP_STYLES } from '../lib/googleMaps';
+  import { loadGoogleMaps, getGoogle, categoryPin, PIN_WIDTH, PIN_HEIGHT, POPUP_IMG_STYLE, POPUP_BTN_STYLE, MAP_STYLES } from '../lib/googleMaps';
   import { COUNTIES } from '../data/counties';
 
   interface MapItem {
@@ -167,18 +167,18 @@ const AGE_FILTERS = [
       return itemAge === activeAge || itemAge === 'both';
     }
 
-    async function buildMarker(item: MapItem, animate: boolean) {
+    function buildMarker(item: MapItem, animate: boolean) {
       const position = { lat: item.lat, lng: item.lng };
-      const markerOptions: any = { position, map, title: item.title };
-      const iconUrl = item.coverImage ? await circularIcon(item.coverImage, item.category) : categoryIcon(item.category);
-      if (iconUrl) {
-        markerOptions.icon = {
-          url: iconUrl,
-          scaledSize: new g.maps.Size(MARKER_SIZE, MARKER_SIZE),
-          anchor: new g.maps.Point(MARKER_SIZE / 2, MARKER_SIZE / 2),
-        };
-      }
-      const marker = new g.maps.Marker(markerOptions);
+      const marker = new g.maps.Marker({
+        position,
+        map,
+        title: item.title,
+        icon: {
+          url: categoryPin(item.category),
+          scaledSize: new g.maps.Size(PIN_WIDTH, PIN_HEIGHT),
+          anchor: new g.maps.Point(PIN_WIDTH / 2, PIN_HEIGHT), // tip points at the location
+        },
+      });
       const imgHtml = item.coverImage ? `<img src="${item.coverImage}" alt="" style="${POPUP_IMG_STYLE}">` : '';
       marker.addListener('click', () => {
         infoWindow.setContent(

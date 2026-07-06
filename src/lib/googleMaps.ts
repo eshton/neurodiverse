@@ -3,17 +3,11 @@
 // MapExplorer (homepage). Loads the script at most once per page even if both
 // components are present, by memoizing the loader promise on `window`.
 
-export const MARKER_SIZE = 30;
-
 // Neutral gray backdrop, not white: several scraped logos are white-on-transparent
 // (designed to sit on a colored header on their source site) and vanish on a pure
 // white circle/card. Gray gives those shapes contrast without hurting photos, which
-// fill the frame anyway and never show the backdrop.
+// fill the frame anyway and never show the backdrop. Still used for the popup image.
 export const BACKDROP = '#d4d4d8';
-
-// Dark border on every marker (photo or fallback) so pins read clearly against any
-// map style/terrain color, instead of blending in at a glance.
-const BORDER_COLOR = '#27272a';
 
 // Same emoji used for each category's icon on the category-grid homepage
 // (src/pages/[locale]/index.astro CATEGORY_META) — kept in sync deliberately so a
@@ -26,6 +20,24 @@ export const CATEGORY_ICONS: Record<string, string> = {
   equipment: '🎧',
 };
 
+// One saturated, high-contrast fill per map category so pins are distinguishable
+// from each other at a glance AND pop against the muted basemap (MAP_STYLES below).
+// The hues are deliberately far apart (red / blue / orange / green / purple).
+export const CATEGORY_COLORS: Record<string, string> = {
+  diagnosis: '#e11d48', // rose
+  schools: '#2563eb', // blue
+  development: '#d97706', // amber
+  communities: '#16a34a', // green
+  equipment: '#7c3aed', // brand purple
+};
+
+const DEFAULT_PIN_COLOR = '#7c3aed';
+
+// Classic teardrop marker geometry (unscaled CSS px). Anchored at the tip so the
+// point sits exactly on the location and the icon head floats above it.
+export const PIN_WIDTH = 32;
+export const PIN_HEIGHT = 44;
+
 export const POPUP_IMG_STYLE = `display:block;width:100%;max-width:180px;height:100px;object-fit:cover;object-position:center;background:${BACKDROP};border-radius:0.5rem;margin-bottom:0.35rem;`;
 
 // Explicit "open in new tab" button in the marker popup, instead of a plain
@@ -33,99 +45,91 @@ export const POPUP_IMG_STYLE = `display:block;width:100%;max-width:180px;height:
 // while the content page loads in its own tab.
 export const POPUP_BTN_STYLE = `display:inline-block;margin-top:0.35rem;padding:0.3rem 0.7rem;background:#7c3aed;color:white;border-radius:9999px;font-size:0.8rem;text-decoration:none;`;
 
-// Hides Google's own default POI markers/labels (restaurants, shops, transit stops,
-// etc.) so the only pins on the map are ours — Google's built-ins otherwise clutter
-// the view with places irrelevant to this site's content.
+// Mutes the whole basemap (low saturation, light, grayed roads) so our colored
+// category pins are the most vivid thing on the map and stand out clearly — and
+// hides Google's own default POI/transit markers and labels, which otherwise
+// clutter the view with places irrelevant to this site's content.
 export const MAP_STYLES = [
-  { featureType: 'poi', elementType: 'labels', stylers: [{ visibility: 'off' }] },
-  { featureType: 'poi', elementType: 'geometry', stylers: [{ visibility: 'off' }] },
-  { featureType: 'transit', elementType: 'labels.icon', stylers: [{ visibility: 'off' }] },
+  // Desaturate + lighten the base geometry so nothing on the map competes with the pins.
+  { elementType: 'geometry', stylers: [{ saturation: -60 }, { lightness: 15 }] },
+  { elementType: 'labels.text.fill', stylers: [{ color: '#71717a' }] },
+  { elementType: 'labels.text.stroke', stylers: [{ color: '#ffffff' }, { weight: 2 }] },
+  { featureType: 'administrative', elementType: 'geometry.stroke', stylers: [{ color: '#d4d4d8' }] },
+  { featureType: 'landscape', elementType: 'geometry', stylers: [{ color: '#f4f4f5' }] },
+  { featureType: 'road', elementType: 'geometry', stylers: [{ saturation: -100 }, { lightness: 25 }] },
+  { featureType: 'road', elementType: 'labels.icon', stylers: [{ visibility: 'off' }] },
+  { featureType: 'water', elementType: 'geometry', stylers: [{ color: '#cbd5e1' }] },
+  // Hide Google's own POI/transit clutter — only our pins should show.
+  { featureType: 'poi', stylers: [{ visibility: 'off' }] },
+  { featureType: 'transit', stylers: [{ visibility: 'off' }] },
 ];
 
-function drawBadge(ctx: CanvasRenderingContext2D, size: number, category?: string) {
-  const emoji = category ? CATEGORY_ICONS[category] : undefined;
-  if (!emoji) return;
-  const r = size * 0.19;
-  const cx = size - r - 1;
-  const cy = size - r - 1;
-  ctx.beginPath();
-  ctx.arc(cx, cy, r, 0, Math.PI * 2);
-  ctx.fillStyle = 'white';
-  ctx.fill();
-  ctx.lineWidth = size * 0.035;
-  ctx.strokeStyle = BORDER_COLOR;
-  ctx.stroke();
-  ctx.font = `${r * 1.4}px sans-serif`;
-  ctx.textAlign = 'center';
-  ctx.textBaseline = 'middle';
-  ctx.fillText(emoji, cx, cy + r * 0.05);
-}
-
-// Bakes a photo into a circular, bordered PNG so the marker icon has guaranteed
-// dimensions and styling regardless of the source image's aspect ratio or format
-// (svg/webp/jpg/png all go through the same canvas pipeline). Resolves to '' on
-// load failure so callers can fall back to the default pin. When `category` is
-// given, stamps a small rounded badge with that category's icon in the corner so
-// the type reads at a glance even though the marker shows a photo.
-export function circularIcon(url: string, category?: string): Promise<string> {
-  return new Promise((resolve) => {
-    const size = MARKER_SIZE * 2; // 2x for retina
-    const canvas = document.createElement('canvas');
-    canvas.width = size;
-    canvas.height = size;
-    const ctx = canvas.getContext('2d')!;
-    const img = new Image();
-    img.crossOrigin = 'anonymous';
-    img.onload = () => {
-      ctx.save();
-      ctx.beginPath();
-      ctx.arc(size / 2, size / 2, size / 2 - 2, 0, Math.PI * 2);
-      ctx.closePath();
-      ctx.fillStyle = BACKDROP;
-      ctx.fill();
-      ctx.clip();
-      const scale = Math.max(size / img.width, size / img.height);
-      const w = img.width * scale;
-      const h = img.height * scale;
-      ctx.drawImage(img, (size - w) / 2, (size - h) / 2, w, h);
-      ctx.restore();
-      ctx.beginPath();
-      ctx.arc(size / 2, size / 2, size / 2 - 2, 0, Math.PI * 2);
-      ctx.lineWidth = 2;
-      ctx.strokeStyle = BORDER_COLOR;
-      ctx.stroke();
-      drawBadge(ctx, size, category);
-      resolve(canvas.toDataURL('image/png'));
-    };
-    img.onerror = () => resolve('');
-    img.src = url;
-  });
-}
-
-// Fallback marker for entities with no coverImage: a solid brand-colored circle
-// with the category's icon centered, dark-bordered like every other marker —
-// used instead of Google's default red teardrop pin, which carries no type info.
-// Synchronous (no image to load), unlike circularIcon.
-export function categoryIcon(category: string): string {
-  const size = MARKER_SIZE * 2;
+// Draws a classic map-pin marker: a colored teardrop that points down at the exact
+// location, with the category's emoji sitting in a white disc in the head above the
+// point. The body is filled with the category's distinct color, outlined in white
+// with a soft drop shadow so it stands out crisply against the muted basemap. This
+// replaced the circular cover-photo markers (photos still show in the popup) — a
+// uniform pin shape reads as "a place here" far more clearly at map zoom, and the
+// per-category color + icon carries the type. Synchronous (no image to load).
+export function categoryPin(category: string): string {
+  const scale = 2; // 2x for retina
+  const w = PIN_WIDTH * scale;
+  const h = PIN_HEIGHT * scale;
   const canvas = document.createElement('canvas');
-  canvas.width = size;
-  canvas.height = size;
+  canvas.width = w;
+  canvas.height = h;
   const ctx = canvas.getContext('2d')!;
+
+  const color = CATEGORY_COLORS[category] ?? DEFAULT_PIN_COLOR;
+  const strokeW = 2.5 * scale;
+  const margin = 3 * scale; // room for the stroke + shadow so nothing clips
+  const cx = w / 2;
+  const r = (w - margin * 2) / 2 - strokeW / 2; // head radius
+  const cy = margin + strokeW / 2 + r; // head center
+  const tipY = h - margin; // where the point touches the ground
+
+  // Teardrop outline: from the tip, up the two tangent lines to the head circle,
+  // then the long arc over the top of the head and back down to the tip.
+  const d = tipY - cy;
+  const ang = Math.acos(r / d); // angle at center between straight-down and each tangent point
+  const p1 = { x: cx + r * Math.sin(ang), y: cy + r * Math.cos(ang) };
+  const p2 = { x: cx - r * Math.sin(ang), y: cy + r * Math.cos(ang) };
+  const start = Math.atan2(p1.y - cy, p1.x - cx);
+  const end = Math.atan2(p2.y - cy, p2.x - cx);
+
   ctx.beginPath();
-  ctx.arc(size / 2, size / 2, size / 2 - 2, 0, Math.PI * 2);
-  ctx.fillStyle = '#7c3aed';
+  ctx.moveTo(cx, tipY);
+  ctx.lineTo(p1.x, p1.y);
+  ctx.arc(cx, cy, r, start, end, true); // anticlockwise = the long way, over the top
+  ctx.closePath();
+
+  ctx.save();
+  ctx.shadowColor = 'rgba(0,0,0,0.35)';
+  ctx.shadowBlur = 3 * scale;
+  ctx.shadowOffsetY = 1.5 * scale;
+  ctx.fillStyle = color;
   ctx.fill();
-  ctx.lineWidth = 2;
-  ctx.strokeStyle = BORDER_COLOR;
+  ctx.restore();
+
+  ctx.lineWidth = strokeW;
+  ctx.strokeStyle = '#ffffff';
   ctx.stroke();
+
+  // White disc behind the emoji so it reads on any pin color.
+  const discR = r * 0.62;
+  ctx.beginPath();
+  ctx.arc(cx, cy, discR, 0, Math.PI * 2);
+  ctx.fillStyle = '#ffffff';
+  ctx.fill();
+
   const emoji = CATEGORY_ICONS[category];
   if (emoji) {
-    ctx.font = `${size * 0.42}px sans-serif`;
+    ctx.font = `${discR * 1.25}px sans-serif`;
     ctx.textAlign = 'center';
     ctx.textBaseline = 'middle';
-    ctx.fillText(emoji, size / 2, size / 2 + size * 0.02);
+    ctx.fillText(emoji, cx, cy + discR * 0.05);
   }
+
   return canvas.toDataURL('image/png');
 }
 
