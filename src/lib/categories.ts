@@ -59,6 +59,8 @@ export const VALUE_LABELS: Record<string, string> = {
   hu: 'magyar', en: 'angol', true: 'igen', false: 'nem',
   // ageGroup (base field, rendered generically as "Korosztály")
   children: 'gyerekek', adults: 'felnőttek', both: 'minden korosztály',
+  // curatedBy (shown in the detail footer's meta line)
+  manual: 'kézi', agent: 'AI',
   // locationStatus (multi-location research outcome)
   'single-confirmed': 'egyetlen megerősített helyszín',
   'multiple-confirmed': 'több megerősített helyszín',

@@ -263,6 +263,6 @@ if (data.lastEdited) jsonLd.dateModified = data.lastEdited.toISOString().slice(0
   <p class="text-xs text-zinc-400 dark:text-zinc-500">
     Utoljára ellenőrizve: {data.lastReviewed.toISOString().slice(0, 10)}
     {data.lastEdited && ` · Utoljára szerkesztve: ${data.lastEdited.toISOString().slice(0, 10)}`}
-    {' · '}Kuráció: {data.curatedBy}
+    {' · '}Kuráció: {VALUE_LABELS[data.curatedBy] ?? data.curatedBy}
   </p>
 </Layout>
