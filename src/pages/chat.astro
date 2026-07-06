@@ -120,9 +120,9 @@ const SUGGESTIONS = [
           .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
           .replace(/\[([^\]]+)\]\(([^)]+)\)/g, (_m: string, label: string, url: string) => {
             const u = String(url).trim();
-            if (/^\//.test(u))
-              return `<a href="${u}" class="underline text-brand-700 dark:text-brand-300">${label}</a>`;
-            if (/^https?:\/\//.test(u))
+            // Everything opens in a new tab — the chat is ephemeral, so same-tab
+            // navigation would discard the conversation.
+            if (/^\//.test(u) || /^https?:\/\//.test(u))
               return `<a href="${u}" target="_blank" rel="noopener noreferrer" class="underline text-brand-700 dark:text-brand-300">${label}</a>`;
             return label; // drop non-internal/non-http urls, keep the label text
           });

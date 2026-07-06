@@ -192,17 +192,12 @@ function esc(v: string): string {
   );
 }
 
-const isInternal = (href: string) => href.startsWith('/');
-
-// A clickable link chip. Internal routes navigate in-place (ClientRouter + prefetch);
-// external URLs open in a new tab.
+// A clickable link chip. Everything opens in a NEW TAB — the chat is ephemeral, so
+// navigating away in the same tab would throw away the conversation.
 export function linkChipHtml(href: string, label: string): string {
-  const internal = isInternal(href);
-  const attrs = internal ? '' : ' target="_blank" rel="noopener noreferrer"';
-  const arrow = internal ? '→' : '↗';
   return (
-    `<a href="${esc(href)}"${attrs} class="inline-flex items-center gap-1 mt-2 mr-2 px-3 py-1.5 rounded-full bg-brand-600 text-white text-sm hover:bg-brand-700 transition no-underline">` +
-    `${esc(label)} <span aria-hidden="true">${arrow}</span></a>`
+    `<a href="${esc(href)}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 mt-2 mr-2 px-3 py-1.5 rounded-full bg-brand-600 text-white text-sm hover:bg-brand-700 transition no-underline">` +
+    `${esc(label)} <span aria-hidden="true">↗</span></a>`
   );
 }
 
@@ -214,7 +209,7 @@ export function resourceCardHtml(item: DbItem): string {
     ? `<img src="${esc(item.coverImage)}" alt="" class="w-16 h-16 rounded-lg object-cover shrink-0 bg-zinc-200 dark:bg-zinc-700">`
     : '';
   const place = item.city ? `<span class="text-zinc-500 dark:text-zinc-400">· ${esc(item.city)}</span>` : '';
-  const details = `<a href="${esc(item.href)}" class="text-brand-700 dark:text-brand-300 underline text-sm">Részletek →</a>`;
+  const details = `<a href="${esc(item.href)}" target="_blank" rel="noopener noreferrer" class="text-brand-700 dark:text-brand-300 underline text-sm">Részletek ↗</a>`;
   const external =
     typeof item.sourceUrl === 'string' && /^https?:\/\//.test(item.sourceUrl)
       ? ` <a href="${esc(item.sourceUrl)}" target="_blank" rel="noopener noreferrer" class="text-brand-700 dark:text-brand-300 underline text-sm ml-3">Megnyitás ↗</a>`
