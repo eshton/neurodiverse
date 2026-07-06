@@ -33,6 +33,12 @@ full detail; this is just what changed recently + what's open.
 
 ## Open / deferred
 
+- **Web grid: placeholder for imageless items.** In the browsable content
+  (`/web/<category>` cards, `WebExplorer.astro`; likely also the listing/detail
+  thumbnails and `DetailPanel`), items with no `coverImage` currently break the card
+  layout. Use a placeholder instead (there's a `src/lib/placeholder.ts` — check if it
+  already generates one; otherwise a category-colored/emoji block sized to the card's
+  cover slot per `POSTER_SHAPE`). Keep layout stable whether or not a cover exists.
 - **Live keys must be set in Cloudflare Pages env**: `OLLAMA_API_KEY` (chat, secret),
   `PUBLIC_GOOGLE_MAPS_API_KEY` (maps), `SITE_URL`. Chat confirmed working live by user.
 - **Map-driving chat tool** (NEURO-2 fast-follow) — let the assistant set map
