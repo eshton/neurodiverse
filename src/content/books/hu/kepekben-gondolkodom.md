@@ -10,6 +10,7 @@ sourceUrl: "https://www.libri.hu/konyv/templ_grandin.kepekben-gondolkodom.html"
 coverImage: "/covers/kepekben-gondolkodom.jpg"
 ratings: []
 curatedBy: manual
+publishedDate: "2014"
 lastReviewed: 2026-07-04
 lastEdited: 2026-07-04
 ---

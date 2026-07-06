@@ -13,6 +13,7 @@ coverImage: "/covers/hiperaktiv-gyerekek-riportfilm-epizod.jpg"
 sourceUrl: "https://www.youtube.com/watch?v=l7AwcL3vgZc"
 ratings: []
 curatedBy: manual
+publishedDate: "2016-01-27"
 lastReviewed: 2026-07-04
 lastEdited: 2026-07-04
 ---

@@ -12,6 +12,7 @@ coverImage: "/covers/partizan-adhd-epizod.jpg"
 sourceUrl: "https://open.spotify.com/episode/5z9F4N4AtIxpptmuDjG6DW"
 ratings: []
 curatedBy: manual
+publishedDate: "2024-07-19"
 lastReviewed: 2026-07-04
 lastEdited: 2026-07-04
 ---

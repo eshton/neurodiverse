@@ -13,6 +13,7 @@ coverImage: "/covers/egeszsegunkre-adhd-epizod.jpg"
 sourceUrl: "https://www.youtube.com/watch?v=SZsIZBsV6Gk"
 ratings: []
 curatedBy: manual
+publishedDate: "2013-09-18"
 lastReviewed: 2026-07-04
 lastEdited: 2026-07-04
 ---

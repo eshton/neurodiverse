@@ -10,6 +10,7 @@ sourceUrl: "https://www.lira.hu/hu/konyv/ismeretterjeszto-1/egyeb/hogyan-legyek-
 coverImage: "/covers/az-autizmus-erzekelesvilaganak-felfedezese.jpg"
 ratings: []
 curatedBy: manual
+publishedDate: "2021"
 lastReviewed: 2026-07-04
 lastEdited: 2026-07-04
 ---

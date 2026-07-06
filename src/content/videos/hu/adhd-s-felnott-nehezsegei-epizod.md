@@ -13,6 +13,7 @@ coverImage: "/covers/adhd-s-felnott-nehezsegei-epizod.jpg"
 sourceUrl: "https://www.youtube.com/watch?v=i1YDe1LFDV4"
 ratings: []
 curatedBy: manual
+publishedDate: "2023-10-16"
 lastReviewed: 2026-07-04
 lastEdited: 2026-07-04
 ---

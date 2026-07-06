@@ -10,6 +10,7 @@ coverImage: "/covers/adhd-felbontasban.jpg"
 sourceUrl: "https://open.spotify.com/show/5Qd9uQQZP6lCX81pcsE2L5"
 ratings: []
 curatedBy: manual
+publishedDate: "2024-10-11"
 lastReviewed: 2026-07-04
 lastEdited: 2026-07-04
 ---

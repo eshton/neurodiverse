@@ -16,6 +16,7 @@ ratings:
     note: "4 értékelés alapján — kis mintaszám"
     checkedAt: 2026-07-04
 curatedBy: manual
+publishedDate: "2025-08-29"
 lastReviewed: 2026-07-04
 lastEdited: 2026-07-04
 ---

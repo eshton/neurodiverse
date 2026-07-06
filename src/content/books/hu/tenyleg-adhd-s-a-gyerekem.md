@@ -10,6 +10,7 @@ sourceUrl: "https://www.libri.hu/konyv/thomas_armstrong_phd.tenyleg-adhd-s-a-gye
 coverImage: "/covers/tenyleg-adhd-s-a-gyerekem.jpg"
 ratings: []
 curatedBy: manual
+publishedDate: "2018"
 lastReviewed: 2026-07-04
 lastEdited: 2026-07-04
 ---

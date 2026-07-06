@@ -10,6 +10,7 @@ coverImage: "/covers/neurodivergens.jpg"
 sourceUrl: "https://open.spotify.com/show/2hAZs8cDx8hDdB72zBAd0A"
 ratings: []
 curatedBy: manual
+publishedDate: "2025-11-12"
 lastReviewed: 2026-07-04
 lastEdited: 2026-07-04
 ---

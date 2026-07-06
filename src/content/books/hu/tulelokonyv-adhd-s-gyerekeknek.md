@@ -9,6 +9,7 @@ sourceUrl: "https://webshop.vadaskert.hu/termek/tulelokonyv-adhd-s-gyerekeknek/"
 coverImage: "/covers/tulelokonyv-adhd-s-gyerekeknek.jpg"
 ratings: []
 curatedBy: manual
+publishedDate: "2019"
 lastReviewed: 2026-07-04
 lastEdited: 2026-07-04
 ---

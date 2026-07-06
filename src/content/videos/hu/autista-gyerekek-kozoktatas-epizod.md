@@ -13,6 +13,7 @@ coverImage: "/covers/autista-gyerekek-kozoktatas-epizod.jpg"
 sourceUrl: "https://www.youtube.com/watch?v=dsPrtS18Ms8"
 ratings: []
 curatedBy: manual
+publishedDate: "2022-09-30"
 lastReviewed: 2026-07-04
 lastEdited: 2026-07-04
 ---

@@ -13,6 +13,7 @@ coverImage: "/covers/az-adhd-epizod.jpg"
 sourceUrl: "https://www.youtube.com/watch?v=4_5rdQWp5jE"
 ratings: []
 curatedBy: manual
+publishedDate: "2019-07-29"
 lastReviewed: 2026-07-04
 lastEdited: 2026-07-04
 ---

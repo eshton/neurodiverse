@@ -10,6 +10,7 @@ sourceUrl: "https://www.libri.hu/konyv/katia_fredriksen.maskepp-gondolkodok-adhd
 coverImage: "/covers/maskepp-gondolkodok-adhd.jpg"
 ratings: []
 curatedBy: manual
+publishedDate: "2026"
 lastReviewed: 2026-07-04
 lastEdited: 2026-07-04
 ---

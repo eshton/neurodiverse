@@ -10,6 +10,7 @@ sourceUrl: "https://www.libri.hu/konyv/michelle_frank.utmutato-adhd-val-elo-nokn
 coverImage: "/covers/utmutato-adhd-val-elo-noknek.jpg"
 ratings: []
 curatedBy: manual
+publishedDate: "2025"
 lastReviewed: 2026-07-04
 lastEdited: 2026-07-04
 ---

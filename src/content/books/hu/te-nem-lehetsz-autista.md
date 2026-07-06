@@ -10,6 +10,7 @@ sourceUrl: "https://www.libri.hu/konyv/d8rka.te-nem-lehetsz-autista.html"
 coverImage: "/covers/te-nem-lehetsz-autista.jpg"
 ratings: []
 curatedBy: manual
+publishedDate: "2023"
 lastReviewed: 2026-07-04
 lastEdited: 2026-07-04
 ---

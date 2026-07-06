@@ -12,6 +12,7 @@ coverImage: "/covers/kek-egyenloseg-epizod.jpg"
 sourceUrl: "https://open.spotify.com/episode/2WhrXGB5sZeGTKQXPDqo38"
 ratings: []
 curatedBy: manual
+publishedDate: "2022-05-15"
 lastReviewed: 2026-07-04
 lastEdited: 2026-07-04
 ---

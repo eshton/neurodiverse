@@ -13,6 +13,7 @@ coverImage: "/covers/csak-ha-erdekel-adhd-autizmus-epizod.jpg"
 sourceUrl: "https://www.youtube.com/watch?v=YH0chAjGLTU"
 ratings: []
 curatedBy: manual
+publishedDate: "2025-01-06"
 lastReviewed: 2026-07-04
 lastEdited: 2026-07-04
 ---

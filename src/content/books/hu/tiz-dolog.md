@@ -10,6 +10,7 @@ sourceUrl: "https://www.flaccus.hu/tiz-dolog-amit-minden-autizmussal-elo-gyermek
 coverImage: "/covers/tiz-dolog.webp"
 ratings: []
 curatedBy: manual
+publishedDate: "2009"
 lastReviewed: 2026-07-04
 lastEdited: 2026-07-04
 ---

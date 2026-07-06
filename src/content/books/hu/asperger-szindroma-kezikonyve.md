@@ -10,6 +10,7 @@ sourceUrl: "https://www.libri.hu/konyv/tony_attwood.az-asperger-szindroma-keziko
 coverImage: "/covers/asperger-szindroma-kezikonyve.jpg"
 ratings: []
 curatedBy: manual
+publishedDate: "2015"
 lastReviewed: 2026-07-04
 lastEdited: 2026-07-04
 ---

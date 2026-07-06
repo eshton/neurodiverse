@@ -10,6 +10,7 @@ sourceUrl: "https://www.libri.hu/konyv/theo_peeters.autizmus-2.html"
 coverImage: "/covers/autizmus-elmelettol-gyakorlatig.jpg"
 ratings: []
 curatedBy: manual
+publishedDate: "2007"
 lastReviewed: 2026-07-04
 lastEdited: 2026-07-04
 ---

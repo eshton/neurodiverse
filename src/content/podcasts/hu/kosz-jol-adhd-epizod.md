@@ -12,6 +12,7 @@ coverImage: "/covers/kosz-jol-adhd-epizod.jpg"
 sourceUrl: "https://hvg.hu/tudomany/20240411_kosz-jol-podcast-adhd-figyelemzavar-tiktok"
 ratings: []
 curatedBy: manual
+publishedDate: "2024-04-11"
 lastReviewed: 2026-07-04
 lastEdited: 2026-07-04
 ---

@@ -10,6 +10,7 @@ sourceUrl: "https://www.libri.hu/konyv/mark_selikowitz.adhd-a-hiperaktivitas-fig
 coverImage: "/covers/adhd-tunetegyuttes.jpg"
 ratings: []
 curatedBy: manual
+publishedDate: "2010"
 lastReviewed: 2026-07-04
 lastEdited: 2026-07-04
 ---

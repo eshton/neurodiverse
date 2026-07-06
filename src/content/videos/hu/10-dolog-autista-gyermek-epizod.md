@@ -13,6 +13,7 @@ coverImage: "/covers/10-dolog-autista-gyermek-epizod.jpg"
 sourceUrl: "https://www.youtube.com/watch?v=bQeP9ywLwe8"
 ratings: []
 curatedBy: manual
+publishedDate: "2020-09-16"
 lastReviewed: 2026-07-04
 lastEdited: 2026-07-04
 ---

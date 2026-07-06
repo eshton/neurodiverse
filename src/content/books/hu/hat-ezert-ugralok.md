@@ -11,6 +11,7 @@ sourceUrl: "https://www.antikvarium.hu/konyv/naoki-higashida-hat-ezert-ugralok-9
 coverImage: "/covers/hat-ezert-ugralok.jpg"
 ratings: []
 curatedBy: manual
+publishedDate: "2014"
 lastReviewed: 2026-07-04
 lastEdited: 2026-07-04
 ---

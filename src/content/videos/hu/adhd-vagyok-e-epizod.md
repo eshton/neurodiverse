@@ -13,6 +13,7 @@ coverImage: "/covers/adhd-vagyok-e-epizod.jpg"
 sourceUrl: "https://www.youtube.com/watch?v=IbKjW3Zv9XU"
 ratings: []
 curatedBy: manual
+publishedDate: "2020-02-20"
 lastReviewed: 2026-07-04
 lastEdited: 2026-07-04
 ---
