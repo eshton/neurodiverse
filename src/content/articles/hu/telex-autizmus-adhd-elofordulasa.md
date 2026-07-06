@@ -17,4 +17,4 @@ lastEdited: 2026-07-05
 
 A Telex tudományos rovatának cikke egy nemzetközi kutatásról számol be, amely szerint a felnőtt autisták körében az ADHD előfordulása mintegy tízszerese az átlagpopulációénak. Ez azért fontos, mert korábban azt feltételezték, hogy az ADHD gyerekkori együttjárása az autizmusnak felnőttkorra jórészt „kinőhető" — a kutatás ezt cáfolja.
 
-Miért releváns a Neurodiverz Térkép szemszögéből: az **AuDHD** (az autizmus és az ADHD együttes fennállása) a hazai köztudatban alig ismert, pedig épp a kettős profilú felnőttek esnek ki leggyakrabban a diagnosztikai hálón. A cikk megbízható tudományos újságírás — konkrét kutatásra és számokra hivatkozik, nem ígér csodát.
+Miért releváns a Neuropont szemszögéből: az **AuDHD** (az autizmus és az ADHD együttes fennállása) a hazai köztudatban alig ismert, pedig épp a kettős profilú felnőttek esnek ki leggyakrabban a diagnosztikai hálón. A cikk megbízható tudományos újságírás — konkrét kutatásra és számokra hivatkozik, nem ígér csodát.

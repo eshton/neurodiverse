@@ -125,7 +125,7 @@ const publishedForLd = data.publishedDate ?? (data.year != null ? String(data.ye
 if (publishedForLd) jsonLd.datePublished = publishedForLd;
 if (data.lastEdited) jsonLd.dateModified = data.lastEdited.toISOString().slice(0, 10);
 ---
-<Layout title={`${data.title} — Neurodiverse`} locale={locale} description={data.summary} image={cover}>
+<Layout title={`${data.title} — Neuropont`} locale={locale} description={data.summary} image={cover}>
   <script type="application/ld+json" is:inline set:html={JSON.stringify(jsonLd)} />
   <p class="mb-6">
     <a href={backHref} class="text-sm text-brand-700 dark:text-brand-300 hover:underline">

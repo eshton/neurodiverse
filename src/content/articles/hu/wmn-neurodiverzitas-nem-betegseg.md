@@ -16,4 +16,4 @@ lastEdited: 2026-07-05
 
 A WMN cikke a **neurodiverzitás** szemléletét mutatja be közérthetően: azt a nézőpontot, amely szerint az autizmus és az ADHD nem elsősorban betegség vagy javítandó hiba, hanem az idegrendszeri működés természetes sokféleségének érvényes formája, ami gazdagítja a közösségeinket.
 
-Ez a keret adja a Neurodiverz Térkép egész szemléletét, ezért jó alapozó olvasmány. (A pontos megjelenési dátum a cikkoldalról nem volt egyértelműen kiolvasható, ezért itt nem tüntettük fel — a WMN mint forrás és a cikk címe ellenőrzött.)
+Ez a keret adja a Neuropont egész szemléletét, ezért jó alapozó olvasmány. (A pontos megjelenési dátum a cikkoldalról nem volt egyértelműen kiolvasható, ezért itt nem tüntettük fel — a WMN mint forrás és a cikk címe ellenőrzött.)
