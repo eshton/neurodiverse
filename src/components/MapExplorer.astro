@@ -34,6 +34,14 @@ const AGE_FILTERS = [
   { value: 'children', label: 'Gyerek' },
   { value: 'adults', label: 'Felnőtt' },
 ] as const;
+
+// Funding filter (single-select, like age). `state` matches state+mixed, `private`
+// matches private+mixed (a "mixed" provider offers both), `both` shows everything.
+const FUNDING_FILTERS = [
+  { value: 'both', label: 'Bármelyik' },
+  { value: 'state', label: '🏛️ Állami' },
+  { value: 'private', label: '💳 Magán' },
+] as const;
 ---
 <FilterBar>
   <select
@@ -68,16 +76,17 @@ const AGE_FILTERS = [
     ))}
   </div>
 
-  <button
-    type="button"
-    id="public-filter"
-    data-public
-    class="text-sm px-3 py-1.5 rounded-full transition sm:pl-3 sm:border-l border-zinc-200 dark:border-zinc-800"
-    aria-pressed="false"
-    title="Csak állami / közfinanszírozott ellátók"
-  >
-    🏛️ Közfinanszírozott
-  </button>
+  <div class="flex flex-wrap gap-1.5 sm:pl-3 sm:border-l border-zinc-200 dark:border-zinc-800" id="funding-filters" title="Finanszírozás szerint (klinikák, terapeuták)">
+    {FUNDING_FILTERS.map(({ value, label }) => (
+      <button
+        type="button"
+        data-funding={value}
+        class="funding-filter-btn text-sm px-3 py-1.5 rounded-full transition"
+      >
+        {label}
+      </button>
+    ))}
+  </div>
 
   <p id="location-status" class="w-full text-xs text-zinc-500 dark:text-zinc-400"></p>
 </FilterBar>
@@ -149,7 +158,7 @@ const AGE_FILTERS = [
     const FILTERS_KEY = 'neuro-map-filters';
     const activeTypes = new Set(ALL_TYPES);
     let activeAge: 'both' | 'children' | 'adults' = 'both';
-    let publicOnly = false; // "Közfinanszírozott" toggle — show only state/mixed funding
+    let activeFunding: 'both' | 'state' | 'private' = 'both';
 
     try {
       const saved = JSON.parse(storeGet(FILTERS_KEY) ?? 'null');
@@ -157,7 +166,8 @@ const AGE_FILTERS = [
         activeTypes.clear();
         (saved.types ?? ALL_TYPES).forEach((t: string) => activeTypes.add(t));
         if (saved.age) activeAge = saved.age;
-        if (saved.publicOnly) publicOnly = true;
+        if (saved.funding === 'state' || saved.funding === 'private' || saved.funding === 'both') activeFunding = saved.funding;
+        else if (saved.publicOnly) activeFunding = 'state'; // migrate the old boolean toggle
       }
     } catch {
       // ignore corrupt/unavailable storage — fall back to defaults already set above
@@ -169,14 +179,14 @@ const AGE_FILTERS = [
       const urlAge = new URL(location.href).searchParams.get('age');
       if (urlAge === 'children' || urlAge === 'adults' || urlAge === 'both') {
         activeAge = urlAge;
-        storeSet(FILTERS_KEY, JSON.stringify({ types: [...activeTypes], age: activeAge, publicOnly }));
+        storeSet(FILTERS_KEY, JSON.stringify({ types: [...activeTypes], age: activeAge, funding: activeFunding }));
       }
     } catch {
       // ignore — no URL/storage access, keep restored/default age
     }
 
     function saveFilters() {
-      storeSet(FILTERS_KEY, JSON.stringify({ types: [...activeTypes], age: activeAge, publicOnly }));
+      storeSet(FILTERS_KEY, JSON.stringify({ types: [...activeTypes], age: activeAge, funding: activeFunding }));
     }
 
     function matchesAge(itemAge: string) {
@@ -184,10 +194,14 @@ const AGE_FILTERS = [
       return itemAge === activeAge || itemAge === 'both';
     }
 
-    // Public-funding filter: state or mixed count as publicly accessible.
+    // Funding filter (single-select). `both` shows everything; a specific choice
+    // shows matching providers only (a "mixed" provider offers both state & private,
+    // so it matches either), and hides items that have no funding info (schools,
+    // shops, communities) — same "narrow to funded care" intent as the old toggle.
     function matchesFunding(item: MapItem) {
-      if (!publicOnly) return true;
-      return item.funding === 'state' || item.funding === 'mixed';
+      if (activeFunding === 'both') return true;
+      if (activeFunding === 'state') return item.funding === 'state' || item.funding === 'mixed';
+      return item.funding === 'private' || item.funding === 'mixed';
     }
 
     function buildMarker(item: MapItem, animate: boolean) {
@@ -301,25 +315,29 @@ const AGE_FILTERS = [
     });
     setActiveAgeButton(activeAge);
 
-    // "Közfinanszírozott" (public only) toggle
-    const publicBtn = document.getElementById('public-filter') as HTMLButtonElement | null;
-    function stylePublic() {
-      if (!publicBtn) return;
-      publicBtn.classList.toggle('bg-brand-600', publicOnly);
-      publicBtn.classList.toggle('text-white', publicOnly);
-      publicBtn.classList.toggle('bg-zinc-100', !publicOnly);
-      publicBtn.classList.toggle('dark:bg-zinc-800', !publicOnly);
-      publicBtn.classList.toggle('text-zinc-600', !publicOnly);
-      publicBtn.classList.toggle('dark:text-zinc-300', !publicOnly);
-      publicBtn.setAttribute('aria-pressed', String(publicOnly));
+    // Funding filter (single-select — Bármelyik / Állami / Magán)
+    const fundingButtons = document.querySelectorAll<HTMLButtonElement>('.funding-filter-btn');
+    function setActiveFundingButton(value: string) {
+      fundingButtons.forEach((b) => {
+        const active = b.dataset.funding === value;
+        b.classList.toggle('bg-brand-600', active);
+        b.classList.toggle('text-white', active);
+        b.classList.toggle('bg-zinc-100', !active);
+        b.classList.toggle('dark:bg-zinc-800', !active);
+        b.classList.toggle('text-zinc-600', !active);
+        b.classList.toggle('dark:text-zinc-300', !active);
+        b.setAttribute('aria-pressed', String(active));
+      });
     }
-    publicBtn?.addEventListener('click', () => {
-      publicOnly = !publicOnly;
-      stylePublic();
-      saveFilters();
-      render();
+    fundingButtons.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        activeFunding = btn.dataset.funding as 'both' | 'state' | 'private';
+        setActiveFundingButton(activeFunding);
+        saveFilters();
+        render();
+      });
     });
-    stylePublic();
+    setActiveFundingButton(activeFunding);
 
     // Location selector: "close to me" + Budapest + 19 counties
     const select = document.getElementById('location-select') as HTMLSelectElement;
