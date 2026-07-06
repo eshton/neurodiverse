@@ -96,10 +96,15 @@
 
       const extra = Object.entries(item)
         .filter(([k, v]) => !BASE_FIELDS.has(k) && v != null && !(Array.isArray(v) && v.length === 0))
-        .map(([k, v]) => `<dt class="text-zinc-500 dark:text-zinc-400">${esc(FIELD_LABELS[k] ?? k)}</dt><dd>${esc(Array.isArray(v) ? v.join(', ') : (VALUE_LABELS[String(v)] ?? v))}</dd>`)
+        .map(([k, v]) => {
+          const val = Array.isArray(v)
+            ? v.map((x: any) => VALUE_LABELS[String(x)] ?? String(x)).join(', ')
+            : (VALUE_LABELS[String(v)] ?? v);
+          return `<div class="flex flex-col gap-0.5 px-4 py-3"><dt class="text-zinc-500 dark:text-zinc-400">${esc(FIELD_LABELS[k] ?? k)}</dt><dd class="font-medium text-zinc-900 dark:text-zinc-100">${esc(val)}</dd></div>`;
+        })
         .join('');
       const extraHtml = extra
-        ? `<dl class="grid grid-cols-[auto_1fr] gap-x-4 gap-y-1 text-sm my-4">${extra}</dl>` : '';
+        ? `<dl class="rounded-xl border border-zinc-200 dark:border-zinc-800 divide-y divide-zinc-100 dark:divide-zinc-800 text-sm my-4">${extra}</dl>` : '';
 
       // Additional physical sites beyond the primary (city/address shown above in
       // the generic dl). Mirrors the detail page's "További helyszínek" section;
