@@ -96,13 +96,16 @@ otherwise fully static site. Design:
   layer; no Astro adapter, `output` stays `'static'`). It is a **thin, stateless
   proxy**: receives the full message history, prepends the system prompt, attaches the
   tool schemas, adds `Authorization: Bearer $OLLAMA_API_KEY`, and POSTs to
-  `https://ollama.com/api/chat` (`stream:false`, model `OLLAMA_MODEL` ?? `gpt-oss:120b-cloud`),
-  returning just the assistant message. It never runs the tool loop and never touches
-  the content dataset. `OLLAMA_API_KEY` is a **real secret** (no `PUBLIC_` prefix) — it
+  `https://ollama.com/api/chat` (`stream:true`, model `OLLAMA_MODEL` ?? `gpt-oss:120b-cloud`)
+  and **pipes Ollama's NDJSON stream straight back** to the browser. It never runs the
+  tool loop and never touches the content dataset. `OLLAMA_API_KEY` is a **real secret** (no `PUBLIC_` prefix) — it
   must be set in the Cloudflare Pages env (and a local `.env` for `wrangler pages dev`);
   a missing key returns a graceful 503 the UI shows as an error bubble.
-- **Client-side tool loop** (`chat.astro` script): the page holds the conversation and
-  loops (capped at `MAX_TOOL_ITERATIONS = 5`) — POST to `/api/chat`, and if the model
+- **Client-side streaming tool loop** (`chat.astro` `streamTurn`/`runTurn`): the page holds
+  the conversation and loops (capped at `MAX_TOOL_ITERATIONS = 5`) — POST to `/api/chat`,
+  read the NDJSON stream, accumulate content deltas (rendered live into the bubble, with
+  partial/whole `{{…}}` directives stripped from the preview and the full render swapped in
+  at turn end) and `tool_calls`. If the model
   returns `tool_calls`, execute each **in the browser**, append `{role:'tool', tool_name,
   content}`, and POST again; otherwise render the final text and stop.
 - **`src/lib/chatTools.ts`** — the client-side tool executors + the coupling point with
@@ -117,8 +120,7 @@ otherwise fully static site. Design:
 - Chat links point at the **real pre-rendered detail pages** (`href` from `content.json`),
   not the `DetailPanel` overlay — `DetailPanel` is not mounted on `/chat`.
 - **Deferred (fast-follow, per Rooster NEURO-2):** a map-driving tool that presets the
-  map filters (`neuro-map-filters` + `?age=`) and recenters location; and token streaming
-  in the function (currently `stream:false`).
+  map filters (`neuro-map-filters` + `?age=`) and recenters location.
 
 ## Components
 

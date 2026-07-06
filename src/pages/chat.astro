@@ -194,14 +194,24 @@ const SUGGESTIONS = [
       return el;
     }
 
-    function addAssistant(html: string) {
+    // Build an assistant bubble and return its outer + content elements, so a
+    // streaming turn can keep updating the content in place.
+    function makeAssistantBubble(html: string): { el: HTMLElement; body: HTMLElement } {
       const el = document.createElement('div');
       el.className = 'flex gap-3';
       el.innerHTML =
         `<div class="shrink-0 w-8 h-8 rounded-full bg-brand-600 text-white flex items-center justify-center text-sm" aria-hidden="true">✦</div>` +
-        `<div class="rounded-2xl rounded-tl-sm bg-zinc-100 dark:bg-zinc-800 px-4 py-3 text-sm text-zinc-800 dark:text-zinc-100 max-w-[85%]">${html}</div>`;
+        `<div class="rounded-2xl rounded-tl-sm bg-zinc-100 dark:bg-zinc-800 px-4 py-3 text-sm text-zinc-800 dark:text-zinc-100 max-w-[85%] whitespace-pre-wrap"></div>`;
+      const body = el.lastElementChild as HTMLElement;
+      body.innerHTML = html;
       messages.appendChild(el);
       scrollDown();
+      return { el, body };
+    }
+
+    function addAssistant(html: string) {
+      const { body } = makeAssistantBubble(html);
+      body.classList.remove('whitespace-pre-wrap'); // final HTML controls its own spacing
     }
 
     // A tool's UI output (resource card / link chip), left-aligned and indented to
@@ -239,15 +249,62 @@ const SUGGESTIONS = [
       });
     }
 
-    async function callApi(): Promise<any> {
+    // Streams one assistant turn from /api/chat (NDJSON). Accumulates the content
+    // deltas and any tool_calls, rendering prose live into a bubble as it arrives
+    // (directives are stripped from the live preview so a half-written {{…}} never
+    // flashes; the final render turns them into cards/links). Returns the fully
+    // assembled message plus its live bubble (if one was created).
+    async function streamTurn(typing: HTMLElement): Promise<any> {
       const res = await fetch('/api/chat', {
         method: 'POST',
         headers: { 'content-type': 'application/json' },
         body: JSON.stringify({ messages: history }),
       });
-      const data = await res.json().catch(() => ({ error: 'Váratlan válasz a szervertől.' }));
-      if (!res.ok || data.error) throw new Error(data.error || `HTTP ${res.status}`);
-      return data.message;
+      if (!res.ok || !res.body) {
+        const data = await res.json().catch(() => ({}));
+        throw new Error(data.error || `HTTP ${res.status}`);
+      }
+
+      let content = '';
+      const toolCalls: any[] = [];
+      let live: { el: HTMLElement; body: HTMLElement } | null = null;
+
+      const updateLive = () => {
+        // Drop complete AND partial-trailing directives from the streaming preview.
+        const preview = content.replace(/\{\{[^}]*\}\}/g, '').replace(/\{\{[^}]*$/, '').trim();
+        if (!preview) return;
+        if (!live) { typing.remove(); live = makeAssistantBubble(''); }
+        live.body.textContent = preview;
+        scrollDown();
+      };
+
+      const processLine = (line: string) => {
+        const t = line.trim();
+        if (!t) return;
+        let obj: any;
+        try { obj = JSON.parse(t); } catch { return; }
+        if (obj.error) throw new Error(obj.error);
+        const msg = obj.message;
+        if (msg?.content) { content += msg.content; updateLive(); }
+        if (Array.isArray(msg?.tool_calls) && msg.tool_calls.length) toolCalls.push(...msg.tool_calls);
+      };
+
+      const reader = res.body.getReader();
+      const decoder = new TextDecoder();
+      let buf = '';
+      while (true) {
+        const { done, value } = await reader.read();
+        if (done) break;
+        buf += decoder.decode(value, { stream: true });
+        let nl;
+        while ((nl = buf.indexOf('\n')) >= 0) {
+          processLine(buf.slice(0, nl));
+          buf = buf.slice(nl + 1);
+        }
+      }
+      processLine(buf); // flush a trailing line with no newline
+
+      return { role: 'assistant', content, tool_calls: toolCalls.length ? toolCalls : undefined, live };
     }
 
     // Drive the model until it produces a final text answer (no more tool calls),
@@ -256,11 +313,13 @@ const SUGGESTIONS = [
       let typing = addTyping();
       try {
         for (let i = 0; i < MAX_TOOL_ITERATIONS; i++) {
-          const message = await callApi();
-          history.push(message);
-          const toolCalls = message?.tool_calls;
+          const message = await streamTurn(typing);
+          const live = message.live as { el: HTMLElement; body: HTMLElement } | null;
+          history.push({ role: 'assistant', content: message.content, tool_calls: message.tool_calls });
+          const toolCalls = message.tool_calls;
           if (Array.isArray(toolCalls) && toolCalls.length) {
-            typing.remove(); // show the tool output while we work
+            typing.remove();
+            if (live && !message.content.trim()) live.el.remove(); // tool-only turn: no prose to keep
             for (const call of toolCalls) {
               const fn = call.function || {};
               let args = fn.arguments;
@@ -274,7 +333,9 @@ const SUGGESTIONS = [
             typing = addTyping(); // model thinks again with the tool results
           } else {
             typing.remove();
-            addAssistant(await renderAssistantContent(message?.content || '…'));
+            const html = await renderAssistantContent(message.content || '…');
+            if (live) { live.body.classList.remove('whitespace-pre-wrap'); live.body.innerHTML = html; }
+            else addAssistant(html);
             return;
           }
         }

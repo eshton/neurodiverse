@@ -151,14 +151,14 @@ export async function onRequestPost(context: any): Promise<Response> {
         model,
         messages: [{ role: 'system', content: SYSTEM_PROMPT }, ...messages],
         tools: TOOLS,
-        stream: false,
+        stream: true,
       }),
     });
   } catch {
     return json({ error: 'Nem sikerült elérni a nyelvi modellt. Próbáld újra.' }, 502);
   }
 
-  if (!ollamaRes.ok) {
+  if (!ollamaRes.ok || !ollamaRes.body) {
     const detail = await ollamaRes.text().catch(() => '');
     return json(
       { error: 'A nyelvi modell hibát adott vissza. Próbáld újra később.', status: ollamaRes.status, detail: detail.slice(0, 500) },
@@ -166,13 +166,14 @@ export async function onRequestPost(context: any): Promise<Response> {
     );
   }
 
-  let data: any;
-  try {
-    data = await ollamaRes.json();
-  } catch {
-    return json({ error: 'Váratlan válasz a nyelvi modelltől.' }, 502);
-  }
-
-  // Return just the assistant message; the client runs the tool loop.
-  return json({ message: data.message ?? { role: 'assistant', content: '' } });
+  // Stream Ollama's NDJSON straight back to the browser; the client accumulates
+  // the deltas, runs the tool loop, and renders prose as it arrives. Keeping the
+  // function a pass-through means it stays stateless and tiny.
+  return new Response(ollamaRes.body, {
+    status: 200,
+    headers: {
+      'content-type': 'application/x-ndjson; charset=utf-8',
+      'cache-control': 'no-store',
+    },
+  });
 }
