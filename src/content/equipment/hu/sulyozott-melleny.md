@@ -13,6 +13,7 @@ coverImage: "/covers/sulyozott-melleny.jpg"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-04
+lastEdited: 2026-07-05
 ---
 
 Móka és Zen (mokaeszen.hu), magyar manufaktúra. 100% pamut, antiallergén üveggyöngy töltet. Méret S-XL (4-12 év), alapár 15 990 Ft, nagyobb méretnél felárral. A gyártó kifejezetten ADHD, autizmus és szenzoros feldolgozási nehézség esetére ajánlja, gyógyszermentes alternatívaként.

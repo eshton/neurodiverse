@@ -12,6 +12,7 @@ sourceUrl: "https://en.wikipedia.org/wiki/Life,_Animated"
 coverImage: "/covers/life-animated.jpg"
 ratings: []
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 Magyarországon jelenleg csak bérelhető vagy megvásárolható (Apple TV Store), előfizetős szolgáltatáson nem elérhető.

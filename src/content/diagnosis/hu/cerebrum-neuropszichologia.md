@@ -25,6 +25,7 @@ sourceUrl: "https://neuro-pszichologia.hu/autizmus/"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Kecskeméti telephelyük is van (Vízmű utca 104).

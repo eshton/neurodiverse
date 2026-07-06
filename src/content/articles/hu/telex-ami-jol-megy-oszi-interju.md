@@ -12,6 +12,7 @@ ratings: []
 ageGroup: both
 curatedBy: manual
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 Telex-interjú Őszi Tamásné Patríciával, az Autizmus Alapítvány gyógypedagógusával (ugyanaz a szakember, aki a Korai Fejlesztő Központ étkezési útmutatóját is jegyzi, lásd az Étel kategóriát). A beszélgetés az autizmus józan, szakmai megközelítéséről szól: az erősségekre lehet építeni, a nehézségeket kompenzálni, és nem minden autista embernek van szüksége „beavatkozásra" — akkor van dolga a szakembernek és a szülőnek, ha az életminőséget rontja valami.

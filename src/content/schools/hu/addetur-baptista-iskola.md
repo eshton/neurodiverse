@@ -17,6 +17,7 @@ sourceUrl: "https://www.addeturiskola.hu/"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Ritka példa arra, hogy középfokon (gimnázium, technikum, szakiskola) is elérhető integrált oktatás autista fiataloknak — a legtöbb ilyen program általános iskolás korosztályra fókuszál.

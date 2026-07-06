@@ -15,6 +15,7 @@ sourceUrl: "https://doi.org/10.1038/s41380-018-0070-0"
 coverImage: "/covers/faraone-larsson-adhd-genetika-2019.jpg"
 ratings: []
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 Angol nyelvű áttekintő tanulmány. A magyar kivonat a szerkesztő megfogalmazása. Az „örökletes” populációszintű megállapítás, nem jelenti, hogy egyetlen gén okozná.

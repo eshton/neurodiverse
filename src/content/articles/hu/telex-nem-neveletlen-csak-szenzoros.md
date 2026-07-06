@@ -12,6 +12,7 @@ ratings: []
 ageGroup: children
 curatedBy: manual
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 A Telex tudományos cikke a szenzoros feldolgozás eltéréseiről (angol rövidítéssel SPD) szól: arról, hogy egy gyerek „rossz" vagy „neveletlen" viselkedése mögött gyakran az áll, hogy az idegrendszere másképp dolgozza fel az ingereket (hangokat, fényt, tapintást, textúrákat).

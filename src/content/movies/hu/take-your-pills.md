@@ -11,6 +11,7 @@ sourceUrl: "https://en.wikipedia.org/wiki/Take_Your_Pills"
 coverImage: "/covers/take-your-pills.png"
 ratings: []
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 Magyarországon a Netflixen elérhető (magyar felirattal, "Vedd be a gyógyszered!" címen).

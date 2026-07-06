@@ -12,6 +12,7 @@ ratings: []
 ageGroup: adults
 curatedBy: manual
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 A világ népességének nagyjából 2–4 százalékát érinti az ADHD, a cikk mégis arra mutat rá, hogy Magyarországon alig esik szó a felnőtt — és különösen a női — figyelemzavarról. Leszámol azzal a régóta elavult feltételezéssel, hogy az ADHD jellegzetesen „fiús" jelenség lenne.

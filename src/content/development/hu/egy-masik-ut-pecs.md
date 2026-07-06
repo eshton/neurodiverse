@@ -24,6 +24,7 @@ sourceUrl: "https://www.egymasikut.hu/"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 2017 óta van pécsi telephelyük, a fő alapítvány budapesti.

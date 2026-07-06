@@ -16,6 +16,7 @@ sourceUrl: "https://vikote.hu/adhd-keszsegfejleszto-csoport-2/"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 A központnak több budapesti helyszíne van a különböző csoportokhoz (pl. Baross u. 119/A, Balassa u. 6.).

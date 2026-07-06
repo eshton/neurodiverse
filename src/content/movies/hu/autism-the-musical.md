@@ -13,6 +13,7 @@ sourceUrl: "https://en.wikipedia.org/wiki/Autism:_The_Musical"
 coverImage: "/covers/autism-the-musical.jpg"
 ratings: []
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 Két 2008-as Emmy-díjat nyert (dokumentumfilm-vágás, illetve kiemelkedő dokumentum-/ismeretterjesztő különkiadás kategóriában). Magyarországi legális streaming-elérhetőségét a JustWatch alapján nem sikerült megerősíteni a fenti dátumon.

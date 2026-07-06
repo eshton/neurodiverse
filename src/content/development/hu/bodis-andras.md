@@ -17,6 +17,7 @@ sourceUrl: "https://www.wellwayclinics.hu/orvosok/bodis-andras-pszichologus/"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 WellWay Clinics-nek több telephelye is van Budapesten (pl. Futó utca 37.).

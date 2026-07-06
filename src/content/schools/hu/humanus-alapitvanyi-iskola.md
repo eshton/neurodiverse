@@ -17,6 +17,7 @@ sourceUrl: "https://www.humanusiskola.com/"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Korábban a Megyeri út 20/B alatt működött (ez az adat még sok könyvtárban szerepel), az iskola azóta a XI. kerületbe, a Kanizsai utcába költözött — a jelenlegi címet a hivatalos KIR intézménykereső alapján ellenőriztük.

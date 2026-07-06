@@ -15,6 +15,7 @@ sourceUrl: "https://doi.org/10.1111/jcpp.12499"
 coverImage: "/covers/tick-autizmus-orokletesseg-2016.jpg"
 ratings: []
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 Angol nyelvű metaanalízis. A magyar kivonat a szerkesztő megfogalmazása; a heritabilitás statisztikai, populációszintű mutató, nem az egyes emberre vonatkozó „jóslat”.

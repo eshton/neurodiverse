@@ -11,6 +11,7 @@ coverImage: "/covers/maskepp-gondolkodok-adhd.jpg"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-04
+lastEdited: 2026-07-04
 ---
 
 kulcslyuk kiadó, 2026, 39 oldal, keménytáblás, 4000 Ft.

@@ -13,6 +13,7 @@ ratings: []
 ageGroup: adults
 curatedBy: manual
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 A Képmás első személyű, interjú jellegű írása Rapai Katalin saját szavaival meséli el, milyen volt későn — 40 évesen — megkapni az autizmus-diagnózist. Beszámol a londoni irodai környezet szenzoros túlterheléséről és szorongásáról, majd arról, hogyan alakította át az önismeret és a munkahelyi alkalmazkodás a teljesítményét és az életminőségét.

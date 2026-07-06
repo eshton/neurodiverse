@@ -14,6 +14,7 @@ tags: [klinikai vizsgálat, magyar helyszínek, gyógyszervizsgálat, lezárult]
 sourceUrl: "https://clinicaltrials.gov/study/NCT01106430"
 ratings: []
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 Lezárult (completed) fázis 3b vizsgálat, több magyar gyermekpszichiátriai helyszínnel. A regisztrációs adatlap angol nyelvű; a magyar kivonat a szerkesztő megfogalmazása. Iparági (Shire) szponzoráció — tájékoztatásul szerepel, nem gyógyszerajánlásként.

@@ -17,6 +17,7 @@ sourceUrl: "https://mentalmood.hu/aktualis/pacienseknek/adhd-pszichoedukacios-cs
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Multidiszciplináris team: coach, pszichológus, pszichiáter együtt.

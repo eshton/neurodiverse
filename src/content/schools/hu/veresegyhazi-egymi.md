@@ -29,6 +29,7 @@ sourceUrl: "https://veresegyhaz-egymi.hu/"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Utazó gyógypedagógusi szolgálatot is működtetnek, amely a térség más iskoláiban integráltan tanuló autista és egyéb SNI-s gyerekeket is segíti, nem csak a saját telephelyükön ellátottakat.

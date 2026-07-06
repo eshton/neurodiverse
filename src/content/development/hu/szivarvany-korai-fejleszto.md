@@ -16,6 +16,7 @@ sourceUrl: "http://www.softalap.hu/"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 SOFT Alapítvány ("Segítsd, Óvd Fogyatékos Társadat" a Gyermekrehabilitációért) fenntartja.

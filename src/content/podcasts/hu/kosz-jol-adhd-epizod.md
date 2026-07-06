@@ -13,6 +13,7 @@ sourceUrl: "https://hvg.hu/tudomany/20240411_kosz-jol-podcast-adhd-figyelemzavar
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-04
+lastEdited: 2026-07-04
 ---
 
 A Kösz, jól általános egészségügyi podcast, nem ADHD-specifikus — ez csak egy alkalmi epizód.

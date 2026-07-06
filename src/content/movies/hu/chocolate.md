@@ -13,6 +13,7 @@ sourceUrl: "https://en.wikipedia.org/wiki/Chocolate_(2008_film)"
 coverImage: "/covers/chocolate.jpg"
 ratings: []
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 Harcművészeti akciófilm, erőszakos jelenetekkel. Magyarországi legális streaming-elérhetőségét a JustWatch alapján nem sikerült megerősíteni a fenti dátumon.

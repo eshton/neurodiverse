@@ -11,6 +11,7 @@ sourceUrl: "https://en.wikipedia.org/wiki/Extraordinary_Attorney_Woo"
 coverImage: "/covers/extraordinary-attorney-woo.png"
 ratings: []
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 Magyarországon a Netflixen elérhető ("Egy különleges ügyvéd, Woo" címen).

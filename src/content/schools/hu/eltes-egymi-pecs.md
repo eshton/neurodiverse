@@ -23,6 +23,7 @@ sourceUrl: "https://eltesm-pecs.edu.hu/autista.html"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Négy összevont csoportban fejlesztik a 6-23 éves autizmus spektrumzavarral élő tanulókat. Az alsó tagozat a Hajnóczy utcai telephelyen van, a felső tagozat és a főépület más helyszínen.

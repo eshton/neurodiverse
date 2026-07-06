@@ -24,6 +24,7 @@ sourceUrl: "https://www.orendaterapia.hu/"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Térkép a felnőtt telephelyre (Attila út 129.) mutat — a gyermek rendelő külön címen van.

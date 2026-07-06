@@ -37,6 +37,7 @@ sourceUrl: "https://miskolcegymi.hu/autizmus-specifikus-ellatas/"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Az integráltan, tipikus iskolákban tanuló autista gyerekeket is segítik utazó gyógypedagógusi szolgáltatással, nem csak a saját telephelyükön ellátott tanulókat.

@@ -13,6 +13,7 @@ sourceUrl: "https://open.spotify.com/episode/2WhrXGB5sZeGTKQXPDqo38"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-04
+lastEdited: 2026-07-04
 ---
 
 A Kék Egyenlőség nem autizmus-témára szakosodott, ez csak egy alkalmi epizód.

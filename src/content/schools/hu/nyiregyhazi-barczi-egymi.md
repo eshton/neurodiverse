@@ -23,6 +23,7 @@ sourceUrl: "https://barczisuli.hu/autista-csoportok/"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Az utca két azonos nevű szakaszra oszlik Nyíregyházán — a koordináta a belvárosi szakaszra mutat; az utcaszintű pontosság megegyezik a diagnosis kategóriában alkalmazott gyakorlattal, amikor a pontos épület nem azonosítható egyértelműen.

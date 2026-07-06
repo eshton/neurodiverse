@@ -11,6 +11,7 @@ coverImage: "/covers/te-nem-lehetsz-autista.jpg"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-04
+lastEdited: 2026-07-04
 ---
 
 könyv guru, 2023, 80 oldal, keménytáblás, 3790 Ft.

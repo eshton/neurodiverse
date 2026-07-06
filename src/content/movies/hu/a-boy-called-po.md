@@ -13,6 +13,7 @@ sourceUrl: "https://en.wikipedia.org/wiki/A_Boy_Called_Po"
 coverImage: "/covers/a-boy-called-po.jpg"
 ratings: []
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 Magyarországi legális streaming-elérhetőségét a JustWatch alapján nem sikerült megerősíteni a fenti dátumon.

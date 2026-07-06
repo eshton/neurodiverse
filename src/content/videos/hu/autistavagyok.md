@@ -12,6 +12,7 @@ sourceUrl: "https://www.youtube.com/autistavagyok"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-04
+lastEdited: 2026-07-04
 ---
 
 Az egyik legrégebbi, aktív magyar autizmus-témájú YouTube-csatorna.

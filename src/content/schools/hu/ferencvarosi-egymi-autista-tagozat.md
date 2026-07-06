@@ -16,6 +16,7 @@ sourceUrl: "http://www.fkoai.fw.hu/"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Az intézmény székhelye (óvoda, általános iskola) a Gát utca 6. szám alatt van, az autista tagozat külön telephelyen, a Thaly Kálmán utcában működik. Állami fenntartású Egységes Gyógypedagógiai Módszertani Intézmény (EGYMI).

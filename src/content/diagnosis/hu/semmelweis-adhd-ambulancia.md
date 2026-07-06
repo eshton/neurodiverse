@@ -26,6 +26,7 @@ sourceUrl: "https://semmelweis.hu/pszichiatria/betegellatas/adhd-ambulancia/"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Felnőtt (18+) ADHD diagnosztika, állami ellátásban.

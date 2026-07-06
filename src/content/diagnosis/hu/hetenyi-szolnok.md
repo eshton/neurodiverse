@@ -18,6 +18,7 @@ sourceUrl: "https://www.hetenyikorhaz.hu/2023/11/22/csecsemo-es-gyermekosztaly-g
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Jász-Nagykun-Szolnok megye fő gyermekpszichiátriai ellátóhelye.

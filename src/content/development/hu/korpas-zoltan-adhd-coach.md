@@ -17,6 +17,7 @@ sourceUrl: "https://www.adhdcoachbudapest.com/en"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Az első konzultáció ingyenes.

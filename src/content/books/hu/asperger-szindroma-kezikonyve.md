@@ -11,6 +11,7 @@ coverImage: "/covers/asperger-szindroma-kezikonyve.jpg"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-04
+lastEdited: 2026-07-04
 ---
 
 animus kiadó, 2015, 400 oldal, 4731 Ft.

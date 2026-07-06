@@ -11,6 +11,7 @@ ratings: []
 ageGroup: both
 curatedBy: manual
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 A glutén- és kazeinmentes (GFCF) diéta az autizmus egyik legvitatottabb táplálkozási témája, ezért érdemes tisztán látni, mit támaszt alá a bizonyíték és mit nem.

@@ -13,6 +13,7 @@ coverImage: "/covers/ark-grabber-ragoka.jpg"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-04
+lastEdited: 2026-07-05
 ---
 
 ARK Therapeutic (USA) márka, TPE anyagból (ftalát-, ólom-, PVC-, BPA- és latexmentes). Három felületű (sima, kerek dudoros, szögletes dudoros) a taktilis visszajelzéshez. Autishop.hu-n, magyar autizmus/szenzoros webáruházban, 4 990 Ft.

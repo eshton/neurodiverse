@@ -12,6 +12,7 @@ availability: unavailable
 sourceUrl: "https://en.wikipedia.org/wiki/Please_Stand_By_(film)"
 ratings: []
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 Nem sikerült megbízható, szabadon felhasználható borítóképet találni ehhez a bejegyzéshez (a Wikipédia-szócikkben nincs plakátkép). Magyarországi legális streaming-elérhetőségét a JustWatch alapján nem sikerült megerősíteni a fenti dátumon.

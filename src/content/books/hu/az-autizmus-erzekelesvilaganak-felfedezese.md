@@ -11,6 +11,7 @@ coverImage: "/covers/az-autizmus-erzekelesvilaganak-felfedezese.jpg"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-04
+lastEdited: 2026-07-04
 ---
 
 Geobook Hungary, 2021, 144 oldal, ~2550 Ft (akciós ár).

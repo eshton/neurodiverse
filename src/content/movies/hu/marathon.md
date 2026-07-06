@@ -13,6 +13,7 @@ sourceUrl: "https://en.wikipedia.org/wiki/Marathon_(2005_film)"
 coverImage: "/covers/marathon.jpg"
 ratings: []
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 Magyarországi legális streaming-elérhetőségét a JustWatch alapján nem sikerült megerősíteni a fenti dátumon.

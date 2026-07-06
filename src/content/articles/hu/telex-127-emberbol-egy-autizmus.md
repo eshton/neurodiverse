@@ -12,6 +12,7 @@ ratings: []
 ageGroup: both
 curatedBy: manual
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 A Telex tudományos rovatának cikke egy nagy, nemzetközi (a Global Burden of Disease adataira épülő) felmérésről számol be, amely szerint világszerte nagyjából minden 127. embert érint az autizmus spektrumzavar — összességében több tízmillió embert.

@@ -10,6 +10,7 @@ sourceUrl: "https://www.facebook.com/groups/663384988070455/"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 Online önsegítő közösség ADHD-val élő felnőtteknek, ahol a tagok megoszthatják tapasztalataikat és stratégiákat a mindennapok kezelésére. A csoportra pszichológus szakmai oldal is hivatkozik (kovaribarbara.hu). A csoport zárt (a tartalom csak belépés után látható), ezért a taglétszám a nyilvános keresési adatokra támaszkodik, azt közvetlen lekérdezéssel nem tudtuk ellenőrizni. Online csoport, nincs fizikai helyszíne — nem szerepel a térképen.

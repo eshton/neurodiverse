@@ -11,6 +11,7 @@ coverImage: "/covers/cinthya-dictator.jpg"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-04
+lastEdited: 2026-07-04
 ---
 
 Gyerekként diagnosztizált ADHD-val, felnőttként újra szakértői kivizsgáláson vett részt. A WMN.hu-n megjelent interjújában ("Nagyon szégyelltem, hogy ADHD-s vagyok") arról beszélt, mennyire szégyellte állapotát gyerek- és felnőttkorában is. A "Tünet" című műsor epizódjában Dr. Ammer Mária ADHD-szakértő pszichiáter mellett osztotta meg saját tapasztalatát a diagnózisról és a kezelésről. Instagram-oldalát elsősorban fotós/modell tartalom teszi ki, nem kifejezetten ADHD-tematikájú, de nyilvánosan és rendszeresen felvállalja a témát.

@@ -13,6 +13,7 @@ coverImage: "/covers/zajszuro-fulhallgato.jpg"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-04
+lastEdited: 2026-07-05
 ---
 
 Alpine Muffy Kids, 25 dB zajcsillapítás, állítható fejpánt, puha béléssel — 5-16 éves korosztálynak. Autishop.hu-n (dedikált magyar autizmus/szenzoros webáruház) kapható, 12 890 Ft. Nem márkaszinten autizmus-specifikus termék, de kifejezetten szenzoros felhasználásra árulja a forgalmazó.

@@ -18,6 +18,7 @@ sourceUrl: "https://nyiro.euintezmeny.hu/ellatas/jarobetegellatas/ADHD-Ambulanci
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Egyike a kevés országos beutalási körzetű ADHD ambulanciának.

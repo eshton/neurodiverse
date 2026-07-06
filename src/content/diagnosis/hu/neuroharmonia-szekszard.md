@@ -17,6 +17,7 @@ sourceUrl: "https://www.neuroharmonia.hu/araink/"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Tolna megye egyik kevés kifejezetten ADHD/autizmus fókuszú magánközpontja.

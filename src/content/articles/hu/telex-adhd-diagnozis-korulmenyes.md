@@ -12,6 +12,7 @@ ratings: []
 ageGroup: both
 curatedBy: manual
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 A Telex cikke azt járja körül, miért olyan nehézkes Magyarországon ADHD-diagnózishoz jutni: hosszú várólisták az állami pszichiátrián, drága magánellátás, és a tesztek/eljárások átláthatatlansága. Kiemeli, hogy nem csak a diagnózis hiánya gond — legalább akkora a félrediagnosztizálásé is, különösen felnőttkorban, amikor az ADHD gyakran szorongással vagy más mentális zavarral együtt jelentkezik.

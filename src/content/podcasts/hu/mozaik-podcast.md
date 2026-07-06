@@ -17,6 +17,7 @@ ratings:
     checkedAt: 2026-07-04
 curatedBy: manual
 lastReviewed: 2026-07-04
+lastEdited: 2026-07-04
 ---
 
 A Mozaik Egyesület Az Autizmussal Élő Emberekért hivatalos podcastja.

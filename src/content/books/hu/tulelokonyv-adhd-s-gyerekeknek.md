@@ -10,6 +10,7 @@ coverImage: "/covers/tulelokonyv-adhd-s-gyerekeknek.jpg"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-04
+lastEdited: 2026-07-04
 ---
 
 3500 Ft.

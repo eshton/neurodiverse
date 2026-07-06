@@ -13,6 +13,7 @@ sourceUrl: "https://en.wikipedia.org/wiki/Move_to_Heaven"
 coverImage: "/covers/move-to-heaven.jpg"
 ratings: []
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 Netflix-saját gyártású (Netflix Original) sorozat, így a Netflix magyarországi kínálatában is elérhető.

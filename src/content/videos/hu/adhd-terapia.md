@@ -12,6 +12,7 @@ sourceUrl: "https://www.youtube.com/@ADHDTerapia"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-04
+lastEdited: 2026-07-04
 ---
 
 Gyermekpszichiáter szakértői csatornája, kifejezetten ADHD-témára.

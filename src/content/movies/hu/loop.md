@@ -13,6 +13,7 @@ sourceUrl: "https://en.wikipedia.org/wiki/Loop_(2020_film)"
 coverImage: "/covers/loop.png"
 ratings: []
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 Nem találtunk megbízhatóan ellenőrizhető magyarországi streaming-elérhetőséget: a Disney+ Pixar SparkShorts gyűjteménye HU-ban létezik, de nem tudtuk megerősíteni, hogy a Loop szerepel-e benne.

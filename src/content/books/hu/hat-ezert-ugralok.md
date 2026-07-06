@@ -12,6 +12,7 @@ coverImage: "/covers/hat-ezert-ugralok.jpg"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-04
+lastEdited: 2026-07-04
 ---
 
 Park Könyvkiadó, 2014, 167 oldal. Jelenleg nincs megvásárolható példány sem antikvár, sem új könyvesboltokban — utoljára ellenőrizve 2026-07-04-én.

@@ -54,7 +54,19 @@ const base = z.object({
   entryType: z.enum(['full', 'episode']).default('full'),
   parentTitle: z.string().optional(),
   curatedBy: z.enum(['manual', 'agent']).default('manual'),
+  // When the content was published/released — for content types that have one
+  // (books, articles, videos, podcasts…). Kept a plain string (not z.coerce.date)
+  // so partial dates work and it renders as-is: "YYYY", "YYYY-MM", or "YYYY-MM-DD"
+  // (must be quoted in YAML). Place-based entries (clinics/schools) omit it;
+  // movies/research use their own `year` (number) instead.
+  publishedDate: z.string().optional(),
+  // lastReviewed: when the entry's data was last checked against its source and
+  // found still correct — set it to the verification date even if nothing changed.
   lastReviewed: z.coerce.date(),
+  // lastEdited: when the entry's content was last actually changed. Required on
+  // every entry (seeded from git history). Distinct from lastReviewed — a
+  // re-verified-but-unchanged entry gets a new lastReviewed, same lastEdited.
+  lastEdited: z.coerce.date(),
 });
 
 function collectionFor(category: string, extra: z.ZodRawShape = {}) {
@@ -87,7 +99,7 @@ export const collections = {
   articles: collectionFor('articles', {
     publication: z.string(),
     author: z.string().optional(),
-    publishedDate: z.string().optional(),
+    // publishedDate is now a base field (shared with books/videos/podcasts).
   }),
   equipment: collectionFor('equipment', {
     priceRange: z.string().optional(),

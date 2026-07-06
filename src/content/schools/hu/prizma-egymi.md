@@ -28,6 +28,7 @@ sourceUrl: "https://prizmaegymi.hu/autista-tagozat-bemutatkozas/"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Az autista tagozat osztályai két telephelyen működnek: a Prizma épületében és az Ének-Zenei és Testnevelési Általános Iskola épületében. Az egyik legrégebb óta (1992-től) folyamatosan működő autizmus-specifikus tagozat Magyarországon.

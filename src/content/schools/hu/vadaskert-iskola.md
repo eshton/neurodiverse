@@ -16,6 +16,7 @@ sourceUrl: "http://www.vadaskertiskola.hu/"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 A Vadaskert Alapítvány (lásd diagnosis kategória) saját iskolája, más telephelyen. Kiscsoportos oktatás, vizuális támogatással és strukturált napirenddel, iskolaelőkészítő programmal 5-7 éves korban.

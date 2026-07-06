@@ -12,6 +12,7 @@ sourceUrl: "https://en.wikipedia.org/wiki/The_Accountant_(2016_film)"
 coverImage: "/covers/the-accountant.png"
 ratings: []
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 Magyarországon a HBO Max-on és az Amazon Prime Video-n elérhető, feliratosan.

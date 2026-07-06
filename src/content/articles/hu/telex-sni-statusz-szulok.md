@@ -12,6 +12,7 @@ ratings: []
 ageGroup: children
 curatedBy: manual
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 A Telex cikke azt a dilemmát járja körül, amivel sok szülő szembesül: érdemes-e megállapíttatni a gyerek sajátos nevelési igényét (SNI-státusz), és igénybe venni a pedagógiai szakszolgálatot. Sokan a megbélyegzéstől vagy a nehezebb intézményválasztástól tartva vonakodnak — pedig épp a státusz nyithatná meg a támogatásokat.

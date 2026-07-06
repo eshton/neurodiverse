@@ -13,6 +13,7 @@ sourceUrl: "https://open.spotify.com/episode/5z9F4N4AtIxpptmuDjG6DW"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-04
+lastEdited: 2026-07-04
 ---
 
 A Partizán Podcast nem ADHD-témára szakosodott, ez csak egy alkalmi epizód.

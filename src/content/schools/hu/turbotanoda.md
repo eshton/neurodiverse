@@ -18,6 +18,7 @@ sourceUrl: "https://turbotanoda.hu/"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Nem hagyományos állami iskola, hanem magán fejlesztő intézmény: a gyerekeket legalább az általános iskola első négy, szükség esetén hatodik évének végéig készíti fel a bármely iskolatípusba történő integrációra.

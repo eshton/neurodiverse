@@ -11,6 +11,7 @@ ratings: []
 ageGroup: both
 curatedBy: manual
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 Az ARFID (angolul Avoidant/Restrictive Food Intake Disorder, magyarul elkerülő-korlátozó táplálékbeviteli zavar) a DSM-5 (2013) óta önálló evészavar-diagnózis. A Kiskanál Kommandó gyermekdietetikai műhelyének evidenciaalapú összefoglalója (a magyar szakmai irányelvre és szakirodalomra hivatkozva) segít elkülöníteni a hétköznapi válogatósságtól.

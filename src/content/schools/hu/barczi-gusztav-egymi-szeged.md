@@ -29,6 +29,7 @@ sourceUrl: "https://barcziszeged.edu.hu/"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Terápiás kínálat: logopédia, Syndelar-terápia, zeneterápia, állatasszisztált terápia, autizmus-specifikus fejlesztés. A csoportokat vezető gyógypedagógusok autizmus-specifikus végzettséggel rendelkeznek.

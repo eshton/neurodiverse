@@ -18,6 +18,7 @@ sourceUrl: "https://www.kmk.hu/kecskemet/szakrendelesek/1409-gyermek-pszichiatri
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 A Cerebrum Neuropszichológiai Központ magán alternatívája is elérhető Kecskeméten (Vízmű utca 104).

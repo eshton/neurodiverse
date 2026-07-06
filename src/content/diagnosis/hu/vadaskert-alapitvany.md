@@ -18,6 +18,7 @@ sourceUrl: "https://vadaskert.hu/adhd-diagnosztika-5-11eves-gyermekek-szamara/"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Ugyanitt autizmus spektrumzavar diagnosztika is elérhető, külön szolgáltatásként.

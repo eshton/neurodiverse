@@ -12,6 +12,7 @@ ratings: []
 ageGroup: adults
 curatedBy: manual
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 A HVG360 cikke a diagnózis *utáni* időszakot járja körül: a felnőttkori ADHD- és autizmus-diagnózis nem lezárás, hanem gyakran az önkép és az identitás újrarendezésének kezdete. Mit jelent, amikor valaki felnőttként kap keretet és magyarázatot arra, amivel egész életében küzdött — és hogyan lehet ezt beépíteni az önazonosságba.

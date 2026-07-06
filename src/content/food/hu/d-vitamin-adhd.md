@@ -11,6 +11,7 @@ ratings: []
 ageGroup: both
 curatedBy: manual
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 A D-vitamin gyakran felmerül ADHD kapcsán — érdemes tisztán látni, mit mond róla a bizonyíték.

@@ -18,6 +18,7 @@ sourceUrl: "https://klinikaikozpont.unideb.hu/clinic_finder/clinic/5399099"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Hajdú-Bihar megyén kívülieket csak ritkán fogadnak.

@@ -18,6 +18,7 @@ sourceUrl: "https://petz.gyor.hu/betegellatas/jarobeteg-ellatas/gyermek-ifjusagi
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Nyugat-Dunántúl fő gyermekpszichiátriai centruma.

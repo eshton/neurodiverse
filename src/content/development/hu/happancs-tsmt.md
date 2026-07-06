@@ -16,6 +16,7 @@ sourceUrl: "https://happancs.hu/"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Orbán-Happ Adrienn TSMT terapeuta, óvodapedagógus és tanító.

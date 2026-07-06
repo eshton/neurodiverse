@@ -16,6 +16,7 @@ sourceUrl: "https://gyogyped.hu/autizmus-centrum/"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Óvodai, általános iskolai és fejlesztő nevelést-oktatást végző iskolai egységekből áll, 3-tól 24 éves korig fejlesztve az autizmussal élő gyerekeket és fiatalokat.

@@ -18,6 +18,7 @@ sourceUrl: "https://szszbvk.hu/jaro/gyermek-pszichiatria-i/"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Szabolcs-Szatmár-Bereg megye fő gyermekpszichiátriai ellátóhelye.

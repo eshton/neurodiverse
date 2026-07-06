@@ -16,6 +16,7 @@ sourceUrl: "https://cogniplus.viennatestsystem.hu/fejlesztohelyek/"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Nem volt elérhető önálló weboldal ellenőrzéskor (2026-07-04) — a fejlesztőhely-adatbázison keresztül azonosítva.

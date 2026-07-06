@@ -11,6 +11,7 @@ sourceUrl: "https://www.youtube.com/playlist?list=PLSNMN2GYorNNbul7csxrVHIoZA8Z4
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-04
+lastEdited: 2026-07-04
 ---
 
 Az SNI Suli az egyik legaktívabb magyar neurodiverzitás-témájú platform, évente ismétlődő summittal.

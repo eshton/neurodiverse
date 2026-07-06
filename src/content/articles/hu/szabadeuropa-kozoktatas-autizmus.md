@@ -12,6 +12,7 @@ ratings: []
 ageGroup: children
 curatedBy: manual
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 A Szabad Európa riportja egy Eger környéki édesanya, Fehérvári Csilla küzdelmén keresztül mutatja be, milyen akadályokba ütköznek az autista gyerekek és családjaik a magyar közoktatásban. A cikk súlyos rendszerszintű problémákra mutat rá: miközben tizenhét év alatt tízszeresére nőtt az autista gyerekek száma, az állam nem garantálja számukra az oktatáshoz jutást, és az iskolák számos jogi kiskaput használnak, hogy kibújjanak az integrált oktatás kötelezettsége alól.

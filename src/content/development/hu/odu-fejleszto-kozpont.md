@@ -17,6 +17,7 @@ sourceUrl: "https://odukozpont.hu/"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Vezetője Futó Gabriella. Autizmus műhelyt is tart szülőknek és szakembereknek.

@@ -16,6 +16,7 @@ sourceUrl: "https://mentara.hu/adhd/"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Ferencvárosban, tömegközlekedéssel jól elérhető helyen.

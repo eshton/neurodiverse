@@ -18,6 +18,7 @@ sourceUrl: "https://www.bethesda.hu/ambulancia/adhd-ambulancia/"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Tic-zavarokat (kényszeres mozgás/hangadás) is fogad ADHD mellett.

@@ -35,6 +35,7 @@ export const CATEGORY_LABELS: Record<string, string> = Object.fromEntries(
 // generically on the detail page and in the detail panel.
 export const FIELD_LABELS: Record<string, string> = {
   author: 'Szerző', publication: 'Kiadvány', publishedDate: 'Megjelenés', isbn: 'ISBN',
+  lastEdited: 'Utoljára szerkesztve', lastReviewed: 'Utoljára ellenőrizve',
   creator: 'Készítő', platform: 'Platform',
   episodeCount: 'Epizódszám', viewCount: 'Megtekintés', subscriberCount: 'Feliratkozó',
   handle: 'Fiók', platforms: 'Platformok', priceRange: 'Ár', retailerUrls: 'Vásárlási linkek',

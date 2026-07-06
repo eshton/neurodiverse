@@ -13,6 +13,7 @@ coverImage: "/covers/egyensulyozo-labda.jpg"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-04
+lastEdited: 2026-07-05
 ---
 
 Amaya Sport (SL), autishop.hu-n. 37×28 cm, 50 kg terhelhetőségig. Műanyag gyűrű osztja két félre — az egyik oldalon pattogva, a másikat bokával stabilizálva egyensúlyérzéket, mozgáskoordinációt fejleszt, izmot/csontot erősít. 7 990 Ft.

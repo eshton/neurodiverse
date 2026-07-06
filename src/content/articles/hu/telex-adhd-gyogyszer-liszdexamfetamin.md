@@ -12,6 +12,7 @@ ratings: []
 ageGroup: adults
 curatedBy: manual
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 A Telex cikke a felnőtt ADHD gyógyszeres kezelésének hazai helyzetét járja körül. 2024 januárja óta Magyarországon is forgalmaznak liszdexamfetamint tartalmazó készítményt (amit más európai országokban már egy évtizede használnak), de a stimuláns hatóanyagot felnőtteknek egyelőre csak külön engedéllyel írhatják fel az orvosok.

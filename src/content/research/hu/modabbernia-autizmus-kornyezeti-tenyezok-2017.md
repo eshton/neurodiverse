@@ -16,6 +16,7 @@ sourceUrl: "https://doi.org/10.1186/s13229-017-0121-4"
 coverImage: "/covers/modabbernia-autizmus-kornyezeti-tenyezok-2017.png"
 ratings: []
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 Angol nyelvű, nyílt hozzáférésű áttekintés. A magyar kivonat a szerkesztő megfogalmazása. Fontos: „kockázati tényező” statisztikai összefüggést jelent, nem egyértelmű okot — és a tanulmány kifejezetten a bizonyítékok erősségét mérlegeli (a vakcina-autizmus összefüggést a tudomány régóta megcáfolta).

@@ -12,6 +12,7 @@ ratings: []
 ageGroup: adults
 curatedBy: manual
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 A Telex életmód-rovatának riportja felnőttként diagnosztizált ADHD-s emberek saját szavaival mutatja be, milyen a mindennapok valósága a figyelemzavarral — a ritka „hiperfókusz" pillanatoktól a végrehajtási nehézségekig, a gyógyszeres kezelés és a pszichoterápia szerepéig.

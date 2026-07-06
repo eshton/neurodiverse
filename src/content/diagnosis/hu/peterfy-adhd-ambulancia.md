@@ -18,6 +18,7 @@ sourceUrl: "https://peterfykh.hu/osztaly/adhd-ambulancia-krizisintervencios-es-p
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Csak e-mailben kereshető, telefonos elérhetőség nincs megadva.

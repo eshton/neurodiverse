@@ -14,6 +14,7 @@ tags: [magyar kutatás, diagnosztikai eszköz, nyílt hozzáférés]
 sourceUrl: "https://real.mtak.hu/233647/"
 ratings: []
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 Magyar nyelvű, nyílt hozzáférésű (CC-BY) tanulmány, az MTA REAL repozitóriumában szabadon elérhető. Előtanulmány — a szerző maga is így jelöli.

@@ -18,6 +18,7 @@ sourceUrl: "https://kaposvar.imami.hu/gyermek-szakrendelesek/gyermek-es-ifjusagp
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Dél-Dunántúl egyik megyei gyermekpszichiátriai centruma.

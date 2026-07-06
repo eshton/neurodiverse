@@ -17,6 +17,7 @@ sourceUrl: "https://www.adhdkozpont.hu/"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Az Európai Felnőttkori ADHD Hálózat tagja.

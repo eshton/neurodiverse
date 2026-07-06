@@ -18,6 +18,7 @@ sourceUrl: "https://www.adhdterapia.hu/vizsgalatihelyszinek"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Az egyik kevés vidéki, kifejezetten felnőtt ADHD-ra szakosodott állami ambulancia.

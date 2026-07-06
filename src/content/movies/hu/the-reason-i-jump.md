@@ -12,6 +12,7 @@ availability: unavailable
 sourceUrl: "https://en.wikipedia.org/wiki/The_Reason_I_Jump"
 ratings: []
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 Magyarországon jelenleg nincs elérhető legális streaming lehetőség (JustWatch HU szerint nem streamelhető).

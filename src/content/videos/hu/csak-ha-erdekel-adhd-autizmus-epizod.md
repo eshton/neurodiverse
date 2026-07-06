@@ -14,6 +14,7 @@ sourceUrl: "https://www.youtube.com/watch?v=YH0chAjGLTU"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-04
+lastEdited: 2026-07-04
 ---
 
 A Csak ha érdekel általános interjú-csatorna, nem ADHD/autizmus-specifikus — ez egy alkalmi epizód.

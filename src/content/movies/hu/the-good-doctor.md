@@ -11,6 +11,7 @@ ageGroup: both
 sourceUrl: "https://en.wikipedia.org/wiki/The_Good_Doctor_(American_TV_series)"
 ratings: []
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 Magyarországon a Netflixen elérhető ("Doktor Murphy" címen). Hét évadot élt meg (2017–2024). Borítókép egyelőre nincs (nem sikerült szabadon felhasználható plakátot találni a Wikipédia-szócikkben).

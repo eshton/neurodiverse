@@ -11,6 +11,7 @@ ratings: []
 ageGroup: both
 curatedBy: manual
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 Az omega-3 (EPA/DHA, jellemzően halolaj formájában) az egyik legkutatottabb étrendkiegészítő ADHD-ban — de a bizonyíték árnyalt, és ezt fontos pontosan érteni.

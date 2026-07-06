@@ -17,6 +17,7 @@ sourceUrl: "https://pszichologusunk.hu/autizmus_felmeres"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Közép-Dunántúlon ritka, kifejezetten ADHD/autizmus fókuszú magánközpont.

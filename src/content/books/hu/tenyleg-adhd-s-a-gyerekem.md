@@ -11,6 +11,7 @@ coverImage: "/covers/tenyleg-adhd-s-a-gyerekem.jpg"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-04
+lastEdited: 2026-07-04
 ---
 
 Jaffa Kiadó, 2018, 392 oldal, 3315 Ft.

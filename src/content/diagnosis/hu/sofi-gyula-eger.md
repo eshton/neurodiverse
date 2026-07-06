@@ -30,6 +30,7 @@ sourceUrl: "https://drsofigyula.hu/gyermekpszichiater-eger/"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Az egyik kevés Heves megyei magánrendelést végző gyermekpszichiáter.

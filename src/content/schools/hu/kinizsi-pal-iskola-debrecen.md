@@ -25,6 +25,7 @@ sourceUrl: "http://kinizsi-debr.sulinet.hu/"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Az osztályokban tanárok és tanítók dolgoznak gyógypedagógiai asszisztensek segítségével, 8 évfolyamon, kifejezetten ép intellektusú autista tanulóknak szóló programban.

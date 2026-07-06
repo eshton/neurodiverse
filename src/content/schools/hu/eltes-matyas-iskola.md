@@ -16,6 +16,7 @@ sourceUrl: "https://www.eltescentrum.hu/altalanos-iskola/"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Kis létszámú osztályokban tanulnak a hiperaktív és figyelemzavarral küzdő gyerekek, minden osztályban gyógypedagógussal és pedagógiai asszisztenssel. A Kelet-Pesti Tankerületi Központ fenntartásában működik.

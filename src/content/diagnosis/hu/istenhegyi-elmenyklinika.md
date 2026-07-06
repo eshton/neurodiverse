@@ -17,6 +17,7 @@ sourceUrl: "https://elmenyklinika.hu/diagnosztika/felnott-adhd-diagnosztika/"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Nem tévesztendő össze az Istenhegyi Magánklinika gyermekpszichiátriai szakrendelésével (más márkanév, hasonló terület).

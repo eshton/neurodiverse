@@ -13,6 +13,7 @@ ratings: []
 ageGroup: both
 curatedBy: manual
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 A Qubit tudományos újságírása egy magyar vezetésű kutatási programot (a Pécsi Tudományegyetem koordinálásával működő Transzlációs Idegtudományi Nemzeti Laboratórium) mutat be, amely a születés előtti és körüli hatások — újszülöttkori oxigénhiány, magzati alkoholexpozíció, anyai immunaktiváció — és a későbbi neurofejlődési zavarok közti mechanizmusokat vizsgálja.

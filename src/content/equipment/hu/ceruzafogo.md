@@ -13,6 +13,7 @@ coverImage: "/covers/ceruzafogo.webp"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-04
+lastEdited: 2026-07-05
 ---
 
 Tanárbolt.hu (magyar gyógy-/fejlesztőpedagógiai kellékbolt). Szilikon, 7 gramm, 2+1 ujjas kialakítás a hüvelyk- és mutatóujj helyes pozíciójához. Nem ADHD/autizmus-specifikus marketing — általános írástanulási segédeszköz, amit fejlesztőpedagógusok finommotoros nehézségeknél is ajánlanak. 690 Ft.

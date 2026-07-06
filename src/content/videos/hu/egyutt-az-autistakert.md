@@ -12,6 +12,7 @@ sourceUrl: "https://www.youtube.com/channel/UCTa0CojgEzG102ajaGUT8yw"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-04
+lastEdited: 2026-07-04
 ---
 
 Legnépszerűbb videója (Megérteni. Elfogadni. Segíteni. • AUTIZMUS) 53 800+ megtekintéssel.

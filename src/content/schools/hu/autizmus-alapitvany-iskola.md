@@ -17,6 +17,7 @@ sourceUrl: "https://www.autizmus.hu/altalanosiskola"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Az Autizmus Alapítvány saját fenntartású általános iskolája, ugyanazon a telephelyen, mint az alapítvány diagnosztikai ambulanciája (lásd a diagnosis kategóriában). Az egyik legrégebbi, kifejezetten autizmus-specifikus oktatási intézmény Magyarországon, szakembereket is képez a módszertan továbbadására.

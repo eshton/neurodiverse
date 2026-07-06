@@ -14,6 +14,7 @@ sourceUrl: "https://www.youtube.com/watch?v=4_5rdQWp5jE"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-04
+lastEdited: 2026-07-04
 ---
 
 A csatorna nem ADHD-specifikus, ez egy alkalmi rövidfilm.

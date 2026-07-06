@@ -11,6 +11,7 @@ coverImage: "/covers/tiz-dolog.webp"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-04
+lastEdited: 2026-07-04
 ---
 
 Geobook Kiadó, 2009, 175 oldal, 2850 Ft.

@@ -18,6 +18,7 @@ sourceUrl: "https://www.autizmus.hu/szolgaltatasokleirasa"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Az egyik legrégebbi, legismertebb magyar autizmus-diagnosztikai intézmény.

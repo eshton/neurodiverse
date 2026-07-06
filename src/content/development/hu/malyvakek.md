@@ -25,6 +25,7 @@ sourceUrl: "https://malyvarendelo.hu/adhd-es-autizmus-kozpont/"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Külön közösségi teret is fenntartanak (1148 Budapest, Vezér utca 138/B).

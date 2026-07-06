@@ -13,6 +13,7 @@ coverImage: "/covers/ark-raghato-nyaklanc.jpg"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-04
+lastEdited: 2026-07-05
 ---
 
 ARK Therapeutic (USA) márka, autishop.hu-n. Orvosi minőségű, FDA-kompatibilis anyag, ólom-/ftalát-/PVC-/BPA-/latexmentes. Három keménységi fokozat (puha, közepes, extra kemény). Diszkrét hurok forma, medál + zsinór, 5 éves kortól ajánlott, felnőtt felügyelettel. 6 090 Ft.

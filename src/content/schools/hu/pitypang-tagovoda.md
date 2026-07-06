@@ -16,6 +16,7 @@ sourceUrl: "https://ovoda.bp13.hu/pitypang-tagovoda/magunkrol/integracio/"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Egyénre szabott fejlesztési tervekkel és speciális differenciáló módszerekkel dolgoznak, szoros együttműködésben logopédussal, gyógypedagógussal és a családdal.

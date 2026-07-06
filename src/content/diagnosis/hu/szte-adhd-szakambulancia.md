@@ -18,6 +18,7 @@ sourceUrl: "https://u-szeged.hu/szakk/tajekoztatok/adhd-szakambulancia"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Állami alternatíva a szegedi Cerebrum magánközpont mellett.

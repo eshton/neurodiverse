@@ -11,6 +11,7 @@ ratings: []
 ageGroup: children
 curatedBy: manual
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 Konkrét, egyszerű reggeliötletek gyűjteménye iskolás gyerekeknek — 7 recept, a legtöbb előző este előkészíthető, így reggel percek alatt kész.

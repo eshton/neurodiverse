@@ -12,6 +12,7 @@ ratings: []
 ageGroup: both
 curatedBy: manual
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 Rövid, de biztató Telex-hír: a Városligeti Műjégpálya „csendes órákat" szervez, amikor pár órára lehalkítják a zenét és csökkentik az ingereket, hogy az autizmussal élők (és mindenki, akinek jólesik a nyugodtabb környezet) kellemesebben korcsolyázhassanak.

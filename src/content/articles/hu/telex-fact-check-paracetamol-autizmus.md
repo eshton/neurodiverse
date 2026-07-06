@@ -12,6 +12,7 @@ ratings: []
 ageGroup: both
 curatedBy: manual
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 A Telex tényellenőrző (ellenőrző) rovatának cikke azt a nagy visszhangot kapott állítást vizsgálja meg, amelyet Donald Trump jelentett be a Fehér Házban: hogy a terhesség alatt szedett paracetamol (acetaminofen / Tylenol) autizmust okozna a születendő gyereknél — és amely mellett ismét felmerült a régóta cáfolt vakcina-autizmus összefüggés is.

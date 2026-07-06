@@ -12,6 +12,7 @@ sourceUrl: "https://en.wikipedia.org/wiki/Temple_Grandin_(film)"
 coverImage: "/covers/temple-grandin.jpg"
 ratings: []
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 Magyarországon a HBO Max-on elérhető.

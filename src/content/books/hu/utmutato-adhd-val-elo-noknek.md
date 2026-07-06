@@ -11,6 +11,7 @@ coverImage: "/covers/utmutato-adhd-val-elo-noknek.jpg"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-04
+lastEdited: 2026-07-04
 ---
 
 Jaffa Kiadó, 2025, 237 oldal, 5224 Ft.

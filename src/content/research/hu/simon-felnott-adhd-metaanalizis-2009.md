@@ -14,6 +14,7 @@ tags: [metaanalízis, magyar szerzők, felnőttkori ADHD, epidemiológia]
 sourceUrl: "https://doi.org/10.1192/bjp.bp.107.048827"
 ratings: []
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 Magyar (semmelweisi) kutatócsoport által jegyzett, angol nyelven megjelent metaanalízis. A magyar kivonat a szerkesztő megfogalmazása.

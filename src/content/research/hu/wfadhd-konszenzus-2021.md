@@ -15,6 +15,7 @@ tags: [konszenzus, nemzetközi, áttekintés]
 sourceUrl: "https://doi.org/10.1016/j.neubiorev.2021.01.022"
 ratings: []
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 Angol nyelvű, nyílt hozzáférésű összefoglaló. A magyar kivonat a szerkesztő megfogalmazása; a pontos megállapításokért lásd az eredeti tanulmányt.

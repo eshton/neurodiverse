@@ -14,6 +14,7 @@ sourceUrl: "https://www.youtube.com/watch?v=SZsIZBsV6Gk"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-04
+lastEdited: 2026-07-04
 ---
 
 Az Egészségünkre általános egészségügyi magazin, nem ADHD-specifikus — ez egy 2013-as, régebbi adás.

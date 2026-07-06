@@ -14,6 +14,7 @@ sourceUrl: "https://www.youtube.com/watch?v=l7AwcL3vgZc"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-04
+lastEdited: 2026-07-04
 ---
 
 A TV2 Napló általános hírmagazin, nem ADHD-specifikus — ez egy archív riport.

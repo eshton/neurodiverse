@@ -18,6 +18,7 @@ ratings:
     checkedAt: 2026-07-04
 curatedBy: manual
 lastReviewed: 2026-07-04
+lastEdited: 2026-07-05
 ---
 
 Móka és Zen (mokaeszen.hu), magyar manufaktúra. 100% pamut, üveggyöngy töltet, Oeko-Tex tanúsítvány, poliészterbélés nélkül. Alapár 32 990 Ft (136×196 cm, 65 kg-ig használótestsúlyhoz), méret és súly szerint felárral. Az oldal külön szekciót szentel az ADHD/autizmus felhasználásnak.

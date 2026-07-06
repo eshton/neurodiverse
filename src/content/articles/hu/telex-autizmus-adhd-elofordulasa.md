@@ -12,6 +12,7 @@ ratings: []
 ageGroup: adults
 curatedBy: manual
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 A Telex tudományos rovatának cikke egy nemzetközi kutatásról számol be, amely szerint a felnőtt autisták körében az ADHD előfordulása mintegy tízszerese az átlagpopulációénak. Ez azért fontos, mert korábban azt feltételezték, hogy az ADHD gyerekkori együttjárása az autizmusnak felnőttkorra jórészt „kinőhető" — a kutatás ezt cáfolja.

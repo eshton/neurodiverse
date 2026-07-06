@@ -14,6 +14,7 @@ tags: [bizottsági jelentés, ellátás, nemzetközi]
 sourceUrl: "https://doi.org/10.1016/S0140-6736(21)01541-5"
 ratings: []
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 Angol nyelvű szakértői jelentés. A magyar kivonat a szerkesztő megfogalmazása; a részletekért lásd az eredeti dokumentumot.

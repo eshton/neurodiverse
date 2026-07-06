@@ -12,6 +12,7 @@ sourceUrl: "https://en.wikipedia.org/wiki/Adam_(2009_film)"
 coverImage: "/covers/adam.jpg"
 ratings: []
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 Magyarországon jelenleg csak bérelhető vagy megvásárolható (Apple TV Store, Rakuten TV), előfizetős szolgáltatáson nem elérhető.

@@ -12,6 +12,7 @@ sourceUrl: "https://en.wikipedia.org/wiki/Atypical_(TV_series)"
 coverImage: "/covers/atypical.jpg"
 ratings: []
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 Magyarországon a Netflixen elérhető ("Több, mint normális" címen).

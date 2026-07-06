@@ -14,6 +14,7 @@ sourceUrl: "https://www.youtube.com/watch?v=dsPrtS18Ms8"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-04
+lastEdited: 2026-07-04
 ---
 
 A DW Magyar általános hírcsatorna, nem autizmus-specifikus — ez egy alkalmi riport.

@@ -17,6 +17,7 @@ sourceUrl: "https://ledamed.hu/szakterulet/pszichiatria/"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Zala megye egyik kevés magán pszichiátriai rendelője ADHD-kezeléssel.

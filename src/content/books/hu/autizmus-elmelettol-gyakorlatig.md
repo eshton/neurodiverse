@@ -11,6 +11,7 @@ coverImage: "/covers/autizmus-elmelettol-gyakorlatig.jpg"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-04
+lastEdited: 2026-07-04
 ---
 
 Autizmus Alapítvány, 2007, 132 oldal, spirálkötés, 5107 Ft.

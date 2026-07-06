@@ -17,6 +17,7 @@ sourceUrl: "https://kislepesek.hu/kozpont/"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Az elsők között alkalmazták az ABA terápiát Magyarországon autista gyerekeknél.

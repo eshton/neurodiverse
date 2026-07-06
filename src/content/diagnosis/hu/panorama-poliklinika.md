@@ -25,6 +25,7 @@ sourceUrl: "https://panoramaklinika.hu/pszichiatria/adhd-kivizsgalas-felnott-pac
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Térkép a Pest-i (Ilosvai Selymes utca) telephelyre mutat.

@@ -12,6 +12,7 @@ sourceUrl: "https://en.wikipedia.org/wiki/Percy_Jackson_%26_the_Olympians:_The_L
 coverImage: "/covers/percy-jackson-lightning-thief.jpg"
 ratings: []
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 Az ADHD és a diszlexia elsősorban a szereplő bemutatásában jelenik meg, nem végigvitt téma. Magyarországon a Disney+-on előfizetéssel elérhető (illetve kölcsönözhető/megvásárolható az Apple TV-n és a Rakuten TV-n).

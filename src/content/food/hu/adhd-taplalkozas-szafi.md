@@ -11,6 +11,7 @@ ratings: []
 ageGroup: both
 curatedBy: manual
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 A Szafi Dietetikai Team áttekintése arról, hogyan támogathatja a táplálkozás az ADHD tüneteinek kezelését. Fontos, hogy a cikk **nem gyógyítást ígér**: végig hangsúlyozza, hogy tudományos konszenzus nincs, és a diéta a kezelés (nem a helyettesítője) mellé illeszkedik.

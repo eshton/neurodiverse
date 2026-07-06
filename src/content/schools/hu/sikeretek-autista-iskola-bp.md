@@ -17,6 +17,7 @@ sourceUrl: "https://siketekbp.co.hu/autista-altalanos-iskola/"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Bár az intézmény alapvetően hallássérült gyerekeket lát el, 2017 szeptemberétől külön autizmus-specifikus óvodai csoportot, 2018 szeptemberétől pedig iskolai osztályokat is indított — jelenleg egy óvodai csoport és öt általános iskolai osztály.

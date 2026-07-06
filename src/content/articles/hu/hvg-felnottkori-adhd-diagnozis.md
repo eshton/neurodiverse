@@ -13,6 +13,7 @@ ratings: []
 ageGroup: adults
 curatedBy: manual
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 A HVG360 cikke (Pálúr Krisztina) a felnőttkori ADHD felismeréséről és kezeléséről szól: arról az élményről, amikor valaki felnőttként érti meg, miért küzd gyerekkora óta, és arról, milyen kevés a felnőtt ADHD diagnosztizálására felkészült szakember itthon és külföldön egyaránt.

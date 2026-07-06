@@ -11,6 +11,7 @@ ratings: []
 ageGroup: both
 curatedBy: manual
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 A vas és a cink azok közé a mikrotápanyagok közé tartozik, amelyeknél a kutatások összefüggést látnak az ADHD-val — de a képet fontos pontosan érteni, mert könnyű túlígérni.

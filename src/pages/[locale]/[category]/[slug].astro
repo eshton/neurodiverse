@@ -20,12 +20,15 @@ const BASE_FIELDS = new Set([
   'parentTitle',
   'curatedBy',
   'lastReviewed',
+  'lastEdited', // shown in the footer meta line, not the generic dl
   'lat',
   'lng',
   // Rendered by the dedicated "További helyszínek" block below, not the generic dl.
   'locations',
   'locationStatus',
 ]);
+// publishedDate is intentionally NOT excluded — it renders generically as
+// "Megjelenés" (FIELD_LABELS) for the content types that carry it.
 
 export async function getStaticPaths() {
   const paths = [];
@@ -115,8 +118,12 @@ if (category === 'articles') {
 if (category === 'research') {
   if (data.authors) jsonLd.author = { '@type': 'Person', name: data.authors };
   if (data.venue) jsonLd.publisher = { '@type': 'Organization', name: data.venue };
-  if (data.year) jsonLd.datePublished = String(data.year);
 }
+// Publication + modification dates for search engines. datePublished prefers the
+// generic publishedDate string, falling back to the year-only `year` (movies/research).
+const publishedForLd = data.publishedDate ?? (data.year != null ? String(data.year) : undefined);
+if (publishedForLd) jsonLd.datePublished = publishedForLd;
+if (data.lastEdited) jsonLd.dateModified = data.lastEdited.toISOString().slice(0, 10);
 ---
 <Layout title={`${data.title} — Neurodiverse`} locale={locale} description={data.summary} image={cover}>
   <script type="application/ld+json" is:inline set:html={JSON.stringify(jsonLd)} />
@@ -250,6 +257,8 @@ if (category === 'research') {
   )}
 
   <p class="text-xs text-zinc-400 dark:text-zinc-500">
-    Utoljára ellenőrizve: {data.lastReviewed.toISOString().slice(0, 10)} · Kuráció: {data.curatedBy}
+    Utoljára ellenőrizve: {data.lastReviewed.toISOString().slice(0, 10)}
+    {data.lastEdited && ` · Utoljára szerkesztve: ${data.lastEdited.toISOString().slice(0, 10)}`}
+    {' · '}Kuráció: {data.curatedBy}
   </p>
 </Layout>

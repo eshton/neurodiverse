@@ -13,6 +13,7 @@ sourceUrl: "https://www.adhd-magyarorszag.com/"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Szakemberekből és szülőkből álló alapítvány, amely szakmai információkkal, nevelési és oktatási tapasztalatokkal segíti a hiperaktív gyerekeket és családjaikat. Országosan működik; bázisuk a Cegléd környéki Pálföldi Majorság, ahol táborokat és programokat tartanak. Pontos, házszám szintű cím nem áll rendelkezésre a majorsághoz, ezért — a projekt „ne találj ki adatot" elve szerint — nincs térkép-pin: csak a város (Cegléd) szerepel, a szervezet nem jelenik meg a térképen.

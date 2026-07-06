@@ -16,6 +16,7 @@ sourceUrl: "https://aosz.hu/rolunk/"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Eredetileg „Autisták Érdekvédelmi Egyesülete" néven, 1988-ban alakult; több mint harminc éve az autista emberek és családjaik érdekvédelmének meghatározó szereplője. Nem közvetlen önsegítő csoport, hanem országos ernyőszervezet: a tagszervezetein keresztül köti össze a helyi közösségeket, és Infocentrumán át ad tájékoztatást családoknak. Ügyfélfogadás: hétfő–csütörtök 9:00–16:00, péntek 9:00–14:00.

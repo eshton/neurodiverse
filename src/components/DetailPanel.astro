@@ -48,9 +48,10 @@
     const BASE_FIELDS = new Set([
       'id', 'category', 'slug', 'href', 'body', 'title', 'locale', 'topics', 'summary', 'tags',
       'sourceUrl', 'coverImage', 'ratings', 'availability', 'entryType', 'parentTitle',
-      'curatedBy', 'lastReviewed', 'lat', 'lng',
+      'curatedBy', 'lastReviewed', 'lastEdited', 'lat', 'lng',
       // Rendered by the dedicated "További helyszínek" block, not the generic dl.
       'locations', 'locationStatus',
+      // publishedDate is NOT excluded — it renders generically as "Megjelenés".
     ]);
 
     const esc = (v: unknown) =>
@@ -138,7 +139,10 @@
           ).join('') + `</ul>`
         : '';
 
-      const meta = `<p class="text-xs text-zinc-400 dark:text-zinc-500 mt-6">${esc(CATEGORY_LABELS[item.category] ?? item.category)}${item.lastReviewed ? ` · Utoljára ellenőrizve: ${esc(item.lastReviewed)}` : ''}</p>`;
+      const meta = `<p class="text-xs text-zinc-400 dark:text-zinc-500 mt-6">${esc(CATEGORY_LABELS[item.category] ?? item.category)}` +
+        (item.lastReviewed ? ` · Utoljára ellenőrizve: ${esc(item.lastReviewed)}` : '') +
+        (item.lastEdited ? ` · Utoljára szerkesztve: ${esc(item.lastEdited)}` : '') +
+        `</p>`;
 
       const content = document.getElementById('dp-content');
       if (content) {

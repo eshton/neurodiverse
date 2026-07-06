@@ -18,6 +18,7 @@ sourceUrl: "https://www.bazmkorhaz.hu/velkey-laszlo-gyermekegeszsegugyi-kozpont-
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Szűrő jellegű vizsgálat — komplex ADHD/autizmus diagnózishoz gyakran Budapestre (Autizmus Kutatócsoport) irányítanak.

@@ -16,6 +16,7 @@ sourceUrl: "https://www.klebi.hu/"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 A 2018-2019-es tanévben 10 autista tanulót láttak el. Differenciált, egyéni tempóhoz igazított oktatásszervezéssel dolgoznak, általános iskolai és gimnáziumi (4 évfolyamos) szinten egyaránt.

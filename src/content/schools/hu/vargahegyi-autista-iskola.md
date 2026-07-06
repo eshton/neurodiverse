@@ -16,6 +16,7 @@ sourceUrl: "https://www.miskolciautista.com/tevekenysegeink/vargahegyi-autista-a
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Az Alapítvány több mint 30 éve dolgozik autizmussal élő emberekkel Miskolcon; az iskola mellett támogatott lakhatást és napközbeni ellátást is működtet.

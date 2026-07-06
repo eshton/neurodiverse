@@ -14,6 +14,7 @@ tags: [áttekintés, nemzetközi, szeminárium]
 sourceUrl: "https://doi.org/10.1016/S0140-6736(13)61539-1"
 ratings: []
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 Angol nyelvű áttekintő tanulmány. A magyar kivonat a szerkesztő megfogalmazása.

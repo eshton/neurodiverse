@@ -18,6 +18,7 @@ sourceUrl: "https://aok.pte.hu/hu/egyseg/350"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Dél-Dunántúl egyik fő gyermekpszichiátriai centruma.

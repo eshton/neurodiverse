@@ -12,6 +12,7 @@ ratings: []
 ageGroup: children
 curatedBy: manual
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 A Qubit cikke a magyar oktatási rendszer egyik régóta fennálló problémáját járja körül: az úgynevezett **rideg integrációt**. Ilyenkor az autista (vagy más sajátos nevelési igényű) gyereket beírják egy többségi iskolába, de a valódi integrációhoz szükséges feltételek — felkészített pedagógus, gyógypedagógiai támogatás, az osztálytársak érzékenyítése — nélkül, így a befogadás valójában csak papíron létezik.

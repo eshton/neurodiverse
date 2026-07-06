@@ -13,6 +13,7 @@ coverImage: "/covers/quicktalker-ft23.jpg"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-04
+lastEdited: 2026-07-05
 ---
 
 AbleNet (USA) márka, autishop.hu-n. 20 programozható gomb, 5 szinten összesen 100 üzenet, max. 18 perc felvételi kapacitás, kép + hang testreszabással. Nem-/aligbeszélő autista gyerekeknek/felnőtteknek a napi kommunikációhoz. Előrendelhető. 129 990 Ft.

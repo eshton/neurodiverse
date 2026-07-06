@@ -13,6 +13,7 @@ sourceUrl: "https://en.wikipedia.org/wiki/As_We_See_It"
 coverImage: "/covers/as-we-see-it.png"
 ratings: []
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 Magyarországon az Amazon Prime Videón elérhető ("Így látjuk mi" címen). Egy évad után nem folytatták.

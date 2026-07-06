@@ -15,6 +15,7 @@ sourceUrl: "https://doi.org/10.1007/s00406-009-0076-3"
 coverImage: "/covers/bitter-simon-magyar-felnott-adhd-2010.png"
 ratings: []
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 Magyar (semmelweisi) kutatócsoport magyar mintán végzett, angol nyelven megjelent vizsgálata. A magyar kivonat a szerkesztő megfogalmazása.

@@ -11,6 +11,7 @@ coverImage: "/covers/kepekben-gondolkodom.jpg"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-04
+lastEdited: 2026-07-04
 ---
 
 Park Könyvkiadó, 2014, 344 oldal, 3325 Ft.

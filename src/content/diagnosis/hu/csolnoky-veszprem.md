@@ -18,6 +18,7 @@ sourceUrl: "https://csfk.hu/jarobeteg-ellatas/gyermek-es-ifjusagi-pszichiatriai-
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Közép-Dunántúl gyermekpszichiátriai ellátóhelye.

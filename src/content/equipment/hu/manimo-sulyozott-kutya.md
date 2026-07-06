@@ -13,6 +13,7 @@ coverImage: "/covers/manimo-sulyozott-kutya.jpg"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-04
+lastEdited: 2026-07-05
 ---
 
 Manimo® márka, autishop.hu-n. 95% lycra, 5% spandex, HDPE golyó töltet, 1 kg (2,5 kg-os változat is létezik). Ölbe, vállra vagy nyakba vehető, ajánlott használat 15-20 perc, 3 éves kortól. Gyártói ígéret: szorongáscsökkentés, figyelem/koncentráció fokozása, testtudat erősítése.

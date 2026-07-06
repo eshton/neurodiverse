@@ -28,6 +28,7 @@ sourceUrl: "https://www.ligetutiiskola.hu"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 2019 szeptemberében indult önálló egységként a Liget Úti EGYMI-n belül. Három szint: óvodai csoport (hivatalos szakértői véleménnyel érkező gyerekeknek), általános iskola (6 osztálycsoport), és készségfejlesztő iskola az értelmi fogyatékossággal élő végzősöknek.

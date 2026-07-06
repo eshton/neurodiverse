@@ -11,6 +11,7 @@ coverImage: "/covers/adhd-tunetegyuttes.jpg"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-04
+lastEdited: 2026-07-04
 ---
 
 Geobook Hungary, 2010, 254 oldal, 3325 Ft.

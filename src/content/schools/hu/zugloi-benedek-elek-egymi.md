@@ -23,6 +23,7 @@ sourceUrl: "https://www.benedekelek.hu/"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Két óvodai csoportjuk közül az egyik kifejezetten autizmussal élő gyerekeknek szól (a másik értelmileg akadályozott gyerekeknek), az iskolai szinten pedig négy autizmus-specifikus osztálycsoportot működtetnek.

@@ -15,6 +15,7 @@ sourceUrl: "https://doi.org/10.1016/S2215-0366(18)30269-4"
 coverImage: "/covers/cortese-adhd-gyogyszerek-2018.jpg"
 ratings: []
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 Angol nyelvű szakcikk. A gyógyszeres kezelés mindig szakorvosi döntés — ez a tanulmány a döntés bizonyítékhátterét adja, nem helyettesíti a kezelőorvost. A magyar kivonat a szerkesztő megfogalmazása.

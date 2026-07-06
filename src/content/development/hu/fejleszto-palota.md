@@ -17,6 +17,7 @@ sourceUrl: "https://palotafejleszto.hu/"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 4 fős csoportokban, heti 1-2 alkalommal, 60 perces foglalkozások.

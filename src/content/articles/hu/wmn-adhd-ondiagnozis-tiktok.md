@@ -11,6 +11,7 @@ ratings: []
 ageGroup: both
 curatedBy: manual
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 A WMN írása kiegyensúlyozottan járja körül az ADHD körüli **öndiagnózis-jelenséget**: ahogy az ADHD (és általában a mentális egészség fogalmai) beköltöztek a hétköznapi beszélgetésekbe és a közösségi médiába, egyre többen ismernek magukra egy-egy TikTok-videó alapján.

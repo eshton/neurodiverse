@@ -13,6 +13,7 @@ sourceUrl: "https://en.wikipedia.org/wiki/The_Black_Balloon_(film)"
 coverImage: "/covers/the-black-balloon.jpg"
 ratings: []
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 Magyarországi legális streaming-elérhetőségét a JustWatch alapján nem sikerült megerősíteni a fenti dátumon.

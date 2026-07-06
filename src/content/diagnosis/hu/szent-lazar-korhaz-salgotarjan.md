@@ -17,6 +17,7 @@ sourceUrl: "https://szlmk.hu/"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 A gyermek- és ifjúságpszichiátriai gondozó a kórház Füleki úti telephelyén működik, Nógrád vármegye gyermekpszichiátriai szakellátásának egyik állami intézménye. A MARS Alapítvány országos diagnózisközpont-keresőjében is szerepel, mint autizmus-diagnosztikát végző hely.

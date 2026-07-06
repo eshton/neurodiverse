@@ -12,6 +12,7 @@ sourceUrl: "https://www.youtube.com/channel/UCan-Vl4e_RENAReh_YMSVFQ"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-04
+lastEdited: 2026-07-04
 ---
 
 Ugyanazon szervezet csatornája, amely a MOZAIK Podcastot is készíti.

@@ -13,6 +13,7 @@ sourceUrl: "https://en.wikipedia.org/wiki/Ben_X"
 coverImage: "/covers/ben-x.jpg"
 ratings: []
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 A film érinti az öngyilkosság témáját. Magyarországi legális streaming-elérhetőségét a JustWatch alapján nem sikerült megerősíteni a fenti dátumon.

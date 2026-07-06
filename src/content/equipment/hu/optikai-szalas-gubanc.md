@@ -13,6 +13,7 @@ coverImage: "/covers/optikai-szalas-gubanc.jpg"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-04
+lastEdited: 2026-07-05
 ---
 
 Aaksni.hu (szenzoros szoba/snoezelen szaküzlet). 100 db optikai szál, 2 m hosszú, tapintható és színváltó. Külön LED fényforrás szükséges hozzá. Szenzoros szoba (Snoezelen) berendezéshez, vizuális/tapintási stimulációra minden korosztálynak. 90 990 Ft.

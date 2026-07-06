@@ -12,6 +12,7 @@ ratings: []
 ageGroup: both
 curatedBy: manual
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 A Telex ADHD-sorozatának nyitó része alapos, közérthető bevezető a témába: mi az ADHD valójában, hogy réges-rég túlhaladott a „gyerekkori fiúbetegség" kép, milyen sokféle formát ölthet, és felnőttként is komoly nehézségeket okozhat.

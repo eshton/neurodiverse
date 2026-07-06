@@ -12,6 +12,7 @@ ratings: []
 ageGroup: both
 curatedBy: manual
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 A Telex tudományos rovatának cikke azt az elgondolást mutatja be, hogy az autizmushoz köthető gének fennmaradása mögött evolúciós előny is állhat: a spektrumzavar más emlősöknél gyakorlatilag nem jelenik meg, és épp azokat a kognitív készségeket érinti, amelyekben az ember a többi főemlőst felülmúlta.

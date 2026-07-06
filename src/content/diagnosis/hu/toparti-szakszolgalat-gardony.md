@@ -17,6 +17,7 @@ sourceUrl: "https://prorekreatione.maltai.hu/toparti-pedagogiai-szakszolgalat/"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 A Tóparti Szakambulancia autizmus-diagnosztikát végez, a Tóparti Pedagógiai Szakszolgálat pedig kora gyermekkori fejlesztést nyújt; mindkettőt a Pro Rekreatione Nonprofit Kft. (Magyar Máltai Szeretetszolgálat) tartja fenn. A MARS Alapítvány országos diagnózisközpont-keresőjében is szerepel.

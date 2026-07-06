@@ -16,6 +16,7 @@ sourceUrl: "https://autispektrum.com/"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 2013 januárja óta működő önsegítő csoport, amelyet Veszprém megyei, autizmus spektrumzavarral élő gyermeket nevelő szülők hoztak létre. Szülőcsoport és szülőtréningek mellett szemléletformáló programokat, közös szabadidős tevékenységeket, nyári táborokat és fejlesztő programokat szerveznek, valamint Info-Pont irodát tartanak fenn a régió családjainak.

@@ -12,6 +12,7 @@ sourceUrl: "https://en.wikipedia.org/wiki/The_Speed_Cubers"
 coverImage: "/covers/the-speed-cubers.jpg"
 ratings: []
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 Magyarországon a Netflixen elérhető ("Speedcubing – A gyorskockázás világa" címen).

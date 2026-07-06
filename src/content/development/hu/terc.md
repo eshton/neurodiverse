@@ -17,6 +17,7 @@ sourceUrl: "https://www.autizmus.hu/terapiascentrum"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Ugyanazon szervezet, mint a diagnózis kategóriában szereplő Autizmus Alapítvány Ambulancia — itt a terápiás (nem diagnosztikai) szolgáltatás szerepel.

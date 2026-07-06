@@ -17,6 +17,7 @@ coverImage: "/covers/calmer-fuldugo.png"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-04
+lastEdited: 2026-07-05
 ---
 
 Flare Audio (UK) márka, Calmer® Mini és Calmer® Kids változatban, 9 490-9 990 Ft. A gyártó szerint nem elnyomja, hanem torzítatlanítja a bejövő hangot — a magyar forgalmazó (profi-fuldugo.hu) kifejezetten autizmussal összefüggő hangtúlérzékenységre, stressz- és szorongáscsökkentésre ajánlja. A forgalmazónak valódi, nyitvatartással rendelkező személyes átvételi pontja is van Esztergomban (hétfő-csütörtök 8:00-17:00, péntek 8:00-14:00) — az egyetlen ilyen az ebben a kategóriában szereplő hat forgalmazó közül.

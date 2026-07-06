@@ -14,6 +14,7 @@ tags: [klinikai vizsgálat, magyar helyszín, toborzás alatt, étkezés, szenzo
 sourceUrl: "https://clinicaltrials.gov/study/NCT07188870"
 ratings: []
 lastReviewed: 2026-07-05
+lastEdited: 2026-07-05
 ---
 
 Magyar vezetésű (Semmelweis Egyetem), 2025-ben indult, a legutóbbi ellenőrzéskor toborzás alatt álló vizsgálat. A regisztrációs adatlap angol nyelvű; a magyar kivonat a szerkesztő megfogalmazása. A toborzási státusz idővel változhat — az aktuális állapotért lásd a ClinicalTrials.gov-oldalt.

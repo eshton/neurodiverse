@@ -17,6 +17,7 @@ sourceUrl: "https://ujbudagyermekfejleszto.hu/terapias-foglalkozasaink/autizmus-
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Etetési/evészavarok komplex terápiáját is kínálják, gyakori autizmus-melléktünet.

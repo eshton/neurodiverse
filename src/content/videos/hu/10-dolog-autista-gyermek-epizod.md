@@ -14,6 +14,7 @@ sourceUrl: "https://www.youtube.com/watch?v=bQeP9ywLwe8"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-04
+lastEdited: 2026-07-04
 ---
 
 A csatorna általános pedagógiai témákkal foglalkozik, nem autizmus-specifikus.

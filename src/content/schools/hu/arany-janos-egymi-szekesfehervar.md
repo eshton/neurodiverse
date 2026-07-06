@@ -28,6 +28,7 @@ sourceUrl: "http://aranyegymi.hu/"
 ratings: []
 curatedBy: manual
 lastReviewed: 2026-07-06
+lastEdited: 2026-07-06
 ---
 
 Autizmus-specifikus szakemberei utazó gyógypedagógusként is segítik az integrált nevelést a megyében, nem csak a saját telephelyen látnak el gyerekeket.
