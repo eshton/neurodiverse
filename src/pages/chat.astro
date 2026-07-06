@@ -1,9 +1,10 @@
 ---
-// /chat — classic conversational AI interface. UI is complete; the backend is a
-// placeholder for a planned Ollama Cloud integration, so sending a message just
-// echoes a canned "coming soon" assistant reply (no network call, no data leaves
-// the browser — consistent with the site's privacy stance). Full-bleed like the
-// map, so it uses MapLayout (header, no footer).
+// /chat — conversational AI assistant backed by Ollama Cloud with tools. The
+// message loop + tool execution live in the client <script> below; the LLM call
+// is proxied by the /api/chat Pages Function (functions/api/chat.ts) which hides
+// the API key. Content-search tools run in the browser against the preloaded
+// /db/content.json, so lookups never leave the device — only the conversation
+// text is sent to the model. Full-bleed like the map, so it uses MapLayout.
 import MapLayout from '../layouts/MapLayout.astro';
 
 const SUGGESTIONS = [
@@ -14,7 +15,7 @@ const SUGGESTIONS = [
 ---
 <MapLayout
   title="Chat | Neuropont"
-  description="Beszélgetős segítő ADHD- és autizmus-kérdésekhez. Hamarosan — Ollama Cloud integrációval."
+  description="Beszélgetős segítő ADHD- és autizmus-kérdésekhez — valódi, oldalon belüli forrásokkal."
 >
   <!-- Notice banner -->
   <div class="shrink-0 bg-amber-50 dark:bg-amber-950/40 border-b border-amber-200 dark:border-amber-900 px-4 py-2 text-center text-xs text-amber-800 dark:text-amber-300">
