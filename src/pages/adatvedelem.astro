@@ -37,6 +37,23 @@ import Layout from '../layouts/Layout.astro';
     </section>
 
     <section>
+      <h2 class="font-semibold text-zinc-900 dark:text-zinc-100 mb-2">Hozzájárulás kezelése</h2>
+      <p>
+        Első látogatáskor egy sávban három dologhoz kérünk külön-külön
+        hozzájárulást; ezek egymástól függetlenül ki- és bekapcsolhatók:
+      </p>
+      <ul class="mt-2 list-disc pl-5 space-y-1">
+        <li><strong>Beállítások megjegyzése</strong> — szűrők és preferenciák mentése a böngésződben (localStorage). Kikapcsolva minden funkció működik, csak a beállításaid nem maradnak meg a következő látogatásra.</li>
+        <li><strong>Beszélgetős segítő (Chat)</strong> — az üzeneteid feldolgozásra az Ollama Cloudhoz kerülnek. Kikapcsolva a chat nem használható.</li>
+        <li><strong>Térkép (Google Maps)</strong> — a Google Maps betöltése. Kikapcsolva a térkép nem jelenik meg.</li>
+      </ul>
+      <p class="mt-2">
+        A választásod bármikor módosíthatod:
+        <button type="button" data-open-consent class="underline text-brand-700 dark:text-brand-300">adatvédelmi beállítások megnyitása</button>.
+      </p>
+    </section>
+
+    <section>
       <h2 class="font-semibold text-zinc-900 dark:text-zinc-100 mb-2">Google Maps</h2>
       <p>
         A térkép megjelenítéséhez a Google Maps Platform szolgáltatását

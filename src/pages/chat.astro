@@ -90,6 +90,7 @@ const SUGGESTIONS = [
   // browser — only the conversation text is sent to the model. Wired on
   // astro:page-load so it survives View Transitions.
   import { executeTool, renderToolUi } from '../lib/chatTools';
+  import { canChat, grant } from '../lib/consent';
 
   const MAX_TOOL_ITERATIONS = 5; // cap the tool loop so it can't run away
 
@@ -218,6 +219,26 @@ const SUGGESTIONS = [
       addAssistant(`<p class="text-red-600 dark:text-red-400">${esc(text)}</p>`);
     }
 
+    // Chat consent is off: explain and offer a one-click enable (point-of-use
+    // opt-in). On enable we grant the `chat` category and run onEnable (resend).
+    function addChatConsentPrompt(onEnable: () => void) {
+      const el = document.createElement('div');
+      el.className = 'flex gap-3';
+      el.innerHTML =
+        `<div class="shrink-0 w-8 h-8 rounded-full bg-brand-600 text-white flex items-center justify-center text-sm" aria-hidden="true">✦</div>` +
+        `<div class="rounded-2xl rounded-tl-sm bg-zinc-100 dark:bg-zinc-800 px-4 py-3 text-sm text-zinc-800 dark:text-zinc-100 max-w-[85%]">` +
+        `<p>A beszélgetős segítő ki van kapcsolva az adatvédelmi beállításaid szerint. Bekapcsolva az üzeneteid feldolgozásra az <strong>Ollama Cloud</strong> nyelvi modellhez kerülnek.</p>` +
+        `<button type="button" data-enable-chat class="mt-2 px-3 py-1.5 rounded-full bg-brand-600 text-white text-sm hover:bg-brand-700 transition">Engedélyezem</button>` +
+        `</div>`;
+      messages.appendChild(el);
+      scrollDown();
+      el.querySelector('[data-enable-chat]')?.addEventListener('click', () => {
+        grant('chat');
+        el.remove();
+        onEnable();
+      });
+    }
+
     async function callApi(): Promise<any> {
       const res = await fetch('/api/chat', {
         method: 'POST',
@@ -268,6 +289,11 @@ const SUGGESTIONS = [
     function send(text: string) {
       const trimmed = text.trim();
       if (!trimmed || busy) return;
+      if (!canChat()) {
+        document.getElementById('chat-suggestions')?.remove();
+        addChatConsentPrompt(() => send(text)); // enable, then resend the same text
+        return;
+      }
       document.getElementById('chat-suggestions')?.remove();
       addUser(trimmed);
       history.push({ role: 'user', content: trimmed });

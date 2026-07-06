@@ -91,6 +91,7 @@ const AGE_FILTERS = [
 <script>
   import { loadGoogleMaps, whenMapsAllowed, getGoogle, categoryPin, PIN_WIDTH, PIN_HEIGHT, POPUP_IMG_STYLE, POPUP_BTN_STYLE, MAP_STYLES } from '../lib/googleMaps';
   import { COUNTIES } from '../data/counties';
+  import { storeGet, storeSet } from '../lib/consent';
 
   interface MapItem {
     title: string;
@@ -151,7 +152,7 @@ const AGE_FILTERS = [
     let publicOnly = false; // "Közfinanszírozott" toggle — show only state/mixed funding
 
     try {
-      const saved = JSON.parse(localStorage.getItem(FILTERS_KEY) ?? 'null');
+      const saved = JSON.parse(storeGet(FILTERS_KEY) ?? 'null');
       if (saved) {
         activeTypes.clear();
         (saved.types ?? ALL_TYPES).forEach((t: string) => activeTypes.add(t));
@@ -168,14 +169,14 @@ const AGE_FILTERS = [
       const urlAge = new URL(location.href).searchParams.get('age');
       if (urlAge === 'children' || urlAge === 'adults' || urlAge === 'both') {
         activeAge = urlAge;
-        localStorage.setItem(FILTERS_KEY, JSON.stringify({ types: [...activeTypes], age: activeAge, publicOnly }));
+        storeSet(FILTERS_KEY, JSON.stringify({ types: [...activeTypes], age: activeAge, publicOnly }));
       }
     } catch {
       // ignore — no URL/storage access, keep restored/default age
     }
 
     function saveFilters() {
-      localStorage.setItem(FILTERS_KEY, JSON.stringify({ types: [...activeTypes], age: activeAge, publicOnly }));
+      storeSet(FILTERS_KEY, JSON.stringify({ types: [...activeTypes], age: activeAge, publicOnly }));
     }
 
     function matchesAge(itemAge: string) {

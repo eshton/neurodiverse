@@ -129,9 +129,12 @@ import Layout from '../layouts/Layout.astro';
 
 <script>
   // Audience selection is optional and non-destructive: picking Parent/Adult
-  // highlights the card, remembers the choice (localStorage), and appends
-  // ?age=children|adults to the three mode links so /map and /web open with the
-  // age filter preset. With JS off, the mode links still work (no param).
+  // highlights the card, remembers the choice (localStorage, gated behind the
+  // `storage` consent), and appends ?age=children|adults to the three mode links
+  // so /map and /web open with the age filter preset. With JS off, the mode links
+  // still work (no param).
+  import { storeGet, storeSet, storeRemove } from '../lib/consent';
+
   function initLanding() {
     const group = document.getElementById('audience-group');
     if (!group) return; // not on the landing page
@@ -142,8 +145,7 @@ import Layout from '../layouts/Layout.astro';
     // Base (param-less) href for each mode link, captured once.
     const bases = new Map(modeLinks.map((a) => [a, a.getAttribute('href')!.split('?')[0]]));
 
-    let audience: string | null = null;
-    try { audience = localStorage.getItem(KEY); } catch {}
+    let audience: string | null = storeGet(KEY);
     if (audience !== 'children' && audience !== 'adults') audience = null;
 
     const apply = () => {
@@ -164,7 +166,7 @@ import Layout from '../layouts/Layout.astro';
     cards.forEach((c) =>
       c.addEventListener('click', () => {
         audience = audience === c.dataset.audience ? null : c.dataset.audience!;
-        try { audience ? localStorage.setItem(KEY, audience) : localStorage.removeItem(KEY); } catch {}
+        audience ? storeSet(KEY, audience) : storeRemove(KEY);
         apply();
       })
     );

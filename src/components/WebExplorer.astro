@@ -152,6 +152,8 @@ const POSTER_SHAPE: Record<string, 'portrait' | 'square'> = {
   // Age filter only (the type filter became per-category permalink pages). Fired
   // on astro:page-load so it re-binds after every View Transitions navigation
   // (bundled module scripts run only once), and re-reads state each time.
+  import { storeGet, storeSet } from '../lib/consent';
+
   function initWebExplorer() {
     const root = document.getElementById('web-grid');
     if (!root) return; // not on a web category page
@@ -165,7 +167,7 @@ const POSTER_SHAPE: Record<string, 'portrait' | 'square'> = {
     let activeSort: 'newest' | 'oldest' | 'title' = 'newest';
 
     try {
-      const saved = JSON.parse(localStorage.getItem(FILTERS_KEY) ?? 'null');
+      const saved = JSON.parse(storeGet(FILTERS_KEY) ?? 'null');
       if (saved?.age) activeAge = saved.age;
       if (saved?.sort) activeSort = saved.sort;
     } catch {
@@ -182,7 +184,7 @@ const POSTER_SHAPE: Record<string, 'portrait' | 'square'> = {
     }
 
     function saveFilters() {
-      try { localStorage.setItem(FILTERS_KEY, JSON.stringify({ age: activeAge, sort: activeSort })); } catch {}
+      storeSet(FILTERS_KEY, JSON.stringify({ age: activeAge, sort: activeSort }));
     }
 
     const cards = Array.from(document.querySelectorAll<HTMLAnchorElement>('.web-card'));

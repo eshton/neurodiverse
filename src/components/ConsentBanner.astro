@@ -1,0 +1,107 @@
+---
+// Site-wide GDPR/ePrivacy consent banner, rendered by both layouts so it appears
+// on every page (including the landing). Asks for three independent consents —
+// storage (app-state persistence), chat (send messages to Ollama), maps (load
+// Google Maps). Shown until the user decides; the choice is remembered and can be
+// changed later from the privacy page. Starts `hidden`; the script reveals it when
+// there's no stored decision.
+---
+<div
+  id="consent-banner"
+  class="hidden fixed inset-x-0 bottom-0 z-[60] p-3 sm:p-4"
+  role="dialog"
+  aria-modal="false"
+  aria-labelledby="consent-title"
+>
+  <div class="max-w-2xl mx-auto rounded-2xl border border-zinc-200 dark:border-zinc-700 bg-white dark:bg-zinc-900 shadow-xl p-4 sm:p-5">
+    <h2 id="consent-title" class="font-semibold text-zinc-900 dark:text-zinc-100">Adatvédelmi beállítások</h2>
+    <p class="mt-1 text-sm text-zinc-600 dark:text-zinc-300">
+      Ez az oldal a működéséhez és néhány funkciójához a hozzájárulásodat kéri.
+      Bármikor módosíthatod az <a href="/adatvedelem/" class="underline text-brand-700 dark:text-brand-300">Adatvédelem</a> oldalon.
+    </p>
+
+    <div class="mt-3 space-y-2">
+      <label class="flex gap-3 items-start p-2 rounded-lg hover:bg-zinc-50 dark:hover:bg-zinc-800/60 cursor-pointer">
+        <input type="checkbox" id="consent-storage" class="mt-1 accent-brand-600 w-4 h-4" />
+        <span class="text-sm">
+          <span class="font-medium text-zinc-900 dark:text-zinc-100">Beállítások megjegyzése</span>
+          <span class="block text-zinc-500 dark:text-zinc-400">Szűrők és preferenciák mentése az eszközödön (localStorage). Kikapcsolva a funkciók működnek, csak nem maradnak meg a következő látogatásra.</span>
+        </span>
+      </label>
+
+      <label class="flex gap-3 items-start p-2 rounded-lg hover:bg-zinc-50 dark:hover:bg-zinc-800/60 cursor-pointer">
+        <input type="checkbox" id="consent-chat" class="mt-1 accent-brand-600 w-4 h-4" />
+        <span class="text-sm">
+          <span class="font-medium text-zinc-900 dark:text-zinc-100">Beszélgetős segítő (Chat)</span>
+          <span class="block text-zinc-500 dark:text-zinc-400">Az üzeneteid feldolgozásra az Ollama Cloud nyelvi modellhez kerülnek. Kikapcsolva a chat nem használható.</span>
+        </span>
+      </label>
+
+      <label class="flex gap-3 items-start p-2 rounded-lg hover:bg-zinc-50 dark:hover:bg-zinc-800/60 cursor-pointer">
+        <input type="checkbox" id="consent-maps" class="mt-1 accent-brand-600 w-4 h-4" />
+        <span class="text-sm">
+          <span class="font-medium text-zinc-900 dark:text-zinc-100">Térkép (Google Maps)</span>
+          <span class="block text-zinc-500 dark:text-zinc-400">A térkép a Google Maps szolgáltatását tölti be, amely a Google szervereivel kommunikál és sütiket használhat. Kikapcsolva a térkép nem jelenik meg.</span>
+        </span>
+      </label>
+    </div>
+
+    <div class="mt-4 flex flex-col sm:flex-row gap-2 sm:justify-end">
+      <button type="button" id="consent-reject" class="order-2 sm:order-1 px-4 py-2 rounded-full text-sm border border-zinc-300 dark:border-zinc-600 text-zinc-700 dark:text-zinc-200 hover:bg-zinc-100 dark:hover:bg-zinc-800 transition">
+        Elutasítom
+      </button>
+      <button type="button" id="consent-save" class="order-1 sm:order-2 px-4 py-2 rounded-full text-sm border border-zinc-300 dark:border-zinc-600 text-zinc-700 dark:text-zinc-200 hover:bg-zinc-100 dark:hover:bg-zinc-800 transition">
+        Kiválasztottak mentése
+      </button>
+      <button type="button" id="consent-accept" class="order-3 px-4 py-2 rounded-full text-sm bg-brand-600 text-white hover:bg-brand-700 transition">
+        Összes elfogadása
+      </button>
+    </div>
+  </div>
+</div>
+
+<script>
+  import { getConsent, hasDecision, setConsent } from '../lib/consent';
+
+  function initConsentBanner() {
+    const banner = document.getElementById('consent-banner');
+    if (!banner) return;
+
+    const storage = document.getElementById('consent-storage') as HTMLInputElement;
+    const chat = document.getElementById('consent-chat') as HTMLInputElement;
+    const maps = document.getElementById('consent-maps') as HTMLInputElement;
+
+    const finish = (c: { storage: boolean; chat: boolean; maps: boolean }) => {
+      setConsent(c);
+      banner.classList.add('hidden');
+    };
+
+    (document.getElementById('consent-accept') as HTMLButtonElement).onclick = () =>
+      finish({ storage: true, chat: true, maps: true });
+    (document.getElementById('consent-reject') as HTMLButtonElement).onclick = () =>
+      finish({ storage: false, chat: false, maps: false });
+    (document.getElementById('consent-save') as HTMLButtonElement).onclick = () =>
+      finish({ storage: storage.checked, chat: chat.checked, maps: maps.checked });
+
+    const show = () => {
+      // Pre-fill toggles from the current decision (all off if none — GDPR: no
+      // pre-ticked non-essential boxes on first visit).
+      const cur = getConsent();
+      storage.checked = cur?.storage ?? false;
+      chat.checked = cur?.chat ?? false;
+      maps.checked = cur?.maps ?? false;
+      banner.classList.remove('hidden');
+    };
+
+    // Re-open triggers anywhere on the page (footer link, privacy page button).
+    document.querySelectorAll('[data-open-consent]').forEach((el) =>
+      el.addEventListener('click', (e) => { e.preventDefault(); show(); })
+    );
+
+    // Show automatically until a decision is made.
+    if (hasDecision()) banner.classList.add('hidden');
+    else show();
+  }
+
+  document.addEventListener('astro:page-load', initConsentBanner);
+</script>
