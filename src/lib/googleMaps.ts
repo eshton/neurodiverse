@@ -34,9 +34,10 @@ export const CATEGORY_COLORS: Record<string, string> = {
 const DEFAULT_PIN_COLOR = '#7c3aed';
 
 // Classic teardrop marker geometry (unscaled CSS px). Anchored at the tip so the
-// point sits exactly on the location and the icon head floats above it.
-export const PIN_WIDTH = 32;
-export const PIN_HEIGHT = 44;
+// point sits exactly on the location and the icon head floats above it. Sized up
+// from 32×44 so pins are easier to spot and the head icon is more legible.
+export const PIN_WIDTH = 42;
+export const PIN_HEIGHT = 58;
 
 export const POPUP_IMG_STYLE = `display:block;width:100%;max-width:180px;height:100px;object-fit:cover;object-position:center;background:${BACKDROP};border-radius:0.5rem;margin-bottom:0.35rem;`;
 
