@@ -16,9 +16,9 @@ const SUGGESTIONS = [
   title="Chat | Neuropont"
   description="Beszélgetős segítő ADHD- és autizmus-kérdésekhez. Hamarosan — Ollama Cloud integrációval."
 >
-  <!-- Preview banner -->
+  <!-- Notice banner -->
   <div class="shrink-0 bg-amber-50 dark:bg-amber-950/40 border-b border-amber-200 dark:border-amber-900 px-4 py-2 text-center text-xs text-amber-800 dark:text-amber-300">
-    Előnézet — a beszélgetős segítő hamarosan az <strong>Ollama Cloud</strong>hoz csatlakozik. Egyelőre a válaszok helyőrzők.
+    A beszélgetős segítő az <strong>Ollama Cloud</strong> nyelvi modelljét használja — az üzeneteid a modellhez kerülnek. A forráskeresés a böngésződben történik. Részletek az <a href="/adatvedelem/" class="underline">Adatvédelemben</a>.
   </div>
 
   <!-- Message thread -->
@@ -82,19 +82,64 @@ const SUGGESTIONS = [
 </MapLayout>
 
 <script>
-  // Mock conversation loop. No backend yet: a sent message is echoed and answered
-  // with a fixed placeholder. Wired on astro:page-load so it survives View
-  // Transitions (elements are fresh after each swap, so listeners rebind cleanly).
+  // Real conversation loop against /api/chat (a Cloudflare Pages Function that
+  // proxies to Ollama Cloud and hides the API key). The tool loop runs HERE on the
+  // client: the model's tool calls are executed locally against the preloaded
+  // /db/content.json (see src/lib/chatTools.ts), so content lookups never leave the
+  // browser — only the conversation text is sent to the model. Wired on
+  // astro:page-load so it survives View Transitions.
+  import { executeTool, renderToolUi } from '../lib/chatTools';
+
+  const MAX_TOOL_ITERATIONS = 5; // cap the tool loop so it can't run away
+
   function initChat() {
     const form = document.getElementById('chat-form') as HTMLFormElement | null;
     if (!form) return; // not on the chat page
     const input = document.getElementById('chat-input') as HTMLTextAreaElement;
+    const sendBtn = document.getElementById('chat-send') as HTMLButtonElement;
     const messages = document.getElementById('chat-messages') as HTMLElement;
     const thread = document.getElementById('chat-thread') as HTMLElement;
+
+    // Conversation sent to /api/chat each turn (the system prompt is added
+    // server-side). Holds user/assistant/tool messages in Ollama's chat format.
+    const history: any[] = [];
+    let busy = false;
 
     const esc = (v: string) =>
       v.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c] as string));
     const scrollDown = () => { thread.scrollTop = thread.scrollHeight; };
+
+    // Minimal, SAFE markdown for assistant prose: escape everything first, then
+    // re-introduce only a controlled subset — bold, links (internal or http[s]
+    // only), and bullet lists. No raw HTML from the model ever reaches innerHTML.
+    function renderMarkdown(src: string): string {
+      const inline = (s: string) =>
+        s
+          .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+          .replace(/\[([^\]]+)\]\(([^)]+)\)/g, (_m: string, label: string, url: string) => {
+            const u = String(url).trim();
+            if (/^\//.test(u))
+              return `<a href="${u}" class="underline text-brand-700 dark:text-brand-300">${label}</a>`;
+            if (/^https?:\/\//.test(u))
+              return `<a href="${u}" target="_blank" rel="noopener noreferrer" class="underline text-brand-700 dark:text-brand-300">${label}</a>`;
+            return label; // drop non-internal/non-http urls, keep the label text
+          });
+      const lines = esc(src).split(/\r?\n/);
+      let html = '';
+      let inList = false;
+      for (const line of lines) {
+        const t = line.trim();
+        if (/^[-*]\s+/.test(t)) {
+          if (!inList) { html += '<ul class="list-disc pl-5 my-1 space-y-0.5">'; inList = true; }
+          html += `<li>${inline(t.replace(/^[-*]\s+/, ''))}</li>`;
+        } else {
+          if (inList) { html += '</ul>'; inList = false; }
+          if (t) html += `<p class="mt-2 first:mt-0">${inline(t)}</p>`;
+        }
+      }
+      if (inList) html += '</ul>';
+      return html || '<p></p>';
+    }
 
     function addUser(text: string) {
       const el = document.createElement('div');
@@ -128,22 +173,79 @@ const SUGGESTIONS = [
       scrollDown();
     }
 
+    // A tool's UI output (resource card / link chip), left-aligned and indented to
+    // sit under the assistant avatar column (pl-11 matches the suggestion chips).
+    function addToolUi(html: string) {
+      if (!html) return;
+      const el = document.createElement('div');
+      el.className = 'pl-11';
+      el.innerHTML = html;
+      messages.appendChild(el);
+      scrollDown();
+    }
+
+    function addError(text: string) {
+      addAssistant(`<p class="text-red-600 dark:text-red-400">${esc(text)}</p>`);
+    }
+
+    async function callApi(): Promise<any> {
+      const res = await fetch('/api/chat', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ messages: history }),
+      });
+      const data = await res.json().catch(() => ({ error: 'Váratlan válasz a szervertől.' }));
+      if (!res.ok || data.error) throw new Error(data.error || `HTTP ${res.status}`);
+      return data.message;
+    }
+
+    // Drive the model until it produces a final text answer (no more tool calls),
+    // executing each tool call client-side in between. Capped by MAX_TOOL_ITERATIONS.
+    async function runTurn() {
+      let typing = addTyping();
+      try {
+        for (let i = 0; i < MAX_TOOL_ITERATIONS; i++) {
+          const message = await callApi();
+          history.push(message);
+          const toolCalls = message?.tool_calls;
+          if (Array.isArray(toolCalls) && toolCalls.length) {
+            typing.remove(); // show the tool output while we work
+            for (const call of toolCalls) {
+              const fn = call.function || {};
+              let args = fn.arguments;
+              if (typeof args === 'string') {
+                try { args = JSON.parse(args); } catch { args = {}; }
+              }
+              const result = await executeTool(fn.name, args || {});
+              addToolUi(renderToolUi(result.render));
+              history.push({ role: 'tool', tool_name: fn.name, content: result.content });
+            }
+            typing = addTyping(); // model thinks again with the tool results
+          } else {
+            typing.remove();
+            addAssistant(renderMarkdown(message?.content || '…'));
+            return;
+          }
+        }
+        typing.remove();
+        addAssistant('<p>Ez túl sok lépést igényelne — pontosítanád a kérdést?</p>');
+      } catch (e) {
+        typing.remove();
+        addError('Hiba történt a válasz közben. Kérlek, próbáld újra.');
+      }
+    }
+
     function send(text: string) {
       const trimmed = text.trim();
-      if (!trimmed) return;
+      if (!trimmed || busy) return;
       document.getElementById('chat-suggestions')?.remove();
       addUser(trimmed);
+      history.push({ role: 'user', content: trimmed });
       input.value = '';
       input.style.height = 'auto';
-      const typing = addTyping();
-      // Placeholder response — replace this block with the Ollama Cloud call.
-      setTimeout(() => {
-        typing.remove();
-        addAssistant(
-          `<p>Köszönöm a kérdésed! A beszélgetős segítő még fejlesztés alatt áll — hamarosan az <strong>Ollama Cloud</strong>hoz csatlakozik, és valódi, forrásokkal alátámasztott válaszokat ad.</p>` +
-          `<p class="mt-2 text-zinc-500 dark:text-zinc-400">Addig is böngéssz a <a href="/map" class="text-brand-700 dark:text-brand-300 underline">térképen</a> vagy a <a href="/web/books" class="text-brand-700 dark:text-brand-300 underline">Web nézetben</a>.</p>`
-        );
-      }, 700);
+      busy = true;
+      sendBtn.disabled = true;
+      runTurn().finally(() => { busy = false; sendBtn.disabled = false; });
     }
 
     form.addEventListener('submit', (e) => { e.preventDefault(); send(input.value); });

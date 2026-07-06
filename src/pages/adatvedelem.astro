@@ -23,6 +23,9 @@ import Layout from '../layouts/Layout.astro';
         A Neuropont jelenleg nem kér és nem tárol személyes
         adatot. Nincs regisztráció, nincs fiók, nincs hírlevél, és nincs
         beépített analitika vagy nyomkövető sütiket elhelyező szolgáltatás.
+        Az oldal böngészése során nem küldünk adatot a szerverünknek — egyetlen
+        kivétel a beszélgetős segítő (Chat), amelynek használatakor az általad
+        beírt üzenetek a nyelvi modellhez kerülnek (lásd lentebb).
       </p>
       <p class="mt-2">
         A „Közelben” helymeghatározás a böngésződ saját
@@ -46,6 +49,25 @@ import Layout from '../layouts/Layout.astro';
           rel="noopener noreferrer"
           class="text-brand-700 dark:text-brand-300 hover:underline"
         >Google Adatvédelmi irányelvek</a>.
+      </p>
+    </section>
+
+    <section>
+      <h2 class="font-semibold text-zinc-900 dark:text-zinc-100 mb-2">Beszélgetős segítő (Chat)</h2>
+      <p>
+        A Chat oldalon működő segítő az <strong>Ollama Cloud</strong> nyelvi
+        modell-szolgáltatását használja. Amikor üzenetet küldesz, a beszélgetés
+        szövege a mi kiszolgálónkon keresztül az Ollama szervereihez kerül, hogy
+        választ tudjon adni. Ez az Ollama saját adatkezelési gyakorlata alá esik.
+        Ne oszd meg a segítővel érzékeny egészségügyi vagy azonosításra alkalmas
+        adataidat.
+      </p>
+      <p class="mt-2">
+        A segítő az oldal forrásai közt keres, hogy valódi találatokat ajánljon.
+        Ez a keresés kizárólag a <strong>böngésződben</strong> fut a már betöltött
+        nyilvános adatokon — a kereséseidet nem küldjük tovább, és nem kötjük a
+        beszélgetéshez. Nem tárolunk beszélgetéseket a szerverünkön, és nincs
+        fiók vagy előzmény. A segítő nem ad orvosi diagnózist.
       </p>
     </section>
 

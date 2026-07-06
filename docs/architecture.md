@@ -80,12 +80,45 @@ Both are optional with no schema default, so **`build-db.mjs` needs no change** 
 
 - `src/pages/index.astro` — **the landing chooser**, `/`. Not under `[locale]` (Hungary-only; other countries get their own domains). Uses the standard `Layout` (header **and** footer), not the full-bleed `MapLayout`. Two selector groups of illustrated cards: (1) audience — "Mi jellemez a leginkább?" *Szülő* (→ `children`) vs *Felnőtt* (→ `adults`); (2) mode — Térkép/Web/Chat linking to `/map`, `/web/`, `/chat`. The audience pick is optional and non-destructive: a small script highlights the chosen card, remembers it in `localStorage` (`neuro-audience`), and appends **`?age=children|adults`** to the three mode links so the destination opens with its age filter preset (with JS off, the mode links still work param-less). Illustrations are inline SVG (no external assets, CSP-safe). This replaced the map, which moved to `/map`.
 - `src/pages/map.astro` — **the map browsing surface**, `/map` (the old `/` content, unchanged). Pulls every geo-tagged item (one pin per site, see "Multiple locations") across `diagnosis`/`schools`/`development`/`communities`/`equipment` into `<MapExplorer>` + `<DetailPanel>` inside `<MapLayout>`. `MapExplorer` reads `?age=` on init and lets it win over saved filter state (the landing's audience choice).
-- `src/pages/chat.astro` — **the conversational AI surface**, `/chat`, in `MapLayout` (full-bleed, header, no footer). A classic chat UI — thread with assistant/user bubbles, suggestion chips, an auto-growing composer (Enter to send, Shift+Enter for newline), a typing indicator. **The backend is a placeholder**: sending echoes a canned "coming soon" assistant reply with no network call (privacy-consistent). Marked in-page as a preview for a planned **Ollama Cloud** integration; the `setTimeout` block in its script is the single spot to replace with the real call.
+- `src/pages/chat.astro` — **the conversational AI surface**, `/chat`, in `MapLayout` (full-bleed, header, no footer). A classic chat UI — thread with assistant/user bubbles, suggestion chips, an auto-growing composer (Enter to send, Shift+Enter for newline), a typing indicator. **Backed by a real Ollama Cloud assistant with tools** (see "Chat assistant" below): the page runs a client-side tool loop against `/api/chat`, and the model's tools (search/pull site content, produce links + resource cards) execute in the browser against the preloaded `content.json`. Model prose is rendered through a **sanitized markdown subset** (escape-first; only bold, internal/`http(s)` links, and bullet lists survive — no raw model HTML reaches `innerHTML`). This is the first feature that isn't pure static — it needs a server endpoint (the key can't ship to the browser), which is why the repo now has a `functions/` layer.
 - `src/pages/web/[category].astro` — the **per-category grid**, `/web/<category>`, one **permalinked fixed list per web content type** (`books`, `podcasts`, `videos`, `equipment`, `movies`, `food`, `articles`, `research`). `getStaticPaths` iterates `WEB_CATEGORIES`. Replaced the old single combined `/web` grid with type-toggle chips — mixing e.g. movies and articles in one list wasn't useful, so each type is its own page reached by a **tab bar of navigation links** (rendered by `WebExplorer`), and only the **age toggle** still filters (within the one category). Same `MapLayout` + `<DetailPanel>` as the map. The tab bar and age toggle carry `?age=` (see below). `/web` (bare) → **redirect** to `/web/books` via `redirects` in `astro.config.mjs` (query strings aren't preserved across a static redirect, so the landing card and header link straight to `/web/books`). Adding a new web category: add it to `WEB_CATEGORIES` in `categories.ts` (the route, tab bar, and back-links all derive from it) and update `WebExplorer.astro`'s `WebItem` category union.
 - `src/pages/rolunk.astro`, `adatvedelem.astro`, `gyik.astro` — About/Privacy/FAQ pages linked from `SiteHeader`'s nav, real Hungarian copy (not placeholder). `adatvedelem.astro` documents actual data practices honestly (no accounts/analytics/cookies; geolocation is client-side-only, never sent to a server) and marks the operator's legal identifiers (cégjegyzékszám, adószám, székhely) as **not yet published** rather than inventing them — "Armin & Felix Kft." doesn't turn up in the Hungarian company registry (Nemzeti Cégtár) under a search for those details, so don't treat that name as a verified registered entity without the user supplying real registration data.
 - `src/pages/[locale]/index.astro` — the **original** category-grid homepage, still fully functional at `/hu/`, just no longer the default landing page. Kept intentionally, per the user's "keep the current front page for reference or later" instruction — don't delete or "clean up" this route without checking first.
 - `src/pages/[locale]/[category]/index.astro` — listing. Topic filter (`Mind`/`ADHD`/`Autizmus`) is **client-side**: these pages are statically prerendered, so a `?topic=` query param can't change the server output (every request gets the same HTML) — this used to filter on `Astro.url.searchParams` server-side and was a silent no-op in production. Now the page ships every card and JS toggles a `hidden` class, reading the initial topic from the URL and keeping the URL in sync via `history.replaceState`. (The embedded map still shows all located items regardless of topic.) Renders `<ClinicMap>` above the list when the category is in `LISTING_MAP_CATEGORIES` (`diagnosis`, `schools`, `development`, `communities`) and at least one item has `lat`/`lng`. The "back" link at the top routes to `/web/<category>` (that type's own list) when the category is in `WEB_CATEGORIES` (`books`, `podcasts`, `videos`, `equipment`, `movies`, `food`, `articles`, `research`) and to `/map` otherwise — so content always links back to whichever browsing surface it's actually reachable from, not a hardcoded default.
 - `src/pages/[locale]/[category]/[slug].astro` — detail page. `getStaticPaths` walks every category's collection and derives `{locale, category, slug}` from the content file's `id` (glob loader IDs are `<locale>/<filename-without-extension>`, so `slug = id.split('/').slice(1).join('/')`). Renders every extra (non-base) field generically via a label lookup map (`FIELD_LABELS`) — adding a new category-specific field to the schema means adding its Hungarian label there too, or it'll render with the raw key name. Same `WEB_CATEGORIES` back-link routing as the listing page above.
+
+## Chat assistant (Ollama Cloud + client-side tools)
+
+The `/chat` assistant is the **first and only server-backed feature** in an
+otherwise fully static site. Design:
+
+- **`functions/api/chat.ts`** — a Cloudflare **Pages Function** (net-new `functions/`
+  layer; no Astro adapter, `output` stays `'static'`). It is a **thin, stateless
+  proxy**: receives the full message history, prepends the system prompt, attaches the
+  tool schemas, adds `Authorization: Bearer $OLLAMA_API_KEY`, and POSTs to
+  `https://ollama.com/api/chat` (`stream:false`, model `OLLAMA_MODEL` ?? `gpt-oss:120b-cloud`),
+  returning just the assistant message. It never runs the tool loop and never touches
+  the content dataset. `OLLAMA_API_KEY` is a **real secret** (no `PUBLIC_` prefix) — it
+  must be set in the Cloudflare Pages env (and a local `.env` for `wrangler pages dev`);
+  a missing key returns a graceful 503 the UI shows as an error bubble.
+- **Client-side tool loop** (`chat.astro` script): the page holds the conversation and
+  loops (capped at `MAX_TOOL_ITERATIONS = 5`) — POST to `/api/chat`, and if the model
+  returns `tool_calls`, execute each **in the browser**, append `{role:'tool', tool_name,
+  content}`, and POST again; otherwise render the final text and stop.
+- **`src/lib/chatTools.ts`** — the client-side tool executors + the coupling point with
+  the function (only the tool **names** are shared; the schemas live in the function).
+  `search_resources`/`get_resource` search the preloaded `content.json` (fetched +
+  memoized exactly like `DetailPanel`, keyed by `href`; accent-folded scored match over
+  title/tags/summary/city/body). `show_resource`/`link_to` return a `render` payload
+  (`resourceCardHtml`/`linkChipHtml`, reusing `CATEGORY_META` for badge label+emoji) that
+  the chat appends to the thread, plus a short confirmation string for the model. Because
+  content search runs client-side, **the lookups never leave the browser** — only the
+  conversation text is sent to Ollama (privacy: disclosed in `adatvedelem.astro`).
+- Chat links point at the **real pre-rendered detail pages** (`href` from `content.json`),
+  not the `DetailPanel` overlay — `DetailPanel` is not mounted on `/chat`.
+- **Deferred (fast-follow, per Rooster NEURO-2):** a map-driving tool that presets the
+  map filters (`neuro-map-filters` + `?age=`) and recenters location; and token streaming
+  in the function (currently `stream:false`).
 
 ## Components
 

@@ -12,7 +12,7 @@ Read these before doing content or feature work:
 
 ## Quick facts
 
-- **Stack**: Astro 7 + Tailwind v4 + content collections (Zod schemas in `src/content.config.ts`). No DB, no auth, static build.
+- **Stack**: Astro 7 + Tailwind v4 + content collections (Zod schemas in `src/content.config.ts`). No DB, no auth, static build — **one exception**: the `/chat` assistant uses a single Cloudflare Pages Function (`functions/api/chat.ts`) that proxies to Ollama Cloud (see `docs/architecture.md` "Chat assistant"). Everything else is static.
 - **Routes**: `/hu/` → `/hu/<category>/` (listing, topic filter, map if geo-tagged) → `/hu/<category>/<slug>/` (detail).
 - **Categories today**: books, podcasts, videos, influencers, equipment, food, communities, diagnosis, schools. Check `docs/content-status.md` for which are real vs. still MVP placeholder.
 - **Dev**: `npm run dev` (localhost:4321). Build: `npm run build`. Both run `scripts/build-db.mjs` first (`predev`/`prebuild`) to regenerate the committed dataset. Always rebuild after schema or content changes to catch Zod validation errors before reporting done.
