@@ -13,7 +13,7 @@ lat: 48.108929
 lng: 19.813506
 contact: "(32) 700-027, nograd.ped.szaksz@gmail.com"
 sourceUrl: "https://scool.hu/intezmeny/202793-1999998690-nograd-varmegyei-pedagogiai-szakszolgalat-salgotarjani-tagintezmenye"
-tags: [state-funded, pedagogiai-szakszolgalat, korai-fejlesztes, no-referral, regional]
+tags: [állami-finanszírozás, pedagógiai-szakszolgálat, korai-fejlesztés, beutaló-nélkül, regionális]
 lastReviewed: 2026-07-06
 lastEdited: 2026-07-06
 ---

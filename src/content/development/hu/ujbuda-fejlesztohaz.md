@@ -3,7 +3,7 @@ title: "Újbuda Fejlesztőház — Szenzoros Integrációs Terápia"
 locale: hu
 topics: [autism]
 summary: "Szenzoros integrációs terápia (DSzIT/Ayres) és autizmus-specifikus fejlesztés 2 éves kortól, orvosi háttérrel."
-tags: [sensory-integration, early-intervention]
+tags: [szenzoros-integráció, korai-fejlesztés]
 providerType: center
 ageGroup: children
 city: "Budapest"

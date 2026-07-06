@@ -3,7 +3,7 @@ title: "Ami jól megy, azt megünnepelhetjük, a nehézségeket kompenzálhatjuk
 locale: hu
 topics: [autism]
 summary: "Telex-interjú Őszi Tamásné Patríciával, az Autizmus Alapítvány gyógypedagógusával az autista gyerekek támogatásáról: erősségekre építeni, a nehézségeket kompenzálni, és mikor van egyáltalán dolga a szakembernek."
-tags: [interju, szakerto, gyerek, tamogatas]
+tags: [interjú, szakértő, gyerekek, támogatás]
 publication: "Telex"
 publishedDate: "2024-04-07"
 sourceUrl: "https://telex.hu/belfold/2024/04/07/autizmus-spektrum-autista-gyerekek-oszi-tamasne-patricia"

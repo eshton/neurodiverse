@@ -3,7 +3,7 @@ title: "Cinthya Dictator"
 locale: hu
 topics: [adhd]
 summary: "Fotóművész és influenszer, aki nyíltan beszél gyerekkori és felnőttkori ADHD-diagnózisáról közösségi médiában és médiamegjelenéseiben."
-tags: [social-media, lived-experience]
+tags: [közösségi-média, megélt-tapasztalat]
 handle: "@cinthyadictator"
 platforms: [Instagram, YouTube]
 sourceUrl: "https://www.instagram.com/cinthyadictator/"

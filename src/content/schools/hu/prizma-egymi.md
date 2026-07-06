@@ -3,7 +3,7 @@ title: "Prizma Általános Iskola és Óvoda, EGYMI"
 locale: hu
 topics: [autism]
 summary: "Budapesti gyógypedagógiai intézmény, ahol 1992 óta működik autizmus spektrumzavarban érintett gyerekeknek szóló tagozat, két telephelyen."
-tags: [state, egymi]
+tags: [állami-finanszírozás, egymi]
 providerType: special-needs-school
 funding: state
 ageGroup: children

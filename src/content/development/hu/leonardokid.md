@@ -3,7 +3,7 @@ title: "Leonardokid Fejlesztő és Terápiás Központ"
 locale: hu
 topics: [adhd, autism]
 summary: "Hajdu Ágnes gyógypedagógus vezette fejlesztő és terápiás központ."
-tags: [developmental-pedagogy]
+tags: [gyógypedagógia]
 providerType: center
 ageGroup: children
 city: "Budapest"

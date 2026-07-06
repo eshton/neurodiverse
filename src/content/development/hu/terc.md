@@ -3,7 +3,7 @@ title: "Autizmus Alapítvány Terápiás Centrum (TERC)"
 locale: hu
 topics: [autism]
 summary: "2003 óta működő terápiás centrum autizmus spektrumzavarral élőknek és családtagjaiknak, egyéni, kiscsoportos és csoportos formában, költségtérítés mellett."
-tags: [foundation, since-2003, all-ages]
+tags: [alapítvány, 2003-óta, minden-korosztály]
 providerType: center
 funding: mixed
 ageGroup: both

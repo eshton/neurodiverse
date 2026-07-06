@@ -13,7 +13,7 @@ lat: 47.48464
 lng: 19.081571
 contact: "+36 1 334 3186, gyerekpszichiatria@semmelweis.hu"
 sourceUrl: "https://semmelweis.hu/bokayklinika/betegellatas/fekvobeteg-ellatas/gyermek-es-ifjusagpszichiatriai-osztaly/"
-tags: [state-funded, children, regional]
+tags: [állami-finanszírozás, gyerekek, regionális]
 lastReviewed: "2026-07-06"
 lastEdited: 2026-07-06
 ---

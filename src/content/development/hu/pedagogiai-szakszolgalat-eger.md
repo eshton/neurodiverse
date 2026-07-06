@@ -13,7 +13,7 @@ lat: 47.911945
 lng: 20.376793
 contact: "+36-36-312-929"
 sourceUrl: "https://palyavalasztas.hmpedszakszolgalat.hu/elerhetosegek/"
-tags: [state-funded, pedagogiai-szakszolgalat, korai-fejlesztes, no-referral, regional]
+tags: [állami-finanszírozás, pedagógiai-szakszolgálat, korai-fejlesztés, beutaló-nélkül, regionális]
 lastReviewed: 2026-07-06
 lastEdited: 2026-07-06
 ---

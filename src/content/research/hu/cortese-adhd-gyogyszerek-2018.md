@@ -10,7 +10,7 @@ publicationType: review
 language: en
 doi: "10.1016/S2215-0366(18)30269-4"
 ageGroup: both
-tags: [metaanalízis, gyógyszeres kezelés, nemzetközi]
+tags: [metaanalízis, gyógyszeres-kezelés, nemzetközi]
 sourceUrl: "https://doi.org/10.1016/S2215-0366(18)30269-4"
 coverImage: "/covers/cortese-adhd-gyogyszerek-2018.jpg"
 ratings: []

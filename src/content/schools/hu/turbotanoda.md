@@ -3,7 +3,7 @@ title: "Turbotanoda Fejlesztőház"
 locale: hu
 topics: [adhd, autism]
 summary: "Magán fejlesztőház és iskola-előkészítő program ADHD-val és autizmussal élő gyerekeknek, integrációra felkészítő módszertannal."
-tags: [private, therapy]
+tags: [magánfinanszírozás, terápia]
 providerType: special-needs-school
 funding: private
 ageGroup: children

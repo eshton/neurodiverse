@@ -3,7 +3,7 @@ title: "Egyensúlyozó, ugráló labda"
 locale: hu
 topics: [adhd, autism]
 summary: "Gyűrűvel osztott egyensúlyozó labda — vesztibuláris/proprioceptív mozgásfejlesztő eszköz, első nagymozgásos (nem kézi) tétel a kategóriában."
-tags: [movement, balance]
+tags: [mozgás, egyensúly]
 ageGroup: both
 priceRange: "7,990 HUF"
 retailerUrls:

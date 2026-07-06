@@ -3,7 +3,7 @@ title: "„A gyermekbántalmazás legalizált formája” – akiket kivet magá
 locale: hu
 topics: [autism]
 summary: "Szabad Európa-riport az autista gyerekek oktatáshoz jutásának magyarországi anomáliáiról: miközben tizenhét év alatt tízszeresére nőtt az autista gyerekek száma, az iskolák jogi kiskapukkal fosztják meg őket az integrált oktatástól. Egy anya küzdelmén keresztül."
-tags: [oktatas, integracio, rendszer, szulo, riport]
+tags: [oktatás, integráció, rendszer, szülők, riport]
 publication: "Szabad Európa"
 publishedDate: "2024-04-02"
 sourceUrl: "https://www.szabadeuropa.hu/a/a-gyermekbantalmazas-legalizalt-formaja-akiket-kivet-magabol-a-magyar-kozoktatas/32880146.html"

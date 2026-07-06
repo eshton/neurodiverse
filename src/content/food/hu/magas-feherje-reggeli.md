@@ -3,7 +3,7 @@ title: "Magas fehérjetartalmú, előre elkészíthető reggelik"
 locale: hu
 topics: [adhd]
 summary: "7 egyszerű, fehérjében gazdag, előző este előkészíthető reggeliötlet iskolakezdésre. Nem terápia: a fehérje a stabilabb energiát, az előkészíthetőség pedig a reggeli végrehajtási (executive) terhet segíti csökkenteni."
-tags: [reggeli, feherje, low-effort, recept]
+tags: [reggeli, fehérje, egyszerű, recept]
 kind: recipe
 dietaryTags: [high-protein]
 sourceUrl: "https://www.21napalatt.hu/7-egeszseges-reggeli-iskolakezdesre/"

@@ -3,7 +3,7 @@ title: "Odú Korai Fejlesztő Központ és Pedagógiai Szakszolgálati Intézmé
 locale: hu
 topics: [adhd, autism]
 summary: "Szegedi korai fejlesztő központ — egyéni és kiscsoportos fejlesztés, TEACCH, szenzomotoros terápia, zeneterápia, lovasterápia, utazótanári ellátás óvodás autista gyerekek integrációjához."
-tags: [early-intervention, teacch, regional]
+tags: [korai-fejlesztés, teacch, regionális]
 providerType: center
 ageGroup: children
 city: "Szeged"

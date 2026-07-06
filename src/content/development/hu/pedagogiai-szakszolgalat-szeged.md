@@ -13,7 +13,7 @@ lat: 46.246226
 lng: 20.138544
 contact: "62/474-044, csmpsz.igazgato@gmail.com"
 sourceUrl: "https://www.csmpsz.hu/foigazgatosag/"
-tags: [state-funded, pedagogiai-szakszolgalat, korai-fejlesztes, no-referral, regional]
+tags: [állami-finanszírozás, pedagógiai-szakszolgálat, korai-fejlesztés, beutaló-nélkül, regionális]
 lastReviewed: 2026-07-06
 lastEdited: 2026-07-06
 ---

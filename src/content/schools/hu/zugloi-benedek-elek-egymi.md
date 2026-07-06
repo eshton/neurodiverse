@@ -3,7 +3,7 @@ title: "Zuglói Benedek Elek EGYMI"
 locale: hu
 topics: [autism]
 summary: "Több mint 40 éves gyógypedagógiai intézmény Zuglóban, önálló autizmus-specifikus óvodai csoporttal és négy iskolai csoporttal."
-tags: [state, egymi]
+tags: [állami-finanszírozás, egymi]
 providerType: special-needs-school
 funding: state
 ageGroup: children

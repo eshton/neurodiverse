@@ -3,7 +3,7 @@ title: "Kis Lépések Alapítvány — ABA Terápiás és Módszertani Központ"
 locale: hu
 topics: [autism]
 summary: "Magyarország egyik első ABA (alkalmazott viselkedéselemzés) terápiás központja, 2008 óta autista gyerekek fejlesztésével."
-tags: [aba, foundation, since-2008]
+tags: [aba, alapítvány, 2008-óta]
 providerType: center
 funding: mixed
 ageGroup: children

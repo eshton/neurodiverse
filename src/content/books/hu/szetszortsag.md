@@ -3,7 +3,7 @@ title: "Szétszórtság — A gyermek- és felnőttkori figyelemhiányos zavar (
 locale: hu
 topics: [adhd]
 summary: "Edward M. Hallowell és John J. Ratey klasszikusa, saját ADHD-tapasztalatokra és esettanulmányokra épülő gyakorlati útmutató gyerekeknek és felnőtteknek."
-tags: [classic, clinical]
+tags: [klasszikus, klinikai]
 author: "Edward M. Hallowell, John J. Ratey"
 isbn: "9789639718654"
 sourceUrl: "https://bookline.hu/product/home.action?_v=Edward_M_Hallowell_John_J_Ratey_Szet&type=22&id=270734"

@@ -13,7 +13,7 @@ lat: 46.822605
 lng: 16.83075
 contact: "92/336-914"
 sourceUrl: "https://zalaszakszolgalat.hu/kapcsolat-nyitva-tartas/"
-tags: [state-funded, expert-committee, sni, no-referral, regional]
+tags: [állami-finanszírozás, szakértői-bizottság, sni, beutaló-nélkül, regionális]
 lastReviewed: "2026-07-06"
 lastEdited: 2026-07-06
 ---

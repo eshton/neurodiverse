@@ -3,7 +3,7 @@ title: "ADHD Központ"
 locale: hu
 topics: [adhd]
 summary: "Felnőtt ADHD diagnosztikára és kezelésre specializálódott magánrendelés, pszichiáter szakorvosokkal (dr. Félegyházy Zsolt, dr. Lepp Krisztina)."
-tags: [private, adults]
+tags: [magánfinanszírozás, felnőttek]
 providerType: clinic
 funding: private
 ageGroup: adults

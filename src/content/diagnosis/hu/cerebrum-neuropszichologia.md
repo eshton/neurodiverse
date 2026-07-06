@@ -3,7 +3,7 @@ title: "Cerebrum Neuropszichológiai Központ"
 locale: hu
 topics: [autism]
 summary: "Autizmus spektrumzavar diagnosztikájára specializálódott magánközpont Szegeden és Kecskeméten, gyerekeknek és felnőtteknek."
-tags: [private, regional]
+tags: [magánfinanszírozás, regionális]
 providerType: clinic
 funding: private
 ageGroup: both

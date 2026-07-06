@@ -13,7 +13,7 @@ lat: 47.531624
 lng: 21.632788
 contact: "52/342-494, hbmpsz.foig@hbmpsz.edu.hu"
 sourceUrl: "https://hbmpsz.edu.hu/elerhetosegek/"
-tags: [state-funded, pedagogiai-szakszolgalat, korai-fejlesztes, no-referral, regional]
+tags: [állami-finanszírozás, pedagógiai-szakszolgálat, korai-fejlesztés, beutaló-nélkül, regionális]
 lastReviewed: 2026-07-06
 lastEdited: 2026-07-06
 ---

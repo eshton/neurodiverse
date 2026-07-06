@@ -3,7 +3,7 @@ title: "Szegedi Tudományegyetem — ADHD szakambulancia"
 locale: hu
 topics: [adhd]
 summary: "Egyetemi állami felnőtt ADHD szakambulancia Szegeden, szakorvosi beutalóval, 18 éves kortól — köztük gyerekkorban már diagnosztizáltaknak és most először vizsgáltatóknak is."
-tags: [state-funded, adults, university-clinic, referral-required]
+tags: [állami-finanszírozás, felnőttek, egyetemi-klinika, beutalóköteles]
 providerType: hospital
 funding: state
 referralRequired: true

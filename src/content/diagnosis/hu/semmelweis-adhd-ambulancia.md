@@ -3,7 +3,7 @@ title: "Semmelweis Egyetem Pszichiátriai és Pszichoterápiás Klinika — ADHD
 locale: hu
 topics: [adhd]
 summary: "Állami, TAJ alapú felnőtt ADHD ambulancia — térítésmentes kivizsgálás és gondozás, beutalóval (háziorvosi vagy pszichiáteri)."
-tags: [state-funded, adults, referral-required]
+tags: [állami-finanszírozás, felnőttek, beutalóköteles]
 providerType: hospital
 funding: state
 referralRequired: true

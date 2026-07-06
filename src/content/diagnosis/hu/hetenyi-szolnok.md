@@ -3,7 +3,7 @@ title: "Hetényi Géza Kórház-Rendelőintézet — Gyermek- és Ifjúságpszic
 locale: hu
 topics: [adhd, autism]
 summary: "Szolnoki megyei kórház gyermek- és ifjúságpszichiátriai osztálya, klasszikus gyermekpszichiátriai kórképek mellett autizmus és ADHD diagnosztikával is."
-tags: [state-funded, children, regional]
+tags: [állami-finanszírozás, gyerekek, regionális]
 providerType: hospital
 funding: state
 referralRequired: false

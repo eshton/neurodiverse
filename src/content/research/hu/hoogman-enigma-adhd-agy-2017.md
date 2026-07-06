@@ -10,7 +10,7 @@ publicationType: journal-article
 language: en
 doi: "10.1016/S2215-0366(17)30049-4"
 ageGroup: both
-tags: [neuroimaging, nagy minta, nemzetközi]
+tags: [agyi-képalkotás, nagy-minta, nemzetközi]
 sourceUrl: "https://doi.org/10.1016/S2215-0366(17)30049-4"
 coverImage: "/covers/hoogman-enigma-adhd-agy-2017.jpg"
 ratings: []

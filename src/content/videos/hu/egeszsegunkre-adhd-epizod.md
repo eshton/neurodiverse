@@ -3,7 +3,7 @@ title: "Egészségünkre — Amit az ADHD-ről tudni érdemes (2013.08.19)"
 locale: hu
 topics: [adhd]
 summary: "Egyetlen adás az Újbuda Televízió Egészségünkre című egészségügyi magazinjából, amely az ADHD alapjait mutatja be."
-tags: [episode, tv-show, health-journalism]
+tags: [epizód, tv-műsor, egészségügyi-újságírás]
 creator: "Újbuda Televízió"
 platform: "YouTube"
 viewCount: 85654

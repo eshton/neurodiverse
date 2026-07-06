@@ -3,7 +3,7 @@ title: "Autizmussal élő gyermekek táplálkozása (Kiskanál Kommandó)"
 locale: hu
 topics: [autism]
 summary: "Gyermekdietetikus szakmai cikke az autista gyerekek étkezéséről: food chaining (ételláncolás), osztott tányér, nyomásmentes étkezés — és miért nem ajánlott felügyelet nélkül a glutén-/kazeinmentes diéta."
-tags: [food-chaining, valogatos-eves, dieta, dietetikus]
+tags: [food-chaining, válogatós-evés, diéta, dietetikus]
 kind: guide
 dietaryTags: []
 sourceUrl: "https://kiskanalkommando.hu/autizmussal-elo-gyermekek-taplalkozasa-tanacsok-a-szakemberektol-valogatossag-dietak-tunetek/"

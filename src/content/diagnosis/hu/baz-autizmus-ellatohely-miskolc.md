@@ -13,7 +13,7 @@ lat: 48.091792
 lng: 20.788536
 contact: "+36 46 555 666"
 sourceUrl: "https://www.bazmkorhaz.hu/pszichiatriai-centrum-prevencios-diagnosztikus-terapias-kozpont-autizmus-specifikus-ellatohely"
-tags: [state-funded, children, regional]
+tags: [állami-finanszírozás, gyerekek, regionális]
 lastReviewed: "2026-07-06"
 lastEdited: 2026-07-06
 ---

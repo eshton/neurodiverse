@@ -13,7 +13,7 @@ lat: 46.360305
 lng: 17.789139
 contact: "82/510-114, somszakbiz@gmail.com"
 sourceUrl: "https://www.pedagogiai-szakszolgalat.hu/szekhely/kapcsolat"
-tags: [state-funded, expert-committee, sni, no-referral, regional]
+tags: [állami-finanszírozás, szakértői-bizottság, sni, beutaló-nélkül, regionális]
 lastReviewed: "2026-07-06"
 lastEdited: 2026-07-06
 ---

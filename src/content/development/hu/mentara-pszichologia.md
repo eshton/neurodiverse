@@ -3,7 +3,7 @@ title: "Mentara Pszichológiai Központ — felnőtt ADHD"
 locale: hu
 topics: [adhd]
 summary: "Felnőtt ADHD-val élők készségfejlesztő támogatása — időgazdálkodás, figyelem, emocionális szabályozás, lépésről lépésre haladó megközelítéssel."
-tags: [private, adults]
+tags: [magánfinanszírozás, felnőttek]
 providerType: center
 funding: private
 ageGroup: adults

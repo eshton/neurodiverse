@@ -3,7 +3,7 @@ title: "Te nem lehetsz autista"
 locale: hu
 topics: [autism]
 summary: "D8rka humoros, illusztrált könyve az autizmusról — a téma körüli sztereotípiák és tévhitek lebontására, könnyed hangvétellel."
-tags: [illustrated, humor, own-voices, stereotypes]
+tags: [illusztrált, humor, érintettek-hangja, sztereotípiák]
 author: "D8rka"
 isbn: "9786156440723"
 sourceUrl: "https://www.libri.hu/konyv/d8rka.te-nem-lehetsz-autista.html"

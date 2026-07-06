@@ -3,7 +3,7 @@ title: "Éltes Mátyás EGYMI és Speciális Iskola (Pécs)"
 locale: hu
 topics: [autism]
 summary: "Pécsi gyógypedagógiai intézmény speciális autista csoportjai, 6-23 éves kor közötti tanulóknak, autizmus-specifikus módszerekkel."
-tags: [state, egymi, regional]
+tags: [állami-finanszírozás, egymi, regionális]
 providerType: special-needs-school
 funding: state
 ageGroup: children

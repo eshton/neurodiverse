@@ -3,7 +3,7 @@ title: "„Én szeretek autista lenni” — Fekete Gy. Viktorral arról, hogy m
 locale: hu
 topics: [autism]
 summary: "Egyetlen epizód a Kék Egyenlőség podcastból: Fekete Gy. Viktor autista aktivista beszél saját belső tapasztalatairól."
-tags: [episode, own-voices]
+tags: [epizód, érintettek-hangja]
 creator: "Kék Egyenlőség (vendég: Fekete Gy. Viktor)"
 platform: "Spotify"
 entryType: episode

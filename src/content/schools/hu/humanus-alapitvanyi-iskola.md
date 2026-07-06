@@ -3,7 +3,7 @@ title: "Humánus Általános Iskola"
 locale: hu
 topics: [autism]
 summary: "Az Együtt Veled Alapítvány iskolája, amely autizmus spektrumzavarral, valamint magatartási és tanulási nehézségekkel küzdő gyerekeket integráltan nevel."
-tags: [foundation, integration]
+tags: [alapítvány, integráció]
 providerType: mainstream-integration
 funding: mixed
 ageGroup: children

@@ -3,7 +3,7 @@ title: "„Olyan volt, mintha elvesztettem volna önmagam” — élet az ADHD- 
 locale: hu
 topics: [autism, adhd]
 summary: "HVG360-cikk arról, mi történik a felnőttkori ADHD-/autizmus-diagnózis után: hogyan alakítja át az önképet és az identitást, amikor valaki felnőttként kap magyarázatot az addigi nehézségeire. (Előfizetéses hvg360-tartalom.)"
-tags: [felnott, identitas, diagnozis, neurodiverzitas]
+tags: [felnőttek, identitás, diagnózis, neurodiverzitás]
 publication: "HVG360"
 publishedDate: "2026-03-03"
 sourceUrl: "https://hvg.hu/360/20260303_adhd-autizmus-diagnozis-neuordiverzitas-szemelyiseg-identitas"

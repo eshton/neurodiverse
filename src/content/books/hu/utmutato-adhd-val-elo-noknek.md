@@ -3,7 +3,7 @@ title: "Útmutató ADHD-val élő nőknek"
 locale: hu
 topics: [adhd]
 summary: "Michelle Frank és Sari Solden könyve nőknek, akik ADHD-val élnek — a szégyen és stigma helyett önelfogadásról és gyakorlati stratégiákról."
-tags: [women, adults, self-acceptance]
+tags: [nők, felnőttek, önelfogadás]
 author: "Michelle Frank, Sari Solden"
 isbn: "9789634756484"
 sourceUrl: "https://www.libri.hu/konyv/michelle_frank.utmutato-adhd-val-elo-noknek.html"

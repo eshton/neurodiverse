@@ -13,7 +13,7 @@ lat: 47.531624
 lng: 21.632788
 contact: "52/344-121, gyogypedhbm@hbmpsz.edu.hu"
 sourceUrl: "https://hbmpsz.edu.hu/debreceni-tagintezmeny/debreceni-tagintezmeny-szakertoi-bizottsag/"
-tags: [state-funded, expert-committee, sni, no-referral, regional]
+tags: [állami-finanszírozás, szakértői-bizottság, sni, beutaló-nélkül, regionális]
 lastReviewed: "2026-07-06"
 lastEdited: 2026-07-06
 ---

@@ -3,7 +3,7 @@ title: "ADHD Magyarország Alapítvány"
 locale: hu
 topics: [adhd]
 summary: "2006 óta működő alapítvány hiperaktív/ADHD-val élő gyerekeknek, felnőtteknek és családjaiknak: önsegítő csoportok, nyári táborok (pl. komMUNÍkáCIÓ), önkéntes programok és szülő-/pedagógusképzések."
-tags: [foundation, camps, self-help, families]
+tags: [alapítvány, táborok, önsegítő, családok]
 providerType: institution
 ageGroup: both
 city: "Cegléd"

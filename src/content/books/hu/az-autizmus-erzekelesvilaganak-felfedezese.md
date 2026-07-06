@@ -3,7 +3,7 @@ title: "Hogyan legyek legjobb szülő? I. — Az autizmus érzékelésvilágána
 locale: hu
 topics: [autism]
 summary: "Olga Bogdashina saját szülői és szakmai tapasztalataira épülő könyve az autista gyerekek szenzoros feldolgozási nehézségeinek megértéséről."
-tags: [parents, sensory, lived-experience]
+tags: [szülők, szenzoros, megélt-tapasztalat]
 author: "Olga Bogdashina"
 isbn: "9786155015618"
 sourceUrl: "https://www.lira.hu/hu/konyv/ismeretterjeszto-1/egyeb/hogyan-legyek-legjobb-szulo-1-az-autizmus-erzekelesvilaganak-felfedezese"

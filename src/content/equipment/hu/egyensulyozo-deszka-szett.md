@@ -3,7 +3,7 @@ title: "Egyensúlyozó deszka szett"
 locale: hu
 topics: [adhd, autism]
 summary: "3 db ívelt egyensúlyozó deszka — híd, libikóka vagy egymásra rakva nehezített pálya, egyensúlyérzék és mozgáskoordináció fejlesztésére."
-tags: [movement, balance]
+tags: [mozgás, egyensúly]
 ageGroup: both
 priceRange: "44,700 HUF"
 retailerUrls:

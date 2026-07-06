@@ -13,7 +13,7 @@ lat: 47.517983
 lng: 19.131156
 contact: "+36 1 474 6000, szekhelyszakertoi@fpsz.net"
 sourceUrl: "https://fpsz.hu/fovarosi-pedagogiai-szakszolgalat-szekhely-szakertoi-bizottsag/"
-tags: [state-funded, expert-committee, sni, no-referral, regional]
+tags: [állami-finanszírozás, szakértői-bizottság, sni, beutaló-nélkül, regionális]
 lastReviewed: "2026-07-06"
 lastEdited: 2026-07-06
 ---

@@ -3,7 +3,7 @@ title: "Orenda Pszichológiai és Pszichiátriai Központ"
 locale: hu
 topics: [adhd, autism]
 summary: "Kizárólag ADHD és autizmus spektrumzavar vizsgálatára specializálódott magánközpont, külön felnőtt és gyermek rendelővel."
-tags: [private, all-ages, specialized]
+tags: [magánfinanszírozás, minden-korosztály, specializált]
 providerType: clinic
 funding: private
 ageGroup: both

@@ -3,7 +3,7 @@ title: "Omega-3 (halolaj) és ADHD"
 locale: hu
 topics: [adhd]
 summary: "Randomizált vizsgálat szerint a nagy dózisú omega-3 főleg azoknál a gyerekeknél javította a figyelmet és a koncentrációt, akiknek alacsony volt a vér-omega-3-szintje — normál szint mellett nem, sőt ronthat is. Nem a gyógyszeres kezelés pótlása."
-tags: [omega-3, halolaj, etrendkiegeszito, bizonyitek]
+tags: [omega-3, halolaj, étrendkiegészítő, bizonyíték]
 kind: supplement
 dietaryTags: [omega-3]
 sourceUrl: "https://pharmaonline.hu/cikk/hatasos-lehet-az-omega-3-a-figyelemzavar-egyes-eseteiben"

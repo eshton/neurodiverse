@@ -13,7 +13,7 @@ lat: 47.944492
 lng: 21.71416
 contact: "06-42/413-406, bizottsag.1@gmail.com"
 sourceUrl: "https://szszbmpedagogiaiszakszolgalat.edu.hu/kapcsolat.html"
-tags: [state-funded, expert-committee, sni, no-referral, regional]
+tags: [állami-finanszírozás, szakértői-bizottság, sni, beutaló-nélkül, regionális]
 lastReviewed: "2026-07-06"
 lastEdited: 2026-07-06
 ---

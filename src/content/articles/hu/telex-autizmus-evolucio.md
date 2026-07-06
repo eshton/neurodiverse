@@ -3,7 +3,7 @@ title: "Evolúciós haszna lehetett annak, hogy megjelentek az autizmusért fele
 locale: hu
 topics: [autism]
 summary: "Telex tudományos cikke arról az elméletről, hogy az autizmushoz köthető gének fennmaradása mögött evolúciós előny állhat — épp azokat a képességeket érintik, amelyekben az ember a többi főemlőst felülmúlta. Az autizmus mint a neurodiverzitás természetes része, nem „hiba”."
-tags: [tudomany, evolucio, genetika, neurodiverzitas]
+tags: [tudomány, evolúció, genetika, neurodiverzitás]
 publication: "Telex"
 publishedDate: "2025-09-09"
 sourceUrl: "https://telex.hu/techtud/2025/09/09/autizmus-evolucio-fejlodes"

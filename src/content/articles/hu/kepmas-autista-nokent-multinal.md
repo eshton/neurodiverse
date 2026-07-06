@@ -3,7 +3,7 @@ title: "Autista nőként egy multinál — Rapai Katalin története"
 locale: hu
 topics: [autism]
 summary: "Képmás-interjú/első személyű beszámoló: Rapai Katalin 40 évesen kapta meg autizmus-diagnózisát. Arról mesél, hogyan élte meg a szenzoros és szorongásos tüneteket egy irodai környezetben, mit jelentett a maszkolás, és mi változott a diagnózis után."
-tags: [no, felnott, maszkolas, munkahely, szemelyes]
+tags: [nők, felnőttek, maszkolás, munkahely, személyes]
 publication: "Képmás"
 author: "Szász Adrián"
 publishedDate: "2024-01-22"

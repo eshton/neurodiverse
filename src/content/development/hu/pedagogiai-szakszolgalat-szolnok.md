@@ -13,7 +13,7 @@ lat: 47.174874
 lng: 20.18887
 contact: "56/510-720, info.foig@jnszmpsz.hu"
 sourceUrl: "https://jnszmpsz.hu/"
-tags: [state-funded, pedagogiai-szakszolgalat, korai-fejlesztes, no-referral, regional]
+tags: [állami-finanszírozás, pedagógiai-szakszolgálat, korai-fejlesztés, beutaló-nélkül, regionális]
 lastReviewed: 2026-07-06
 lastEdited: 2026-07-06
 ---

@@ -3,7 +3,7 @@ title: "Táplálkozás és ADHD — dietetikus áttekintés (Szafi)"
 locale: hu
 topics: [adhd]
 summary: "Evidenciatudatos étrendi áttekintés ADHD-hoz: fehérje és stabil vércukor, mikrotápanyagok (vas, cink, magnézium, D-vitamin, omega-3), valamint a hozzáadott cukor és mesterséges adalékanyagok szerepe. Cél a tünetek támogatása, nem a gyógyítás."
-tags: [taplalkozas, mikrotapanyag, dietetikus, cukor, adalekanyag]
+tags: [táplálkozás, mikrotápanyag, dietetikus, cukor, adalékanyag]
 kind: guide
 dietaryTags: []
 sourceUrl: "https://szafi-dietetikai-team.hu/adhd-taplalkozas-szafi/"

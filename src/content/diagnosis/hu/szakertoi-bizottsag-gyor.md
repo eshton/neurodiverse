@@ -13,7 +13,7 @@ lat: 47.686782
 lng: 17.620264
 contact: "+36 96 518-215"
 sourceUrl: "https://gymsm-pedszakszolg.edu.hu/kapcsolat/"
-tags: [state-funded, expert-committee, sni, no-referral, regional]
+tags: [állami-finanszírozás, szakértői-bizottság, sni, beutaló-nélkül, regionális]
 lastReviewed: "2026-07-06"
 lastEdited: 2026-07-06
 ---

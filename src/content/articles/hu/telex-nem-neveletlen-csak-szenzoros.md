@@ -3,7 +3,7 @@ title: "Nem neveletlen, csak szenzoros"
 locale: hu
 topics: [autism]
 summary: "Telex-cikk a szenzoros feldolgozás sajátosságairól (SPD): amikor egy gyerek viselkedése mögött nem neveletlenség, hanem az ingerek eltérő feldolgozása áll. Háttér a szenzoros érzékenységhez, ami az autizmus egyik alapélménye."
-tags: [szenzoros, spd, gyerek, erzekelés]
+tags: [szenzoros, spd, gyerekek]
 publication: "Telex"
 publishedDate: "2022-07-24"
 sourceUrl: "https://telex.hu/tudomany/2022/07/24/spd-szenzorossag-idegrenszeri-sajatossag-nem-neveletlen-csak-szenzoros"

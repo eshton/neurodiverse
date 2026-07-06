@@ -3,7 +3,7 @@ title: "Péterfy Sándor Utcai Kórház — ADHD Ambulancia"
 locale: hu
 topics: [adhd]
 summary: "Állami ADHD ambulancia és krízisintervenciós pszichiátriai osztály Budapesten, kizárólag e-mailes megkereséssel."
-tags: [state-funded, adults, waitlist]
+tags: [állami-finanszírozás, felnőttek, várólista]
 providerType: hospital
 funding: state
 referralRequired: true

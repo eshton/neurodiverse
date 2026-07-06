@@ -3,7 +3,7 @@ title: "Autizmus — Az elmélettől a gyakorlatig"
 locale: hu
 topics: [autism]
 summary: "Theo Peeters alapműve az autizmus spektrumzavarról, elméleti háttérrel és gyakorlati, oktatási megközelítéssel szakemberek és szülők számára."
-tags: [clinical, education, foundational]
+tags: [klinikai, oktatás, alapmű]
 author: "Theo Peeters"
 isbn: "9789637723247"
 sourceUrl: "https://www.libri.hu/konyv/theo_peeters.autizmus-2.html"

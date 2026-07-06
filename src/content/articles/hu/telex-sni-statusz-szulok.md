@@ -3,7 +3,7 @@ title: "„Nem szeretnék, hogy betegként tekintsenek rájuk”"
 locale: hu
 topics: [autism]
 summary: "Telex-cikk arról, miért vonakodnak sok szülők a pedagógiai szakszolgálattól és az SNI-státusz megállapításától: a megbélyegzéstől és a nehezebb intézményválasztástól tartanak. Több információra és felkészítésre lenne szükségük ahhoz, mit jelent egy atipikus fejlődésű gyereket nevelni."
-tags: [sni, szulo, szakszolgalat, diagnozis, megbelyegzes]
+tags: [sni, szülők, pedagógiai-szakszolgálat, diagnózis, megbélyegzés]
 publication: "Telex"
 publishedDate: "2025-11-24"
 sourceUrl: "https://telex.hu/belfold/2025/11/24/sni-statusz-szulok-szakszolgalat-diagnozis-elfogadas-segitsegkeres-autista"

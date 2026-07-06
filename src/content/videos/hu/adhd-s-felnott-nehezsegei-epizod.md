@@ -3,7 +3,7 @@ title: "Az ADHD-s felnőtt tipikus nehézségei és azok támogatása a családt
 locale: hu
 topics: [adhd]
 summary: "Egyetlen videó a Nárcisz Coach csatornáról, felnőttkori ADHD tipikus nehézségeiről és a hozzátartozók támogató szerepéről."
-tags: [episode, coaching, family-support]
+tags: [epizód, coaching, családtámogatás]
 creator: "Nárcisz Coach"
 platform: "YouTube"
 viewCount: 11944

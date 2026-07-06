@@ -13,7 +13,7 @@ lat: 46.822605
 lng: 16.83075
 contact: "92/336-914, szekhely@zalaszakszolgalat.hu"
 sourceUrl: "https://zalaszakszolgalat.hu/szekhely-es-tagintezmenyek/szekhely/"
-tags: [state-funded, pedagogiai-szakszolgalat, korai-fejlesztes, no-referral, regional]
+tags: [állami-finanszírozás, pedagógiai-szakszolgálat, korai-fejlesztés, beutaló-nélkül, regionális]
 lastReviewed: 2026-07-06
 lastEdited: 2026-07-06
 ---

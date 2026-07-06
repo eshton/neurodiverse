@@ -3,7 +3,7 @@ title: "Hallássérültek Óvodája, Iskolája és EGYMI – Autista Iskola"
 locale: hu
 topics: [autism]
 summary: "Elsődlegesen hallássérült gyerekeket ellátó zuglói intézmény önálló autizmus-specifikus tagozata, 2017 óta bővülő óvodai és iskolai csoportokkal."
-tags: [state, egymi]
+tags: [állami-finanszírozás, egymi]
 providerType: special-needs-school
 funding: state
 ageGroup: children

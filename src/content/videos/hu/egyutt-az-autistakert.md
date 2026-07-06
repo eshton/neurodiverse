@@ -3,7 +3,7 @@ title: "Együtt az Autistákért Alapítvány (YouTube-csatorna)"
 locale: hu
 topics: [autism]
 summary: "Autizmus-témájú alapítvány csatornája, 20 részes beszélgetéssorozattal a csecsemőkortól a felnőttkorig, szülőknek, szakembereknek és autista felnőtteknek."
-tags: [foundation, series, awareness]
+tags: [alapítvány, sorozat, tudatosság]
 creator: "Együtt az Autistákért Alapítvány"
 platform: "YouTube"
 subscriberCount: 8150

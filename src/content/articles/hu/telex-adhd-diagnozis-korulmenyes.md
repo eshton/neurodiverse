@@ -3,7 +3,7 @@ title: "Miért ilyen körülményes itthon ADHD-diagnózishoz jutni?"
 locale: hu
 topics: [adhd]
 summary: "Telex-cikk a hazai ADHD-diagnosztika akadályairól: várólisták, az állami és a magánellátás közti szakadék, és a félrediagnosztizálás kockázata felnőttkorban, ahol az ADHD gyakran szorongással, más zavarokkal együtt jelenik meg."
-tags: [diagnozis, varolista, ellatas, felnott]
+tags: [diagnózis, várólista, ellátás, felnőttek]
 publication: "Telex"
 publishedDate: "2026-02-15"
 sourceUrl: "https://telex.hu/eletmod/2026/02/15/adhd-diagnosztika-tesztek-varolista-pszichiatria-allami-maganellatas"

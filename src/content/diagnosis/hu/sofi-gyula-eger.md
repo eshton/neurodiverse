@@ -3,7 +3,7 @@ title: "Dr. Sófi Gyula gyermekpszichiáter (Platán Egészségcentrum)"
 locale: hu
 topics: [adhd, autism]
 summary: "Gyermek- és serdülőpszichiáter magánrendelése Egerben, ADHD, autizmus, szorongásos és magatartászavarok teljes körű vizsgálatával és gondozásával."
-tags: [private, doctor, regional]
+tags: [magánfinanszírozás, orvos, regionális]
 providerType: doctor
 funding: private
 ageGroup: children

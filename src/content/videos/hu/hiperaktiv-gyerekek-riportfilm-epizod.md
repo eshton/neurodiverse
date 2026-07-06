@@ -3,7 +3,7 @@ title: "Hiperaktív gyerekek — ADHD riportfilm"
 locale: hu
 topics: [adhd]
 summary: "TV2 Napló archív riportfilmje hiperaktív gyerekekről és az ADHD mindennapi hatásairól — Szalay Ádám és Bolla Bertold munkája."
-tags: [episode, tv-report, archive]
+tags: [epizód, tv-riport, archívum]
 creator: "Bertold Bolla (TV2 Napló)"
 platform: "YouTube"
 viewCount: 22677

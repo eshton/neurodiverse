@@ -13,7 +13,7 @@ lat: 47.944492
 lng: 21.71416
 contact: "06-42/512-851, szszbmpedszakszolg@gmail.com"
 sourceUrl: "https://szszbmpedagogiaiszakszolgalat.edu.hu/kapcsolat.html"
-tags: [state-funded, pedagogiai-szakszolgalat, korai-fejlesztes, no-referral, regional]
+tags: [állami-finanszírozás, pedagógiai-szakszolgálat, korai-fejlesztés, beutaló-nélkül, regionális]
 lastReviewed: 2026-07-06
 lastEdited: 2026-07-06
 ---

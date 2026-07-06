@@ -13,7 +13,7 @@ lat: 47.243028
 lng: 16.621788
 contact: "+36 94 311 542"
 sourceUrl: "https://markusovszky.hu/betegellatas/szombathely/jarobeteg-rendeles-diagnosztikai-es-egyeb-ellatas/pszichiatriai-osztaly/felnott-pszichiatriai-gondozo-es-szakrendeles-addiktologia/bemutatkozas"
-tags: [state-funded, adults, regional]
+tags: [állami-finanszírozás, felnőttek, regionális]
 lastReviewed: "2026-07-06"
 lastEdited: 2026-07-06
 ---

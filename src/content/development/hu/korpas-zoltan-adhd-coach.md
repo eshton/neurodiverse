@@ -3,7 +3,7 @@ title: "Korpás Zoltán — ADHD és Life Coach"
 locale: hu
 topics: [adhd]
 summary: "Felnőtt ADHD-coaching magyar és angol nyelven, saját ADHD-tapasztalatból kiindulva — önismeret, mindennapi működés és stratégiák."
-tags: [coaching, adults, lived-experience]
+tags: [coaching, felnőttek, megélt-tapasztalat]
 providerType: therapist
 funding: private
 ageGroup: adults

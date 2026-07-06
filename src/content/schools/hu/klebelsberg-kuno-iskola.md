@@ -3,7 +3,7 @@ title: "Klebelsberg Kuno Általános Iskola és Gimnázium"
 locale: hu
 topics: [autism, adhd]
 summary: "Budai állami iskola, amely osztályonként 1-2 SNI-s gyereket (köztük autizmussal és ADHD-val élőket) integrál a tipikusan fejlődő tanulók közé."
-tags: [state, integration]
+tags: [állami-finanszírozás, integráció]
 providerType: mainstream-integration
 funding: state
 ageGroup: children

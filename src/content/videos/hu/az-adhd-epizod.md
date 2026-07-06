@@ -3,7 +3,7 @@ title: "AZ ADHD"
 locale: hu
 topics: [adhd]
 summary: "Cseri D. Bernadett és Vereb Vean András rövidfilmje, amely az ADHD Magyarország Pálföldi Alapítványt mutatja be egyszerű, hiteles hangvétellel."
-tags: [episode, short-film, foundation]
+tags: [epizód, rövidfilm, alapítvány]
 creator: "Vereb Vean András"
 platform: "YouTube"
 viewCount: 23382

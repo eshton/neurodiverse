@@ -3,7 +3,7 @@ title: "Mental Mood Medical — ADHD pszichoedukációs csoport"
 locale: hu
 topics: [adhd]
 summary: "Felnőtt ADHD pszichoedukációs csoport coach, pszichológus és pszichiáter közreműködésével — tünetek megértése, önhatékonyság, gyakorlati megküzdési stratégiák."
-tags: [group-therapy, psychoeducation, adults]
+tags: [csoportterápia, pszichoedukáció, felnőttek]
 providerType: center
 ageGroup: adults
 city: "Budapest"

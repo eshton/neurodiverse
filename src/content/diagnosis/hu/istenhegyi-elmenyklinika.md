@@ -3,7 +3,7 @@ title: "Istenhegyi Élményklinika — Felnőtt ADHD diagnosztika"
 locale: hu
 topics: [adhd]
 summary: "Budapesti pszichodiagnosztikai és terápiás magánközpont, felnőttkori ADHD diagnosztikával."
-tags: [private, adults]
+tags: [magánfinanszírozás, felnőttek]
 providerType: clinic
 funding: private
 ageGroup: adults

@@ -13,7 +13,7 @@ lat: 46.075246
 lng: 18.237866
 contact: "+36 72 518-599, bmpsz.titkarsag@gmail.com"
 sourceUrl: "https://bmpsz.edu.hu/kapcsolat/kapcsolat.php"
-tags: [state-funded, pedagogiai-szakszolgalat, korai-fejlesztes, no-referral, regional]
+tags: [állami-finanszírozás, pedagógiai-szakszolgálat, korai-fejlesztés, beutaló-nélkül, regionális]
 lastReviewed: 2026-07-06
 lastEdited: 2026-07-06
 ---

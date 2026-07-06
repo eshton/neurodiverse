@@ -3,7 +3,7 @@ title: "Flare Calmer füldugó"
 locale: hu
 topics: [autism]
 summary: "Nem hangelnyomó, hanem hangtorzítást szűrő füldugó — kifejezetten autista stressz- és szorongáscsökkentésre, hallási túlérzékenységre fejlesztve."
-tags: [sensory, noise]
+tags: [szenzoros, zaj]
 ageGroup: both
 priceRange: "9,490-9,990 HUF"
 retailerUrls:

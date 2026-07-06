@@ -3,7 +3,7 @@ title: "Nem attól lesz valaki ADHD-s, hogy néha elfelejti a kulcsát, vagy hal
 locale: hu
 topics: [adhd]
 summary: "WMN-cikk az ADHD körüli öndiagnózis-hullámról és a közösségimédia-tartalmak (TikTok) szerepéről: hol a határ a hétköznapi feledékenység/halogatás és a valódi ADHD között, és miért nem helyettesíti a szakmai kivizsgálást egy videó."
-tags: [ondiagnozis, tiktok, tevhitek, media]
+tags: [öndiagnózis, tiktok, tévhitek, média]
 publication: "WMN"
 sourceUrl: "https://wmn.hu/wmn-life/67622-mentalis-egeszseg-ondiagnozis-adhd-tiktok"
 coverImage: "/covers/wmn-adhd-ondiagnozis-tiktok.jpg"

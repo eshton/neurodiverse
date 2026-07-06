@@ -3,7 +3,7 @@ title: "Tíz százalék hiperfókusz, a többi kilencven szenvedés"
 locale: hu
 topics: [adhd]
 summary: "Telex-riport felnőttként diagnosztizált ADHD-val élők személyes beszámolóival: milyen a hétköznap figyelemzavarral, mit segít a gyógyszer és a pszichoterápia, és hogyan kezeli mindezt a környezet."
-tags: [szemelyes, felnott, gyogyszer, pszichoterapia, beszamolo]
+tags: [személyes, felnőttek, gyógyszer, pszichoterápia, beszámoló]
 publication: "Telex"
 publishedDate: "2025-05-26"
 sourceUrl: "https://telex.hu/eletmod/2025/05/26/adhd-beszamolok-gyogyszer-pszichoterapia"

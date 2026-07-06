@@ -3,7 +3,7 @@ title: "D-vitamin és ADHD"
 locale: hu
 topics: [adhd]
 summary: "Kutatások szerint az ADHD-s gyerekek D-vitamin-szintje gyakran alacsonyabb az átlagosnál. Ez egyelőre összefüggés, nem bizonyított ok-okozat vagy gyógymód — a pótlás elsősorban igazolt hiány esetén indokolt, szintmérés és orvosi konzultáció után."
-tags: [d-vitamin, etrendkiegeszito, hiany, bizonyitek]
+tags: [d-vitamin, étrendkiegészítő, hiány, bizonyíték]
 kind: supplement
 dietaryTags: [d-vitamin]
 sourceUrl: "https://pharmaonline.hu/cikk/a-hiperaktivitas-es-az-elhizas-megelozeseben-is-segithet-a-d-vitamin"

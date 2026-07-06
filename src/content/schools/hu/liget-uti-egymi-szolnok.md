@@ -3,7 +3,7 @@ title: "Liget Úti EGYMI – Autizmus Centrum"
 locale: hu
 topics: [autism]
 summary: "Szolnoki állami gyógypedagógiai intézmény önálló Autizmus Centruma, óvodai csoporttól a készségfejlesztő iskoláig."
-tags: [state, egymi, regional]
+tags: [állami-finanszírozás, egymi, regionális]
 providerType: special-needs-school
 funding: state
 ageGroup: children

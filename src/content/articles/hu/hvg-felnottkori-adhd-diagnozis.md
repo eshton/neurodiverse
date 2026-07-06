@@ -3,7 +3,7 @@ title: "Amikor végre megérted, miért küzdesz gyerekkorod óta — a felnőtt
 locale: hu
 topics: [adhd]
 summary: "HVG360-cikk a felnőttkori ADHD-diagnózisról: miért nehéz felnőttként diagnózishoz jutni itthon, és miért maradnak a nők különösen aluldiagnosztizálva és alulkezelve. (Előfizetéses hvg360-tartalom.)"
-tags: [felnott, no, diagnozis, aluldiagnosztizalas]
+tags: [felnőttek, nők, diagnózis, aluldiagnosztizálás]
 publication: "HVG360"
 author: "Pálúr Krisztina"
 publishedDate: "2024-11-07"

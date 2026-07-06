@@ -13,7 +13,7 @@ lat: 47.198561
 lng: 18.41124
 contact: "+36 22 315-832, szakszolgalat@fejermepsz.hu"
 sourceUrl: "https://fejermepsz.hu/"
-tags: [state-funded, pedagogiai-szakszolgalat, korai-fejlesztes, no-referral, regional]
+tags: [állami-finanszírozás, pedagógiai-szakszolgálat, korai-fejlesztés, beutaló-nélkül, regionális]
 lastReviewed: 2026-07-06
 lastEdited: 2026-07-06
 ---

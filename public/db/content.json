@@ -23,10 +23,10 @@
       "slug": "hvg-elet-a-diagnozis-utan",
       "href": "/hu/articles/hvg-elet-a-diagnozis-utan/",
       "tags": [
-        "felnott",
-        "identitas",
-        "diagnozis",
-        "neurodiverzitas"
+        "felnőttek",
+        "identitás",
+        "diagnózis",
+        "neurodiverzitás"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -54,10 +54,10 @@
       "slug": "hvg-felnottkori-adhd-diagnozis",
       "href": "/hu/articles/hvg-felnottkori-adhd-diagnozis/",
       "tags": [
-        "felnott",
-        "no",
-        "diagnozis",
-        "aluldiagnosztizalas"
+        "felnőttek",
+        "nők",
+        "diagnózis",
+        "aluldiagnosztizálás"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -85,11 +85,11 @@
       "slug": "kepmas-autista-nokent-multinal",
       "href": "/hu/articles/kepmas-autista-nokent-multinal/",
       "tags": [
-        "no",
-        "felnott",
-        "maszkolas",
+        "nők",
+        "felnőttek",
+        "maszkolás",
         "munkahely",
-        "szemelyes"
+        "személyes"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -117,9 +117,9 @@
       "slug": "qubit-rideg-integracio",
       "href": "/hu/articles/qubit-rideg-integracio/",
       "tags": [
-        "oktatas",
-        "integracio",
-        "rideg-integracio",
+        "oktatás",
+        "integráció",
+        "rideg-integráció",
         "rendszer"
       ],
       "ratings": [],
@@ -147,10 +147,10 @@
       "slug": "qubit-szuletes-elott-kimutathato",
       "href": "/hu/articles/qubit-szuletes-elott-kimutathato/",
       "tags": [
-        "tudomany",
-        "kutatas",
-        "korai",
-        "kockazat"
+        "tudomány",
+        "kutatás",
+        "korai-fejlesztés",
+        "kockázati-tényezők"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -179,10 +179,10 @@
       "slug": "szabadeuropa-kozoktatas-autizmus",
       "href": "/hu/articles/szabadeuropa-kozoktatas-autizmus/",
       "tags": [
-        "oktatas",
-        "integracio",
+        "oktatás",
+        "integráció",
         "rendszer",
-        "szulo",
+        "szülők",
         "riport"
       ],
       "ratings": [],
@@ -210,10 +210,10 @@
       "slug": "telex-127-emberbol-egy-autizmus",
       "href": "/hu/articles/telex-127-emberbol-egy-autizmus/",
       "tags": [
-        "tudomany",
+        "tudomány",
         "prevalencia",
-        "kutatas",
-        "globalis"
+        "kutatás",
+        "globális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -240,10 +240,10 @@
       "slug": "telex-adhd-diagnozis-korulmenyes",
       "href": "/hu/articles/telex-adhd-diagnozis-korulmenyes/",
       "tags": [
-        "diagnozis",
-        "varolista",
-        "ellatas",
-        "felnott"
+        "diagnózis",
+        "várólista",
+        "ellátás",
+        "felnőttek"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -270,10 +270,10 @@
       "slug": "telex-adhd-gyogyszer-liszdexamfetamin",
       "href": "/hu/articles/telex-adhd-gyogyszer-liszdexamfetamin/",
       "tags": [
-        "gyogyszer",
-        "felnott",
-        "kezeles",
-        "ellatas",
+        "gyógyszer",
+        "felnőttek",
+        "kezelés",
+        "ellátás",
         "liszdexamfetamin"
       ],
       "ratings": [],
@@ -301,10 +301,10 @@
       "slug": "telex-adhd-nem-bocsanat",
       "href": "/hu/articles/telex-adhd-nem-bocsanat/",
       "tags": [
-        "felnott",
-        "no",
-        "tevhitek",
-        "diagnozis"
+        "felnőttek",
+        "nők",
+        "tévhitek",
+        "diagnózis"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -331,9 +331,9 @@
       "slug": "telex-adhd-ondiagnozis-sorozat",
       "href": "/hu/articles/telex-adhd-ondiagnozis-sorozat/",
       "tags": [
-        "ismeretterjeszto",
-        "ondiagnozis",
-        "felnott",
+        "ismeretterjesztő",
+        "öndiagnózis",
+        "felnőttek",
         "sorozat"
       ],
       "ratings": [],
@@ -361,10 +361,10 @@
       "slug": "telex-ami-jol-megy-oszi-interju",
       "href": "/hu/articles/telex-ami-jol-megy-oszi-interju/",
       "tags": [
-        "interju",
-        "szakerto",
-        "gyerek",
-        "tamogatas"
+        "interjú",
+        "szakértő",
+        "gyerekek",
+        "támogatás"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -391,10 +391,10 @@
       "slug": "telex-autizmus-adhd-elofordulasa",
       "href": "/hu/articles/telex-autizmus-adhd-elofordulasa/",
       "tags": [
-        "tudomany",
-        "komorbiditas",
+        "tudomány",
+        "komorbiditás",
         "audhd",
-        "felnott"
+        "felnőttek"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -422,10 +422,10 @@
       "slug": "telex-autizmus-evolucio",
       "href": "/hu/articles/telex-autizmus-evolucio/",
       "tags": [
-        "tudomany",
-        "evolucio",
+        "tudomány",
+        "evolúció",
         "genetika",
-        "neurodiverzitas"
+        "neurodiverzitás"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -453,9 +453,9 @@
       "href": "/hu/articles/telex-csendes-orak-mujegpalya/",
       "tags": [
         "szenzoros",
-        "befogadas",
-        "kozossegi-ter",
-        "esemeny"
+        "befogadás",
+        "közösségi-tér",
+        "esemény"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -482,10 +482,10 @@
       "slug": "telex-fact-check-paracetamol-autizmus",
       "href": "/hu/articles/telex-fact-check-paracetamol-autizmus/",
       "tags": [
-        "tenyellenorzes",
-        "tevhitek",
-        "tudomany",
-        "terhesseg",
+        "tényellenőrzés",
+        "tévhitek",
+        "tudomány",
+        "terhesség",
         "vakcina"
       ],
       "ratings": [],
@@ -515,8 +515,7 @@
       "tags": [
         "szenzoros",
         "spd",
-        "gyerek",
-        "erzekelés"
+        "gyerekek"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -544,10 +543,10 @@
       "href": "/hu/articles/telex-sni-statusz-szulok/",
       "tags": [
         "sni",
-        "szulo",
-        "szakszolgalat",
-        "diagnozis",
-        "megbelyegzes"
+        "szülők",
+        "pedagógiai-szakszolgálat",
+        "diagnózis",
+        "megbélyegzés"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -574,11 +573,11 @@
       "slug": "telex-tiz-szazalek-hiperfokusz",
       "href": "/hu/articles/telex-tiz-szazalek-hiperfokusz/",
       "tags": [
-        "szemelyes",
-        "felnott",
-        "gyogyszer",
-        "pszichoterapia",
-        "beszamolo"
+        "személyes",
+        "felnőttek",
+        "gyógyszer",
+        "pszichoterápia",
+        "beszámoló"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -605,10 +604,10 @@
       "slug": "wmn-adhd-ondiagnozis-tiktok",
       "href": "/hu/articles/wmn-adhd-ondiagnozis-tiktok/",
       "tags": [
-        "ondiagnozis",
+        "öndiagnózis",
         "tiktok",
-        "tevhitek",
-        "media"
+        "tévhitek",
+        "média"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -634,9 +633,9 @@
       "slug": "wmn-neurodiverzitas-nem-betegseg",
       "href": "/hu/articles/wmn-neurodiverzitas-nem-betegseg/",
       "tags": [
-        "neurodiverzitas",
-        "szemlelet",
-        "elfogadas"
+        "neurodiverzitás",
+        "szemlélet",
+        "elfogadás"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -663,9 +662,9 @@
       "slug": "adhd-tunetegyuttes",
       "href": "/hu/books/adhd-tunetegyuttes/",
       "tags": [
-        "parents",
-        "teachers",
-        "children"
+        "szülők",
+        "pedagógusok",
+        "gyerekek"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -694,8 +693,8 @@
       "href": "/hu/books/asperger-szindroma-kezikonyve/",
       "tags": [
         "asperger",
-        "clinical",
-        "foundational"
+        "klinikai",
+        "alapmű"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -723,9 +722,9 @@
       "slug": "autizmus-elmelettol-gyakorlatig",
       "href": "/hu/books/autizmus-elmelettol-gyakorlatig/",
       "tags": [
-        "clinical",
-        "education",
-        "foundational"
+        "klinikai",
+        "oktatás",
+        "alapmű"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -753,9 +752,9 @@
       "slug": "az-autizmus-erzekelesvilaganak-felfedezese",
       "href": "/hu/books/az-autizmus-erzekelesvilaganak-felfedezese/",
       "tags": [
-        "parents",
-        "sensory",
-        "lived-experience"
+        "szülők",
+        "szenzoros",
+        "megélt-tapasztalat"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -783,10 +782,10 @@
       "slug": "hat-ezert-ugralok",
       "href": "/hu/books/hat-ezert-ugralok/",
       "tags": [
-        "memoir",
-        "nonverbal",
-        "own-voices",
-        "out-of-print"
+        "memoár",
+        "nonverbális",
+        "érintettek-hangja",
+        "elfogyott"
       ],
       "ratings": [],
       "availability": "unavailable",
@@ -814,9 +813,9 @@
       "slug": "kepekben-gondolkodom",
       "href": "/hu/books/kepekben-gondolkodom/",
       "tags": [
-        "memoir",
-        "own-voices",
-        "science"
+        "memoár",
+        "érintettek-hangja",
+        "tudomány"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -844,9 +843,9 @@
       "slug": "maskepp-gondolkodok-adhd",
       "href": "/hu/books/maskepp-gondolkodok-adhd/",
       "tags": [
-        "children",
-        "illustrated",
-        "education"
+        "gyerekek",
+        "illusztrált",
+        "oktatás"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -874,8 +873,8 @@
       "slug": "szetszortsag",
       "href": "/hu/books/szetszortsag/",
       "tags": [
-        "classic",
-        "clinical"
+        "klasszikus",
+        "klinikai"
       ],
       "ratings": [
         {
@@ -912,10 +911,10 @@
       "slug": "te-nem-lehetsz-autista",
       "href": "/hu/books/te-nem-lehetsz-autista/",
       "tags": [
-        "illustrated",
+        "illusztrált",
         "humor",
-        "own-voices",
-        "stereotypes"
+        "érintettek-hangja",
+        "sztereotípiák"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -943,9 +942,9 @@
       "slug": "tenyleg-adhd-s-a-gyerekem",
       "href": "/hu/books/tenyleg-adhd-s-a-gyerekem/",
       "tags": [
-        "parents",
-        "teachers",
-        "alternative-approach"
+        "szülők",
+        "pedagógusok",
+        "alternatív-megközelítés"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -973,10 +972,10 @@
       "slug": "tiz-dolog",
       "href": "/hu/books/tiz-dolog/",
       "tags": [
-        "parents",
-        "teachers",
-        "children",
-        "classic"
+        "szülők",
+        "pedagógusok",
+        "gyerekek",
+        "klasszikus"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -1004,8 +1003,8 @@
       "slug": "tulelokonyv-adhd-s-gyerekeknek",
       "href": "/hu/books/tulelokonyv-adhd-s-gyerekeknek/",
       "tags": [
-        "children",
-        "practical"
+        "gyerekek",
+        "gyakorlati"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -1032,9 +1031,9 @@
       "slug": "utmutato-adhd-val-elo-noknek",
       "href": "/hu/books/utmutato-adhd-val-elo-noknek/",
       "tags": [
-        "women",
-        "adults",
-        "self-acceptance"
+        "nők",
+        "felnőttek",
+        "önelfogadás"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -1062,9 +1061,9 @@
       "slug": "adhd-felnott-onsegito-csoport",
       "href": "/hu/communities/adhd-felnott-onsegito-csoport/",
       "tags": [
-        "facebook-group",
-        "adults",
-        "self-help",
+        "facebook-csoport",
+        "felnőttek",
+        "önsegítő",
         "online"
       ],
       "ratings": [],
@@ -1090,10 +1089,10 @@
       "slug": "adhd-magyarorszag-alapitvany",
       "href": "/hu/communities/adhd-magyarorszag-alapitvany/",
       "tags": [
-        "foundation",
-        "camps",
-        "self-help",
-        "families"
+        "alapítvány",
+        "táborok",
+        "önsegítő",
+        "családok"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -1121,9 +1120,9 @@
       "slug": "adhd-s-gyerekek-szulei",
       "href": "/hu/communities/adhd-s-gyerekek-szulei/",
       "tags": [
-        "facebook-group",
-        "parents",
-        "children",
+        "facebook-csoport",
+        "szülők",
+        "gyerekek",
         "online"
       ],
       "ratings": [],
@@ -1149,10 +1148,10 @@
       "slug": "asperger-hu",
       "href": "/hu/communities/asperger-hu/",
       "tags": [
-        "online-forum",
-        "adults",
+        "online-fórum",
+        "felnőttek",
         "asperger",
-        "peer-support"
+        "sorstárs-támogatás"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -1177,10 +1176,10 @@
       "slug": "autikum",
       "href": "/hu/communities/autikum/",
       "tags": [
-        "community-center",
-        "adults",
+        "közösségi-tér",
+        "felnőttek",
         "budapest",
-        "aura-egyesulet"
+        "aura-egyesület"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -1211,10 +1210,10 @@
       "slug": "autispektrum-egyesulet-veszprem",
       "href": "/hu/communities/autispektrum-egyesulet-veszprem/",
       "tags": [
-        "parents",
-        "self-help",
-        "veszprem",
-        "regional"
+        "szülők",
+        "önsegítő",
+        "veszprém",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -1245,10 +1244,10 @@
       "slug": "autistak-orszagos-szovetsege",
       "href": "/hu/communities/autistak-orszagos-szovetsege/",
       "tags": [
-        "national-federation",
-        "advocacy",
+        "országos-szövetség",
+        "érdekvédelem",
         "budapest",
-        "all-ages"
+        "minden-korosztály"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -1279,10 +1278,10 @@
       "slug": "autizmus-alapitvany-felnott-klub",
       "href": "/hu/communities/autizmus-alapitvany-felnott-klub/",
       "tags": [
-        "club",
-        "adults",
+        "klub",
+        "felnőttek",
         "budapest",
-        "peer-support"
+        "sorstárs-támogatás"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -1313,8 +1312,8 @@
       "slug": "bodis-andras",
       "href": "/hu/development/bodis-andras/",
       "tags": [
-        "private",
-        "psychologist"
+        "magánfinanszírozás",
+        "pszichológus"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -1347,8 +1346,8 @@
       "slug": "egy-masik-ut-pecs",
       "href": "/hu/development/egy-masik-ut-pecs/",
       "tags": [
-        "regional",
-        "parent-consultation"
+        "regionális",
+        "szülőkonzultáció"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -1390,8 +1389,8 @@
       "slug": "fejleszto-palota",
       "href": "/hu/development/fejleszto-palota/",
       "tags": [
-        "play-therapy",
-        "early-childhood"
+        "játékterápia",
+        "kisgyermekkor"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -1425,8 +1424,8 @@
       "href": "/hu/development/happancs-tsmt/",
       "tags": [
         "tsmt",
-        "movement-therapy",
-        "regional"
+        "mozgásterápia",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -1459,8 +1458,8 @@
       "href": "/hu/development/kislepesek-alapitvany/",
       "tags": [
         "aba",
-        "foundation",
-        "since-2008"
+        "alapítvány",
+        "2008-óta"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -1494,8 +1493,8 @@
       "href": "/hu/development/korpas-zoltan-adhd-coach/",
       "tags": [
         "coaching",
-        "adults",
-        "lived-experience"
+        "felnőttek",
+        "megélt-tapasztalat"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -1528,7 +1527,7 @@
       "slug": "leonardokid",
       "href": "/hu/development/leonardokid/",
       "tags": [
-        "developmental-pedagogy"
+        "gyógypedagógia"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -1560,8 +1559,8 @@
       "slug": "malyvakek",
       "href": "/hu/development/malyvakek/",
       "tags": [
-        "psychology",
-        "parent-support"
+        "pszichológia",
+        "szülőtámogatás"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -1605,9 +1604,9 @@
       "slug": "mental-mood-medical",
       "href": "/hu/development/mental-mood-medical/",
       "tags": [
-        "group-therapy",
-        "psychoeducation",
-        "adults"
+        "csoportterápia",
+        "pszichoedukáció",
+        "felnőttek"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -1639,8 +1638,8 @@
       "slug": "mentara-pszichologia",
       "href": "/hu/development/mentara-pszichologia/",
       "tags": [
-        "private",
-        "adults"
+        "magánfinanszírozás",
+        "felnőttek"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -1672,9 +1671,9 @@
       "slug": "odu-fejleszto-kozpont",
       "href": "/hu/development/odu-fejleszto-kozpont/",
       "tags": [
-        "early-intervention",
+        "korai-fejlesztés",
         "teacch",
-        "regional"
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -1707,11 +1706,11 @@
       "slug": "pedagogiai-szakszolgalat-bekescsaba",
       "href": "/hu/development/pedagogiai-szakszolgalat-bekescsaba/",
       "tags": [
-        "state-funded",
-        "pedagogiai-szakszolgalat",
-        "korai-fejlesztes",
-        "no-referral",
-        "regional"
+        "állami-finanszírozás",
+        "pedagógiai-szakszolgálat",
+        "korai-fejlesztés",
+        "beutaló-nélkül",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -1744,11 +1743,11 @@
       "slug": "pedagogiai-szakszolgalat-budapest",
       "href": "/hu/development/pedagogiai-szakszolgalat-budapest/",
       "tags": [
-        "state-funded",
-        "pedagogiai-szakszolgalat",
-        "korai-fejlesztes",
-        "no-referral",
-        "regional"
+        "állami-finanszírozás",
+        "pedagógiai-szakszolgálat",
+        "korai-fejlesztés",
+        "beutaló-nélkül",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -1781,11 +1780,11 @@
       "slug": "pedagogiai-szakszolgalat-cegled",
       "href": "/hu/development/pedagogiai-szakszolgalat-cegled/",
       "tags": [
-        "state-funded",
-        "pedagogiai-szakszolgalat",
-        "korai-fejlesztes",
-        "no-referral",
-        "regional"
+        "állami-finanszírozás",
+        "pedagógiai-szakszolgálat",
+        "korai-fejlesztés",
+        "beutaló-nélkül",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -1818,11 +1817,11 @@
       "slug": "pedagogiai-szakszolgalat-debrecen",
       "href": "/hu/development/pedagogiai-szakszolgalat-debrecen/",
       "tags": [
-        "state-funded",
-        "pedagogiai-szakszolgalat",
-        "korai-fejlesztes",
-        "no-referral",
-        "regional"
+        "állami-finanszírozás",
+        "pedagógiai-szakszolgálat",
+        "korai-fejlesztés",
+        "beutaló-nélkül",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -1855,11 +1854,11 @@
       "slug": "pedagogiai-szakszolgalat-eger",
       "href": "/hu/development/pedagogiai-szakszolgalat-eger/",
       "tags": [
-        "state-funded",
-        "pedagogiai-szakszolgalat",
-        "korai-fejlesztes",
-        "no-referral",
-        "regional"
+        "állami-finanszírozás",
+        "pedagógiai-szakszolgálat",
+        "korai-fejlesztés",
+        "beutaló-nélkül",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -1892,11 +1891,11 @@
       "slug": "pedagogiai-szakszolgalat-gyor",
       "href": "/hu/development/pedagogiai-szakszolgalat-gyor/",
       "tags": [
-        "state-funded",
-        "pedagogiai-szakszolgalat",
-        "korai-fejlesztes",
-        "no-referral",
-        "regional"
+        "állami-finanszírozás",
+        "pedagógiai-szakszolgálat",
+        "korai-fejlesztés",
+        "beutaló-nélkül",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -1929,11 +1928,11 @@
       "slug": "pedagogiai-szakszolgalat-kaposvar",
       "href": "/hu/development/pedagogiai-szakszolgalat-kaposvar/",
       "tags": [
-        "state-funded",
-        "pedagogiai-szakszolgalat",
-        "korai-fejlesztes",
-        "no-referral",
-        "regional"
+        "állami-finanszírozás",
+        "pedagógiai-szakszolgálat",
+        "korai-fejlesztés",
+        "beutaló-nélkül",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -1966,11 +1965,11 @@
       "slug": "pedagogiai-szakszolgalat-kecskemet",
       "href": "/hu/development/pedagogiai-szakszolgalat-kecskemet/",
       "tags": [
-        "state-funded",
-        "pedagogiai-szakszolgalat",
-        "korai-fejlesztes",
-        "no-referral",
-        "regional"
+        "állami-finanszírozás",
+        "pedagógiai-szakszolgálat",
+        "korai-fejlesztés",
+        "beutaló-nélkül",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -2003,11 +2002,11 @@
       "slug": "pedagogiai-szakszolgalat-miskolc",
       "href": "/hu/development/pedagogiai-szakszolgalat-miskolc/",
       "tags": [
-        "state-funded",
-        "pedagogiai-szakszolgalat",
-        "korai-fejlesztes",
-        "no-referral",
-        "regional"
+        "állami-finanszírozás",
+        "pedagógiai-szakszolgálat",
+        "korai-fejlesztés",
+        "beutaló-nélkül",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -2040,11 +2039,11 @@
       "slug": "pedagogiai-szakszolgalat-nyiregyhaza",
       "href": "/hu/development/pedagogiai-szakszolgalat-nyiregyhaza/",
       "tags": [
-        "state-funded",
-        "pedagogiai-szakszolgalat",
-        "korai-fejlesztes",
-        "no-referral",
-        "regional"
+        "állami-finanszírozás",
+        "pedagógiai-szakszolgálat",
+        "korai-fejlesztés",
+        "beutaló-nélkül",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -2077,11 +2076,11 @@
       "slug": "pedagogiai-szakszolgalat-pecs",
       "href": "/hu/development/pedagogiai-szakszolgalat-pecs/",
       "tags": [
-        "state-funded",
-        "pedagogiai-szakszolgalat",
-        "korai-fejlesztes",
-        "no-referral",
-        "regional"
+        "állami-finanszírozás",
+        "pedagógiai-szakszolgálat",
+        "korai-fejlesztés",
+        "beutaló-nélkül",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -2114,11 +2113,11 @@
       "slug": "pedagogiai-szakszolgalat-salgotarjan",
       "href": "/hu/development/pedagogiai-szakszolgalat-salgotarjan/",
       "tags": [
-        "state-funded",
-        "pedagogiai-szakszolgalat",
-        "korai-fejlesztes",
-        "no-referral",
-        "regional"
+        "állami-finanszírozás",
+        "pedagógiai-szakszolgálat",
+        "korai-fejlesztés",
+        "beutaló-nélkül",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -2151,11 +2150,11 @@
       "slug": "pedagogiai-szakszolgalat-szeged",
       "href": "/hu/development/pedagogiai-szakszolgalat-szeged/",
       "tags": [
-        "state-funded",
-        "pedagogiai-szakszolgalat",
-        "korai-fejlesztes",
-        "no-referral",
-        "regional"
+        "állami-finanszírozás",
+        "pedagógiai-szakszolgálat",
+        "korai-fejlesztés",
+        "beutaló-nélkül",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -2188,11 +2187,11 @@
       "slug": "pedagogiai-szakszolgalat-szekesfehervar",
       "href": "/hu/development/pedagogiai-szakszolgalat-szekesfehervar/",
       "tags": [
-        "state-funded",
-        "pedagogiai-szakszolgalat",
-        "korai-fejlesztes",
-        "no-referral",
-        "regional"
+        "állami-finanszírozás",
+        "pedagógiai-szakszolgálat",
+        "korai-fejlesztés",
+        "beutaló-nélkül",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -2225,11 +2224,11 @@
       "slug": "pedagogiai-szakszolgalat-szekszard",
       "href": "/hu/development/pedagogiai-szakszolgalat-szekszard/",
       "tags": [
-        "state-funded",
-        "pedagogiai-szakszolgalat",
-        "korai-fejlesztes",
-        "no-referral",
-        "regional"
+        "állami-finanszírozás",
+        "pedagógiai-szakszolgálat",
+        "korai-fejlesztés",
+        "beutaló-nélkül",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -2262,11 +2261,11 @@
       "slug": "pedagogiai-szakszolgalat-szolnok",
       "href": "/hu/development/pedagogiai-szakszolgalat-szolnok/",
       "tags": [
-        "state-funded",
-        "pedagogiai-szakszolgalat",
-        "korai-fejlesztes",
-        "no-referral",
-        "regional"
+        "állami-finanszírozás",
+        "pedagógiai-szakszolgálat",
+        "korai-fejlesztés",
+        "beutaló-nélkül",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -2299,11 +2298,11 @@
       "slug": "pedagogiai-szakszolgalat-szombathely",
       "href": "/hu/development/pedagogiai-szakszolgalat-szombathely/",
       "tags": [
-        "state-funded",
-        "pedagogiai-szakszolgalat",
-        "korai-fejlesztes",
-        "no-referral",
-        "regional"
+        "állami-finanszírozás",
+        "pedagógiai-szakszolgálat",
+        "korai-fejlesztés",
+        "beutaló-nélkül",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -2336,11 +2335,11 @@
       "slug": "pedagogiai-szakszolgalat-tatabanya",
       "href": "/hu/development/pedagogiai-szakszolgalat-tatabanya/",
       "tags": [
-        "state-funded",
-        "pedagogiai-szakszolgalat",
-        "korai-fejlesztes",
-        "no-referral",
-        "regional"
+        "állami-finanszírozás",
+        "pedagógiai-szakszolgálat",
+        "korai-fejlesztés",
+        "beutaló-nélkül",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -2373,11 +2372,11 @@
       "slug": "pedagogiai-szakszolgalat-veszprem",
       "href": "/hu/development/pedagogiai-szakszolgalat-veszprem/",
       "tags": [
-        "state-funded",
-        "pedagogiai-szakszolgalat",
-        "korai-fejlesztes",
-        "no-referral",
-        "regional"
+        "állami-finanszírozás",
+        "pedagógiai-szakszolgálat",
+        "korai-fejlesztés",
+        "beutaló-nélkül",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -2410,11 +2409,11 @@
       "slug": "pedagogiai-szakszolgalat-zalaegerszeg",
       "href": "/hu/development/pedagogiai-szakszolgalat-zalaegerszeg/",
       "tags": [
-        "state-funded",
-        "pedagogiai-szakszolgalat",
-        "korai-fejlesztes",
-        "no-referral",
-        "regional"
+        "állami-finanszírozás",
+        "pedagógiai-szakszolgálat",
+        "korai-fejlesztés",
+        "beutaló-nélkül",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -2447,9 +2446,9 @@
       "slug": "szivarvany-korai-fejleszto",
       "href": "/hu/development/szivarvany-korai-fejleszto/",
       "tags": [
-        "foundation",
-        "early-intervention",
-        "regional"
+        "alapítvány",
+        "korai-fejlesztés",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -2482,9 +2481,9 @@
       "slug": "terc",
       "href": "/hu/development/terc/",
       "tags": [
-        "foundation",
-        "since-2003",
-        "all-ages"
+        "alapítvány",
+        "2003-óta",
+        "minden-korosztály"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -2517,8 +2516,8 @@
       "slug": "ujbuda-fejlesztohaz",
       "href": "/hu/development/ujbuda-fejlesztohaz/",
       "tags": [
-        "sensory-integration",
-        "early-intervention"
+        "szenzoros-integráció",
+        "korai-fejlesztés"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -2550,8 +2549,8 @@
       "slug": "vikote",
       "href": "/hu/development/vikote/",
       "tags": [
-        "group-therapy",
-        "schema-therapy"
+        "csoportterápia",
+        "sématerápia"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -2582,8 +2581,8 @@
       "slug": "adhd-kozpont",
       "href": "/hu/diagnosis/adhd-kozpont/",
       "tags": [
-        "private",
-        "adults"
+        "magánfinanszírozás",
+        "felnőttek"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -2616,8 +2615,8 @@
       "slug": "autizmus-alapitvany-ambulancia",
       "href": "/hu/diagnosis/autizmus-alapitvany-ambulancia/",
       "tags": [
-        "foundation",
-        "all-ages"
+        "alapítvány",
+        "minden-korosztály"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -2651,9 +2650,9 @@
       "slug": "bacs-kiskun-kecskemet",
       "href": "/hu/diagnosis/bacs-kiskun-kecskemet/",
       "tags": [
-        "state-funded",
-        "children",
-        "regional"
+        "állami-finanszírozás",
+        "gyerekek",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -2688,9 +2687,9 @@
       "slug": "baz-autizmus-ellatohely-miskolc",
       "href": "/hu/diagnosis/baz-autizmus-ellatohely-miskolc/",
       "tags": [
-        "state-funded",
-        "children",
-        "regional"
+        "állami-finanszírozás",
+        "gyerekek",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -2723,9 +2722,9 @@
       "slug": "bethesda-adhd-ambulancia",
       "href": "/hu/diagnosis/bethesda-adhd-ambulancia/",
       "tags": [
-        "faith-based",
-        "children",
-        "catchment-area"
+        "vallási",
+        "gyerekek",
+        "ellátási-körzet"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -2759,8 +2758,8 @@
       "slug": "cerebrum-neuropszichologia",
       "href": "/hu/diagnosis/cerebrum-neuropszichologia/",
       "tags": [
-        "private",
-        "regional"
+        "magánfinanszírozás",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -2804,9 +2803,9 @@
       "slug": "csolnoky-veszprem",
       "href": "/hu/diagnosis/csolnoky-veszprem/",
       "tags": [
-        "state-funded",
-        "children",
-        "regional"
+        "állami-finanszírozás",
+        "gyerekek",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -2842,10 +2841,10 @@
       "slug": "debrecen-autizmus-ambulancia",
       "href": "/hu/diagnosis/debrecen-autizmus-ambulancia/",
       "tags": [
-        "state-funded",
-        "children",
-        "regional",
-        "no-referral"
+        "állami-finanszírozás",
+        "gyerekek",
+        "regionális",
+        "beutaló-nélkül"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -2880,9 +2879,9 @@
       "slug": "hetenyi-szolnok",
       "href": "/hu/diagnosis/hetenyi-szolnok/",
       "tags": [
-        "state-funded",
-        "children",
-        "regional"
+        "állami-finanszírozás",
+        "gyerekek",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -2918,8 +2917,8 @@
       "slug": "istenhegyi-elmenyklinika",
       "href": "/hu/diagnosis/istenhegyi-elmenyklinika/",
       "tags": [
-        "private",
-        "adults"
+        "magánfinanszírozás",
+        "felnőttek"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -2952,9 +2951,9 @@
       "slug": "josa-andras-nyiregyhaza",
       "href": "/hu/diagnosis/josa-andras-nyiregyhaza/",
       "tags": [
-        "state-funded",
-        "children",
-        "regional"
+        "állami-finanszírozás",
+        "gyerekek",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -2989,9 +2988,9 @@
       "slug": "kaposi-mor-korhaz",
       "href": "/hu/diagnosis/kaposi-mor-korhaz/",
       "tags": [
-        "state-funded",
-        "children",
-        "regional"
+        "állami-finanszírozás",
+        "gyerekek",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -3026,9 +3025,9 @@
       "slug": "leda-medical-zalaegerszeg",
       "href": "/hu/diagnosis/leda-medical-zalaegerszeg/",
       "tags": [
-        "private",
-        "adults",
-        "regional"
+        "magánfinanszírozás",
+        "felnőttek",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -3061,9 +3060,9 @@
       "slug": "markusovszky-pszichiatria-szombathely",
       "href": "/hu/diagnosis/markusovszky-pszichiatria-szombathely/",
       "tags": [
-        "state-funded",
-        "adults",
-        "regional"
+        "állami-finanszírozás",
+        "felnőttek",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -3096,9 +3095,9 @@
       "slug": "nagykallo-adhd-szakambulancia",
       "href": "/hu/diagnosis/nagykallo-adhd-szakambulancia/",
       "tags": [
-        "state-funded",
-        "adults",
-        "regional"
+        "állami-finanszírozás",
+        "felnőttek",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -3132,9 +3131,9 @@
       "slug": "neuroharmonia-szekszard",
       "href": "/hu/diagnosis/neuroharmonia-szekszard/",
       "tags": [
-        "private",
-        "all-ages",
-        "regional"
+        "magánfinanszírozás",
+        "minden-korosztály",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -3168,10 +3167,10 @@
       "slug": "nyiro-gyula-opai",
       "href": "/hu/diagnosis/nyiro-gyula-opai/",
       "tags": [
-        "state-funded",
-        "adults",
-        "nationwide-catchment",
-        "referral-required"
+        "állami-finanszírozás",
+        "felnőttek",
+        "országos-ellátás",
+        "beutalóköteles"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -3206,9 +3205,9 @@
       "slug": "orenda-pszichologiai-kozpont",
       "href": "/hu/diagnosis/orenda-pszichologiai-kozpont/",
       "tags": [
-        "private",
-        "all-ages",
-        "specialized"
+        "magánfinanszírozás",
+        "minden-korosztály",
+        "specializált"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -3252,8 +3251,8 @@
       "slug": "panorama-poliklinika",
       "href": "/hu/diagnosis/panorama-poliklinika/",
       "tags": [
-        "private",
-        "all-ages"
+        "magánfinanszírozás",
+        "minden-korosztály"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -3298,9 +3297,9 @@
       "slug": "peterfy-adhd-ambulancia",
       "href": "/hu/diagnosis/peterfy-adhd-ambulancia/",
       "tags": [
-        "state-funded",
-        "adults",
-        "waitlist"
+        "állami-finanszírozás",
+        "felnőttek",
+        "várólista"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -3335,9 +3334,9 @@
       "slug": "petz-aladar-gyor",
       "href": "/hu/diagnosis/petz-aladar-gyor/",
       "tags": [
-        "state-funded",
-        "children",
-        "regional"
+        "állami-finanszírozás",
+        "gyerekek",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -3373,9 +3372,9 @@
       "slug": "pszichologusunk-szekesfehervar",
       "href": "/hu/diagnosis/pszichologusunk-szekesfehervar/",
       "tags": [
-        "private",
-        "regional",
-        "children"
+        "magánfinanszírozás",
+        "regionális",
+        "gyerekek"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -3409,10 +3408,10 @@
       "slug": "pte-gyermekklinika",
       "href": "/hu/diagnosis/pte-gyermekklinika/",
       "tags": [
-        "state-funded",
-        "children",
-        "university-clinic",
-        "regional"
+        "állami-finanszírozás",
+        "gyerekek",
+        "egyetemi-klinika",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -3447,9 +3446,9 @@
       "slug": "se-bokay-gyermekpszichiatria",
       "href": "/hu/diagnosis/se-bokay-gyermekpszichiatria/",
       "tags": [
-        "state-funded",
-        "children",
-        "regional"
+        "állami-finanszírozás",
+        "gyerekek",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -3482,9 +3481,9 @@
       "slug": "semmelweis-adhd-ambulancia",
       "href": "/hu/diagnosis/semmelweis-adhd-ambulancia/",
       "tags": [
-        "state-funded",
-        "adults",
-        "referral-required"
+        "állami-finanszírozás",
+        "felnőttek",
+        "beutalóköteles"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -3530,9 +3529,9 @@
       "slug": "sofi-gyula-eger",
       "href": "/hu/diagnosis/sofi-gyula-eger/",
       "tags": [
-        "private",
-        "doctor",
-        "regional"
+        "magánfinanszírozás",
+        "orvos",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -3584,11 +3583,11 @@
       "slug": "szakertoi-bizottsag-bekescsaba",
       "href": "/hu/diagnosis/szakertoi-bizottsag-bekescsaba/",
       "tags": [
-        "state-funded",
-        "expert-committee",
+        "állami-finanszírozás",
+        "szakértői-bizottság",
         "sni",
-        "no-referral",
-        "regional"
+        "beutaló-nélkül",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -3621,11 +3620,11 @@
       "slug": "szakertoi-bizottsag-budapest",
       "href": "/hu/diagnosis/szakertoi-bizottsag-budapest/",
       "tags": [
-        "state-funded",
-        "expert-committee",
+        "állami-finanszírozás",
+        "szakértői-bizottság",
         "sni",
-        "no-referral",
-        "regional"
+        "beutaló-nélkül",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -3658,11 +3657,11 @@
       "slug": "szakertoi-bizottsag-cegled",
       "href": "/hu/diagnosis/szakertoi-bizottsag-cegled/",
       "tags": [
-        "state-funded",
-        "expert-committee",
+        "állami-finanszírozás",
+        "szakértői-bizottság",
         "sni",
-        "no-referral",
-        "regional"
+        "beutaló-nélkül",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -3695,11 +3694,11 @@
       "slug": "szakertoi-bizottsag-debrecen",
       "href": "/hu/diagnosis/szakertoi-bizottsag-debrecen/",
       "tags": [
-        "state-funded",
-        "expert-committee",
+        "állami-finanszírozás",
+        "szakértői-bizottság",
         "sni",
-        "no-referral",
-        "regional"
+        "beutaló-nélkül",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -3732,11 +3731,11 @@
       "slug": "szakertoi-bizottsag-eger",
       "href": "/hu/diagnosis/szakertoi-bizottsag-eger/",
       "tags": [
-        "state-funded",
-        "expert-committee",
+        "állami-finanszírozás",
+        "szakértői-bizottság",
         "sni",
-        "no-referral",
-        "regional"
+        "beutaló-nélkül",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -3769,11 +3768,11 @@
       "slug": "szakertoi-bizottsag-gyor",
       "href": "/hu/diagnosis/szakertoi-bizottsag-gyor/",
       "tags": [
-        "state-funded",
-        "expert-committee",
+        "állami-finanszírozás",
+        "szakértői-bizottság",
         "sni",
-        "no-referral",
-        "regional"
+        "beutaló-nélkül",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -3806,11 +3805,11 @@
       "slug": "szakertoi-bizottsag-kaposvar",
       "href": "/hu/diagnosis/szakertoi-bizottsag-kaposvar/",
       "tags": [
-        "state-funded",
-        "expert-committee",
+        "állami-finanszírozás",
+        "szakértői-bizottság",
         "sni",
-        "no-referral",
-        "regional"
+        "beutaló-nélkül",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -3843,11 +3842,11 @@
       "slug": "szakertoi-bizottsag-kecskemet",
       "href": "/hu/diagnosis/szakertoi-bizottsag-kecskemet/",
       "tags": [
-        "state-funded",
-        "expert-committee",
+        "állami-finanszírozás",
+        "szakértői-bizottság",
         "sni",
-        "no-referral",
-        "regional"
+        "beutaló-nélkül",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -3880,11 +3879,11 @@
       "slug": "szakertoi-bizottsag-miskolc",
       "href": "/hu/diagnosis/szakertoi-bizottsag-miskolc/",
       "tags": [
-        "state-funded",
-        "expert-committee",
+        "állami-finanszírozás",
+        "szakértői-bizottság",
         "sni",
-        "no-referral",
-        "regional"
+        "beutaló-nélkül",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -3917,11 +3916,11 @@
       "slug": "szakertoi-bizottsag-nyiregyhaza",
       "href": "/hu/diagnosis/szakertoi-bizottsag-nyiregyhaza/",
       "tags": [
-        "state-funded",
-        "expert-committee",
+        "állami-finanszírozás",
+        "szakértői-bizottság",
         "sni",
-        "no-referral",
-        "regional"
+        "beutaló-nélkül",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -3954,11 +3953,11 @@
       "slug": "szakertoi-bizottsag-pecs",
       "href": "/hu/diagnosis/szakertoi-bizottsag-pecs/",
       "tags": [
-        "state-funded",
-        "expert-committee",
+        "állami-finanszírozás",
+        "szakértői-bizottság",
         "sni",
-        "no-referral",
-        "regional"
+        "beutaló-nélkül",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -3991,11 +3990,11 @@
       "slug": "szakertoi-bizottsag-salgotarjan",
       "href": "/hu/diagnosis/szakertoi-bizottsag-salgotarjan/",
       "tags": [
-        "state-funded",
-        "expert-committee",
+        "állami-finanszírozás",
+        "szakértői-bizottság",
         "sni",
-        "no-referral",
-        "regional"
+        "beutaló-nélkül",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -4028,11 +4027,11 @@
       "slug": "szakertoi-bizottsag-szeged",
       "href": "/hu/diagnosis/szakertoi-bizottsag-szeged/",
       "tags": [
-        "state-funded",
-        "expert-committee",
+        "állami-finanszírozás",
+        "szakértői-bizottság",
         "sni",
-        "no-referral",
-        "regional"
+        "beutaló-nélkül",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -4065,11 +4064,11 @@
       "slug": "szakertoi-bizottsag-szekesfehervar",
       "href": "/hu/diagnosis/szakertoi-bizottsag-szekesfehervar/",
       "tags": [
-        "state-funded",
-        "expert-committee",
+        "állami-finanszírozás",
+        "szakértői-bizottság",
         "sni",
-        "no-referral",
-        "regional"
+        "beutaló-nélkül",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -4102,11 +4101,11 @@
       "slug": "szakertoi-bizottsag-szekszard",
       "href": "/hu/diagnosis/szakertoi-bizottsag-szekszard/",
       "tags": [
-        "state-funded",
-        "expert-committee",
+        "állami-finanszírozás",
+        "szakértői-bizottság",
         "sni",
-        "no-referral",
-        "regional"
+        "beutaló-nélkül",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -4139,11 +4138,11 @@
       "slug": "szakertoi-bizottsag-szolnok",
       "href": "/hu/diagnosis/szakertoi-bizottsag-szolnok/",
       "tags": [
-        "state-funded",
-        "expert-committee",
+        "állami-finanszírozás",
+        "szakértői-bizottság",
         "sni",
-        "no-referral",
-        "regional"
+        "beutaló-nélkül",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -4176,11 +4175,11 @@
       "slug": "szakertoi-bizottsag-szombathely",
       "href": "/hu/diagnosis/szakertoi-bizottsag-szombathely/",
       "tags": [
-        "state-funded",
-        "expert-committee",
+        "állami-finanszírozás",
+        "szakértői-bizottság",
         "sni",
-        "no-referral",
-        "regional"
+        "beutaló-nélkül",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -4213,11 +4212,11 @@
       "slug": "szakertoi-bizottsag-tatabanya",
       "href": "/hu/diagnosis/szakertoi-bizottsag-tatabanya/",
       "tags": [
-        "state-funded",
-        "expert-committee",
+        "állami-finanszírozás",
+        "szakértői-bizottság",
         "sni",
-        "no-referral",
-        "regional"
+        "beutaló-nélkül",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -4250,11 +4249,11 @@
       "slug": "szakertoi-bizottsag-veszprem",
       "href": "/hu/diagnosis/szakertoi-bizottsag-veszprem/",
       "tags": [
-        "state-funded",
-        "expert-committee",
+        "állami-finanszírozás",
+        "szakértői-bizottság",
         "sni",
-        "no-referral",
-        "regional"
+        "beutaló-nélkül",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -4287,11 +4286,11 @@
       "slug": "szakertoi-bizottsag-zalaegerszeg",
       "href": "/hu/diagnosis/szakertoi-bizottsag-zalaegerszeg/",
       "tags": [
-        "state-funded",
-        "expert-committee",
+        "állami-finanszírozás",
+        "szakértői-bizottság",
         "sni",
-        "no-referral",
-        "regional"
+        "beutaló-nélkül",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -4324,10 +4323,10 @@
       "slug": "szent-lazar-korhaz-salgotarjan",
       "href": "/hu/diagnosis/szent-lazar-korhaz-salgotarjan/",
       "tags": [
-        "hospital",
-        "state",
-        "children",
-        "regional"
+        "kórház",
+        "állami-finanszírozás",
+        "gyerekek",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -4361,10 +4360,10 @@
       "slug": "szte-adhd-szakambulancia",
       "href": "/hu/diagnosis/szte-adhd-szakambulancia/",
       "tags": [
-        "state-funded",
-        "adults",
-        "university-clinic",
-        "referral-required"
+        "állami-finanszírozás",
+        "felnőttek",
+        "egyetemi-klinika",
+        "beutalóköteles"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -4399,9 +4398,9 @@
       "slug": "szte-gyermekpszichiatria-szeged",
       "href": "/hu/diagnosis/szte-gyermekpszichiatria-szeged/",
       "tags": [
-        "state-funded",
-        "children",
-        "regional"
+        "állami-finanszírozás",
+        "gyerekek",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -4434,11 +4433,11 @@
       "slug": "toparti-szakszolgalat-gardony",
       "href": "/hu/diagnosis/toparti-szakszolgalat-gardony/",
       "tags": [
-        "clinic",
-        "free",
-        "children",
-        "early-intervention",
-        "regional"
+        "klinika",
+        "ingyenes",
+        "gyerekek",
+        "korai-fejlesztés",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -4471,9 +4470,9 @@
       "slug": "vadaskert-alapitvany",
       "href": "/hu/diagnosis/vadaskert-alapitvany/",
       "tags": [
-        "foundation",
-        "children",
-        "waitlist"
+        "alapítvány",
+        "gyerekek",
+        "várólista"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -4508,9 +4507,9 @@
       "slug": "velkey-gyek-miskolc",
       "href": "/hu/diagnosis/velkey-gyek-miskolc/",
       "tags": [
-        "state-funded",
-        "children",
-        "regional"
+        "állami-finanszírozás",
+        "gyerekek",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -4545,8 +4544,8 @@
       "slug": "alpine-defender",
       "href": "/hu/equipment/alpine-defender/",
       "tags": [
-        "sensory",
-        "noise"
+        "szenzoros",
+        "zaj"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -4576,8 +4575,8 @@
       "slug": "ark-grabber-ragoka",
       "href": "/hu/equipment/ark-grabber-ragoka/",
       "tags": [
-        "sensory",
-        "oral-motor"
+        "szenzoros",
+        "orál-motoros"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -4607,7 +4606,7 @@
       "slug": "ark-porgettyu",
       "href": "/hu/equipment/ark-porgettyu/",
       "tags": [
-        "sensory",
+        "szenzoros",
         "fidget"
       ],
       "ratings": [],
@@ -4638,8 +4637,8 @@
       "slug": "ark-raghato-nyaklanc",
       "href": "/hu/equipment/ark-raghato-nyaklanc/",
       "tags": [
-        "sensory",
-        "oral-motor"
+        "szenzoros",
+        "orál-motoros"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -4669,8 +4668,8 @@
       "slug": "calmer-fuldugo",
       "href": "/hu/equipment/calmer-fuldugo/",
       "tags": [
-        "sensory",
-        "noise"
+        "szenzoros",
+        "zaj"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -4703,8 +4702,8 @@
       "slug": "ceruzafogo",
       "href": "/hu/equipment/ceruzafogo/",
       "tags": [
-        "fine-motor",
-        "writing"
+        "finommotorika",
+        "írás"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -4734,8 +4733,8 @@
       "slug": "egyensulyozo-deszka-szett",
       "href": "/hu/equipment/egyensulyozo-deszka-szett/",
       "tags": [
-        "movement",
-        "balance"
+        "mozgás",
+        "egyensúly"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -4765,8 +4764,8 @@
       "slug": "egyensulyozo-labda",
       "href": "/hu/equipment/egyensulyozo-labda/",
       "tags": [
-        "movement",
-        "balance"
+        "mozgás",
+        "egyensúly"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -4796,8 +4795,8 @@
       "slug": "manimo-sulyozott-kutya",
       "href": "/hu/equipment/manimo-sulyozott-kutya/",
       "tags": [
-        "sensory",
-        "sleep"
+        "szenzoros",
+        "alvás"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -4827,8 +4826,8 @@
       "slug": "napirend-tervezo",
       "href": "/hu/equipment/napirend-tervezo/",
       "tags": [
-        "visual-support",
-        "routine"
+        "vizuális-támogatás",
+        "rutin"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -4858,8 +4857,8 @@
       "slug": "optikai-szalas-gubanc",
       "href": "/hu/equipment/optikai-szalas-gubanc/",
       "tags": [
-        "sensory",
-        "visual",
+        "szenzoros",
+        "vizuális-támogatás",
         "snoezelen"
       ],
       "ratings": [],
@@ -4890,9 +4889,9 @@
       "slug": "pecs-napirendi-kartya",
       "href": "/hu/equipment/pecs-napirendi-kartya/",
       "tags": [
-        "visual-support",
-        "communication",
-        "pecs"
+        "vizuális-támogatás",
+        "kommunikáció",
+        "pécs"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -4921,7 +4920,7 @@
       "slug": "quicktalker-ft23",
       "href": "/hu/equipment/quicktalker-ft23/",
       "tags": [
-        "communication",
+        "kommunikáció",
         "aac"
       ],
       "ratings": [],
@@ -4951,8 +4950,8 @@
       "slug": "sulyozott-melleny",
       "href": "/hu/equipment/sulyozott-melleny/",
       "tags": [
-        "sensory",
-        "dpt"
+        "szenzoros",
+        "mélynyomás"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -4982,8 +4981,8 @@
       "slug": "sulyozott-takaro",
       "href": "/hu/equipment/sulyozott-takaro/",
       "tags": [
-        "sleep",
-        "sensory"
+        "alvás",
+        "szenzoros"
       ],
       "ratings": [
         {
@@ -5021,8 +5020,8 @@
       "slug": "szenzoros-hinta",
       "href": "/hu/equipment/szenzoros-hinta/",
       "tags": [
-        "sensory",
-        "movement"
+        "szenzoros",
+        "mozgás"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -5052,8 +5051,8 @@
       "slug": "szenzoros-sator",
       "href": "/hu/equipment/szenzoros-sator/",
       "tags": [
-        "sensory",
-        "retreat-space"
+        "szenzoros",
+        "nyugalmi-tér"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -5083,8 +5082,8 @@
       "slug": "time-timer-mod",
       "href": "/hu/equipment/time-timer-mod/",
       "tags": [
-        "time-management",
-        "visual-support"
+        "időgazdálkodás",
+        "vizuális-támogatás"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -5114,8 +5113,8 @@
       "slug": "zajszuro-fulhallgato",
       "href": "/hu/equipment/zajszuro-fulhallgato/",
       "tags": [
-        "sensory",
-        "noise"
+        "szenzoros",
+        "zaj"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -5145,11 +5144,11 @@
       "slug": "adhd-taplalkozas-szafi",
       "href": "/hu/food/adhd-taplalkozas-szafi/",
       "tags": [
-        "taplalkozas",
-        "mikrotapanyag",
+        "táplálkozás",
+        "mikrotápanyag",
         "dietetikus",
         "cukor",
-        "adalekanyag"
+        "adalékanyag"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -5176,8 +5175,8 @@
       "href": "/hu/food/arfid-eveszavar/",
       "tags": [
         "arfid",
-        "eveszavar",
-        "valogatos-eves",
+        "evészavar",
+        "válogatós-evés",
         "szenzoros"
       ],
       "ratings": [],
@@ -5205,8 +5204,8 @@
       "href": "/hu/food/autista-gyerekek-taplalkozasa/",
       "tags": [
         "food-chaining",
-        "valogatos-eves",
-        "dieta",
+        "válogatós-evés",
+        "diéta",
         "dietetikus"
       ],
       "ratings": [],
@@ -5233,10 +5232,10 @@
       "slug": "autizmus-eveszavarok-korai",
       "href": "/hu/food/autizmus-eveszavarok-korai/",
       "tags": [
-        "valogatos-eves",
+        "válogatós-evés",
         "szenzoros",
-        "utmutato",
-        "gyerek"
+        "útmutató",
+        "gyerekek"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -5263,9 +5262,9 @@
       "href": "/hu/food/d-vitamin-adhd/",
       "tags": [
         "d-vitamin",
-        "etrendkiegeszito",
-        "hiany",
-        "bizonyitek"
+        "étrendkiegészítő",
+        "hiány",
+        "bizonyíték"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -5293,10 +5292,10 @@
       "slug": "gfcf-dieta-szakember",
       "href": "/hu/food/gfcf-dieta-szakember/",
       "tags": [
-        "dieta",
-        "gluten",
+        "diéta",
+        "glutén",
         "kazein",
-        "bizonyitek",
+        "bizonyíték",
         "dietetikus"
       ],
       "ratings": [],
@@ -5327,8 +5326,8 @@
       "href": "/hu/food/magas-feherje-reggeli/",
       "tags": [
         "reggeli",
-        "feherje",
-        "low-effort",
+        "fehérje",
+        "egyszerű",
         "recept"
       ],
       "ratings": [],
@@ -5359,8 +5358,8 @@
       "tags": [
         "omega-3",
         "halolaj",
-        "etrendkiegeszito",
-        "bizonyitek"
+        "étrendkiegészítő",
+        "bizonyíték"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -5390,9 +5389,9 @@
       "tags": [
         "vas",
         "cink",
-        "etrendkiegeszito",
-        "hiany",
-        "bizonyitek"
+        "étrendkiegészítő",
+        "hiány",
+        "bizonyíték"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -5421,9 +5420,9 @@
       "slug": "adhdninja",
       "href": "/hu/influencers/adhdninja/",
       "tags": [
-        "social-media",
-        "lived-experience",
-        "entrepreneurship"
+        "közösségi-média",
+        "megélt-tapasztalat",
+        "vállalkozás"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -5453,8 +5452,8 @@
       "slug": "cinthya-dictator",
       "href": "/hu/influencers/cinthya-dictator/",
       "tags": [
-        "social-media",
-        "lived-experience"
+        "közösségi-média",
+        "megélt-tapasztalat"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -5484,8 +5483,8 @@
       "slug": "szikrabori",
       "href": "/hu/influencers/szikrabori/",
       "tags": [
-        "social-media",
-        "parent-perspective"
+        "közösségi-média",
+        "szülői-nézőpont"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -6626,9 +6625,9 @@
       "slug": "adhd-felbontasban",
       "href": "/hu/podcasts/adhd-felbontasban/",
       "tags": [
-        "entrepreneurship",
-        "workplace",
-        "lived-experience"
+        "vállalkozás",
+        "munkahely",
+        "megélt-tapasztalat"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -6657,9 +6656,9 @@
       "slug": "adhd-kalauz",
       "href": "/hu/podcasts/adhd-kalauz/",
       "tags": [
-        "interviews",
-        "adults",
-        "biweekly"
+        "interjú",
+        "felnőttek",
+        "kéthetente"
       ],
       "ratings": [
         {
@@ -6696,8 +6695,8 @@
       "slug": "kek-egyenloseg-epizod",
       "href": "/hu/podcasts/kek-egyenloseg-epizod/",
       "tags": [
-        "episode",
-        "own-voices"
+        "epizód",
+        "érintettek-hangja"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -6726,9 +6725,9 @@
       "slug": "kosz-jol-adhd-epizod",
       "href": "/hu/podcasts/kosz-jol-adhd-epizod/",
       "tags": [
-        "episode",
-        "expert-interview",
-        "health-journalism"
+        "epizód",
+        "szakértői-interjú",
+        "egészségügyi-újságírás"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -6757,9 +6756,9 @@
       "slug": "mozaik-podcast",
       "href": "/hu/podcasts/mozaik-podcast/",
       "tags": [
-        "parents",
-        "community",
-        "taboo-topics"
+        "szülők",
+        "közösség",
+        "tabutémák"
       ],
       "ratings": [
         {
@@ -6796,9 +6795,9 @@
       "slug": "neurodivergens",
       "href": "/hu/podcasts/neurodivergens/",
       "tags": [
-        "lived-experience",
-        "women",
-        "late-diagnosis"
+        "megélt-tapasztalat",
+        "nők",
+        "késői-diagnózis"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -6827,8 +6826,8 @@
       "slug": "partizan-adhd-epizod",
       "href": "/hu/podcasts/partizan-adhd-epizod/",
       "tags": [
-        "episode",
-        "expert-interview"
+        "epizód",
+        "szakértői-interjú"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -6857,9 +6856,9 @@
       "slug": "balazs-adhd-state-of-the-art-2022",
       "href": "/hu/research/balazs-adhd-state-of-the-art-2022/",
       "tags": [
-        "magyar kutatás",
+        "magyar-kutatás",
         "áttekintés",
-        "nyílt hozzáférés"
+        "nyílt-hozzáférés"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -6890,9 +6889,9 @@
       "href": "/hu/research/bitter-simon-magyar-felnott-adhd-2010/",
       "tags": [
         "epidemiológia",
-        "magyar populáció",
-        "magyar szerzők",
-        "felnőttkori ADHD"
+        "magyar-populáció",
+        "magyar-szerzők",
+        "felnőttkori-adhd"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -6924,7 +6923,7 @@
       "href": "/hu/research/cortese-adhd-gyogyszerek-2018/",
       "tags": [
         "metaanalízis",
-        "gyógyszeres kezelés",
+        "gyógyszeres-kezelés",
         "nemzetközi"
       ],
       "ratings": [],
@@ -6989,8 +6988,8 @@
       "slug": "hoogman-enigma-adhd-agy-2017",
       "href": "/hu/research/hoogman-enigma-adhd-agy-2017/",
       "tags": [
-        "neuroimaging",
-        "nagy minta",
+        "agyi-képalkotás",
+        "nagy-minta",
         "nemzetközi"
       ],
       "ratings": [],
@@ -7054,7 +7053,7 @@
       "slug": "lancet-autizmus-bizottsag-2022",
       "href": "/hu/research/lancet-autizmus-bizottsag-2022/",
       "tags": [
-        "bizottsági jelentés",
+        "bizottsági-jelentés",
         "ellátás",
         "nemzetközi"
       ],
@@ -7086,8 +7085,8 @@
       "slug": "lisdexamfetamin-adhd-vizsgalat",
       "href": "/hu/research/lisdexamfetamin-adhd-vizsgalat/",
       "tags": [
-        "klinikai vizsgálat",
-        "magyar helyszínek",
+        "klinikai-vizsgálat",
+        "magyar-helyszín",
         "gyógyszervizsgálat",
         "lezárult"
       ],
@@ -7120,8 +7119,8 @@
       "href": "/hu/research/modabbernia-autizmus-kornyezeti-tenyezok-2017/",
       "tags": [
         "áttekintés",
-        "kockázati tényezők",
-        "nyílt hozzáférés",
+        "kockázati-tényezők",
+        "nyílt-hozzáférés",
         "nemzetközi"
       ],
       "ratings": [],
@@ -7154,9 +7153,9 @@
       "slug": "semmelweis-autizmus-etkezes-vizsgalat",
       "href": "/hu/research/semmelweis-autizmus-etkezes-vizsgalat/",
       "tags": [
-        "klinikai vizsgálat",
-        "magyar helyszín",
-        "toborzás alatt",
+        "klinikai-vizsgálat",
+        "magyar-helyszín",
+        "toborzás-alatt",
         "étkezés",
         "szenzoros"
       ],
@@ -7189,8 +7188,8 @@
       "href": "/hu/research/simon-felnott-adhd-metaanalizis-2009/",
       "tags": [
         "metaanalízis",
-        "magyar szerzők",
-        "felnőttkori ADHD",
+        "magyar-szerzők",
+        "felnőttkori-adhd",
         "epidemiológia"
       ],
       "ratings": [],
@@ -7221,9 +7220,9 @@
       "slug": "svindt-ccc2-magyar-adaptacio-2025",
       "href": "/hu/research/svindt-ccc2-magyar-adaptacio-2025/",
       "tags": [
-        "magyar kutatás",
-        "diagnosztikai eszköz",
-        "nyílt hozzáférés"
+        "magyar-kutatás",
+        "diagnosztikai-eszköz",
+        "nyílt-hozzáférés"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -7353,9 +7352,9 @@
       "slug": "addetur-baptista-iskola",
       "href": "/hu/schools/addetur-baptista-iskola/",
       "tags": [
-        "foundation",
-        "integration",
-        "secondary"
+        "alapítvány",
+        "integráció",
+        "középiskola"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -7388,9 +7387,9 @@
       "slug": "arany-janos-egymi-szekesfehervar",
       "href": "/hu/schools/arany-janos-egymi-szekesfehervar/",
       "tags": [
-        "state",
+        "állami-finanszírozás",
         "egymi",
-        "regional"
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -7439,8 +7438,8 @@
       "slug": "autizmus-alapitvany-iskola",
       "href": "/hu/schools/autizmus-alapitvany-iskola/",
       "tags": [
-        "foundation",
-        "dedicated-autism"
+        "alapítvány",
+        "autizmus-specifikus"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -7473,9 +7472,9 @@
       "slug": "barczi-gusztav-egymi-szeged",
       "href": "/hu/schools/barczi-gusztav-egymi-szeged/",
       "tags": [
-        "state",
+        "állami-finanszírozás",
         "egymi",
-        "regional"
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -7525,9 +7524,9 @@
       "slug": "eltes-egymi-pecs",
       "href": "/hu/schools/eltes-egymi-pecs/",
       "tags": [
-        "state",
+        "állami-finanszírozás",
         "egymi",
-        "regional"
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -7569,8 +7568,8 @@
       "slug": "eltes-matyas-iskola",
       "href": "/hu/schools/eltes-matyas-iskola/",
       "tags": [
-        "state",
-        "small-groups"
+        "állami-finanszírozás",
+        "kiscsoportok"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -7602,7 +7601,7 @@
       "slug": "ferencvarosi-egymi-autista-tagozat",
       "href": "/hu/schools/ferencvarosi-egymi-autista-tagozat/",
       "tags": [
-        "state",
+        "állami-finanszírozás",
         "egymi"
       ],
       "ratings": [],
@@ -7635,8 +7634,8 @@
       "slug": "humanus-alapitvanyi-iskola",
       "href": "/hu/schools/humanus-alapitvanyi-iskola/",
       "tags": [
-        "foundation",
-        "integration"
+        "alapítvány",
+        "integráció"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -7669,9 +7668,9 @@
       "slug": "kecskemeti-egymi-autizmus-centrum",
       "href": "/hu/schools/kecskemeti-egymi-autizmus-centrum/",
       "tags": [
-        "state",
+        "állami-finanszírozás",
         "egymi",
-        "regional"
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -7703,8 +7702,8 @@
       "slug": "kinizsi-pal-iskola-debrecen",
       "href": "/hu/schools/kinizsi-pal-iskola-debrecen/",
       "tags": [
-        "state",
-        "regional"
+        "állami-finanszírozás",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -7748,8 +7747,8 @@
       "slug": "klebelsberg-kuno-iskola",
       "href": "/hu/schools/klebelsberg-kuno-iskola/",
       "tags": [
-        "state",
-        "integration"
+        "állami-finanszírozás",
+        "integráció"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -7782,9 +7781,9 @@
       "slug": "liget-uti-egymi-szolnok",
       "href": "/hu/schools/liget-uti-egymi-szolnok/",
       "tags": [
-        "state",
+        "állami-finanszírozás",
         "egymi",
-        "regional"
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -7833,9 +7832,9 @@
       "slug": "miskolci-eltes-egymi",
       "href": "/hu/schools/miskolci-eltes-egymi/",
       "tags": [
-        "state",
+        "állami-finanszírozás",
         "egymi",
-        "regional"
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -7897,8 +7896,8 @@
       "slug": "nyiregyhazi-barczi-egymi",
       "href": "/hu/schools/nyiregyhazi-barczi-egymi/",
       "tags": [
-        "state",
-        "regional"
+        "állami-finanszírozás",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -7940,9 +7939,9 @@
       "slug": "pitypang-tagovoda",
       "href": "/hu/schools/pitypang-tagovoda/",
       "tags": [
-        "state",
-        "integration",
-        "kindergarten"
+        "állami-finanszírozás",
+        "integráció",
+        "óvoda"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -7974,7 +7973,7 @@
       "slug": "prizma-egymi",
       "href": "/hu/schools/prizma-egymi/",
       "tags": [
-        "state",
+        "állami-finanszírozás",
         "egymi"
       ],
       "ratings": [],
@@ -8024,7 +8023,7 @@
       "slug": "sikeretek-autista-iskola-bp",
       "href": "/hu/schools/sikeretek-autista-iskola-bp/",
       "tags": [
-        "state",
+        "állami-finanszírozás",
         "egymi"
       ],
       "ratings": [],
@@ -8058,7 +8057,7 @@
       "slug": "sofi-ovoda-bp18",
       "href": "/hu/schools/sofi-ovoda-bp18/",
       "tags": [
-        "state",
+        "állami-finanszírozás",
         "egymi"
       ],
       "ratings": [],
@@ -8099,8 +8098,8 @@
       "slug": "turbotanoda",
       "href": "/hu/schools/turbotanoda/",
       "tags": [
-        "private",
-        "therapy"
+        "magánfinanszírozás",
+        "terápia"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -8135,8 +8134,8 @@
       "slug": "vadaskert-iskola",
       "href": "/hu/schools/vadaskert-iskola/",
       "tags": [
-        "foundation",
-        "small-groups"
+        "alapítvány",
+        "kiscsoportok"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -8169,8 +8168,8 @@
       "slug": "vargahegyi-autista-iskola",
       "href": "/hu/schools/vargahegyi-autista-iskola/",
       "tags": [
-        "foundation",
-        "regional"
+        "alapítvány",
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -8202,9 +8201,9 @@
       "slug": "veresegyhazi-egymi",
       "href": "/hu/schools/veresegyhazi-egymi/",
       "tags": [
-        "state",
+        "állami-finanszírozás",
         "egymi",
-        "regional"
+        "regionális"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -8254,7 +8253,7 @@
       "slug": "zugloi-benedek-elek-egymi",
       "href": "/hu/schools/zugloi-benedek-elek-egymi/",
       "tags": [
-        "state",
+        "állami-finanszírozás",
         "egymi"
       ],
       "ratings": [],
@@ -8297,9 +8296,9 @@
       "slug": "10-dolog-autista-gyermek-epizod",
       "href": "/hu/videos/10-dolog-autista-gyermek-epizod/",
       "tags": [
-        "episode",
-        "teachers",
-        "practical"
+        "epizód",
+        "pedagógusok",
+        "gyakorlati"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -8329,9 +8328,9 @@
       "slug": "adhd-autizmus-csomor-eloadas-epizod",
       "href": "/hu/videos/adhd-autizmus-csomor-eloadas-epizod/",
       "tags": [
-        "episode",
-        "lecture",
-        "local-tv"
+        "epizód",
+        "előadás",
+        "helyi-tv"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -8362,9 +8361,9 @@
       "slug": "adhd-autizmus-summit",
       "href": "/hu/videos/adhd-autizmus-summit/",
       "tags": [
-        "conference",
-        "free",
-        "multiple-speakers"
+        "konferencia",
+        "ingyenes",
+        "több-előadó"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -8392,9 +8391,9 @@
       "slug": "adhd-s-felnott-nehezsegei-epizod",
       "href": "/hu/videos/adhd-s-felnott-nehezsegei-epizod/",
       "tags": [
-        "episode",
+        "epizód",
         "coaching",
-        "family-support"
+        "családtámogatás"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -8424,9 +8423,9 @@
       "slug": "adhd-terapia",
       "href": "/hu/videos/adhd-terapia/",
       "tags": [
-        "clinical",
-        "medication",
-        "children"
+        "klinikai",
+        "gyógyszer",
+        "gyerekek"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -8454,9 +8453,9 @@
       "slug": "adhd-vagyok-e-epizod",
       "href": "/hu/videos/adhd-vagyok-e-epizod/",
       "tags": [
-        "episode",
-        "official",
-        "health-authority"
+        "epizód",
+        "hivatalos",
+        "egészségügyi-hatóság"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -8486,9 +8485,9 @@
       "slug": "autista-gyerekek-kozoktatas-epizod",
       "href": "/hu/videos/autista-gyerekek-kozoktatas-epizod/",
       "tags": [
-        "episode",
-        "education",
-        "journalism"
+        "epizód",
+        "oktatás",
+        "újságírás"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -8518,9 +8517,9 @@
       "slug": "autistavagyok",
       "href": "/hu/videos/autistavagyok/",
       "tags": [
-        "advocacy",
-        "own-voices",
-        "since-2014"
+        "érdekvédelem",
+        "érintettek-hangja",
+        "2014-óta"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -8549,9 +8548,9 @@
       "slug": "az-adhd-epizod",
       "href": "/hu/videos/az-adhd-epizod/",
       "tags": [
-        "episode",
-        "short-film",
-        "foundation"
+        "epizód",
+        "rövidfilm",
+        "alapítvány"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -8581,8 +8580,8 @@
       "slug": "az-autizmusrol-epizod",
       "href": "/hu/videos/az-autizmusrol-epizod/",
       "tags": [
-        "episode",
-        "educational"
+        "epizód",
+        "oktatás"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -8612,8 +8611,8 @@
       "slug": "csak-ha-erdekel-adhd-autizmus-epizod",
       "href": "/hu/videos/csak-ha-erdekel-adhd-autizmus-epizod/",
       "tags": [
-        "episode",
-        "interview"
+        "epizód",
+        "interjú"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -8644,9 +8643,9 @@
       "slug": "egeszsegunkre-adhd-epizod",
       "href": "/hu/videos/egeszsegunkre-adhd-epizod/",
       "tags": [
-        "episode",
-        "tv-show",
-        "health-journalism"
+        "epizód",
+        "tv-műsor",
+        "egészségügyi-újságírás"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -8676,9 +8675,9 @@
       "slug": "egyutt-az-autistakert",
       "href": "/hu/videos/egyutt-az-autistakert/",
       "tags": [
-        "foundation",
-        "series",
-        "awareness"
+        "alapítvány",
+        "sorozat",
+        "tudatosság"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -8706,9 +8705,9 @@
       "slug": "hiperaktiv-gyerekek-riportfilm-epizod",
       "href": "/hu/videos/hiperaktiv-gyerekek-riportfilm-epizod/",
       "tags": [
-        "episode",
-        "tv-report",
-        "archive"
+        "epizód",
+        "tv-riport",
+        "archívum"
       ],
       "ratings": [],
       "availability": "in-stock",
@@ -8738,8 +8737,8 @@
       "slug": "mozaik-egyesulet-yt",
       "href": "/hu/videos/mozaik-egyesulet-yt/",
       "tags": [
-        "community",
-        "organization"
+        "közösség",
+        "szervezet"
       ],
       "ratings": [],
       "availability": "in-stock",

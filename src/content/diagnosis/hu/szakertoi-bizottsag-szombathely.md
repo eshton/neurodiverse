@@ -13,7 +13,7 @@ lat: 47.241343
 lng: 16.617462
 contact: "06/20-283-2778, szakszolgalat.vas.tkvszrb@gmail.com"
 sourceUrl: "https://mszb-vmpsz.webnode.hu/elerhetosegek/"
-tags: [state-funded, expert-committee, sni, no-referral, regional]
+tags: [állami-finanszírozás, szakértői-bizottság, sni, beutaló-nélkül, regionális]
 lastReviewed: "2026-07-06"
 lastEdited: 2026-07-06
 ---

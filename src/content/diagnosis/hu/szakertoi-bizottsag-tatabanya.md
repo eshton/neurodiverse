@@ -13,7 +13,7 @@ lat: 47.581989
 lng: 18.398052
 contact: "+36 34 517-287, varmegyei.szakertoi.bizottsag@kempsz.edu.hu"
 sourceUrl: "https://kempsz.edu.hu/szakertoi-bizottsag-megyei-pedagogiai-szakszolgalat/"
-tags: [state-funded, expert-committee, sni, no-referral, regional]
+tags: [állami-finanszírozás, szakértői-bizottság, sni, beutaló-nélkül, regionális]
 lastReviewed: "2026-07-06"
 lastEdited: 2026-07-06
 ---

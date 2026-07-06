@@ -3,7 +3,7 @@ title: "Nyíregyházi Bárczi Gusztáv Általános Iskola és Kollégium"
 locale: hu
 topics: [autism]
 summary: "1991 óta fogad autista, iskolaköteles gyerekeket Nyíregyházáról és a vonzáskörzetéből, önálló speciális csoportokban."
-tags: [state, regional]
+tags: [állami-finanszírozás, regionális]
 providerType: special-needs-school
 funding: state
 ageGroup: children

@@ -13,7 +13,7 @@ lat: 47.686782
 lng: 17.620264
 contact: "+36 96 415-926"
 sourceUrl: "https://gymsm-pedszakszolg.edu.hu/szekhelyintezmeny/"
-tags: [state-funded, pedagogiai-szakszolgalat, korai-fejlesztes, no-referral, regional]
+tags: [állami-finanszírozás, pedagógiai-szakszolgálat, korai-fejlesztés, beutaló-nélkül, regionális]
 lastReviewed: 2026-07-06
 lastEdited: 2026-07-06
 ---

@@ -3,7 +3,7 @@ title: "PTE Gyermekklinika — Gyermekpszichiátriai szakambulancia"
 locale: hu
 topics: [adhd, autism]
 summary: "Pécsi egyetemi gyermekklinika pszichiátriai szakambulanciája, autizmussal, ADHD-val és más gyermekpszichiátriai problémákkal küzdő 0-18 éveseknek."
-tags: [state-funded, children, university-clinic, regional]
+tags: [állami-finanszírozás, gyerekek, egyetemi-klinika, regionális]
 providerType: hospital
 funding: state
 ageGroup: children

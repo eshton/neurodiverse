@@ -3,7 +3,7 @@ title: "Kecskeméti EGYMI Autizmus Centrum"
 locale: hu
 topics: [autism]
 summary: "Bács-Kiskun megyei gyógypedagógiai intézmény autizmus centruma, 3 intézményegységben, 3-24 éves korig, több mint száz autista fejlesztésével."
-tags: [state, egymi, regional]
+tags: [állami-finanszírozás, egymi, regionális]
 providerType: special-needs-school
 funding: state
 ageGroup: children

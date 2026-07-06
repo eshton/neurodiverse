@@ -13,7 +13,7 @@ lat: 47.911945
 lng: 20.376793
 contact: "+36 36 312-929"
 sourceUrl: "https://palyavalasztas.hmpedszakszolgalat.hu/elerhetosegek/"
-tags: [state-funded, expert-committee, sni, no-referral, regional]
+tags: [állami-finanszírozás, szakértői-bizottság, sni, beutaló-nélkül, regionális]
 lastReviewed: "2026-07-06"
 lastEdited: 2026-07-06
 ---

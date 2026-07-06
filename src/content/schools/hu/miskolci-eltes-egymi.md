@@ -3,7 +3,7 @@ title: "Miskolci Éltes Mátyás EGYMI"
 locale: hu
 topics: [autism]
 summary: "Miskolci gyógypedagógiai intézmény autizmus-specifikus ellátással, óvodai és iskolai szinten."
-tags: [state, egymi, regional]
+tags: [állami-finanszírozás, egymi, regionális]
 providerType: special-needs-school
 funding: state
 ageGroup: children

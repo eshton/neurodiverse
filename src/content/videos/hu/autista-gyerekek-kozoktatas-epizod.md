@@ -3,7 +3,7 @@ title: "Autista gyerekek a közoktatás útvesztőiben — „Elméletileg megol
 locale: hu
 topics: [autism]
 summary: "Egyetlen riport a DW Magyar csatornától a magyar közoktatásban tanuló, mintegy 11 ezer autista gyerek helyzetéről és az integráció nehézségeiről."
-tags: [episode, education, journalism]
+tags: [epizód, oktatás, újságírás]
 creator: "DW Magyar"
 platform: "YouTube"
 viewCount: 35333

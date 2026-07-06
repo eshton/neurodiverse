@@ -3,7 +3,7 @@ title: "Vargahegyi Autista Alapfokú Fejlesztő Iskola"
 locale: hu
 topics: [autism]
 summary: "A Miskolci Autista Alapítvány saját iskolája, olyan autista fiataloknak, akik a hagyományos iskolarendszerben nem tudnak boldogulni."
-tags: [foundation, regional]
+tags: [alapítvány, regionális]
 providerType: special-needs-school
 funding: mixed
 ageGroup: children

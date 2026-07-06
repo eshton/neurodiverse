@@ -3,7 +3,7 @@ title: "Ceruzafogó, 2+1 ujjas"
 locale: hu
 topics: [adhd, autism]
 summary: "Szilikon ceruzafogó, helyes íróeszköz-tartás elsajátításához — finommotoros/írástanulási nehézségeknél hasznos, olcsó belépő eszköz."
-tags: [fine-motor, writing]
+tags: [finommotorika, írás]
 ageGroup: children
 priceRange: "690 HUF"
 retailerUrls:

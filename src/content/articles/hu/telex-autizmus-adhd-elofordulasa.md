@@ -3,7 +3,7 @@ title: "Tízszer magasabb az ADHD előfordulása a felnőtt autisták körében 
 locale: hu
 topics: [autism, adhd]
 summary: "Telex-cikk egy kutatásról, amely szerint felnőtt autistáknál tízszer gyakoribb az ADHD, mint az átlagpopulációban — pedig sokáig azt hitték, a figyelemzavar a korral csökken. Az AuDHD (a kettő együttes előfordulása) sokkal gyakoribb, mint gondolnánk."
-tags: [tudomany, komorbiditas, audhd, felnott]
+tags: [tudomány, komorbiditás, audhd, felnőttek]
 publication: "Telex"
 publishedDate: "2025-02-12"
 sourceUrl: "https://telex.hu/techtud/2025/02/12/autizmus-adhd-elofordulasa-magasabb"

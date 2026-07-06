@@ -3,7 +3,7 @@ title: "Autizmus Alapítvány Általános Iskolája"
 locale: hu
 topics: [autism]
 summary: "1989 óta működő gyógypedagógiai általános iskola, kifejezetten autizmus spektrumzavarral élő tanulók számára fejlesztett módszertannal és tantervvel."
-tags: [foundation, dedicated-autism]
+tags: [alapítvány, autizmus-specifikus]
 providerType: special-needs-school
 funding: mixed
 ageGroup: children

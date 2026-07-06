@@ -3,7 +3,7 @@ title: "Fact-check: Tényleg autizmust okoz a paracetamol, ahogy Donald Trump á
 locale: hu
 topics: [autism]
 summary: "Telex-tényellenőrzés: Donald Trump bejelentette, hogy a terhesség alatt szedett paracetamol autizmust okoz, és a vakcina-autizmus kapcsolatot is meglebegtette. A cikk megnézi, mit mond erről valójában a tudomány — hasznos ellenszer a témát övező tévhitekkel szemben."
-tags: [tenyellenorzes, tevhitek, tudomany, terhesseg, vakcina]
+tags: [tényellenőrzés, tévhitek, tudomány, terhesség, vakcina]
 publication: "Telex"
 publishedDate: "2025-09-23"
 sourceUrl: "https://telex.hu/ellenorzo/2025/09/23/paracetamol-acetaminofen-autizmus-fajdalomcsillapito-tylenol-donald-trump-robert-f-kennedy-jr"

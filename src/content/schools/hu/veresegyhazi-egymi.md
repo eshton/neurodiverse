@@ -3,7 +3,7 @@ title: "Veresegyházi EGYMI (Auti Ház)"
 locale: hu
 topics: [autism]
 summary: "Pest megyei gyógypedagógiai intézmény autizmus-specifikus programja ('Auti Ház'), óvodai és iskolai szinten."
-tags: [state, egymi, regional]
+tags: [állami-finanszírozás, egymi, regionális]
 providerType: special-needs-school
 funding: state
 ageGroup: children

@@ -3,7 +3,7 @@ title: "Debreceni Klinikai Központ — Autizmus Ambulancia"
 locale: hu
 topics: [autism]
 summary: "Gyermekpszichiátriai osztály autizmus ambulanciája Debrecenben, beutaló nélkül, előjegyzés alapján."
-tags: [state-funded, children, regional, no-referral]
+tags: [állami-finanszírozás, gyerekek, regionális, beutaló-nélkül]
 providerType: hospital
 funding: state
 referralRequired: false

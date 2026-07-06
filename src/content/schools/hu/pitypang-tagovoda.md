@@ -3,7 +3,7 @@ title: "Pitypang Tagóvoda"
 locale: hu
 topics: [autism]
 summary: "Befogadó óvoda a XIII. kerületben, amely ép intellektusú, autizmus spektrumzavarral élő gyerekeket integrál tipikusan fejlődő társaik közé."
-tags: [state, integration, kindergarten]
+tags: [állami-finanszírozás, integráció, óvoda]
 providerType: kindergarten
 funding: state
 ageGroup: children

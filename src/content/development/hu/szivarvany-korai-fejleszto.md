@@ -3,7 +3,7 @@ title: "Szivárvány Korai Fejlesztő Központ és Konduktív Tanácsadó Háló
 locale: hu
 topics: [adhd, autism]
 summary: "Debreceni korai fejlesztő központ — gyógypedagógiai tanácsadás, korai fejlesztés és terápiák, a SOFT Alapítvány fenntartásában."
-tags: [foundation, early-intervention, regional]
+tags: [alapítvány, korai-fejlesztés, regionális]
 providerType: center
 funding: mixed
 ageGroup: children

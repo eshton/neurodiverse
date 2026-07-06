@@ -11,7 +11,7 @@ language: en
 doi: "10.1186/s13229-017-0121-4"
 openAccess: true
 ageGroup: both
-tags: [áttekintés, kockázati tényezők, nyílt hozzáférés, nemzetközi]
+tags: [áttekintés, kockázati-tényezők, nyílt-hozzáférés, nemzetközi]
 sourceUrl: "https://doi.org/10.1186/s13229-017-0121-4"
 coverImage: "/covers/modabbernia-autizmus-kornyezeti-tenyezok-2017.png"
 ratings: []

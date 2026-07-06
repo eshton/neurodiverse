@@ -3,7 +3,7 @@ title: "Hát ezért ugrálok"
 locale: hu
 topics: [autism]
 summary: "Naoki Higashida 13 évesen írt önéletrajzi könyve, belső nézőpontot ad az autizmusról egy súlyosan autista, nonverbális szerző szemével."
-tags: [memoir, nonverbal, own-voices, out-of-print]
+tags: [memoár, nonverbális, érintettek-hangja, elfogyott]
 author: "Naoki Higashida"
 isbn: "9789633550694"
 availability: unavailable

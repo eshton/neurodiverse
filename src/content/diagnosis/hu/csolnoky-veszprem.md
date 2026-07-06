@@ -3,7 +3,7 @@ title: "Csolnoky Ferenc Kórház — Gyermek- és Ifjúsági Pszichiátriai Szak
 locale: hu
 topics: [adhd, autism]
 summary: "Veszprémi megyei kórház gyermek- és ifjúságpszichiátriai szakrendelése, autizmus és ADHD diagnosztikával gyermekeknek és serdülőknek."
-tags: [state-funded, children, regional]
+tags: [állami-finanszírozás, gyerekek, regionális]
 providerType: hospital
 funding: state
 referralRequired: false

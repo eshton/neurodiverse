@@ -3,7 +3,7 @@ title: "Túlélőkönyv ADHD-s gyerekeknek"
 locale: hu
 topics: [adhd]
 summary: "John F. Taylor közvetlenül a gyerekekhez szóló könyve, gyakorlati tanácsokkal a figyelemzavar, impulzivitás és a kapcsolati nehézségek kezeléséhez."
-tags: [children, practical]
+tags: [gyerekek, gyakorlati]
 author: "John F. Taylor"
 sourceUrl: "https://webshop.vadaskert.hu/termek/tulelokonyv-adhd-s-gyerekeknek/"
 coverImage: "/covers/tulelokonyv-adhd-s-gyerekeknek.jpg"

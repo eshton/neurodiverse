@@ -3,7 +3,7 @@ title: "Mályvakék Mentálhigiéniai Központ — ADHD és Autizmus Központ"
 locale: hu
 topics: [adhd, autism]
 summary: "Egyéni és kiscsoportos fejlesztés, terápiás támogatás ADHD-val vagy autizmussal élő gyerekeknek, pszichológusok és gyógypedagógusok vezetésével, szülőkonzultációval."
-tags: [psychology, parent-support]
+tags: [pszichológia, szülőtámogatás]
 providerType: center
 ageGroup: children
 city: "Budapest"

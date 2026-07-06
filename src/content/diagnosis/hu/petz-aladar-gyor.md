@@ -3,7 +3,7 @@ title: "Petz Aladár Egyetemi Oktató Kórház — Gyermek és Ifjúságpszichi�
 locale: hu
 topics: [adhd, autism]
 summary: "Győri megyei oktatókórház gyermek- és ifjúságpszichiátriai szakrendelése, 2-18 éves korig, multidiszciplináris team (pszichiáter, pszichológus, gyógypedagógus) diagnosztikájával."
-tags: [state-funded, children, regional]
+tags: [állami-finanszírozás, gyerekek, regionális]
 providerType: hospital
 funding: state
 referralRequired: true

@@ -3,7 +3,7 @@ title: "Autizmus és az evészavarok — gyakorlati útmutató"
 locale: hu
 topics: [autism]
 summary: "A Korai Fejlesztő Központ útmutatója az autizmussal élő gyerekek étkezési nehézségeiről: a válogatósság okai, a szenzoros érzékenység szerepe, és a fokozatos, nyomásmentes szoktatás lépései."
-tags: [valogatos-eves, szenzoros, utmutato, gyerek]
+tags: [válogatós-evés, szenzoros, útmutató, gyerekek]
 kind: guide
 dietaryTags: []
 sourceUrl: "https://www.koraifejleszto.hu/autizmus-es-az-eveszavarok/"

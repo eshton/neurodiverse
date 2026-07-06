@@ -10,7 +10,7 @@ publicationType: review
 language: en
 doi: "10.1016/S0140-6736(21)01541-5"
 ageGroup: both
-tags: [bizottsági jelentés, ellátás, nemzetközi]
+tags: [bizottsági-jelentés, ellátás, nemzetközi]
 sourceUrl: "https://doi.org/10.1016/S0140-6736(21)01541-5"
 ratings: []
 lastReviewed: 2026-07-05

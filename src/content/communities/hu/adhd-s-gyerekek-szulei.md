@@ -3,7 +3,7 @@ title: "ADHD-s gyerekek szülei (Facebook)"
 locale: hu
 topics: [adhd]
 summary: "Facebook csoport ADHD-s gyermeket nevelő szülőknek: kötetlen beszélgetés, nevelési trükkök és tippek megosztása, tapasztalatcsere hasonló helyzetben lévő családokkal."
-tags: [facebook-group, parents, children, online]
+tags: [facebook-csoport, szülők, gyerekek, online]
 providerType: online-group
 ageGroup: children
 sourceUrl: "https://www.facebook.com/groups/454418104715543/"

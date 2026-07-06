@@ -3,7 +3,7 @@ title: "MRE Bethesda Gyermekkórház — ADHD Ambulancia"
 locale: hu
 topics: [adhd]
 summary: "Egyházi (reformátusok fenntartotta) gyermekkórház ADHD ambulanciája, elsősorban Budapest X. és XVI. kerületéből és néhány agglomerációs településről érkező gyerekeknek."
-tags: [faith-based, children, catchment-area]
+tags: [vallási, gyerekek, ellátási-körzet]
 providerType: hospital
 funding: state
 ageGroup: children

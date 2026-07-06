@@ -3,7 +3,7 @@ title: "Arany János EGYMI (Székesfehérvár)"
 locale: hu
 topics: [autism]
 summary: "Fejér megyei gyógypedagógiai intézmény óvodától szakiskoláig, 8 autizmus-specifikus csoporttal, átlagosan 6-7 fős létszámmal."
-tags: [state, egymi, regional]
+tags: [állami-finanszírozás, egymi, regionális]
 providerType: special-needs-school
 funding: state
 ageGroup: children

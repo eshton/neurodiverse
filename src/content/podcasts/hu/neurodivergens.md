@@ -3,7 +3,7 @@ title: "NeuroDivergens"
 locale: hu
 topics: [adhd, autism]
 summary: "Balogh Orsolya, felnőttkorban diagnosztizált ADHD-val élő nő podcastja az ADHD-ról, autizmusról és a társuló zavarokról, saját tapasztalatai alapján."
-tags: [lived-experience, women, late-diagnosis]
+tags: [megélt-tapasztalat, nők, késői-diagnózis]
 creator: "Balogh Orsolya"
 platform: "Spotify"
 coverImage: "/covers/neurodivergens.jpg"

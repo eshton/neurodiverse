@@ -3,7 +3,7 @@ title: "Velkey László Gyermekegészségügyi Központ — Gyermekpszichiátria
 locale: hu
 topics: [adhd, autism]
 summary: "Magyarország második legnagyobb gyermekkórházának gyermekpszichiátriai szakrendelése — szűrő jellegű vizsgálat, szükség esetén továbbirányítással."
-tags: [state-funded, children, regional]
+tags: [állami-finanszírozás, gyerekek, regionális]
 providerType: hospital
 funding: state
 ageGroup: children

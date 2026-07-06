@@ -13,7 +13,7 @@ lat: 47.092764
 lng: 17.910308
 contact: "06 88/429-611, mpi@mpisz.hu"
 sourceUrl: "https://mpisz.hu/kapcsolat/"
-tags: [state-funded, pedagogiai-szakszolgalat, korai-fejlesztes, no-referral, regional]
+tags: [állami-finanszírozás, pedagógiai-szakszolgálat, korai-fejlesztés, beutaló-nélkül, regionális]
 lastReviewed: 2026-07-06
 lastEdited: 2026-07-06
 ---

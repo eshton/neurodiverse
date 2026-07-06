@@ -3,7 +3,7 @@ title: "Asperger.hu — az autizmusspektrum találkahelye"
 locale: hu
 topics: [autism]
 summary: "Az egyik legrégebb óta működő magyar felnőtt autista online közösség és fórum; nyílt szekciója regisztráció nélkül is olvasható, a moderáció kifejezetten befogadó, az „aspie szupremácia” nézeteket elutasítja."
-tags: [online-forum, adults, asperger, peer-support]
+tags: [online-fórum, felnőttek, asperger, sorstárs-támogatás]
 providerType: online-group
 ageGroup: adults
 sourceUrl: "https://asperger.hu/"

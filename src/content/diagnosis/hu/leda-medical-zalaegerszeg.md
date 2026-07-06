@@ -3,7 +3,7 @@ title: "Léda Medical Center — Pszichiátria Szakrendelés"
 locale: hu
 topics: [adhd]
 summary: "Zalaegerszegi magánklinika pszichiátriai szakrendelése, dr. med. habil. Alotti Nasri pszichiáter szakorvossal, hangulatzavarok, szorongás és ADHD kezelésével felnőtteknek."
-tags: [private, adults, regional]
+tags: [magánfinanszírozás, felnőttek, regionális]
 providerType: clinic
 funding: private
 ageGroup: adults

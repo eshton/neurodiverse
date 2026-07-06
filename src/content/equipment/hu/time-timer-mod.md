@@ -3,7 +3,7 @@ title: "Time Timer MOD vizuális időmérő"
 locale: hu
 topics: [adhd, autism]
 summary: "Vizuális időmérő — eltűnő piros korong mutatja az idő múlását szavak/számok helyett, átmenetek és feladatidőzítés megkönnyítésére."
-tags: [time-management, visual-support]
+tags: [időgazdálkodás, vizuális-támogatás]
 ageGroup: both
 priceRange: "18,790 HUF"
 retailerUrls:

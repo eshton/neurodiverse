@@ -13,7 +13,7 @@ lat: 46.349749
 lng: 18.703595
 contact: "74/510-645, szekszard.szakertoi@gmail.com"
 sourceUrl: "https://tmpsz.hu/elerhetosegek"
-tags: [state-funded, expert-committee, sni, no-referral, regional]
+tags: [állami-finanszírozás, szakértői-bizottság, sni, beutaló-nélkül, regionális]
 lastReviewed: "2026-07-06"
 lastEdited: 2026-07-06
 ---

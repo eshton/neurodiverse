@@ -3,7 +3,7 @@ title: "Autisták Országos Szövetsége (AOSZ)"
 locale: hu
 topics: [autism]
 summary: "Az autizmussal élő emberek és családjaik országos ernyőszervezete 1988 óta; mintegy 100 tagszervezetet fog össze, információs központot (Infocentrum) és érdekvédelmi szolgáltatásokat működtet."
-tags: [national-federation, advocacy, budapest, all-ages]
+tags: [országos-szövetség, érdekvédelem, budapest, minden-korosztály]
 providerType: institution
 ageGroup: both
 city: "Budapest"

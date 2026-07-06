@@ -3,7 +3,7 @@ title: "ADHD, hiperaktivitás, autizmus? — dr. Stephens-Sarlós Erzsébet egye
 locale: hu
 topics: [adhd, autism]
 summary: "Egyetlen közvetített előadás a Csömör TV csatornáról: dr. Stephens-Sarlós Erzsébet a csecsemőkori reflexek és az ADHD/autizmus tünetek összefüggéseiről."
-tags: [episode, lecture, local-tv]
+tags: [epizód, előadás, helyi-tv]
 creator: "dr. Stephens-Sarlós Erzsébet (Csömör TV)"
 platform: "YouTube"
 viewCount: 18420

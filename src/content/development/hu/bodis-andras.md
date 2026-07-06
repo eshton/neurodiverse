@@ -3,7 +3,7 @@ title: "Bódis András — klinikai szakpszichológus, ADHD specialista"
 locale: hu
 topics: [adhd]
 summary: "Felnőttkori ADHD-ra specializálódott klinikai szakpszichológus a WellWay Clinics-en, terápiás gondozással a diagnózis után."
-tags: [private, psychologist]
+tags: [magánfinanszírozás, pszichológus]
 providerType: psychologist
 funding: private
 ageGroup: adults

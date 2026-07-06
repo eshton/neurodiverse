@@ -13,7 +13,7 @@ lat: 46.245179
 lng: 20.149531
 contact: "+36 62 342-045"
 sourceUrl: "https://u-szeged.hu/szakk/pedia/betegellatas/gyermek-es-ijfusag-pszichologia"
-tags: [state-funded, children, regional]
+tags: [állami-finanszírozás, gyerekek, regionális]
 lastReviewed: "2026-07-06"
 lastEdited: 2026-07-06
 ---

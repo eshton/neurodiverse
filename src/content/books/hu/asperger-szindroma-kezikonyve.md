@@ -3,7 +3,7 @@ title: "Az Asperger-szindróma kézikönyve — Szülőknek, pedagógusoknak, sz
 locale: hu
 topics: [autism]
 summary: "Tony Attwood évtizedes klinikai tapasztalatára épülő, közérthető alapműve az Asperger-szindrómáról érintetteknek, hozzátartozóknak és szakembereknek."
-tags: [asperger, clinical, foundational]
+tags: [asperger, klinikai, alapmű]
 author: "Tony Attwood"
 isbn: "9789633243398"
 sourceUrl: "https://www.libri.hu/konyv/tony_attwood.az-asperger-szindroma-kezikonyve.html"

@@ -3,7 +3,7 @@ title: "Kösz, jól — „Az igazi multitasking extrém ritka”: ADHD-ról és
 locale: hu
 topics: [adhd]
 summary: "Egyetlen epizód a HVG Kösz, jól egészségügyi podcastjából: Pulay Attila pszichiáter (Semmelweis Egyetem) arról, mi valójában az ADHD és mi csak TikTok-önlabelezés."
-tags: [episode, expert-interview, health-journalism]
+tags: [epizód, szakértői-interjú, egészségügyi-újságírás]
 creator: "HVG Kösz, jól (vendég: Pulay Attila)"
 platform: "HVG podcast"
 entryType: episode

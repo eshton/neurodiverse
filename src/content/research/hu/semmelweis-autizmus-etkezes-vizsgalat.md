@@ -10,7 +10,7 @@ publicationType: clinical-trial
 language: en
 doi: "NCT07188870"
 ageGroup: both
-tags: [klinikai vizsgálat, magyar helyszín, toborzás alatt, étkezés, szenzoros]
+tags: [klinikai-vizsgálat, magyar-helyszín, toborzás-alatt, étkezés, szenzoros]
 sourceUrl: "https://clinicaltrials.gov/study/NCT07188870"
 ratings: []
 lastReviewed: 2026-07-05

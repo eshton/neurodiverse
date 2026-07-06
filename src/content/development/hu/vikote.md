@@ -3,7 +3,7 @@ title: "VIKOTE — Kognitív és Sématerápiás Központ, ADHD csoportok"
 locale: hu
 topics: [adhd]
 summary: "ADHD Készségfejlesztő Csoport (18-65 év) és ADHD Sématerápiás Csoport (26 alkalmas, 52 óra) diagnosztizált felnőtteknek."
-tags: [group-therapy, schema-therapy]
+tags: [csoportterápia, sématerápia]
 providerType: center
 ageGroup: adults
 city: "Budapest"

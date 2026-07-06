@@ -3,7 +3,7 @@ title: "Gluténmentes/kazeinmentes diéta autizmusnál — csak szakemberrel"
 locale: hu
 topics: [autism]
 summary: "Mit mond és mit nem mond a tudomány a GFCF (glutén- és kazeinmentes) diétáról. A rendszerezett vizsgálatok gyenge bizonyítékot mutatnak, egyes családok mégis javulást tapasztalnak — dietetikus felügyelet nélkül ne kezdj bele."
-tags: [dieta, gluten, kazein, bizonyitek, dietetikus]
+tags: [diéta, glutén, kazein, bizonyíték, dietetikus]
 kind: guide
 dietaryTags: [gluten-free, casein-free]
 sourceUrl: "https://aosz.hu/esoember/a-dietahoz-szakember-kell/"

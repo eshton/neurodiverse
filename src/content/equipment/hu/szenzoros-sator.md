@@ -3,7 +3,7 @@ title: "Szenzoros sátor, alap, nagy"
 locale: hu
 topics: [autism, adhd]
 summary: "Hordozható szenzoros búvóhely-sátor beépített LED-világítással és hangszóróval — visszahúzódásra, ingerlecsökkentésre, stresszoldásra, első 'tér/menedék' típusú tétel a kategóriában."
-tags: [sensory, retreat-space]
+tags: [szenzoros, nyugalmi-tér]
 ageGroup: both
 priceRange: "764,990 HUF"
 retailerUrls:

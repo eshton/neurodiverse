@@ -3,7 +3,7 @@ title: "ARK pörgettyű, repülő"
 locale: hu
 topics: [adhd, autism]
 summary: "Nem rágható, kézi fidget pörgettyű — nyugtalan kezek lekötésére, koncentráció fokozására; ceruzára is rögzíthető íráshoz."
-tags: [sensory, fidget]
+tags: [szenzoros, fidget]
 ageGroup: both
 priceRange: "7,290 HUF"
 retailerUrls:

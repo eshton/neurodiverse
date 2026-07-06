@@ -13,7 +13,7 @@ lat: 46.349749
 lng: 18.703595
 contact: "74/502-020, szakszoli@gmail.com"
 sourceUrl: "https://tmpsz.hu/elerhetosegek"
-tags: [state-funded, pedagogiai-szakszolgalat, korai-fejlesztes, no-referral, regional]
+tags: [állami-finanszírozás, pedagógiai-szakszolgálat, korai-fejlesztés, beutaló-nélkül, regionális]
 lastReviewed: 2026-07-06
 lastEdited: 2026-07-06
 ---

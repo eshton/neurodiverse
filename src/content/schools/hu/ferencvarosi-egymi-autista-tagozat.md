@@ -3,7 +3,7 @@ title: "Ferencvárosi EGYMI – Thaly Kálmán utcai Autista Tagozat"
 locale: hu
 topics: [autism]
 summary: "A Ferencvárosi Komplex Óvoda, Általános Iskola és EGYMI autizmus-specifikus tagozata, önálló telephelyen."
-tags: [state, egymi]
+tags: [állami-finanszírozás, egymi]
 providerType: special-needs-school
 funding: state
 ageGroup: children

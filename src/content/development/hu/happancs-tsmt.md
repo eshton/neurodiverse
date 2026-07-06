@@ -3,7 +3,7 @@ title: "Happancs TSMT — Orbán-Happ Adrienn mozgás- és képességfejlesztő 
 locale: hu
 topics: [adhd, autism]
 summary: "TSMT (Tervezett Szenzomotoros Tréning) egyéni és csoportos mozgásterápia győri stúdiója, idegrendszer-érést és mozgáskoordinációt fejlesztő programmal."
-tags: [tsmt, movement-therapy, regional]
+tags: [tsmt, mozgásterápia, regionális]
 providerType: therapist
 ageGroup: children
 city: "Győr"

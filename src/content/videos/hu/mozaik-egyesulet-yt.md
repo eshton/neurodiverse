@@ -3,7 +3,7 @@ title: "MOZAIK Egyesület, Autizmus (YouTube-csatorna)"
 locale: hu
 topics: [autism]
 summary: "A Mozaik Közhasznú Egyesület az Autizmussal Élő Emberekért hivatalos YouTube-csatornája — előadások, podcast-epizódok videó formában, közösségi tartalmak."
-tags: [community, organization]
+tags: [közösség, szervezet]
 creator: "Mozaik Egyesület"
 platform: "YouTube"
 subscriberCount: 396

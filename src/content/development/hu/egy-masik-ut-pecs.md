@@ -3,7 +3,7 @@ title: "Egy Másik Út Alapítvány — Pécsi Központ"
 locale: hu
 topics: [autism]
 summary: "Autizmus spektrumzavarban érintett gyerekek és családjaik ellátása Pécsen és környékén — egyéni terápia, szülőkonzultáció, kiscsoportos szociális-kommunikációs készségfejlesztés 7-10 éveseknek."
-tags: [regional, parent-consultation]
+tags: [regionális, szülőkonzultáció]
 providerType: center
 ageGroup: children
 city: "Pécs"

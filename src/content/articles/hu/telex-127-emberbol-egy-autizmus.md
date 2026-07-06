@@ -3,7 +3,7 @@ title: "Minden 127 emberből egyet érint az autizmus spektrumzavar"
 locale: hu
 topics: [autism]
 summary: "Telex-cikk egy nagy nemzetközi felmérésről, amely szerint globálisan nagyjából minden 127. embert érint az autizmus. A kutatók szerint a korai felismerést és a jobb diagnosztikai eszközöket kellene priorizálni, különösen felnőtteknél."
-tags: [tudomany, prevalencia, kutatas, globalis]
+tags: [tudomány, prevalencia, kutatás, globális]
 publication: "Telex"
 publishedDate: "2024-12-20"
 sourceUrl: "https://telex.hu/techtud/2024/12/20/autizmus-spektrumzavar-elofordulas-61-8-millio-ember-japan"

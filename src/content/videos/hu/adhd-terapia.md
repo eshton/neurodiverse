@@ -3,7 +3,7 @@ title: "ADHD Terápia"
 locale: hu
 topics: [adhd]
 summary: "Dr. Nagy Péter gyermekpszichiáter csatornája, közérthetően beszél az ADHD diagnózisáról, a szülői dilemmákról és a gyógyszeres kezelés kérdéseiről."
-tags: [clinical, medication, children]
+tags: [klinikai, gyógyszer, gyerekek]
 creator: "Dr. Nagy Péter"
 platform: "YouTube"
 subscriberCount: 2490

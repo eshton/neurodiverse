@@ -3,7 +3,7 @@ title: "Pszichológiai, Pszichiátriai és Diagnosztikai Központ (Székesfehér
 locale: hu
 topics: [adhd, autism]
 summary: "Autizmus és ADHD kivizsgálásra, valamint érintett gyerekek fejlesztésére és támogatására specializálódott magánközpont Székesfehérváron."
-tags: [private, regional, children]
+tags: [magánfinanszírozás, regionális, gyerekek]
 providerType: clinic
 funding: private
 ageGroup: children

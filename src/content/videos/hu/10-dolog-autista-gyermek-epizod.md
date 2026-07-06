@@ -3,7 +3,7 @@ title: "10 dolog, amit tudnod kell, ha autista gyermeket tanítasz"
 locale: hu
 topics: [autism]
 summary: "Egyetlen videó Tóth Tamás tanító csatornájáról, tíz gyakorlati tanáccsal pedagógusoknak, akik autista tanulóval dolgoznak speciális képzettség nélkül."
-tags: [episode, teachers, practical]
+tags: [epizód, pedagógusok, gyakorlati]
 creator: "Tóth Tamás tanító"
 platform: "YouTube"
 viewCount: 27271

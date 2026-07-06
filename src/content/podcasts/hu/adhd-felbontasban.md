@@ -3,7 +3,7 @@ title: "ADHD Felbontásban — Neurodiverz vállalkozói podcast"
 locale: hu
 topics: [adhd, autism]
 summary: "Török Balázs podcastja neurodivergens (ADHD-s és autista) vállalkozókkal, szakemberekkel a munka, vállalkozás és önismeret témáiról, saját tapasztalatok alapján."
-tags: [entrepreneurship, workplace, lived-experience]
+tags: [vállalkozás, munkahely, megélt-tapasztalat]
 creator: "Török Balázs"
 platform: "Spotify / YouTube"
 coverImage: "/covers/adhd-felbontasban.jpg"

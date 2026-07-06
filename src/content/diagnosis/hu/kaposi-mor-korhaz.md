@@ -3,7 +3,7 @@ title: "Kaposi Mór Oktató Kórház — Gyermek- és ifjúságpszichiátriai go
 locale: hu
 topics: [adhd, autism]
 summary: "Somogy megyei oktatókórház gyermek- és ifjúságpszichiátriai szakambulanciája, autizmus és ADHD diagnosztikával és kezeléssel."
-tags: [state-funded, children, regional]
+tags: [állami-finanszírozás, gyerekek, regionális]
 providerType: hospital
 funding: state
 ageGroup: children

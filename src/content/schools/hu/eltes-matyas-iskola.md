@@ -3,7 +3,7 @@ title: "Éltes Mátyás Általános Iskola és Kollégium"
 locale: hu
 topics: [adhd]
 summary: "1900 óta működő kőbányai állami iskola, kis létszámú osztályokkal hiperaktivitással és figyelemzavarral küzdő és más SNI-s gyerekeknek."
-tags: [state, small-groups]
+tags: [állami-finanszírozás, kiscsoportok]
 providerType: special-needs-school
 funding: state
 ageGroup: children

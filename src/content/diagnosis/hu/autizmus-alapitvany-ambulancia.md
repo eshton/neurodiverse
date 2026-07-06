@@ -3,7 +3,7 @@ title: "Autizmus Alapítvány Ambulancia"
 locale: hu
 topics: [autism]
 summary: "Autizmus spektrumzavar diagnosztikájára specializálódott alapítványi ambulancia, gyerekeknek és felnőtteknek, gondozásba vétellel és utánkövetéssel."
-tags: [foundation, all-ages]
+tags: [alapítvány, minden-korosztály]
 providerType: foundation
 funding: mixed
 ageGroup: both

@@ -13,7 +13,7 @@ lat: 48.084822
 lng: 19.791965
 contact: "06 32/700-027"
 sourceUrl: "https://tehetseg.hu/pedagogiai-szakszolgalat/nograd-megyei-pedagogiai-szakszolgalat"
-tags: [state-funded, expert-committee, sni, no-referral, regional]
+tags: [állami-finanszírozás, szakértői-bizottság, sni, beutaló-nélkül, regionális]
 lastReviewed: "2026-07-06"
 lastEdited: 2026-07-06
 ---

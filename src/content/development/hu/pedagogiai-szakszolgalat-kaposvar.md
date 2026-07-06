@@ -13,7 +13,7 @@ lat: 46.360305
 lng: 17.789139
 contact: "82/510-113, smpszfoigazgatosag@gmail.com"
 sourceUrl: "https://www.pedagogiai-szakszolgalat.hu/szekhely/kapcsolat"
-tags: [state-funded, pedagogiai-szakszolgalat, korai-fejlesztes, no-referral, regional]
+tags: [állami-finanszírozás, pedagógiai-szakszolgálat, korai-fejlesztés, beutaló-nélkül, regionális]
 lastReviewed: 2026-07-06
 lastEdited: 2026-07-06
 ---

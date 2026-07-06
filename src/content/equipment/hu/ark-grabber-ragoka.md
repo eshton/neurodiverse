@@ -3,7 +3,7 @@ title: "ARK Grabber rágóka, texturált"
 locale: hu
 topics: [autism, adhd]
 summary: "Orvosi minőségű, texturált szájérzékenységi rágóka — biztonságos alternatíva nem ehető tárgyak rágására, állkapocs- és szájizom-erősítéshez."
-tags: [sensory, oral-motor]
+tags: [szenzoros, orál-motoros]
 ageGroup: both
 priceRange: "4,990 HUF"
 retailerUrls:

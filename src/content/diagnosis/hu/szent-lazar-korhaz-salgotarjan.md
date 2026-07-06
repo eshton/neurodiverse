@@ -3,7 +3,7 @@ title: "Nógrád Vármegyei Szent Lázár Kórház – Gyermek- és Ifjúságpsz
 locale: hu
 topics: [adhd, autism]
 summary: "A salgótarjáni megyei kórház gyermek- és ifjúságpszichiátriai gondozója, ADHD és autizmus diagnosztikával Nógrád vármegyében."
-tags: [hospital, state, children, regional]
+tags: [kórház, állami-finanszírozás, gyerekek, regionális]
 providerType: hospital
 funding: state
 ageGroup: children

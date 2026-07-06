@@ -3,7 +3,7 @@ title: "Addetur Baptista Gimnázium, Technikum és Szakiskola"
 locale: hu
 topics: [autism]
 summary: "Budapesti középfokú intézmény, amely autista fiatalokat integráltan nevel gimnáziumi és szakiskolai osztályokban."
-tags: [foundation, integration, secondary]
+tags: [alapítvány, integráció, középiskola]
 providerType: mainstream-integration
 funding: mixed
 ageGroup: children

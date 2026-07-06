@@ -10,7 +10,7 @@ publicationType: review
 language: en
 doi: "10.1192/bjp.bp.107.048827"
 ageGroup: adults
-tags: [metaanalízis, magyar szerzők, felnőttkori ADHD, epidemiológia]
+tags: [metaanalízis, magyar-szerzők, felnőttkori-adhd, epidemiológia]
 sourceUrl: "https://doi.org/10.1192/bjp.bp.107.048827"
 ratings: []
 lastReviewed: 2026-07-05

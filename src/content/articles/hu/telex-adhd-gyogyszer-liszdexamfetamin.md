@@ -3,7 +3,7 @@ title: "Nem érdemes abban bízni, hogy egy új ADHD-gyógyszer, mint valami má
 locale: hu
 topics: [adhd]
 summary: "Telex-cikk a felnőtt ADHD gyógyszeres kezeléséről: 2024 óta itthon is forgalmaznak liszdexamfetamint (más országokban évtizede használják), de felnőtteknek egyelőre csak engedéllyel írható fel. A pszichiáter szerint jó, hogy bővül a kínálat, de ettől még nem lesz több szakember és szabad időpont."
-tags: [gyogyszer, felnott, kezeles, ellatas, liszdexamfetamin]
+tags: [gyógyszer, felnőttek, kezelés, ellátás, liszdexamfetamin]
 publication: "Telex"
 publishedDate: "2025-02-04"
 sourceUrl: "https://telex.hu/techtud/2025/02/04/adhd-gyogyszer-liszdexamfetamin-felnott-kezeles-ellatas"

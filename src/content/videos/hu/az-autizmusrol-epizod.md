@@ -3,7 +3,7 @@ title: "Az autizmusról"
 locale: hu
 topics: [autism]
 summary: "Egyetlen felvilágosító videó a SZIN Nonprofit Kft. csatornájáról az autizmus spektrumzavar alapjairól."
-tags: [episode, educational]
+tags: [epizód, oktatás]
 creator: "SZIN Nonprofit Kft."
 platform: "YouTube"
 viewCount: 9725

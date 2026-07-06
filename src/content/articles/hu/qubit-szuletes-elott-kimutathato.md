@@ -3,7 +3,7 @@ title: "Már a születés előtt kimutatható lehet az autizmus és az ADHD kock
 locale: hu
 topics: [autism, adhd]
 summary: "Qubit-cikk egy magyar vezetésű (pécsi) kutatási programról, amely a születés körüli hatások (oxigénhiány, magzati alkoholexpozíció, anyai immunaktiváció) és a későbbi neurofejlődési zavarok — autizmus, ADHD, skizofrénia — összefüggéseit vizsgálja."
-tags: [tudomany, kutatas, korai, kockazat]
+tags: [tudomány, kutatás, korai-fejlesztés, kockázati-tényezők]
 publication: "Qubit"
 author: "Kuglics Sarolta"
 publishedDate: "2026-02-26"

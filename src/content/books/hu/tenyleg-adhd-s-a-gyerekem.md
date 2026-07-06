@@ -3,7 +3,7 @@ title: "Tényleg ADHD-s a gyerekem? — 101 figyelemfejlesztő módszer gyógysz
 locale: hu
 topics: [adhd]
 summary: "Thomas Armstrong alternatív szemléletű útmutatója szülőknek és tanároknak, gyógyszerezés helyett viselkedéses és figyelemfejlesztő módszerekkel."
-tags: [parents, teachers, alternative-approach]
+tags: [szülők, pedagógusok, alternatív-megközelítés]
 author: "Thomas Armstrong"
 isbn: "9786155715914"
 sourceUrl: "https://www.libri.hu/konyv/thomas_armstrong_phd.tenyleg-adhd-s-a-gyerekem.html"

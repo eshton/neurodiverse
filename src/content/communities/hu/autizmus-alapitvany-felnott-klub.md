@@ -3,7 +3,7 @@ title: "Autizmus Alapítvány — Felnőtt Klub"
 locale: hu
 topics: [autism]
 summary: "Az ország elsőként, 1989 óta folyamatosan működő, modell-értékű autizmus-specifikus felnőtt klubja: havonta kétszer, szerda délutánonként tartott közösségi program társas és kommunikációs tréninggel, társasjátékkal, tánccal, kötetlen beszélgetéssel."
-tags: [club, adults, budapest, peer-support]
+tags: [klub, felnőttek, budapest, sorstárs-támogatás]
 providerType: institution
 ageGroup: adults
 city: "Budapest"

@@ -3,7 +3,7 @@ title: "SOFI – Budapest XVIII. Kerületi Óvoda, Iskola és EGYMI"
 locale: hu
 topics: [autism]
 summary: "Kerületi gyógypedagógiai intézmény óvodától szakiskoláig, önálló autizmus-specifikus csoportokkal."
-tags: [state, egymi]
+tags: [állami-finanszírozás, egymi]
 providerType: special-needs-school
 funding: state
 ageGroup: children

@@ -3,7 +3,7 @@ title: "PECS napirendi kártyakészlet"
 locale: hu
 topics: [autism]
 summary: "96 lamináltott, rajzos képkártya a PECS (képcserés kommunikáció) módszer napirend-eleméhez — iskolai, otthoni, közösségi tevékenységekhez."
-tags: [visual-support, communication, pecs]
+tags: [vizuális-támogatás, kommunikáció, pécs]
 ageGroup: both
 priceRange: "16,990 HUF"
 retailerUrls:

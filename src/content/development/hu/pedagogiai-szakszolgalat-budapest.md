@@ -13,7 +13,7 @@ lat: 47.517983
 lng: 19.131156
 contact: "+36 1 474-6000"
 sourceUrl: "https://fpsz.hu/korai-fejlesztes/"
-tags: [state-funded, pedagogiai-szakszolgalat, korai-fejlesztes, no-referral, regional]
+tags: [állami-finanszírozás, pedagógiai-szakszolgálat, korai-fejlesztés, beutaló-nélkül, regionális]
 lastReviewed: 2026-07-06
 lastEdited: 2026-07-06
 ---

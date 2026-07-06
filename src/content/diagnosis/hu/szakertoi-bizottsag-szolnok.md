@@ -13,7 +13,7 @@ lat: 47.174874
 lng: 20.18887
 contact: "56/515-260, info.szb@jnszmpsz.hu"
 sourceUrl: "https://jnszmpsz.hu/szekhelyintezmeny/varmegyei-szakertoi-bizottsag/"
-tags: [state-funded, expert-committee, sni, no-referral, regional]
+tags: [állami-finanszírozás, szakértői-bizottság, sni, beutaló-nélkül, regionális]
 lastReviewed: "2026-07-06"
 lastEdited: 2026-07-06
 ---

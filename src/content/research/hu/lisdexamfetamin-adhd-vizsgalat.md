@@ -10,7 +10,7 @@ publicationType: clinical-trial
 language: en
 doi: "NCT01106430"
 ageGroup: children
-tags: [klinikai vizsgálat, magyar helyszínek, gyógyszervizsgálat, lezárult]
+tags: [klinikai-vizsgálat, magyar-helyszín, gyógyszervizsgálat, lezárult]
 sourceUrl: "https://clinicaltrials.gov/study/NCT01106430"
 ratings: []
 lastReviewed: 2026-07-05

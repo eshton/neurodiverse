@@ -3,7 +3,7 @@ title: "Jósa András Oktatókórház — Gyermekpszichiátria"
 locale: hu
 topics: [adhd, autism]
 summary: "Nyíregyházi oktatókórház gyermekpszichiátriai ellátása, ADHD, pervazív fejlődési zavarok és más gyermekpszichés problémák kivizsgálásával 18 éves korig."
-tags: [state-funded, children, regional]
+tags: [állami-finanszírozás, gyerekek, regionális]
 providerType: hospital
 funding: state
 ageGroup: children

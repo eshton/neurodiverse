@@ -3,7 +3,7 @@ title: "Képekben gondolkodom — Életem az autizmussal"
 locale: hu
 topics: [autism]
 summary: "Temple Grandin önéletrajzi könyve arról, hogyan gondolkodik és érzékeli a világot egy autista tudós, aki sikeres karriert épített a korlátai ellenére."
-tags: [memoir, own-voices, science]
+tags: [memoár, érintettek-hangja, tudomány]
 author: "Temple Grandin"
 isbn: "9789633550632"
 sourceUrl: "https://www.libri.hu/konyv/templ_grandin.kepekben-gondolkodom.html"

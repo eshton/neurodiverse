@@ -3,7 +3,7 @@ title: "Gyerek súlyozott mellény"
 locale: hu
 topics: [adhd, autism]
 summary: "Mélynyomás-terápiás súlymellény gyerekeknek — folyamatos szenzoros inger tanórán/foglalkozáson ülve maradáshoz, koncentrációhoz, önszabályozáshoz."
-tags: [sensory, dpt]
+tags: [szenzoros, mélynyomás]
 ageGroup: children
 priceRange: "15,990 HUF-tól (méret szerint)"
 retailerUrls:

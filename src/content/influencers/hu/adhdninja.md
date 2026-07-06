@@ -3,7 +3,7 @@ title: "ADHD Ninja (Sörös Ágnes)"
 locale: hu
 topics: [adhd]
 summary: "Marketinges és vállalkozásmentor, saját ADHD-jából kiindulva épített közösséget és tudástárat ADHD-s felnőtteknek és vállalkozóknak."
-tags: [social-media, lived-experience, entrepreneurship]
+tags: [közösségi-média, megélt-tapasztalat, vállalkozás]
 handle: "@adhdninja.hu"
 platforms: [Instagram, Facebook]
 sourceUrl: "https://adhdninja.hu/"

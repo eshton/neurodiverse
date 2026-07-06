@@ -3,7 +3,7 @@ title: "Bács-Kiskun Megyei Oktatókórház — Gyermekpszichiátriai Gondozó �
 locale: hu
 topics: [adhd, autism]
 summary: "Kecskeméti megyei oktatókórház gyermekpszichiátriai gondozója és szakambulanciája."
-tags: [state-funded, children, regional]
+tags: [állami-finanszírozás, gyerekek, regionális]
 providerType: hospital
 funding: state
 ageGroup: children

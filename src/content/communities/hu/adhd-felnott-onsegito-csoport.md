@@ -3,7 +3,7 @@ title: "ADHD felnőtt önsegítő csoport (Facebook)"
 locale: hu
 topics: [adhd]
 summary: "Nagy létszámú (kb. 9000+ tag), zárt Facebook önsegítő csoport ADHD-val élő felnőtteknek: tapasztalatcsere, mindennapi nehézségekkel kapcsolatos tippek és kölcsönös támogatás."
-tags: [facebook-group, adults, self-help, online]
+tags: [facebook-csoport, felnőttek, önsegítő, online]
 providerType: online-group
 ageGroup: adults
 sourceUrl: "https://www.facebook.com/groups/663384988070455/"

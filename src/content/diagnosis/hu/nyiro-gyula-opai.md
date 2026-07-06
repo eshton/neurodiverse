@@ -3,7 +3,7 @@ title: "Nyírő Gyula Országos Pszichiátriai és Addiktológiai Intézet — A
 locale: hu
 topics: [adhd]
 summary: "Országos hatókörű állami ADHD ambulancia, gyerekkorban diagnosztizált vagy felnőttkorban felmerülő ADHD gyanú kivizsgálására, szakorvosi beutalóval."
-tags: [state-funded, adults, nationwide-catchment, referral-required]
+tags: [állami-finanszírozás, felnőttek, országos-ellátás, beutalóköteles]
 providerType: hospital
 funding: state
 referralRequired: true

@@ -3,7 +3,7 @@ title: "Vadaskert Iskola"
 locale: hu
 topics: [adhd, autism]
 summary: "A Vadaskert Alapítvány oktatási intézménye, kiscsoportos, egyénre szabott neveléssel autizmus spektrumzavarral és ADHD-val élő gyerekeknek."
-tags: [foundation, small-groups]
+tags: [alapítvány, kiscsoportok]
 providerType: special-needs-school
 funding: mixed
 ageGroup: children

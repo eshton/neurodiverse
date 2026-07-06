@@ -3,7 +3,7 @@ title: "MOZAIK Podcast az autizmusról"
 locale: hu
 topics: [autism]
 summary: "Kapitány Imola (Mozaik Egyesület elnöke) és Kamrás Orsolya pedagógus podcastja autista gyerekek és felnőttek szüleinek, gyakran tabusított témákról."
-tags: [parents, community, taboo-topics]
+tags: [szülők, közösség, tabutémák]
 creator: "Kapitány Imola, Kamrás Orsolya"
 platform: "Spotify"
 coverImage: "/covers/mozaik-podcast.jpg"

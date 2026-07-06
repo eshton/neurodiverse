@@ -3,7 +3,7 @@ title: "QuickTalker FT23 kommunikátor"
 locale: hu
 topics: [autism]
 summary: "Fizikai AAK (augmentatív és alternatív kommunikációs) eszköz — 20 programozható gomb, 100 rögzített üzenet, nem- vagy aligbeszélő autista személyeknek."
-tags: [communication, aac]
+tags: [kommunikáció, aac]
 ageGroup: both
 priceRange: "129,990 HUF"
 retailerUrls:

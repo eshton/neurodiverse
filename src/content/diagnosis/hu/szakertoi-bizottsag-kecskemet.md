@@ -13,7 +13,7 @@ lat: 46.905789
 lng: 19.694591
 contact: "+36 76 477-666, kecskemet@bkmszrb.edu.hu"
 sourceUrl: "https://bacspsz.hu/tagintezmenyek/szekhelyintezmeny-kecskemet-szakertoi-bizottsag/"
-tags: [state-funded, expert-committee, sni, no-referral, regional]
+tags: [állami-finanszírozás, szakértői-bizottság, sni, beutaló-nélkül, regionális]
 lastReviewed: "2026-07-06"
 lastEdited: 2026-07-06
 ---

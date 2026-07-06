@@ -3,7 +3,7 @@ title: "NeuroHarmónia Diagnosztikai és Fejlesztő Központ"
 locale: hu
 topics: [adhd, autism]
 summary: "Dél-Dunántúli magánközpont ADHD-val, autizmus spektrumzavarral és tanulási nehézséggel élő gyerekeknek, felnőtteknek és családjaiknak."
-tags: [private, all-ages, regional]
+tags: [magánfinanszírozás, minden-korosztály, regionális]
 providerType: clinic
 funding: private
 ageGroup: both

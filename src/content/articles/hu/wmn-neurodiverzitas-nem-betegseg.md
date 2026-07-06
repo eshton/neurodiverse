@@ -3,7 +3,7 @@ title: "Az autizmus vagy az ADHD nem betegség, hanem a világ megtapasztalásá
 locale: hu
 topics: [autism, adhd]
 summary: "WMN-cikk a neurodiverzitás szemléletéről: az autizmus és az ADHD nem hiba vagy betegség, hanem az idegi működés sokféleségének érvényes formája. A neurodiverzitási mozgalom alapgondolatának közérthető bemutatása."
-tags: [neurodiverzitas, szemlelet, elfogadas]
+tags: [neurodiverzitás, szemlélet, elfogadás]
 publication: "WMN"
 sourceUrl: "https://wmn.hu/ugy/61922-az-autizmus-vagy-az-adhd-nem-betegseg-hanem-a-vilag-megtapasztalasanak-ervenyes-modja"
 coverImage: "/covers/wmn-neurodiverzitas-nem-betegseg.jpg"

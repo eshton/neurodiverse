@@ -3,7 +3,7 @@ title: "Vas és cink ADHD-nál"
 locale: hu
 topics: [adhd]
 summary: "A vas- és cinktartalmú készítmények elsősorban akkor segíthetnek az ADHD tüneteinek enyhítésében, ha a gyerek a táplálékkal nem jut elég vashoz/cinkhez. Kiegészítő lépés a bevett kezelés mellett — nem gyógymód, és nem helyettesíti azt."
-tags: [vas, cink, etrendkiegeszito, hiany, bizonyitek]
+tags: [vas, cink, étrendkiegészítő, hiány, bizonyíték]
 kind: supplement
 dietaryTags: [vas, cink]
 sourceUrl: "https://pharmaonline.hu/cikk/termeszetes-megoldasok-az-adhd-kezelesere"

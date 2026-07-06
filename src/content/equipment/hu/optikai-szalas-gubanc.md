@@ -3,7 +3,7 @@ title: "Optikai szálas világító gubanc"
 locale: hu
 topics: [adhd, autism]
 summary: "Tapintható, színváltó fényoptikai szálköteg (100 db/2 m) szenzoros szobához — vizuális/tapintási stimuláció, első fény-alapú tétel a kategóriában."
-tags: [sensory, visual, snoezelen]
+tags: [szenzoros, vizuális-támogatás, snoezelen]
 ageGroup: both
 priceRange: "90,990 HUF"
 retailerUrls:

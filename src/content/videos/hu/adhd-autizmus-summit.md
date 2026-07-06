@@ -3,7 +3,7 @@ title: "ADHD és Autizmus Summit"
 locale: hu
 topics: [adhd, autism]
 summary: "Az SNI Suli ingyenes, évente megrendezett online konferenciája — 24 szakember előadása egy nap alatt ADHD-ról, autizmusról és a hozzájuk kapcsolódó kihívásokról."
-tags: [conference, free, multiple-speakers]
+tags: [konferencia, ingyenes, több-előadó]
 creator: "SNI Suli"
 platform: "YouTube"
 coverImage: "/covers/adhd-autizmus-summit.jpg"

@@ -3,7 +3,7 @@ title: "Tényleg minden ADHD, ami annak tűnik? — KOLORÁDÓ Fesztivál x Part
 locale: hu
 topics: [adhd]
 summary: "Egyetlen epizód a Partizán Podcastból: Tárnok Zsanett klinikai szakpszichológussal arról, hol a határ a divatos önlabelezés és a valódi ADHD-diagnózis között."
-tags: [episode, expert-interview]
+tags: [epizód, szakértői-interjú]
 creator: "Partizán Podcast (vendég: Tárnok Zsanett)"
 platform: "Spotify"
 entryType: episode

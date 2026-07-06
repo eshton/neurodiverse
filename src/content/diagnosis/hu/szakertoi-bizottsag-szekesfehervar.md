@@ -13,7 +13,7 @@ lat: 47.198561
 lng: 18.41124
 contact: "+36 22 500-011, megyeiszakertoi@fejermepsz.hu"
 sourceUrl: "https://fejermepsz.hu/szekhelyinzezmeny/varmegyei-szakertoi-bizottsag/"
-tags: [state-funded, expert-committee, sni, no-referral, regional]
+tags: [állami-finanszírozás, szakértői-bizottság, sni, beutaló-nélkül, regionális]
 lastReviewed: "2026-07-06"
 lastEdited: 2026-07-06
 ---

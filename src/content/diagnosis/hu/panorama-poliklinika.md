@@ -3,7 +3,7 @@ title: "Panoráma Poliklinika — ADHD-ASD kivizsgálás"
 locale: hu
 topics: [adhd, autism]
 summary: "Budapesti magánklinika (Pest és Buda telephellyel), ADHD és autizmus spektrumzavar kivizsgálásával felnőtteknek és gyerekeknek (4 éves kortól), külön-külön vagy együttesen."
-tags: [private, all-ages]
+tags: [magánfinanszírozás, minden-korosztály]
 providerType: clinic
 funding: private
 ageGroup: both

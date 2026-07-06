@@ -13,7 +13,7 @@ lat: 46.682987
 lng: 21.099423
 contact: "06-66/530-204"
 sourceUrl: "https://www.bekesszakszolgalat.hu/cimlap/szekhelyintezmeny"
-tags: [state-funded, expert-committee, sni, no-referral, regional]
+tags: [állami-finanszírozás, szakértői-bizottság, sni, beutaló-nélkül, regionális]
 lastReviewed: "2026-07-06"
 lastEdited: 2026-07-06
 ---

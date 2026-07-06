@@ -10,7 +10,7 @@ publicationType: review
 language: hu
 openAccess: true
 ageGroup: both
-tags: [magyar kutatás, áttekintés, nyílt hozzáférés]
+tags: [magyar-kutatás, áttekintés, nyílt-hozzáférés]
 sourceUrl: "https://ojs.elte.hu/gyogypedszemle/article/view/4987"
 ratings: []
 lastReviewed: 2026-07-05

@@ -3,7 +3,7 @@ title: "Autikum — Felnőtt Autista Szabadidős és Kulturális Központ"
 locale: hu
 topics: [autism]
 summary: "Magyarország első felnőtt autista szabadidős és kulturális központja Budapesten: közösségépítő és önismereti csoportok, kibeszélő kör, kreatív és szociális készségfejlesztő programok autista felnőtteknek."
-tags: [community-center, adults, budapest, aura-egyesulet]
+tags: [közösségi-tér, felnőttek, budapest, aura-egyesület]
 providerType: institution
 ageGroup: adults
 city: "Budapest"

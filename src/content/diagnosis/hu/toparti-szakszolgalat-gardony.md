@@ -3,7 +3,7 @@ title: "Tóparti Pedagógiai Szakszolgálat és Szakambulancia (Gárdony)"
 locale: hu
 topics: [autism]
 summary: "Kora gyermekkori intervenciós szakszolgálat és szakambulancia Gárdonyban — autizmus diagnosztika és korai fejlesztés, országos ellátási körrel."
-tags: [clinic, free, children, early-intervention, regional]
+tags: [klinika, ingyenes, gyerekek, korai-fejlesztés, regionális]
 providerType: clinic
 funding: state
 ageGroup: children

@@ -3,7 +3,7 @@ title: "Szikrabori (Bori)"
 locale: hu
 topics: [autism]
 summary: "Autista kisfia, Fici mindennapjait és fejlődését megosztó TikTok-alkotó, aki küldetésének tekinti az autizmussal kapcsolatos tévhitek eloszlatását."
-tags: [social-media, parent-perspective]
+tags: [közösségi-média, szülői-nézőpont]
 handle: "@szikrabori"
 platforms: [TikTok]
 sourceUrl: "https://www.tiktok.com/@szikrabori"

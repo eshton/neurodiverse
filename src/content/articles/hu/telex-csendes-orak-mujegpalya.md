@@ -3,7 +3,7 @@ title: "Vasárnap pár órára elcsendesül a Városligeti Műjégpálya"
 locale: hu
 topics: [autism]
 summary: "Telex-hír a Városligeti Műjégpálya „csendes óráiról”: vasárnaponként pár órára lehalkított zenével, csökkentett ingerekkel várják az autizmussal élőket, hogy nyugodtabb környezetben korcsolyázhassanak. Példa a szenzoros szempontból befogadó közösségi terekre."
-tags: [szenzoros, befogadas, kozossegi-ter, esemeny]
+tags: [szenzoros, befogadás, közösségi-tér, esemény]
 publication: "Telex"
 publishedDate: "2026-02-06"
 sourceUrl: "https://telex.hu/belfold/2026/02/06/csendes-orakat-szerveznek-a-varosligeti-mujegpalyan"

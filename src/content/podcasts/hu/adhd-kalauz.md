@@ -3,7 +3,7 @@ title: "ADHD Kalauz — Út a benned rejlő tehetséghez"
 locale: hu
 topics: [adhd]
 summary: "Dobribán András pszichológus, aki felnőttkorban kapott ADHD-diagnózist, kéthetente szakértőket kérdez az ADHD-val élők mindennapi kihívásairól."
-tags: [interviews, adults, biweekly]
+tags: [interjú, felnőttek, kéthetente]
 creator: "Dobribán András"
 platform: "Apple Podcasts / Spotify"
 coverImage: "/covers/adhd-kalauz.jpg"

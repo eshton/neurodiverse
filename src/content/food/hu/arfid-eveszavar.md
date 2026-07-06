@@ -3,7 +3,7 @@ title: "ARFID — amikor a válogatósság már evészavar"
 locale: hu
 topics: [autism]
 summary: "Az ARFID (elkerülő-korlátozó táplálékbeviteli zavar) nem egyszerű válogatósság: félelem és erős szenzoros érzékenység hajtja. Autizmusban gyakoribb az átlagosnál — de nem minden ARFID-os gyerek autista. Csapatmunkát igényel."
-tags: [arfid, eveszavar, valogatos-eves, szenzoros]
+tags: [arfid, evészavar, válogatós-evés, szenzoros]
 kind: guide
 dietaryTags: []
 sourceUrl: "https://kiskanalkommando.hu/a-titokzatos-arfid-eveszavaros-a-gyermek/"

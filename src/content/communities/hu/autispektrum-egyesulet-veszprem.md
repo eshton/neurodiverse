@@ -3,7 +3,7 @@ title: "AutiSpektrum Egyesület (Veszprém)"
 locale: hu
 topics: [autism]
 summary: "Veszprém megyei önsegítő szülői közösség 2013 óta, autizmus spektrumzavarral élő gyermeket nevelő családoknak: szülőcsoport, szülőtréningek, közös szabadidős programok, nyári táborok és Info-Pont."
-tags: [parents, self-help, veszprem, regional]
+tags: [szülők, önsegítő, veszprém, regionális]
 providerType: institution
 ageGroup: children
 city: "Veszprém"

@@ -3,7 +3,7 @@ title: "Az ADHD nem bocsánat, hanem magyarázat"
 locale: hu
 topics: [adhd]
 summary: "Telex-cikk a felnőtt, különösen a női ADHD-ról: miért elavult a „fiú-betegség” tévhit, miért marad rejtve sok nőnél a diagnózis, és mit jelent az, hogy az ADHD magyarázat a nehézségekre, nem felmentés alóluk."
-tags: [felnott, no, tevhitek, diagnozis]
+tags: [felnőttek, nők, tévhitek, diagnózis]
 publication: "Telex"
 publishedDate: "2025-06-16"
 sourceUrl: "https://telex.hu/eletmod/2025/06/16/az-adhd-nem-bocsanat-hanem-magyarazat"

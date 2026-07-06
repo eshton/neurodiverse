@@ -3,7 +3,7 @@ title: "Szenzoros terápiás hinta"
 locale: hu
 topics: [adhd, autism]
 summary: "Otthoni szenzoros integrációs hinta leesésgátlóval, kisgyerekeknek — vesztibuláris inger, mozgásfejlesztés."
-tags: [sensory, movement]
+tags: [szenzoros, mozgás]
 ageGroup: children
 priceRange: "139,900 HUF"
 retailerUrls:

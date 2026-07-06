@@ -10,7 +10,7 @@ publicationType: journal-article
 language: hu
 openAccess: true
 ageGroup: children
-tags: [magyar kutatás, diagnosztikai eszköz, nyílt hozzáférés]
+tags: [magyar-kutatás, diagnosztikai-eszköz, nyílt-hozzáférés]
 sourceUrl: "https://real.mtak.hu/233647/"
 ratings: []
 lastReviewed: 2026-07-05

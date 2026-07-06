@@ -13,7 +13,7 @@ lat: 48.100416
 lng: 20.803742
 contact: "06/46-530-110, mpiszb@gmail.com"
 sourceUrl: "https://borsodszakszolgalat.hu/megyei-szakertoi-bizottsag/"
-tags: [state-funded, expert-committee, sni, no-referral, regional]
+tags: [állami-finanszírozás, szakértői-bizottság, sni, beutaló-nélkül, regionális]
 lastReviewed: "2026-07-06"
 lastEdited: 2026-07-06
 ---

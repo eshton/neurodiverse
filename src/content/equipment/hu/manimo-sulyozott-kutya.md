@@ -3,7 +3,7 @@ title: "Manimo súlyozott plüss kutya"
 locale: hu
 topics: [adhd, autism]
 summary: "Súlyozott plüss állat (1 kg) — testtudatra ható, nyugtató szenzoros eszköz, figyelem és koncentráció fokozására tanórán vagy házi feladatnál."
-tags: [sensory, sleep]
+tags: [szenzoros, alvás]
 ageGroup: children
 priceRange: "23,490 HUF"
 retailerUrls:

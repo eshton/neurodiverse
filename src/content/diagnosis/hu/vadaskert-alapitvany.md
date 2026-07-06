@@ -3,7 +3,7 @@ title: "Vadaskert Alapítvány a Gyermekek Lelki Egészségéért"
 locale: hu
 topics: [adhd, autism]
 summary: "Gyermek- és ifjúságpszichiátriai kórház és szakambulancia, ADHD (5-11 év) és autizmus spektrumzavar diagnosztikával."
-tags: [foundation, children, waitlist]
+tags: [alapítvány, gyerekek, várólista]
 providerType: foundation
 funding: mixed
 ageGroup: children

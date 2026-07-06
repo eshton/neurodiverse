@@ -13,7 +13,7 @@ lat: 47.171864
 lng: 19.8008
 contact: "30/323-3857, pmpsz.szekhely.cegled@gmail.com"
 sourceUrl: "https://pestmszaksz.hu/"
-tags: [state-funded, expert-committee, sni, no-referral, regional]
+tags: [állami-finanszírozás, szakértői-bizottság, sni, beutaló-nélkül, regionális]
 lastReviewed: "2026-07-06"
 lastEdited: 2026-07-06
 ---

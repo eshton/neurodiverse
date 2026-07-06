@@ -3,7 +3,7 @@ title: "Debreceni Kinizsi Pál Általános Iskola"
 locale: hu
 topics: [autism]
 summary: "Debreceni állami iskola, amely 2011 óta lát el ép értelmi képességű autizmus spektrumzavarral élő tanulókat, jelenleg 46 diákot 5 csoportban."
-tags: [state, regional]
+tags: [állami-finanszírozás, regionális]
 providerType: special-needs-school
 funding: state
 ageGroup: children

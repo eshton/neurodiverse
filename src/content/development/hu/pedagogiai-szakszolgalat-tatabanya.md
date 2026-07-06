@@ -13,7 +13,7 @@ lat: 47.581989
 lng: 18.398052
 contact: "+36-34-517-168, foigazgatosag.kempsz@gmail.com"
 sourceUrl: "https://kempsz.edu.hu/kapcsolat/"
-tags: [state-funded, pedagogiai-szakszolgalat, korai-fejlesztes, no-referral, regional]
+tags: [állami-finanszírozás, pedagógiai-szakszolgálat, korai-fejlesztés, beutaló-nélkül, regionális]
 lastReviewed: 2026-07-06
 lastEdited: 2026-07-06
 ---

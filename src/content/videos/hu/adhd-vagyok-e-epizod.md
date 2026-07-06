@@ -3,7 +3,7 @@ title: "Hiperaktivitás és figyelemzavar — Lehet, hogy ADHD-s vagyok? SOS Van
 locale: hu
 topics: [adhd]
 summary: "Egyetlen felvilágosító videó az Országos Kórházi Főigazgatóság csatornájáról az ADHD felismeréséről és a segítségkérés lehetőségeiről."
-tags: [episode, official, health-authority]
+tags: [epizód, hivatalos, egészségügyi-hatóság]
 creator: "Országos Kórházi Főigazgatóság"
 platform: "YouTube"
 viewCount: 11278
