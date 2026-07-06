@@ -50,7 +50,7 @@ const label = CATEGORY_LABELS[category as string] ?? category;
 const showAge = items.some((i: any) => i.ageGroup !== 'both');
 ---
 <MapLayout
-  title={`${label} | Neurodiverz Térkép`}
+  title={`${label} | Neuropont`}
   description={`ADHD- és autizmus-témájú ${label.toLowerCase()} kurátorolt, ellenőrzött listája. ${items.length} bejegyzés.`}
 >
   <WebExplorer items={items} category={category as string} categories={WEB} showAge={showAge} />
