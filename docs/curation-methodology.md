@@ -80,6 +80,16 @@ sleep 1.1   # Nominatim usage policy: max 1 request/second
 
 Set a real, honest User-Agent (Nominatim's usage policy requires it, and blocks generic ones). If a full address with house number returns `[]`, retry with just the street name — Nominatim often can't resolve a specific building but resolves the street fine, which is precise enough for a city-scale map pin. Prefer results where `class`/`type` is `amenity`/`hospital`/`school` etc. (means it matched the actual institution, not just a nearby road) when there's a choice.
 
+## Multiple locations per entity
+
+Mappable entries can hold more than one physical site (`locations[]` + `locationStatus`; see architecture.md). When researching whether an institution has several sites:
+
+- **Only count sites the same institution actually operates** — its own további telephely / fiók / második rendelő. **Never** count: organizations it merely refers patients to or partners with; a different institution that happens to share a name in another town; a parent hospital's unrelated departments. This is the **MARS trap**: MARS Alapítvány's "diagnózisközpont kereső" looked like a branch network but is a *referral directory* of 24 independent providers. The `adhdterapia.hu/vizsgalatihelyszinek` page is the same pattern — a directory of separate hospitals, not branches. A plural "helyszínek"/"kereső" page is a red flag to check *who operates* each site before attributing it.
+- **A hospital/clinic/university is one site** even across many buildings; only report a second address where the *same ADHD/autism service* is genuinely delivered. (Watch the inverse too: the service may run at a *different* address than the institution's headline one — this corrected `debrecen-autizmus-ambulancia` → Bartók Béla út 3 and `peterfy-adhd-ambulancia` → Alsó erdősor u. 7.)
+- **Verify on the institution's own site** (kapcsolat / elérhetőségek / rendelők / telephelyek), or an authoritative registry. For **schools**, the KIR intézménykereső (oktatas.hu) lists an institution's "feladatellátási helyek" (telephelyek) — the best source for EGYMI networks. Third-party directories are a lead, not proof.
+- **Geocode** each additional address via Nominatim exactly like a primary (1 req/s, honest UA, street-level fallback OK).
+- **Record `locationStatus` honestly** — `single-confirmed` / `multiple-confirmed` / `unsure`. Use `unsure` (don't guess) when the site is down or only third-party claims exist (e.g. `bacs-kiskun-kecskemet`: county hospital has other campuses but the child-psych ambulancia couldn't be confirmed there). Log findings + sources in `docs/multi-location-research.md` so the pass is continuable.
+
 ## Scope discipline
 
 When a search round starts mostly resurfacing entries you already have, or things that fail the "real and checkable" bar (a book that's out of print with zero purchasable copies anywhere, a clinic address given only at district level with no street), that's the signal to stop that round — say so plainly rather than padding the count with weak entries. See content-status.md for where each category currently sits against its realistic total.
