@@ -27,8 +27,21 @@ const items = entries.map((entry: any) => ({
   parentTitle: entry.data.parentTitle,
   topScore: entry.data.ratings[0],
   availability: entry.data.availability,
+  // year-only (movies/research) also feeds the publication date so those lists sort too
+  publishedDate: entry.data.publishedDate ?? (entry.data.year != null ? String(entry.data.year) : undefined),
   href: `/hu/${category}/${entry.id.split('/').slice(1).join('/')}/`,
 }));
+
+// Default order: newest first (publishedDate desc, dated before undated, then
+// title). publishedDate strings are year-first ("YYYY"/"YYYY-MM-DD"), so a plain
+// string compare is chronological. The client sort control can re-order; this is
+// just the no-JS / first-paint order.
+items.sort((a: any, b: any) => {
+  const pa = a.publishedDate ?? '', pb = b.publishedDate ?? '';
+  if (!!pa !== !!pb) return pa ? -1 : 1;
+  if (!pa) return a.title.localeCompare(b.title, 'hu');
+  return pb.localeCompare(pa) || a.title.localeCompare(b.title, 'hu');
+});
 
 const label = CATEGORY_LABELS[category as string] ?? category;
 ---

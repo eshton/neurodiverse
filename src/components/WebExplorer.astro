@@ -16,6 +16,7 @@ interface WebItem {
   parentTitle?: string;
   topScore?: { score: number; scale: number };
   availability: 'in-stock' | 'unavailable';
+  publishedDate?: string;
 }
 
 interface Props {
@@ -62,17 +63,30 @@ const POSTER_SHAPE: Record<string, 'portrait' | 'square'> = {
     ))}
   </nav>
 
-  {/* Age filter — the only remaining filter, kept per request. */}
-  <div class="flex flex-wrap gap-1.5 px-4 pb-2.5" id="age-filters" role="group" aria-label="Korosztály">
-    {AGE_FILTERS.map(({ value, label }) => (
-      <button
-        type="button"
-        data-age={value}
-        class="age-filter-btn text-sm px-3 py-1.5 rounded-full transition"
+  {/* Age filter + sort. Age toggles (left); sort by publication date (right). */}
+  <div class="flex flex-wrap items-center gap-1.5 px-4 pb-2.5">
+    <div class="flex flex-wrap gap-1.5" id="age-filters" role="group" aria-label="Korosztály">
+      {AGE_FILTERS.map(({ value, label }) => (
+        <button
+          type="button"
+          data-age={value}
+          class="age-filter-btn text-sm px-3 py-1.5 rounded-full transition"
+        >
+          {label}
+        </button>
+      ))}
+    </div>
+    <label class="sm:ml-auto flex items-center gap-1.5 text-sm text-zinc-500 dark:text-zinc-400">
+      Rendezés:
+      <select
+        id="web-sort"
+        class="rounded-full border border-zinc-300 dark:border-zinc-700 bg-white dark:bg-zinc-900 px-3 py-1.5 text-zinc-700 dark:text-zinc-300"
       >
-        {label}
-      </button>
-    ))}
+        <option value="newest">Legújabb elöl</option>
+        <option value="oldest">Legrégebbi elöl</option>
+        <option value="title">Cím szerint (A–Z)</option>
+      </select>
+    </label>
   </div>
 </div>
 
@@ -96,6 +110,8 @@ const POSTER_SHAPE: Record<string, 'portrait' | 'square'> = {
         rel="noopener noreferrer"
         data-detail
         data-age={item.ageGroup}
+        data-published={item.publishedDate ?? ''}
+        data-title={item.title}
         class={`web-card flex rounded-xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 overflow-hidden hover:border-brand-400 hover:shadow-sm transition ${horizontal ? 'flex-row' : 'flex-col'}`}
       >
         {item.coverImage && (
@@ -112,6 +128,9 @@ const POSTER_SHAPE: Record<string, 'portrait' | 'square'> = {
               <span class="text-xs font-medium text-brand-700 dark:text-brand-300">
                 ★ {item.topScore.score}/{item.topScore.scale}
               </span>
+            )}
+            {item.publishedDate && (
+              <span class="text-xs text-zinc-400 dark:text-zinc-500">{item.publishedDate}</span>
             )}
             {item.availability === 'unavailable' && (
               <span class="text-xs px-2 py-0.5 rounded-full bg-amber-100 dark:bg-amber-950 text-amber-700 dark:text-amber-400">
@@ -133,15 +152,18 @@ const POSTER_SHAPE: Record<string, 'portrait' | 'square'> = {
   function initWebExplorer() {
     const ageButtons = document.querySelectorAll<HTMLButtonElement>('.age-filter-btn');
     if (!ageButtons.length) return; // not on a web category page
+    const sortSelect = document.getElementById('web-sort') as HTMLSelectElement | null;
 
     const FILTERS_KEY = 'neuro-web-filters';
     let activeAge: 'both' | 'children' | 'adults' = 'both';
+    let activeSort: 'newest' | 'oldest' | 'title' = 'newest';
 
     try {
       const saved = JSON.parse(localStorage.getItem(FILTERS_KEY) ?? 'null');
       if (saved?.age) activeAge = saved.age;
+      if (saved?.sort) activeSort = saved.sort;
     } catch {
-      // ignore corrupt/unavailable storage — fall back to the default
+      // ignore corrupt/unavailable storage — fall back to the defaults
     }
 
     // A landing-page audience choice arrives as ?age=children|adults|both and wins
@@ -153,11 +175,12 @@ const POSTER_SHAPE: Record<string, 'portrait' | 'square'> = {
       // ignore — no URL access, keep restored/default age
     }
 
-    function saveAge() {
-      try { localStorage.setItem(FILTERS_KEY, JSON.stringify({ age: activeAge })); } catch {}
+    function saveFilters() {
+      try { localStorage.setItem(FILTERS_KEY, JSON.stringify({ age: activeAge, sort: activeSort })); } catch {}
     }
 
-    const cards = document.querySelectorAll<HTMLAnchorElement>('.web-card');
+    const cards = Array.from(document.querySelectorAll<HTMLAnchorElement>('.web-card'));
+    const grid = cards[0]?.parentElement ?? null;
     const empty = document.getElementById('web-empty');
 
     function matchesAge(itemAge: string) {
@@ -173,6 +196,23 @@ const POSTER_SHAPE: Record<string, 'portrait' | 'square'> = {
         if (show) visible++;
       });
       empty?.classList.toggle('hidden', visible > 0);
+    }
+
+    // Reorder card nodes in place. publishedDate is a year-first string
+    // ("YYYY"/"YYYY-MM-DD"), so localeCompare is chronological; undated cards
+    // always sort last (except when sorting by title).
+    function sortCards() {
+      if (!grid) return;
+      const sorted = [...cards].sort((a, b) => {
+        const pa = a.dataset.published ?? '', pb = b.dataset.published ?? '';
+        const ta = a.dataset.title ?? '', tb = b.dataset.title ?? '';
+        if (activeSort === 'title') return ta.localeCompare(tb, 'hu');
+        if (!!pa !== !!pb) return pa ? -1 : 1;
+        if (!pa) return ta.localeCompare(tb, 'hu');
+        const c = pa.localeCompare(pb) || ta.localeCompare(tb, 'hu');
+        return activeSort === 'oldest' ? c : -c;
+      });
+      sorted.forEach((card) => grid.appendChild(card));
     }
 
     function setActiveAgeButton(value: string) {
@@ -192,13 +232,23 @@ const POSTER_SHAPE: Record<string, 'portrait' | 'square'> = {
       btn.addEventListener('click', () => {
         activeAge = btn.dataset.age as 'both' | 'children' | 'adults';
         setActiveAgeButton(activeAge);
-        saveAge();
+        saveFilters();
         render();
       });
     });
 
+    if (sortSelect) {
+      sortSelect.value = activeSort;
+      sortSelect.addEventListener('change', () => {
+        activeSort = sortSelect.value as 'newest' | 'oldest' | 'title';
+        saveFilters();
+        sortCards();
+      });
+    }
+
     setActiveAgeButton(activeAge);
-    saveAge();
+    saveFilters();
+    sortCards();
     render();
   }
 
