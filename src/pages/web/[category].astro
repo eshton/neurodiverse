@@ -44,11 +44,15 @@ items.sort((a: any, b: any) => {
 });
 
 const label = CATEGORY_LABELS[category as string] ?? category;
+// The age filter only does something if the category actually has non-"both"
+// items — on all-"both" categories (e.g. books, videos) it can never hide
+// anything, so we don't render a dead control that looks broken.
+const showAge = items.some((i: any) => i.ageGroup !== 'both');
 ---
 <MapLayout
   title={`${label} | Neurodiverz Térkép`}
   description={`ADHD- és autizmus-témájú ${label.toLowerCase()} kurátorolt, ellenőrzött listája. ${items.length} bejegyzés.`}
 >
-  <WebExplorer items={items} category={category as string} categories={WEB} />
+  <WebExplorer items={items} category={category as string} categories={WEB} showAge={showAge} />
   <DetailPanel />
 </MapLayout>

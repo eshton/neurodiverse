@@ -23,9 +23,10 @@ interface Props {
   items: WebItem[];
   category: string;      // the active category
   categories: string[];  // ordered list of web categories, for the tab bar
+  showAge?: boolean;     // only show the age filter where it can actually filter
 }
 
-const { items, category, categories } = Astro.props;
+const { items, category, categories, showAge = true } = Astro.props;
 
 const AGE_FILTERS = [
   { value: 'both', label: 'Minden korosztály' },
@@ -63,19 +64,21 @@ const POSTER_SHAPE: Record<string, 'portrait' | 'square'> = {
     ))}
   </nav>
 
-  {/* Age filter + sort. Age toggles (left); sort by publication date (right). */}
+  {/* Age filter + sort. Age toggles (left, only where they can filter); sort (right). */}
   <div class="flex flex-wrap items-center gap-1.5 px-4 pb-2.5">
-    <div class="flex flex-wrap gap-1.5" id="age-filters" role="group" aria-label="Korosztály">
-      {AGE_FILTERS.map(({ value, label }) => (
-        <button
-          type="button"
-          data-age={value}
-          class="age-filter-btn text-sm px-3 py-1.5 rounded-full transition"
-        >
-          {label}
-        </button>
-      ))}
-    </div>
+    {showAge && (
+      <div class="flex flex-wrap gap-1.5" id="age-filters" role="group" aria-label="Korosztály">
+        {AGE_FILTERS.map(({ value, label }) => (
+          <button
+            type="button"
+            data-age={value}
+            class="age-filter-btn text-sm px-3 py-1.5 rounded-full transition"
+          >
+            {label}
+          </button>
+        ))}
+      </div>
+    )}
     <label class="sm:ml-auto flex items-center gap-1.5 text-sm text-zinc-500 dark:text-zinc-400">
       Rendezés:
       <select
@@ -150,8 +153,11 @@ const POSTER_SHAPE: Record<string, 'portrait' | 'square'> = {
   // on astro:page-load so it re-binds after every View Transitions navigation
   // (bundled module scripts run only once), and re-reads state each time.
   function initWebExplorer() {
+    const root = document.getElementById('web-grid');
+    if (!root) return; // not on a web category page
+    // Age buttons may be absent (categories where every item is "both" — the
+    // filter would be a no-op, so it isn't rendered). Sort still runs regardless.
     const ageButtons = document.querySelectorAll<HTMLButtonElement>('.age-filter-btn');
-    if (!ageButtons.length) return; // not on a web category page
     const sortSelect = document.getElementById('web-sort') as HTMLSelectElement | null;
 
     const FILTERS_KEY = 'neuro-web-filters';
