@@ -13,10 +13,13 @@ lng: 19.0296179
 contact: "+36 20 291 9579, info@turbotanoda.hu"
 coverImage: "/covers/turbotanoda.png"
 priceNotes: "Komplex terápiás foglalkozás 15 000 Ft/50 perc, iskola-előkészítő 6 000 Ft/50 perc, pedagógiai szakvélemény diagnózissal 80 000 Ft (ellenőrizve: 2026-07-04)."
+locationStatus: unsure
 sourceUrl: "https://turbotanoda.hu/"
 ratings: []
 curatedBy: manual
-lastReviewed: 2026-07-04
+lastReviewed: 2026-07-06
 ---
 
 Nem hagyományos állami iskola, hanem magán fejlesztő intézmény: a gyerekeket legalább az általános iskola első négy, szükség esetén hatodik évének végéig készíti fel a bármely iskolatípusba történő integrációra.
+
+A saját kapcsolati oldal a Kiscelli u. 104. mellett II. kerületi címeket is felsorol (Nyéki út 1., Tárogató út 2-4.) és egy tervezett árpádföldi helyszínt; nem egyértelmű, melyik aktív oktatási helyszín. Ellenőrzésig nem kerültek fel pinként.

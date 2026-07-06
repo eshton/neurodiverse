@@ -1061,9 +1061,10 @@
       "providerType": "institution",
       "city": "Cegléd",
       "contact": "+36 30 169 0073, +36 70 776 7757",
+      "locationStatus": "single-confirmed",
       "sourceUrl": "https://www.adhd-magyarorszag.com/",
-      "lastReviewed": "2026-07-05",
-      "body": "Szakemberekből és szülőkből álló alapítvány, amely szakmai információkkal, nevelési és oktatási tapasztalatokkal segíti a hiperaktív gyerekeket és családjaikat. Országosan működik; bázisuk a Cegléd környéki Pálföldi Majorság, ahol táborokat és programokat tartanak. Pontos, házszám szintű cím nem áll rendelkezésre a majorsághoz, ezért — a projekt „ne találj ki adatot\" elve szerint — nincs térkép-pin: csak a város (Cegléd) szerepel, a szervezet nem jelenik meg a térképen."
+      "lastReviewed": "2026-07-06",
+      "body": "Szakemberekből és szülőkből álló alapítvány, amely szakmai információkkal, nevelési és oktatási tapasztalatokkal segíti a hiperaktív gyerekeket és családjaikat. Országosan működik; bázisuk a Cegléd környéki Pálföldi Majorság, ahol táborokat és programokat tartanak. Pontos, házszám szintű cím nem áll rendelkezésre a majorsághoz, ezért — a projekt „ne találj ki adatot\" elve szerint — nincs térkép-pin: csak a város (Cegléd) szerepel, a szervezet nem jelenik meg a térképen.\n\nA programok a Pálföldi Majorság / Pálföldi Fejlesztőközpont területén zajlanak (Kis-Közép út 10/B, 2700 Cegléd); a Kereszt u. 13. adminisztratív székhely."
     },
     {
       "id": "hu/adhd-s-gyerekek-szulei",
@@ -1147,8 +1148,9 @@
       "lat": 47.4813386,
       "lng": 19.1016138,
       "contact": "hello@autikum.hu",
+      "locationStatus": "single-confirmed",
       "sourceUrl": "https://autikum.hu/",
-      "lastReviewed": "2026-07-05",
+      "lastReviewed": "2026-07-06",
       "body": "Az AURA Autistákat Támogató Közhasznú Egyesület által működtetett közösségi tér, amely 2024-ben nyílt meg a VIII. kerületben, a Népliget közelében, budapesti közösségi költségvetési támogatásból. A heti programok egy kb. 110 m²-es térben zajlanak. Nyitott, bárki számára elérhető programok mellett zárt, kifejezetten autista felnőtteknek szóló csoportokat is tart: közösség- és kapcsolatépítő foglalkozásokat, kibeszélő kört, valamint szociális és kreatív készségfejlesztést. Szakembereknek szóló műhelyeket és esetmegbeszéléseket is szerveznek."
     },
     {
@@ -1179,8 +1181,9 @@
       "lat": 47.1075447,
       "lng": 17.9171595,
       "contact": "auticsop@gmail.com, +36 70 670 1716",
+      "locationStatus": "single-confirmed",
       "sourceUrl": "https://autispektrum.com/",
-      "lastReviewed": "2026-07-05",
+      "lastReviewed": "2026-07-06",
       "body": "2013 januárja óta működő önsegítő csoport, amelyet Veszprém megyei, autizmus spektrumzavarral élő gyermeket nevelő szülők hoztak létre. Szülőcsoport és szülőtréningek mellett szemléletformáló programokat, közös szabadidős tevékenységeket, nyári táborokat és fejlesztő programokat szerveznek, valamint Info-Pont irodát tartanak fenn a régió családjainak."
     },
     {
@@ -1211,8 +1214,9 @@
       "lat": 47.4893103,
       "lng": 19.0589117,
       "contact": "info@esoember.hu, +36 1 354 1073",
+      "locationStatus": "single-confirmed",
       "sourceUrl": "https://aosz.hu/rolunk/",
-      "lastReviewed": "2026-07-05",
+      "lastReviewed": "2026-07-06",
       "body": "Eredetileg „Autisták Érdekvédelmi Egyesülete\" néven, 1988-ban alakult; több mint harminc éve az autista emberek és családjaik érdekvédelmének meghatározó szereplője. Nem közvetlen önsegítő csoport, hanem országos ernyőszervezet: a tagszervezetein keresztül köti össze a helyi közösségeket, és Infocentrumán át ad tájékoztatást családoknak. Ügyfélfogadás: hétfő–csütörtök 9:00–16:00, péntek 9:00–14:00."
     },
     {
@@ -1243,8 +1247,9 @@
       "lat": 47.4815997,
       "lng": 19.095376,
       "contact": "ambulancia@autizmus.hu",
+      "locationStatus": "single-confirmed",
       "sourceUrl": "https://www.autizmus.hu/klub",
-      "lastReviewed": "2026-07-05",
+      "lastReviewed": "2026-07-06",
       "body": "Az Autizmus Alapítvány Ambulanciájának gondozottjai számára szerveződő klub, klubvezetője Kiss Gyöngyi. A részvétel az ambulanciai regisztrációhoz kötött: bejelentkezés/kontrollvizsgálat után a klubvezetővel egyeztetve lehet becsatlakozni, az első alkalom ismerkedéssel indul. Ugyanaz az intézmény önálló diagnosztikai szolgáltatást is nyújt (lásd a Diagnózis kategóriában az Autizmus Alapítvány Ambulanciát) — ez a klub attól különböző, közösségi szolgáltatás, ugyanazon a címen."
     },
     {
@@ -1274,9 +1279,10 @@
       "lng": 19.0530236,
       "contact": "+36 1 808 9977",
       "coverImage": "/covers/bodis-andras.jpg",
+      "locationStatus": "unsure",
       "sourceUrl": "https://www.wellwayclinics.hu/orvosok/bodis-andras-pszichologus/",
-      "lastReviewed": "2026-07-04",
-      "body": "WellWay Clinics-nek több telephelye is van Budapesten (pl. Futó utca 37.)."
+      "lastReviewed": "2026-07-06",
+      "body": "WellWay Clinics-nek több telephelye is van Budapesten (pl. Futó utca 37.).\n\nSzóló szakpszichológus; a WellWay-profil az Allee helyszínt jelöli, a katalógus a Szervita teret — nem egyértelmű, hány/melyik WellWay-rendelőben dolgozik. Több más intézményben is rendel (külön entitások)."
     },
     {
       "id": "hu/egy-masik-ut-pecs",
@@ -1304,8 +1310,20 @@
       "lat": 46.044559,
       "lng": 18.2175003,
       "contact": "egymasikut.hu",
+      "locationStatus": "multiple-confirmed",
+      "locations": [
+        {
+          "label": "Budapesti Központ",
+          "city": "Budapest",
+          "address": "1027 Budapest, Szász Károly u. 3.",
+          "lat": 47.5100707,
+          "lng": 19.0326861,
+          "contact": "+36 1 786 2941",
+          "note": "Az alapítvány Szegeden is működtet központot, de a pontos cím nem volt ellenőrizhető."
+        }
+      ],
       "sourceUrl": "https://www.egymasikut.hu/",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "2017 óta van pécsi telephelyük, a fő alapítvány budapesti."
     },
     {
@@ -1336,8 +1354,9 @@
       "lng": 19.1163447,
       "contact": "+36-30-322-5584, +36-30-529-5414",
       "coverImage": "/covers/fejlesztopalota.png",
+      "locationStatus": "single-confirmed",
       "sourceUrl": "https://palotafejleszto.hu/",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "4 fős csoportokban, heti 1-2 alkalommal, 60 perces foglalkozások."
     },
     {
@@ -1368,8 +1387,9 @@
       "lat": 47.7007102,
       "lng": 17.6290601,
       "contact": "+36 30 283 0904",
+      "locationStatus": "single-confirmed",
       "sourceUrl": "https://happancs.hu/",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "Orbán-Happ Adrienn TSMT terapeuta, óvodapedagógus és tanító."
     },
     {
@@ -1400,8 +1420,9 @@
       "lng": 19.0419472,
       "contact": "kislepesek.hu",
       "coverImage": "/covers/kislepesek.jpg",
+      "locationStatus": "single-confirmed",
       "sourceUrl": "https://kislepesek.hu/kozpont/",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "Az elsők között alkalmazták az ABA terápiát Magyarországon autista gyerekeknél."
     },
     {
@@ -1432,8 +1453,9 @@
       "lng": 19.0680695,
       "contact": "+36 20 236 1902, korpas.zoltan@hotmail.com",
       "coverImage": "/covers/korpas-zoltan.jpg",
+      "locationStatus": "single-confirmed",
       "sourceUrl": "https://www.adhdcoachbudapest.com/en",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "Az első konzultáció ingyenes."
     },
     {
@@ -1462,9 +1484,10 @@
       "lat": 47.5085469,
       "lng": 19.0211395,
       "contact": "+36 70 776 7757, info@leonardokid.hu",
+      "locationStatus": "unsure",
       "sourceUrl": "https://cogniplus.viennatestsystem.hu/fejlesztohelyek/",
-      "lastReviewed": "2026-07-04",
-      "body": "Nem volt elérhető önálló weboldal ellenőrzéskor (2026-07-04) — a fejlesztőhely-adatbázison keresztül azonosítva."
+      "lastReviewed": "2026-07-06",
+      "body": "Nem volt elérhető önálló weboldal ellenőrzéskor (2026-07-04) — a fejlesztőhely-adatbázison keresztül azonosítva.\n\nA saját domain (leonardokid.hu) nem elérhető; csak katalógusbejegyzések. Egyetlen vagy több helyszín nem volt megerősíthető."
     },
     {
       "id": "hu/malyvakek",
@@ -1489,14 +1512,26 @@
       "summary": "Egyéni és kiscsoportos fejlesztés, terápiás támogatás ADHD-val vagy autizmussal élő gyerekeknek, pszichológusok és gyógypedagógusok vezetésével, szülőkonzultációval.",
       "providerType": "center",
       "city": "Budapest",
-      "address": "1148 Budapest, Adria sétány 5/E.",
-      "lat": 47.5180254,
-      "lng": 19.1265704,
+      "address": "1148 Budapest, Vezér utca 138.",
+      "lat": 47.5180345,
+      "lng": 19.128794,
       "contact": "+36 70 667 9090",
       "coverImage": "/covers/malyvakek.jpg",
+      "locationStatus": "multiple-confirmed",
+      "locations": [
+        {
+          "label": "Mályvakék Belváros",
+          "city": "Budapest",
+          "address": "1066 Budapest, Dessewffy utca 28.",
+          "lat": 47.5060116,
+          "lng": 19.0578597,
+          "contact": "iroda@malyvakek.hu, +36 70 667 9090",
+          "note": "2026 januárjában nyílt."
+        }
+      ],
       "sourceUrl": "https://malyvarendelo.hu/adhd-es-autizmus-kozpont/",
-      "lastReviewed": "2026-07-04",
-      "body": "Külön közösségi teret is fenntartanak (1148 Budapest, Vezér utca 138/B)."
+      "lastReviewed": "2026-07-06",
+      "body": "Külön közösségi teret is fenntartanak (1148 Budapest, Vezér utca 138/B).\n\nA zuglói rendelő a korábbi Adria sétány 5/E címről a Vezér utca 138. alá költözött (saját foglalási oldal)."
     },
     {
       "id": "hu/mental-mood-medical",
@@ -1526,8 +1561,9 @@
       "lng": 19.0747695,
       "contact": "mentalmood.hu",
       "coverImage": "/covers/mentalmood.jpg",
+      "locationStatus": "single-confirmed",
       "sourceUrl": "https://mentalmood.hu/aktualis/pacienseknek/adhd-pszichoedukacios-csoport/",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "Multidiszciplináris team: coach, pszichológus, pszichiáter együtt."
     },
     {
@@ -1556,8 +1592,9 @@
       "lat": 47.4814452,
       "lng": 19.0695692,
       "contact": "mentara.hu",
+      "locationStatus": "single-confirmed",
       "sourceUrl": "https://mentara.hu/adhd/",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "Ferencvárosban, tömegközlekedéssel jól elérhető helyen."
     },
     {
@@ -1589,8 +1626,9 @@
       "lng": 20.1532417,
       "contact": "62/555-615, info@odukozpont.hu",
       "coverImage": "/covers/odu-kozpont.png",
+      "locationStatus": "single-confirmed",
       "sourceUrl": "https://odukozpont.hu/",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "Vezetője Futó Gabriella. Autizmus műhelyt is tart szülőknek és szakembereknek."
     },
     {
@@ -1621,8 +1659,9 @@
       "lat": 47.5384232,
       "lng": 21.6158125,
       "contact": "+36 52 458 060, +36 30 332 4537",
+      "locationStatus": "single-confirmed",
       "sourceUrl": "http://www.softalap.hu/",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "SOFT Alapítvány (\"Segítsd, Óvd Fogyatékos Társadat\" a Gyermekrehabilitációért) fenntartja."
     },
     {
@@ -1653,8 +1692,9 @@
       "lng": 19.095376,
       "contact": "+36 1 334-1123, terc@autizmus.hu",
       "coverImage": "/covers/autizmus-alapitvany-ambulancia.jpg",
+      "locationStatus": "single-confirmed",
       "sourceUrl": "https://www.autizmus.hu/terapiascentrum",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "Ugyanazon szervezet, mint a diagnózis kategóriában szereplő Autizmus Alapítvány Ambulancia — itt a terápiás (nem diagnosztikai) szolgáltatás szerepel."
     },
     {
@@ -1684,8 +1724,9 @@
       "lng": 19.0406962,
       "contact": "+36 1 445 0085, +36 70 701 5515",
       "coverImage": "/covers/ujbuda-fejlesztohaz.png",
+      "locationStatus": "single-confirmed",
       "sourceUrl": "https://ujbudagyermekfejleszto.hu/terapias-foglalkozasaink/autizmus-specifikus-terapia/",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "Etetési/evészavarok komplex terápiáját is kínálják, gyakori autizmus-melléktünet."
     },
     {
@@ -1714,8 +1755,9 @@
       "lat": 47.4890111,
       "lng": 19.0877576,
       "contact": "+36 20 556 3718, titkarsag@vikote.hu",
+      "locationStatus": "single-confirmed",
       "sourceUrl": "https://vikote.hu/adhd-keszsegfejleszto-csoport-2/",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "A központnak több budapesti helyszíne van a különböző csoportokhoz (pl. Baross u. 119/A, Balassa u. 6.)."
     },
     {
@@ -1772,16 +1814,16 @@
       "summary": "Autizmus spektrumzavar diagnosztikájára specializálódott alapítványi ambulancia, gyerekeknek és felnőtteknek, gondozásba vétellel és utánkövetéssel.",
       "providerType": "foundation",
       "city": "Budapest",
-      "address": "1089 Budapest, Delej utca 24-26.",
-      "lat": 47.4815997,
-      "lng": 19.095376,
+      "address": "1089 Budapest, Delej utca 21.",
+      "lat": 47.4809972,
+      "lng": 19.0954644,
       "contact": "06-1-3341-123, titkarsag.ambulancia@autizmus.hu",
       "priceNotes": "A gondozásba vett kliensek számára a legtöbb szolgáltatás a gondozás része, egyéb képzések önköltségesek.",
       "coverImage": "/covers/autizmus-alapitvany-ambulancia.jpg",
       "locationStatus": "single-confirmed",
       "sourceUrl": "https://www.autizmus.hu/szolgaltatasokleirasa",
       "lastReviewed": "2026-07-06",
-      "body": "Az egyik legrégebbi, legismertebb magyar autizmus-diagnosztikai intézmény."
+      "body": "Az egyik legrégebbi, legismertebb magyar autizmus-diagnosztikai intézmény.\n\nAz Ambulancia és a Terápiás Centrum a Delej u. 21. alatt működik (a 24-26. a székhely/iskola)."
     },
     {
       "id": "hu/bacs-kiskun-kecskemet",
@@ -5473,8 +5515,9 @@
       "lng": 19.0210621,
       "contact": "(06-1) 212-4595, addetur@baptistaoktatas.hu",
       "coverImage": "/covers/addetur-baptista-iskola.jpg",
+      "locationStatus": "single-confirmed",
       "sourceUrl": "https://www.addeturiskola.hu/",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "Ritka példa arra, hogy középfokon (gimnázium, technikum, szakiskola) is elérhető integrált oktatás autista fiataloknak — a legtöbb ilyen program általános iskolás korosztályra fókuszál."
     },
     {
@@ -5505,8 +5548,25 @@
       "lng": 18.4129013,
       "contact": "22-504-674, aranyegymi@aranyegymi.hu",
       "coverImage": "/covers/arany-janos-egymi-szekesfehervar.png",
+      "locationStatus": "multiple-confirmed",
+      "locations": [
+        {
+          "label": "Budai úti telephely (autizmus csoportok)",
+          "city": "Székesfehérvár",
+          "address": "8000 Székesfehérvár, Budai út 90.",
+          "lat": 47.1934566,
+          "lng": 18.426416
+        },
+        {
+          "label": "Ligetsori telephely (autizmus csoport)",
+          "city": "Székesfehérvár",
+          "address": "8000 Székesfehérvár, Ligetsor 1.",
+          "lat": 47.1964558,
+          "lng": 18.4003925
+        }
+      ],
       "sourceUrl": "http://aranyegymi.hu/",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "Autizmus-specifikus szakemberei utazó gyógypedagógusként is segítik az integrált nevelést a megyében, nem csak a saját telephelyen látnak el gyerekeket."
     },
     {
@@ -5536,8 +5596,9 @@
       "lng": 19.095376,
       "contact": "06-1-314-2859, aaakcs@autizmus.hu",
       "coverImage": "/covers/autizmus-alapitvany-iskola.jpg",
+      "locationStatus": "single-confirmed",
       "sourceUrl": "https://www.autizmus.hu/altalanosiskola",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "Az Autizmus Alapítvány saját fenntartású általános iskolája, ugyanazon a telephelyen, mint az alapítvány diagnosztikai ambulanciája (lásd a diagnosis kategóriában). Az egyik legrégebbi, kifejezetten autizmus-specifikus oktatási intézmény Magyarországon, szakembereket is képez a módszertan továbbadására."
     },
     {
@@ -5568,8 +5629,26 @@
       "lng": 20.1659925,
       "contact": "+36-62-547-078, barcziszeged@gmail.com",
       "coverImage": "/covers/barczi-gusztav-egymi-szeged.jpg",
+      "locationStatus": "multiple-confirmed",
+      "locations": [
+        {
+          "label": "Szilléri sugárúti telephely",
+          "city": "Szeged",
+          "address": "6723 Szeged, Szilléri sugárút 12.",
+          "lat": 46.2619045,
+          "lng": 20.1625916,
+          "contact": "(62) 474-226"
+        },
+        {
+          "label": "Agyagos utcai telephely",
+          "city": "Szeged",
+          "address": "6723 Szeged, Agyagos utca 45.",
+          "lat": 46.2748969,
+          "lng": 20.154994
+        }
+      ],
       "sourceUrl": "https://barcziszeged.edu.hu/",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "Terápiás kínálat: logopédia, Syndelar-terápia, zeneterápia, állatasszisztált terápia, autizmus-specifikus fejlesztés. A csoportokat vezető gyógypedagógusok autizmus-specifikus végzettséggel rendelkeznek."
     },
     {
@@ -5599,8 +5678,19 @@
       "lat": 46.0660793,
       "lng": 18.1973874,
       "contact": "06-72/259-774",
+      "locationStatus": "multiple-confirmed",
+      "locations": [
+        {
+          "label": "Székhely (Építők útja)",
+          "city": "Pécs",
+          "address": "7633 Pécs, Építők útja 9.",
+          "lat": 46.0677122,
+          "lng": 18.2029396,
+          "note": "A Hajnóczy u. 3. telephely; mindkettő oktatási helyszín."
+        }
+      ],
       "sourceUrl": "https://eltesm-pecs.edu.hu/autista.html",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "Négy összevont csoportban fejlesztik a 6-23 éves autizmus spektrumzavarral élő tanulókat. Az alsó tagozat a Hajnóczy utcai telephelyen van, a felső tagozat és a főépület más helyszínen."
     },
     {
@@ -5629,8 +5719,9 @@
       "lat": 47.4691191,
       "lng": 19.1617088,
       "contact": "1/262-4313, igazgato@eltescentrum.hu",
+      "locationStatus": "single-confirmed",
       "sourceUrl": "https://www.eltescentrum.hu/altalanos-iskola/",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "Kis létszámú osztályokban tanulnak a hiperaktív és figyelemzavarral küzdő gyerekek, minden osztályban gyógypedagógussal és pedagógiai asszisztenssel. A Kelet-Pesti Tankerületi Központ fenntartásában működik."
     },
     {
@@ -5659,8 +5750,9 @@
       "lat": 47.4810071,
       "lng": 19.0771994,
       "contact": "(1) 210-0323",
+      "locationStatus": "single-confirmed",
       "sourceUrl": "http://www.fkoai.fw.hu/",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "Az intézmény székhelye (óvoda, általános iskola) a Gát utca 6. szám alatt van, az autista tagozat külön telephelyen, a Thaly Kálmán utcában működik. Állami fenntartású Egységes Gyógypedagógiai Módszertani Intézmény (EGYMI)."
     },
     {
@@ -5690,8 +5782,9 @@
       "lng": 19.0435733,
       "contact": "+36 1 231 7020, gazdasagi@humanusiskola.hu",
       "coverImage": "/covers/humanus-alapitvanyi-iskola.png",
+      "locationStatus": "single-confirmed",
       "sourceUrl": "https://www.humanusiskola.com/",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "Korábban a Megyeri út 20/B alatt működött (ez az adat még sok könyvtárban szerepel), az iskola azóta a XI. kerületbe, a Kanizsai utcába költözött — a jelenlegi címet a hivatalos KIR intézménykereső alapján ellenőriztük."
     },
     {
@@ -5721,8 +5814,9 @@
       "lat": 46.9055692,
       "lng": 19.6791189,
       "contact": "+36 (76) 418-774, autiroda@gmail.com",
+      "locationStatus": "single-confirmed",
       "sourceUrl": "https://gyogyped.hu/autizmus-centrum/",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "Óvodai, általános iskolai és fejlesztő nevelést-oktatást végző iskolai egységekből áll, 3-tól 24 éves korig fejlesztve az autizmussal élő gyerekeket és fiatalokat."
     },
     {
@@ -5752,8 +5846,20 @@
       "lng": 21.6455016,
       "contact": "0652/411-946, iskola@kinizsi-debr.edu.hu",
       "coverImage": "/covers/kinizsi-pal-iskola-debrecen.png",
+      "locationStatus": "multiple-confirmed",
+      "locations": [
+        {
+          "label": "Monostorpályi úti tagintézmény",
+          "city": "Debrecen",
+          "address": "4030 Debrecen, Monostorpályi út 63.",
+          "lat": 47.5039164,
+          "lng": 21.6534104,
+          "contact": "06-52-535225",
+          "note": "Integrált SNI-oktatás; az autizmus-specifikus osztályok a Kurucz utcai székhelyen működnek."
+        }
+      ],
       "sourceUrl": "http://kinizsi-debr.sulinet.hu/",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "Az osztályokban tanárok és tanítók dolgoznak gyógypedagógiai asszisztensek segítségével, 8 évfolyamon, kifejezetten ép intellektusú autista tanulóknak szóló programban."
     },
     {
@@ -5783,8 +5889,9 @@
       "lat": 47.5611021,
       "lng": 18.9587894,
       "contact": "(06 1) 397-45-69, klebi@klebelsberg.sulinet.hu",
+      "locationStatus": "single-confirmed",
       "sourceUrl": "https://www.klebi.hu/",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "A 2018-2019-es tanévben 10 autista tanulót láttak el. Differenciált, egyéni tempóhoz igazított oktatásszervezéssel dolgoznak, általános iskolai és gimnáziumi (4 évfolyamos) szinten egyaránt."
     },
     {
@@ -5815,8 +5922,25 @@
       "lng": 20.1797651,
       "contact": "06-56/421-103, ligetaltisk@liget-szolnok.edu.hu",
       "coverImage": "/covers/liget-uti-egymi-szolnok.jpg",
+      "locationStatus": "multiple-confirmed",
+      "locations": [
+        {
+          "label": "Autizmus Centrum – óvoda telephely",
+          "city": "Szolnok",
+          "address": "5000 Szolnok, Liget utca 25.",
+          "lat": 47.1811841,
+          "lng": 20.1797651
+        },
+        {
+          "label": "Autizmus Centrum – általános iskola tagintézmény",
+          "city": "Szolnok",
+          "address": "5000 Szolnok, Mátyás király út 20.",
+          "lat": 47.1784712,
+          "lng": 20.1782266
+        }
+      ],
       "sourceUrl": "https://www.ligetutiiskola.hu",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "2019 szeptemberében indult önálló egységként a Liget Úti EGYMI-n belül. Három szint: óvodai csoport (hivatalos szakértői véleménnyel érkező gyerekeknek), általános iskola (6 osztálycsoport), és készségfejlesztő iskola az értelmi fogyatékossággal élő végzősöknek."
     },
     {
@@ -5846,8 +5970,39 @@
       "lat": 48.1076987,
       "lng": 20.7933913,
       "coverImage": "/covers/miskolci-eltes-egymi.png",
+      "locationStatus": "multiple-confirmed",
+      "locations": [
+        {
+          "label": "Miklós utcai Tagóvoda és Tagiskola",
+          "city": "Miskolc",
+          "address": "3532 Miskolc, Miklós utca 13.",
+          "lat": 48.1048274,
+          "lng": 20.7390053
+        },
+        {
+          "label": "Tüskevár Tagóvoda és Tagiskola",
+          "city": "Miskolc",
+          "address": "3532 Miskolc, Károly utca 10.",
+          "lat": 48.090551,
+          "lng": 20.779616
+        },
+        {
+          "label": "Gagarin úti Óvoda",
+          "city": "Miskolc",
+          "address": "3534 Miskolc, Gagarin utca 50.",
+          "lat": 48.0952111,
+          "lng": 20.7056218
+        },
+        {
+          "label": "Kórházi Tagozat (Velkey GYEK)",
+          "city": "Miskolc",
+          "address": "3526 Miskolc, Szentpéteri kapu 72-76.",
+          "lat": 48.1208833,
+          "lng": 20.7910364
+        }
+      ],
       "sourceUrl": "https://miskolcegymi.hu/autizmus-specifikus-ellatas/",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "Az integráltan, tipikus iskolákban tanuló autista gyerekeket is segítik utazó gyógypedagógusi szolgáltatással, nem csak a saját telephelyükön ellátott tanulókat."
     },
     {
@@ -5876,8 +6031,19 @@
       "lat": 47.9526529,
       "lng": 21.715605,
       "contact": "(06 42) 314-520",
+      "locationStatus": "multiple-confirmed",
+      "locations": [
+        {
+          "label": "Kürt utcai telephely",
+          "city": "Nyíregyháza",
+          "address": "4400 Nyíregyháza, Kürt utca 10.",
+          "lat": 47.9521873,
+          "lng": 21.7171426,
+          "note": "Igazolt telephely; az autista csoportok a Szarvas utcai székhelyen működnek."
+        }
+      ],
       "sourceUrl": "https://barczisuli.hu/autista-csoportok/",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "Az utca két azonos nevű szakaszra oszlik Nyíregyházán — a koordináta a belvárosi szakaszra mutat; az utcaszintű pontosság megegyezik a diagnosis kategóriában alkalmazott gyakorlattal, amikor a pontos épület nem azonosítható egyértelműen."
     },
     {
@@ -5907,8 +6073,9 @@
       "lat": 47.5322883,
       "lng": 19.0780484,
       "contact": "+36 1 330 7153",
+      "locationStatus": "single-confirmed",
       "sourceUrl": "https://ovoda.bp13.hu/pitypang-tagovoda/magunkrol/integracio/",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "Egyénre szabott fejlesztési tervekkel és speciális differenciáló módszerekkel dolgoznak, szoros együttműködésben logopédussal, gyógypedagógussal és a családdal."
     },
     {
@@ -5936,8 +6103,27 @@
       "address": "1047 Budapest, Váci út 57.",
       "lat": 47.5709908,
       "lng": 19.0809402,
+      "locationStatus": "multiple-confirmed",
+      "locations": [
+        {
+          "label": "Lehel úti telephely (általános iskola)",
+          "city": "Budapest",
+          "address": "1134 Budapest, Lehel út 16.",
+          "lat": 47.5209758,
+          "lng": 19.0686977,
+          "contact": "+36 1 445 0382"
+        },
+        {
+          "label": "Lomb utcai telephely (óvoda)",
+          "city": "Budapest",
+          "address": "1139 Budapest, Lomb utca 20.",
+          "lat": 47.5369552,
+          "lng": 19.0704609,
+          "contact": "+36 1 320 8764"
+        }
+      ],
       "sourceUrl": "https://prizmaegymi.hu/autista-tagozat-bemutatkozas/",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "Az autista tagozat osztályai két telephelyen működnek: a Prizma épületében és az Ének-Zenei és Testnevelési Általános Iskola épületében. Az egyik legrégebb óta (1992-től) folyamatosan működő autizmus-specifikus tagozat Magyarországon."
     },
     {
@@ -5967,8 +6153,9 @@
       "lng": 19.1255428,
       "contact": "06-1/251-95-45, titkar@siketekbp.co.hu",
       "coverImage": "/covers/sikeretek-autista-iskola-bp.bmp",
+      "locationStatus": "single-confirmed",
       "sourceUrl": "https://siketekbp.co.hu/autista-altalanos-iskola/",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "Bár az intézmény alapvetően hallássérült gyerekeket lát el, 2017 szeptemberétől külön autizmus-specifikus óvodai csoportot, 2018 szeptemberétől pedig iskolai osztályokat is indított — jelenleg egy óvodai csoport és öt általános iskolai osztály."
     },
     {
@@ -5996,8 +6183,18 @@
       "address": "1181 Budapest, Kondor Béla sétány 4.",
       "lat": 47.4365374,
       "lng": 19.1646315,
+      "locationStatus": "multiple-confirmed",
+      "locations": [
+        {
+          "label": "SOFI-Liget telephely",
+          "city": "Budapest",
+          "address": "1181 Budapest, Kondor Béla sétány 15.",
+          "lat": 47.4376999,
+          "lng": 19.1648481
+        }
+      ],
       "sourceUrl": "http://www.sofi.hu/csoportjaink/autista-csoportok/",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "Nem tévesztendő össze az egri Dr. Sófi Gyula gyermekpszichiáterrel (diagnosis kategória) — teljesen más intézmény, csak névrokon rövidítés. Az autizmus-specifikus csoportokban a gyerekek egyéni képességeikhez és haladási ütemükhöz igazított fejlesztést kapnak. Telefonos/e-mail elérhetőség nem volt fellelhető a nyilvános oldalon ellenőrzéskor."
     },
     {
@@ -6029,9 +6226,10 @@
       "contact": "+36 20 291 9579, info@turbotanoda.hu",
       "coverImage": "/covers/turbotanoda.png",
       "priceNotes": "Komplex terápiás foglalkozás 15 000 Ft/50 perc, iskola-előkészítő 6 000 Ft/50 perc, pedagógiai szakvélemény diagnózissal 80 000 Ft (ellenőrizve: 2026-07-04).",
+      "locationStatus": "unsure",
       "sourceUrl": "https://turbotanoda.hu/",
-      "lastReviewed": "2026-07-04",
-      "body": "Nem hagyományos állami iskola, hanem magán fejlesztő intézmény: a gyerekeket legalább az általános iskola első négy, szükség esetén hatodik évének végéig készíti fel a bármely iskolatípusba történő integrációra."
+      "lastReviewed": "2026-07-06",
+      "body": "Nem hagyományos állami iskola, hanem magán fejlesztő intézmény: a gyerekeket legalább az általános iskola első négy, szükség esetén hatodik évének végéig készíti fel a bármely iskolatípusba történő integrációra.\n\nA saját kapcsolati oldal a Kiscelli u. 104. mellett II. kerületi címeket is felsorol (Nyéki út 1., Tárogató út 2-4.) és egy tervezett árpádföldi helyszínt; nem egyértelmű, melyik aktív oktatási helyszín. Ellenőrzésig nem kerültek fel pinként."
     },
     {
       "id": "hu/vadaskert-iskola",
@@ -6060,8 +6258,9 @@
       "lat": 47.4537851,
       "lng": 19.0352821,
       "contact": "+36 1 606 7202, vadaskertiskola@gmail.com",
+      "locationStatus": "single-confirmed",
       "sourceUrl": "http://www.vadaskertiskola.hu/",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "A Vadaskert Alapítvány (lásd diagnosis kategória) saját iskolája, más telephelyen. Kiscsoportos oktatás, vizuális támogatással és strukturált napirenddel, iskolaelőkészítő programmal 5-7 éves korban."
     },
     {
@@ -6090,8 +6289,9 @@
       "lat": 48.086839,
       "lng": 20.7368965,
       "contact": "+36 46 532 476, vargahegyifejlesztoiskola@gmail.com",
+      "locationStatus": "single-confirmed",
       "sourceUrl": "https://www.miskolciautista.com/tevekenysegeink/vargahegyi-autista-alapfoku-fejleszto-iskola",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "Az Alapítvány több mint 30 éve dolgozik autizmussal élő emberekkel Miskolcon; az iskola mellett támogatott lakhatást és napközbeni ellátást is működtet."
     },
     {
@@ -6121,8 +6321,27 @@
       "lat": 47.6565617,
       "lng": 19.281165,
       "contact": "+36-28-500-055, titkarsag@veresegyhaz-egymi.hu",
+      "locationStatus": "multiple-confirmed",
+      "locations": [
+        {
+          "label": "Dunakeszi Tagintézmény",
+          "city": "Dunakeszi",
+          "address": "2120 Dunakeszi, Fóti út 2.",
+          "lat": 47.6222399,
+          "lng": 19.1588763,
+          "contact": "titkarsag@veresegyhaz-egymi.hu"
+        },
+        {
+          "label": "Dunakeszi János utcai óvodai telephely",
+          "city": "Dunakeszi",
+          "address": "2120 Dunakeszi, János utca 5.",
+          "lat": 47.6376536,
+          "lng": 19.1310334,
+          "note": "Két további KIR-telephely (Fejlesztőház, Dunakeszi ÉRTAK) létezik, de pontos címük nem ellenőrizhető."
+        }
+      ],
       "sourceUrl": "https://veresegyhaz-egymi.hu/",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "Utazó gyógypedagógusi szolgálatot is működtetnek, amely a térség más iskoláiban integráltan tanuló autista és egyéb SNI-s gyerekeket is segíti, nem csak a saját telephelyükön ellátottakat."
     },
     {
@@ -6151,8 +6370,19 @@
       "lat": 47.5096992,
       "lng": 19.1324193,
       "contact": "061/220-4841",
+      "locationStatus": "multiple-confirmed",
+      "locations": [
+        {
+          "label": "Fráter György utcai telephely (autista óvoda)",
+          "city": "Budapest",
+          "address": "1149 Budapest, Fráter György utca 15-17.",
+          "lat": 47.5089443,
+          "lng": 19.1223539,
+          "note": "A többi KIR-telephely integrált/utazó gyógypedagógusi szolgálati pont, nem önálló autista tagozat."
+        }
+      ],
       "sourceUrl": "https://www.benedekelek.hu/",
-      "lastReviewed": "2026-07-04",
+      "lastReviewed": "2026-07-06",
       "body": "Két óvodai csoportjuk közül az egyik kifejezetten autizmussal élő gyerekeknek szól (a másik értelmileg akadályozott gyerekeknek), az iskolai szinten pedig négy autizmus-specifikus osztálycsoportot működtetnek."
     },
     {

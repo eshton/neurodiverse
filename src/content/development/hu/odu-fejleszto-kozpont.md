@@ -12,10 +12,11 @@ lat: 46.2701243
 lng: 20.1532417
 contact: "62/555-615, info@odukozpont.hu"
 coverImage: "/covers/odu-kozpont.png"
+locationStatus: single-confirmed
 sourceUrl: "https://odukozpont.hu/"
 ratings: []
 curatedBy: manual
-lastReviewed: 2026-07-04
+lastReviewed: 2026-07-06
 ---
 
 Vezetője Futó Gabriella. Autizmus műhelyt is tart szülőknek és szakembereknek.

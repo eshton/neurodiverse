@@ -11,10 +11,11 @@ address: "1119 Budapest, Rátz László utca 3-7."
 lat: 47.4537851
 lng: 19.0352821
 contact: "+36 1 606 7202, vadaskertiskola@gmail.com"
+locationStatus: single-confirmed
 sourceUrl: "http://www.vadaskertiskola.hu/"
 ratings: []
 curatedBy: manual
-lastReviewed: 2026-07-04
+lastReviewed: 2026-07-06
 ---
 
 A Vadaskert Alapítvány (lásd diagnosis kategória) saját iskolája, más telephelyen. Kiscsoportos oktatás, vizuális támogatással és strukturált napirenddel, iskolaelőkészítő programmal 5-7 éves korban.

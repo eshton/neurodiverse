@@ -12,10 +12,11 @@ lat: 47.4966797
 lng: 19.0747695
 contact: "mentalmood.hu"
 coverImage: "/covers/mentalmood.jpg"
+locationStatus: single-confirmed
 sourceUrl: "https://mentalmood.hu/aktualis/pacienseknek/adhd-pszichoedukacios-csoport/"
 ratings: []
 curatedBy: manual
-lastReviewed: 2026-07-04
+lastReviewed: 2026-07-06
 ---
 
 Multidiszciplináris team: coach, pszichológus, pszichiáter együtt.

@@ -12,10 +12,11 @@ lat: 47.4560927
 lng: 19.0406962
 contact: "+36 1 445 0085, +36 70 701 5515"
 coverImage: "/covers/ujbuda-fejlesztohaz.png"
+locationStatus: single-confirmed
 sourceUrl: "https://ujbudagyermekfejleszto.hu/terapias-foglalkozasaink/autizmus-specifikus-terapia/"
 ratings: []
 curatedBy: manual
-lastReviewed: 2026-07-04
+lastReviewed: 2026-07-06
 ---
 
 Etetési/evészavarok komplex terápiáját is kínálják, gyakori autizmus-melléktünet.

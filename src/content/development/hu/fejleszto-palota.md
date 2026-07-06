@@ -12,10 +12,11 @@ lat: 47.5618036
 lng: 19.1163447
 contact: "+36-30-322-5584, +36-30-529-5414"
 coverImage: "/covers/fejlesztopalota.png"
+locationStatus: single-confirmed
 sourceUrl: "https://palotafejleszto.hu/"
 ratings: []
 curatedBy: manual
-lastReviewed: 2026-07-04
+lastReviewed: 2026-07-06
 ---
 
 4 fős csoportokban, heti 1-2 alkalommal, 60 perces foglalkozások.

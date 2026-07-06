@@ -12,10 +12,11 @@ lat: 47.4802645
 lng: 19.0419472
 contact: "kislepesek.hu"
 coverImage: "/covers/kislepesek.jpg"
+locationStatus: single-confirmed
 sourceUrl: "https://kislepesek.hu/kozpont/"
 ratings: []
 curatedBy: manual
-lastReviewed: 2026-07-04
+lastReviewed: 2026-07-06
 ---
 
 Az elsők között alkalmazták az ABA terápiát Magyarországon autista gyerekeknél.

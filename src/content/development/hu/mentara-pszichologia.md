@@ -11,10 +11,11 @@ address: "1094 Budapest, Angyal utca 13. 4. emelet 3."
 lat: 47.4814452
 lng: 19.0695692
 contact: "mentara.hu"
+locationStatus: single-confirmed
 sourceUrl: "https://mentara.hu/adhd/"
 ratings: []
 curatedBy: manual
-lastReviewed: 2026-07-04
+lastReviewed: 2026-07-06
 ---
 
 Ferencvárosban, tömegközlekedéssel jól elérhető helyen.

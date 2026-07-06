@@ -12,10 +12,11 @@ lat: 47.4724492
 lng: 19.0435733
 contact: "+36 1 231 7020, gazdasagi@humanusiskola.hu"
 coverImage: "/covers/humanus-alapitvanyi-iskola.png"
+locationStatus: single-confirmed
 sourceUrl: "https://www.humanusiskola.com/"
 ratings: []
 curatedBy: manual
-lastReviewed: 2026-07-04
+lastReviewed: 2026-07-06
 ---
 
 Korábban a Megyeri út 20/B alatt működött (ez az adat még sok könyvtárban szerepel), az iskola azóta a XI. kerületbe, a Kanizsai utcába költözött — a jelenlegi címet a hivatalos KIR intézménykereső alapján ellenőriztük.

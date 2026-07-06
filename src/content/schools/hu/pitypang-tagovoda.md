@@ -11,10 +11,11 @@ address: "1139 Budapest, Országbíró utca 10."
 lat: 47.5322883
 lng: 19.0780484
 contact: "+36 1 330 7153"
+locationStatus: single-confirmed
 sourceUrl: "https://ovoda.bp13.hu/pitypang-tagovoda/magunkrol/integracio/"
 ratings: []
 curatedBy: manual
-lastReviewed: 2026-07-04
+lastReviewed: 2026-07-06
 ---
 
 Egyénre szabott fejlesztési tervekkel és speciális differenciáló módszerekkel dolgoznak, szoros együttműködésben logopédussal, gyógypedagógussal és a családdal.

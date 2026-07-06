@@ -11,10 +11,11 @@ address: "3533 Miskolc, Csermőkei út 2/a."
 lat: 48.0868390
 lng: 20.7368965
 contact: "+36 46 532 476, vargahegyifejlesztoiskola@gmail.com"
+locationStatus: single-confirmed
 sourceUrl: "https://www.miskolciautista.com/tevekenysegeink/vargahegyi-autista-alapfoku-fejleszto-iskola"
 ratings: []
 curatedBy: manual
-lastReviewed: 2026-07-04
+lastReviewed: 2026-07-06
 ---
 
 Az Alapítvány több mint 30 éve dolgozik autizmussal élő emberekkel Miskolcon; az iskola mellett támogatott lakhatást és napközbeni ellátást is működtet.

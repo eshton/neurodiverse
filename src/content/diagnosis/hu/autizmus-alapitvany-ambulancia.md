@@ -7,9 +7,9 @@ tags: [foundation, all-ages]
 providerType: foundation
 ageGroup: both
 city: "Budapest"
-address: "1089 Budapest, Delej utca 24-26."
-lat: 47.4815997
-lng: 19.0953760
+address: "1089 Budapest, Delej utca 21."
+lat: 47.4809972
+lng: 19.0954644
 contact: "06-1-3341-123, titkarsag.ambulancia@autizmus.hu"
 priceNotes: "A gondozásba vett kliensek számára a legtöbb szolgáltatás a gondozás része, egyéb képzések önköltségesek."
 coverImage: "/covers/autizmus-alapitvany-ambulancia.jpg"
@@ -21,3 +21,5 @@ lastReviewed: 2026-07-06
 ---
 
 Az egyik legrégebbi, legismertebb magyar autizmus-diagnosztikai intézmény.
+
+Az Ambulancia és a Terápiás Centrum a Delej u. 21. alatt működik (a 24-26. a székhely/iskola).

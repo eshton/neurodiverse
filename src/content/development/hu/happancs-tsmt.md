@@ -11,10 +11,11 @@ address: "9026 Győr, Hédervári út 81."
 lat: 47.7007102
 lng: 17.6290601
 contact: "+36 30 283 0904"
+locationStatus: single-confirmed
 sourceUrl: "https://happancs.hu/"
 ratings: []
 curatedBy: manual
-lastReviewed: 2026-07-04
+lastReviewed: 2026-07-06
 ---
 
 Orbán-Happ Adrienn TSMT terapeuta, óvodapedagógus és tanító.

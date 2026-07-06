@@ -63,14 +63,51 @@ The task was prompted by "MARS Alapítvány is in many places." Investigation sh
 - `autizmus-alapitvany-ambulancia`: the diagnostic Ambulancia may be at **Delej u. 21**, not the on-file 24-26 (which is the foundation's main office/school). Same block, ~50 m; left as-is pending confirmation.
 - `nagykallo-adhd-szakambulancia`: the source URL `adhdterapia.hu/vizsgalatihelyszinek` is a **referral directory** of independent hospitals (the MARS pattern again), not branches — correctly *not* attributed as extra sites.
 
-### schools (23)
+### schools (23) — researched 2026-07-06 (all)
 
-_pending_
+**Multiple-confirmed (11)** — EGYMI networks whose telephelyek deliver the autism/SNI education (verified via the school's own site + the scool.hu KIR mirror; oktatas.hu KIR itself was 503 during the pass):
 
-### development (15)
+| Slug | Extra site(s) |
+|---|---|
+| arany-janos-egymi-szekesfehervar | Budai út 90. + Ligetsor 1. (autizmus csoportok) |
+| barczi-gusztav-egymi-szeged | Szilléri sugárút 12. + Agyagos utca 45. |
+| eltes-egymi-pecs | Építők útja 9. (székhely; Hajnóczy u. 3. a telephely) |
+| kinizsi-pal-iskola-debrecen | Monostorpályi út 63. — *integrált SNI; az autizmus-osztályok a Kurucz utcai székhelyen* |
+| liget-uti-egymi-szolnok | Liget utca 25. (óvoda) + Mátyás király út 20. (ált. iskola) |
+| miskolci-eltes-egymi | Miklós u. 13., Károly u. 10., Gagarin u. 50., Szentpéteri kapu 72-76. (kórházi tagozat) |
+| nyiregyhazi-barczi-egymi | Kürt utca 10. — *telephely; autista csoportok a Szarvas u. székhelyen* |
+| prizma-egymi | Lehel út 16. (ált. iskola) + Lomb utca 20. (óvoda) |
+| sofi-ovoda-bp18 | Kondor Béla sétány 15. (SOFI-Liget) |
+| veresegyhazi-egymi | Dunakeszi: Fóti út 2. + János utca 5. |
+| zugloi-benedek-elek-egymi | Fráter György utca 15-17. (autista óvoda) |
 
-_pending_
+**Unsure (1):** turbotanoda — own contact page lists II. kerületi címeket (Nyéki út 1., Tárogató út 2-4.) + tervezett árpádföldi hely, de nem egyértelmű melyik aktív oktatási helyszín; nem került pinre (leadok itt megőrizve).
 
-### communities (8)
+**Single-confirmed (11):** addetur-baptista-iskola, autizmus-alapitvany-iskola, eltes-matyas-iskola, ferencvarosi-egymi-autista-tagozat, humanus-alapitvanyi-iskola, kecskemeti-egymi-autizmus-centrum, klebelsberg-kuno-iskola, pitypang-tagovoda, sikeretek-autista-iskola-bp, vadaskert-iskola, vargahegyi-autista-iskola.
 
-_pending_
+*Correctly excluded (MARS discipline):* ferencvárosi/kecskeméti parent-EGYMI other telephelyek are non-autism units; zuglói utazó-gyógypedagógusi szolgálati pontok in mainstream schools; Vadaskert Iskola's Hegyalja úti operating Kft. **Flag:** `prizma-egymi` székhely postcode is 1047 vs 1134 on Váci út 57 per KIR — verify the primary pin (not changed).
+
+### development (15) — researched 2026-07-06 (all)
+
+**Multiple-confirmed (2):**
+
+| Slug | Extra site(s) |
+|---|---|
+| egy-masik-ut-pecs | Budapest, Szász Károly u. 3. (Szeged center exists too, address unverifiable) |
+| malyvakek | **Primary relocated** Adria sétány 5/E → Vezér utca 138. (Zugló); + new Belváros, Dessewffy utca 28. |
+
+**Unsure (2):** bodis-andras (solo psychologist; WellWay profile pins Allee, directory says Szervita — unclear which/how many sites), leonardokid (own domain dead, only directory listings).
+
+**Single-confirmed (11):** fejleszto-palota, happancs-tsmt, kislepesek-alapitvany, korpas-zoltan-adhd-coach, mental-mood-medical, mentara-pszichologia, odu-fejleszto-kozpont, szivarvany-korai-fejleszto, terc, ujbuda-fejlesztohaz, vikote.
+
+**Flags for later review (not changed):** `fejleszto-palota` may have moved to Epres sor 1.; `kislepesek-alapitvany` therapy is at Fürj u. 4/a (Ménesi u. is the postal HQ); `vikote` rendelő is Baross u. 119/A (Kálvária tér is a training venue); `terc` sessions mostly at Delej u. 21 (same campus); `mentara` operations taken over by Orchidea Központ (may not run independently in 2026).
+
+### communities (8) — researched 2026-07-06 (all)
+
+**Single-confirmed, physical (5):** autikum (AURA's own venue; its klub events run at *rented* third-party halls — excluded), autispektrum-egyesulet-veszprem, autistak-orszagos-szovetsege (its ~100 tagszervezet and regional Info-Pont offices are *separate entities*, run by member orgs — excluded), autizmus-alapitvany-felnott-klub (Delej u. 24-26; the Delej u. 21 building is the Ambulancia/TERC, its own entries — not the klub). adhd-magyarorszag-alapitvany — one physical site (Pálföldi Majorság, Kis-Közép út 10/B, Cegléd; noted in body, no pin: Nominatim couldn't resolve the street).
+
+**Online-only, no physical site (locationStatus intentionally omitted — the concept is N/A):** adhd-felnott-onsegito-csoport, adhd-s-gyerekek-szulei, asperger-hu.
+
+### diagnosis address correction confirmed this pass
+
+`autizmus-alapitvany-ambulancia` primary corrected 1089 Delej u. 24-26. → **Delej u. 21.** (the Ambulancia/TERC building) — independently confirmed by the diagnosis-B1 and communities-C2 research. The 24-26 address is the foundation's HQ/school.

@@ -12,10 +12,11 @@ lat: 47.4815997
 lng: 19.0953760
 contact: "06-1-314-2859, aaakcs@autizmus.hu"
 coverImage: "/covers/autizmus-alapitvany-iskola.jpg"
+locationStatus: single-confirmed
 sourceUrl: "https://www.autizmus.hu/altalanosiskola"
 ratings: []
 curatedBy: manual
-lastReviewed: 2026-07-04
+lastReviewed: 2026-07-06
 ---
 
 Az Autizmus Alapítvány saját fenntartású általános iskolája, ugyanazon a telephelyen, mint az alapítvány diagnosztikai ambulanciája (lásd a diagnosis kategóriában). Az egyik legrégebbi, kifejezetten autizmus-specifikus oktatási intézmény Magyarországon, szakembereket is képez a módszertan továbbadására.

@@ -11,10 +11,11 @@ address: "6000 Kecskemét, Szalag utca 9."
 lat: 46.9055692
 lng: 19.6791189
 contact: "+36 (76) 418-774, autiroda@gmail.com"
+locationStatus: single-confirmed
 sourceUrl: "https://gyogyped.hu/autizmus-centrum/"
 ratings: []
 curatedBy: manual
-lastReviewed: 2026-07-04
+lastReviewed: 2026-07-06
 ---
 
 Óvodai, általános iskolai és fejlesztő nevelést-oktatást végző iskolai egységekből áll, 3-tól 24 éves korig fejlesztve az autizmussal élő gyerekeket és fiatalokat.

@@ -12,10 +12,11 @@ lat: 47.5122543
 lng: 19.0210621
 contact: "(06-1) 212-4595, addetur@baptistaoktatas.hu"
 coverImage: "/covers/addetur-baptista-iskola.jpg"
+locationStatus: single-confirmed
 sourceUrl: "https://www.addeturiskola.hu/"
 ratings: []
 curatedBy: manual
-lastReviewed: 2026-07-04
+lastReviewed: 2026-07-06
 ---
 
 Ritka példa arra, hogy középfokon (gimnázium, technikum, szakiskola) is elérhető integrált oktatás autista fiataloknak — a legtöbb ilyen program általános iskolás korosztályra fókuszál.
