@@ -1,8 +1,9 @@
 {
-  "name": "neurodiverse",
+  "name": "neuropont",
   "type": "module",
   "version": "0.1.0",
   "private": true,
+  "description": "Neuropont — a curated, location-aware directory of ADHD & autism resources in Hungary (map, browsable web grid, and an open committed dataset). Static Astro site; content is markdown, git is the datastore.",
   "engines": {
     "node": ">=20"
   },
