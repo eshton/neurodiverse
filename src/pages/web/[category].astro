@@ -1,0 +1,41 @@
+---
+// /web/<category> — one permalinked, fixed list per web content type. The tab
+// bar (in WebExplorer) navigates between them; only the age filter remains.
+// Replaces the old single combined /web grid with type toggles.
+import MapLayout from '../../layouts/MapLayout.astro';
+import WebExplorer from '../../components/WebExplorer.astro';
+import DetailPanel from '../../components/DetailPanel.astro';
+import { getCollection } from 'astro:content';
+import { WEB_CATEGORIES, CATEGORY_LABELS } from '../../lib/categories';
+
+const WEB = [...WEB_CATEGORIES];
+
+export function getStaticPaths() {
+  return [...WEB_CATEGORIES].map((category) => ({ params: { category } }));
+}
+
+const { category } = Astro.params;
+
+const entries = await getCollection(category as any, (entry: any) => entry.data.locale === 'hu');
+const items = entries.map((entry: any) => ({
+  title: entry.data.title,
+  summary: entry.data.summary,
+  coverImage: entry.data.coverImage,
+  category,
+  ageGroup: entry.data.ageGroup,
+  entryType: entry.data.entryType,
+  parentTitle: entry.data.parentTitle,
+  topScore: entry.data.ratings[0],
+  availability: entry.data.availability,
+  href: `/hu/${category}/${entry.id.split('/').slice(1).join('/')}/`,
+}));
+
+const label = CATEGORY_LABELS[category as string] ?? category;
+---
+<MapLayout
+  title={`${label} | Neurodiverz Térkép`}
+  description={`ADHD- és autizmus-témájú ${label.toLowerCase()} kurátorolt, ellenőrzött listája. ${items.length} bejegyzés.`}
+>
+  <WebExplorer items={items} category={category as string} categories={WEB} />
+  <DetailPanel />
+</MapLayout>

@@ -15,6 +15,14 @@ const SITE = process.env.SITE_URL || 'https://neurodiverse.pages.dev';
 
 export default defineConfig({
   site: SITE,
+  // /web has no combined view anymore — each content type is its own permalinked
+  // list (/web/<category>). Send the bare /web to the first category so old links
+  // and the header don't 404. Query strings (e.g. ?age=) aren't preserved across
+  // this static redirect, so callers that need the age param (the landing page,
+  // header) link straight to /web/books.
+  redirects: {
+    '/web': '/web/books',
+  },
   // Hover/viewport prefetch so a link's target page is already in memory by the
   // time it's clicked — pairs with <ClientRouter/> for instant, refresh-free
   // navigation over the static build. See docs/proposals/client-data-layer.md.

@@ -1,7 +1,10 @@
 ---
-// Grid counterpart to MapExplorer for content that has no physical location
-// (books, podcasts, videos, equipment) — same filter-bar look (type chips +
-// age toggle), minus the location selector, since there's no map to recenter.
+// Per-category grid for content with no physical location. Each web category is
+// its own permalinked page (/web/<category>); the tab bar navigates between them
+// (plain links, not filters — "why would anyone see movies and articles
+// together?"). Only the age toggle actually filters, within the one category.
+import { CATEGORY_LABELS, CATEGORY_META } from '../lib/categories';
+
 interface WebItem {
   title: string;
   summary: string;
@@ -17,22 +20,11 @@ interface WebItem {
 
 interface Props {
   items: WebItem[];
+  category: string;      // the active category
+  categories: string[];  // ordered list of web categories, for the tab bar
 }
 
-import FilterBar from './FilterBar.astro';
-
-const { items } = Astro.props;
-
-const TYPE_FILTERS = [
-  { category: 'podcasts', label: 'Podcastok' },
-  { category: 'books', label: 'Könyvek' },
-  { category: 'equipment', label: 'Eszközök' },
-  { category: 'videos', label: 'Videók' },
-  { category: 'movies', label: 'Filmek' },
-  { category: 'food', label: 'Receptek' },
-  { category: 'articles', label: 'Cikkek' },
-  { category: 'research', label: 'Kutatás' },
-] as const;
+const { items, category, categories } = Astro.props;
 
 const AGE_FILTERS = [
   { value: 'both', label: 'Minden korosztály' },
@@ -50,20 +42,28 @@ const POSTER_SHAPE: Record<string, 'portrait' | 'square'> = {
   podcasts: 'square',
 };
 ---
-<FilterBar>
-  <div class="flex flex-wrap gap-1.5" id="type-filters">
-    {TYPE_FILTERS.map(({ category, label }) => (
-      <button
-        type="button"
-        data-type={category}
-        class="type-filter-btn text-sm px-3 py-1.5 rounded-full bg-brand-600 text-white transition"
+<div class="shrink-0 border-b border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-950">
+  {/* Category tabs — navigation to each fixed list. Scrollable single row so it
+      stays on one line on narrow screens. */}
+  <nav class="flex gap-1.5 overflow-x-auto px-4 py-2.5" aria-label="Tartalomtípusok">
+    {categories.map((c) => (
+      <a
+        href={`/web/${c}`}
+        aria-current={c === category ? 'page' : undefined}
+        class:list={[
+          'shrink-0 text-sm px-3 py-1.5 rounded-full transition whitespace-nowrap',
+          c === category
+            ? 'bg-brand-600 text-white'
+            : 'bg-zinc-100 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-300 hover:bg-zinc-200 dark:hover:bg-zinc-700',
+        ]}
       >
-        {label}
-      </button>
+        <span aria-hidden="true">{CATEGORY_META[c]?.icon}</span> {CATEGORY_LABELS[c] ?? c}
+      </a>
     ))}
-  </div>
+  </nav>
 
-  <div class="flex flex-wrap gap-1.5 sm:ml-auto sm:pl-3 sm:border-l border-zinc-200 dark:border-zinc-800" id="age-filters">
+  {/* Age filter — the only remaining filter, kept per request. */}
+  <div class="flex flex-wrap gap-1.5 px-4 pb-2.5" id="age-filters" role="group" aria-label="Korosztály">
     {AGE_FILTERS.map(({ value, label }) => (
       <button
         type="button"
@@ -74,10 +74,10 @@ const POSTER_SHAPE: Record<string, 'portrait' | 'square'> = {
       </button>
     ))}
   </div>
-</FilterBar>
+</div>
 
 <div id="web-grid" class="flex-1 overflow-y-auto p-4 bg-zinc-50 dark:bg-zinc-950">
-  <p id="web-empty" class="text-zinc-500 dark:text-zinc-400 hidden">Nincs találat ehhez a szűréshez.</p>
+  <p id="web-empty" class="text-zinc-500 dark:text-zinc-400 hidden">Nincs találat ehhez a korosztályhoz.</p>
   <div class="grid gap-4" style="grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));">
     {items.map((item) => {
       // Portrait (posters/book covers) and square (podcast art) covers get a
@@ -95,7 +95,6 @@ const POSTER_SHAPE: Record<string, 'portrait' | 'square'> = {
         target="_blank"
         rel="noopener noreferrer"
         data-detail
-        data-category={item.category}
         data-age={item.ageGroup}
         class={`web-card flex rounded-xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 overflow-hidden hover:border-brand-400 hover:shadow-sm transition ${horizontal ? 'flex-row' : 'flex-col'}`}
       >
@@ -128,112 +127,79 @@ const POSTER_SHAPE: Record<string, 'portrait' | 'square'> = {
 </div>
 
 <script>
-  // Wrapped in a function fired on astro:page-load so filtering re-binds after
-  // every View Transitions navigation (bundled module scripts run only once).
-  // State is re-read from localStorage on each run, so resetting it per
-  // navigation is correct rather than a regression.
+  // Age filter only (the type filter became per-category permalink pages). Fired
+  // on astro:page-load so it re-binds after every View Transitions navigation
+  // (bundled module scripts run only once), and re-reads state each time.
   function initWebExplorer() {
-  const ALL_TYPES = ['podcasts', 'books', 'equipment', 'videos', 'movies', 'food', 'articles', 'research'];
-  const FILTERS_KEY = 'neuro-web-filters';
-  const activeTypes = new Set(ALL_TYPES);
-  let activeAge: 'both' | 'children' | 'adults' = 'both';
+    const ageButtons = document.querySelectorAll<HTMLButtonElement>('.age-filter-btn');
+    if (!ageButtons.length) return; // not on a web category page
 
-  try {
-    const saved = JSON.parse(localStorage.getItem(FILTERS_KEY) ?? 'null');
-    if (saved) {
-      activeTypes.clear();
-      (saved.types ?? ALL_TYPES).forEach((t: string) => activeTypes.add(t));
-      if (saved.age) activeAge = saved.age;
+    const FILTERS_KEY = 'neuro-web-filters';
+    let activeAge: 'both' | 'children' | 'adults' = 'both';
+
+    try {
+      const saved = JSON.parse(localStorage.getItem(FILTERS_KEY) ?? 'null');
+      if (saved?.age) activeAge = saved.age;
+    } catch {
+      // ignore corrupt/unavailable storage — fall back to the default
     }
-  } catch {
-    // ignore corrupt/unavailable storage — fall back to defaults already set above
-  }
 
-  // A landing-page audience choice arrives as ?age=children|adults|both and wins
-  // over saved state (an explicit fresh intent from the front-page selector).
-  try {
-    const urlAge = new URL(location.href).searchParams.get('age');
-    if (urlAge === 'children' || urlAge === 'adults' || urlAge === 'both') {
-      activeAge = urlAge;
-      localStorage.setItem(FILTERS_KEY, JSON.stringify({ types: [...activeTypes], age: activeAge }));
+    // A landing-page audience choice arrives as ?age=children|adults|both and wins
+    // over saved state (an explicit fresh intent from the front-page selector).
+    try {
+      const urlAge = new URL(location.href).searchParams.get('age');
+      if (urlAge === 'children' || urlAge === 'adults' || urlAge === 'both') activeAge = urlAge;
+    } catch {
+      // ignore — no URL access, keep restored/default age
     }
-  } catch {
-    // ignore — no URL/storage access, keep restored/default age
-  }
 
-  function saveFilters() {
-    localStorage.setItem(FILTERS_KEY, JSON.stringify({ types: [...activeTypes], age: activeAge }));
-  }
+    function saveAge() {
+      try { localStorage.setItem(FILTERS_KEY, JSON.stringify({ age: activeAge })); } catch {}
+    }
 
-  const cards = document.querySelectorAll<HTMLAnchorElement>('.web-card');
-  const empty = document.getElementById('web-empty');
+    const cards = document.querySelectorAll<HTMLAnchorElement>('.web-card');
+    const empty = document.getElementById('web-empty');
 
-  function matchesAge(itemAge: string) {
-    if (activeAge === 'both') return true;
-    return itemAge === activeAge || itemAge === 'both';
-  }
+    function matchesAge(itemAge: string) {
+      if (activeAge === 'both') return true;
+      return itemAge === activeAge || itemAge === 'both';
+    }
 
-  function render() {
-    let visible = 0;
-    cards.forEach((card) => {
-      const show = activeTypes.has(card.dataset.category!) && matchesAge(card.dataset.age!);
-      card.classList.toggle('hidden', !show);
-      if (show) visible++;
+    function render() {
+      let visible = 0;
+      cards.forEach((card) => {
+        const show = matchesAge(card.dataset.age!);
+        card.classList.toggle('hidden', !show);
+        if (show) visible++;
+      });
+      empty?.classList.toggle('hidden', visible > 0);
+    }
+
+    function setActiveAgeButton(value: string) {
+      ageButtons.forEach((b) => {
+        const active = b.dataset.age === value;
+        b.classList.toggle('bg-brand-600', active);
+        b.classList.toggle('text-white', active);
+        b.classList.toggle('bg-zinc-100', !active);
+        b.classList.toggle('dark:bg-zinc-800', !active);
+        b.classList.toggle('text-zinc-600', !active);
+        b.classList.toggle('dark:text-zinc-300', !active);
+        b.setAttribute('aria-pressed', String(active));
+      });
+    }
+
+    ageButtons.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        activeAge = btn.dataset.age as 'both' | 'children' | 'adults';
+        setActiveAgeButton(activeAge);
+        saveAge();
+        render();
+      });
     });
-    empty?.classList.toggle('hidden', visible > 0);
-  }
 
-  document.querySelectorAll<HTMLButtonElement>('.type-filter-btn').forEach((btn) => {
-    const active = activeTypes.has(btn.dataset.type!);
-    btn.classList.toggle('bg-brand-600', active);
-    btn.classList.toggle('text-white', active);
-    btn.classList.toggle('bg-zinc-100', !active);
-    btn.classList.toggle('dark:bg-zinc-800', !active);
-    btn.classList.toggle('text-zinc-600', !active);
-    btn.classList.toggle('dark:text-zinc-300', !active);
-    btn.setAttribute('aria-pressed', String(active));
-
-    btn.addEventListener('click', () => {
-      const type = btn.dataset.type!;
-      if (activeTypes.has(type)) {
-        activeTypes.delete(type);
-        btn.classList.remove('bg-brand-600', 'text-white');
-        btn.classList.add('bg-zinc-100', 'dark:bg-zinc-800', 'text-zinc-600', 'dark:text-zinc-300');
-      } else {
-        activeTypes.add(type);
-        btn.classList.add('bg-brand-600', 'text-white');
-        btn.classList.remove('bg-zinc-100', 'dark:bg-zinc-800', 'text-zinc-600', 'dark:text-zinc-300');
-      }
-      btn.setAttribute('aria-pressed', String(activeTypes.has(type)));
-      saveFilters();
-      render();
-    });
-  });
-
-  const ageButtons = document.querySelectorAll<HTMLButtonElement>('.age-filter-btn');
-  function setActiveAgeButton(value: string) {
-    ageButtons.forEach((b) => {
-      const active = b.dataset.age === value;
-      b.classList.toggle('bg-brand-600', active);
-      b.classList.toggle('text-white', active);
-      b.classList.toggle('bg-zinc-100', !active);
-      b.classList.toggle('dark:bg-zinc-800', !active);
-      b.classList.toggle('text-zinc-600', !active);
-      b.classList.toggle('dark:text-zinc-300', !active);
-      b.setAttribute('aria-pressed', String(active));
-    });
-  }
-  ageButtons.forEach((btn) => {
-    btn.addEventListener('click', () => {
-      activeAge = btn.dataset.age as 'both' | 'children' | 'adults';
-      setActiveAgeButton(activeAge);
-      saveFilters();
-      render();
-    });
-  });
-  setActiveAgeButton(activeAge);
-
-  render();
+    setActiveAgeButton(activeAge);
+    saveAge();
+    render();
   }
 
   document.addEventListener('astro:page-load', initWebExplorer);
